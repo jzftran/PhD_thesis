@@ -188,57 +188,13 @@ Acknowledgments
 \end_layout
 
 \begin_layout Standard
-Many thanks to all who already sent me a postcard!
-\end_layout
-
-\begin_layout Standard
-Regarding the typography and other help, many thanks go to Marco Kuhlmann,
- Philipp Lehman, Lothar Schlesier, Jim Young, Lorenzo Pan\SpecialChar softhyphen
-tieri and Enrico
- Gregorio
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Member of GuIT (Gruppo Italiano Utilizzatori di \SpecialChar TeX
-
-\begin_inset space \space{}
-\end_inset
-
-e \SpecialChar LaTeX
-)
-\end_layout
-
-\end_inset
-
-, Jörg Sommer, Joachim Köstler, Daniel Gott\SpecialChar softhyphen
-schlag, Denis Aydin, Paride Legovini,
- Steffen Prochnow, Nicolas Repp, Hinrich Harms, Roland Winkler, Jörg Weber,
- Henri Menke, Claus Lahi\SpecialChar softhyphen
-ri, Clemens Niederberger, Stefano Bragaglia, Jörn
- Hees, Scott Lowe, Dave Howcroft, Jose M.
- Alcaide, David Carlisle, Ulrike Fischer, Hugues de Lassus, Csaba Hajdu,
-  and the whole \SpecialChar LaTeX
--community for support, ideas and some great software.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The \SpecialChar LyX
- port was initially done by Nicholas Mariette in March 2009 and continued
- by Ivo Pletikosić in 2011.
- Thank you very much for your work and contributions to the original style.
+Tutaj będą podziękowania.
+ Na ten czas nie dziękuję jeszcze.
 \end_layout
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 

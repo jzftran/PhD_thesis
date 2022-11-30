@@ -1,5 +1,5 @@
 #LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+\lyxformat 539
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -54,7 +54,6 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -64,7 +63,6 @@
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
-\math_numbering_side default
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
@@ -113,9 +111,13 @@ pdfbookmark[0]{Dedication}{Dedication}
 \align center
 
 \emph on
-Tutaj będzie jakiś cytata może
+Ohana
 \emph default
-.
+ means family.
+\begin_inset Newline newline
+\end_inset
+
+Family means nobody gets left behind, or forgotten.
 \begin_inset Newline newline
 \end_inset
 
@@ -123,8 +125,7 @@ Tutaj będzie jakiś cytata może
 \begin_inset VSpace medskip
 \end_inset
 
-— A tutaj autor tego cytatu.
- Czemu nie?
+— Lilo & Stitch 
 \end_layout
 
 \begin_layout Standard
@@ -136,7 +137,23 @@ Tutaj będzie jakiś cytata może
 
 \begin_layout Standard
 \align center
-I tu jakaś dedykacja, czemu nie, jak pisać to na całego.
+Dedicated to the loving memory of Rudolf Miede.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+1939
+\begin_inset space \thinspace{}
+\end_inset
+
+–
+\begin_inset space \thinspace{}
+\end_inset
+
+2005 
 \end_layout
 
 \end_body

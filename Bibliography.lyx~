@@ -5,9 +5,6 @@
 \save_transient_properties true
 \origin unavailable
 \textclass classicthesis
-\begin_preamble
-
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language american
@@ -39,7 +36,7 @@
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
-\use_package esint 1
+\use_package esint 0
 \use_package mathdots 1
 \use_package mathtools 1
 \use_package mhchem 1
@@ -49,8 +46,8 @@
 \cite_engine biblatex
 \cite_engine_type numerical
 \biblio_style plainnat
-\biblatex_bibstyle numeric-comp
-\biblatex_citestyle numeric-comp
+\biblatex_bibstyle numeric
+\biblatex_citestyle numeric
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -87,15 +84,6 @@
 status collapsed
 
 \begin_layout Plain Layout
- Little Dirty Titlepage
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -103,119 +91,75 @@ status open
 
 
 \backslash
-pdfbookmark[0]{Title}{Title}
+defbibheading{bibintoc}[
+\backslash
+bibname]{%
 \end_layout
 
 \begin_layout Plain Layout
 
-
+  %
 \backslash
-thispagestyle{empty}
+phantomsection
 \end_layout
 
 \begin_layout Plain Layout
 
-
+  
 \backslash
-begin{addmargin}[-10mm]{-30mm}  %%%%% symmetrical margins
+chapter*{#1}%
 \end_layout
-
-\end_inset
-
- 
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset ERT
-status open
 
 \begin_layout Plain Layout
 
-
+  
 \backslash
-spacedlowsmallcaps{
-\backslash
-myName}
+manualmark
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset VSpace medskip
-\end_inset
-
-
-\begin_inset ERT
-status open
 
 \begin_layout Plain Layout
 
-
+  
 \backslash
-begingroup 
+markboth{
 \backslash
-color{CTtitle} 
+spacedlowsmallcaps{#1}}{
 \backslash
-spacedallcaps{
-\backslash
-myTitle} 
-\backslash
-endgroup
+spacedlowsmallcaps{#1}}%
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Everything below this point was added for the Lyx version.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace 2cm
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\SpecialChar LyX
- 
-\begin_inset ERT
-status open
 
 \begin_layout Plain Layout
 
-
+  
 \backslash
-spacedallcaps{template}
+addtocontents{toc}{
+\backslash
+protect
+\backslash
+vspace{
+\backslash
+beforebibskip}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+tocEntry{#1}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset
 
 
-\begin_inset Newline newline
+\end_layout
+
 \end_inset
 
 
@@ -226,77 +170,93 @@ status open
 
 
 \backslash
-spacedlowsmallcaps{by}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex CT - Spaced Low Small Caps
-status open
-
-\begin_layout Plain Layout
-Nick Mariette & Ivo Pletikosić
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\size scriptsize
-(refer to 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand labelonly
-reference "ch:LyxPortInfo"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- for more information)
-\size default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
+defbibheading{bibintoc}[
 \backslash
-end{addmargin}
+bibname]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+cleardoublepage
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+phantomsection
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+manualmark
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+markboth{
+\backslash
+spacedlowsmallcaps{#1}}{
+\backslash
+spacedlowsmallcaps{#1}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+addtocontents{toc}{
+\backslash
+protect
+\backslash
+vspace{
+\backslash
+beforebibskip}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+tocEntry{#1}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+chapter*{#1}%
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "app:bibliography"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 

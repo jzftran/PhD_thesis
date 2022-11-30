@@ -1,5 +1,5 @@
 #LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 542
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -54,6 +54,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -63,7 +64,7 @@
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
-\math_number_before 0
+\math_numbering_side default
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
@@ -130,7 +131,7 @@ status open
 
 
 \backslash
-pdfbookmark[0]{Zusammenfassung}{Zusammenfassung}
+pdfbookmark[0]{Streszczenie}{Streszczenie}
 \end_layout
 
 \end_inset
@@ -139,15 +140,13 @@ pdfbookmark[0]{Zusammenfassung}{Zusammenfassung}
 \end_layout
 
 \begin_layout Chapter*
-Zusammenfassung
+Streszczenie
 \end_layout
 
 \begin_layout Standard
-
-\lang ngerman
-Kurze Zusammenfassung des Inhaltes in deutscher Sprache
+Tutaj będzie streszczenie tej pracy w języku polskim 
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 

@@ -1,5 +1,5 @@
 #LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+\lyxformat 539
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -31,6 +31,15 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle false
 \papersize default
 \use_geometry false
 \use_package amsmath 1
@@ -44,17 +53,16 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine biblatex
-\cite_engine_type numerical
+\cite_engine_type authoryear
 \biblio_style plainnat
-\biblatex_bibstyle numeric-comp
-\biblatex_citestyle numeric-comp
+\biblatex_bibstyle authoryear
+\biblatex_citestyle authoryear
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -64,7 +72,6 @@
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
-\math_numbering_side default
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
@@ -85,16 +92,9 @@ status open
 
 \begin_layout Plain Layout
 
-
+% 
 \backslash
-thispagestyle{empty}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-pdfbookmark[0]{Dedication}{Dedication}
+pdfbookmark[0]{Publications}{publications}
 \end_layout
 
 \end_inset
@@ -102,41 +102,57 @@ pdfbookmark[0]{Dedication}{Dedication}
  
 \end_layout
 
+\begin_layout Chapter*
+Publications
+\end_layout
+
 \begin_layout Standard
-\begin_inset VSpace 3cm*
+Some ideas and figures have appeared previously in the following publications:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{refsection}[AMiede_Publications.bib]
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\align center
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "AMiede_Publications"
+biblatexopts "heading=none"
 
-\emph on
-Tutaj będzie jakiś cytata może
-\emph default
-.
-\begin_inset Newline newline
 \end_inset
 
 
-\begin_inset VSpace medskip
-\end_inset
+\begin_inset ERT
+status open
 
-— A tutaj autor tego cytatu.
- Czemu nie?
+\begin_layout Plain Layout
+
+
+\backslash
+end{refsection}
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace medskip
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\align center
-I tu jakaś dedykacja, czemu nie, jak pisać to na całego.
 \end_layout
 
 \end_body

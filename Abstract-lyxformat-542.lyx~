@@ -1,5 +1,5 @@
 #LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+\lyxformat 542
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -54,7 +54,6 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -64,7 +63,7 @@
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
-\math_numbering_side default
+\math_number_before 0
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
@@ -87,14 +86,51 @@ status open
 
 
 \backslash
-thispagestyle{empty}
+pdfbookmark[0]{Abstract}{Abstract}
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Abstract
+\end_layout
+
+\begin_layout Standard
+Short summary of the contents in English
+\begin_inset ERT
+status collapsed
 
 \begin_layout Plain Layout
 
 
 \backslash
-pdfbookmark[0]{Dedication}{Dedication}
+dots
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pdfbookmark[0]{Zusammenfassung}{Zusammenfassung}
 \end_layout
 
 \end_inset
@@ -102,41 +138,38 @@ pdfbookmark[0]{Dedication}{Dedication}
  
 \end_layout
 
+\begin_layout Chapter*
+Zusammenfassung
+\end_layout
+
 \begin_layout Standard
-\begin_inset VSpace 3cm*
+
+\lang ngerman
+Kurze Zusammenfassung des Inhaltes in deutscher Sprache
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+dots
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\align center
-
-\emph on
-Tutaj będzie jakiś cytata może
-\emph default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-— A tutaj autor tego cytatu.
- Czemu nie?
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace medskip
+\begin_inset VSpace vfill
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\align center
-I tu jakaś dedykacja, czemu nie, jak pisać to na całego.
+
 \end_layout
 
 \end_body

@@ -31,6 +31,15 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle false
 \papersize default
 \use_geometry false
 \use_package amsmath 1
@@ -44,10 +53,10 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine biblatex
-\cite_engine_type numerical
+\cite_engine_type authoryear
 \biblio_style plainnat
-\biblatex_bibstyle numeric-comp
-\biblatex_citestyle numeric-comp
+\biblatex_bibstyle authoryear
+\biblatex_citestyle authoryear
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -85,16 +94,9 @@ status open
 
 \begin_layout Plain Layout
 
-
+% 
 \backslash
-thispagestyle{empty}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-pdfbookmark[0]{Dedication}{Dedication}
+pdfbookmark[0]{RightsAndPermissions}{RightsAndPermissions}
 \end_layout
 
 \end_inset
@@ -102,41 +104,16 @@ pdfbookmark[0]{Dedication}{Dedication}
  
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace 3cm*
-\end_inset
-
-
+\begin_layout Chapter*
+Rights and Permissions
 \end_layout
 
 \begin_layout Standard
-\align center
-
-\emph on
-Tutaj będzie jakiś cytata może
-\emph default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-— A tutaj autor tego cytatu.
- Czemu nie?
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-I tu jakaś dedykacja, czemu nie, jak pisać to na całego.
+Articles that build fragments of this thesis are open access articles distribute
+d under the terms of the Creative Commons license, which permits unrestricted
+ use, distribution and reproduction, provided the proper citation of the
+ original work.
+ Thus before each article I present the citation of the original article.
 \end_layout
 
 \end_body
