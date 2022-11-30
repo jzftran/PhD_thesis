@@ -267,7 +267,7 @@ pagenumbering{arabic}
 \end_layout
 
 \begin_layout Part
-Some Kind of Manual
+Introduction
 \end_layout
 
 \begin_layout Standard
@@ -308,7 +308,7 @@ Errem omnium ea per, pro congue populo ornatus cu, ex qui dicant nemore
 \end_layout
 
 \begin_layout Part
-The Showcase
+Research Aims
 \end_layout
 
 \begin_layout Standard
@@ -346,7 +346,7 @@ filename "Chapter03.lyx"
 \end_layout
 
 \begin_layout Part
-The Lyx Port
+Results And Discussion
 \end_layout
 
 \begin_layout Standard
@@ -358,6 +358,27 @@ The Lyx Port
 LatexCommand include
 filename "Chapter04.lyx"
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Summary
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Chapter04.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
 \end_inset
 
 

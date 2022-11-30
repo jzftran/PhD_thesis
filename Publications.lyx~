@@ -114,6 +114,29 @@ Some ideas and figures have appeared previously in the following publications
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+k{e}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+c{e}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
 
