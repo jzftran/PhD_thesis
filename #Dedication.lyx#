@@ -110,29 +110,16 @@ pdfbookmark[0]{Dedication}{Dedication}
 \end_layout
 
 \begin_layout Standard
-\align right
+\align center
 
 \emph on
-For a research worker the unforgotten moments of his life are those rare
- ones,
-\begin_inset Newline newline
-\end_inset
-
-which come after years of plodding work,
-\begin_inset Newline newline
-\end_inset
-
- when the veil over nature’s secret seems suddenly to lift,
-\begin_inset Newline newline
-\end_inset
-
-and when what was dark and chaotic
-\begin_inset Newline newline
-\end_inset
-
-appears in a clear and beautiful light and pattern
+Tutaj będzie jakiś cytata może
 \emph default
-
+.
+ For a research worker the unforgotten moments of his life are those rare
+ ones, which come after years of plodding work, when the veil over nature’s
+ secret seems suddenly to lift, and when what was dark and chaotic appears
+ in a clear and beautiful light and pattern
 \begin_inset Newline newline
 \end_inset
 
@@ -140,15 +127,8 @@ appears in a clear and beautiful light and pattern
 \begin_inset VSpace medskip
 \end_inset
 
-— Gerty Cori 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "McGrayne2001"
-literal "false"
-
-\end_inset
-
-
+— A tutaj autor tego cytatu.
+ Czemu nie?
 \end_layout
 
 \begin_layout Standard
