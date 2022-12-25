@@ -144,7 +144,24 @@ Streszczenie
 \end_layout
 
 \begin_layout Standard
-Tutaj będzie streszczenie tej pracy w języku polskim 
+Tutaj będzie streszczenie tej pracy w języku polskim.
+ zażółć gęślą jaźń 1234567890 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+oldstylenums{01234567890}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 

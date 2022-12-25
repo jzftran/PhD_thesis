@@ -31,15 +31,6 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\pdf_bookmarks true
-\pdf_bookmarksnumbered false
-\pdf_bookmarksopen false
-\pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder true
-\pdf_colorlinks true
-\pdf_backref false
-\pdf_pdfusetitle false
 \papersize default
 \use_geometry false
 \use_package amsmath 1
@@ -53,10 +44,10 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine biblatex
-\cite_engine_type authoryear
+\cite_engine_type numerical
 \biblio_style plainnat
-\biblatex_bibstyle authoryear
-\biblatex_citestyle authoryear
+\biblatex_bibstyle numeric-comp
+\biblatex_citestyle numeric-comp
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -94,9 +85,53 @@ status open
 
 \begin_layout Plain Layout
 
-% 
+
 \backslash
-pdfbookmark[0]{Publications}{publications}
+pdfbookmark[0]{Abstract}{Abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Abstract
+\end_layout
+
+\begin_layout Standard
+Short summary of the contents in English
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+dots
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pdfbookmark[0]{Streszczenie}{Streszczenie}
 \end_layout
 
 \end_inset
@@ -105,29 +140,12 @@ pdfbookmark[0]{Publications}{publications}
 \end_layout
 
 \begin_layout Chapter*
-Publications
+Streszczenie
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "Tran2022"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Some ideas and figures have appeared previously in the following publications:
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace bigskip
-\end_inset
-
-
+Tutaj będzie streszczenie tej pracy w języku polskim.
+ zażółć gęślą jaźń 1234567890 
 \begin_inset ERT
 status open
 
@@ -135,7 +153,7 @@ status open
 
 
 \backslash
-begin{refsection}[my_publications.bib]
+dots
 \end_layout
 
 \end_inset
@@ -144,27 +162,13 @@ begin{refsection}[my_publications.bib]
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintAll"
-bibfiles "my_publications"
-biblatexopts "heading=none"
-
+\begin_inset VSpace vfill
 \end_inset
 
 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{refsection}
 \end_layout
 
-\end_inset
-
+\begin_layout Standard
 
 \end_layout
 

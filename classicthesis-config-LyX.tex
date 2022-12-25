@@ -15,17 +15,17 @@
 % See ClassicThesis.pdf for more information.
 % ****************************************************************************************************
 \PassOptionsToPackage{
-  drafting=true,      % print version information on the bottom of the pages
-  tocaligned=false,   % the left column of the toc will be aligned (no indentation)
-  dottedtoc=false,    % page numbers in ToC flushed right
-  parts=true,         % use part division
-  eulerchapternumbers=true, % use AMS Euler for chapter font (otherwise Palatino)
-  linedheaders=false,       % chaper headers will have line above and beneath
-  floatperchapter=true,     % numbering per chapter for all floats (i.e., Figure 1.1)
-  eulermath=false,    % use awesome Euler fonts for mathematical formulae (only with pdfLaTeX)
-  beramono=true,      % toggle a nice monospaced font (w/ bold)
-  palatino=true,      % toggle the standard roman font, see end of this file for more suggestions
-  style=classicthesis % classicthesis, arsclassica
+	drafting=true,      % print version information on the bottom of the pages
+	tocaligned=false,   % the left column of the toc will be aligned (no indentation)
+	dottedtoc=false,    % page numbers in ToC flushed right
+	parts=true,         % use part division
+	eulerchapternumbers=true, % use AMS Euler for chapter font (otherwise Palatino)
+	linedheaders=false,       % chaper headers will have line above and beneath
+	floatperchapter=true,     % numbering per chapter for all floats (i.e., Figure 1.1)
+	eulermath=false,    % use awesome Euler fonts for mathematical formulae (only with pdfLaTeX)
+	beramono=true,      % toggle a nice monospaced font (w/ bold)
+	palatino=false,      % toggle the standard roman font, see end of this file for more suggestions
+	style=classicthesis % classicthesis, arsclassica
 }{classicthesis}
 
 
@@ -61,25 +61,124 @@
 \usepackage{xspace} % to get the spacing after macros right
 \usepackage{mparhack} % get marginpar right
 \PassOptionsToPackage{printonlyused,smaller}{acronym}
-  \usepackage{acronym} % nice macros for handling all acronyms in the thesis
-  %\renewcommand{\bflabel}[1]{{#1}\hfill} % fix the list of acronyms --> no longer working
-  %\renewcommand*{\acsfont}[1]{\textsc{#1}} 
-  %\renewcommand*{\aclabelfont}[1]{\acsfont{#1}}
-  \def\bflabel#1{{\acsfont{#1}\hfill}}
-  \def\aclabelfont#1{\acsfont{#1}}
+\usepackage{acronym} % nice macros for handling all acronyms in the thesis
+%\renewcommand{\bflabel}[1]{{#1}\hfill} % fix the list of acronyms --> no longer working
+%\renewcommand*{\acsfont}[1]{\textsc{#1}} 
+%\renewcommand*{\aclabelfont}[1]{\acsfont{#1}}
+\def\bflabel#1{{\acsfont{#1}\hfill}}
+\def\aclabelfont#1{\acsfont{#1}}
 
 % Package to use Python code in the thesis 
 \usepackage[gobble=auto]{pythontex}
 
 
+
+\usepackage{newpxtext,newpxmath}
+\useosf
+
 % ****************************************************************************************************
 
+% ****************************************************************************************************
+% Glossary
+% ****************************************************************************************************
+% \usepackage[acronym]{glossaries}
+
+
+
+\usepackage[automake,nolist,nopostdot,sort=use,acronym,]{glossaries}
+
+
+
+
+\newglossarystyle{no_indentation_long}{% 
+	\setglossarystyle{long}
+	\renewenvironment{theglossary}%
+	{\begin{longtable}[l]{@{}lp{\glsdescwidth}}}%
+			{\end{longtable}}
+}
+
+
+
+%acronyms
+%akronimy komentarze przykłady, to edytować - pozwala na robienie odnośników
+
+\makeglossaries
+
+%% modsuper glossary display style
+
+% \newacronym{API}{API}{Application Programming Interface}
+% \newglossaryentry{api}{type=\acronymtype, name={API}, description={Application Programming Interface}, first={Application Programming Interface (API)}}
+
+
+\newglossaryentry{apig}{name={API},
+	description={An Application Programming Interface (API) is a set
+			of rules and protocols that a allows two or more software components
+			to communicate with each other.}}
+
+\newglossaryentry{api}{type=\acronymtype, name={API},
+	description={Application
+			Programming Interface, \glsseeformat[Glossary:]{apig}{}},
+	first={Application Programming Interface (API)\glsadd{apig}}}
+
+
+
+
+\newglossaryentry{ppi}{type=\acronymtype, name={PPI},
+	description={Protein-Protein Interaction},
+	first={Protein-Protein Interaction (PPI)},
+	plural={PPIs},
+	descriptionplural={Protein-Protein Interactions},
+	firstplural={Protein-Protein Interactions (\glsentryplural{ppi})}}
+
+
+
+\newglossaryentry{proteome}{name={proteome},
+	description={A proteome is the complete set of poroteins
+			that can or are expressed by an organism.},}
+
+\newglossaryentry{htsg}{name={HTS},
+	description={High-throughput screening is a application
+			of robotics followed by data processing to test large
+			number of samples.}}
+
+\newglossaryentry{hts}{type=\acronymtype, name={HTS},
+	description={High-Throughput Screening, \glsseeformat[Glossary:]{htsg}{}},
+	first={High-Throughput Screening (HTS)\glsadd{htsg}}}
+
+\newglossaryentry{interface}{name={interface},
+	description={A shared surface between two or more components.
+			Interface in \gls{ppi} is made of residues of a protein that
+			contact with residues from another interacting partner. Sometimes
+			interfaces may include additional interaction partners, e.g. protein cofactors
+			and ligands.}}
+
+\newglossaryentry{zppig}{name={ZPPI},
+	description={Zn(II)-involved \glsdesc{ppi} is a protein-protein interaction
+			in which a vital role is played by Zn(II)},}
+
+\newglossaryentry{zppi}{type=\acronymtype, name={ZPPI},
+	description={Zn(II)-involved \glsdesc{ppi}, \glsseeformat[Glossary:]{zppig}{}},
+	first={Zn(II)-involved \glsdesc{ppi} (ZPPI)\glsadd{zppig}},
+	plural={ZPPIs},
+	descriptionplural={Zn(II)-involved \glsdescplural{ppi}},
+  firstplural={Zn(II)-involved \glsdescplural{ppi} (\glsentryplural{zppi})}}
+
+\newglossaryentry{cry}{type=\acronymtype, name={CRY1},
+	description={Cryptochrome 1},
+}
+
+\newglossaryentry{per}{type=\acronymtype, name={PER2},
+	description={Period 2},
+}
+
+
+% affinity
 
 % ****************************************************************************************************
 % 4. Setup floats: tables, (sub)figures, and captions
 % ****************************************************************************************************
 \usepackage{tabularx} % better tables
-  \setlength{\extrarowheight}{3pt} % increase table row height
+\setlength{\extrarowheight}{3pt} % increase table row height
 \newcommand{\tableheadline}[1]{\multicolumn{1}{l}{\spacedlowsmallcaps{#1}}}
 \usepackage{subfig}
 % ****************************************************************************************************
@@ -91,21 +190,21 @@
 \usepackage{listings}
 %\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
 \lstset{language=[LaTeX]Tex,%C++,
-  keywordstyle=\color{RoyalBlue},%\bfseries,
-  basicstyle=\small\ttfamily,
-  %identifierstyle=\color{NavyBlue},
-  commentstyle=\color{Green}\ttfamily,
-  stringstyle=\rmfamily,
-  numbers=none,%left,%
-  numberstyle=\scriptsize,%\tiny
-  stepnumber=5,
-  numbersep=8pt,
-  showstringspaces=false,
-  breaklines=true,
-  frameround=ftff,
-  frame=single,
-  belowcaptionskip=.75\baselineskip
-  %frame=L
+	keywordstyle=\color{RoyalBlue},%\bfseries,
+	basicstyle=\small\ttfamily,
+	%identifierstyle=\color{NavyBlue},
+	commentstyle=\color{Green}\ttfamily,
+	stringstyle=\rmfamily,
+	numbers=none,%left,%
+	numberstyle=\scriptsize,%\tiny
+	stepnumber=5,
+	numbersep=8pt,
+	showstringspaces=false,
+	breaklines=true,
+	frameround=ftff,
+	frame=single,
+	belowcaptionskip=.75\baselineskip
+	%frame=L
 }
 % ****************************************************************************************************
 
@@ -123,21 +222,21 @@
 % Fine-tune hyperreferences (hyperref should be called last)
 % ********************************************************************
 \hypersetup{%
-  %draft, % hyperref's draft mode, for printing see below
-  colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
-  % uncomment the following line if you want to have black links (e.g., for printing)
-  %colorlinks=false, linktocpage=false, pdfstartpage=3, pdfstartview=FitV, pdfborder={0 0 0},%
-  breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseNone,%
-  plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
-  hypertexnames=true, pdfhighlight=/O,%nesting=true,%frenchlinks,%
-  urlcolor=CTurl, linkcolor=CTlink, citecolor=CTcitation,%
-  %urlcolor=Black, linkcolor=Black, citecolor=Black,%
-  pdftitle={\myTitle},%
-  pdfauthor={\textcopyright\ \myName, \myUni, \myFaculty},%
-  pdfsubject={},%
-  pdfkeywords={},%
-  pdfcreator={},%
-  pdfproducer={LaTeX with classicthesis style}%
+	%draft, % hyperref's draft mode, for printing see below
+	colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
+	% uncomment the following line if you want to have black links (e.g., for printing)
+	%colorlinks=false, linktocpage=false, pdfstartpage=3, pdfstartview=FitV, pdfborder={0 0 0},%
+	breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseNone,%
+	plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
+	hypertexnames=true, pdfhighlight=/O,%nesting=true,%frenchlinks,%
+	urlcolor=CTurl, linkcolor=CTlink, citecolor=CTcitation,%
+	%urlcolor=Black, linkcolor=Black, citecolor=Black,%
+	pdftitle={\myTitle},%
+	pdfauthor={\textcopyright\ \myName, \myUni, \myFaculty},%
+	pdfsubject={},%
+	pdfkeywords={},%
+	pdfcreator={},%
+	pdfproducer={LaTeX with classicthesis style}%
 }
 
 
@@ -153,29 +252,29 @@
 % ********************************************************************
 \makeatletter
 \@ifpackageloaded{babel}%
-  {%
-    \addto\extrasamerican{%
-      \renewcommand*{\figureautorefname}{Figure}%
-      \renewcommand*{\tableautorefname}{Table}%
-      \renewcommand*{\partautorefname}{Part}%
-      \renewcommand*{\chapterautorefname}{Chapter}%
-      \renewcommand*{\sectionautorefname}{Section}%
-      \renewcommand*{\subsectionautorefname}{Section}%
-      \renewcommand*{\subsubsectionautorefname}{Section}%
-    }%
-    \addto\extrasngerman{%
-      \renewcommand*{\paragraphautorefname}{Absatz}%
-      \renewcommand*{\subparagraphautorefname}{Unterabsatz}%
-      \renewcommand*{\footnoteautorefname}{Fu\"snote}%
-      \renewcommand*{\FancyVerbLineautorefname}{Zeile}%
-      \renewcommand*{\theoremautorefname}{Theorem}%
-      \renewcommand*{\appendixautorefname}{Anhang}%
-      \renewcommand*{\equationautorefname}{Gleichung}%
-      \renewcommand*{\itemautorefname}{Punkt}%
-    }%
-      % Fix to getting autorefs for subfigures right (thanks to Belinda Vogt for changing the definition)
-      \providecommand{\subfigureautorefname}{\figureautorefname}%
-    }{\relax}
+{%
+	\addto\extrasamerican{%
+		\renewcommand*{\figureautorefname}{Figure}%
+		\renewcommand*{\tableautorefname}{Table}%
+		\renewcommand*{\partautorefname}{Part}%
+		\renewcommand*{\chapterautorefname}{Chapter}%
+		\renewcommand*{\sectionautorefname}{Section}%
+		\renewcommand*{\subsectionautorefname}{Section}%
+		\renewcommand*{\subsubsectionautorefname}{Section}%
+	}%
+	\addto\extrasngerman{%
+		\renewcommand*{\paragraphautorefname}{Absatz}%
+		\renewcommand*{\subparagraphautorefname}{Unterabsatz}%
+		\renewcommand*{\footnoteautorefname}{Fu\"snote}%
+		\renewcommand*{\FancyVerbLineautorefname}{Zeile}%
+		\renewcommand*{\theoremautorefname}{Theorem}%
+		\renewcommand*{\appendixautorefname}{Anhang}%
+		\renewcommand*{\equationautorefname}{Gleichung}%
+		\renewcommand*{\itemautorefname}{Punkt}%
+	}%
+	% Fix to getting autorefs for subfigures right (thanks to Belinda Vogt for changing the definition)
+	\providecommand{\subfigureautorefname}{\figureautorefname}%
+}{\relax}
 \makeatother
 
 % ****************************************************************************************************
@@ -204,7 +303,7 @@
 %\usepackage[opticals,mathlf]{MinionPro} % onlytext
 % ********************************************************************
 % \usepackage[largesc,osf]{newpxtext}
-%\linespread{1.05} % a bit more for Palatino
+\linespread{1.05} % a bit more for Palatino
 % Used to fix these:
 % https://bitbucket.org/amiede/classicthesis/issues/139/italics-in-pallatino-capitals-chapter
 % https://bitbucket.org/amiede/classicthesis/issues/45/problema-testatine-su-classicthesis-style

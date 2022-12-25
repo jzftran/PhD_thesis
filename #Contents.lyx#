@@ -583,25 +583,14 @@ phantomsection
 \backslash
 printglossary[type=
 \backslash
-acronymtype, style = no_indentation_long]
+acronymtype, style=modsuper]
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-printglossary[type=main, style = no_indentation_long]
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-glsresetall
+printglossary[type=main,style=modsuper]
 \end_layout
 
 \end_inset
@@ -618,6 +607,22 @@ status open
 
 \backslash
 endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{api}
 \end_layout
 
 \end_inset

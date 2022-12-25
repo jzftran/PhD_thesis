@@ -173,6 +173,116 @@ myVersion
 
 \end_layout
 
+\begin_layout Itemize
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pycode}[sessionA]
+\end_layout
+
+\begin_layout Plain Layout
+
+import sys
+\end_layout
+
+\begin_layout Plain Layout
+
+print(
+\begin_inset Quotes eld
+\end_inset
+
+
+\backslash
+
+\backslash
+begin{itemize}
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Plain Layout
+
+print("
+\backslash
+
+\backslash
+item Running Python works.
+\backslash
+n")
+\end_layout
+
+\begin_layout Plain Layout
+
+print(
+\begin_inset Quotes eld
+\end_inset
+
+
+\backslash
+
+\backslash
+item Python version: 
+\begin_inset Quotes eld
+\end_inset
+
++sys.version)
+\end_layout
+
+\begin_layout Plain Layout
+
+print(
+\begin_inset Quotes eld
+\end_inset
+
+
+\backslash
+
+\backslash
+end{itemize}
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+print(f
+\begin_inset Quotes eld
+\end_inset
+
+f-String test.
+ 2+5 = {2+5}
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pycode}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 The bundle is configured to run with a 
 \emph on

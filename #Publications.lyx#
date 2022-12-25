@@ -109,6 +109,17 @@ Publications
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tran2022"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Some ideas and figures have appeared previously in the following publications:
 \end_layout
 
