@@ -174,9 +174,9 @@ Summary
 The functions that are performed by macromolecules in the cell are dependent
  on the interaction with their partners.
  What is the partner of the interaction depends on the role of the macromolecule.
- In the case of glucose-6-phosphate isomerase the one of the interaction
- partners for the enzyme is glucose 6-phosphate, which is interconverted
- into fructose-6-phosphate.
+ For example, in the case of glucose-6-phosphate isomerase the one of the
+ interaction partners for the enzyme is glucose 6-phosphate, which is interconve
+rted into fructose-6-phosphate.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -185,7 +185,10 @@ literal "true"
 
 \end_inset
 
- Other proteins can interact with lipids, nucleic acid and other proteins.
+ Other proteins interact with lipids, nucleic acid and other proteins.
+ It is not an exaggeration to state that virtually every protein have to
+ interact, transiently or permanently, with other macromolecules to realize
+ its function in the organism.
  The holistic knowledge 
 \begin_inset Note Note
 status open
@@ -196,9 +199,9 @@ nie wiem czy tutaj dobrze używam holistyczny
 
 \end_inset
 
- about the these interactions is used to plot the map of the interactions,
- which in turn can identify the functions of the proteins and their interdepende
-nce leading to understanding the cellular function.
+ about these interactions is used to plot the map of the interactions, which
+ in turn can identify the functions of the proteins and their interdependence
+ leading to understanding the cellular function.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -291,6 +294,17 @@ literal "true"
 However, none of the vast interaction networks presents full landscape,
  as interactions induced by small ligands as well as caused by metal ions
  may be missing from the picture.
+ What is worth mentioning here is the rough projection of how many proteins
+ associate with metal ions – it is estimated that roughly 30-40% of all
+ proteins interact with metal ions.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Andreini2008,Andreini2013,Waldron2009"
+literal "true"
+
+\end_inset
+
  Taking into account that bioinformatic analyses estimate that in human
  
 \begin_inset ERT
@@ -328,13 +342,17 @@ gls{hts}
 
  methods do not even consider the presence of another actors (i.e.
  Zn(II)) in the interaction, thus causing such interactions to be overlooked,
- makes at least 10% interactions not fully resolved.
+ makes a substantial amount of interactions not fully resolved.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 nie wiem czy resolved jest dobrym słowem tutaj.
- W ogóle to zdanie jest średnie i może wymagać zmiany
+ 
+\end_layout
+
+\begin_layout Plain Layout
+W ogóle to zdanie jest średnie i może wymagać zmiany
 \end_layout
 
 \end_inset
@@ -368,7 +386,7 @@ noprefix "false"
 
  Zn(II) can be found in various architectures.
  The studies how the architecture translates into function led to identification
- of catalytic nad structural zinc-binding sites, however the fact that Zn(II)
+ of catalytic and structural zinc-binding sites, however the fact that Zn(II)
  can in be located on the 
 \begin_inset ERT
 status open
@@ -388,7 +406,7 @@ gls{interface}
 status open
 
 \begin_layout Plain Layout
-tutaj coś jeszcze warto napisać
+W tym paragrafie szybko opisać dlaczego cynk.
 \end_layout
 
 \end_inset
@@ -397,8 +415,7 @@ tutaj coś jeszcze warto napisać
 \end_layout
 
 \begin_layout Standard
-Our goal in this meta-analysis was to provide a comprehensive description
- of 
+Our goal in this report was to provide a comprehensive description of 
 \begin_inset ERT
 status open
 
@@ -484,7 +501,150 @@ glspl{zppi}
 \end_layout
 
 \begin_layout Standard
-To
+The description of outstanding 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ examples is only one part of our review, the formation of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ is governed by the same thermodynamic and chemical principles as regular
+ protein-protein complexes, however the involvement of Zn(II) in the complexatio
+n makes the formation of complex dependent on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{freezn}{Zn(II)
+\backslash
+textsubscript{free}}
+\end_layout
+
+\end_inset
+
+.
+ This dependence of complex formation on an additional factor might be unclear,
+ thus to introduce the reader into the world of chemical equilibria we discuss
+ the effect of availability of the Zn(II) and its fluctuations caused by
+ Zn(II) influx and efflux, and its effect on formation of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+.
+ Because the mechanisms of action of various zinc transients are still unknown,
+ our contemplation on the subject is purely hypothetical, nevertheless,
+ we can deduce that 
+\emph on
+terra incognita
+\emph default
+ of Zn(II) fluctuations and the interdependence of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ formation 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ is a vast, worth investigating field.
+\end_layout
+
+\begin_layout Standard
+For sure the impact of the review would have been lower if no thorough survey
+ on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ was made.
+ So how to search for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+? One way o
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Opis tego strukturalnego cośka.
+ Jak zostanie czasu to wygenerowanie nowych wykresów.
+ update...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -506,6 +666,10 @@ Jak zrobiliśmy?
 
 \begin_layout Plain Layout
 Jaki to ma efekt?
+\end_layout
+
+\begin_layout Plain Layout
+Prawdopodobnie dorobić wykresy, ale na obecny rok.
 \end_layout
 
 \end_inset

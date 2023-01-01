@@ -186,6 +186,9 @@ literal "true"
 \end_inset
 
  Other proteins can interact with lipids, nucleic acid and other proteins.
+ It is not an exaggeration to state that virtually every protein have to
+ interact, transiently or permanently with other macromolecules to realize
+ its function in the organism.
  The holistic knowledge 
 \begin_inset Note Note
 status open
@@ -196,9 +199,9 @@ nie wiem czy tutaj dobrze używam holistyczny
 
 \end_inset
 
- about the these interactions is used to plot the map of the interactions,
- which in turn can identify the functions of the proteins and their interdepende
-nce leading to understanding the cellular function.
+ about these interactions is used to plot the map of the interactions, which
+ in turn can identify the functions of the proteins and their interdependence
+ leading to understanding the cellular function.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -291,7 +294,10 @@ literal "true"
 However, none of the vast interaction networks presents full landscape,
  as interactions induced by small ligands as well as caused by metal ions
  may be missing from the picture.
- Taking into account that bioinformatic analyses estimate that in human
+ What is worth mentioning here is the rough projection of how many proteins
+ associate with metal ions – it is estimated that roughly 30-40% of all
+ proteins interact with metal ions.
+  Taking into account that bioinformatic analyses estimate that in human
  
 \begin_inset ERT
 status open
@@ -397,8 +403,7 @@ tutaj coś jeszcze warto napisać
 \end_layout
 
 \begin_layout Standard
-Our goal in this meta-analysis was to provide a comprehensive description
- of 
+Our goal in this report was to provide a comprehensive description of 
 \begin_inset ERT
 status open
 
@@ -466,7 +471,7 @@ literal "true"
 
 \end_inset
 
- Our review article, attached bellow present more fascinating 
+ Our review article, attached bellow presents more fascinating 
 \begin_inset ERT
 status open
 
@@ -481,7 +486,140 @@ glspl{zppi}
 
  examples where Zn(II) is essential for proper functioning of the protein
  complexes.
-  
+\end_layout
+
+\begin_layout Standard
+The description of outstanding 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ examples is only one part of our review, the formation of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ is governed by the same thermodynamic and chemical principles as regular
+ protein-protein complexes, however the involvement of Zn(II) in the complexatio
+n makes the formation of complex dependent on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{freezn}{Zn(II)
+\backslash
+textsubscript{free}}
+\end_layout
+
+\end_inset
+
+.
+ This dependence of complex formation on an additional factor might be unclear,
+ thus to introduce the reader into the world of chemical equilibria we discuss
+ the effect of availability of the Zn(II) and its fluctuations caused by
+ Zn(II) influx and efflux, and its effect on formation of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+.
+ Because the mechanisms of action of various zinc transients are still unknown,
+ our contemplation on the subject is purely hypothetical, nevertheless,
+ we can deduce that 
+\emph on
+terra incognita
+\emph default
+ of Zn(II) fluctuations and the interdependence of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ formation 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ is a vast, worth investigating field.
+\end_layout
+
+\begin_layout Standard
+For sure the impact of the review would have been lower if no thorough survey
+ of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ was made.
+ So how to search fo 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Opis tego strukturalnego cośka.
+ Jak zostanie czasu to wygenerowanie nowych wykresów.
+ update...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -503,6 +641,10 @@ Jak zrobiliśmy?
 
 \begin_layout Plain Layout
 Jaki to ma efekt?
+\end_layout
+
+\begin_layout Plain Layout
+Prawdopodobnie dorobić wykresy, ale na obecny rok.
 \end_layout
 
 \end_inset
