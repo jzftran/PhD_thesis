@@ -83,7 +83,8 @@
 \begin_body
 
 \begin_layout Chapter
-InterMetalDB
+InterMetalDB: A Database and Browser of Intermolecular Metal Binding Sites
+ in Macromolecules with Structural Information
 \end_layout
 
 \begin_layout Standard
@@ -100,7 +101,8 @@ protect
 \backslash
 parbox{0.9
 \backslash
-linewidth}{InterMetalDB}} 
+linewidth}{InterMetalDB: A Database and Browser of Intermolecular Metal
+ Binding Sites in Macromolecules with Structural Information}} 
 \end_layout
 
 \end_inset
@@ -121,7 +123,7 @@ name "chap:InterMetalDB"
 \begin_layout Standard
 
 \shape smallcaps
-Anna Kocyła, Józef Ba Tran and Artur Krężel
+Józef Ba Tran and Artur Krężel
 \shape default
 
 \begin_inset Newline newline
@@ -145,12 +147,15 @@ Department of Chemical Biology, Faculty of Biotechnology University of Wrocław,
 
 
 \shape italic
-Trends in Biochemical Sciences
+Journal of Proteome Research
 \shape default
 \size small
  
 \size default
-2021 46(1), 64–79.
+2021 20(4), 1889–1901.
+\end_layout
+
+\begin_layout Standard
 \begin_inset VSpace medskip
 \end_inset
 
@@ -170,6 +175,61 @@ Summary
 \end_layout
 
 \begin_layout Standard
+The fact that the metal ions can be bound at the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{interface}
+\end_layout
+
+\end_inset
+
+ that is created by two or more interacting macromolecules has been missing
+ interest from researchers (see 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:Galvanization-of-Protein-Protein"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+) .
+ The first systematic review of metal ions bound at protein-protein 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{interface}
+\end_layout
+
+\end_inset
+
+ was published in 2014 
+\begin_inset CommandInset citation
+LatexCommand footfullcite
+key "Song2014"
+literal "true"
+
+\end_inset
+
 
 \end_layout
 
@@ -178,9 +238,7 @@ Summary
 status open
 
 \begin_layout Plain Layout
-Opis tego strukturalnego cośka.
- Jak zostanie czasu to wygenerowanie nowych wykresów.
- update...
+Wygenerowanie nowych wykresów i tabel...
 \end_layout
 
 \end_inset
@@ -236,7 +294,7 @@ status open
 
 
 \backslash
-includepdf[pages=-]{Articles/Galvanization.pdf}
+includepdf[pages=-]{Articles/InterMetalDB.pdf}
 \end_layout
 
 \end_inset
