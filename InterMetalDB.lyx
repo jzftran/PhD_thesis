@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass classicthesis
+\begin_preamble
+\usepackage{pdfpages}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language american
@@ -44,7 +47,7 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine biblatex
-\cite_engine_type numerical
+\cite_engine_type authoryear
 \biblio_style plainnat
 \biblatex_bibstyle numeric-comp
 \biblatex_citestyle numeric-comp
@@ -79,6 +82,148 @@
 
 \begin_body
 
+\begin_layout Chapter
+InterMetalDB
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+    
+\backslash
+chaptermark{
+\backslash
+protect
+\backslash
+parbox{0.9
+\backslash
+linewidth}{InterMetalDB}} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:InterMetalDB"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+Józef Ba Tran and Artur Krężel
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+Department of Chemical Biology, Faculty of Biotechnology University of Wrocław,
+ F.
+ Joliot-Curie 14a, 50-383 Wrocław, Poland
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\shape italic
+Trends in Biochemical Sciences
+\shape default
+\size small
+ 
+\size default
+2021 46(1), 64–79.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Brief history and bibliometric data
+\end_layout
+
+\begin_layout Standard
+Something
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Opis tego strukturalnego cośka.
+ Jak zostanie czasu to wygenerowanie nowych wykresów.
+ update...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dlaczego to zrobiliśmy?
+\end_layout
+
+\begin_layout Plain Layout
+Co było naszym celem?
+\end_layout
+
+\begin_layout Plain Layout
+Co zrobiliśmy?
+\end_layout
+
+\begin_layout Plain Layout
+Jak zrobiliśmy?
+\end_layout
+
+\begin_layout Plain Layout
+Jaki to ma efekt?
+\end_layout
+
+\begin_layout Plain Layout
+Prawdopodobnie dorobić wykresy, ale na obecny rok.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset ERT
 status open
@@ -87,60 +232,12 @@ status open
 
 
 \backslash
-thispagestyle{empty}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-pdfbookmark[0]{Dedication}{Dedication}
+includepdf[pages=-]{Articles/Galvanization.pdf}
 \end_layout
 
 \end_inset
 
- 
-\end_layout
 
-\begin_layout Standard
-\begin_inset VSpace 3cm*
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\emph on
-Tutaj będzie jakiś cytata może
-\emph default
-.
- For a research worker the unforgotten moments of his life are those rare
- ones, which come after years of plodding work, when the veil over nature’s
- secret seems suddenly to lift, and when what was dark and chaotic appears
- in a clear and beautiful light and pattern
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-— A tutaj autor tego cytatu.
- Czemu nie?
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-I tu jakaś dedykacja, czemu nie, jak pisać to na całego.
 \end_layout
 
 \end_body

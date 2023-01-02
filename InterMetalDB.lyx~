@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass classicthesis
+\begin_preamble
+\usepackage{pdfpages}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language american
@@ -31,15 +34,6 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\pdf_bookmarks true
-\pdf_bookmarksnumbered false
-\pdf_bookmarksopen false
-\pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder true
-\pdf_colorlinks true
-\pdf_backref false
-\pdf_pdfusetitle false
 \papersize default
 \use_geometry false
 \use_package amsmath 1
@@ -55,8 +49,8 @@
 \cite_engine biblatex
 \cite_engine_type authoryear
 \biblio_style plainnat
-\biblatex_bibstyle authoryear
-\biblatex_citestyle authoryear
+\biblatex_bibstyle numeric-comp
+\biblatex_citestyle numeric-comp
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -88,31 +82,106 @@
 
 \begin_body
 
+\begin_layout Chapter
+InterMetalDB
+\end_layout
+
 \begin_layout Standard
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-% 
+    
 \backslash
-pdfbookmark[0]{Publications}{publications}
+chaptermark{
+\backslash
+protect
+\backslash
+parbox{0.9
+\backslash
+linewidth}{InterMetalDB}} 
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:InterMetalDB"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+Anna Kocyła, Józef Ba Tran and Artur Krężel
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+Department of Chemical Biology, Faculty of Biotechnology University of Wrocław,
+ F.
+ Joliot-Curie 14a, 50-383 Wrocław, Poland
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\shape italic
+Trends in Biochemical Sciences
+\shape default
+\size small
  
+\size default
+2021 46(1), 64–79.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
-\begin_layout Chapter*
-Publications
+\begin_layout Section
+Brief history and bibliometric data
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Tran2022"
-literal "false"
+Something
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Opis tego strukturalnego cośka.
+ Jak zostanie czasu to wygenerowanie nowych wykresów.
+ update...
+\end_layout
 
 \end_inset
 
@@ -120,14 +189,46 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Some ideas and figures have appeared previously in the following publications:
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dlaczego to zrobiliśmy?
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace bigskip
+\begin_layout Plain Layout
+Co było naszym celem?
+\end_layout
+
+\begin_layout Plain Layout
+Co zrobiliśmy?
+\end_layout
+
+\begin_layout Plain Layout
+Jak zrobiliśmy?
+\end_layout
+
+\begin_layout Plain Layout
+Jaki to ma efekt?
+\end_layout
+
+\begin_layout Plain Layout
+Prawdopodobnie dorobić wykresy, ale na obecny rok.
+\end_layout
+
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -135,32 +236,7 @@ status open
 
 
 \backslash
-begin{refsection}[my_publications.bib]
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintAll"
-bibfiles "my_publications"
-biblatexopts "heading=none"
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{refsection}
+includepdf[pages=-]{Articles/Galvanization.pdf}
 \end_layout
 
 \end_inset

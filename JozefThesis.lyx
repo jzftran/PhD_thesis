@@ -340,6 +340,16 @@ filename "Chapter04.lyx"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "InterMetalDB.lyx"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Summary
 \end_layout

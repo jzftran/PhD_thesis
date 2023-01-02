@@ -294,7 +294,7 @@ literal "true"
 However, none of the vast interaction networks presents full landscape,
  as interactions induced by small ligands as well as caused by metal ions
  may be missing from the picture.
- What is worth mentioning here is the rough projection of how many proteins
+ What is worth mentioning here, is the rough projection of how many proteins
  associate with metal ions – it is estimated that roughly 30-40% of all
  proteins interact with metal ions.
  
@@ -613,7 +613,22 @@ glspl{zppi}
 \end_inset
 
  was made.
- So how to search for 
+ I have decided to collect information about discovered protein-protein
+ complexes with Zn(II) on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{interface}
+\end_layout
+
+\end_inset
+
+.
+ So how does one search for 
 \begin_inset ERT
 status open
 
@@ -626,7 +641,713 @@ glspl{zppi}
 
 \end_inset
 
-? One way o
+? How common is zinc at protein-protein 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{interface}
+\end_layout
+
+\end_inset
+
+?
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+nwm czy to pytanie jest rozwiewane w zupełności
+\end_layout
+
+\end_inset
+
+ It is known that characteristic sequence motifs involving cysteines, histidines
+ and acidic residues
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+glutamates and aspartates
+\end_layout
+
+\end_inset
+
+ that provide clue to Zn(II) coordination within single-chain protein.
+ Yet, the prediction, based solely on the protein sequence, of metal binding
+ on the protein-protein 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{interface}
+\end_layout
+
+\end_inset
+
+ to date is not possible.
+ One way of identification would be thorough literature search, one could
+ hypothetically search the Internet using research tools for scientific
+ literature like Google Scholar (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://scholar.google.com/
+\end_layout
+
+\end_inset
+
+), Semantic Scholar (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.semanticscholar.org/
+\end_layout
+
+\end_inset
+
+) or other similar tools utilizing keywords 
+\begin_inset Quotes eld
+\end_inset
+
+zinc
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+intermolecular binding
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+protein-protein 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{interface}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+ However this way of analysis seems to be cumbersome, requires tremendous
+ amount of manual work, not to mention that the found literature might not
+ be available.
+ The only logical solution to the problem is to search online databases
+ that provide information about proteins.
+ Usually for the researcher the first source of information about protein
+ of interest is UniProt 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bateman2022"
+literal "true"
+
+\end_inset
+
+, significant amount of protein sequences aggregated in UniProt are properly
+ annotated to interact with metal ions, including Zn(II) ion, alas, UniProt
+ does not provide the information whether the metal ion is bound on the
+ protein-protein 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{interface}
+\end_layout
+
+\end_inset
+
+.
+ Taking into account the fact of non-existence of metal ions at protein-protein
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{interface}
+\end_layout
+
+\end_inset
+
+ and the fact that it is not possible (so far) infer the intermolecular
+ binding based on the sequence solely I have decided to use one of the most
+ comprehensive resources available for any structural biologist – the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsfirst{rcsb}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Berman,Burley2021"
+literal "true"
+
+\end_inset
+
+.
+ The reason why I used 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+ as a source of information, instead of already established databases containing
+ structures of metal ion-protein complexes (e.g.
+ MetalPDB 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Andreini2013"
+literal "true"
+
+\end_inset
+
+, ZincBind 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ireland2019"
+literal "true"
+
+\end_inset
+
+) is shortly discussed in the review.
+ Using the data from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+ and a simple 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{python}
+\end_layout
+
+\end_inset
+
+ scripts I was able to automate much of the required effort.
+\end_layout
+
+\begin_layout Standard
+One of the biggest pitfalls of our work, as well similar studies (e.g.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Laitaoja2013,Song2014"
+literal "true"
+
+\end_inset
+
+), is the fact that the gathered knowledge simultaneously with the acceptance
+ of the article stops from being updated.
+ It does not mean it becomes automatically outdated, the extensive description
+ and analysis of the gathered and reviewed examples stays scientifically
+ true until the next breakthrough in the field, however the lists of structures,
+ and interwoven statistics and numbers change over time.
+ From the publication date of 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Kocyla2021"
+literal "true"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+ (accessed 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+) is richer with 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pycode}[sessionA]
+\end_layout
+
+\begin_layout Plain Layout
+
+import json
+\end_layout
+
+\begin_layout Plain Layout
+
+import requests
+\end_layout
+
+\begin_layout Plain Layout
+
+from datetime import date
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+def fetch_PDB_Zn_codes(to_date):
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+    """Fetchs PDB codes for all structures with zinc ion in them.
+\end_layout
+
+\begin_layout Plain Layout
+
+    If the response returned has an 500 error code, an error will
+\end_layout
+
+\begin_layout Plain Layout
+
+    be comunicated.
+\end_layout
+
+\begin_layout Plain Layout
+
+    Date 2020-09-18 in the rcsb_accession_info.initial_release_date
+\end_layout
+
+\begin_layout Plain Layout
+
+    is the publication date of https://doi.org/10.1016/j.tibs.2020.08.011  """
+\end_layout
+
+\begin_layout Plain Layout
+
+    string = '''
+\end_layout
+
+\begin_layout Plain Layout
+
+    {
+\end_layout
+
+\begin_layout Plain Layout
+
+    "query": {
+\end_layout
+
+\begin_layout Plain Layout
+
+        "type": "group",
+\end_layout
+
+\begin_layout Plain Layout
+
+        "logical_operator": "and",
+\end_layout
+
+\begin_layout Plain Layout
+
+        "nodes": [
+\end_layout
+
+\begin_layout Plain Layout
+
+        {
+\end_layout
+
+\begin_layout Plain Layout
+
+            "type": "terminal",
+\end_layout
+
+\begin_layout Plain Layout
+
+            "service": "text_chem",
+\end_layout
+
+\begin_layout Plain Layout
+
+            "parameters": {
+\end_layout
+
+\begin_layout Plain Layout
+
+            "operator": "exact_match",
+\end_layout
+
+\begin_layout Plain Layout
+
+            "value": "ZN",
+\end_layout
+
+\begin_layout Plain Layout
+
+            "attribute": "rcsb_chem_comp_container_identifiers.comp_id"
+\end_layout
+
+\begin_layout Plain Layout
+
+          }
+\end_layout
+
+\begin_layout Plain Layout
+
+        },
+\end_layout
+
+\begin_layout Plain Layout
+
+      {
+\end_layout
+
+\begin_layout Plain Layout
+
+         "type": "terminal",
+\end_layout
+
+\begin_layout Plain Layout
+
+         "service": "text",
+\end_layout
+
+\begin_layout Plain Layout
+
+            "parameters": {
+\end_layout
+
+\begin_layout Plain Layout
+
+        "attribute": "rcsb_accession_info.initial_release_date",
+\end_layout
+
+\begin_layout Plain Layout
+
+        "operator": "range",
+\end_layout
+
+\begin_layout Plain Layout
+
+        "value": {
+\end_layout
+
+\begin_layout Plain Layout
+
+        "from": "2020-09-18",
+\end_layout
+
+\begin_layout Plain Layout
+
+        "to": "'''+to_date.strftime("%Y-%m-%d")+'''"
+\end_layout
+
+\begin_layout Plain Layout
+
+      }
+\end_layout
+
+\begin_layout Plain Layout
+
+    }
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+      ]
+\end_layout
+
+\begin_layout Plain Layout
+
+    },
+\end_layout
+
+\begin_layout Plain Layout
+
+    "request_options": {
+\end_layout
+
+\begin_layout Plain Layout
+
+        "return_all_hits": true
+\end_layout
+
+\begin_layout Plain Layout
+
+    },
+\end_layout
+
+\begin_layout Plain Layout
+
+    "return_type": "entry"
+\end_layout
+
+\begin_layout Plain Layout
+
+    }'''
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+    query_string= json.loads(string)
+\end_layout
+
+\begin_layout Plain Layout
+
+    url = 'https://search.rcsb.org/rcsbsearch/v2/query'
+\end_layout
+
+\begin_layout Plain Layout
+
+    response = requests.post(url,json=query_string)
+\end_layout
+
+\begin_layout Plain Layout
+
+    if response.status_code == 200: #request has succeeded
+\end_layout
+
+\begin_layout Plain Layout
+
+        jsonresponse = response.json()
+\end_layout
+
+\begin_layout Plain Layout
+
+        return [jsonresponse['result_set'][code]['identifier'] for code
+ in range(jsonresponse['total_count'])]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+    raise Exception("No fetched codes from RCSB.")
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+today = date.today()
+\end_layout
+
+\begin_layout Plain Layout
+
+print(len(fetch_PDB_Zn_codes(today)))
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pycode}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ Zn(II)-containing structures! To partially mitigate this deficiency I have
+ developed InterMetalDB 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tran2021"
+literal "true"
+
+\end_inset
+
+, (see 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:InterMetalDB"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+), additionally, to accommodate up-to-date knowledge about 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdescplural{zppi}
+\end_layout
+
+\end_inset
+
+ I have sought out representative 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+.
+ Because over the years, new, more straightforward and advanced tools have
+ emerged I had to fine-tune how the data is analyzed, which is described
+ in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:Methods-for-galvanization,"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ The result of the search is presented bellow and in the 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:Methods-for-galvanization,"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -634,9 +1355,112 @@ glspl{zppi}
 status open
 
 \begin_layout Plain Layout
-Opis tego strukturalnego cośka.
- Jak zostanie czasu to wygenerowanie nowych wykresów.
- update...
+Tutaj opis nowych rezultatów.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The bioinogranic chemistry literature rarely divagate whether found Zn(II)
+ is bound in a protein-protein interface, this is similar to classical biochemis
+try and structural biology textbooks, which if any mention only briefly
+ that metal ions may be involved in stabilization of quaternary protein
+ structures.
+ As has been mentioned in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "ch:Zn(II) binding sites"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ around 10% human proteins interact with Zn(II), and almost every protein
+ have to interact with other macromolecule in order to fulfill its function.
+ So why only short mention, that Zn(II) can be bound by two or more macromolecul
+es? Is this because the formation of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ is a rare phenomenon or is this due to the fact that the studies of metals
+ at protein-protein 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{interface}
+\end_layout
+
+\end_inset
+
+ is difficult to systematically study? Our opinion is the latter, which
+ motivated us to describe known 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdescplural{zppi}
+\end_layout
+
+\end_inset
+
+.
+ However, many questions still are without any answer, making the search
+ for new 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+terra incognita
+\emph default
+ for bold researchers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Chyba napisać coś tutaj więcej o efektach tej pracy, dosyć mało tutaj tego
+ jest.
 \end_layout
 
 \end_inset
