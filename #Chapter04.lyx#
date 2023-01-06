@@ -675,6 +675,36 @@ glutamates and aspartates
 
 \end_inset
 
+
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Single-letter code for these amino acids and their frequency in Zn(II)-binding
+ sequences was an inspiration for the tool 
+\begin_inset Quotes eld
+\end_inset
+
+CHED
+\begin_inset Quotes erd
+\end_inset
+
+.
+  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+nie wiem czy tu poprawnie these używam.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
  that provide clue to Zn(II) coordination within single-chain protein.
  Yet, the prediction, based solely on the protein sequence, of metal binding
  on the protein-protein 

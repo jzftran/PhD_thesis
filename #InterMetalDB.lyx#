@@ -231,7 +231,8 @@ literal "true"
 \end_inset
 
 , next, similar article (which was in part my creation) was published seven
- years later, and was concerning only intermolecularly bound Zn(II).
+ years later, however the article was concerning only intermolecularly bound
+ Zn(II) ions.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -240,17 +241,352 @@ literal "true"
 
 \end_inset
 
- Similar database surveys were  
-\begin_inset Note Note
+ This stands in opposition to studies devoted to complexes with stoichiometry
+ of 1:1 – similar database surveys, generally concerning Zn(II)
+\begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-Na przykładzie cynku tego typu badania pojawiały się już 
+Probably due to its unique properties and abundance in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{proteome}
+\end_layout
+
+\end_inset
+
+.
+ See 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "ch:Zinc proteome"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+, were done numerously in the past.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Alberts1998,Auld2001,Patel2007,Dokmanic2008,Zheng2008,Lee2008,Hsin2008,Sousa2009,Andreini2011,Laitaoja2013"
+literal "true"
+
+\end_inset
+
+ As mentioned in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:Galvanization-of-Protein-Protein"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ one of the biggest pitfalls of such studies is the fact that simultaneously
+ with the publication of an article, the meticulously gathered, and classified
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Laitaoja2013"
+literal "true"
+
+\end_inset
+
+ have manually analyzed around 7800 Zn(II)-binding sites! 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Laitaoja2013"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ knowledge is no longer updated, combined together with the fact that usually
+ the generated data set and the methodology is not easily and publicly available
+ makes such studies fleetly outdated.
+ This observation, which happened to occur to me during my work on the 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Kocyla2021"
+literal "true"
+
+\end_inset
+
+ (
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:Galvanization-of-Protein-Protein"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+), sprouted into an idea that the data set I will generate should be easily
+ available to anyone, free of charge and updated even after the publication
+ of the article.
+ This idea growth further, eventually bore fruit – 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Tran2021"
+literal "true"
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://intermetaldb.biotech.uni.wroc.pl/
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+My intention for the creation of InterMetalDB was to provide a tool, which
+ would make researchers aware that macromolecules can bind metal ions at
+ the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{interface}
+\end_layout
+
+\end_inset
+
+.
+ The goal of InterMetalDB is to search for macromolecular structures containing
+ metal ions bound at the interface.
+ By doing so InterMetalDB fills the free niche, that was left unoccupied
+ for a long time.
+ Because the process of data acquisition, analysis and presentation is automated
+ it does require little or no human intervention.
+ The biggest issue with this approach is the fact that it is not possible
+ to filter out adventitiously bound metal ions
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+One of many sources of adventitious metal ions in the structure may be buffer
+ used during the protein crystallization.
+\end_layout
+
+\end_inset
+
+, as it would require tedious manual investigation of the structure, followed
+ by (often) extensive literature research.
+\end_layout
+
+\begin_layout Standard
+What is worth noting is how the InterMetalDB is built.
+ Contrary to preceding databases (e.g.
+ MESPEUS 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hsin2008"
+literal "true"
+
+\end_inset
+
+, ZifBase 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Jayakanthan2009"
+literal "true"
+
+\end_inset
+
+, MetalPDB
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Andreini2013,Putignano2018"
+literal "true"
+
+\end_inset
+
+), InterMetalDB operates on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{bassembly}
+\end_layout
+
+\end_inset
+
+.
+ Compared to 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Kocyla2021"
+literal "true"
+
+\end_inset
+
+ study I have decided to use clustering based on 50% of identity
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Protein sequences that are in the cluster are have share 50% of their sequence
+ identity.
+\end_layout
+
+\end_inset
+
+, instead of 95% like it have been done previously.
+ The gentle clustering threshold of 50% sequence identity ensures that the
+ structures in the cluster will share the same 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{fold}{fold}
+\end_layout
+
+\end_inset
+
+.
+ Instead of selecting the representative structures, InterMetalDB marks
+ representative 
+\begin_inset Quotes eld
+\end_inset
+
+representative
+\begin_inset Quotes erd
+\end_inset
+
+ metal binding sites, this is done  
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Clustering proteins based on their sequence identity is a method that reduces
+ or removes redundancy in fetched protein structures.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+tutaj napisać coś jeszcze, ale jeszcze nie wiem co dokładnie, może trochę
+ więcej o tym jak to jest budowane?
+\end_layout
+
+\end_inset
+
+ The exact methodology how the data set is generated is described in details
+ in the article, the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{code}
+\end_layout
+
+\end_inset
+
+ is available under MIT License
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+The MIT License is one of the most permissive license used for software
+ licensing.
+\end_layout
+
+\end_inset
+
+ at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/jzftran/InterMetalDB
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard

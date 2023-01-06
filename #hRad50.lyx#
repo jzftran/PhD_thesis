@@ -1,0 +1,369 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass classicthesis
+\begin_preamble
+\usepackage{pdfpages}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plainnat
+\biblatex_bibstyle numeric-comp
+\biblatex_citestyle numeric-comp
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Relations between Structure and Zn(II) Binding Affinity Shed Light on the
+ Mechanisms of Rad50 Hook Domain Functioning and Its Phosphorylation
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+    
+\backslash
+chaptermark{
+\backslash
+protect
+\backslash
+parbox{0.9
+\backslash
+linewidth}{Relations between Structure and Zn(II) Binding Affinity Shed
+ Light on the Mechanisms of Rad50 Hook Domain Functioning and Its Phosphorylatio
+n}} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:hRad50"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+Józef Ba Tran, Michał Padjasek and Artur Krężel
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+Department of Chemical Biology, Faculty of Biotechnology University of Wrocław,
+ F.
+ Joliot-Curie 14a, 50-383 Wrocław, Poland
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\shape italic
+International Journal of Molecular Sciences
+\shape default
+\size small
+ 
+\size default
+2022 23, 11140.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Brief history and bibliometric data
+\end_layout
+
+\begin_layout Standard
+Something
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Glspl{ppi}
+\end_layout
+
+\end_inset
+
+play a crucial role in many biological processes and are usually stabilized
+ by an extensive network of non-covalent intermolecular interactions.
+ 
+\end_layout
+
+\begin_layout Standard
+An additional factor contributing to the formation of protein complexes
+ is intermolecular metal binding, in which the affinity of the metal for
+ the protein affects the stability of the entire complex.
+ In this respect, the interaction present in the zinc hook domain of the
+ human Rad50 protein is unique and has not been observed elsewhere in nature.
+ The stability of the Zn(II)-Rad50 complex is also influenced by structures
+ that are distant from the coordination site.
+\end_layout
+
+\begin_layout Standard
+To better understand the stabilization of the human Rad50 hook domain, the
+ authors of this study analyzed the effects of elongating the investigated
+ peptides on the stability of the complex.
+ They found that the stabilization of the zinc hook domain isolated from
+ Pyrococcus furiosus occurred primarily in a small 45-amino-acid-long fragment,
+ where all present residues participated in the domain stabilization.
+ In contrast, the human Rad50 zinc hook domain stabilization occurred over
+ a longer peptide fragment of up to 140 amino acid residues.
+\end_layout
+
+\begin_layout Standard
+The authors also compared the binding affinity of the human Rad50 protein
+ for zinc ions to other proteins with zinc binding sites, such as zinc fingers.
+ They found that the human Rad50 protein had a stronger binding affinity
+ for zinc ions than the zinc fingers.
+ The effect of zinc transfer from zinc fingers to the Rad50 protein was
+ also observed in the phosphorylated or phosphomimetic Rad50 protein, where
+ there was a reduction in binding affinity.
+ These changes were not large enough to be observed with low-resolution
+ methods like small angle X-ray scattering (SAXS), but could be detected
+ during direct zinc titration of HsHk42 peptides with spectropolarimetric
+ detection.
+\end_layout
+
+\begin_layout Standard
+To further investigate the effects of phosphorylation on the stability of
+ the human Rad50 zinc hook domain, the authors used X-ray absorption spectroscop
+y.
+ They found that phosphorylation caused a change in the coordination environment
+ of the zinc ion, specifically in the first coordination sphere of the zinc
+ ion bound by the CXXC motif.
+ These results suggest that the structural changes induced by phosphorylation
+ may play a role in the regulation of protein-protein interactions mediated
+ by the human Rad50 zinc hook domain.
+\end_layout
+
+\begin_layout Standard
+In summary, this study provides new insights into the stability and regulation
+ of protein-protein interactions mediated by zinc binding sites.
+ The unique interaction of the human Rad50 protein with zinc ions and the
+ effects of phosphorylation on the stability of the complex highlight the
+ importance of studying these interactions in detail.
+ Further research on the mechanisms underlying the stability of protein-protein
+ interactions mediated by zinc binding sites may lead to a better understanding
+ of the biological processes they regulate and the development of new therapeuti
+c strategies targeting these interactions.
+\end_layout
+
+\begin_layout Standard
+————————————————
+\end_layout
+
+\begin_layout Standard
+Protein-protein interactions play a critical role in many biological processes,
+ and the stability of these interactions is often influenced by non-covalent
+ intermolecular interactions, as well as the presence of metal binding.
+ The affinity of the metal for the protein can also impact the stability
+ of the complex.
+ In particular, the interaction between the zinc hook domain of the human
+ Rad50 protein and zinc ions (Zn(II)) is unique and has not been observed
+ elsewhere in nature.
+ This interaction is characterized by a high degree of stability that is
+ influenced by a structural element that is distant from the coordination
+ site.
+\end_layout
+
+\begin_layout Standard
+In this study, the authors sought to better understand the stabilization
+ of the human Rad50 hook domain.
+ They hypothesized that increasing the length of the peptides being studied
+ would increase the stability of the complex by increasing the number of
+ inter- and intra- interactions.
+ To test this, they used a range of techniques, including spectropolarimetry,
+ small angle X-ray scattering (SAXS), and X-ray absorption spectroscopy
+ (XAS).
+\end_layout
+
+\begin_layout Standard
+The results of the study showed that the stabilization of the zinc hook
+ domain isolated from Pyrococcus furiosus occurs primarily in a 45 amino
+ acid long fragment, in which all present residues participate in the domain
+ stabilization.
+ However, in the case of the human Rad50 zinc hook domain, stabilization
+ occurs over a much longer peptide fragment of up to 140 amino acid residues.
+ This makes the human Rad50 zinc hook domain unique and the first known
+ complex to exhibit such behavior.
+\end_layout
+
+\begin_layout Standard
+When the authors compared the stability of the human Rad50 zinc hook domain
+ to that of other intermolecular Zn(II) binding sites, such as those found
+ in CD4/CD8a co-receptors and a Rad50 homolog from Pyrococcus furiosus,
+ they found that the human Rad50 protein had a significantly higher binding
+ affinity than the strongest zinc fingers.
+ They also found that phosphorylation of the Rad50 protein had a small but
+ measurable impact on its binding affinity, reducing it by about one-fourth
+ of an order of magnitude.
+\end_layout
+
+\begin_layout Standard
+Overall, this study provides new insights into the stabilization of the
+ human Rad50 hook domain and the role of metal binding in protein-protein
+ interactions.
+ It also highlights the unique properties of the human Rad50 zinc hook domain
+ and the importance of studying such interactions in order to better understand
+ their role in biological processes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dlaczego to zrobiliśmy?
+\end_layout
+
+\begin_layout Plain Layout
+Co było naszym celem?
+\end_layout
+
+\begin_layout Plain Layout
+Co zrobiliśmy?
+\end_layout
+
+\begin_layout Plain Layout
+Jak zrobiliśmy?
+\end_layout
+
+\begin_layout Plain Layout
+Jaki to ma efekt?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+includepdf[pages=-]{Articles/hRad50.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

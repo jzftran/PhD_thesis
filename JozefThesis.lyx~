@@ -333,7 +333,27 @@ Results And Discussion
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "Chapter04.lyx"
+filename "Galvanization.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "InterMetalDB.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "hRad50.lyx"
 
 \end_inset
 
@@ -346,6 +366,16 @@ Summary
 
 \begin_layout Standard
 \begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Summary.lyx"
+
 \end_inset
 
 

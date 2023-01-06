@@ -731,7 +731,11 @@ glspl{interface}
  to date is not possible.
  One way of identification would be thorough literature search, one could
  hypothetically search the Internet using research tools for scientific
- literature like Google Scholar (
+ literature like Google Scholar
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
 \begin_inset Flex URL
 status open
 
@@ -742,7 +746,16 @@ https://scholar.google.com/
 
 \end_inset
 
-), Semantic Scholar (
+
+\end_layout
+
+\end_inset
+
+, Semantic Scholar
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
 \begin_inset Flex URL
 status open
 
@@ -753,7 +766,12 @@ https://www.semanticscholar.org/
 
 \end_inset
 
-) or other similar tools utilizing keywords 
+
+\end_layout
+
+\end_inset
+
+ or other similar tools utilizing keywords 
 \begin_inset Quotes eld
 \end_inset
 
