@@ -557,12 +557,25 @@ AA
 
 \end_inset
 
-, a concept similar to the Minimal Functioning Site adapted in the MetalPDB.
+, a concept similar to the Minimal Functioning Site adapted in the MetalPDB
  
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Andreini2013"
 literal "true"
+
+\end_inset
+
+, followed by the selection of the metal binding site characterized by the
+ best resolution or if the resolution is equal across the cluster, selection
+ of the first.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+to jest tak średnio napisane.
+\end_layout
 
 \end_inset
 

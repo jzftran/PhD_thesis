@@ -93,7 +93,7 @@ status open
 
 \begin_layout Plain Layout
 
-    
+
 \backslash
 chaptermark{
 \backslash
@@ -486,7 +486,7 @@ glspl{bassembly}
 .
  Compared 
 \begin_inset Marginal
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Clustering proteins based on their sequence identity is a method that reduces

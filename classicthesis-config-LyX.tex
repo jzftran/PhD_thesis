@@ -179,7 +179,12 @@
 
 \newglossaryentry{rcsb}{type=\acronymtype, name={RCSB PDB},
 description={Research Collaboratory for Structural Bioinformatics Protein Data Bank},
-first={Research Collaboratory for Structural Bioinformatics Protein Data Bank (RCSB PDB)}
+first={Research Collaboratory for Structural Bioinformatics \gls{pdb} (RCSB \gls{pdb})}
+}
+
+\newglossaryentry{pdb}{type=\acronymtype, name={PDB},
+description={Protein Data Bank or Protein Data Bank file type},
+first={Protein Data Bank (PDB)}
 }
 
 \newglossaryentry{python}{name={Python},
@@ -205,7 +210,82 @@ description={Definition of a protein fold is arbitrary and depending on a contex
 Generally protein fold is usually understood as a comon shape for proteins.}}
 
 
- 
+
+\newglossaryentry{radg}{name={Rad50},
+description={Components of the \gls{mrn} complex.
+The complex plays a key role in \gls{dsb} repair.}}
+
+\newglossaryentry{rad}{type=\acronymtype,
+	name={Rad50},
+	description={DNA rapair protein Rad50, \glsseeformat[Glossary:]{radg}{}},
+	first={DNA rapair protein Rad50 (Rad50)\glsadd{radg}},
+}
+
+
+\newglossaryentry{mrng}{name={MRN(X)},
+description={The \gls{mrn} complex plays a key in \gls{dsb} repair.}}
+
+\newglossaryentry{mrn}{type=\acronymtype,
+name={MRN(X)},
+description={\gls{mre}-\gls{rad}-\gls{nbs}(\gls{xrs}) \glsseeformat[Glossary:]{mrng}{}},
+first={\gls{mre}-\gls{rad}-\gls{nbs}(\gls{xrs}) complex\glsadd{mrng}},
+}
+
+
+
+\newglossaryentry{mreg}{name={Mre11},
+description={Components of the \gls{mrn} complex.
+\Gls{mre} provides both, single-strand endonuclease
+and double-strand-specific 3'-5' exonuclease activity to the \gls{mrn}.}}
+
+\newglossaryentry{mre}{type=\acronymtype,
+name={Mre11},
+description={Double-strand break repair protein Mre11, \glsseeformat[Glossary:]{mreg}{}},
+first={Double-strand break repair protein Mre11 (Mre11)\glsadd{mreg}},
+}
+
+
+\newglossaryentry{nbsg}{name={Nbs1},
+description={Components of the \gls{mrn} complex.
+\Gls{nbs} modulates the DNA damage repair by recruiting various kinases..}}
+
+\newglossaryentry{nbs}{type=\acronymtype,
+name={Mre11},
+description={Nibrin, \glsseeformat[Glossary:]{nbsg}{}},
+first={Nibrin (Nbs1)\glsadd{nbsg}},
+}
+
+
+
+\newglossaryentry{xrsg}{name={Xrs2},
+description={Components of the \gls{mrn} complex.
+\Gls{xrs} and \gls{nbs} share little sequence identity.
+\gls{xrs} probably regulates the 5'-3' exonuclease activity of the \gls{mrn} complex.}}
+
+\newglossaryentry{xrs}{type=\acronymtype,
+name={Xrs2},
+description={DNA repair protein XRS2, \glsseeformat[Glossary:]{xrsg}{}},
+first={DNA repair protein (Xrs2)\glsadd{xrsg}}}
+
+\newglossaryentry{dsb}{type=\acronymtype,
+name={DSB},
+description={Double-Strand Break},
+first={Double-Strand Break (DSB)},
+plural={DSBs},
+descriptionplural={Double-Strand Breaks},
+firstplural={Double-Strand Breaks (\glsentryplural{dsb})}
+}
+
+\newglossaryentry{hs}{type=\acronymtype,
+name={\textit{H. sapiens}},
+description={\textit{Homo sapiens}},
+first={\textit{Homo sapiens} (\textit{H. sapiens})}}
+
+\newglossaryentry{pf}{type=\acronymtype,
+name={\textit{P. furiosus}},
+description={\textit{Pyrococcus furiosus}},
+first={\textit{Pyrococcus furiosus} (\textit{P. furiosus})}}
+
 % affinity
 
 % ****************************************************************************************************
