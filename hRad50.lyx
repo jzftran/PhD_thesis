@@ -135,8 +135,8 @@ Józef Ba Tran, Michał Padjasek and Artur Krężel
 status open
 
 \begin_layout Plain Layout
-Department of Chemical Biology, Faculty of Biotechnology University of Wrocław,
- F.
+Department of Chemical Biology, Faculty of Biotechnology, University of
+ Wrocław, F.
  Joliot-Curie 14a, 50-383 Wrocław, Poland
 \end_layout
 
@@ -603,6 +603,8 @@ status open
 
 \backslash
 AA
+\backslash
+
 \end_layout
 
 \end_inset
@@ -680,7 +682,7 @@ gls{rad}
  complex.
  The observed shift of the complex stability, concurrent with observable
  by direct Zn(II)-titration of 42-amino-acid-long peptide with extensive
- secondary structure change (detection by
+ secondary structure change (detection by 
 \begin_inset ERT
 status open
 
@@ -707,16 +709,38 @@ gls{saxs}
 \end_inset
 
 .
-\begin_inset Note Note
+ Neither local changes at the Zn(II)-binding site was observable by means
+ of 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-coś więcej o fosforylacji
+
+
+\backslash
+gls{xas}
 \end_layout
 
 \end_inset
 
+.
+ The fact that the phosphorylation effect is attenuated in the longer protein
+ fragment, and the fact of the extreme complex stability, the phosphorylation
+ do not exert the complex dissociation under physiological 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+gls{freezn}
+\end_layout
+
+\end_inset
+
+ concentration, however phosphorylation of the threonine 690 may be involved
+ in undiscovered yet signaling pathway.
 \end_layout
 
 \begin_layout Standard

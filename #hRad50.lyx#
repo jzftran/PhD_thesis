@@ -680,7 +680,7 @@ gls{rad}
  complex.
  The observed shift of the complex stability, concurrent with observable
  by direct Zn(II)-titration of 42-amino-acid-long peptide with extensive
- secondary structure change (detection by
+ secondary structure change (detection by 
 \begin_inset ERT
 status open
 
@@ -716,7 +716,38 @@ coś więcej o fosforylacji
 
 \end_inset
 
+ Neither local changes at the Zn(II)-binding site was observable by means
+ of 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+gls{xas}
+\end_layout
+
+\end_inset
+
+.
+ The fact that the phosphorylation effect is attenuated in the longer protein
+ fragment, and the fact of the extreme complex stability, the phosphorylation
+ do not exert the complex dissociation under physiological 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{freezn}
+\end_layout
+
+\end_inset
+
+ concentration.
+ The phosphorylation of the threonine 690 may 
 \end_layout
 
 \begin_layout Standard
@@ -735,113 +766,8 @@ glspl{zppi}
 \end_inset
 
 ).
-\end_layout
-
-\begin_layout Standard
-In summary, this study provides new insights into the stability and regulation
- of protein-protein interactions mediated by zinc binding sites.
  The unique interaction of the human Rad50 protein with zinc ions and the
- effects of phosphorylation on the stability of the complex highlight the
- importance of studying these interactions in detail.
- Further research on the mechanisms underlying the stability of protein-protein
- interactions mediated by zinc binding sites may lead to a better understanding
- of the biological processes they regulate and the development of new therapeuti
-c strategies targeting these interactions.
-\end_layout
-
-\begin_layout Standard
-—————————————————
-\end_layout
-
-\begin_layout Standard
-To further investigate the effects of phosphorylation on the stability of
- the human Rad50 zinc hook domain, the authors used X-ray absorption spectroscop
-y.
- They found that phosphorylation caused a change in the coordination environment
- of the zinc ion, specifically in the first coordination sphere of the zinc
- ion bound by the CXXC motif.
- These results suggest that the structural changes induced by phosphorylation
- may play a role in the regulation of protein-protein interactions mediated
- by the human Rad50 zinc hook domain.
-\end_layout
-
-\begin_layout Standard
-————————————————
-\end_layout
-
-\begin_layout Standard
-When the authors compared the stability of the human Rad50 zinc hook domain
- to that of other intermolecular Zn(II) binding sites, such as those found
- in CD4/CD8a co-receptors and a Rad50 homolog from Pyrococcus furiosus,
- they found that the human Rad50 protein had a significantly higher binding
- affinity than the strongest zinc fingers.
- They also found that phosphorylation of the Rad50 protein had a small but
- measurable impact on its binding affinity, reducing it by about one-fourth
- of an order of magnitude.
-\end_layout
-
-\begin_layout Standard
-Overall, this study provides new insights into the stabilization of the
- human Rad50 hook domain and the role of metal binding in protein-protein
- interactions.
- It also highlights the unique properties of the human Rad50 zinc hook domain
- and the importance of studying such interactions in order to better understand
- their role in biological processes.
-\end_layout
-
-\begin_layout Standard
-_____________________
-\end_layout
-
-\begin_layout Standard
-In this respect, the interaction present in the zinc hook domain of the
- human Rad50 protein is unique and has not been observed elsewhere in nature.
- The stability of the Zn(II)-Rad50 complex is also influenced by structures
- that are distant from the coordination site.
-\end_layout
-
-\begin_layout Standard
-To better understand the stabilization of the human Rad50 hook domain, the
- authors of this study analyzed the effects of elongating the investigated
- peptides on the stability of the complex.
- They found that the stabilization of the zinc hook domain isolated from
- Pyrococcus furiosus occurred primarily in a small 45-amino-acid-long fragment,
- where all present residues participated in the domain stabilization.
- In contrast, the human Rad50 zinc hook domain stabilization occurred over
- a longer peptide fragment of up to 140 amino acid residues.
-\end_layout
-
-\begin_layout Standard
-The authors also compared the binding affinity of the human Rad50 protein
- for zinc ions to other proteins with zinc binding sites, such as zinc fingers.
- They found that the human Rad50 protein had a stronger binding affinity
- for zinc ions than the zinc fingers.
- The effect of zinc transfer from zinc fingers to the Rad50 protein was
- also observed in the phosphorylated or phosphomimetic Rad50 protein, where
- there was a reduction in binding affinity.
- These changes were not large enough to be observed with low-resolution
- methods like small angle X-ray scattering (SAXS), but could be detected
- during direct zinc titration of HsHk42 peptides with spectropolarimetric
- detection.
-\end_layout
-
-\begin_layout Standard
-To further investigate the effects of phosphorylation on the stability of
- the human Rad50 zinc hook domain, the authors used X-ray absorption spectroscop
-y.
- They found that phosphorylation caused a change in the coordination environment
- of the zinc ion, specifically in the first coordination sphere of the zinc
- ion bound by the CXXC motif.
- These results suggest that the structural changes induced by phosphorylation
- may play a role in the regulation of protein-protein interactions mediated
- by the human Rad50 zinc hook domain.
-\end_layout
-
-\begin_layout Standard
-In summary, this study provides new insights into the stability and regulation
- of protein-protein interactions mediated by zinc binding sites.
- The unique interaction of the human Rad50 protein with zinc ions and the
- effects of phosphorylation on the stability of the complex highlight the
+ effect of phosphorylation on the stability of the complex highlight the
  importance of studying these interactions in detail.
  Further research on the mechanisms underlying the stability of protein-protein
  interactions mediated by zinc binding sites may lead to a better understanding

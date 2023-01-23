@@ -75,7 +75,17 @@
 
 \usepackage{newpxtext,newpxmath}
 \useosf
+\usepackage{textgreek}
+\usepackage[version=4]{mhchem}
 
+\hyphenation{mon-o-meric}
+
+% \clubpenalty=9996
+% \widowpenalty=9999
+% \brokenpenalty=4991
+% \predisplaypenalty=10000
+% \postdisplaypenalty=1549
+% \displaywidowpenalty=1602
 % ****************************************************************************************************
 
 % ****************************************************************************************************
@@ -286,6 +296,131 @@ name={\textit{P. furiosus}},
 description={\textit{Pyrococcus furiosus}},
 first={\textit{Pyrococcus furiosus} (\textit{P. furiosus})}}
 
+
+\newglossaryentry{cd}{type=\acronymtype,
+name={CD},
+description={Circular Dichroism},
+first={Circular Dichroism (CD)}}
+
+\newglossaryentry{saxs}{type=\acronymtype,
+name={SAXS},
+description={Small-angle X-ray scattering},
+first={Small-angle X-ray scattering (SAXS)}}
+
+\newglossaryentry{xas}{type=\acronymtype,
+name={XAS},
+description={X-ray absorption spectroscopy},
+first={X-ray absorption spectroscopy (XAS)}}
+
+\newglossaryentry{hsabg}{name={HSAB},
+	description={Hard and Soft Acid and Bases principle describes what acids and bases prefer to interact.
+	Soft metal ions (Lewis acids) will preferentially interact with soft Lewis bases, e.g. Hg(II) will
+	preferentially react with thiolates.},}
+
+\newglossaryentry{hsab}{type=\acronymtype,
+	name={HSAB},
+	description={Hard and Soft Acid and Bases principle , \glsseeformat[Glossary:]{hsabg}{}},
+	first={Hard and Soft Acid and Bases principle (HSAB)\glsadd{hsabg}},
+	}
+
+\newglossaryentry{merr}{type=\acronymtype,
+name={MerR},
+description={Mercuric resistance operon regulatory protein},
+first={Mercuric resistance operon regulatory protein (MerR)},
+}
+
+\newglossaryentry{atox}{type=\acronymtype,
+name={atox},
+description={Copper transport protein ATOX1},
+first={Copper transport protein ATOX1 (ATOX1)},
+}
+
+\newglossaryentry{uvvis}{type=\acronymtype,
+name={UV-Vis},
+description={Ultraviolet-Visible},
+first={Ultraviolet-Visible (UV-Vis)}
+}
+
+\newglossaryentry{pac}{type=\acronymtype,
+name={PAC},
+description={Perturbed \textgamma-\textgamma\ Angular Correlation},
+first={Perturbed \textgamma-\textgamma\ Angular Correlation (PAC)}
+}
+
+\newglossaryentry{nmr}{type=\acronymtype,
+name={NMR},
+description={Nuclear Magnetic Resonance},
+first={Nuclear Magnetic Resonance (NMR)}
+}
+
+
+\newglossaryentry{DTT}{type=\acronymtype,
+name={DTT},
+description={dithiothreitol},
+first={dithiothreitol (DTT)}
+}
+
+\newglossaryentry{itc}{type=\acronymtype,
+name={ITC},
+description={Isothermal Titration Calorimetry},
+first={Isothermal Titration Calorimetry (ITC)}
+}
+
+
+\newglossaryentry{dG}{type=\acronymtype,
+name={\textDelta \textit{G}\textdegree},
+description={Gibbs free energy change at standard state},
+first={Gibbs free energy change at standard state (\textDelta \textit{G}\textdegree)}
+}
+
+\newglossaryentry{dH}{type=\acronymtype,
+name={\textDelta \textit{H}\textdegree},
+description={Enthalpy change at standard state},
+first={Enthalpy at standard state (\textDelta \textit{H}\textdegree)}
+}
+
+\newglossaryentry{dS}{type=\acronymtype,
+name={\textDelta \textit{S}\textdegree},
+description={Entropy change at standard state},
+first={Entropy change at standard state (\textDelta \textit{S}\textdegree)}
+}
+
+\newglossaryentry{T}{type=\acronymtype,
+name={\textit{T}},
+description={absolute temperature},
+first={absolute temperature (\textit{T})}
+}
+
+\newglossaryentry{K12}{type=\acronymtype,
+name={\textit{K}\textsubscript{12}},
+description={cumulative formation constant of the \glslink{Me}{Me}\glslink{L}{L}\textsubscript{2} complex},
+first={cumulative formation constant of the \glslink{Me}{Me}\glslink{L}{L}\textsubscript{2} complex (\textit{K}\textsubscript{12})}
+}
+
+\newglossaryentry{Me}{type=\acronymtype,
+name={Me},
+description={metal},
+first={metal (Me)}
+}
+%!!!!!!!!!!!!!!!!!! Description of a ligand
+\newglossaryentry{Lg}{name={ligand},
+	description={Need description of a ligand.}}
+%!!!!!!!!!!!!!!!!!! Description of a ligand
+\newglossaryentry{L}{type=\acronymtype, name={ligand},
+	description={ligand, \glsseeformat[Glossary:]{Lg}{}},
+	first={ligand (L) \glsadd{Lg}}}
+
+\newglossaryentry{R}{type=\acronymtype,
+name={R},
+description={molar gas constant},
+first={molar gas constant (R)}
+}
+
+
+
+
+%%%% shortcuts
+\newcommand{\gshort}[1]{\glslink{#1}{#1}}
 % affinity
 
 % ****************************************************************************************************

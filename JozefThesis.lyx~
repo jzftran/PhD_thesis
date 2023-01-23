@@ -51,7 +51,7 @@
 \cite_engine biblatex
 \cite_engine_type numerical
 \biblio_style plainnat
-\biblio_options backref=true,isbn=false,sorting=nyt,maxbibnames=9
+\biblio_options backref=true,isbn=false,sorting=none,maxbibnames=9
 \biblatex_bibstyle numeric-comp
 \biblatex_citestyle numeric-comp
 \use_bibtopic false
@@ -354,6 +354,26 @@ filename "InterMetalDB.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "hRad50.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "HgRad50.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "AgRad50.lyx"
 
 \end_inset
 

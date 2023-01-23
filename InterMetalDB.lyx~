@@ -93,7 +93,7 @@ status open
 
 \begin_layout Plain Layout
 
-    
+
 \backslash
 chaptermark{
 \backslash
@@ -134,8 +134,8 @@ Józef Ba Tran and Artur Krężel
 status open
 
 \begin_layout Plain Layout
-Department of Chemical Biology, Faculty of Biotechnology University of Wrocław,
- F.
+Department of Chemical Biology, Faculty of Biotechnology, University of
+ Wrocław, F.
  Joliot-Curie 14a, 50-383 Wrocław, Poland
 \end_layout
 
@@ -196,7 +196,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset ref
 LatexCommand labelonly
-reference "chap:hRad50"
+reference "chap:Galvanization-of-Protein-Protein"
 plural "false"
 caps "false"
 noprefix "false"
@@ -302,7 +302,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset ref
 LatexCommand labelonly
-reference "chap:hRad50"
+reference "chap:Galvanization-of-Protein-Protein"
 plural "false"
 caps "false"
 noprefix "false"
@@ -358,7 +358,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset ref
 LatexCommand labelonly
-reference "chap:hRad50"
+reference "chap:Galvanization-of-Protein-Protein"
 plural "false"
 caps "false"
 noprefix "false"
