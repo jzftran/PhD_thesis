@@ -7,6 +7,7 @@
 \textclass classicthesis
 \begin_preamble
 \usepackage{pdfpages}
+\PassOptionsToPackage{abspath}{currfile}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -311,14 +312,132 @@ Summary
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ExplSyntaxOn
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+sys_shell_now:n {python3~.
+\backslash
+
+\backslash
+Scripts
+\backslash
+
+\backslash
+Ag_vs_Hg_popularity.py}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ExplSyntaxOff
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
+The medical use of silver, both as a Ag(0) and as compounds of Ag(I) is
+ known since millennia, the ancient Persians, Phoenicians, Greeks, Romans
+ and others were recorded to utilize various forms of silver to preserve
+ both food and water, the custom practiced through World War II.
+ The first preserved records of medical use of silver comes from Macedonians,
+ who have attempted to treat infections with silver plates.
+ Hippocrates, the Father of Medicine, was supposed to use silver preparations
+ to treat the ulcers and promote wound healing.
+ Before the introduction of antibiotics, silver, and various silver compounds
+ were the most available antimicrobial agents.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "AlexanderWesley2009"
+literal "true"
+
+\end_inset
+
+ The toxicity of silver is low compared to most of other heavy metals, which
+ allows the use of silver in various utility goods, e.
+ g.
+ jewellery, silverware, or as a food additive.
+ However it has been shown that high doses of silver given parenternally,
+ can cause convulsions or even death.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "AlexanderWesley2009"
+literal "true"
+
+\end_inset
+
+ Though the silver toxicity is low, the organisms usually lack the mechanisms
+ for silver detoxification, and in case of human body, when silver is delivered
+ (e.g., injection, ingestion, applied topically) silver is accumulated irreversibl
+y.
+ The condition caused by sustained silver exposure (and light
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Like in a photography sunlight causes the decomposition of colorless silver
+ compounds to Ag(0) or silver sulfides.
+\end_layout
+
+\end_inset
+
+) is called argyria.
+ By 1939 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Hill1939"
+literal "true"
+
+\end_inset
+
+ have identified 357 cases of recorded argyria, all of the recorded cases,
+ except from the irreversible bluish skin tone, had benign course of the
+ disease .
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hill1939"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+needs date
+\end_layout
+
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
