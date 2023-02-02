@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass classicthesis
+\begin_preamble
+\usepackage{bohr}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language american
@@ -44,7 +47,7 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine biblatex
-\cite_engine_type numerical
+\cite_engine_type authoryear
 \biblio_style plainnat
 \biblatex_bibstyle numeric-comp
 \biblatex_citestyle numeric-comp
@@ -80,723 +83,401 @@
 \begin_body
 
 \begin_layout Chapter
-Examples
+Zinc
+\end_layout
+
+\begin_layout Section
+Properties of zinc
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
-name "ch:examples"
+name "sec:properties_of_zinc"
 
 \end_inset
 
-Ei choro aeterno antiopam mea, labitur bonorum pri no 
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "taleb:2012"
-literal "true"
+As have been mentioned in the first sentence of 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "subsec:Transition-metal-ions"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "taleb:2012"
-literal "true"
 
-\end_inset
-
-.
- His no decore nemore graecis.
- In eos meis nominavi, liber soluta vim cu.
- Sea commune suavitate interpretaris eu, vix eu libris efficiantur.
- 
 \end_layout
 
-\begin_layout Section
-A New Section
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Illo principalmente su nos.
- Non message 
+ transition metals have partially filled 
 \emph on
-occidental
+d
 \emph default
- angloromanic da.
- Debitas effortio simplificate sia se, auxiliar summarios da que, se avantiate
- publicationes via.
- Pan in terra summarios, capital interlingua se que.
- Al via multo esser specimen, campo responder que da.
- Le usate medical addresses pro, europa origine sanctificate nos se.
-\end_layout
-
-\begin_layout Standard
-Examples: 
-\shape italic
-Italics
-\shape default
-, 
-\begin_inset Flex CT - Spaced All Caps
-status collapsed
+ orbital, following this definition one cannot classify zinc as a transition
+ metal (
+\begin_inset Flex CT - auto cross-reference
+status open
 
 \begin_layout Plain Layout
-all caps
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "fig:Bohr-model-diagram-zinc"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 
-, 
-\shape smallcaps
-Small Caps
-\shape default
-, 
-\begin_inset Flex CT - Spaced Low Small Caps
-status collapsed
+).
+ The other definitions of transition metals (i.e.
+ as chemical elements in the 
+\emph on
+d
+\emph default
+-block of the periodic table), may include zinc as a transition metal.
+ The goal of this subsection is not to discussion whether zinc is a transition
+ metal, 
+\begin_inset Quotes eld
+\end_inset
+
+transition metals
+\begin_inset Quotes erd
+\end_inset
+
+ is a human concept, people are in the habit of categorizing and dividing,
+ however, it does not matter for the chemical and physical properties of
+ zinc whether one classifies zinc as a transition metal or not.
+ Unique properties of zinc, and the reason why chemists discuss where to
+ categorize zinc is due to zinc's electron configuration (
+\begin_inset Flex CT - auto cross-reference
+status open
 
 \begin_layout Plain Layout
-low small caps
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "fig:Bohr-model-diagram-zinc"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+) – the fully filled 
+\emph on
+d 
+\emph default
+orbitals of zinc are energetically stable, and usually zinc can loose 
+\emph on
+only
+\emph default
+ 4
+\emph on
+s
+\emph default
+ electrons, leading to formation of stable Zn(II), which is entirely different
+ to the biologically active transition metals.
+ This property of zinc of occurrence in only one oxidation state (2+) prevents
+ zinc from partaking directly in redox reactions\SpecialChar endofsentence
+ The total filling of zinc's
+ 
+\emph on
+d 
+\emph default
+orbitals makes zinc a 
+\begin_inset Quotes eld
+\end_inset
+
+spectroscopically quiet
+\begin_inset Quotes erd
+\end_inset
+
+ metal – zinc complexes have no color.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+nwm czy to dobrze to napisałem
+\end_layout
+
+\end_inset
+
+ This limitation of Zn(II) of being redox-inert in biology might produce
+ a false view on its use by evolution in proteins.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setbohr{shell-options-add = dashed,
+\end_layout
+
+\begin_layout Plain Layout
+
+	distribution-method=quantum,
+\end_layout
+
+\begin_layout Plain Layout
+
+		 insert-missing}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bohr{}{Zn}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+elconf{Zn}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Bohr-model-diagram-zinc"
+
+\end_inset
+
+Bohr model diagram for of zinc.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zinc, after iron, is the second most abundant 
+\emph on
+d
+\emph default
+-block element found in proteins, 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Andreini2006,Andreini2006a,Andreini2009"
+literal "true"
+
+\end_inset
+
+ moreover its the only one 
+\emph on
+d
+\emph default
+-block element that is found in all classes of enzymes, 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vallee1990"
+literal "true"
+
+\end_inset
+
+ this is possible due to being a Lewis acid by Zn(II).
+\end_layout
+
+\begin_layout Standard
+In solution Zn(II) ions exists in a equilibrium as a octahedral hexaaquo
+ complexes ([Zn(H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+O)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+
+]
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2+
+\end_layout
+
+\end_inset
+
+) and as a tetrahedral [Zn(H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+O)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+]
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2+
+\end_layout
+
+\end_inset
+
+, which equilibrium shifted towards the first one.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Krezel2016"
+literal "true"
+
+\end_inset
+
+ Due to the total filling of the
+\emph on
+ d 
+\emph default
+orbitals, transition between the octahedral to tetrahedral coordination
+ (typical for complexation by proteins) in case of zinc does not entails
+ an energetic penalty, 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lachenmann2004"
+literal "true"
+
+\end_inset
+
+ additionally the release of solvent from the aqua-complex involves an increase
+ in degrees of freedom in the system, which is energetically favorable due
+ to the increase of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{dS}{entropy change (
+\backslash
+textDelta 
+\backslash
+textit{S})}
 \end_layout
 
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-Acronym test: 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-acs{UML}
-\end_layout
-
-\end_inset
-
- – 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-acf{UML}
-\end_layout
-
-\end_inset
-
- – 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-acfp{UML}
-\end_layout
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Krezel2016"
+literal "true"
 
 \end_inset
 
  
-\end_layout
-
-\begin_layout Subsection
-Test for a Subsection
-\end_layout
-
-\begin_layout Standard
-\begin_inset Marginal
-status collapsed
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-Note: The content of this chapter is just some dummy text.
- It is not a real language.
+
+
+\backslash
+Glspl{mprotein}
 \end_layout
 
 \end_inset
 
- Lorem ipsum at nusquam appellantur his, ut eos erant homero concludaturque.
- Albucius appellantur deterruisset id eam, vivendum partiendo dissentiet
- ei ius.
- Vis melius facilisis ea, sea id convenire referrentur, takimata adolescens
- ex duo.
- Ei harum argumentum per.
- Eam vidit exerci appetere ad, ut vel zzril intellegam interpretaris.
-\end_layout
-
-\begin_layout Standard
-Errem omnium per, pro 
-\begin_inset Flex CT - acronym
-status collapsed
+ that utilize this unique 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
-UML
+
+\backslash
+gls{cofactor}
 \end_layout
 
 \end_inset
 
- congue populo ornatus cu, ex qui dicant nemore melius.
- No pri diam iriure euismod.
- Graecis eleifend appellantur quo id.
- Id corpora inimicus nam, facer nonummy ne pro, kasd repudiandae ei mei.
- Mea menandri mediocrem dissentiet cu, ex nominati imperdiet nec, sea odio
- duis vocent ei.
- Tempor everti appareat cu ius, ridens audiam an qui, aliquid admodum conceptam
- ne qui.
- Vis ea melius nostrum, mel alienum euripidis eu.
-\end_layout
-
-\begin_layout Standard
-Ei choro aeterno antiopam mea, labitur bonorum pri no.
- His no decore nemore graecis.
- In eos meis nominavi, liber soluta vim cu.
-\end_layout
-
-\begin_layout Subsection
-Autem Timeam
-\end_layout
-
-\begin_layout Standard
-Nulla fastidii ea ius, exerci suscipit instructior te nam, in ullum postulant
- quo.
- Congue quaestio philosophia his at, sea odio autem vulputate ex.
- Cu usu mucius iisque voluptua.
- Sit maiorum propriae at, ea cum 
-\begin_inset Flex CT - acronym
-status collapsed
-
-\begin_layout Plain Layout
-
-API
-\end_layout
-
-\end_inset
-
- primis intellegat.
- Hinc cotidieque reprehendunt eu nec.
- Autem timeam deleniti usu id, in nec nibh altera.
+, are unique as well, and bind this metal ion in a unusual fashion.
 \end_layout
 
 \begin_layout Section
-Another Section in This Chapter
+Zinc Binding Sites
 \end_layout
 
 \begin_layout Standard
-Non vices medical da.
- Se qui peano distinguer demonstrate, personas internet in nos.
- Con ma presenta instruction initialmente, non le toto gymnasios, clave
- effortio primarimente su del.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Uno il nomine integre, lo tote tempore anglo-romanic per, ma sed practic
- philologos historiettas.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Sia ma sine svedese americas.
- Asia 
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "bentley:1999"
-literal "true"
-
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "bentley:1999"
-literal "true"
-
-\end_inset
-
- representantes un nos, un altere membros qui.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-De web nostre historia angloromanic.
-\end_layout
-
-\end_inset
-
- Medical representantes al uso, con lo unic vocabulos, tu peano essentialmente
- qui.
- 
-\end_layout
-
-\begin_layout Description
-\begin_inset Flex CT - Description Label
-status collapsed
-
-\begin_layout Plain Layout
-Description-Label Test
-\end_layout
-
-\end_inset
-
-: Illo secundo continentes sia il, sia russo distinguer se.
- Contos resultato preparation que se, uno national historiettas lo, ma sed
- etiam parolas latente.
- Ma unic quales sia.
- Pan in patre altere summario, le pro latino resultato.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Tsai2012,frankl:1959,cialdini:1984"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-\begin_inset Flex CT - Description Label
-status collapsed
-
-\begin_layout Plain Layout
-Basate americano sia
-\end_layout
-
-\end_inset
-
-: Lo vista ample programma pro, uno europee addresses ma, abstracte intention
- al pan.
- Nos duce infra publicava le.
- Es que historia encyclopedia, sed terra celos avantiate in.
- Su pro effortio appellate, o.
-\end_layout
-
-\begin_layout Standard
-\noindent
-Tu uno veni americano sanctificate.
- Pan e union linguistic 
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "cormen:2001"
-literal "true"
-
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "cormen:2001"
-literal "true"
-
-\end_inset
-
- simplificate, traducite linguistic del le, del un denomination.
-\end_layout
-
-\begin_layout Subsection
-Personas Initialmente
-\end_layout
-
-\begin_layout Standard
-Uno pote summario methodicamente al, uso debe nomina hereditage ma.
- Iala rapide ha del, ma nos esser parlar.
- Maximo dictionario sed.
-\end_layout
-
-\begin_layout Subsubsection
-A Subsubsection
-\end_layout
-
-\begin_layout Standard
-Deler utilitate methodicamente con se.
- Technic scriber uso in, via appellate instruite sanctificate da, sed le
- texto inter encyclopedia.
- Ha iste americas que, qui ma tempore capital.
-  
-\begin_inset CommandInset citation
-LatexCommand citet
-key "dueck:trio"
-literal "true"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout aEnumerate (ClassicThesis)
-Enumeration with small caps (alpha) 
-\end_layout
-
-\begin_layout aEnumerate (ClassicThesis)
-Second item
-\end_layout
-
-\begin_layout Paragraph
-A Paragraph Example
-\end_layout
-
-\begin_layout Standard
-Uno de membros summario preparation, es inter disuso qualcunque que.
- Del hodie philologos occidental al, como publicate litteratura in web.
- Veni americano 
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "knuth:1976"
-literal "true"
-
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "knuth:1976"
-literal "true"
-
-\end_inset
-
- es con, non internet millennios secundarimente ha.
- Titulo utilitate tentation duo ha 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "ferriss:2016,feynman:1985,frankl:1959,taleb:2012,seneca,orwell:1949,Lampe2013a,sommerville:1992"
-literal "false"
-
-\end_inset
-
- il via tres secundarimente, uso americano initialmente ma.
- De duo deler personas initialmente.
- Se duce facite westeuropee web, 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand labelonly
-reference "tab:example"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- nos clave articulos ha.
-\end_layout
-
-\begin_layout Standard
-Medio integre lo per, non 
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "sommerville:1992"
-literal "true"
-
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "sommerville:1992"
-literal "true"
-
-\end_inset
-
- es linguas integre.
- Al web altere integre periodicos, in nos hodie basate.
- Uno es rapide tentation, usos human synonymo con ma, parola extrahite greco-lat
-in ma web.
- Veni signo rapide nos da.
- 
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
-<features booktabs="true" tabularvalignment="middle">
-<column alignment="left" valignment="top">
-<column alignment="left" valignment="top">
-<column alignment="left" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Flex CT - Table Headline
-status collapsed
-
-\begin_layout Plain Layout
-labitur bonorum pri no
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Flex CT - Table Headline
-status collapsed
-
-\begin_layout Plain Layout
-que vista
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Flex CT - Table Headline
-status collapsed
-
-\begin_layout Plain Layout
-human
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-fastidii ea ius
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-germano
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-demonstratea
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-suscipit instructior
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-titulo
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-personas
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-quaestio philosophia
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-facto
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-demonstrated 
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "knuth:1974"
-literal "true"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status collapsed
-
-\begin_layout Plain Layout
-Autem timeam deleniti usu id
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:example"
-
-\end_inset
-
-Autem timeam deleniti usu id.
- 
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "knuth:1974"
-literal "true"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Linguistic Registrate
-\end_layout
-
-\begin_layout Standard
-Veni introduction es pro, qui finalmente demonstrate il.
- E tamben anglese programma uno.
- Sed le debitas demonstrate.
- Non russo existe o, facite linguistic registrate se nos.
- Gymnasios, e.
-\begin_inset space \thinspace{}
-\end_inset
-
-g., sanctificate sia le, publicate 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand labelonly
-reference "fig:example"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- methodicamente e qui.
-\end_layout
-
-\begin_layout Standard
-Lo sed apprende instruite.
- Que altere responder su, pan ma, i.
-\begin_inset space \thinspace{}
-\end_inset
-
-e., signo studio.
- 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand labelonly
-reference "fig:example-b"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- Instruite preparation le duo, asia altere tentation web su.
- Via unic facto rapide de, iste questiones methodicamente o uno, nos al.
+Zinc(II) binding proteins are extremely diverse in structure and function.
+ Zn(II) is a intermediate Lewis acid in terms of hardness according to the
  
 \begin_inset ERT
 status open
@@ -805,183 +486,375 @@ status open
 
 
 \backslash
-enlargethispage{2cm}
+gls{hsab}
 \end_layout
 
 \end_inset
 
+, theory formulated by Ralph Pearson.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pearson1963"
+literal "true"
 
-\end_layout
+\end_inset
 
-\begin_layout Standard
-\begin_inset Float figure
-placement bth
-wide false
-sideways false
+ Because of this, Zn(II) can be coordinated by zarówno the sulfur atom of
+ the cysteine (a soft Lewis base), the nitrogen atom of the histidine (an
+ intermediate Lewis base), as well as by carboxyl anions derived from the
+ aspartates and glutamates (a hard Lewis base).
+ The most common 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/example_1.jpg
-	width 45line%
-
-\end_inset
 
 
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Asia personas duo.
+\backslash
+gls{Lg}
 \end_layout
 
 \end_inset
 
+ found in the zinc binding sites is cysteine, followed by histidine and
+ acidic residues, i.e.
+ aspartic acid and glutamic acid 
+\begin_inset Foot
+status collapsed
 
+\begin_layout Plain Layout
+Those findings are based on the structural data from the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
 \end_layout
 
 \end_inset
 
-
-\begin_inset space \quad{}
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
+.
+ Just because there are structures of such 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/example_2.jpg
-	width 45line%
+
+
+\backslash
+glspl{mprotein}
+\end_layout
+
+\end_inset
+
+ does not necessarily mean that this is true in all existing zinc binding
+ sites existing.
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Laitaoja2013"
+literal "true"
+
+\end_inset
+
+ For zinc binding sites, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cn}
+\end_layout
+
+\end_inset
+
+ ranging from to to seven were found in the literature 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sousa2009,Andreini2011"
+literal "true"
+
+\end_inset
+
+, however di- and tricoordinate are zinc complexes are highly reactive,
+ meaning that the stable zinc binding sites have 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+ at least equal four.
+ Thorough manual analysis performed by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Laitaoja2013"
+literal "true"
+
+\end_inset
+
+ ruled out of physiological existence of zinc binding sites of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+ higher than seven.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Laitaoja2013"
+literal "true"
+
+\end_inset
+
+ The most common zinc binding sites found in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+ have 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+=4, which corresponds to the tetrahedral geometry.
+ The low occurrence of zinc binding sites with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{CN}
+\end_layout
+
+\end_inset
+
+>4 is probably due to the small size of Zn(II) (~74
+\begin_inset space \space{}
+\end_inset
+
+pm and ~88
+\begin_inset space \space{}
+\end_inset
+
+pm for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+=4 and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+=6, respectively), which causes molecular repulsion between the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{Lg}
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Miessler, G.
+ L.; Tarr, D.
+ A.
+ Inorganic Chemistry, 4th ed.; Pearson Prentice Hall: Upper Saddle River,
+ NJ, 2011.
+\end_layout
+
+\end_inset
+
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+ equal to two in zinc binding sites is usually caused by not-fully resolved
+ structure of zinc binding site having higher 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+ (e.g.
+ structure of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
 
 \end_inset
 
  
-\begin_inset Caption Standard
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:example-b"
 
-\end_inset
 
-Pan ma signo.
+\backslash
+gls{rad}
 \end_layout
 
 \end_inset
 
-
-\end_layout
+ zinc hook domain, PDB ID 6ZFF 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Soh2021"
+literal "true"
 
 \end_inset
 
-
-\end_layout
+), likewise 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+=3 in most cases is unresolved zinc binding site with 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/example_3.jpg
-	width 45line%
+
+
+\backslash
+gls{cn}
+\end_layout
 
 \end_inset
 
-
-\begin_inset Caption Standard
+=4, which is a very common situation in enzymatic zinc binding sites, where
+ the missing, unresolved 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-Methodicamente o uno.
+
+
+\backslash
+gls{Lg}
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset space \quad{}
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
+ is often a water molecule.
+ The different number and types of 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/example_4.jpg
-	width 45line%
 
-\end_inset
 
- 
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Titulo debitas.
+\backslash
+glspl{Lg}
 \end_layout
 
 \end_inset
 
-
+ often translates into differences in the properties of the coordination
+ sphere and zinc binding site formed.
 \end_layout
 
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status collapsed
-
-\begin_layout Plain Layout
-Tu duo titulo debitas latente
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:example"
-
-\end_inset
-
-Tu duo titulo debitas latente.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Standard
+The process of 
 \end_layout
 
 \end_body
