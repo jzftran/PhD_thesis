@@ -7,7 +7,7 @@
 \textclass classicthesis
 \begin_preamble
 \usepackage{pdfpages}
-\PassOptionsToPackage{abspath}{currfile}
+\usepackage{currfile-abspath}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -179,7 +179,11 @@ Olga Kerber
 
 \end_inset
 
-, Aleksandra Chorążewska
+,
+\begin_inset Newline newline
+\end_inset
+
+ Aleksandra Chorążewska
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -324,21 +328,26 @@ ExplSyntaxOn
 
 \begin_layout Plain Layout
 
+% call python script, here I assume the binary name is python3 
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-sys_shell_now:n {python3~.
+sys_shell_now:x {cd~
 \backslash
+thesispath | conda~activate~thesis | python~Scripts
+\backslash
+string
+\backslash
+Ag_vs_Hg_popularity
+\backslash
+string.py}
+\end_layout
 
-\backslash
-Scripts
-\backslash
+\begin_layout Plain Layout
 
-\backslash
-Ag_vs_Hg_popularity.py}
 \end_layout
 
 \begin_layout Plain Layout
@@ -412,7 +421,8 @@ literal "true"
 
  have identified 357 cases of recorded argyria, all of the recorded cases,
  except from the irreversible bluish skin tone, had benign course of the
- disease .
+ disease.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hill1939"
@@ -420,7 +430,75 @@ literal "true"
 
 \end_inset
 
- 
+ Despite low toxicity, the number of publications dedicated to silver toxicity
+ by the year increases (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ag_hg_count"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), possibly the reason for this is the use of silver in everyday articles
+ (e.g., use of the silver in deodorants, sportswear, anti-smoking pills),
+ of which a lot of these items utilize 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{agnp}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Oligodynamic effect, which is the property of some metals to have biocidal
+ effect, in case of silver is mainly caused by the bioactive species – Ag(I).
+ The antimicrobial properties of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{agnp}
+\end_layout
+
+\end_inset
+
+ mainly arise due to the oxidative dissolution of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{agnp}
+\end_layout
+
+\end_inset
+
+ in the cell, followed by the release of Ag(I)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+cytacje potrzebne, z pracy Olga Józek
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

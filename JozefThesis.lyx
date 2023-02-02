@@ -9,6 +9,7 @@
 %\ExecuteBibliographyOptions{backref=true,isbn=false}
 %\setmainfont[Scale=1.05]{EB Garamond} % for use with XeLaTeX and LuaLaTeX; download from bitbucket.org/georgd/eb-garamond
 \usepackage{pdfpages}
+\usepackage{bohr}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -308,7 +309,21 @@ filename "Chapter02.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Chapter03.lyx"
+filename "ZincProteome.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "Goals.lyx"
 
 \end_inset
 

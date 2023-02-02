@@ -30,7 +30,7 @@
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command biber
 \index_command default
 \paperfontsize default
@@ -308,7 +308,21 @@ filename "Chapter02.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Chapter03.lyx"
+filename "ZincProteome.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "Goals.lyx"
 
 \end_inset
 

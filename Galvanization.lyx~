@@ -133,8 +133,8 @@ Anna Kocyła, Józef Ba Tran and Artur Krężel
 status open
 
 \begin_layout Plain Layout
-Department of Chemical Biology, Faculty of Biotechnology University of Wrocław,
- F.
+Department of Chemical Biology, Faculty of Biotechnology, University of
+ Wrocław, F.
  Joliot-Curie 14a, 50-383 Wrocław, Poland
 \end_layout
 
@@ -991,7 +991,7 @@ today
 
 ) is richer with 
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -1430,6 +1430,7 @@ try and structural biology textbooks, which if any, mention only briefly
 status open
 
 \begin_layout Plain Layout
+ 
 \begin_inset CommandInset ref
 LatexCommand labelonly
 reference "ch:Zn(II) binding sites"

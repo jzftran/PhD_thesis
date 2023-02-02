@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass classicthesis
+\begin_preamble
+\usepackage{bohr}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language american
@@ -80,102 +83,175 @@
 \begin_body
 
 \begin_layout Chapter
-Introduction
+Proteins and cofactors
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Proteins-and-cofactors"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+trochę dziwnie, że w tym rozdziale zatytułowanym proteins and cofactors
+ mam informację o celu pracy.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "ch:Introduction"
+A significant portion of organic compounds synthesized by living organisms
+ are biopolymers; proteins, lipids, nucleic acids and other 
+\begin_inset ERT
+status open
 
-\end_inset
+\begin_layout Plain Layout
 
-This bundle for \SpecialChar LaTeX
 
-\begin_inset space \space{}
-\end_inset
-
-has two goals: 
+\backslash
+gls{hmw}
 \end_layout
 
-\begin_layout Enumerate
-Provide students with an easy-to-use template for their Master's or PhD
- thesis.
- (Though it might also be used by other types of authors for reports, books,
- etc.) 
+\end_inset
+
+ compounds (e.g., lignins, gums, melanins).
+ Among these macromolecules, proteins fulfill key roles in almost every
+ biological processes (catalysis, transport, mechanical-structural functions,
+ and others).
+ This extraordinarily rich diversity of functions is achieved despite the
+ fact that proteins are linear polymers built only of 20 types of canonical
+ amino acids
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Without taking into account 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{ptm}
 \end_layout
 
-\begin_layout Enumerate
-Provide a classic, high-quality typographic style that is inspired by 
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "bringhurst:2002"
-literal "true"
+\end_inset
+
+ and amino acid residues that are inserted during the cotranslation process.
+\end_layout
 
 \end_inset
 
-'s 
-\begin_inset Quotes eld
+, those canonical amino acids linked sequentially into a linear polymer
+ are responsible for a staggering variety of folds, structures and assemblies.
+ This gorgeous diversity of protein structures allow to fulfill astonishing
+ number of functions, however not every chemical (or physical) process is
+ possible to conduct with only 20 canonical amino acids.
+ One way the evolution 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+nie wiem czy nie antropomorfizuję zbytnio ewolucji tutaj
+\end_layout
+
+\end_inset
+
+ have solved the problem of limited chemical groups that can facilitate
+ important processes is the use of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{coenzyme}
+\end_layout
+
+\end_inset
+
+.
+ Numerous publications state that roughly one-third of proteins interact
+ with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
+\end_layout
+
 \end_inset
 
 
-\emph on
-The Elements of Typographic Style
-\emph default
+\begin_inset Foot
+status open
 
-\begin_inset Quotes erd
+\begin_layout Plain Layout
+My duty to the reader is to point out that the statement that one-third
+ of proteins interact with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
+\end_layout
+
+\end_inset
+
+ is not very credible.
+ This type of statement often appears in various papers treating about cofactors
+, yet one looks in vain for a reference to the literature, or information
+ on what organism these proteins are from, or how the analysis was done.
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+to jest jescze bardziej dyskusyjne patrzac na too, ze 1/3-1/4 bialek potrzebuje
+ metalu
+\end_layout
+
 \end_inset
 
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "bringhurst:2002"
+key "Rosenzweig2002,Bushmarina2006,Cao2011,frontiersin"
 literal "true"
 
 \end_inset
 
-.
- 
-\begin_inset Marginal
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-myTitle
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-myVersion
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\lang english
+ The 
 \begin_inset ERT
 status open
 
@@ -183,470 +259,53 @@ status open
 
 
 \backslash
-begin{pycode}[sessionA]
-\end_layout
-
-\begin_layout Plain Layout
-
-import sys
-\end_layout
-
-\begin_layout Plain Layout
-
-print(
-\begin_inset Quotes eld
-\end_inset
-
-
-\backslash
-
-\backslash
-begin{itemize}
-\begin_inset Quotes erd
-\end_inset
-
-)
-\end_layout
-
-\begin_layout Plain Layout
-
-print("
-\backslash
-
-\backslash
-item Running Python works.
-\backslash
-n")
-\end_layout
-
-\begin_layout Plain Layout
-
-print(
-\begin_inset Quotes eld
-\end_inset
-
-
-\backslash
-
-\backslash
-item Python version: 
-\begin_inset Quotes eld
-\end_inset
-
-+sys.version)
-\end_layout
-
-\begin_layout Plain Layout
-
-print(
-\begin_inset Quotes eld
-\end_inset
-
-
-\backslash
-
-\backslash
-end{itemize}
-\begin_inset Quotes erd
-\end_inset
-
-)
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-print(f
-\begin_inset Quotes eld
-\end_inset
-
-f-String test.
- 2+5 = {2+5}
-\begin_inset Quotes erd
-\end_inset
-
-)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pycode}
+gls{rcsb}
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-The bundle is configured to run with a 
-\emph on
-full
-\emph default
- MiK\SpecialChar TeX
- or \SpecialChar TeX
-Live
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-See the file 
-\family typewriter
-LISTOFFILES
-\family default
- for needed packages.
- Furthermore, 
-\family typewriter
-classicthesis
-\family default
- works with most other distributions and, thus, with most systems \SpecialChar LaTeX
- is available
- for.
-\end_layout
-
-\end_inset
-
- installation right away and uses only freely available fonts.
- (Minion fans can easily adjust the style to their needs.)
-\end_layout
-
-\begin_layout Standard
-People interested in the nice style and not the whole bundle can now use
- the style stand-alone via the file 
-\family typewriter
-classicthesis.sty
-\family default
-.
- This works now also with 
-\begin_inset Quotes eld
-\end_inset
-
-plain
-\begin_inset Quotes erd
-\end_inset
-
- \SpecialChar LaTeX
-.
-\end_layout
-
-\begin_layout Standard
-As of version 3.0, classicthesis can also be easily used with \SpecialChar LyX
-
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.lyx.org
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- thanks to Nicholas Mariette and Ivo Pletikosić.
- The \SpecialChar LyX
- version of this manual will contain more details.
+ queried for structures of enzymes return over 30% of enzymes that contain
  
-\end_layout
-
-\begin_layout Standard
-This should enable anyone with a basic knowledge of \SpecialChar LaTeX2e
- or \SpecialChar LyX
- to produce beautiful
- documents without too much effort.
- In the end, this is my overall goal: more beautiful documents, especially
- theses, as I am tired of seeing so many ugly ones.
-\end_layout
-
-\begin_layout Standard
-The whole template and the used style is released under the 
-\size footnotesize
-GNU
-\size default
- General Public License.
-\end_layout
-
-\begin_layout Standard
-If you like the style then I would appreciate a postcard: 
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-André Miede 
-\begin_inset Newline newline
-\end_inset
-
- Detmolder Straße 32 
-\begin_inset Newline newline
-\end_inset
-
- 31737 Rinteln 
-\begin_inset Newline newline
-\end_inset
-
- Germany 
-\end_layout
-
-\begin_layout Standard
-\noindent
-The postcards I received so far are available at:
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://postcards.miede.de
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Marginal
-status collapsed
-
-\begin_layout Plain Layout
-A well-balanced line width improves the legibility of the text.
- That's what typography is all about, right?
-\end_layout
-
-\end_inset
-
-Many theses, some books, and several other publications have been typeset
- successfully with classic thesis.
- If you are interested in typographic details behind it, enjoy Robert Bringhurst
-'s wonderful book.
- 
-\end_layout
-
-\begin_layout Paragraph
-Important Note:
-\end_layout
-
-\begin_layout Standard
-Some things of this style might look unusual at first glance, many people
- feel so in the beginning.
- However, all things are intentionally designed to be as they are, especially
- these: 
-\end_layout
-
-\begin_layout Itemize
-No bold fonts are used.
- Italics or spaced small caps do the job quite well.
- 
-\end_layout
-
-\begin_layout Itemize
-The size of the text body is intentionally shaped like it is.
- It supports both legibility and allows a reasonable amount of information
- to be on a page.
- And, no: the lines are not too short.
- 
-\end_layout
-
-\begin_layout Itemize
-The tables intentionally do not use vertical or double rules.
- See the documentation for the 
-\family typewriter
-booktabs
-\family default
- package for a nice discussion of this topic.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-To be found online at 
-\begin_inset Newline newline
-\end_inset
-
- 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.ctan.org/tex-archive/macros/latex/contrib/booktabs/
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Itemize
-And last but not least, to provide the reader with a way easier access to
- page numbers in the table of contents, the page numbers are right behind
- the titles.
- Yes, they are 
-\emph on
-not
-\emph default
- neatly aligned at the right side and they are 
-\emph on
-not
-\emph default
- connected with dots that help the eye to bridge a distance that is not
- necessary.
- If you are still not convinced: is your reader interested in the page number
- or does she want to sum the numbers up? 
-\end_layout
-
-\begin_layout Standard
-Therefore, please do not break the beauty of the style by changing these
- things unless you really know what you are doing! Please.
-\end_layout
-
-\begin_layout Paragraph
-Another Important Note:
-\end_layout
-
-\begin_layout Standard
-Since the first release of 
-\family typewriter
-classic\SpecialChar softhyphen
-the\SpecialChar softhyphen
-sis
-\family default
- in 2006, many things have changed in the \SpecialChar LaTeX
- world.
-  Trying to keep up-to-date, 
-\family typewriter
-classicthesis
-\family default
- grew and evolved  into many directions, trying to stay stable and be  compatibl
-e with its port to \SpecialChar LyX
-.
- However, there are still many  remains from older times in the code, many
- dirty workarounds here and  there, and several other things I am absolutely
- not proud of (for  example my unwise combination of 
-\size footnotesize
-KOMA
-\size default
--script and 
-\family typewriter
-titlesec
-\family default
- etc.).
- 
-\begin_inset Marginal
-status collapsed
-
-\begin_layout Plain Layout
- An outlook into the future of 
-\family typewriter
-classicthesis
-\family default
-.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Currently, I am looking into how to completely re-design and  re-implement
- 
-\family typewriter
-classicthesis
-\family default
- making it easier to maintain and use.
- As a general idea, 
-\family typewriter
-classicthesis.sty
-\family default
- should be  distributed separately from the template  itself.
-  Excellent spin-offs such as 
-\family typewriter
-arsclassica
-\family default
- could also be  integrated (with permission of their authors) as format
- configurations.
-  Also, current trends of 
-\family typewriter
-microtype
-\family default
-, 
-\family typewriter
-fontspec
-\family default
-, and others  should be included as well.
- As I am not really into deep  \SpecialChar LaTeX
- programming,  I will reach out to the \SpecialChar LaTeX
- community
- for their expertise and help.
- 
-\end_layout
-
-\begin_layout Section
-Organization
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Organization"
-
-\end_inset
-
-A very important factor for successful thesis writing is the organization
- of the material.
- This template suggests the structure as follows: 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-You can use these margins for summaries of the text body
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 
 \backslash
-dots
+glspl{cofactor}
 \end_layout
 
 \end_inset
 
+, which points out that 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
+\end_layout
+
+\end_inset
+
+ are essential for functioning of vast number of proteins.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mukhopadhyay2019"
+literal "true"
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+coś o typie oddziaływania kofaktorów z białkami?
 \end_layout
 
 \end_inset
@@ -654,137 +313,299 @@ dots
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
+\begin_inset ERT
+status open
 
-\family typewriter
-Chapters/
-\family default
- is where all the 
-\begin_inset Quotes eld
-\end_inset
+\begin_layout Plain Layout
 
-real
-\begin_inset Quotes erd
-\end_inset
 
- content goes in separate files such as 
-\family typewriter
-Chapter01.tex
-\family default
- etc.
- 
+\backslash
+Glspl{cofactor}
 \end_layout
 
-\begin_layout Itemize
-
-\family typewriter
-FrontBackMatter/
-\family default
- is where all the stuff goes that surrounds the 
-\begin_inset Quotes eld
 \end_inset
 
-real
-\begin_inset Quotes erd
+, contrary to the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{pgroup}
+\end_layout
+
 \end_inset
 
- content, such as the acknowledgments, dedication, etc.
- 
+ are not bound covalently to proteins, but associate with proteins by means
+ of other interactions, e.g., hydrogen bonds, Van der Waals forces etc., thus
+ to interact with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
 \end_layout
 
-\begin_layout Itemize
+\end_inset
 
-\family typewriter
-gfx/
-\family default
- is where you put all the graphics you use in the thesis.
- Maybe they should be organized into subfolders depending on the chapter
- they are used in, if you have a lot of graphics.
- 
+ proteins had to evolve 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+czy białka mogą ewolułować???
 \end_layout
 
-\begin_layout Itemize
+\end_inset
 
-\family typewriter
-Bibliography.bib
-\family default
-: a  Bib\SpecialChar TeX
- database to organize all the references you might want to cite.
- 
+ to form sites that will attract and associate with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
 \end_layout
 
-\begin_layout Itemize
+\end_inset
 
-\family typewriter
-classicthesis.sty
-\family default
-: the style definition to get this awesome look and feel.
- Does not only work with this thesis template but also on its own (see folder
- 
-\family typewriter
-Examples
-\family default
-).
- Bonus: works with \SpecialChar LaTeX
-, 
-\shape smallcaps
-pdf
-\shape default
-\SpecialChar LaTeX
-, 
-\shape smallcaps
-xe
-\shape default
-\SpecialChar LaTeX
-, 
-\shape smallcaps
-lua
-\shape default
-\SpecialChar LaTeX
-\SpecialChar ldots
- and all of them from \SpecialChar LyX
 .
+ The residues (not the sequence!) that adopt particular conformation and
+ arrangement in space, being able to accommodate a particular 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cofactor}
 \end_layout
 
-\begin_layout Itemize
-
-\family typewriter
-ClassicThesis.tex
-\family default
-: the main file of your thesis where all gets bundled together.
- 
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-classicthesis-config.tex
-\family default
-: a central place to load all nifty packages that are used.
- 
-\emph on
-
-\begin_inset Newline newline
 \end_inset
 
-Make your changes and adjustments here.
+ are called collectively a binding site.
+\end_layout
 
+\begin_layout Standard
+Proteins are able to interact with organic, non-protein 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
+\end_layout
+
+\end_inset
+
+, called 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{coenzyme}
+\end_layout
+
+\end_inset
+
+, the inorganic molecules constituting 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
+\end_layout
+
+\end_inset
+
+ are mostly metal ions.
+ The residues that binding sites that interact with metal ions are called
+ a 
+\begin_inset Quotes eld
+\end_inset
+
+metal binding site
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Among various 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cofactor}
+\end_layout
+
+\end_inset
+
+, the Zn(II) cation is one of the most common found in proteins.
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{mprotein}
+\end_layout
+
+\end_inset
+
+ interacting with Zn(II) are among the most diverse and widespread proteins
+ found in nature.
+ Genome sequencing projects have provided a great deal of information about
+ the structure of primary information about the primary structure of proteins.
+ The bioinformatic study of this information analyzed in terms of metal
+ interaction suggests that about 10% of the human proteome may bind Zn(II)
+ ions.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Andreini2006,Andreini2009"
+literal "true"
+
+\end_inset
+
+ What is worth noting is the fact, that those predictions (based solely
+ on the protein sequence) do not take into account the fact that the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{L}
+\end_layout
+
+\end_inset
+
+ may be bound by two or more macromolecules.
+ This minuscule comment spans a variety of other, challenging questions
+ – 
+\begin_inset Quotes eld
+\end_inset
+
+How often this intermolecular metal binding is occurring?
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+What are the properties of such sites and the binding proteins?
+\begin_inset Quotes erd
+\end_inset
+
+ and many other.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+nwm czy dobre pytanie, jak z interpunkcją?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+tu trochę o tym co było celem tej pracy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This PhD project was dedicated to analysis of proteins binding metal ion
+ at 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{ppi}
+\end_layout
+
+\end_inset
+
+.
+ The part of the project realized 
+\emph on
+in silico
 \emph default
- This means that you specify here the options you want to load 
-\family typewriter
-classicthesis.sty
-\family default
- with.
- You also adjust the title of your thesis, your name, and all similar informatio
-n here.
- Refer to 
+ concerns the survey of all known proteins that bind metal ions in intermolecula
+r fashion (including zinc ion), while 
+\emph on
+ex silico
+\emph default
+ studies regard the interaction of metal ions with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{hs}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ (See: 
 \begin_inset Flex CT - auto cross-reference
 status open
 
 \begin_layout Plain Layout
 \begin_inset CommandInset ref
 LatexCommand labelonly
-reference "sec:customization"
+reference "ch:Goals"
 plural "false"
 caps "false"
 noprefix "false"
@@ -796,923 +617,826 @@ noprefix "false"
 
 \end_inset
 
- for more information.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-In total, this should get you started in no time.
-\end_layout
-
-\end_inset
-
-
+).
 \end_layout
 
 \begin_layout Section
-Style Options
+Metal ions
+\end_layout
+
+\begin_layout Subsection
+Alkali and alkaline earth metal ions
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:options"
-
-\end_inset
-
-There are a couple of options for 
-\family typewriter
-classicthesis.sty
-\family default
- that allow for a bit of freedom concerning the layout: 
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Options are enabled via 
-\family typewriter
-option=true
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-General: 
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\family typewriter
-drafting
-\family default
-: prints the date and time at the bottom of each page, so you always know
- which version you are dealing with.
- Might come in handy not to give your Prof.
- that old draft.
+Approximately 1% of human body weight is made up of alkali and alkaline
+ earth metal ions.
  
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stephanos2014"
+literal "true"
 
-\end_deeper
-\begin_layout Itemize
-Parts and Chapters: 
-\begin_inset Separator latexpar
 \end_inset
 
+ The role of alkali and alkaline earth metal ions in organisms is divere,
+ sodium and potassium ions occur in all known organisms, generally those
+ ions function as electrolytes.
+ Calcium ions are known to function as a messengers – used by the living
+ organisms to communicate and orchestrate intracellular processes.
+ Magnesium ions are the most abundant divalent cations in the cell, majority
+ of it bound to 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+gls{atp}
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-
-\family typewriter
-parts
-\family default
-: use this option if you 
-\emph on
-need
-\emph default
- Part divisions in your document.
- This is necessary to get the spacing of the Table of Contents right.
- (Cannot be used together with 
-\family typewriter
-nochapters
-\family default
-.) 
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-nochapters
-\family default
-: allows to use the classicthesis style with classes that do not use chapters,
- e.
-\begin_inset space \thinspace{}
 \end_inset
 
-g., for articles.
- Automatically turns off a couple of other options: 
-\family typewriter
-eulerchapternumbers
-\family default
-, 
-\family typewriter
-linedheaders
-\family default
-, 
-\family typewriter
-listsseparated
-\family default
-, and 
-\family typewriter
-parts
-\family default
+, is essential to utilize 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{atp}
+\end_layout
+
+\end_inset
+
 .
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-linedheaders
-\family default
-: changes the look of the chapter headings a bit by adding a horizontal
- line above the chapter title.
- The chapter number will also be moved to the top of the page, above the
- chapter title.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Typography: 
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\family typewriter
-style
-\family default
-: this offers a convenient way of switching between different major styles.
- Default style is 
-\family typewriter
-classicthesis
-\family default
-.
- As a new feature, Lorenzo Pantieri's 
-\family typewriter
-arsclassica
-\family default
- is available as well.
- With his permission, 
-\family typewriter
-classicthesis-arsclassica.sty
-\family default
- is now part of 
-\family typewriter
-classicthesis
-\family default
- and will be maintained here.
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-palatino
-\family default
-: Hermann Zapf's classic font is the free standard font for this style.
- Robert Bringhurst's book uses Adobe's commercial font Minion Pro.
- However, there are other free alternatives also available.
- Deactivate this option for loading such alternatives and see 
-\family typewriter
-classicthesis-config.tex
-\family default
- for some suggestions.
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-eulerchapternumbers
-\family default
-: use figures from Hermann Zapf's Euler math font for the chapter numbers.
- By default, old style figures from the Palatino font are used.
- This option only works with pdfLaTeX.
- XeTeX and LuaTeX will use different default options that can be easily
- changed by the user; check Font section of classicthesis.sty for details.
  
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-beramono
-\family default
-: loads Bera Mono as a typewriter font.
- (Default setting is using the standard CM typewriter font.)
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-eulermath
-\family default
-: loads the awesome Euler fonts for math.
- Pala\SpecialChar softhyphen
-tino is used as the default font.
- This option only works with pdfLaTeX.
- XeTeX and LuaTeX can easily be configured to use any font you want.
- 
-\begin_inset Note Comment
-status open
-
-\begin_layout Itemize
-
-\family typewriter
-pdfspacing
-\family default
-: makes use of pdf\SpecialChar TeX
- letter spacing capabilities via the 
-\family typewriter
-microtype
-\family default
- package.
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Use 
-\family typewriter
-microtype
-\family default
-'s 
-\family typewriter
-DVIoutput
-\family default
- option to generate DVI with pdftex.
-\end_layout
-
-\end_inset
-
- This fixes some serious issues regarding math formulæ etc.
- (e.
-\begin_inset space \thinspace{}
-\end_inset
-
-g., 
-\begin_inset Quotes eld
-\end_inset
-
-ß
-\begin_inset Quotes erd
-\end_inset
-
-) in headers.
- This is an obsolete option, letterspacing will either be done by microtype
- or fontspec, depending on the engine used.
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-minionprospacing
-\family default
-: uses the internal 
-\family typewriter
-textssc
-\family default
- command of the 
-\family typewriter
-MinionPro
-\family default
- package for letter spacing.
- This enables the 
-\family typewriter
-minionpro
-\family default
- option and overrides 
-\family typewriter
-pdfspacing
-\family default
-.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Table of Contents: 
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\family typewriter
-tocaligned
-\family default
-: aligns the whole table of contents on the left side.
- Some people like that, some don't.
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-dottedtoc
-\family default
-: sets pagenumbers flushed right in the table of contents.
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-manychapters
-\family default
-: if you need more than nine chapters for your document, you might not be
- happy with the spacing between the chapter number and the chapter title
- in the Table of Contents.
- This option allows for additional space in this context.
- However, it does not look as 
-\begin_inset Quotes eld
-\end_inset
-
-perfect
-\begin_inset Quotes erd
-\end_inset
-
- if you use 
-\family typewriter
-
-\backslash
-parts
-\family default
- for structuring your document.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Floats: 
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\family typewriter
-floatperchapter
-\family default
-: activates numbering per chapter for all floats such as figures, tables,
- and listings (if used).
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-listings
-\family default
-: loads the 
-\family typewriter
-listings
-\family default
- package and configures the List of Listings accordingly.
- 
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-subfig
-\family default
-: subfigure option is passed to the 
-\family typewriter
-tocloft
-\family default
- package to enable compatibility with the 
-\family typewriter
-subfig
-\family default
- package.
- Enable this option if you will use the package.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-Furthermore, pre-defined margins for different paper sizes are available,
- i.e.
- a4 paper, a5 paper, b5 paper, and letter paper.
- These are based on your chosen option of 
-\family typewriter
-
-\backslash
-documentclass
-\family default
-.
- Both 
-\family typewriter
-paper=a4
-\family default
- and 
-\family typewriter
-a4paper
-\family default
- options will work.
-\end_layout
-
-\begin_layout Standard
-The best way to figure these options out is to try different possibilities
- and see what you and your supervisor like best.
- To make things easier, 
-\family typewriter
-classicthesis\SpecialChar softhyphen
--config.tex
-\family default
- contains some useful commands that might help you.
-\end_layout
-
-\begin_layout Section
-Customization
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:customization"
-
-\end_inset
-
-This section will give you a few hints about how to adapt 
-\family typewriter
-classicthesis
-\family default
- to your needs.
- The file 
-\family typewriter
-classicthesis.sty
-\family default
- contains the core functionality of the style and in most cases will be
- left intact, whereas 
-\family typewriter
-classicthesis-config.tex
-\family default
- is used for some common user customizations.
-\end_layout
-
-\begin_layout Standard
-The first customization you are about to make is to alter the document title,
- author name, and other thesis details.
- In order to do this, replace the data in the following lines of 
-\family typewriter
-classicthesis-config.tex:
-\family default
-
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Modifications in 
-\family typewriter
-classicthesis\SpecialChar softhyphen
--config.tex
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset listings
-lstparams "frame=lt"
-inline false
-status open
-
-\begin_layout Plain Layout
-
-% *****************************************************
-\end_layout
-
-\begin_layout Plain Layout
-
-% 2.
- Personal data and user ad-hoc commands
-\end_layout
-
-\begin_layout Plain Layout
-
-% *****************************************************
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand{
-\backslash
-myTitle}{A Classic Thesis Style
-\backslash
-xspace} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand{
-\backslash
-mySubtitle}{An Homage to...
-\backslash
-xspace} 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-This is a code listing layout inserted from the Lyx insert menu
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Further customization can be made in 
-\family typewriter
-classicthesis-config.tex
-\family default
- by choosing the options to 
-\family typewriter
-classicthesis.sty
-\family default
- (see section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:options"
-
-\end_inset
-
-) in the lines that look like this:
-\end_layout
-
-\begin_layout Standard
-\begin_inset listings
-lstparams "frame=lt"
-inline false
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-PassOptionsToPackage{drafting=true,
-\end_layout
-
-\begin_layout Plain Layout
-
-                      parts=true,
-\end_layout
-
-\begin_layout Plain Layout
-
-                      ...
-\end_layout
-
-\begin_layout Plain Layout
-
-                      }{classicthesis}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Colors and fonts of certain elements of classicthesis can be tweaked by
- redefining some internal commands: 
-\family typewriter
-
-\backslash
-ct@altfont
-\family default
- and 
-\family typewriter
-
-\backslash
-ct@caps
-\family default
- are hooks to alter the basic look of everything that uses spaced caps.
- For example, for 
-\family typewriter
-arsclassica
-\family default
- we used 
-\family typewriter
-
-\backslash
-renewcommand*{
-\backslash
-ct@altfont}{
-\backslash
-sffamily}
-\family default
-.
- Coloring is also possible this way.
- Check the corresponding commands in 
-\family typewriter
-classicthesis.sty
-\family default
- for further ideas and implementation details.
-\end_layout
-
-\begin_layout Standard
-Several color names have been introduced to easily change chapter number,
- title or hyperreference colors: 
-\family typewriter
-CTsemi
-\family default
- will affect the color used for chapter numbers, the default is 
-\family typewriter
-
-\backslash
-definecolor{CTsemi}{gray}{0.55}
-\family default
-; 
-\family typewriter
-CTtitle
-\family default
- can be used to change the title color from the default crimson red 
-\family typewriter
-
-\backslash
-definecolor{CTtitle}{named}{Maroon}
-\family default
-, and so on.
- Color settings are handled by 
-\family typewriter
-xcolor
-\family default
- package, check the documentation for other named colors (in the dvipsnames
- set) and other possibilities.
-\end_layout
-
-\begin_layout Standard
-Many other customisations in 
-\family typewriter
-classicthesis-config.tex
-\family default
- are possible, but you should be careful with making changes there, since
- some changes could cause errors.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
 status collapsed
 
 \begin_layout Plain Layout
-Finally, if really needed, changes can be made in the file 
-\family typewriter
-classic\SpecialChar softhyphen
-thesis.sty
-\family default
-,
-\begin_inset Marginal
+https://pubs.acs.org/doi/10.1021/ic5000606
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+jeszcze coś o takim biologicznym aspekcie, co to robi w organiźmie itd.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In proteins both alkali and alkaline earth metal ions commonly play a structural
+ role in stabilization of the protein 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-Modifications in 
-\family typewriter
-classicthesis.sty
+
+
+\backslash
+gls{fold}
 \end_layout
 
 \end_inset
 
- although this is mostly not designed for user customisation.
- Some commands from 
-\family typewriter
-classicthesis.sty
-\family default
- can be repeated at the end of 
-\family typewriter
-classicthesis-config.tex
-\family default
- to change the default behavior — the text-block size can be adjusted, for
- example, to get longer lines of text.
+, however it is possible to play a catalytic role (e.g.
+ Mg(II) in T4 ligase 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Cherepanov & de Vries, 2002 
+\end_layout
+
+\end_inset
+
+), alkali and alkaline-earth compensate charge of highly acidic regions
+ in macromolecules, e.g., polyphosphate backbone in nucleic acids.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+(Owczarzy et al., 2004 ▸; Zheng et al., 2015 ▸; Várnai & Zakrzewska, 2004
+ ▸) 
+\end_layout
+
+\end_inset
+
+ Despite the fact that biology of alkali and alkaline earth metals is quite
+ well understood, it still hides some of the secrets, for instance the biologica
+l effects (as well as some of the side effects) of lithium are known; lithium
+ carbonate is widely used to treat some of the mood disorders, however the
+ biological targets of Li(I) ions in the organisms are not known yet.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+nwm czy tu trzeba cytacji
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The alkali metals have a single 
+\emph on
+s
+\emph default
+ electron, the alkaline earth metal ions have a filled outer 
+\emph on
+s-
+\emph default
+orbital (by two electrons).
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+nwm czy poprawnie zapisany s oribal
+\end_layout
+
+\end_inset
+
+ Both groups of metals are highly electropositive and reluctantly polarizable.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stephanos2014"
+literal "true"
+
+\end_inset
+
+ Due to the low polarizability alkali and alkaline earth metal ions are
+ considered to be a hard Lewis acids.
+ In accordance with Ralph Pearson's 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{hsab}
+\end_layout
+
+\end_inset
+
+ concept, hard Lewis acids should react more willingly with hard Lewis bases.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pearson1963"
+literal "true"
+
+\end_inset
+
+ This behavior is easily confirmed by observation of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{L}
+\end_layout
+
+\end_inset
+
+ that complex those metals, i.e.
+ coordination sphere of those metal ions is usually consisting of hard Lewis
+ acids (in proteins, by oxygen-containing acidic amino acids).
+ Usually alkali and alkaline-earth metal ions are coordinated by macromolecules
+ with six-coordinated octahedral geometry (
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Kuppuraj et al., 2009 ▸)
+\end_layout
+
+\end_inset
+
+), however more than six donor atoms are sometimes found in the alkali or
+ alkali-earth metal binding sites – mostly due to the bidentate 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdescplural{L}
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Zheng, H., Chruszcz, M., Lasota, P., Lebioda, L.
+ & Minor, W.
+ (2008).
+ J.
+ Inorg.
+ Biochem.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+moze przydałoby się tu wymienić co robią te pierwiastki?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Transition metal ions 
+\end_layout
+
+\begin_layout Standard
+Transition metals are defined as elements that have partially filled 
+\emph on
+d 
+\emph default
+orbital.
+ Transition metals due to the fact that 
+\emph on
+d
+\emph default
+ orbitals are quite close in energy levels (degenerated), can form compounds
+ with a wide range of oxidation states, some of those states are quite stable.
+ The elements across the 
+\emph on
+d 
+\emph default
+block tend to be more polarizable.
+ Those two properties make the use of transition metals useful in catalysis,
+ thus there is no wonder why evolution has utilized so widely transition
+ metals in enzymes.
+ The first property is used when there is need for switching the oxidation
+ state of the enzyme's substrate.
+ In such enzyme, the metal ion can cycle between oxidation states and play
+ a role as an acceptor or donor of electrons (depending on the catalyzed
+ reaction).
+ The second property allow metal ions to function in the catalytic sites
+ without changing the oxidation state.
+ Such metal cations play a role of a Lewis acid, accepting pairs of electrons,
+ e.g., like Zn(II) in catalytic site of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{ca2}
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+10.1021/cr050262p
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the presence of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdescplural{L}
+\end_layout
+
+\end_inset
+
+ the orbitals of the transition metal ions break of degeneracy, this causes
+ a variety of physio-chemical effects (i.e., the property of having a color),
+ but also exerts a particular geometry of the complex.
+ Unsurprisingly proteins have evolved to accommodate a various geometries
+ of the metal ions – the metal binding sites have to match the geometry
+ of the particular metal ion to bind it.
+\end_layout
+
+\begin_layout Standard
+Out of ten first-row transition metals, five of them are essential to human
+ health – manganese, iron, cobalt, copper and zinc (not being a transition
+ metal 
+\emph on
+per se,
+\emph default
+ discussed in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "subsec:properties_of_zinc"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+).
+ The essentiality of those elements is nonnegotiable, as those elements
+ are 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
+\end_layout
+
+\end_inset
+
+ or build some of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{coenzyme}
+\end_layout
+
+\end_inset
+
+ of biologically important proteins or enzymes.
  
 \end_layout
 
+\begin_layout Standard
+Manganese is present as a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cofactor}
+\end_layout
+
+\end_inset
+
+ in several enzymes, which maintain the metabolism, for examples in the
+ human bran manganese-dependent glutamine synthetase is responsible for
+ glutamine synthesis in astrocytes.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+10.1016/S0165-0173(02)00234-5.
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section
-Issues
+\begin_layout Standard
+Iron accounts for 0.05‰ of human body weight.
+ Hemoglobin is a flagship protein that realizes the necessity of iron in
+ human diet.
+ Iron in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{mprotein}
+\end_layout
+
+\end_inset
+
+ is often bound as a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pgroup}
+\end_layout
+
+\end_inset
+
+ – heme, however, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{mprotein}
+\end_layout
+
+\end_inset
+
+ where iron ions act as a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
+\end_layout
+
+\end_inset
+
+ exists as well, e.g., ferritin or rubredoxin.
+\end_layout
+
+\begin_layout Standard
+Cobalt is essential part of vitamin B
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+
+, which is used as a coenzyme in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{dna}
+\end_layout
+
+\end_inset
+
+ synthesis, amino acid and fatty acids metabolism.
+ Similarly to iron, cobalt does not have to be only bound to corrin derivatives
+ or vitamin B
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+
+, but can be utilized by some proteins as a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{coenzyme}
+\end_layout
+
+\end_inset
+
+ directly (e.g., methionine aminopeptidase 2).
+\end_layout
+
+\begin_layout Standard
+Copper 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{mprotein}
+\end_layout
+
+\end_inset
+
+ play essential roles in electron transport and oxygen metabolism.
+ Copper is essential for aerobic respiration in eukaryotes, as it is found
+ as 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{coenzyme}
+\end_layout
+
+\end_inset
+
+ of cytochrome c oxidase, where it serves a function of electron transporter.
+ Copper is also a coenzyme of copper-zinc 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{sod}
+\end_layout
+
+\end_inset
+
+, an enzyme that catalyses the reaction of disproportionation of superoxides.
+\end_layout
+
+\begin_layout Standard
+Additionally, to the five first-row essential 
+\emph on
+d
+\emph default
+-block elements, three more first-row 
+\emph on
+d
+\emph default
+-block elements – chromium, vanadium and nickel – show some biological effects,
+ however the essentiality and need of supplementation of those elements
+ is debatable.
+ 
+\end_layout
+
+\begin_layout Standard
+Cr(III) is found in foods and dietary supplements, many of which are advertised
+ to have beneficial effect on glucose metabolism and regulation.
+ This rationale is based on observations of patients receiving Cr(III)-free
+ intravenous drip who developed symptoms similar to insulin-resistant diabetes.
+ Symptoms were relieved after intravenous drip supplementation with a small
+ amount of Cr(III).
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5399133/
+\end_layout
+
+\end_inset
+
+ The efficacy of the supplementation of Cr(III) is characterized by evidence
+ of low strength thus the rationale to recommend their use for glycemic
+ control in patients with type 2 diabetes mellitus are precarious.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://doi.org/10.1093/nutrit/nuw011
+\end_layout
+
+\end_inset
+
+ In United States Cr(III) ions are consitered essential nutrient in humans
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/#h2
+\end_layout
+
+\end_inset
+
+, the European Food Safety Authority do not share this opinion, arguing
+ that the evidence supporting this assumption is insufficient.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+https://www.efsa.europa.eu/en/efsajournal/pub/3845
+\end_layout
+
+\end_inset
+
+ While the role of Cr(III) on human body is uncertain, the toxicity and
+ carcinogenic properties of Cr(VI) are known for a long time.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Newman, D.
+ (1890).
+ "A case of adeno-carcinoma of the left inferior turbinated body, and perforatio
+n of the nasal septum, in the person of a worker in chrome pigments".
+ Glasgow Medical Journal.
+ 33: 469–470.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Vanadium seems to me more important for life in marine environments – number
+ of marine life forms like algae utilize vanadium in enzymes 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+doi:10.1039/b302337k
+\end_layout
+
+\end_inset
+
+.
+ Tunicates draw attention due to specialized blood cells types – vanadocytes,
+ accumulating vanadium through vanadium interacting protein called vanabins,
+ however the role of those proteins and the vanadium in tunicates is still
+ shrouded in mystery.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.sciencedirect.com/science/article/abs/pii/S0167478103000368
+\end_layout
+
+\end_inset
+
+ Vanadium related issues for human health are similar to the case of chromium
+ – vanadium complexes may exert some antidiabetic effects 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+10.1016/S0010-8545(01)00447-7
+\end_layout
+
+\end_inset
+
+, however a functional role for vanadium in mammals and humans is not defined
+ yet, thus it is not recognized as an essential nutrient.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://nap.nationalacademies.org/read/10026/chapter/15#532
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nickel is essential to some of bacteria, archea, fungi and plants, where
+ usually nickel plays a role in enzymatic processes, e.g., urease, a nickel
+ enzyme is considered as a virulence factor in some pathogens.
+ The essentiality of Ni(II) in mammals is still discussed, on the one hand,
+ rats grown without nickel (or in low-abundance) exhibit depressed growth,
+ several outside the norm biochemical and morphology results.
+ Nickel seemed to be involved in reproduction of nickel-deprived rats, as
+ the lack of the element resulted in increased perinatal mortality rate.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://link.springer.com/chapter/10.1007/978-94-007-7500-8_10
+\end_layout
+
+\end_inset
+
+ Though no physiological nickel targets in mammals and humans have been
+ found, the vast usage of Ni(II) by prokaryotes suggests that the element
+ might be essential for the symbiotic gut microbiota.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://link.springer.com/chapter/10.1007/978-94-007-7500-8_10
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Unique properties of zinc
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+zmienić tytuł
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
-name "sec:issues"
+name "subsec:properties_of_zinc"
 
-\end_inset
-
- This section will list some information about problems using 
-\family typewriter
-classic\SpecialChar softhyphen
-thesis
-\family default
- in general or using it with other packages.
-\end_layout
-
-\begin_layout Standard
-Beta versions of 
-\family typewriter
-classicthesis
-\family default
- can be found at Bitbucket: 
-\begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\align center
-\begin_inset Flex URL
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-https://bitbucket.org/amiede/classicthesis/
+
+\backslash
+setbohr{shell-options-add = dashed,
 \end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-There, you can also post serious bugs and problems you encountered.
-\end_layout
-
-\begin_layout Section
-Future Work
-\end_layout
-
-\begin_layout Standard
-So far, this is a quite stable version that served a couple of people well
- during their thesis time.
- However, some things are still not as they should be.
- Proper documentation in the standard format is still missing.
- In the long run, the style should probably be published separately, with
- the template bundle being only an application of the style.
- Alas, there is no time for that at the moment\SpecialChar ldots
- it could be a nice task for
- a small group of \SpecialChar LaTeX
-nicians.
-\end_layout
-
-\begin_layout Standard
-Please do not send me email with questions concerning \SpecialChar LaTeX
-
-\begin_inset space \space{}
-\end_inset
-
-or the template, as I do not have time for an answer.
- But if you have comments, suggestions, or improvements for the style or
- the template in general, do not hesitate to write them on that postcard
- of yours.
-\end_layout
-
-\begin_layout Section
-Beyond a thesis
-\end_layout
-
-\begin_layout Standard
-The layout of 
-\family typewriter
-classicthesis.sty
-\family default
- can be easily used without the framework of this template.
- A few examples where it was used to typeset an article, a book or a curriculum
- vitae can be found in the folder 
-\family typewriter
-Examples
-\family default
-.
- The examples have been tested with 
-\family typewriter
-latex
-\family default
- and 
-\family typewriter
-pdflatex
-\family default
- and are easy to compile.
- To encourage you even a more, PDFs built from the sources can be found
- in the same folder.
- 
-\end_layout
-
-\begin_layout Section
-License
-\end_layout
-
-\begin_layout Paragraph
-GNU General Public License:
-\end_layout
-
-\begin_layout Standard
-This program is free software; you can redistribute it and/or modify it
- under the terms of the 
-\size footnotesize
-GNU
-\size default
- General Public License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
-\end_layout
-
-\begin_layout Standard
-This program is distributed in the hope that it will be useful, but 
-\emph on
-without any warranty
-\emph default
-; without even the implied warranty of 
-\emph on
-merchant\SpecialChar softhyphen
-ability
-\emph default
- or 
-\emph on
-fitness for a particular purpose
-\emph default
-.
- See the 
-\size footnotesize
-GNU
-\size default
- General Public License for more details.
-\end_layout
-
-\begin_layout Standard
-You should have received a copy of the 
-\size footnotesize
-GNU
-\size default
- General Public License along with this program; see the file 
-\family typewriter
-COPYING
-\family default
-.
- If not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite
- 330, Boston, 
-\size footnotesize
-MA
-\size default
- 02111-1307, 
-\size footnotesize
-USA
-\size default
-.
-\end_layout
-
-\begin_layout Paragraph
-Author's note:
-\end_layout
-
-\begin_layout Standard
-There have been some discussions about the 
-\size footnotesize
-GPL
-\size default
- implications on using 
-\family typewriter
-classicthesis
-\family default
- for theses etc.
- Details can be found here:
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Flex URL
-status open
 
 \begin_layout Plain Layout
 
-https://bitbucket.org/amiede/classicthesis/issues/123/
+	distribution-method=quantum,
+\end_layout
+
+\begin_layout Plain Layout
+
+		 insert-missing}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+elconf{Zn}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bohr{}{Zn}
 \end_layout
 
 \end_inset
@@ -1720,20 +1444,25 @@ https://bitbucket.org/amiede/classicthesis/issues/123/
 
 \end_layout
 
-\begin_layout Standard
-We chose (and currently stick with) the 
-\size footnotesize
-GPL
-\size default
- because we would not like to compete with proprietary modified versions
- of our own work.
- However, the whole template is free as free beer and free as free speech.
- We will not demand the sources for theses, books, CVs, etc.
- that were created using classicthesis.
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Zinc
 \end_layout
 
-\begin_layout Standard
-Postcards are still highly appreciated.
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

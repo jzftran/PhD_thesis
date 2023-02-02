@@ -1363,7 +1363,7 @@ status open
 
 
 \backslash
-ref{eq:HgHk2}
+ref{eq:Hg}
 \end_layout
 
 \end_inset
@@ -1388,7 +1388,7 @@ status open
 
 
 \backslash
-ref{eq:HgHk2}
+ref{eq:Hg}
 \end_layout
 
 \end_inset
@@ -1433,7 +1433,7 @@ begin{equation}
 
 
 \backslash
-label{eqn:HgHk2}
+label{eq:Hg}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1727,10 +1727,18 @@ gls{rad}
 
 \end_inset
 
- flexibility? This and many other questions remain to be answered, however
- the first problem to tackle should be an assessment whether Hg(II) binding
- in the zinc hook domain influences any of the various functions filled
- by the 
+ flexibility? 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Thangaraj2019,Merickel2002"
+literal "true"
+
+\end_inset
+
+ This and many other questions remain to be answered, however the first
+ problem to tackle should be an assessment whether Hg(II) binding in the
+ zinc hook domain influences any of the various functions filled by the
+ 
 \begin_inset ERT
 status open
 

@@ -70,7 +70,7 @@
 
 % Package to use Python code in the thesis 
 \usepackage[gobble=auto]{pythontex}
-
+\def \thesispath{"C:\string\Users\string\makro\string\Desktop\string\PhD"}
 
 
 \usepackage{newpxtext,newpxmath}
@@ -319,8 +319,8 @@ first={X-ray absorption spectroscopy (XAS)}}
 
 \newglossaryentry{hsab}{type=\acronymtype,
 	name={HSAB},
-	description={Hard and Soft Acid and Bases principle , \glsseeformat[Glossary:]{hsabg}{}},
-	first={Hard and Soft Acid and Bases principle (HSAB)\glsadd{hsabg}},
+	description={Hard and Soft Acid and Bases , \glsseeformat[Glossary:]{hsabg}{}},
+	first={Hard and Soft Acid and Bases (HSAB)\glsadd{hsabg}},
 	}
 
 \newglossaryentry{merr}{type=\acronymtype,
@@ -330,7 +330,7 @@ first={Mercuric resistance operon regulatory protein (MerR)},
 }
 
 \newglossaryentry{atox}{type=\acronymtype,
-name={atox},
+name={ATOX1},
 description={Copper transport protein ATOX1},
 first={Copper transport protein ATOX1 (ATOX1)},
 }
@@ -402,13 +402,18 @@ name={Me},
 description={metal},
 first={metal (Me)}
 }
-%!!!!!!!!!!!!!!!!!! Description of a ligand
+
 \newglossaryentry{Lg}{name={ligand},
-	description={Need description of a ligand.}}
-%!!!!!!!!!!!!!!!!!! Description of a ligand
-\newglossaryentry{L}{type=\acronymtype, name={ligand},
+	description={In chemistry ligand is a ion or molecule that act as a Lewis base
+	(see \gls{hsab}) for the molecule or ion (a Lewis acid). Thus interacting
+	with the Lewis acid by a coordination bond.
+	In biochemistry  ligand is understood as a molecule that binds to another
+	(macro)molecule.}}
+
+\newglossaryentry{L}{type=\acronymtype, name={L},
 	description={ligand, \glsseeformat[Glossary:]{Lg}{}},
-	first={ligand (L) \glsadd{Lg}}}
+	first={ligand (L) \glsadd{Lg}},
+	descriptionplural ={ligands}}
 
 \newglossaryentry{R}{type=\acronymtype,
 name={R},
@@ -416,6 +421,66 @@ description={molar gas constant},
 first={molar gas constant (R)}
 }
 
+\newglossaryentry{agnp}{type=\acronymtype, name={AgNP},
+	description={silver nanoparticle},
+	first={silver nanoparticle (AgNP)},
+	descriptionplural={silver nanoparticles},
+	firstplural = {silver nanoparticles (AgNPs)}
+	}
+
+\newglossaryentry{hmw}{type=\acronymtype, name={HMW},
+description={high molecular weight},
+first={high molecular weight (HMW)},
+}
+
+
+\newglossaryentry{ptmg}{name={PTM},
+	description={Post-translational modification is the covalent (usually enzymatic)
+	modification of protein that is subsequent to the protein biosynthesis.}}
+
+\newglossaryentry{ptm}{type=\acronymtype, name={PTM},
+	description={post-translational modification, \glsseeformat[Glossary:]{ptmg}{}},
+	first={post-translational modification (PTM) \glsadd{ptmg}},
+	plural={PTMs},
+	descriptionplural={post-translational modifications},
+	firstplural={post-translational modifications (\glsentryplural{ptm})}}
+
+\newglossaryentry{coenzyme}{name={coenzyme},
+description={Coenzyme is a non-protein organic \gls{cofactor}.}} %https://www.jove.com/science-education/10975/cofactors-and-coenzymes
+
+\newglossaryentry{cofactor}{name={cofactor},
+description={Cofactor is a non-protein chemical compound required for a protein to fulfill its functions.}} 
+
+\newglossaryentry{pgroup}{name={prosthetic group},
+description={Prosthetic group is a non-protein compound required for a protein to fulfill its functions,
+however, contrary to the \gls{cofactor} prosthetic group is covalently conjugated with a protein.}} 
+
+
+\newglossaryentry{mprotein}{name={metalloprotein},
+description={metalloprotein is a protein that contain at least one metal ion as a \gls{cofactor} or as a part of \gls{pgroup}.}} 
+
+
+\newglossaryentry{atp}{type=\acronymtype, name={ATP},
+	description={adenosine triphosphate},
+	first={adenosine triphosphate (ATP)},
+	}
+
+\newglossaryentry{sod}{type=\acronymtype, name={SOD},
+description={superoxide dismutase},
+descriptionplural={superoxide dismutases},
+first={superoxide dismutase (SOD)},
+firstplural={superoxide dismutases (SODs)},
+}
+
+\newglossaryentry{dna}{type=\acronymtype, name={DNA},
+	description={deoxyribonucleic acid},
+	first={deoxyribonucleic acid (DNA)},
+	}
+
+\newglossaryentry{ca2}{type=\acronymtype, name={CAII},
+description={carbonic anhydrase II},
+first={carbonic anhydrase II (CAII)},
+}
 
 
 
