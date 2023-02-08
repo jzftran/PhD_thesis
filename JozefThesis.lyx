@@ -10,6 +10,10 @@
 %\setmainfont[Scale=1.05]{EB Garamond} % for use with XeLaTeX and LuaLaTeX; download from bitbucket.org/georgd/eb-garamond
 \usepackage{pdfpages}
 \usepackage{bohr}
+
+\usepackage{tabularray}
+\usepackage{makecell}
+\usepackage{rotating}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -31,7 +35,7 @@
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 1
+\output_sync 0
 \bibtex_command biber
 \index_command default
 \paperfontsize default

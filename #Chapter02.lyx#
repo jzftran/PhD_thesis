@@ -579,7 +579,7 @@ glspl{cn}
 
 \end_inset
 
- ranging from to to eight were found in the literature 
+ ranging from to to seven were found in the literature 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sousa2009,Andreini2011"
@@ -598,6 +598,274 @@ status open
 \backslash
 gls{cn}
 \end_layout
+
+\end_inset
+
+ at least equal four.
+ Thorough manual analysis performed by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Laitaoja2013"
+literal "true"
+
+\end_inset
+
+ ruled out of physiological existence of zinc binding sites of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+ higher than seven.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Laitaoja2013"
+literal "true"
+
+\end_inset
+
+ The most common zinc binding sites found in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+ have 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+=4, which corresponds to the tetrahedral geometry.
+ The low occurrence of zinc binding sites with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+>4 is probably due to the small size of Zn(II) (~74
+\begin_inset space \space{}
+\end_inset
+
+pm and ~88
+\begin_inset space \space{}
+\end_inset
+
+pm for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+=4 and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+=6, respectively), which causes molecular repulsion between the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{Lg}
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Miessler, G.
+ L.; Tarr, D.
+ A.
+ Inorganic Chemistry, 4th ed.; Pearson Prentice Hall: Upper Saddle River,
+ NJ, 2011.
+\end_layout
+
+\end_inset
+
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+ equal to two in zinc binding sites is usually caused by not-fully resolved
+ structure of zinc binding site having higher 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+ (e.g.
+ structure of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ zinc hook domain, PDB ID 6ZFF 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Soh2021"
+literal "true"
+
+\end_inset
+
+), likewise 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+=3 in most cases is unresolved zinc binding site with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cn}
+\end_layout
+
+\end_inset
+
+=4, which is a very common situation in enzymatic zinc binding sites, where
+ the missing, unresolved 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Lg}
+\end_layout
+
+\end_inset
+
+ is often a water molecule.
+ The different number and types of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{Lg}
+\end_layout
+
+\end_inset
+
+ often translates into differences in the properties of the coordination
+ sphere and zinc binding site formed.
+\end_layout
+
+\begin_layout Standard
+The process of Zn(II) complexation by polypeptide often entails the formation
+ of a stable conformation.
+ The zinc binding sites can exist as a pre-made arrangement of amino acids
+ in the space, where zinc binding does not causes huge structural changes
+ in protein (usually in enzymes), however the zinc binding can promote protein
+ folding and formation of separate protein domains (e.g., zinc fingers), this
+ process is often in structural zinc sites.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kochanczyk2015"
+literal "true"
 
 \end_inset
 

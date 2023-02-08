@@ -6,9 +6,10 @@
 \origin unavailable
 \textclass classicthesis
 \begin_preamble
+\usepackage{bohr}
+\usepackage{hhline}
+\usepackage{colortbl}
 \usepackage{tabularray}
-\usepackage{makecell}
-\usepackage{rotating}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -1213,6 +1214,180 @@ glspl{sod}
 \end_layout
 
 \begin_layout Standard
+Additionally, to the five first-row essential 
+\emph on
+d
+\emph default
+-block elements, three more first-row 
+\emph on
+d
+\emph default
+-block elements – chromium, vanadium and nickel – show some biological effects,
+ however the essentiality and need of supplementation of those elements
+ is debatable.
+ 
+\end_layout
+
+\begin_layout Standard
+Cr(III) is found in foods and dietary supplements, many of which are advertised
+ to have beneficial effect on glucose metabolism and regulation.
+ This rationale is based on observations of patients receiving Cr(III)-free
+ intravenous drip who developed symptoms similar to insulin-resistant diabetes.
+ Symptoms were relieved after intravenous drip supplementation with a small
+ amount of Cr(III).
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5399133/
+\end_layout
+
+\end_inset
+
+ The efficacy of the supplementation of Cr(III) is characterized by evidence
+ of low strength thus the rationale to recommend their use for glycemic
+ control in patients with type 2 diabetes mellitus are precarious.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://doi.org/10.1093/nutrit/nuw011
+\end_layout
+
+\end_inset
+
+ In United States Cr(III) ions are consitered essential nutrient in humans
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/#h2
+\end_layout
+
+\end_inset
+
+, the European Food Safety Authority do not share this opinion, arguing
+ that the evidence supporting this assumption is insufficient.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+https://www.efsa.europa.eu/en/efsajournal/pub/3845
+\end_layout
+
+\end_inset
+
+ While the role of Cr(III) on human body is uncertain, the toxicity and
+ carcinogenic properties of Cr(VI) are known for a long time.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Newman, D.
+ (1890).
+ "A case of adeno-carcinoma of the left inferior turbinated body, and perforatio
+n of the nasal septum, in the person of a worker in chrome pigments".
+ Glasgow Medical Journal.
+ 33: 469–470.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Vanadium seems to me more important for life in marine environments – number
+ of marine life forms like algae utilize vanadium in enzymes 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+doi:10.1039/b302337k
+\end_layout
+
+\end_inset
+
+.
+ Tunicates draw attention due to specialized blood cells types – vanadocytes,
+ accumulating vanadium through vanadium interacting protein called vanabins,
+ however the role of those proteins and the vanadium in tunicates is still
+ shrouded in mystery.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.sciencedirect.com/science/article/abs/pii/S0167478103000368
+\end_layout
+
+\end_inset
+
+ Vanadium related issues for human health are similar to the case of chromium
+ – vanadium complexes may exert some antidiabetic effects 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+10.1016/S0010-8545(01)00447-7
+\end_layout
+
+\end_inset
+
+, however a functional role for vanadium in mammals and humans is not defined
+ yet, thus it is not recognized as an essential nutrient.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://nap.nationalacademies.org/read/10026/chapter/15#532
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nickel is essential to some of bacteria, archea, fungi and plants, where
+ usually nickel plays a role in enzymatic processes, e.g., urease, a nickel
+ enzyme is considered as a virulence factor in some pathogens.
+ The essentiality of Ni(II) in mammals is still discussed, on the one hand,
+ rats grown without nickel (or in low-abundance) exhibit depressed growth,
+ several outside the norm biochemical and morphology results.
+ Nickel seemed to be involved in reproduction of nickel-deprived rats, as
+ the lack of the element resulted in increased perinatal mortality rate.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://link.springer.com/chapter/10.1007/978-94-007-7500-8_10
+\end_layout
+
+\end_inset
+
+ Though no physiological nickel targets in mammals and humans have been
+ found, the vast usage of Ni(II) by prokaryotes suggests that the element
+ might be essential for the symbiotic gut microbiota.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://link.springer.com/chapter/10.1007/978-94-007-7500-8_10
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -1238,337 +1413,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Simplified version of the Periodic Table of the Elements indicating biologically
- relevant metals.
- With green color essential for life metals were marked.
- Yellow color mark the elements that are essential for some species.
- Chromium is marked in orange color as the essentiality for life of this
- element is questionable.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-resizebox{
-\backslash
-columnwidth}{!}{%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{BayLeaf}{rgb}{0.513,0.701,0.513}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{Chenin}{rgb}{0.866,0.866,0.4}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{WebOrange}{rgb}{1,0.647,0}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{tblr}{
-\end_layout
-
-\begin_layout Plain Layout
-
-  width = 
-\backslash
-linewidth,
-\end_layout
-
-\begin_layout Plain Layout
-
-  cells = {c},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{1}{3} = {c=19}{},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{3}{1} = {r=7}{cmd=
-\backslash
-rotatebox{90}},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{5}{3} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{5}{4} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{3} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{4} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{8} = {Chenin},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{9} = {WebOrange},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{10} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{11} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{12} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{13} = {Chenin},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{14} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{6}{15} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{7}{9} = {BayLeaf},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{7}{15} = {Chenin},
-\end_layout
-
-\begin_layout Plain Layout
-
-  cell{8}{9} = {Chenin},
-\end_layout
-
-\begin_layout Plain Layout
-
-  vline{3-4,21-22} = {3}{},
-\end_layout
-
-\begin_layout Plain Layout
-
-  vline{3-5,16-22} = {4-5}{},
-\end_layout
-
-\begin_layout Plain Layout
-
-  vline{3-22} = {6-9}{},
-\end_layout
-
-\begin_layout Plain Layout
-
-  vline{6-20} = {11-12}{},
-\end_layout
-
-\begin_layout Plain Layout
-
-  hline{3} = {3,21}{},
-\end_layout
-
-\begin_layout Plain Layout
-
-  hline{4-5} = {3-4,16-21}{},
-\end_layout
-
-\begin_layout Plain Layout
-
-  hline{6-10} = {3-4,6-21}{},
-\end_layout
-
-\begin_layout Plain Layout
-
-  hline{11-13} = {6-19}{},
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-       &   & Group &    &    &    &    &    &    &    &    &    &    & 
-   &    &    &    &    &    &    &    
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       &   & 1     & 2  &    & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & 11
- & 12 & 13 & 14 & 15 & 16 & 17 & 18 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-Period & 1 & H     &    &    &    &    &    &    &    &    &    &    & 
-   &    &    &    &    &    &    & He 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       & 2 & Li    & Be &    &    &    &    &    &    &    &    &    & 
-   &    & B  & C  & N  & O  & F  & Ne 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       & 3 & Na    & Mg &    &    &    &    &    &    &    &    &    & 
-   &    & Al & Si & P  & S  & Cl & Ar 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       & 4 & K     & Ca &    & Sc & Ti & V  & Cr & Mn & Fe & Co & Ni & Cu
- & Zn & Ga & Ge & As & Se & Br & Kr 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       & 5 & Rb    & Sr &    & Y  & Zr & Nb & Mo & Tc & Ru & Rh & Pd & Ag
- & Cd & In & Sn & Sb & Te & I  & Xe 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       & 6 & Cs    & Ba & *  & Lu & Hf & Ta & W  & Re & Os & Ir & Pt & Au
- & Hg & Tl & Pb & Bi & Po & At & Rn 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       & 7 & Fr    & Ra & ** & Lr & Rf & Db & Sg & Bh & Hs & Mt & Ds & Rg
- & Cn & Nh & Fl & Mc & Lv & Ts & Og 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       &   &       &    &    &    &    &    &    &    &    &    &    & 
-   &    &    &    &    &    &    &    
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       &   &       &    & *  & La & Ce & Pr & Nd & Pm & Sm & Eu & Gd & Tb
- & Dy & Ho & Er & Tm & Yb &    &    
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-       &   &       &    & ** & Ac & Th & Pa & U  & Np & Pu & Am & Cm & Bk
- & Cf & Es & Fm & Md & No &    &    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{tblr}
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1578,17 +1422,6 @@ end{tblr}
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \begin_inset Note Note
 status open
 
@@ -4225,177 +4058,293 @@ No
 \end_layout
 
 \begin_layout Standard
-Additionally, to the five first-row essential 
-\emph on
-d
-\emph default
--block elements, three more first-row 
-\emph on
-d
-\emph default
--block elements – chromium, vanadium and nickel – show some biological effects,
- however the essentiality and need of supplementation of those elements
- is debatable.
- 
-\end_layout
-
-\begin_layout Standard
-Cr(III) is found in foods and dietary supplements, many of which are advertised
- to have beneficial effect on glucose metabolism and regulation.
- This rationale is based on observations of patients receiving Cr(III)-free
- intravenous drip who developed symptoms similar to insulin-resistant diabetes.
- Symptoms were relieved after intravenous drip supplementation with a small
- amount of Cr(III).
- 
-\begin_inset Note Note
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5399133/
+
+
+\backslash
+resizebox{
+\backslash
+linewidth}{!}{%
 \end_layout
-
-\end_inset
-
- The efficacy of the supplementation of Cr(III) is characterized by evidence
- of low strength thus the rationale to recommend their use for glycemic
- control in patients with type 2 diabetes mellitus are precarious.
-\begin_inset Note Note
-status open
 
 \begin_layout Plain Layout
-https://doi.org/10.1093/nutrit/nuw011
+
+
+\backslash
+begin{tblr}{
 \end_layout
-
-\end_inset
-
- In United States Cr(III) ions are consitered essential nutrient in humans
- 
-\begin_inset Note Note
-status open
 
 \begin_layout Plain Layout
-https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/#h2
+
+  cells = {c},
 \end_layout
-
-\end_inset
-
-, the European Food Safety Authority do not share this opinion, arguing
- that the evidence supporting this assumption is insufficient.
- 
-\begin_inset Note Note
-status collapsed
 
 \begin_layout Plain Layout
-https://www.efsa.europa.eu/en/efsajournal/pub/3845
+
+  cell{1}{3} = {c=19}{},
 \end_layout
-
-\end_inset
-
- While the role of Cr(III) on human body is uncertain, the toxicity and
- carcinogenic properties of Cr(VI) are known for a long time.
- 
-\begin_inset Note Note
-status collapsed
 
 \begin_layout Plain Layout
-Newman, D.
- (1890).
- "A case of adeno-carcinoma of the left inferior turbinated body, and perforatio
-n of the nasal septum, in the person of a worker in chrome pigments".
- Glasgow Medical Journal.
- 33: 469–470.
+
+  cell{3}{1} = {r=7}{cyan,halign=c,cmd=
+\backslash
+rothead},
 \end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-Vanadium seems to me more important for life in marine environments – number
- of marine life forms like algae utilize vanadium in enzymes 
-\begin_inset Note Note
-status open
 
 \begin_layout Plain Layout
-doi:10.1039/b302337k
+
+  cell{5}{3} = {BayLeaf},
 \end_layout
-
-\end_inset
-
-.
- Tunicates draw attention due to specialized blood cells types – vanadocytes,
- accumulating vanadium through vanadium interacting protein called vanabins,
- however the role of those proteins and the vanadium in tunicates is still
- shrouded in mystery.
- 
-\begin_inset Note Note
-status open
 
 \begin_layout Plain Layout
-https://www.sciencedirect.com/science/article/abs/pii/S0167478103000368
+
+  cell{5}{4} = {BayLeaf},
 \end_layout
-
-\end_inset
-
- Vanadium related issues for human health are similar to the case of chromium
- – vanadium complexes may exert some antidiabetic effects 
-\begin_inset Note Note
-status open
 
 \begin_layout Plain Layout
-10.1016/S0010-8545(01)00447-7
+
+  cell{6}{3} = {BayLeaf},
 \end_layout
-
-\end_inset
-
-, however a functional role for vanadium in mammals and humans is not defined
- yet, thus it is not recognized as an essential nutrient.
- 
-\begin_inset Note Note
-status open
 
 \begin_layout Plain Layout
-https://nap.nationalacademies.org/read/10026/chapter/15#532
+
+  cell{6}{4} = {BayLeaf},
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Nickel is essential to some of bacteria, archea, fungi and plants, where
- usually nickel plays a role in enzymatic processes, e.g., urease, a nickel
- enzyme is considered as a virulence factor in some pathogens.
- The essentiality of Ni(II) in mammals is still discussed, on the one hand,
- rats grown without nickel (or in low-abundance) exhibit depressed growth,
- several outside the norm biochemical and morphology results.
- Nickel seemed to be involved in reproduction of nickel-deprived rats, as
- the lack of the element resulted in increased perinatal mortality rate.
- 
-\begin_inset Note Note
-status open
 
 \begin_layout Plain Layout
-https://link.springer.com/chapter/10.1007/978-94-007-7500-8_10
+
+  cell{6}{8} = {Chenin},
 \end_layout
-
-\end_inset
-
- Though no physiological nickel targets in mammals and humans have been
- found, the vast usage of Ni(II) by prokaryotes suggests that the element
- might be essential for the symbiotic gut microbiota.
-\begin_inset Note Note
-status open
 
 \begin_layout Plain Layout
-https://link.springer.com/chapter/10.1007/978-94-007-7500-8_10
+
+  cell{6}{9} = {WebOrange},
+\end_layout
+
+\begin_layout Plain Layout
+
+  cell{6}{10} = {BayLeaf},
+\end_layout
+
+\begin_layout Plain Layout
+
+  cell{6}{11} = {BayLeaf},
+\end_layout
+
+\begin_layout Plain Layout
+
+  cell{6}{12} = {BayLeaf},
+\end_layout
+
+\begin_layout Plain Layout
+
+  cell{6}{13} = {Chenin},
+\end_layout
+
+\begin_layout Plain Layout
+
+  cell{6}{14} = {BayLeaf},
+\end_layout
+
+\begin_layout Plain Layout
+
+  cell{6}{15} = {BayLeaf},
+\end_layout
+
+\begin_layout Plain Layout
+
+  cell{7}{9} = {BayLeaf},
+\end_layout
+
+\begin_layout Plain Layout
+
+  cell{7}{15} = {Chenin},
+\end_layout
+
+\begin_layout Plain Layout
+
+  cell{8}{9} = {Chenin},
+\end_layout
+
+\begin_layout Plain Layout
+
+  vline{3-4,21-22} = {3}{},
+\end_layout
+
+\begin_layout Plain Layout
+
+  vline{3-5,16-22} = {4-5}{},
+\end_layout
+
+\begin_layout Plain Layout
+
+  vline{3-22} = {6-9}{},
+\end_layout
+
+\begin_layout Plain Layout
+
+  vline{6-20} = {11-12}{},
+\end_layout
+
+\begin_layout Plain Layout
+
+  hline{3} = {3,21}{},
+\end_layout
+
+\begin_layout Plain Layout
+
+  hline{4-5} = {3-4,16-21}{},
+\end_layout
+
+\begin_layout Plain Layout
+
+  hline{6-10} = {3-4,6-21}{},
+\end_layout
+
+\begin_layout Plain Layout
+
+  hline{11-13} = {6-19}{},
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+       &   & Group &    &    &    &    &    &    &    &    &    &    & 
+   &    &    &    &    &    &    &    
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       &   & 1     & 2  &    & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & 11
+ & 12 & 13 & 14 & 15 & 16 & 17 & 18 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Period & 1 & H     &    &    &    &    &    &    &    &    &    &    & 
+   &    &    &    &    &    &    & He 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       & 2 & Li    & Be &    &    &    &    &    &    &    &    &    & 
+   &    & B  & C  & N  & O  & F  & Ne 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       & 3 & Na    & Mg &    &    &    &    &    &    &    &    &    & 
+   &    & Al & Si & P  & S  & Cl & Ar 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       & 4 & K     & Ca &    & Sc & Ti & V  & Cr & Mn & Fe & Co & Ni & Cu
+ & Zn & Ga & Ge & As & Se & Br & Kr 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       & 5 & Rb    & Sr &    & Y  & Zr & Nb & Mo & Tc & Ru & Rh & Pd & Ag
+ & Cd & In & Sn & Sb & Te & I  & Xe 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       & 6 & Cs    & Ba & *  & Lu & Hf & Ta & W  & Re & Os & Ir & Pt & Au
+ & Hg & Tl & Pb & Bi & Po & At & Rn 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       & 7 & Fr    & Ra & ** & Lr & Rf & Db & Sg & Bh & Hs & Mt & Ds & Rg
+ & Cn & Nh & Fl & Mc & Lv & Ts & Og 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       &   &       &    &    &    &    &    &    &    &    &    &    & 
+   &    &    &    &    &    &    &    
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       &   &       &    & *  & La & Ce & Pr & Nd & Pm & Sm & Eu & Gd & Tb
+ & Dy & Ho & Er & Tm & Yb &    &    
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       &   &       &    & ** & Ac & Th & Pa & U  & Np & Pu & Am & Cm & Bk
+ & Cf & Es & Fm & Md & No &    &    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tblr}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset
 
- 
+
 \end_layout
 
 \end_body

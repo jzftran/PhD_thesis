@@ -1430,7 +1430,25 @@ try and structural biology textbooks, which if any, mention only briefly
 status open
 
 \begin_layout Plain Layout
- 
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:Proteins-and-cofactors"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
 \begin_inset CommandInset ref
 LatexCommand labelonly
 reference "ch:Zn(II) binding sites"

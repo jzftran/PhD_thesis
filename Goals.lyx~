@@ -80,13 +80,279 @@
 \begin_body
 
 \begin_layout Chapter
-Zinc proteome
+Goals
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
-name "ch:Zinc proteome"
+name "ch:Goals"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Investigation of intermolecular metal binding sites
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+coś jest źle z tym plikiem
+\end_layout
+
+\end_inset
+
+Zn(II) ions were found to be essential for growth of the toxic for human
+ mold – 
+\emph on
+Aspergillus nigerr 
+\emph default
+in 1869, nearly one hundred years later, in 1961, it was postulated that
+ zinc is essential also for humans.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+(1) Raulin J.
+ Etudes cliniques sur la vegetation.
+ Ann.
+ Sci.
+ Nat.
+ Bot.
+ Biol.
+ Veg.
+ Ser.
+ 1869, 11, 293– 299.
+ (2) Prasad, A.
+ S.
+ et al.
+ Syndrome of iron deficiency anemia, hepatosplenomegaly, hypogonadism, dwarfism
+ and geophagia.
+ Am.
+ J.
+ Med.
+ 1961, 31, 532–546.
+\end_layout
+
+\end_inset
+
+ Almost 20 years later the first structures of proteins containing Zn(II)
+ started to appear.
+ It will not be an exaggeration if I say that the number of scientific questions
+ is proportional to the amount of new data 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+może to jednak jest przesada
+\end_layout
+
+\end_inset
+
+– with the advent of the first Zn(II)-containing macromolecular structures,
+ questions about the factors that govern the formation of the zinc binding
+ sites started to appear.
+ With more Zn(II)-containing structures deposited in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+ some tendencies became clear (see 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "sec:Zinc-Binding-Sites"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+), however the fact that the Zn(II) ions (and other metal ions) can be bound
+ at 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{interface}
+\end_layout
+
+\end_inset
+
+ of two or more macromolecules was rather ignored – the one of the first
+ reviews of structural knowledge of metal binding sites in proteins appeared
+ in 
+\begin_inset CommandInset citation
+LatexCommand citebyear
+key "Tainer1992"
+literal "true"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tainer1992"
+literal "true"
+
+\end_inset
+
+ whereas the first review regarding the binding of metals at 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{ppi}
+\end_layout
+
+\end_inset
+
+ appeared in 
+\begin_inset CommandInset citation
+LatexCommand citebyear
+key "Song2014"
+literal "true"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Song2014"
+literal "true"
+
+\end_inset
+
+ This Chapter will focus on the methodology how one can investigate the
+ metal binding sites at 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdescplural{ppi}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+podać jakieś charakterystyki miejsc cynkowych, powiedzieć dlaczego szukanie
+ miejsc białkowych na poddstawie tych charakterystyk jest głupie
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\emph on
+In silico 
+\emph default
+investigation of intermolecular metal binding sites
+\emph on
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+bazy danych i porównanie baz danych
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To date, there are no computational algorithms or other methods that are
+ able to identify or classify intermolecular metal binding based on protein
+ sequence or structure.
+ The problem of metal bindings sites prediction based on sequence was undertaken
+ in the past several times.
+ Apart from the availability of such tools, which is often unacceptable
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ye2022"
+literal "true"
+
+\end_inset
+
+, the quality of the proposed classifier 
+\end_layout
+
+\begin_layout Section
+
+\emph on
+Ex silico 
+\emph default
+investigation of intermolecular metal binding sites
+\emph on
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+metody stabilnościowe, kompetycyjne
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+And in 2001, pharmaceutical companies solve many protein crystals that are
+ not deposited in the PDB.
+\end_layout
 
 \end_inset
 

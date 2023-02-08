@@ -815,7 +815,20 @@ gls{interface}
  The only logical solution to the problem is to search online databases
  that provide information about proteins.
  Usually for the researcher the first source of information about protein
- of interest is UniProt 
+ of interest is 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{UniProt}
+\end_layout
+
+\end_inset
+
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Bateman2022"
@@ -823,8 +836,33 @@ literal "true"
 
 \end_inset
 
-, significant amount of protein sequences aggregated in UniProt are properly
- annotated to interact with metal ions, including Zn(II) ion, alas, UniProt
+, significant amount of protein sequences aggregated in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{UniProt}
+\end_layout
+
+\end_inset
+
+ are properly annotated to interact with metal ions, including Zn(II) ion,
+ alas, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{UniProt}
+\end_layout
+
+\end_inset
+
  does not provide the information whether the metal ion is bound on the
  protein-protein 
 \begin_inset ERT

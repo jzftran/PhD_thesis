@@ -80,12 +80,8 @@
 
 \hyphenation{mon-o-meric}
 
-% \clubpenalty=9996
-% \widowpenalty=9999
-% \brokenpenalty=4991
-% \predisplaypenalty=10000
-% \postdisplaypenalty=1549
-% \displaywidowpenalty=1602
+%*****************************************************************************************************
+% Colors
 % ****************************************************************************************************
 
 % ****************************************************************************************************
@@ -153,7 +149,8 @@
 
 \newglossaryentry{hts}{type=\acronymtype, name={HTS},
 	description={High-Throughput Screening, \glsseeformat[Glossary:]{htsg}{}},
-	first={High-Throughput Screening (HTS)\glsadd{htsg}}}
+	first={High-Throughput Screening (HTS)\glsadd{htsg}},
+	firstplural ={High-Throughput Screenings (HTSs)\glsadd{htsg}} }
 
 \newglossaryentry{interface}{name={interface},
 	description={A shared surface between two or more components.
@@ -173,6 +170,23 @@
 	descriptionplural={Zn(II)-involved \glsdescplural{ppi}},
   firstplural={Zn(II)-involved \glsdescplural{ppi} (\glsentryplural{zppi})}}
 
+
+\newglossaryentry{mppig}{name={MPPI},
+description={Metal-involved \glsdesc{ppi} is a protein-protein interaction
+		in which a vital role is played by a metal},}
+
+\newglossaryentry{mppi}{type=\acronymtype, name={MPPI},
+description={Metal-involved \glsdesc{ppi}, \glsseeformat[Glossary:]{mppig}{}},
+first={Metal-involved \glsdesc{ppi} (MPPI)\glsadd{mppig}},
+plural={MPPIs},
+descriptionplural={Metal-involved \glsdescplural{ppi}},
+firstplural={Metal-involved \glsdescplural{ppi} (\glsentryplural{mppi})}}
+
+
+
+
+
+
 \newglossaryentry{cry}{type=\acronymtype, name={CRY1},
 	description={Cryptochrome 1},
 	first={Cryptochrome 1 (CRY1)},
@@ -191,6 +205,12 @@
 description={Research Collaboratory for Structural Bioinformatics Protein Data Bank},
 first={Research Collaboratory for Structural Bioinformatics \gls{pdb} (RCSB \gls{pdb})}
 }
+
+\newglossaryentry{UniProt}{name={UniProt},
+description={The Universal Protein Resource (UniProt) is a database of
+protein sequence and annotation data.},
+}
+
 
 \newglossaryentry{pdb}{type=\acronymtype, name={PDB},
 description={Protein Data Bank or Protein Data Bank file type},
@@ -366,6 +386,11 @@ description={Isothermal Titration Calorimetry},
 first={Isothermal Titration Calorimetry (ITC)}
 }
 
+\newglossaryentry{MS}{type=\acronymtype,
+name={MS},
+description={mass spectrometry},
+first={Mass Spectrometry (MS)}
+}
 
 \newglossaryentry{dG}{type=\acronymtype,
 name={\textDelta \textit{G}\textdegree},
@@ -488,6 +513,19 @@ first={coordination number (CN)},
 firstplural={coordination numbers (CNs)},
 plural={CNs},
 }
+
+\newglossaryentry{OSETA}{type=\acronymtype,
+name={OSETA},
+description={one single-epitope tag affinity purification},
+first={one single-epitope tag affinity purification (OSETA)}
+}
+
+\newglossaryentry{TAP}{type=\acronymtype,
+name={TAP},
+description={tandem affinity purification},
+first={tandem affinity purification (TAP)}
+}
+
 
 %%%% shortcuts
 \newcommand{\gshort}[1]{\glslink{#1}{#1}}
