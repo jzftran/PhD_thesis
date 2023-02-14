@@ -112,8 +112,6 @@
 
 %% modsuper glossary display style
 
-% \newacronym{API}{API}{Application Programming Interface}
-% \newglossaryentry{api}{type=\acronymtype, name={API}, description={Application Programming Interface}, first={Application Programming Interface (API)}}
 
 
 \newglossaryentry{apig}{name={API},
@@ -217,9 +215,32 @@ description={Protein Data Bank or Protein Data Bank file type},
 first={Protein Data Bank (PDB)}
 }
 
+\newglossaryentry{ascii}{type=\acronymtype, name={ASCII},
+description={American Standard Code for Information Interchange},
+first={American Standard Code for Information Interchange (ASCII)}
+}
+
+\newglossaryentry{html}{type=\acronymtype, name={HTML},
+description={HyperText Markup Language},
+first={HyperText Markup Language (HTML)}
+}
+
+
 \newglossaryentry{python}{name={Python},
 	description={Python is a high-level, object-oriented programming
 	language, often used in scientific community.},}
+
+
+
+
+\newglossaryentry{sql}{type=\acronymtype,
+name={SQL},
+description={Structured Query Language},
+first={Structured Query Language (SQL)},
+}
+
+\newglossaryentry{django}{name={Django},
+	description={Django is a high-level Python-based web framework.},}
 
 \newglossaryentry{bassembly}{name={biological assembly},
 description={The biological assembly is the arrangement of macromolecules
@@ -327,6 +348,11 @@ name={SAXS},
 description={Small-angle X-ray scattering},
 first={Small-angle X-ray scattering (SAXS)}}
 
+\newglossaryentry{mals}{type=\acronymtype,
+name={MALS},
+description={multiangle light scattering},
+first={multiangle light scattering (MALS)}}
+
 \newglossaryentry{xas}{type=\acronymtype,
 name={XAS},
 description={X-ray absorption spectroscopy},
@@ -367,11 +393,6 @@ description={Perturbed \textgamma-\textgamma\ Angular Correlation},
 first={Perturbed \textgamma-\textgamma\ Angular Correlation (PAC)}
 }
 
-\newglossaryentry{nmr}{type=\acronymtype,
-name={NMR},
-description={Nuclear Magnetic Resonance},
-first={Nuclear Magnetic Resonance (NMR)}
-}
 
 
 \newglossaryentry{DTT}{type=\acronymtype,
@@ -422,6 +443,37 @@ description={cumulative formation constant of the \glslink{Me}{Me}\glslink{L}{L}
 first={cumulative formation constant of the \glslink{Me}{Me}\glslink{L}{L}\textsubscript{2} complex (\textit{K}\textsubscript{12})}
 }
 
+\newglossaryentry{Ka}{type=\acronymtype,
+name={\textit{K}\textsubscript{a}},
+description={association constant},
+first={association constant (\textit{K}\textsubscript{a})}
+}
+
+\newglossaryentry{Kd}{type=\acronymtype,
+name={\textit{K}\textsubscript{d}},
+description={dissociation constant},
+first={dissociation constant (\textit{K}\textsubscript{d})}
+}
+
+\newglossaryentry{Kex}{type=\acronymtype,
+name={\textit{K}\textsubscript{ex}},
+description={constant of exchange},
+first={constant of exchange (\textit{K}\textsubscript{ex})}
+}
+
+\newglossaryentry{lmct}{type=\acronymtype,
+name={LMCT},
+description={ligand-metal charge transfer},
+first={ligand-metal charge transfer (LMCT)}
+}
+
+\newglossaryentry{ct}{type=\acronymtype,
+name={CT},
+description={charge transfer},
+first={charge transfer (CT)}
+}
+
+
 \newglossaryentry{Me}{type=\acronymtype,
 name={Me},
 description={metal},
@@ -439,6 +491,11 @@ first={metal (Me)}
 	description={ligand, \glsseeformat[Glossary:]{Lg}{}},
 	first={ligand (L) \glsadd{Lg}},
 	descriptionplural ={ligands}}
+
+\newglossaryentry{C}{type=\acronymtype, name={C},
+description={competitor},
+first={competitor (C)},
+descriptionplural ={competitors}}
 
 \newglossaryentry{R}{type=\acronymtype,
 name={R},
@@ -525,6 +582,74 @@ name={TAP},
 description={tandem affinity purification},
 first={tandem affinity purification (TAP)}
 }
+
+\newglossaryentry{SEC}{type=\acronymtype,
+name={SEC},
+description={size exclusion chromatography},
+first={Size Exclusion Chromatography (SEC)}
+}
+
+\newglossaryentry{FRET}{type=\acronymtype,
+name={FRET},
+description={Förster resonance energy transfer},
+first={Förster resonance energy transfer (FRET)}
+}
+
+\newglossaryentry{BLI}{type=\acronymtype,
+name={BLI},
+description={Bio-Layer Interferometry},
+first={Bio-Layer Interferometry (BLI)}
+}
+
+
+\newglossaryentry{SPR}{type=\acronymtype,
+name={SPR},
+description={Surface plasmon resonance},
+first={Surface plasmon resonance (SPR)}
+}
+
+\newglossaryentry{lck}{type=\acronymtype,
+name={Lck},
+description={lymphocyte-specific protein tyrosine kinase},
+first={lymphocyte-specific protein tyrosine kinase (Lck)}
+}
+
+\newglossaryentry{cd4}{type=\acronymtype,
+name={CD4},
+description={cluster of differentiation 4},
+first={cluster of differentiation 4 (CD4)}
+}
+
+
+\newglossaryentry{cd8}{type=\acronymtype,
+name={CD8},
+description={cluster of differentiation 8},
+first={cluster of differentiation 8 (CD8)}
+}
+
+
+\newglossaryentry{nmr}{type=\acronymtype,
+name={NMR},
+description={nuclear magnetic resonance},
+first={nuclear magnetic resonance (NMR)}
+}
+
+\newglossaryentry{cryoem}{type=\acronymtype,
+name={cryoEM},
+description={cryogenic electron microscopy},
+first={cryogenic electron microscopy (cryoEM)}}
+
+
+\newglossaryentry{exafs}{type=\acronymtype,
+name={EXAFS},
+description={extended X-ray absorption fine structure},
+first={extended X-ray absorption fine structure (EXAFS)}}
+
+\newglossaryentry{xanes}{type=\acronymtype,
+name={XANES},
+description={X-ray absorption near-edge structure},
+first={X-ray absorption near-edge structure (XANES)}}
+
 
 
 %%%% shortcuts

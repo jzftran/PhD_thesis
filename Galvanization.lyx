@@ -991,8 +991,8 @@ literal "true"
  of the article stops from being updated.
  It does not mean it becomes automatically outdated, the extensive description
  and analysis of the gathered and reviewed examples stays scientifically
- true until the next breakthrough in the field, however the lists of structures,
- and interwoven statistics and numbers change over time.
+ true (until the next breakthrough in the field), however the lists of structure
+s, and interwoven statistics and numbers change over time.
  From the publication date of 
 \begin_inset CommandInset citation
 LatexCommand citetitle
@@ -1560,7 +1560,7 @@ glspl{zppi}
 
 \end_inset
 
- 
+ a 
 \emph on
 terra incognita
 \emph default

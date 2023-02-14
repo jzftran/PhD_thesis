@@ -84,16 +84,6 @@
 
 \begin_layout Chapter
 Zinc proteome 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-może warto to zapisać jako proteome?
-\end_layout
-
-\end_inset
-
-
 \begin_inset CommandInset label
 LatexCommand label
 name "ch:Zinc proteome"
@@ -217,20 +207,19 @@ s
 \emph on
 d 
 \emph default
-orbitals makes zinc a 
-\begin_inset Quotes eld
-\end_inset
-
-spectroscopically quiet
-\begin_inset Quotes erd
-\end_inset
-
- metal – zinc complexes have no color.
+orbitals makes zinc a 'spectroscopically quiet' metal – zinc complexes have
+ no color.
+ Contrary to metals that have partially filled 
+\emph on
+d-
+\emph default
+shells, zinc have almost no spectroscopic signature.
+ 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-nwm czy to dobrze to napisałem
+http://websites.umich.edu/~jphgroup/XAS_Course/Sydney/CCR-silentmetals.pdf
 \end_layout
 
 \end_inset
@@ -490,6 +479,13 @@ gls{cofactor}
 
 \begin_layout Section
 Zinc Binding Sites
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Zinc-Binding-Sites"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -804,7 +800,29 @@ gls{rad}
 
 \end_inset
 
- zinc hook domain, PDB ID 6ZFF 
+ zinc hook domain, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pdb}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "6ZFF"
+target "https://www.rcsb.org/structure/6ZFF"
+literal "false"
+
+\end_inset
+
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Soh2021"
