@@ -909,6 +909,681 @@ literal "true"
 
 \begin_layout Standard
 Zinc binding sites can be divided by function but also by their architecture.
+ Functionally, zinc sites can be divided into:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+catalytic
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ zinc can be found in the active center of any of the six classes of enzymes
+ distinguished by the International Union of Biochemistry and Molecular
+ Biology.
+ In almost every enzyme Zn(II) acts as a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cofactor}
+\end_layout
+
+\end_inset
+
+ and one of the zinc 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{Lg}
+\end_layout
+
+\end_inset
+
+ is a water molecule.
+ In other proteins with no catalytic function, Zn(II) is usually bound by
+ the atoms of the side chains of the amino acid residues.
+ The interaction of the water molecule with the zinc cation allows for the
+ transient replacement of the water molecule by coordination of the substrate
+ molecule.
+ However in the case of most studied carbonic anhydrase, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsfirst{ca2}
+\end_layout
+
+\end_inset
+
+, water molecule is not replaced displaced from the zinc binding site, Zn(II)
+ lowers the waters p
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gshort{Ka}
+\end_layout
+
+\end_inset
+
+, facilitating dissociation to a hydroxide, that reacts with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{CO2}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+structural
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+zinc binding sites are usually characterized by a high affinity towards
+ Zn(II).
+ A classical example of domains containing structural zinc binding sites
+ are 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zf}
+\end_layout
+
+\end_inset
+
+.
+ An important structural characteristic that accompanies structural binding
+ sites is the presence of hydrophobic core that stabilizes the zinc-protein
+ complex.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+jakaś cytacja i obrazki
+\end_layout
+
+\end_inset
+
+ The function of the zinc binding site in such domains is to stabilize the
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{fold}
+\end_layout
+
+\end_inset
+
+ – a good example for this may be a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{fsd1}
+\end_layout
+
+\end_inset
+
+ peptide, an example of 
+\emph on
+de novo
+\emph default
+ protein design that bases on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbeta
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbeta
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textalpha
+\backslash
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{fold}
+\end_layout
+
+\end_inset
+
+ of zinc finger.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+10.1126/science.278.5335.82
+\end_layout
+
+\end_inset
+
+ The 
+\emph on
+de novo 
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{fsd1}
+\end_layout
+
+\end_inset
+
+ peptide maintains the same 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{fold}
+\end_layout
+
+\end_inset
+
+ as a fragment of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zif268}
+\end_layout
+
+\end_inset
+
+, however the fragment compared with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zif268}
+\end_layout
+
+\end_inset
+
+ shares only four amino acids in the same positions 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+10.1126/science.278.5335.82
+\end_layout
+
+\end_inset
+
+.
+ What is most notable is the change of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zif268}
+\end_layout
+
+\end_inset
+
+ sequence with hydrophobic and aromatic residues.
+ Which stabilize energetically the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{fold}
+\end_layout
+
+\end_inset
+
+ due to the hydrophobic effect.
+ Maybe even greatest importance of structural zinc binding sites can be
+ seen in case of chimeric 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mukb}
+\end_layout
+
+\end_inset
+
+, where zinc hook 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+tu odnosnik do zinc hooka
+\end_layout
+
+\end_inset
+
+ from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ can efficiently replaced the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mukb}
+\end_layout
+
+\end_inset
+
+ hinge 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.nature.com/articles/s41467-019-14025-0
+\end_layout
+
+\end_inset
+
+ while taking much less volume.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+odnośnik do figury pokazujący mukb i rad50
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+regulatory
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ zinc binding sites usually have medium affinities towards Zn(II), this
+ property allow to associate with Zn(II) during the Zn(II) influx and dissociate
+ during Zn(II) efflux.
+ Zinc is an essential metal for life, however in case of Zn(II) excess,
+ it exerts a toxic effect on the cell – thus the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{freezn}
+\end_layout
+
+\end_inset
+
+ concentration in the cell needs to be regulated.
+ So the cell regulates the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{freezn}
+\end_layout
+
+\end_inset
+
+ concentration by various mechanisms.
+ The functional division of the zinc binding sites proposed here distinguishes
+ three classes that are involved in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{freezn}
+\end_layout
+
+\end_inset
+
+ regulation, which shows the importance of maintaining physiological 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{freezn}
+\end_layout
+
+\end_inset
+
+ in the cell.
+ An example of the regulatory zinc binding site can be 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zap1}
+\end_layout
+
+\end_inset
+
+ from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{sc}
+\end_layout
+
+\end_inset
+
+.
+ Zinc binding by 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Gls{zap1}
+\end_layout
+
+\end_inset
+
+ is characterized by a remarkable lability observed both 
+\emph on
+in vitro
+\emph default
+ and 
+\emph on
+in vivo
+\emph default
+.
+
+\emph on
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+https://www.pnas.org/doi/10.1073/pnas.0600928103
+\end_layout
+
+\end_inset
+
+
+\emph default
+ This lability is essential for fulfilling its regulatory function.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+transporting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ zinc binding sites are responsible for cellular influx or efflux of Zn(II).
+ Similarly to regulatory and buffering binding sites, the transporting zinc
+ binding sites are characterized by a medium affinity towards Zn(II).
+ The examples of the transporting zinc binding sites are 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{sc}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zrt1}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zrt2}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zrt3}
+\end_layout
+
+\end_inset
+
+, which are regulated by 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zap1}
+\end_layout
+
+\end_inset
+
+.
+ The driving force for Zn(II) transport (which requires the conformational,
+ and affinity towards Zn(II) change) may be a proton motive force, which
+ is the case of human proton-coupled zinc antiporters (ZnT family), however
+ in case of the bigger Zn(II) transporter family (ZIP) the driving force
+ is unknown yet.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.pnas.org/doi/full/10.1073/pnas.1215455110
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -916,7 +1591,499 @@ Zinc binding sites can be divided by function but also by their architecture.
 status open
 
 \begin_layout Plain Layout
-podział miejsc cynkowych ze względu na funkcję
+https: //www.ncbi.nlm.nih.gov/pmc/articles/PMC5661630/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+buffering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ zinc binding sites are found in proteins that bind Zn(II) in order to maintain
+ physiological 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{freezn}
+\end_layout
+
+\end_inset
+
+ in the cell.
+ Those sites are characterized by medium, but broad range of affinities,
+ which allows to maintain the adequate 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{freezn}
+\end_layout
+
+\end_inset
+
+.
+ A flagship example of a buffering binding sites can be found in the metallothio
+neins, which may bind up to seven zinc, within a broad affinity range.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://pubs.acs.org/doi/10.1021/ja071979s
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The number of zinc binding sites classes related to the regulation of the
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{freezn}
+\end_layout
+
+\end_inset
+
+ in the cell together with the occurrence of zinc ions in cellular vesicles
+ potentially could be explained by the fact that no Zn(II)-storage proteins
+ (akin to the iron storage proteins – ferritin) was found.
+ Ferritin for example may store several thousands iron ions trapped in its
+ core.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5713255/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In terms of architecture the zinc binding sites can be divided into five
+ classes:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+intraprotein
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ zinc binding is the most common type of zinc coordination in proteins.
+ The intraprotein binding is understood as a formation of zinc binding site
+ only by a singular polypeptide chains.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+clustered
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ zinc binding sites are multinuclear.
+ The clustered zinc binding sites have more than one Zn(II) per a binding
+ site, this is achieved by a presence of the bridging 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{Lg}
+\end_layout
+
+\end_inset
+
+ (usually sulfur from cysteines).
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+pictures
+\end_layout
+
+\end_inset
+
+ These sites are quite thermodynamically stable, while at the same time
+ are kinetically labile.
+ No wonder why metallothioneins (mentioned in the 
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+buffering
+\end_layout
+
+\end_inset
+
+ zinc binding sites) utilize this type of binding.
+ This type of binding is seen in most of zinc enzymes, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zf}
+\end_layout
+
+\end_inset
+
+ etc.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+interprotein
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ zinc binding sites are not so common (or at least are not so commonly discovere
+d and described) as intraprotein zinc binding sites.
+ Interprotein zinc binding sites are formed by at least two polypeptide
+ chains, so in this architecture, Zn(II) bound at the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{interface}
+\end_layout
+
+\end_inset
+
+ of two proteins, takes a structural part in formation of the quaternary
+ protein structure.
+ The formation interprotein zinc binding sites, referred in the thesis as
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zppi}
+\end_layout
+
+\end_inset
+
+, may be obligatory to form a quaternary structure, or Zn(II) may bind to
+ already formed protein-protein complex, to further stabilize it.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+https://academic.oup.com/metallomics/article/7/2/244/6015107?login=false
+\end_layout
+
+\end_inset
+
+ To date only few 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ have been studied in terms of the complexes stabilities, this includes
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{lck}
+\end_layout
+
+\end_inset
+
+-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cd4}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Zinc clasp-based reversible toolset for selective metal-mediated protein
+ heterodimerization
+\end_layout
+
+\begin_layout Plain Layout
+A combined biochemical and cellular approach reveals Zn2+-dependent hetero-
+ and homodimeric CD4 and Lck assemblies in T cells
+\end_layout
+
+\end_inset
+
+and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{lck}
+\end_layout
+
+\end_inset
+
+-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cd8}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Homodimerization and heterodimerization of minimal zinc(II)-binding-domain
+ peptides of T-cell proteins CD4, CD8alpha and Lck,
+\end_layout
+
+\end_inset
+
+ complexes, and various 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ orthologs studied by me and my collegues
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+hRad50, m.padjasek
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In terms of time span of binding one can introduce two additional classifiers:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+transient
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ zinc binding sites are characterized often by medium affinities toward
+ Zn(II).
+ The role of such transient zinc binding sites is to bind Zn(II) temporally,
+ which is the case in the buffering, transporting and regulatory zinc binding
+ sites.
+ Those sites need to bind Zn(II) in a kinetically labile way in order to
+ fulfill its functions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CT - Description Label
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Spaced Low Small Caps
+status open
+
+\begin_layout Plain Layout
+permament
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ zinc binding sites are kinetically inert.
+ This type of binding is characteristic for structural and enzymatic binding
+ sites.The Zn(II) bound to those sites is not easily dissociated from the
+ site.
+ Of course the reaction is in an equilibrium so the subunit exchange still
+ happens (see equations 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:equilibrium}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Ka_definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), however the binding is characterized by a low value of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{koff}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+są odpowiedzialne za nadanie struktury domeną, białkom itd.
+ 
 \end_layout
 
 \begin_layout Plain Layout

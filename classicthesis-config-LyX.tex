@@ -79,6 +79,8 @@
 \usepackage[version=4]{mhchem}
 
 \hyphenation{mon-o-meric}
+\hyphenation{en-donu-cle-olytic}
+
 
 %*****************************************************************************************************
 % Colors
@@ -278,10 +280,19 @@ description={The \gls{mrn} complex plays a key in \gls{dsb} repair.}}
 
 \newglossaryentry{mrn}{type=\acronymtype,
 name={MRN(X)},
-description={\gls{mre}-\gls{rad}-\gls{nbs}(\gls{xrs}) \glsseeformat[Glossary:]{mrng}{}},
-first={\gls{mre}-\gls{rad}-\gls{nbs}(\gls{xrs}) complex\glsadd{mrng}},
+description={\glslink{mre}{Mre11}-\glslink{rad}{Rad50}-\glslink{nbs}{Nbs1}(\glslink{xrs}{Xrs2}) \glsseeformat[Glossary:]{mrng}{}},
+first={\glslink{mre}{Mre11}-\glslink{rad}{Rad50}-\glslink{nbs}{Nbs1}(\glslink{xrs}{Xrs2}) complex (MRN(X))\glsadd{mrng}},
 }
 
+\newglossaryentry{mr}{type=\acronymtype,
+name={MR},
+description={\glslink{mre}{Mre11}-\glslink{rad}{Rad50} core complex \glsseeformat[Glossary:]{mrg}{}},
+first={\glslink{mre}{Mre11}-\glslink{rad}{Rad50} core complex (MR)\glsadd{mrg}},
+}
+
+\newglossaryentry{mrg}{name={MR},
+description={The \gls{mr} core complex acts like \gls{mrn} in Bacteria and Archea, despite the lacking
+\gls{nbs} or \gls{xrs}.}}
 
 
 \newglossaryentry{mreg}{name={Mre11},
@@ -301,7 +312,7 @@ description={Components of the \gls{mrn} complex.
 \Gls{nbs} modulates the DNA damage repair by recruiting various kinases..}}
 
 \newglossaryentry{nbs}{type=\acronymtype,
-name={Mre11},
+name={Nbs1},
 description={Nibrin, \glsseeformat[Glossary:]{nbsg}{}},
 first={Nibrin (Nbs1)\glsadd{nbsg}},
 }
@@ -336,6 +347,22 @@ first={\textit{Homo sapiens} (\textit{H. sapiens})}}
 name={\textit{P. furiosus}},
 description={\textit{Pyrococcus furiosus}},
 first={\textit{Pyrococcus furiosus} (\textit{P. furiosus})}}
+
+\newglossaryentry{sc}{type=\acronymtype,
+name={\textit{S. cerevisiae}},
+description={\textit{Saccharomyces cerevisiae}},
+first={\textit{Saccharomyces cerevisiae} (\textit{S. cerevisiae})}}
+
+\newglossaryentry{ec}{type=\acronymtype,
+name={\textit{E. coli}},
+description={\textit{Escherichia coli}},
+first={\textit{Escherichia coli} (\textit{E. coli})}}
+
+\newglossaryentry{cthermo}{type=\acronymtype,
+name={\textit{C. thermophilum}},
+description={\textit{Chaetomium thermophilum}},
+first={\textit{Chaetomium thermophilum} (\textit{C. thermophilum})}}
+
 
 
 \newglossaryentry{cd}{type=\acronymtype,
@@ -382,9 +409,9 @@ first={Copper transport protein ATOX1 (ATOX1)},
 }
 
 \newglossaryentry{uvvis}{type=\acronymtype,
-name={UV-Vis},
+name={UV--Vis},
 description={Ultraviolet-Visible},
-first={Ultraviolet-Visible (UV-Vis)}
+first={Ultraviolet-Visible (UV--Vis)}
 }
 
 \newglossaryentry{pac}{type=\acronymtype,
@@ -449,17 +476,34 @@ description={association constant},
 first={association constant (\textit{K}\textsubscript{a})}
 }
 
+
+
 \newglossaryentry{Kd}{type=\acronymtype,
 name={\textit{K}\textsubscript{d}},
 description={dissociation constant},
 first={dissociation constant (\textit{K}\textsubscript{d})}
 }
 
+
 \newglossaryentry{Kex}{type=\acronymtype,
 name={\textit{K}\textsubscript{ex}},
 description={constant of exchange},
 first={constant of exchange (\textit{K}\textsubscript{ex})}
 }
+
+\newglossaryentry{koff}{type=\acronymtype,
+name={\textit{k}\textsubscript{off}},
+description={dissociation rate},
+first={dissociation rate (\textit{k}\textsubscript{off})}
+}
+
+\newglossaryentry{kon}{type=\acronymtype,
+name={\textit{k}\textsubscript{on}},
+description={association rate},
+first={association rate (\textit{k}\textsubscript{on})}
+}
+
+
 
 \newglossaryentry{lmct}{type=\acronymtype,
 name={LMCT},
@@ -515,6 +559,11 @@ description={high molecular weight},
 first={high molecular weight (HMW)},
 }
 
+\newglossaryentry{lmw}{type=\acronymtype, name={LMW},
+description={low molecular weight},
+first={low molecular weight (LMW)},
+}
+
 
 \newglossaryentry{ptmg}{name={PTM},
 	description={Post-translational modification is the covalent (usually enzymatic)
@@ -559,10 +608,47 @@ firstplural={superoxide dismutases (SODs)},
 	first={deoxyribonucleic acid (DNA)},
 	}
 
+\newglossaryentry{ssdna}{type=\acronymtype, name={ssDNA},
+description={single-stranded \glslink{dna}{DNA}},
+first={single-stranded \glslink{dna}{DNA} (ssDNA)},
+}
+
+\newglossaryentry{dsdna}{type=\acronymtype, name={dsDNA},
+description={double-stranded \glslink{dna}{DNA}},
+first={double-stranded \glslink{dna}{DNA} (ssDNA)},
+}
+
+\newglossaryentry{ku}{type=\acronymtype, name={Ku},
+description={non-homologous end joining protein Ku},
+first={non-homologous end joining protein Ku (Ku)},
+}
+
+
+
+\newglossaryentry{ctip}{type=\acronymtype, name={CtiP},
+description={CtBP-interacting protein},
+first={CtBP-interacting protein (CtiP)},
+}
+
+\newglossaryentry{sae}{type=\acronymtype, name={Sae2},
+description={DNA endonuclease Sae2},
+first={DNA endonuclease Sae2 (Sae2)},
+}
+
+
+
 \newglossaryentry{ca2}{type=\acronymtype, name={CAII},
 description={carbonic anhydrase II},
 first={carbonic anhydrase II (CAII)},
 }
+
+\newglossaryentry{zf}{type=\acronymtype, name={ZF},
+description={zinc finger},
+first={zinc finger (ZF),
+descriptionplural = {zinc fingers}
+firstplural = {zinc fingers	(ZFs)}},
+}
+
 
 \newglossaryentry{cn}{type=\acronymtype, name={CN},
 description={coordination number},
@@ -649,6 +735,72 @@ first={extended X-ray absorption fine structure (EXAFS)}}
 name={XANES},
 description={X-ray absorption near-edge structure},
 first={X-ray absorption near-edge structure (XANES)}}
+
+\newglossaryentry{fsd1}{type=\acronymtype,
+name={FSD-1},
+description={full sequence design},
+first={full sequence design (FSD-1)}}
+
+\newglossaryentry{zif268}{type=\acronymtype,
+name={Zif268},
+description={Zinc finger-containing transcription factor 268},
+first={Zinc finger-containing transcription factor 268 (Zif268)}}
+
+\newglossaryentry{mukb}{type=\acronymtype,
+name={MukB},
+description={chromosome partition protein MukB},
+first={chromosome partition protein MukB (MukB)}}
+
+\newglossaryentry{zap1}{type=\acronymtype,
+name={ZAP1},
+description={Zinc-responsive transcriptional regulator ZAP1},
+first={Zinc-responsive transcriptional regulator ZAP1 (ZAP1)}}
+
+
+\newglossaryentry{zrt1}{type=\acronymtype,
+name={ZRT1},
+description={Zinc-regulated transporter 1},
+first={Zinc-regulated transporter 1 (ZRT1)}}
+
+\newglossaryentry{zrt2}{type=\acronymtype,
+name={ZRT2},
+description={Zinc-regulated transporter 2},
+first={Zinc-regulated transporter 2 (ZRT2)}}
+
+\newglossaryentry{zrt3}{type=\acronymtype,
+name={ZRT3},
+description={Zinc-regulated transporter 3},
+first={Zinc-regulated transporter 3 (ZRT3)}}
+
+\newglossaryentry{zip}{type=\acronymtype,
+name={ZIP},
+description={Zrt-, Irt-like proteins},
+first={Zrt-, Irt-like proteins (ZIP)}}
+
+
+\newglossaryentry{nhejg}{name={NHEJ},
+	description={DESCRIPTION}}
+
+\newglossaryentry{nhej}{type=\acronymtype, name={NHEJ},
+	description={non-homologous end joining, \glsseeformat[Glossary:]{nhejg}{}},
+	first={non-homologous end joining (NHEJ) \glsadd{nhejg}},
+	plural={NHEJs},
+	descriptionplural={non-homologous end joining},
+	firstplural={non-homologous end joining (\glsentryplural{nhej})}}
+
+
+
+\newglossaryentry{hrg}{name={HR},
+description={DESCRIPTION}}
+
+\newglossaryentry{hr}{type=\acronymtype, name={HR},
+	description={homologous recombination, \glsseeformat[Glossary:]{hrg}{}},
+	first={homologous recombination (HR) \glsadd{hrg}},
+	plural={HRs},
+	descriptionplural={homologous recombination},
+	firstplural={homologous recombination (\glsentryplural{hr})}}
+
+
 
 
 

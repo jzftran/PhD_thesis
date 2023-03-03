@@ -1473,7 +1473,7 @@ status open
 
 
 \backslash
-Gls{Python}
+Gls{python}
 \end_layout
 
 \end_inset
@@ -1787,7 +1787,7 @@ The resulting output is a set of non-redundant (or with diminished redundancy)
 
 \emph on
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2604,7 +2604,11 @@ label{eq:equilibrium}
 
 
 \backslash
-ce{A_x + B_y <=> A_xB_y}
+ce{A_x + B_y <=>[${k_
+\backslash
+text{on}}$][${k_
+\backslash
+text{off}}$] A_xB_y}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2652,12 +2656,73 @@ gls{Ka}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-K_{\text{a}}=\frac{[A_{x}B_{y}]}{[A]^{x}\cdot[B]^{y}}\label{eq:Ka_definition}
+K_{\text{a}}=\frac{[A_{x}B_{y}]}{[A]^{x}\cdot[B]^{y}}=\frac{k_{\text{on}}}{k_{\text{off}}}\label{eq:Ka_definition}
 \end{equation}
 
 \end_inset
 
-All the equilibria reactions that concern the interaction of metal ions
+,where 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{kon}{
+\backslash
+textit{k}
+\backslash
+textsubscript{on}}
+\end_layout
+
+\end_inset
+
+ is the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdesc{kon}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{koff}{
+\backslash
+textit{k}
+\backslash
+textsubscript{on}}
+\end_layout
+
+\end_inset
+
+ is the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdesc{koff}
+\end_layout
+
+\end_inset
+
+.
+ All the equilibria reactions that concern the interaction of metal ions
  with proteins are happening in water, thus one should define a new constant
  – 
 \begin_inset ERT
@@ -5148,6 +5213,73 @@ ITC
  
 \end_layout
 
+\begin_layout Standard
+Recent data analysis advances in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+ allow to determine the kinetic information from the experiments – this
+ can be done by the analysis of each injection peak, which adds an additional
+ cross-validation layer to the experiment, due to the fact that the kinetic
+ constants are bound with the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ with the equations 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:equilibrium}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Ka_definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://pubs.acs.org/doi/abs/10.1021/ja209057d
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Potentiometry
 \end_layout
@@ -5472,7 +5604,7 @@ noprefix "false"
 \end_inset
 
 ) and loading of the protein on the surface.
- While this method may be useful for investigation of hetomeric complexes
+ While this method may be useful for investigation of heteromeric complexes
  (i.e.,
 \begin_inset ERT
 status open
@@ -5565,6 +5697,112 @@ gls{SPR}
 
  is also the fact, the lack of advanced models that can take into account
  more advanced binding stoichiometries.
+ 
+\end_layout
+
+\begin_layout Standard
+The determination of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{SPR}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{BLI}
+\end_layout
+
+\end_inset
+
+ is possible by determination of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{kon}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{koff}
+\end_layout
+
+\end_inset
+
+, which later can be used to calculate 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ (see equations 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:equilibrium}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Ka_definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
 \end_layout
 
 \end_body

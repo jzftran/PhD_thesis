@@ -29,7 +29,7 @@
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \paperfontsize default
@@ -179,11 +179,58 @@ Olga Kerber
 
 \end_inset
 
-,
-\begin_inset Newline newline
+, Aleksandra Cho
+\shape default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+-
+\end_layout
+
 \end_inset
 
- Aleksandra Chorążewska
+
+\shape smallcaps
+rą
+\shape default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+-
+\end_layout
+
+\end_inset
+
+
+\shape smallcaps
+żew
+\shape default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+-
+\end_layout
+
+\end_inset
+
+
+\shape smallcaps
+ska
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -337,7 +384,15 @@ ExplSyntaxOn
 \backslash
 sys_shell_now:x {cd~
 \backslash
-thesispath | conda~activate~thesis | python~Scripts
+thesispath~
+\backslash
+string&
+\backslash
+string&~conda~activate~thesis~
+\backslash
+string&
+\backslash
+string&~ python~Scripts
 \backslash
 string
 \backslash
@@ -397,8 +452,8 @@ literal "true"
 
  Though the silver toxicity is low, the organisms usually lack the mechanisms
  for silver detoxification, and in case of human body, when silver is delivered
- (e.g., injection, ingestion, applied topically) silver is accumulated irreversibl
-y.
+ (e.g., injection, ingestion or applied topically) silver is accumulated irreversi
+bly.
  The condition caused by sustained silver exposure (and light
 \begin_inset Foot
 status collapsed
@@ -460,6 +515,67 @@ glspl{agnp}
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename gfx/ag_hg_count.png
+	lyxscale 40
+	width 100line%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ag_hg_count"
+
+\end_inset
+
+Number of publications devoted to silver or mercury toxicity aggregated
+ in PubMed (accessed 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sayers2022"
+literal "true"
+
+\end_inset
+
+, blue and orange lines respectively.
+ Note that since 2013 (marked as a dashed line) more publications are devoted
+ to the toxicity of silver than mercury.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Oligodynamic effect, which is the property of some metals to have biocidal
  effect, in case of silver is mainly caused by the bioactive species – Ag(I).
  The antimicrobial properties of 
@@ -488,7 +604,7 @@ glspl{agnp}
 
 \end_inset
 
- in the cell, followed by the release of Ag(I)
+ in the cell, followed by the release of Ag(I).
 \begin_inset Note Note
 status open
 
@@ -498,56 +614,201 @@ cytacje potrzebne, z pracy Olga Józek
 
 \end_inset
 
+ In biological systems the 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+gls{lmw}
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+ thiols (e.g., gluthatione) are found to be a common interaction partner for
+ Ag(I).
+ 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-needs date
+cytacje z pracy
 \end_layout
 
 \end_inset
 
-
-\begin_inset Float figure
-wide false
-sideways false
+ The Ag(I) complex with cysteine is much more stable than the complexes
+ of Ag(I) and methionine or histidine, thus no wonder that in the 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename gfx/ag_hg_count.png
-	lyxscale 40
-	width 100line%
+
+
+\backslash
+gls{hmw}
+\end_layout
 
 \end_inset
 
- 
-\begin_inset Caption Standard
+ (proteins), the common target for Ag(I) binding will be systems containing
+ cysteines, e.g., natural cysteine-containing zinc binding sites.
+ The interaction of Ag(I) with intraprotein zinc binding sites in 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:ag_hg_count"
+
+
+\backslash
+glsfirstplural{zf}
+\end_layout
 
 \end_inset
 
- Number of publications devoted to silver or mercury toxicity aggregated
- in PubMed 
+ has been shown to swap Zn(II) for Ag(I) leading to 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zf}
+\end_layout
+
+\end_inset
+
+-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{fold}
+\end_layout
+
+\end_inset
+
+ disruption, and in turn it can potentially lead to loss of function.
+ Despite the fact that the cysteine is the most common 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Lg}
+\end_layout
+
+\end_inset
+
+ in the zinc binding sites (see 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "sec:Zinc-Binding-Sites"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+), 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Sayers2022"
+key "Laitaoja2013"
 literal "true"
 
 \end_inset
 
-, blue and orange lines respectively.
- Note that since 2013 (marked as a dashed line) more publications are devoted
- to the toxicity of silver than mercury.
+ the potential interactions of the zinc proteome with Ag(I) is yet unexplored,
+ including the impact of free Ag(I) ions on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zppi}
 \end_layout
+
+\end_inset
+
+, an interaction that is present in the zinc hook of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+.
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ forms Zn(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ complex of extreme stability 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:hRad50"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -556,7 +817,689 @@ literal "true"
 
 \end_inset
 
+), however in this case the stability does not comes with selectivity, thus
+ the Zn(II) is easily replaced, in accordance with 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+gls{hsab}
+\end_layout
+
+\end_inset
+
+, by the `softer` ions (e.g., Cd(II) or Hg(II)) from the tetrathiolate coordinatio
+n sphere of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ (see 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:HgRad50"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+).
+ This lack of selectivity makes 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ a potential target for genotoxicity induced by heavy metal ions.
+\end_layout
+
+\begin_layout Standard
+The following article present the influence of Ag(I) on the zinc hook domain
+ from the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsfirst{pf}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+—the use of the model was dictated by the fact that the zinc hook 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+ is the best described zinc hook model so far.
+ In the study we have utilized the 14- and 45-amino acid long fragments
+ with the CXXC motif as a minimal and full domain model (see definition
+ of the zinc hook domain in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "sec:The-zinc-hook—a"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+), respectively.
+ The used constructs allowed us to get insight into the coordination and
+ stability properties of the Ag(I)-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ complexes.
+ To do so we have applied array of biophysical methods like: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cd}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{uvvis}
+\end_layout
+
+\end_inset
+
+ spectrophotometry, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{MS}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ag(I) with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ forms complexes of various stiochometries, which is seen by every used
+ method during direct titration of Ag(I) into both apo-zinc hook and Zn(II)-satu
+rated zinc hook.
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{SEC}
+\end_layout
+
+\end_inset
+
+ shows that Ag(I) binding to the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ zinc hook induces oligomeration of the zinc hook.
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{MS}
+\end_layout
+
+\end_inset
+
+ studies confirm that Ag(I) replaces Zn(II) readily (within seconds), the
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{MS}
+\end_layout
+
+\end_inset
+
+-titrations are in great accordance with observed 1:1 and 2:1 Ag(I):zinc
+ hook stoichometries observed in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{SEC}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cd}
+\end_layout
+
+\end_inset
+
+- or 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{uvvis}
+\end_layout
+
+\end_inset
+
+-titration.
+ Suprisingly 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+, contrary to the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{SEC}
+\end_layout
+
+\end_inset
+
+-, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{MS}
+\end_layout
+
+\end_inset
+
+-, and both spectrophotometric titrations, does not discriminate many multiple
+ complexes observed during the rest of the titrations.
+ This may be because the heat or formation constants of the individual complexes
+ are too small to be visible during 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+.
+ Titration of Ag(I) into the pf zinc hook shows two equivalence points,
+ the first one at ratio of 0.8 Ag(I):zinc hook, the second one at ratio ~2.1.
+ The reverse titration (zinc hook into Ag(I)) is in agreement with the ratios
+ resulting from the normal titration.
+ Though the fitting of the multiple binding model to the isotherm was possible,
+ the obtained formation constants should not be treated as reliable—firstly,
+ the cumulative constant 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ of the Zn(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ is far out of the measurable range of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+,
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kochanczyk2016a"
+literal "true"
+
+\end_inset
+
+ secondly, Ag(I) displaces Zn(II) easily, which means that the Ag(I)-zinc
+ hook formation constant is much higher than the formation constant of Zn(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ The titration of the Ag(I) into the Zn(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ results in a single step process, in which the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Kex}
+\end_layout
+
+\end_inset
+
+ is obtainable.
+ Assuming the correctness of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Kex}
+\end_layout
+
+\end_inset
+
+ is is possible to 
+\emph on
+estimate
+\emph default
+ (not determine) the affinity of the Ag(I)-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ complexes.
+ The 
+\emph on
+estimated
+\emph default
+ affinity of the Ag(I)-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ complexes probably refers to the complex Ag
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, as the equivalence point for the titration is around two, and the rest
+ of the experiments suggest that the 4:2 Ag(I):
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ complex is the most stable, however the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+ might not be a sufficiently resolvable method to pinpoint the exact formed
+ complex.
+ The 
+\emph on
+estimated
+\emph default
+ stability of the Ag(I) and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ species is around 5.4 orders of magnitude higher than the stability of the
+ Zn(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ complex.
+\end_layout
+
+\begin_layout Standard
+The study shows that Ag(I) ions may displace Zn(II) not only from the intraprote
+in zinc binding sites (e.g.
+ in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zf}
+\end_layout
+
+\end_inset
+
+), but from interprotein zinc binding sites as well.
+ The swap most likely will result in the 
 \end_layout
 
 \begin_layout Standard
