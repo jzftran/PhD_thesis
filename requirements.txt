@@ -10,3 +10,4 @@ kiwisolver-1.4.4
 matplotlib-3.6.3
 pyparsing-3.0.9
 beautifulsoup4-4.11.1
+scholarly-1.7.11

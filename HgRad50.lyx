@@ -329,6 +329,755 @@ Chemistry – A European Journal
 Brief history and bibliometric data
 \end_layout
 
+\begin_layout Standard
+The last two chapters (
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:HgRad50"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:AgRad50"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+) presenting the results of my doctoral project focus on the mismetallation
+ of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+.
+ My participation in the first of this studies is quite astonishing, I do
+ believe that 
+\begin_inset Quotes eld
+\end_inset
+
+Insanity is doing the same thing over and over again, but expecting different
+ results.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+A quote wrongly attributed to Albert Einstein.
+\end_layout
+
+\end_inset
+
+, and asking me to perform the same 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+ experiments because the results are not in agreement with the initial hypothesi
+s seemed to me as a waste of time, however, for some reason, maybe I had
+ a hunch, I agreed to perform again the same experiments.
+ My task was to conduct 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+ experiments that would give information about the stability of the Hg(II)–
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ complex.
+ The first experiments I have performed gave exactly the same results as
+ those obtained by my colleagues.
+ The observed 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{dH}
+\end_layout
+
+\end_inset
+
+ of binding of Hg(II) to the zinc hook, assuming that the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{dS}
+\end_layout
+
+\end_inset
+
+ of binding of Zn(II), Cd(II) and Hg(II) were the same, was too small for
+ the observed lack of competition between the competitor (e.g., acetylcysteine,
+ cyanides) and the zinc hook to be explained by the formation constant calculate
+d using the measured 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{dH}
+\end_layout
+
+\end_inset
+
+ and the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{dS}
+\end_layout
+
+\end_inset
+
+ estimated by other experiments (see 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "eq:deltaG"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "eq:GandK"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ and the rest of the chapter).
+ 
+\end_layout
+
+\begin_layout Standard
+By default, all 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+ experiments, I and my predecessors have performed, were performed in buffers
+ containing 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{Cl-}
+\end_layout
+
+\end_inset
+
+ from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{NaCl}
+\end_layout
+
+\end_inset
+
+ intended to provide ionic strength.
+ In the case of other measurements made with Zn(II), 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kochanczyk2016a"
+literal "true"
+
+\end_inset
+
+ or Cd(II), 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Padjasek2020a"
+literal "true"
+
+\end_inset
+
+ this did not make any difference, but in this case it did.
+ Browsing the literature in search of constants of formation of mercury
+ complexes with various compounds, I came across information on enthalpies
+ of formation of Hg(II) complexes with chlorides, 
+\emph on
+eureka!
+\emph default
+, I have calculated the chemical speciation of Hg(II) and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{Cl-}
+\end_layout
+
+\end_inset
+
+ complexes, and along with the speciation I have calculated the sum of enthalpie
+s of formation of the complexes.
+ According to Hess's law, the enthalpy of formation of the Hg(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ complex should be diminished by the enthalpy of formation of various Hg(II)
+ complexes with chlorides.
+ One more I have repeated the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+ experiments using a different mercury salt and a different buffer (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{Cl-}
+\end_layout
+
+\end_inset
+
+-free), unsurprisingly the difference in the observed enthalpy was consistent
+ with my theoretical calculations.
+ The measured enthalpy allowed me to 
+\emph on
+estimate
+\emph default
+ the formation constant of the Hg(II) and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ complex.
+ What was very nice, was the fact that the reviewers assigned by 
+\shape italic
+Chemistry – A European Journal 
+\emph on
+(
+\shape default
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{if}
+\end_layout
+
+\end_inset
+
+ of 5.020
+\shape italic
+\emph on
+, March 6, 2023) have pointed out an interesting application of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+ for measuring the complex stability.
+ 
+\shape default
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pycode}[sessionA]
+\end_layout
+
+\begin_layout Plain Layout
+
+from scholarly import scholarly
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num2words = {1: 'once',
+\end_layout
+
+\begin_layout Plain Layout
+
+             2: 'two',
+\end_layout
+
+\begin_layout Plain Layout
+
+             3: 'three',
+\end_layout
+
+\begin_layout Plain Layout
+
+             4: 'four',
+\end_layout
+
+\begin_layout Plain Layout
+
+             5: 'five',
+\end_layout
+
+\begin_layout Plain Layout
+
+             6: 'six',
+\end_layout
+
+\begin_layout Plain Layout
+
+             7: 'seven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             8: 'eight',
+\end_layout
+
+\begin_layout Plain Layout
+
+             9: 'nine',
+\end_layout
+
+\begin_layout Plain Layout
+
+             10: 'ten',
+\end_layout
+
+\begin_layout Plain Layout
+
+             11: 'eleven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             12: 'twelve',
+\end_layout
+
+\begin_layout Plain Layout
+
+             13: 'thirteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             14: 'fourteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             15: 'fifteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             16: 'sixteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             17: 'seventeen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             18: 'eighteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             19: 'nineteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             20: 'twenty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             30: 'thirty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             40: 'forty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             50: 'fifty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             60: 'sixty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             70: 'seventy',
+\end_layout
+
+\begin_layout Plain Layout
+
+             80: 'eighty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             90: 'ninety',
+\end_layout
+
+\begin_layout Plain Layout
+
+             0: 'zero'}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+def n2w(n):
+\end_layout
+
+\begin_layout Plain Layout
+
+    try:
+\end_layout
+
+\begin_layout Plain Layout
+
+        return (num2words[n])
+\end_layout
+
+\begin_layout Plain Layout
+
+    except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+        try:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ((num2words[n-n % 10]) + ' ' + (num2words[n % 10].lower()))
+\end_layout
+
+\begin_layout Plain Layout
+
+        except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ('Number out of range')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+search_query = scholarly.search_single_pub(
+\end_layout
+
+\begin_layout Plain Layout
+
+    'An Extremely Stable Interprotein Tetrahedral Hg(Cys)4 Forms in the
+ Zinc Hook Domain of Rad50 Protein at Physiological pH')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num_citations = search_query['num_citations']
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+if num_citations <= 10:
+\end_layout
+
+\begin_layout Plain Layout
+
+    if num_citations == 1:
+\end_layout
+
+\begin_layout Plain Layout
+
+        print(f'So far the article was cited {n2w(num_citations)} (as of
+ 
+\backslash
+
+\backslash
+today).')
+\end_layout
+
+\begin_layout Plain Layout
+
+    else:
+\end_layout
+
+\begin_layout Plain Layout
+
+        print(f'So far the article was cited {n2w(num_citations)} times
+ (as of 
+\backslash
+
+\backslash
+today).')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+else:
+\end_layout
+
+\begin_layout Plain Layout
+
+    print(f'The article was warmly recieved in the scientific community
+ and was cited by {num_citations} other articles so far (as of 
+\backslash
+
+\backslash
+today).')
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pycode}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://scholar.google.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Summary
 \end_layout
@@ -353,7 +1102,7 @@ noprefix "false"
 
 \end_inset
 
- in focus on the phenomenon of mismetallation of 
+ focus on the phenomenon of mismetallation of 
 \begin_inset ERT
 status open
 
@@ -367,17 +1116,7 @@ gls{rad}
 \end_inset
 
  zinc hook domain by other than Zn(II), potentially toxic metal ions: Hg(II)
- and A g(I) (the later is described 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-nie mam pojęcia czy ten sposób odwołania się jest ok
-\end_layout
-
-\end_inset
-
-in 
+ and Ag(I) (the later described in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -396,12 +1135,12 @@ noprefix "false"
 
 \end_inset
 
- ).
- It is a well-known fact that the mercury contamination affects both ecosystem
+).
+ It is a well-known fact that mercury contamination affects both ecosystem
  and human health.
- Mercury pollution stem from both sources – natural and anthropogenic, where
- after its release into the environment mercury undergoes various (physical
- and chemical, often redox-related changes).
+ Mercury pollution stems from both sources – natural and anthropogenic,
+ where after its release into the environment mercury undergoes various
+ (physical and chemical, often redox-related changes).
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -421,75 +1160,51 @@ literal "true"
 status open
 
 \begin_layout Plain Layout
-Methylmercury cation is a major source of mercury poisoning in human.
+Methylmercury cation is a major source of mercury poisoning in human 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bernhoft2012"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ is easily absorbed into the brain, liver, kidneys, etc., while Hg(II) for
+ various reasons, including the reactions with sulfhydryl groups on erythrocytes
+ or glutathione in the plasma does not easily cross the blood-brain barrier
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cytacja
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bernhoft2012"
+literal "true"
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
- is easily absorbed into brain, liver, kidneys etc., while Hg(II) for various
- reasons, including the reactions with sulfhydryl groups on erythrocytes
- or glutathione in the plasma 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Clarkson TW, Gatzy J, Dalton E.
- UR-582.
- Rochester, NY, USA: Division of Radiation Chemistry and Toxicology, University
- of Rochester Atomic Energy Project; 1961.
-\end_layout
+.
+ The mercury accumulation mostly in mitochondria and in the nucleus was
+ already proven years ago 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bucio1998,Christensen1988,Yoneyama1985,Konigsberg2001"
+literal "true"
 
 \end_inset
 
- do not easily cross the blood-brain barrier.
+.
+ Inside the cell, organic mercury may be demethylated into inorganic mercury
  
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3253456/
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Suda1992"
+literal "true"
 
 \end_inset
 
- The mercury accumulation mostly in mitochondria and in nucleus was already
- proven years ago.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-https://sci-hub.se/10.1016/S0027-5107(98)00226-7, 10.1016/0147-6513(85)90012-0,
- 10.1002/jat.763, 10.1007/BF00288347
-\end_layout
-
-\end_inset
-
- Inside the cell organic mercury may be demethylated to inorganic mercury.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Suda I, Takahashi H.
- Degradation of methyl and ethyl mercury into inorganic mercury by other
- reactive oxygen species besides hydroxyl radical.
- Archives of Toxicology.
- 1992;66(1):34–39.
-\end_layout
-
-\end_inset
-
+.
  
 \begin_inset Note Note
 status open
@@ -501,36 +1216,33 @@ tutaj brakuje jakiegoś zdania łaczącego
 \end_inset
 
  It was proven that the Hg(II) ions (a product of demethylation) may inhibit
- the activity of transcription factors that contain zinc fingers, however
- the exact mechanism how Hg(II) disturbs the function of the transcription
+ the activity of transcription factors that contain zinc fingers, however,
+ the exact mechanism of how Hg(II) disturbs the function of the transcription
  factors is not known, as no data how mercury is coordinated by those transcript
-ion factors were provided.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1016/S0006-2952(01)00629-3
-\end_layout
+ion factors were provided 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rodgers2001"
+literal "true"
 
 \end_inset
 
+.
  One of the mechanisms of the inhibition of the transcription factors could
  be the formation of the aberrant metal binding site, as Hg(II) in the aqueous
- environment tend to form linear complexes, however the formation of complexes
+ environment tends to form linear complexes, however, the formation of complexes
  with higher coordination number is possible, those complexes usually are
  distorted, with T-shaped geometry of the complex being an extreme example
- of the three-coordinated species.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cytacja
-\end_layout
+ of the three-coordinated species 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Chakraborty2010"
+literal "true"
 
 \end_inset
 
- In the living organisms, correspondingly to the 
+.
+ In  living organisms, correspondingly to the 
 \begin_inset ERT
 status open
 
@@ -559,69 +1271,53 @@ gls{merr}
 \end_inset
 
 ), sequester (e.g.
- metallothioneins), and to enzymatically process mercury compounds 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1021/bi100537f tu jest ciekawy CXXC
-\end_layout
+ metallothioneins), and to enzymatically process mercury compounds to less
+ toxic forms or to Hg(0) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ledwidge2010"
+literal "true"
 
 \end_inset
 
- to less toxic forms or to Hg(0).
+.
  
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-https://www.frontiersin.org/articles/10.3389/fmicb.2021.682605/full
-\end_layout
-
-\end_inset
-
-
 \begin_inset Marginal
 status collapsed
 
 \begin_layout Plain Layout
 Hg(0) is the major form of mercury emitted to the atmosphere.
  Hg(II) buried in sediments may be reduced to Hg(0), which can be re-emited
- to the astmosphere.
- 
-\begin_inset Note Note
-status open
+ to the astmosphere 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Christakis2021"
+literal "true"
 
-\begin_layout Plain Layout
-https://www.frontiersin.org/articles/10.3389/fmicb.2021.682605/full
+\end_inset
+
+.
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
- In the cytoplasm Hg(II) will preferentially form digonsl complexes with
+ In the cytoplasm Hg(II) will preferentially form diagonal complexes with
  low molecular weight compounds with thiol groups (i.e.
- cysteine, glutathione), however when Hg(II) interacts the protein, like
- in case of Hg(II)-substituted rubredoxin, the protein may already impose
- a structurally defined metal binding site, where the Hg(II) will adopt
- a tetrahedral or pseudotetrahedral architecture.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1007/pl00010668
-\end_layout
+ cysteine, glutathione), however, when Hg(II) interacts with the protein,
+ like in the case of Hg(II)-substituted rubredoxin, the protein may already
+ impose a structurally defined metal binding site, where the Hg(II) will
+ adopt a tetrahedral or pseudotetrahedral architecture 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Faller2000"
+literal "true"
 
 \end_inset
 
+.
  The observed coordination in the crystal structure does not necessarily
- correspond to the Hg(II) binding site formed in the solution, as have been
- verified in case of the 
+ correspond to the Hg(II) binding site formed in the solution, as has been
+ verified in the case of the 
 \begin_inset ERT
 status open
 
@@ -634,19 +1330,25 @@ gls{atox}
 
 \end_inset
 
- – contrarily to the crystal structure (PDB 1FE4, dimer, crystallized at
- pH 6.5) in solution (pH 7.5) Hg(II) prefers to form linear complexes with
- monomeric protein.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1002/chem.201204184
-\end_layout
+—contrarily to the crystal structure (
+\begin_inset CommandInset href
+LatexCommand href
+name "1FE4"
+target "https://www.rcsb.org/structure/1FE4"
+literal "false"
 
 \end_inset
 
+, dimer, crystallized at pH 6.5) in solution (pH 7.5) Hg(II) prefers to form
+ linear complexes with monomeric protein 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "uczkowski2013"
+literal "true"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -664,8 +1366,8 @@ gls{zppi}
 
 \end_inset
 
- mismetallation by Hg(II)? Does crystal structure of zinc hook domain from
- 
+ mismetallation by Hg(II)? Does the crystal structure of the zinc hook domain
+ from 
 \begin_inset ERT
 status open
 
@@ -691,7 +1393,7 @@ gls{rad}
 
 \end_inset
 
-, which was the sole model of 
+, which was the sole model of the 
 \begin_inset ERT
 status open
 
@@ -704,7 +1406,7 @@ gls{rad}
 
 \end_inset
 
- zinc hook for 15 years is really contain HgCys
+ zinc hook for 15 years really contain HgCys
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -761,8 +1463,8 @@ gls{pdb}
 
 \end_inset
 
- 1L8D) is isostructural with Zn(II)-loaded structure, however the Zn(II)-structu
-re had lower resolution, 
+ 1L8D) is isostructural with Zn(II)-loaded structure, however, the Zn(II)-contai
+ning structure had lower resolution, 
 \begin_inset Note Note
 status open
 
@@ -785,7 +1487,7 @@ gls{rcsb}
 
 \end_inset
 
- the Hg(II)-structure only.
+ the Hg(II)-containing structure only.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -869,7 +1571,7 @@ literal "true"
 
 \end_inset
 
-, however it does not unveil mystery of the tetrahedral Hg(II) coordination.
+, however, it does not unveil the mystery of the tetrahedral Hg(II) coordination.
 \end_layout
 
 \begin_layout Standard
@@ -958,7 +1660,7 @@ gls{DTT}
 
 \end_inset
 
- over the 45-amino-acid-long peptide did not exibit any traces of competition
+ over the 45-amino-acid-long peptide did not exhibit any traces of competition
  between Hg(
 \begin_inset ERT
 status open
@@ -1030,7 +1732,7 @@ x
 
 \end_inset
 
- complex(es) is not known, however it can be assumed that the stability
+ complex(es) is not known, however, it can be assumed that the stability
  constant(s) are comparable to stability constants of other compounds with
  two thiol groups, e.g.
  Hg-dimercaprol complexes.
@@ -1076,17 +1778,7 @@ status open
 
 \begin_layout Standard
 How to measure, or at least estimate extremely high affinities? The answer
- to the question is somewhat perverse, since 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-to zdanie jakoś inaczej opisać
-\end_layout
-
-\end_inset
-
-the answer is 
+ to the question is somewhat perverse since the answer is 
 \begin_inset ERT
 status open
 
@@ -1136,8 +1828,8 @@ gls{itc}
 
 \end_inset
 
- usually the experiment that is performed implies the use of well-characterized
- competitor, nevertheless in the described issue I have leveraged the fact
+ usually the experiment that is performed implies the use of a well-characterize
+d competitor, nevertheless in the described issue I have leveraged the fact
  of the isostructurality of the Hg(II) and Zn(II) structure (and probably
  Cd(
 \begin_inset ERT
@@ -1169,8 +1861,8 @@ literal "true"
 
 \end_inset
 
-), which implies that the entropic effect that accompany the metal complexation
- should be very similar, and allow the calculation of 
+), which implies that the entropic effect that accompanies the metal complexatio
+n should be very similar, and allow the calculation of 
 \begin_inset ERT
 status open
 
@@ -1247,7 +1939,7 @@ gshort{T}
 \end_layout
 
 \begin_layout Standard
-Using the relationship described by the Equations 
+Using the relationship described by Equations 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:GandK"
@@ -1369,7 +2061,7 @@ ref{eq:HgHk2}
 \end_inset
 
 .
- The Equation 
+ Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:K12"
@@ -1380,7 +2072,7 @@ noprefix "false"
 \end_inset
 
  describes the cumulative association constant of the process described
- by the equation 
+ by equation 
 \begin_inset ERT
 status open
 
@@ -1473,7 +2165,11 @@ gls{ppi}
 \end_inset
 
 , that is formed preferentially at pH 7.4.
- Extremely high Hg(II) affinity towards 
+ 
+\end_layout
+
+\begin_layout Standard
+Extremely high Hg(II) affinity towards 
 \begin_inset ERT
 status open
 
@@ -1489,7 +2185,7 @@ gls{rad}
  causes the replacement of physiologically occurring Zn(II) in the zinc
  hook domain.
  It would be an exaggeration to claim that the replacement of Zn(II) by
- Hg(II) is the sole reason of Hg(II) genotoxicity, especially taking into
+ Hg(II) is the sole reason for Hg(II) genotoxicity, especially taking into
  account the fact that the Hg(II)-saturated 
 \begin_inset ERT
 status open
@@ -1517,8 +2213,8 @@ gls{rad}
 \end_inset
 
  is isostructural to the Zn(II) loaded protein.
- However one cannot rule out the possibility that the affinity of the Hg(II)
- is not detrimental for the functioning of the 
+ However, one cannot rule out the possibility that the affinity of the Hg(II)
+ is not detrimental to the functioning of the 
 \begin_inset ERT
 status open
 
@@ -1598,13 +2294,13 @@ gls{rad}
 
 \end_inset
 
- and the zinc hook domain communicate , i.e.
+ and the zinc hook domain communicate, i.e.
  even a single point mutation in the coding sequence of the zinc hook 
 \begin_inset Marginal
-status open
+status collapsed
 
 \begin_layout Plain Layout
-In eukaryotes globular domain of 
+In eukaryotes, the globular domain of 
 \begin_inset ERT
 status open
 
@@ -1617,7 +2313,7 @@ gls{rad}
 
 \end_inset
 
- and the zinc hook may be even 600
+ and the zinc hook can be as far apart as 600
 \begin_inset space \space{}
 \end_inset
 
@@ -1630,13 +2326,11 @@ status open
 
 \backslash
 AA
-\backslash
-
 \end_layout
 
 \end_inset
 
- apart! 
+! 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hopfner2002"
@@ -1685,8 +2379,8 @@ gls{rad}
 
 \end_inset
 
- somehow increases the rigidity of the protein, which in turn prevents from
- the allosteric signal transduction between the zinc hook and globular domains?
+ somehow increases the rigidity of the protein, which in turn prevents the
+ allosteric signal transduction between the zinc hook and globular domains?
  Maybe the increased complex stability somehow shifts the exchange of subunits
  (note that the association of the 
 \begin_inset ERT
@@ -1735,10 +2429,10 @@ literal "true"
 
 \end_inset
 
- This and many other questions remain to be answered, however the first
- problem to tackle should be an assessment whether Hg(II) binding in the
- zinc hook domain influences any of the various functions filled by the
- 
+ This and many other questions remain to be answered, however, the first
+ problem to tackle should be an assessment of whether Hg(II) binding in
+ the zinc hook domain influences any of the various functions filled by
+ the 
 \begin_inset ERT
 status open
 
@@ -1776,6 +2470,10 @@ Jak zrobiliśmy?
 
 \begin_layout Plain Layout
 Jaki to ma efekt?
+\end_layout
+
+\begin_layout Plain Layout
+Problem, tego, że nie wszystkie chelatory sprawdziłem.
 \end_layout
 
 \end_inset

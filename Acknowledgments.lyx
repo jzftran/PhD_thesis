@@ -103,34 +103,26 @@ pdfbookmark[0]{Acknowledgments}{acknowledgments}
 \align right
 
 \shape slanted
-We have seen that computer programming is an art, 
+To succeed, planning alone is insufficient.
+ 
 \begin_inset Newline newline
 \end_inset
 
- because it applies accumulated knowledge to the world, 
+One must improvise as well.
+ 
 \begin_inset Newline newline
 \end_inset
 
- because it requires skill and ingenuity, and especially 
-\begin_inset Newline newline
-\end_inset
-
-because it produces objects of beauty.
 
 \shape default
- 
-\begin_inset Newline newline
-\end_inset
 
- 
 \begin_inset VSpace medskip
 \end_inset
 
- — Donald E.
- Knuth 
+ — Isaac Asimov 
 \begin_inset CommandInset citation
-LatexCommand citep
-key "knuth:1974"
+LatexCommand cite
+key "asimov1951"
 literal "true"
 
 \end_inset
@@ -201,17 +193,17 @@ gls{hs}
 
 \end_inset
 
- is by nature a political animal, i.e., man is made to live in a polis, be
- an active member of society.
+ is by nature a political animal, i.e., man is made to live in a polis, and
+ be an active member of society.
  A solitary man is not self-sufficient—he has various needs that cannot
  be fulfilled alone.
- An individual cannot even meet his material needs, let to say a intellectual
- needs, such as play, art, music, sports, friendship and learning.
+ An individual cannot even meet his material needs, let to say intellectual
+ needs, such as play, art, music, sports, friendship, and learning.
  The same is true for conducting research—this doctorate would not have
  been possible without the contribution (direct or indirect) of others.
- This acknowledgments are not sorted by the importance, I do believe that
- would be impossible to do, however I do hope that everyone that was important
- to during my doctoral project is mentioned and recognized.
+ These acknowledgments are not sorted by importance, I do believe that would
+ be impossible to do objectively, however, I do hope that everyone important
+ during my doctoral project is mentioned and recognized.
 \end_layout
 
 \begin_layout Standard
@@ -219,8 +211,8 @@ I would like to thank to:
 \end_layout
 
 \begin_layout Itemize
-my supervisor Artur Krężel for being my supervisor and guidance past the
- five years,
+my supervisor Artur Krężel for being my supervisor and guidance for past
+ the five years,
 \end_layout
 
 \begin_layout Itemize
@@ -229,7 +221,7 @@ Violetta Trzyna for being the invaluable help with tedious and complicated
 \end_layout
 
 \begin_layout Itemize
-Michał Padjasek for sharing various hobbies, support and inspire,
+Michał Padjasek for sharing various hobbies, support, and inspiring,
 \end_layout
 
 \begin_layout Itemize
@@ -297,7 +289,7 @@ students that have I worked with: Aleksandra Gędaj and Ewa Olczak for patience,
 \end_layout
 
 \begin_layout Itemize
-Krystyna Grzesiak for understanding, patience and support, so much needed
+Krystyna Grzesiak for understanding, patience, and support, so much needed
  when conducting research and writing articles,
 \end_layout
 
@@ -306,7 +298,7 @@ Czarek Grzesiak for short and long walks,
 \end_layout
 
 \begin_layout Itemize
-Gabor Markowski, Wojciech Graf and Krzysztof Pukało for showing me that
+Gabor Markowski, Wojciech Graf ,and Krzysztof Pukało for showing me that
  sport can be fun,
 \end_layout
 
@@ -342,8 +334,12 @@ ski and Piotr Bachry for giving me the opportunity to stress out by playing
 \end_layout
 
 \begin_layout Itemize
-Katsuaki Inoue, Nathan Cowieson, Diego Gianolio for being a local contacts
+Katsuaki Inoue, Nathan Cowieson, Diego Gianolio for being a local contact
  at Diamond Light Source.
+\end_layout
+
+\begin_layout Itemize
+Alexandra Elbakyan, for her contributions to science.
 \end_layout
 
 \begin_layout Standard

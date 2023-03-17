@@ -80,21 +80,11 @@
 \begin_body
 
 \begin_layout Chapter
-Rad50
+DNA repair protein Rad50
 \end_layout
 
 \begin_layout Section
-Kompleks MRN, funkcje, architektura
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-moze jeszcze jakiś wstęp do naprawy dna?
-\end_layout
-
-\end_inset
-
-
+The Mre11-Rad50-Nbs1(Xrs2) complex—architecture and function
 \end_layout
 
 \begin_layout Standard
@@ -149,7 +139,7 @@ gls{dsb}
 
 \end_inset
 
- formation sometimes is even a 'physiological' phenomenon – the formation
+ formation sometimes is even a `physiological` phenomenon—the formation
  of 
 \begin_inset ERT
 status open
@@ -164,31 +154,15 @@ glspl{dsb}
 \end_inset
 
  is an essential step in immunoglobulin gene rearrangements and meiotic
- chromosome recombination.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-3.
- Johnson, D., Crawford, M., Cooper, T., Claeys Bouuaert, C., Keeney, S., Llorente,
- B., Garcia, V., and Neale, M.J.
- (2021).
- Concerted cutting by Spo11 illuminates meiotic DNA break mechanics.
- Nature 594, 572–576.
- https://doi.org/10.1038/s41586-021-03389-3.
- 4.
- Zhang, Y., Zhang, X., Dai, H.Q., Hu, H., and Alt, F.W.
- (2022).
- The role of chromatin loop extrusion in antibody diversification.
- Nat.
- Rev.
- Immunol.
- 22,
-\end_layout
+ chromosome recombination 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Johnson2021,Zhang2022"
+literal "true"
 
 \end_inset
 
+.
  The 
 \begin_inset ERT
 status open
@@ -202,8 +176,8 @@ glspl{dsb}
 
 \end_inset
 
- arise from the exposure to the ionizing radiation, genotoxic agents, and
- may arise spontaneously while 
+ arise from exposure to ionizing radiation, and genotoxic agents, and may
+ arise spontaneously while 
 \begin_inset ERT
 status open
 
@@ -216,23 +190,15 @@ gls{dna}
 
 \end_inset
 
- is replicated.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Tubbs, A., and Nussenzweig, A.
- (2017).
- Endogenous DNA damage as a source of genomic instability in cancer.
- Cell 168, 644–656.
- https://doi.
- org/10.1016/j.cell.2017.01.002.
- 3.
-\end_layout
+ is replicated 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tubbs2017"
+literal "true"
 
 \end_inset
 
+.
  Because even the single 
 \begin_inset ERT
 status open
@@ -246,7 +212,7 @@ gls{dsb}
 
 \end_inset
 
- event may be a cause of the chromosomal aberration, aneuploidy, tumorigenesis
+ event may be a cause of chromosomal aberration, aneuploidy, tumorigenesis,
  and cell death, cells have evolved to sense, signal and repair 
 \begin_inset ERT
 status open
@@ -300,7 +266,7 @@ gls{dna}
 
 \end_inset
 
- end binding, signalling and finally repairing.
+ end binding, signaling and finally repairing.
  Those processes follow two general routes: 
 \begin_inset ERT
 status open
@@ -328,27 +294,17 @@ gls{hr}
 \end_inset
 
 .
- In the Eukarya the use of the one of two pathways is dependent on the cell
- cycle.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Scully, R., Panday, A., Elango, R., and Willis, N.A.
- (2019).
- DNA double- strand break repair-pathway choice in somatic mammalian cells.
- Nat.
- Rev.
- Mol.
- Cell Biol.
- 20, 698–714.
- https://doi.org/10.1038/s41580-019- 0152-0.
-\end_layout
+ In the Eukarya the use of one of two pathways is dependent on the cell
+ cycle 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Scully2019"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -444,8 +400,8 @@ gls{mrn}
 
 \end_inset
 
- is essential for viability of vertebrate cells (the yeast cells are viable
- without the 
+ is essential for the viability of vertebrate cells (the yeast cells are
+ viable without the 
 \begin_inset ERT
 status open
 
@@ -512,8 +468,8 @@ gls{mr}
 
 \end_inset
 
- orthologues have been found in every domain of life – which underlines
- the importance of the 
+ orthologs have been found in every domain of life – which underlines the
+ importance of the 
 \begin_inset ERT
 status open
 
@@ -539,17 +495,15 @@ gls{mrn}
 
 \end_inset
 
-.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cytacja
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pal2020"
+literal "true"
 
 \end_inset
 
+.
  The 
 \begin_inset ERT
 status open
@@ -563,8 +517,8 @@ gls{nbs}
 
 \end_inset
 
- (and its homologues) seems to be unique to Eukarya, as no homologues of
- the protein were found in the other domains.
+ (and its homologs) seems to be unique to Eukarya, as no homologs of the
+ protein were found in the other domains.
  The X in the 
 \begin_inset ERT
 status open
@@ -591,7 +545,7 @@ gls{xrs}
 
 \end_inset
 
- protein characteristic for 
+ protein characteristic of 
 \begin_inset ERT
 status open
 
@@ -604,7 +558,7 @@ gls{sc}
 
 \end_inset
 
-, sharing similar function to 
+, sharing a similar function to 
 \begin_inset ERT
 status open
 
@@ -675,7 +629,7 @@ gls{dna}
 
 \end_inset
 
-, and scans past the nucleosomes to locate 
+ and scans past the nucleosomes to locate 
 \begin_inset ERT
 status open
 
@@ -689,7 +643,7 @@ gls{dna}
 \end_inset
 
  ends.
- The recognition of 
+ The recognition of free 
 \begin_inset ERT
 status open
 
@@ -702,7 +656,7 @@ gls{dna}
 
 \end_inset
 
- free ends is inherent to the 
+ ends is inherent to the 
 \begin_inset ERT
 status open
 
@@ -715,7 +669,7 @@ gls{mre}
 
 \end_inset
 
-, however the 
+, however,  the 
 \begin_inset ERT
 status open
 
@@ -838,7 +792,7 @@ gls{atp}
 
 \end_inset
 
- independent, which means that the 
+ independent, which means that 
 \begin_inset ERT
 status open
 
@@ -851,7 +805,7 @@ gls{atp}
 
 \end_inset
 
- hydrolysis does not regulate the facilitated diffusion.
+ hydrolysis does not regulate facilitated diffusion.
  The region responsible for the one-dimensional facilitated diffusion is
  located along the globular domains of the 
 \begin_inset ERT
@@ -905,17 +859,15 @@ gls{dna}
 
 \end_inset
 
- interaction.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-https://www.cell.com/molecular-cell/pdfExtended/S1097-2765%2817%2930576-2
-\end_layout
+ interaction 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Myler2017"
+literal "true"
 
 \end_inset
 
+.
  Due to the unique 
 \begin_inset ERT
 status open
@@ -929,7 +881,7 @@ gls{rad}
 
 \end_inset
 
- properties the whole 
+ properties, the whole 
 \begin_inset ERT
 status open
 
@@ -943,7 +895,7 @@ gls{mrn}
 \end_inset
 
  complex is able to diffuse on euchromatin and nucleosome-free regions,
- however the diffusion on heterochromatin may be hampered, which may be
+ however,  the diffusion on heterochromatin may be hampered, which may be
  the reason why the 
 \begin_inset ERT
 status open
@@ -1071,7 +1023,7 @@ gls{mre}
 
 \end_inset
 
- have to remove 
+ has to remove 
 \begin_inset ERT
 status open
 
@@ -1111,7 +1063,7 @@ gls{dsb}
 \end_inset
 
  resistance.
- However, it should be noted that the 
+ However,  it should be noted that the 
 \begin_inset ERT
 status open
 
@@ -1164,35 +1116,15 @@ glspl{dsb}
 
 \end_inset
 
- are not obstructed.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-70] B.
- Llorente, L.S.
- Symington, The Mre11 nuclease is not required for 5’ to 3’ resection at
- multiple HO-induced double-strand breaks, Mol.
- Cell.
- Biol.
- 24 (2004) 9682–9694
-\end_layout
-
-\begin_layout Plain Layout
-[75] E.P.
- Mimitou, L.S.
- Symington, Sae2, Exo1 and Sgs1 collaborate in DNA doublestrand break processing
-, Nature 455 (2008) 770–774.
-\end_layout
-
-\begin_layout Plain Layout
-Sgs1 Helicase and Two Nucleases Dna2 and Exo1 Resect DNA Double-Strand Break
- Ends
-\end_layout
+ are not obstructed 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Llorente2004,Mimitou2008,Zhu2008"
+literal "true"
 
 \end_inset
 
+.
  The 
 \begin_inset ERT
 status open
@@ -1208,38 +1140,36 @@ gls{ku}
 
 
 \begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-W bakteriach ku jest homomerem
-\end_layout
-
-\end_inset
-
- heterodimer is abundant protein (especially in human cells),
-\begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
-M.
- Beck, A.
- Schmidt, J.
- Malmstroem, M.
- Claassen, A.
- Ori, A.
- Szymborska, F.
- Herzog, O.
- Rinner, J.
- Ellenberg, R.
- Aebersold, The quantitative proteome of a human cell line, Mol.
- Syst.
- Biol.
- 7 (2011) 549.
+In prokaryotes the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{ku}
 \end_layout
 
 \end_inset
 
- combined with the high affinity towards the 
+ is homomeric.
+\end_layout
+
+\end_inset
+
+ heterodimer is an abundant protein (especially in human cells) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Beck2011"
+literal "true"
+
+\end_inset
+
+, combined with the high affinity towards the 
 \begin_inset ERT
 status open
 
@@ -1256,18 +1186,15 @@ glspl{dsb}
 \emph on
 in vivo
 \emph default
-,
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Dynamic assembly of end-joining complexes requires interaction between Ku70/80
- and XRCC4
-\end_layout
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mari2006"
+literal "true"
 
 \end_inset
 
- the 
+, the 
 \begin_inset ERT
 status open
 
@@ -1306,17 +1233,15 @@ gls{dsb}
 
 \end_inset
 
- processing in high eukaryotes.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-, Human CtIP promotes DNA end resection, Nature 450 (2007) 509–514.
-\end_layout
+ processing in high eukaryotes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sartori2007"
+literal "true"
 
 \end_inset
 
+.
  The process is most likely facilitated by the 
 \begin_inset ERT
 status open
@@ -1387,31 +1312,15 @@ gls{ku}
 
 \end_inset
 
-), or covalently bound proteins, 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-.
- Johnson, D., Crawford, M., Cooper, T., Claeys Bouuaert, C., Keeney, S., Llorente,
- B., Garcia, V., and Neale, M.J.
- (2021).
- Concerted cutting by Spo11 illuminates meiotic DNA break mechanics.
- Nature 594, 572–576.
-\end_layout
-
-\begin_layout Plain Layout
-Morimoto, S., Tsuda, M., Bunch, H., Sasanuma, H., Austin, C., and Takeda, S.
- (2019).
- Type II DNA topoisomerases cause spontaneous dou- ble-strand breaks in
- genomic DNA.
- Genes (Basel) 10.
- https://doi.org/10.
-\end_layout
+), or covalently bound proteins 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Morimoto2019,Johnson2021"
+literal "true"
 
 \end_inset
 
- the 
+, the 
 \begin_inset ERT
 status open
 
@@ -1438,7 +1347,15 @@ gls{mre}
 
 \end_inset
 
-, a Mn(II) dependent metalloenzyme, but how it is done if the 
+, an Mn(II) dependent metalloenzyme 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Paull1998,Trujillo1998,Usui1998"
+literal "true"
+
+\end_inset
+
+, but how it is done if the 
 \emph on
 recombinant 
 \emph default
@@ -1463,38 +1380,7 @@ in vitro
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-5' exonuclease?
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-[96] T.T.
- Paull, M.
- Gellert, The 3’ to 5’ exonuclease activity of Mre 11 facilitates repair
- of DNA double-strand breaks, Mol.
- Cell 1 (1998) 969–979.
- [97] K.M.
- Trujillo, S.S.
- Yuan, E.Y.
- Lee, P.
- Sung, Nuclease activities in a complex of human recombination and DNA repair
- factors Rad50, Mre11, and p95, J.
- Biol.
- Chem.
- 273 (1998) 21447–21450.
- [98] T.
- Usui, T.
- Ohta, H.
- Oshiumi, J.
- Tomizawa, H.
- Ogawa, T.
- Ogawa, Complex formation and functional versatility of Mre11 of budding
- yeast in recombination, Cell 95 (1998) 705–716
-\end_layout
-
-\end_inset
-
- The strict polarity of the 
+5' exonuclease? The strict polarity of the 
 \begin_inset ERT
 status open
 
@@ -1533,18 +1419,15 @@ gls{ssdna}
 
 \end_inset
 
- strand is required.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-[PDF] rero.ch Main steps in DNA double-strand break repair: an introduction
- to homologous recombination and related processes
-\end_layout
+ strand is required 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ranjha2018"
+literal "true"
 
 \end_inset
 
+.
  The paradox was fueled by the genetic experiments performed on 
 \begin_inset ERT
 status open
@@ -1625,7 +1508,7 @@ gls{atp}
 
 \end_inset
 
- loaded 
+-loaded 
 \begin_inset ERT
 status open
 
@@ -1695,7 +1578,7 @@ gls{mr}
 
 \end_inset
 
- complex endonucleolytic–exonucleolytic balance is regulated by the 
+ complex endonucleolytic–exonucleolytic balance is regulated by 
 \begin_inset ERT
 status open
 
@@ -1722,7 +1605,7 @@ Gls{atp}
 
 \end_inset
 
- promotes the endonucleolytic activity, while the 
+ promotes endonucleolytic activity, while 
 \begin_inset ERT
 status open
 
@@ -1735,18 +1618,15 @@ gls{atp}
 
 \end_inset
 
- hydrolysis switches those activities.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-ATP Hydrolysis by RAD50 Protein Switches MRE11 Enzyme from Endonuclease
- to Exonuclease
-\end_layout
+ hydrolysis switches those activities 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Majka2012"
+literal "true"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -1843,8 +1723,8 @@ gls{xrs}
 
 \end_inset
 
-) is required for nuclear transport, however the nuclease regulation differs
- between 
+) is required for nuclear transport, however,   the nuclease regulation
+ differs between 
 \begin_inset ERT
 status open
 
@@ -1897,7 +1777,7 @@ gls{xrs}
 
 \end_inset
 
- is not necessary for the enconucleolytic activity of 
+ is not necessary for the endonucleolytic activity of 
 \begin_inset ERT
 status open
 
@@ -1910,8 +1790,8 @@ gls{mre}
 
 \end_inset
 
-, however it exerts some positive stimulation on the process, thus in the
- cells with deletion of 
+, however,   it exerts some positive stimulation on the process, thus in
+ the cells with deletion of 
 \emph on
 
 \begin_inset ERT
@@ -2095,7 +1975,7 @@ gls{mrn}
 
 \end_inset
 
- performs this by cut at the 5' strand in the near vicinity of the 
+ performs this by the cut at the 5' strand in the near vicinity of the 
 \begin_inset ERT
 status open
 
@@ -2112,9 +1992,17 @@ gls{dna}
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-5' direction.
+5' direction 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Garcia2011,Deshpande2016"
+literal "true"
+
+\end_inset
+
+.
 \begin_inset Marginal
-status collapsed
+status open
 
 \begin_layout Plain Layout
 to jest znane jako jakiś model czy coś 
@@ -2128,30 +2016,6 @@ C:/Users/makro/Downloads/1-s2.0-S1568786420301178-main.pdf
 \end_inset
 
  może jakiś obrazek?
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Garcia, V., Phelps, S.E.L., Gray, S., and Neale, M.J.
- (2011).
- Bidirectional resection of DNA double-strand breaks by Mre11 and Exo1.
- Nature 479, 241–244.
-\end_layout
-
-\begin_layout Plain Layout
-Deshpande, R.A., Lee, J.H., Arora, S., and Paull, T.T.
- (2016).
- Nbs1 con- verts the human Mre11/Rad50 nuclease complex into an Endo/exonu-
- clease machine specific for protein-DNA adducts.
- Mol.
- Cell 64, 593–606.
- https://doi.org/10.1016/j.molcel.2016.10.010.
- 17.
 \end_layout
 
 \end_inset
@@ -2182,7 +2046,7 @@ gls{nhej}
 
 \end_inset
 
-, or to be further elongated by a 5'
+ or to be further elongated by a 5'
 \begin_inset Formula $\rightarrow$
 \end_inset
 
@@ -2226,7 +2090,7 @@ gls{mr}
 
 \end_inset
 
- can enzymatically cleave off thee second strand, which results in the release
+ can enzymatically cleave off the second strand, which results in the release
  of the blocked 
 \begin_inset ERT
 status open
@@ -2240,30 +2104,15 @@ gls{dna}
 
 \end_inset
 
- termini.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Deshpande, R.A., Lee, J.H., Arora, S., and Paull, T.T.
- (2016).
- Nbs1 con- verts the human Mre11/Rad50 nuclease complex into an Endo/exonu-
- clease machine specific for protein-DNA adducts.
- Mol.
- Cell 64, 593–606.
- https://doi.org/10.1016/j.molcel.2016.10.010.
- Connelly, J.C., de Leau, E.S., and Leach, D.R.
- (2003).
- Nucleolytic pro- cessing of a protein-bound DNA end by the E.
- coli SbcCD (MR) complex.
- DNA Repair (Amst) 2, 795–807.
- 18.
- Myler, L.R., Gallardo, I.F., Soniat, M.M., Deshpande, R.A., Gonza
-\end_layout
+ termini 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Deshpande2016,Connelly2003"
+literal "true"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -2285,7 +2134,7 @@ gls{mre}
 \end_layout
 
 \begin_layout aEnumerate (ClassicThesis)
-proteins that bind 
+proteins that bind free 
 \begin_inset ERT
 status open
 
@@ -2332,7 +2181,7 @@ gls{rad}
 
 \end_inset
 
-, inhibiting the the 3'
+, inhibiting the 3'
 \begin_inset Formula $\rightarrow$
 \end_inset
 
@@ -2543,17 +2392,15 @@ glspl{dsb}
 
 \end_inset
 
-.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Paul, DNA curtains
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Myler2017"
+literal "true"
 
 \end_inset
 
+.
  The globular domain of 
 \begin_inset ERT
 status open
@@ -2608,8 +2455,10 @@ gls{sc}
 \end_inset
 
  is equivalent to 
-\emph on
+\begin_inset Marginal
+status collapsed
 
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -2617,13 +2466,19 @@ status open
 
 
 \backslash
-gls{rad}
+textDelta
+\backslash
+
 \end_layout
 
 \end_inset
 
+ before the gene's name indicates deletion.
+ 
+\end_layout
 
-\emph default
+\end_inset
+
 
 \begin_inset ERT
 status open
@@ -2637,7 +2492,11 @@ textDelta
 
 \end_inset
 
-, however the 
+
+\emph on
+rad50
+\emph default
+, however,   the 
 \begin_inset ERT
 status open
 
@@ -2689,7 +2548,8 @@ gls{atp}
 
 \end_inset
 
- the complex was only not functional in cutting of the 3' overhanging 
+ the complex was only not functional in the cutting of the 3' overhanging
+ 
 \begin_inset ERT
 status open
 
@@ -2703,12 +2563,10 @@ gls{ssdna}
 \end_inset
 
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-moncalian2004
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Moncalian2004"
+literal "true"
 
 \end_inset
 
@@ -2778,18 +2636,15 @@ gls{dsdna}
 
 \end_inset
 
-, 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-(Connelly et al., 1997, Deshpande et al., 2017, Herdendorf et al., 2011, Hopfner
- et al., 2000a, Paull and Gellert, 1999, Trujillo and Sung, 2001)
-\end_layout
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Connelly1997,Deshpande2017,Herdendorf2011,Hopfner2000,Paull1999,Trujillo2001"
+literal "true"
 
 \end_inset
 
- while the 
+, while the 
 \begin_inset ERT
 status open
 
@@ -2829,13 +2684,10 @@ gls{atp}
 \end_inset
 
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(Connelly and Leach, 1996, Herdendorf et al., 2011, Hopfner et al., 2000a),
- 
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Connelly1996,Herdendorf2011,Hopfner2000"
+literal "true"
 
 \end_inset
 
@@ -2894,19 +2746,15 @@ gls{mrn}
 
 \end_inset
 
- were published to date,
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(Hopfner et al., 2000b, Hopfner et al., 2001, Lammens et al., 2011, Lim et
- al., 2011, Liu et al., 2016, Möckel et al., 2012, Park et al., 2011, Seifert
- et al., 2016, Williams et al., 2008, Williams et al., 2011),
-\end_layout
+ were published to date 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hopfner2000a,Hopfner2001,Lammens2011,Lim2011,Liu2016,Mockel2012,Park2011,Seifert2016,Williams2008,Williams2011,Kashammer2019,Rotheneder2023"
+literal "true"
 
 \end_inset
 
- however no structural evidence of 
+, however,  no structural evidence of free 
 \begin_inset ERT
 status open
 
@@ -2919,7 +2767,7 @@ gls{dna}
 
 \end_inset
 
- free ends is showed, in which 
+ ends is shown, in which 
 \begin_inset ERT
 status open
 
@@ -2950,7 +2798,7 @@ gls{atp}
 \end_inset
 
  hydrolysis.
- The structural differences between 
+ Moreover, the structural differences between the 
 \begin_inset ERT
 status open
 
@@ -2989,18 +2837,20 @@ gls{mrn}
 
 \end_inset
 
- complexes.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(Park et al., 2011), 
-\end_layout
+ complexes suggest differences in the mechanism of action 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Park2011"
+literal "true"
 
 \end_inset
 
-, till this year (2023) the structural detail of interaction of human 
+.
+\end_layout
+
+\begin_layout Standard
+Till this year (2023) the structural detail of the interaction of human
+ 
 \begin_inset ERT
 status open
 
@@ -3040,7 +2890,7 @@ gls{cryoem}
 
 \end_inset
 
- allowed to visualize the interaction of the human 
+ allowed for the visualization of the interaction of the human 
 \begin_inset ERT
 status open
 
@@ -3075,7 +2925,7 @@ literal "true"
 
 \end_inset
 
- Contrary to previous assumptions (and structures), a 
+ Contrary to previous assumptions (and structures), 
 \emph on
 single
 \emph default
@@ -3134,32 +2984,13 @@ ce{M2R2}}
 
 \end_inset
 
- in a pseudo-symmetric fashion, the feature seems to be evolutionary conserved
+ in a pseudo-symmetric fashion, the feature seems to be evolutionarily conserved
  across various eukaryotes.
  
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Rotheneder2023"
 literal "true"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-domen globularnych mrn pozostaje jeszcze do poznania, jako że odkrycia,
- hs cryoem i cryoem z eukaryonta pokazują, że występują
-\begin_inset space \space{}
-\end_inset
-
-inne konformacje aniżeli bakteryjny mrn.
- Co ciekawe 
-\end_layout
 
 \end_inset
 
@@ -3294,8 +3125,15 @@ gls{mrn}
 
 \end_inset
 
- complex adopts a closed (rod-shape) in a resting state, rather than the
- open conformation that is observed for the 
+ complex adopts a closed (rod-shape) in a resting state 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rotheneder2023"
+literal "true"
+
+\end_inset
+
+, rather than the open conformation that is observed for the 
 \begin_inset ERT
 status open
 
@@ -3308,7 +3146,7 @@ gls{ec}
 
 \end_inset
 
-
+ 
 \begin_inset ERT
 status open
 
@@ -3321,18 +3159,16 @@ gls{mr}
 
 \end_inset
 
- complex
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cytacje
-\end_layout
+ complex 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kashammer2019"
+literal "true"
 
 \end_inset
 
 .
- The open conformation of the complex, was believed to be the conformation
+ The open conformation of the complex was believed to be the conformation
  that is loaded onto 
 \begin_inset ERT
 status open
@@ -3346,7 +3182,7 @@ gls{dna}
 
 \end_inset
 
-, however at least in case of the eukaryotic 
+, however,  at least in the case of the eukaryotic 
 \begin_inset ERT
 status open
 
@@ -3460,19 +3296,16 @@ gls{mr}
 
 \end_inset
 
- catalytic core.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://doi.
- org/10.1016/j.cell.2008.08.017.
-\end_layout
+ catalytic core 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2008"
+literal "true"
 
 \end_inset
 
- However the presented data show that the 
+.
+ However, the presented data show that the 
 \begin_inset ERT
 status open
 
@@ -3485,7 +3318,7 @@ gls{dna}
 
 \end_inset
 
- have to be pass through the coiled coils of 
+ has to be passed through the coiled coils of 
 \begin_inset ERT
 status open
 
@@ -3525,8 +3358,8 @@ gls{dna}
 
 \end_inset
 
-–binding models must exists—an observation that fits well the single-molecule
- 
+–binding models must exist—an observation that fits well with the single-molecul
+e 
 \begin_inset ERT
 status open
 
@@ -3578,7 +3411,7 @@ gls{dna}
 
 \end_inset
 
- ends in 
+ ends in an 
 \begin_inset ERT
 status open
 
@@ -3591,7 +3424,7 @@ gls{atp}
 
 \end_inset
 
-–dependent fashion, cleavage of 
+-dependent fashion, cleavage of 
 \begin_inset ERT
 status open
 
@@ -3643,7 +3476,7 @@ gls{atp}
 
 \end_inset
 
-–dependent process as well, but the facilitated one-dimensional diffusion
+-dependent process as well, but the facilitated one-dimensional diffusion
  over the 
 \begin_inset ERT
 status open
@@ -3670,18 +3503,16 @@ gls{atp}
 
 \end_inset
 
-–independent.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-tanya paul curtains
-\end_layout
+-independent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Myler2017"
+literal "true"
 
 \end_inset
 
- Moreover the C terminus of human 
+.
+ Moreover, the C terminus of human 
 \begin_inset ERT
 status open
 
@@ -3708,7 +3539,7 @@ gls{mre}
 
 \end_inset
 
- lacking its C terminus is suggested to be a reason of impaired 
+ lacking its C terminus is suggested to be a reason for impaired 
 \begin_inset ERT
 status open
 
@@ -3721,36 +3552,21 @@ gls{dna}
 
 \end_inset
 
- binding and increased radiosensitivity.
+ binding and increased radiosensitivity 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Na2021"
+literal "true"
+
+\end_inset
+
+.
  
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-SPRTN protease-cleaved MRE11 decreases DNA repair and radiosensitises cancer
- cells.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-może jakiś opis tego jak wygląda dynamika domen globularnych oraz obrazek
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
-Coiled-coil of the Rad50—flexibility and 
+Coiled coil of the Rad50—flexible linker between the zinc hook and catalytic
+ core
 \end_layout
 
 \begin_layout Standard
@@ -3767,7 +3583,7 @@ gls{mrn}
 
 \end_inset
 
- complex is the extremaly long coiled-coil region of the 
+ complex is the extremely long coiled coil region of the 
 \begin_inset ERT
 status open
 
@@ -3781,7 +3597,26 @@ gls{rad}
 \end_inset
 
  protein.
- The long internal coiled-coil that constitutes the middle part of the 
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MarginFig{gfx/mrn_dimer.png}{
+\backslash
+Gls{mrn}--
+\backslash
+gls{mrn} dimer (based on 
+\backslash
+href{https://www.rcsb.org/structure/7ZQY}{7ZQY}).}{fig:gfx/mrn_dimer.png}
+\end_layout
+
+\end_inset
+
+The long internal coiled coil that constitutes the middle part of the 
 \begin_inset ERT
 status open
 
@@ -3794,9 +3629,9 @@ gls{rad}
 
 \end_inset
 
- is formed by folding upon intself in the middle of the protein (the zinc
- hook), so the antiparallel coiled-coil is formed in an intermolecular fashion.
- Atomic force microscopy showed that the coiled-coil domains of 
+ is formed by folding upon itself in the middle of the protein (the zinc
+ hook), so the antiparallel coiled coil is formed in an intermolecular fashion.
+ Atomic force microscopy showed that the coiled coil domains of 
 \begin_inset ERT
 status open
 
@@ -3822,7 +3657,7 @@ gls{rad}
 
 \end_inset
 
- spans around 400
+ span around 400
 \begin_inset space \space{}
 \end_inset
 
@@ -3839,7 +3674,7 @@ AA
 
 \end_inset
 
-, while the coiled-coil domain from human 
+, while the coiled coil domain from human 
 \begin_inset ERT
 status open
 
@@ -3865,6 +3700,8 @@ status open
 
 \backslash
 AA
+\backslash
+
 \end_layout
 
 \end_inset
@@ -3887,9 +3724,9 @@ AA
 \end_inset
 
 .
- The length and the sequence of coiled-coils is quite well conserved, moreover
- the truncation of the coiled-coils leads to severe biological consequences—shor
-tening of the coiled-coil of 
+ The length and the sequence of coiled coils are quite well conserved, moreover,
+ the truncation of the coiled coils leads to severe biological consequences—shor
+tening of the coiled coil of 
 \begin_inset ERT
 status open
 
@@ -3968,20 +3805,15 @@ gls{nhej}
 
 \end_inset
 
-.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hohl M, Kwon Y, Galvan SM, Xue X et al.
- 2011.
- The Rad50 coiled-coil domain is indispensable for Mre11 complex functions.
- Nat Struct Mol Biol 18: 1124–31.
-\end_layout
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hohl2010"
+literal "true"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -4026,9 +3858,9 @@ gls{mrn}
 
  complexes in various conformations.
  Those conformations are available to form due to the flexibility of the
- coiled-coil, this is probably achieved by breaks in heptade repeats of
- the coiled-coil.
- The coiled-coil conformation is dependent on the binding of 
+ coiled coil, this is probably achieved by breaks in heptade repeats of
+ the coiled coil.
+ The coiled coil conformation is dependent on the binding of 
 \begin_inset ERT
 status open
 
@@ -4067,7 +3899,7 @@ gls{mr}
 
 \end_inset
 
-(
+ or 
 \begin_inset ERT
 status open
 
@@ -4080,9 +3912,10 @@ gls{mrn}
 
 \end_inset
 
-) 
+.
+ 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citeauthor
 key "Kashammer2019"
 literal "true"
 
@@ -4155,7 +3988,7 @@ gls{atp}
 
 \end_inset
 
-–bound complex is proposed as a major autoinhibited state of the 
+-bound complex is proposed as a major autoinhibited state of the 
 \begin_inset ERT
 status open
 
@@ -4194,7 +4027,7 @@ gls{atp}
 
 \end_inset
 
- in the cell and low efficiency of the 
+ in the cell and the low efficiency of the 
 \begin_inset ERT
 status open
 
@@ -4220,7 +4053,7 @@ gls{atp}
 
 \end_inset
 
-–hydrolysis.
+-hydrolysis.
  The 
 \begin_inset ERT
 status open
@@ -4234,7 +4067,7 @@ gls{atp}
 
 \end_inset
 
-–bound 
+-bound 
 \begin_inset ERT
 status open
 
@@ -4247,7 +4080,7 @@ gls{mr}
 
 \end_inset
 
- presents more compact structure, however the coiled-coils of each 
+ presents a more compact structure, however,  the coiled coils of each 
 \begin_inset ERT
 status open
 
@@ -4289,7 +4122,7 @@ gls{dna}
 
 \end_inset
 
-—
+— the 
 \begin_inset ERT
 status open
 
@@ -4302,7 +4135,7 @@ gls{mr}
 
 \end_inset
 
- complex was observed in the rod–shaped conformation, which allowed to reconstru
+ complex was observed in the rod-shaped conformation, which allowed to reconstru
 ct around one-third (from globular domains to the zinc hook) of the 
 \begin_inset ERT
 status open
@@ -4321,7 +4154,7 @@ gls{mr}
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 https://data.mendeley.com/datasets/v93tby2spy/1/files/5272560d-7ef0-4cd3-8128-99b9
@@ -4334,7 +4167,7 @@ https://data.mendeley.com/datasets/v93tby2spy/1/files/5272560d-7ef0-4cd3-8128-99
 \end_layout
 
 \begin_layout Standard
-However, as has been mentioned previously, the eukaryotic 
+However,  as has been mentioned previously, the eukaryotic 
 \begin_inset ERT
 status open
 
@@ -4373,7 +4206,7 @@ gls{atp}
 
 \end_inset
 
-–bound state of the 
+-bound state of the 
 \begin_inset ERT
 status open
 
@@ -4386,8 +4219,8 @@ gls{mrn}
 
 \end_inset
 
- assumes mostly a rod–shape (however the open coiled-coil subpopulation
- is observwed as well).
+ assumes mostly a rod-shape (however,  the open coiled coil subpopulation
+ is observed as well).
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4401,6 +4234,13 @@ literal "true"
 
 \begin_layout Section
 The zinc hook—a tetramerization domain?
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:The-zinc-hook—a"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4417,7 +4257,7 @@ gls{rad}
 
 \end_inset
 
- and showed that at the apex of the coiled-coil domain the 
+ showed that at the apex of the coiled coil domain, the 
 \begin_inset ERT
 status open
 
@@ -4443,7 +4283,8 @@ gls{rad}
 
 \end_inset
 
- protomer, the followup X-ray crystallography studies (and more recent 
+ protomer, the follow-up X-ray crystallography studies (and more recent
+ 
 \begin_inset ERT
 status open
 
@@ -4587,7 +4428,7 @@ noprefix "false"
 
 \end_inset
 
-, by the conserved CXXC motif, where C corresponds to cysteine residue,
+, by the conserved CXXC motif, where C corresponds to a cysteine residue,
  and X corresponds to any of 20 canonical amino acids.
  The Zn(II) co-coordination of the cysteine's thiolates implies that Zn(II)
  directly takes part in the formation of the tertiary structure of the 
@@ -4604,7 +4445,7 @@ gls{rad}
 \end_inset
 
 , what is more, the Zn(II) ion induces metal–coupled folding of the zinc
- hook domain, which is one of the reason of the extreme stability of the
+ hook domain, which is one of the reasons of the extreme stability of the
  Zn(
 \begin_inset ERT
 status open
@@ -4640,7 +4481,7 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-The zinc hook domain is not structurally separated from the coiled-coil
+The zinc hook domain is not structurally separated from the coiled coil
  domain of 
 \begin_inset ERT
 status open
@@ -4654,8 +4495,8 @@ gls{rad}
 
 \end_inset
 
-, i.e., one cannot separate the particular domain just by assesement of the
- structure like in case of pyruvate kinase (
+, i.e., one cannot separate the particular domain just by assessment of the
+ structure like in the case of pyruvate kinase (
 \begin_inset CommandInset href
 LatexCommand href
 name "1PKN"
@@ -4664,17 +4505,16 @@ literal "false"
 
 \end_inset
 
-), where three domain structure is easily seen at once.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1042/EBC20200108
-\end_layout
+), where three domain structure is easily seen at once 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Morris2022"
+literal "true"
 
 \end_inset
 
- The similar distinction of the globular domain of the 
+.
+ A similar distinction between the globular domain of the 
 \begin_inset ERT
 status open
 
@@ -4687,8 +4527,8 @@ gls{rad}
 
 \end_inset
 
- and superhelical domain is visible without any further investigation (see
- 
+ and the superhelical domain is visible without any further investigation
+ (see 
 \begin_inset CommandInset href
 LatexCommand href
 name "7ZR1"
@@ -4698,7 +4538,7 @@ literal "false"
 \end_inset
 
 ).
- However, the 
+ However,  the 
 \begin_inset ERT
 status open
 
@@ -4716,12 +4556,12 @@ gls{UniProt}
 a priori
 \emph default
  the stretch of around 100 amino acids flanking the canonical CXXC motif
- to be the zinc hook, however this approach seems to be experimentally unjustifi
-ed.
+ to be the zinc hook, however,  this approach seems to be experimentally
+ unjustified.
 \end_layout
 
 \begin_layout Standard
-In structural biology protein domain is understood as a part of the protein
+In structural biology, protein domain is understood as a part of the protein
  that is folded independently of the rest of the protein, and is stable
  
 \emph on
@@ -4733,7 +4573,7 @@ per se
 a priori
 \emph default
  assignment of the zinc hook domain is not justified in the lack of the
- structural discriminant of the coiled-coil and the zinc hook domain.
+ structural discriminant of the coiled coil and the zinc hook domain.
  The marking of the region that makes the zinc hook domain should be 
 \emph on
 functional 
@@ -4749,7 +4589,7 @@ literal "true"
 
 \end_inset
 
-, and complemented further by 
+ and complemented further by 
 \begin_inset CommandInset citation
 LatexCommand citeauthor
 key "Padjasek2020a"
@@ -4818,8 +4658,8 @@ gls{pf}
 
 \end_inset
 
- only 45-amino-acid-long fragment (with the CXXC motif and flanking region)
- is sufficient to form a stable domain, further elongation do not result
+ only a 45-amino-acid-long fragment (with the CXXC motif and flanking region)
+ is sufficient to form a stable domain, further elongation does not result
  in the stabilization, thus the zinc hook in the 
 \begin_inset ERT
 status open
@@ -4847,8 +4687,8 @@ gls{pf}
 \end_inset
 
 .
- The stabilities studies performed during my PhD project show that in case
- of the 
+ The stabilities studies performed during my PhD project show that in the
+ case of the 
 \begin_inset ERT
 status open
 
@@ -4874,8 +4714,8 @@ gls{rad}
 
 \end_inset
 
- the zinc hook domain is longer—increment in stability of the zinc hook
- domain is observed up to length of ~130 amino acids (see 
+ the zinc hook domain is longer—an increment in the stability of the zinc
+ hook domain is observed up to a length of ~130 amino acids (see 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -4907,7 +4747,7 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-From the first experiments investigating the zinc hook form 
+From  the first experiments investigating the zinc hook from 
 \begin_inset ERT
 status open
 
@@ -5009,7 +4849,7 @@ literal "true"
 
 \end_inset
 
- present the structure of zinc hook from 
+ present the structure of a zinc hook from 
 \begin_inset ERT
 status open
 
@@ -5044,95 +4884,8 @@ literal "false"
 
 \end_inset
 
-, 
-\begin_inset Marginal
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Wrap figure
-lines 0
-placement O
-overhang 0in
-width "7em"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename gfx/mrn_dimer.png
-	lyxscale 40
-	height 70pheight%
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Model of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{cthermo}
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{mrn}
-\end_layout
-
-\end_inset
-
--
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{mrn}
-\end_layout
-
-\end_inset
-
- dimer, based on 
-\begin_inset CommandInset href
-LatexCommand href
-name "7ZQY"
-target "https://www.rcsb.org/structure/7ZQY"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-the structure adopts totally different shape, compared to the V-shaped conformat
-ion of the zinc hook from 
+, the structure adopts a totally different shape, compared to the V-shaped
+ conformation of the zinc hook from 
 \begin_inset ERT
 status open
 
@@ -5207,7 +4960,7 @@ literal "true"
 
 \end_inset
 
- present almost identical sequence of 
+ present an almost identical sequence of 
 \begin_inset ERT
 status open
 
@@ -5251,8 +5004,8 @@ literal "false"
 
 \end_inset
 
-), however the zinc hook, instead of adopting the `V-shaped` assembly, adopts
- a `rod-shape`.
+), however,  the zinc hook, instead of adopting the `V-shaped` assembly,
+ adopts a `rod-shape`.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -5270,7 +5023,7 @@ literal "false"
 
 \end_inset
 
- structure have suggested that the zinc hook domain from 
+ structure has suggested that the zinc hook domain from 
 \begin_inset ERT
 status open
 
@@ -5283,7 +5036,7 @@ gls{pf}
 
 \end_inset
 
- have stabilizing interactions that are not present in the 
+ has stabilizing interactions that are not present in the 
 \begin_inset CommandInset href
 LatexCommand href
 name "1L8D"
@@ -5292,7 +5045,7 @@ literal "false"
 
 \end_inset
 
-, however this does not stand in the agreement with the experimental data
+, however,  this does not stand in agreement with the experimental data
  provided by 
 \begin_inset CommandInset citation
 LatexCommand citeauthor
@@ -5483,7 +5236,7 @@ gls{mrn}
 
 \end_inset
 
- complex, similarly to 
+ complex, similar to 
 \begin_inset CommandInset href
 LatexCommand href
 name "5GOX"
@@ -5501,7 +5254,7 @@ literal "false"
 
 \end_inset
 
- present the 
+ presents the 
 \begin_inset ERT
 status open
 
@@ -5549,10 +5302,10 @@ gls{mrn}
 
 \end_inset
 
- complex formed conglomerates, connected by the zinc hook, however due to
- the low number of particles it was impossible to resolve the three dimensional
- map of the conglomerate, to obtain a structure with better resolution and
- to investigate the 
+ complex formed conglomerates, connected by the zinc hook, however,  due
+ to the low number of particles it was impossible to resolve the three-dimension
+al map of the conglomerate, to obtain a structure with better resolution
+ and to investigate the 
 \begin_inset ERT
 status open
 
@@ -5651,7 +5404,7 @@ gls{asunit}
 
 \end_inset
 
- is duplicated and translated), however the propensity to form tetrameric
+ is duplicated and translated), however,  the propensity to form tetrameric
  assembly was not obvious to 
 \begin_inset CommandInset citation
 LatexCommand citeauthor
@@ -5752,8 +5505,8 @@ gls{rad}
 
 \end_inset
 
- I was not able to observe the tetramerization, as the radius of gyration
- stands with accordance with the crystal structure.
+, I was not able to observe the tetramerization, as the radius of gyration
+ stands in accordance with the crystal structure.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -5847,6 +5600,8 @@ status open
 
 \backslash
 AA
+\backslash
+
 \end_layout
 
 \end_inset
@@ -5866,7 +5621,7 @@ gls{hr}
 \end_inset
 
 .
- However, to date the exact biological role of the apex-apex tetramerization
+ However,  to date the exact biological role of the apex-apex tetramerization
  of the 
 \begin_inset ERT
 status open
@@ -5880,9 +5635,9 @@ gls{rad}
 
 \end_inset
 
- is shourded in mystery—the apex-apex interface is not conserved evolutionarily,
- and the tethering and its regulation probably differs in organisms.
- The precise 
+ is shrouded in mystery—the apex-apex interface is not conserved evolutionarily,
+ and the tethering and its regulation probably differ in organisms.
+ Precise 
 \emph on
 in vivo 
 \emph default

@@ -165,49 +165,8 @@ Brief history and bibliometric data
 \end_layout
 
 \begin_layout Standard
-The two previous chapters (
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand labelonly
-reference "chap:Galvanization-of-Protein-Protein"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- and 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand labelonly
-reference "chap:InterMetalDB"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-) focus mostly on 
-\emph on
-in silico 
-\emph default
-endeavors to systematically describe metal-involved 
+My early work as a researcher of protein-metal interactions involved joint
+ work with Michał Padjasek on the Rad50 protein from 
 \begin_inset ERT
 status open
 
@@ -215,15 +174,465 @@ status open
 
 
 \backslash
-glspl{ppi}
+gls{sc}
+\end_layout
+
+\end_inset
+
+ (data not published yet).
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Padjasek2022"
+literal "true"
+
+\end_inset
+
+ It was Michal Padjasek who largely showed me the ins and outs of the experiment
+s that give insight into the world of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{mprotein}
 \end_layout
 
 \end_inset
 
 .
- My contribution in neither of the articles would not be possible without
- involvement in the wet lab experiments from the very beginning of my masters
- and doctoral studies.
+ It was this knowledge that allowed me to study the behavior of the zinc
+ hook from the human 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+.
+ Historically, my participation in the research is part of a larger project,
+ already separated into several grants, devoted to studying the orthologs
+ of the zinc hook from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ protein.
+ This research was initiated by Tomasz Kochańczyk and continued by Michał
+ Padjasek, myself, Olga Kerber, and Marek Łuczkowski.
+ As it turned out, the zinc hook from the human 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ behaves in a different way than its orthologs from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{sc}
+\end_layout
+
+\end_inset
+
+.
+ The hard work on this subject resulted in a publication in the 
+\shape italic
+International Journal of Molecular Sciences
+\emph on
+, a journal with an 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{if}
+\end_layout
+
+\end_inset
+
+ of 6.208 (as of March 6, 2023)
+\shape default
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pycode}[sessionA]
+\end_layout
+
+\begin_layout Plain Layout
+
+from scholarly import scholarly
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num2words = {1: 'one',
+\end_layout
+
+\begin_layout Plain Layout
+
+             2: 'two',
+\end_layout
+
+\begin_layout Plain Layout
+
+             3: 'three',
+\end_layout
+
+\begin_layout Plain Layout
+
+             4: 'four',
+\end_layout
+
+\begin_layout Plain Layout
+
+             5: 'five',
+\end_layout
+
+\begin_layout Plain Layout
+
+             6: 'six',
+\end_layout
+
+\begin_layout Plain Layout
+
+             7: 'seven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             8: 'eight',
+\end_layout
+
+\begin_layout Plain Layout
+
+             9: 'nine',
+\end_layout
+
+\begin_layout Plain Layout
+
+             10: 'ten',
+\end_layout
+
+\begin_layout Plain Layout
+
+             11: 'eleven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             12: 'twelve',
+\end_layout
+
+\begin_layout Plain Layout
+
+             13: 'thirteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             14: 'fourteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             15: 'fifteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             16: 'sixteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             17: 'seventeen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             18: 'eighteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             19: 'nineteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             20: 'twenty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             30: 'thirty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             40: 'forty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             50: 'fifty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             60: 'sixty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             70: 'seventy',
+\end_layout
+
+\begin_layout Plain Layout
+
+             80: 'eighty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             90: 'ninety',
+\end_layout
+
+\begin_layout Plain Layout
+
+             0: 'zero'}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+def n2w(n):
+\end_layout
+
+\begin_layout Plain Layout
+
+    try:
+\end_layout
+
+\begin_layout Plain Layout
+
+        return (num2words[n])
+\end_layout
+
+\begin_layout Plain Layout
+
+    except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+        try:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ((num2words[n-n % 10]) + ' ' + (num2words[n % 10].lower()))
+\end_layout
+
+\begin_layout Plain Layout
+
+        except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ('Number out of range')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+search_query = scholarly.search_single_pub(
+\end_layout
+
+\begin_layout Plain Layout
+
+    'Relations between Structure and Zn (II) Binding Affinity Shed Light
+ on the Mechanisms of Rad50 Hook Domain Functioning and Its Phosphorylation')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num_citations = search_query['num_citations']
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+if num_citations == 0:
+\end_layout
+
+\begin_layout Plain Layout
+
+    print(', and though the article was not cited yet (as of 
+\backslash
+
+\backslash
+today),
+\backslash
+
+\backslash
+footnote{
+\backslash
+
+\backslash
+url{https://scholar.google.com/}} it gives a solid foundation  for the discussion
+ of unique properties of the zinc hook from 
+\backslash
+
+\backslash
+gls{sc} 
+\backslash
+
+\backslash
+gls{rad}.')
+\end_layout
+
+\begin_layout Plain Layout
+
+elif num_citations > 0:
+\end_layout
+
+\begin_layout Plain Layout
+
+    if num_citations <= 10:
+\end_layout
+
+\begin_layout Plain Layout
+
+        print(f'.
+ The article was cited by {n2w(num_citations)} other articles so far (as
+ of 
+\backslash
+
+\backslash
+today).')
+\end_layout
+
+\begin_layout Plain Layout
+
+    else:
+\end_layout
+
+\begin_layout Plain Layout
+
+        print(f'.
+ The article was cited by {num_citations} other articles so far (as of 
+\backslash
+
+\backslash
+today).''
+\backslash
+
+\backslash
+footnote{
+\backslash
+
+\backslash
+url{https://scholar.google.com/}}')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pycode}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Section
@@ -246,8 +655,8 @@ Glspl{ppi}
  play a crucial role in many biological processes and are usually stabilized
  by an extensive network of non-covalent intermolecular interactions.
  An additional factor contributing to the formation of protein complexes
- is an intermolecular metal binding, in which the affinity of the metal
- for the protein affects the stability of the entire complex.
+ is intermolecular metal binding, in which the affinity of the metal for
+ the protein affects the stability of the entire complex.
  Most of the metal-involved 
 \begin_inset ERT
 status open
@@ -262,7 +671,7 @@ glspl{ppi}
 \end_inset
 
  are uncharacterized in terms of the role of metal at the interface or in
- terms o the complex stability.
+ terms of the complex stability.
  One of few, quite well characterized 
 \begin_inset ERT
 status open
@@ -575,7 +984,7 @@ gls{rad}
 
 \end_inset
 
- – however the extent of the effect in human 
+ – However, the extent of the effect in human 
 \begin_inset ERT
 status open
 
@@ -653,7 +1062,7 @@ gls{rad}
 
 \end_inset
 
- complex by approximately one order of magnitude, however this effect is
+ complex by approximately one order of magnitude, However, this effect is
  attenuated in the 183-amino-acid-long fragment and the conditional formation
  constant is lower by one-fourth order of magnitude.
  This apparently considerable changes in stability do not have huge impact
@@ -739,7 +1148,7 @@ gls{freezn}
 
 \end_inset
 
- concentration, however phosphorylation of the threonine 690 may be involved
+ concentration, However, phosphorylation of the threonine 690 may be involved
  in undiscovered yet signaling pathway.
 \end_layout
 

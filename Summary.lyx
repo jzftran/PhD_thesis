@@ -87,7 +87,434 @@ Summary
 \end_layout
 
 \begin_layout Standard
-I do believe that contribution in the form of “Galvanization..” and InterMetalDB
+When starting my doctorate, even though I had a plan of research and experiments
+ written out and arranged in my head, I could not expect the final form
+ my doctorate would take.
+ I expected my doctorate to combine different fields of science, but I could
+ not expect my doctorate to be, so interdisciplinary.
+ I could not expect, the pandemic that started in 2019, and that in 2020
+ it would lock me in complete isolation for two weeks.
+ I tried to make the most of the time in quarantine by conducting 
+\emph on
+in silico
+\emph default
+ research, despite the 
+\emph on
+ex silico
+\emph default
+ research that had already begun.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+może tu coś więcej?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I think the great advantage of presenting one's PhD as a set of publications
+ linked by a common theme is that one tends to present things that more
+ or less came out well, things we are satisfied with—we do not have to go
+ back to things that did not come out, didn't have a chance to come out,
+ things that demotivated us on a daily basis and kept us up at night.
+ Of course, these things also happened during my doctorate, and I think
+ it's important for other, younger, researchers to realize that a lot of
+ the lines of research I undertook did not result in pushing the state of
+ science forward, or an article—what was collected and presented in this
+ thesis is the essence of hard work, but also luck.
+\end_layout
+
+\begin_layout Standard
+This PhD has been the investigation of properties of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdescplural{mppi}
+\end_layout
+
+\end_inset
+
+, particularly 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdescplural{zppi}
+\end_layout
+
+\end_inset
+
+.
+ I do believe that contributions in the form of the articles presented here
+ are of importance at a basic research level, but they also provide a foundation
+ on which to build applied research.
+ Understanding the assemblies formed by 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{mppi}
+\end_layout
+
+\end_inset
+
+ may eventually lead to the creation of a model that could predict the interprot
+ein metal binding from the structure or sequence of a protein.
+ Correspondingly, filling the missing pieces of the metal–protein interaction
+ in the protein–protein interaction puzzle can offer insight into the metal-depe
+ndent regulation of the interaction, as well as help to identify novel interacti
+ons that were missing from the picture due to the metal dependence.
+ From a medical perspective, understanding 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{mppi}
+\end_layout
+
+\end_inset
+
+ can give insight into diseases associated with abnormal metal-induced aggregati
+on (e.g., crystallins in the eye) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ramirez-Bello2022"
+literal "true"
+
+\end_inset
+
+, and how mismetallation of those sites may cause various diseases.
+\end_layout
+
+\begin_layout Standard
+I am glad that all the publications presented here are available in open
+ access, this allows other researchers to freely read and use the information
+ meticulously prepared by us.
+ This is truly important in the case of 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Kocyla2021"
+literal "true"
+
+\end_inset
+
+ where we present the curated data set of the physiological 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+.
+ The 
+\emph on
+ex silico 
+\emph default
+part of my doctorate focused on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ protein, as the data presenting the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{sc}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ properties are still unpublished as of March 6, 2023, the 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Tran2022"
+literal "true"
+
+\end_inset
+
+ makes a great foundation for the discussion of the properties of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{sc}
+\end_layout
+
+\end_inset
+
+ protein.
+ The study lays out the basis of the long-range allostery between the zinc
+ hook and the rest of the protein.
+ To my knowledge, the described stabilization of the Zn(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ is the first example of complex stabilization over such a long distance.
+ The description of the link between the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{dna}
+\end_layout
+
+\end_inset
+
+ damage response with the biology of Zn(II) ions and signal transduction
+ pathways can be a great step in the apprehension of the metal dynamics
+ in cancer cells.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+może tu coś jeszcze?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To last two articles presented in the thesis show how detrimental is for
+ the zinc-binding sites the mismetallation by heavy metal ions.
+ Those articles, together with 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Padjasek2020a"
+literal "true"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Padjasek2020a"
+literal "true"
+
+\end_inset
+
+ are the first articles addressing the issue of mismetallation of interprotein
+ metal binding sites.
+ Our studies provide an explanation of a potential genotoxic mechanism of
+ mismetallation of the zinc hook.
+\end_layout
+
+\begin_layout Standard
+Though the article describing InterMetalDB was published in a journal with
+ a lower 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdesc{if}
+\end_layout
+
+\end_inset
+
+ the article describing physiological 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kocyla2021"
+literal "true"
+
+\end_inset
+
+ I think that this is a much more fundamental contribution in this field.
+ Most of the previous surveys regarding the existence of metal ions in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pdb}
+\end_layout
+
+\end_inset
+
+ structures gather the data as a spreadsheet that is usually available after
+ an exchange of emails, the same goes for the algorithms that were used
+ to select the data.
+ Even when the data is publicly available, the data is created only once
+ and is no longer updated (as in the case of 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Kocyla2021"
+literal "true"
+
+\end_inset
+
+, and similar studies).
+ InterMetalDB is different—data presented in InterMetalDB is available after
+ a few mouse clicks via the web interface, moreover, the resource is constantly
+ updated, without any human involvement.
+ The resource will be updated as long as the service is maintained, unfortunatel
+y, nobody, especially in the academy, can guarantee that the service will
+ be maintained forever, where the service does not generate any revenue.
+ Not surprisingly, even the services that were published last year are no
+ longer available, and the URLs point to 
+\begin_inset Quotes eld
+\end_inset
+
+404 Not Found
+\begin_inset Quotes erd
+\end_inset
+
+.
+ With that thought in mind, I have envisioned InterMetalDB to be an open
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{code}
+\end_layout
+
+\end_inset
+
+ project—freely available and reproducible.
+ Any function, any component of InterMetalDB can be used by anyone, researcher
+ or not, one only has to click 
+\begin_inset Quotes eld
+\end_inset
+
+copy
+\begin_inset Quotes erd
+\end_inset
+
+, or 
+\begin_inset Quotes eld
+\end_inset
+
+fork
+\begin_inset Quotes erd
+\end_inset
+
+ repository on GitHub, instead of wasting time to recreate the whole service
+ from the source article.
+\end_layout
+
+\begin_layout Standard
+I believe that conducting research in line with open science principles
+ (
+\emph on
+inter alia
+\emph default
+, providing free access to publications, data, software, and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{code}
+\end_layout
+
+\end_inset
+
+) is the next step in the evolution of scientific knowledge dissemination
+ in the age of the Internet, as it was with 17th-century advent of scientific
+ journal during the Scientific Revolution.
+ Already some principles of open science make the publication presented
+ in the thesis available to the reader without the need to pay for the informati
+on, InterMetalDB and its resources are pushed the furthest in accordance
+ with the principles of open science, which makes the InterMetalDB easily
+ reproducible even after the ceasing of hosting.
 \end_layout
 
 \end_body

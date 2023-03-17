@@ -26,7 +26,7 @@
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command default
+\bibtex_command biber
 \index_command default
 \paperfontsize default
 \spacing single
@@ -247,16 +247,18 @@ chapter*{#1}%
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "app:bibliography"
-
-\end_inset
-
 
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "PhD_thesis"
+options "bibtotoc"
+
+\end_inset
+
 
 \end_layout
 

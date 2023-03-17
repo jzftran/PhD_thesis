@@ -86,7 +86,7 @@
 Zinc proteome 
 \begin_inset CommandInset label
 LatexCommand label
-name "ch:Zinc proteome"
+name "chap:Zinc proteome"
 
 \end_inset
 
@@ -94,16 +94,17 @@ name "ch:Zinc proteome"
 \end_layout
 
 \begin_layout Section
-Properties of zinc
-\end_layout
-
-\begin_layout Standard
+Properties of zinc 
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:properties_of_zinc"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 As have been mentioned in the first sentence of 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -154,8 +155,8 @@ noprefix "false"
 d
 \emph default
 -block of the periodic table), may include zinc as a transition metal.
- The goal of this subsection is not to discussion whether zinc is a transition
- metal, 
+ The goal of this subsection is not to discuss whether zinc is a transition
+ metal— 
 \begin_inset Quotes eld
 \end_inset
 
@@ -166,8 +167,8 @@ transition metals
  is a human concept, people are in the habit of categorizing and dividing,
  however, it does not matter for the chemical and physical properties of
  zinc whether one classifies zinc as a transition metal or not.
- Unique properties of zinc, and the reason why chemists discuss where to
- categorize zinc is due to zinc's electron configuration (
+ The unique properties of zinc and the reason why chemists discuss where
+ to categorize zinc is due to zinc's electron configuration (
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -190,7 +191,7 @@ noprefix "false"
 \emph on
 d 
 \emph default
-orbitals of zinc are energetically stable, and usually zinc can loose 
+orbitals of zinc are energetically stable, and usually, zinc can lose 
 \emph on
 only
 \emph default
@@ -198,8 +199,8 @@ only
 \emph on
 s
 \emph default
- electrons, leading to formation of stable Zn(II), which is entirely different
- to the biologically active transition metals.
+ electrons, leading to the formation of stable Zn(II), which is entirely
+ different to the biologically active transition metals.
  This property of zinc of occurrence in only one oxidation state (2+) prevents
  zinc from partaking directly in redox reactions\SpecialChar endofsentence
  The total filling of zinc's
@@ -213,19 +214,17 @@ orbitals makes zinc a 'spectroscopically quiet' metal – zinc complexes have
 \emph on
 d-
 \emph default
-shells, zinc have almost no spectroscopic signature.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-http://websites.umich.edu/~jphgroup/XAS_Course/Sydney/CCR-silentmetals.pdf
-\end_layout
+shells, zinc has almost no spectroscopic signature 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Penner-Hahn2005"
+literal "true"
 
 \end_inset
 
- This limitation of Zn(II) of being redox-inert in biology might produce
- a false view on its use by evolution in proteins.
+.
+ This limitation of Zn(II) being redox-inert in biology might produce a
+ false view of its use by evolution in proteins.
 \end_layout
 
 \begin_layout Standard
@@ -326,7 +325,7 @@ literal "true"
 
 \end_inset
 
- moreover its the only one 
+ moreover it is the only 
 \emph on
 d
 \emph default
@@ -342,8 +341,8 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-In solution Zn(II) ions exists in a equilibrium as a octahedral hexaaquo
- complexes ([Zn(H
+In solution Zn(II) ions exist in equilibrium as an octahedral hexaaquo complexes
+ ([Zn(H
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -397,7 +396,7 @@ O)
 
 \end_inset
 
-, which equilibrium shifted towards the first one.
+, with equilibrium shifted towards the first one.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -410,8 +409,8 @@ literal "true"
 \emph on
  d 
 \emph default
-orbitals, transition between the octahedral to tetrahedral coordination
- (typical for complexation by proteins) in case of zinc does not entails
+orbitals, the transition between the octahedral to tetrahedral coordination
+ (typical for complexation by proteins) in the case of zinc does not entail
  an energetic penalty, 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -474,11 +473,11 @@ gls{cofactor}
 
 \end_inset
 
-, are unique as well, and bind this metal ion in a unusual fashion.
+, are unique as well, and bind this metal ion in an unusual fashion.
 \end_layout
 
 \begin_layout Section
-Zinc Binding Sites
+zinc-binding Sites
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Zinc-Binding-Sites"
@@ -490,8 +489,8 @@ name "sec:Zinc-Binding-Sites"
 
 \begin_layout Standard
 Zinc(II) binding proteins are extremely diverse in structure and function.
- Zn(II) is a intermediate Lewis acid in terms of hardness according to the
- 
+ Zn(II) is an intermediate Lewis acid in terms of hardness according to
+ the 
 \begin_inset ERT
 status open
 
@@ -530,11 +529,11 @@ gls{Lg}
 
 \end_inset
 
- found in the zinc binding sites is cysteine, followed by histidine and
+ found in the zinc-binding sites is cysteine, followed by histidine and
  acidic residues, i.e.
  aspartic acid and glutamic acid 
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Those findings are based on the structural data from the 
@@ -564,7 +563,7 @@ glspl{mprotein}
 
 \end_inset
 
- does not necessarily mean that this is true in all existing zinc binding
+ does not necessarily mean that this is true in all existing zinc-binding
  sites existing.
 \end_layout
 
@@ -579,7 +578,7 @@ literal "true"
 
 \end_inset
 
- For zinc binding sites, 
+ For zinc-binding sites, 
 \begin_inset ERT
 status open
 
@@ -592,7 +591,7 @@ glspl{cn}
 
 \end_inset
 
- ranging from to to seven were found in the literature 
+ ranging from two to seven were found in the literature 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sousa2009,Andreini2011"
@@ -600,8 +599,8 @@ literal "true"
 
 \end_inset
 
-, however di- and tricoordinate are zinc complexes are highly reactive,
- meaning that the stable zinc binding sites have 
+, however, di- and tricoordinate are zinc complexes are highly reactive,
+ meaning that the stable zinc-binding sites have 
 \begin_inset ERT
 status open
 
@@ -623,7 +622,7 @@ literal "true"
 
 \end_inset
 
- ruled out of physiological existence of zinc binding sites of 
+ ruled out of physiological existence of zinc-binding sites of 
 \begin_inset ERT
 status open
 
@@ -645,7 +644,7 @@ literal "true"
 
 \end_inset
 
- The most common zinc binding sites found in the 
+ The most common zinc-binding sites found in the 
 \begin_inset ERT
 status open
 
@@ -672,7 +671,7 @@ gls{cn}
 \end_inset
 
 =4, which corresponds to the tetrahedral geometry.
- The low occurrence of zinc binding sites with 
+ The low occurrence of zinc-binding sites with 
 \begin_inset ERT
 status open
 
@@ -732,20 +731,15 @@ glspl{Lg}
 
 \end_inset
 
-.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Miessler, G.
- L.; Tarr, D.
- A.
- Inorganic Chemistry, 4th ed.; Pearson Prentice Hall: Upper Saddle River,
- NJ, 2011.
-\end_layout
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Miessler2013"
+literal "true"
 
 \end_inset
 
+.
  The 
 \begin_inset ERT
 status open
@@ -759,8 +753,8 @@ gls{cn}
 
 \end_inset
 
- equal to two in zinc binding sites is usually caused by not-fully resolved
- structure of zinc binding site having higher 
+ equal to two in zinc-binding sites is usually caused by the not-fully resolved
+ structure of zinc-binding site having higher 
 \begin_inset ERT
 status open
 
@@ -843,7 +837,7 @@ gls{cn}
 
 \end_inset
 
-=3 in most cases is unresolved zinc binding site with 
+=3 in most cases is unresolved zinc-binding site with 
 \begin_inset ERT
 status open
 
@@ -856,7 +850,7 @@ gls{cn}
 
 \end_inset
 
-=4, which is a very common situation in enzymatic zinc binding sites, where
+=4, which is a very common situation in enzymatic zinc-binding sites, where
  the missing, unresolved 
 \begin_inset ERT
 status open
@@ -884,22 +878,22 @@ glspl{Lg}
 
 \end_inset
 
- often translates into differences in the properties of the coordination
- sphere and zinc binding site formed.
+ often translate into differences in the properties of the coordination
+ sphere and zinc-binding site formed.
 \end_layout
 
 \begin_layout Standard
 The process of Zn(II) complexation by polypeptide often entails the formation
  of a stable conformation.
- The zinc binding sites can exist as a pre-made arrangement of amino acids
- in the space, where zinc binding does not causes huge structural changes
- in protein (usually in enzymes), however the zinc binding can promote protein
- folding and formation of separate protein domains (e.g., zinc fingers), this
- process is often in structural zinc sites.
+ The zinc-binding sites can exist as a pre-made arrangement of amino acids
+ in the space, where zinc-binding does not cause huge structural changes
+ in protein (usually in enzymes), however, the zinc-binding can promote
+ protein folding and formation of separate protein domains (e.g., zinc fingers),
+ this process is often in structural zinc sites.
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Kochanczyk2015"
+key "Kochanczyk2015a"
 literal "true"
 
 \end_inset
@@ -908,7 +902,7 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Zinc binding sites can be divided by function but also by their architecture.
+Zinc-binding sites can be divided by function but also by their architecture.
  Functionally, zinc sites can be divided into:
 \end_layout
 
@@ -931,7 +925,7 @@ catalytic
 
 \end_inset
 
- zinc can be found in the active center of any of the six classes of enzymes
+ Zn(II) can be found in the active center of any of the six classes of enzymes
  distinguished by the International Union of Biochemistry and Molecular
  Biology.
  In almost every enzyme Zn(II) acts as a 
@@ -964,9 +958,9 @@ glspl{Lg}
  In other proteins with no catalytic function, Zn(II) is usually bound by
  the atoms of the side chains of the amino acid residues.
  The interaction of the water molecule with the zinc cation allows for the
- transient replacement of the water molecule by coordination of the substrate
- molecule.
- However in the case of most studied carbonic anhydrase, 
+ transient replacement of the water molecule by the coordination of the
+ substrate molecule.
+ However in the case of the most studied carbonic anhydrase, 
 \begin_inset ERT
 status open
 
@@ -979,8 +973,8 @@ glsfirst{ca2}
 
 \end_inset
 
-, water molecule is not replaced displaced from the zinc binding site, Zn(II)
- lowers the waters p
+, the water molecule is not replaced displaced from the zinc-binding site,
+ Zn(II) lowers the water p
 \begin_inset ERT
 status open
 
@@ -1028,9 +1022,9 @@ structural
 
 \end_inset
 
-zinc binding sites are usually characterized by a high affinity towards
+ zinc-binding sites are usually characterized by a high affinity towards
  Zn(II).
- A classical example of domains containing structural zinc binding sites
+ A classical example of domains containing structural zinc-binding sites
  are 
 \begin_inset ERT
 status open
@@ -1046,18 +1040,26 @@ glspl{zf}
 
 .
  An important structural characteristic that accompanies structural binding
- sites is the presence of hydrophobic core that stabilizes the zinc-protein
- complex.
+ sites is the presence of a hydrophobic core that stabilizes the zinc-protein
+ complex 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Padjasek2020"
+literal "true"
+
+\end_inset
+
+.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-jakaś cytacja i obrazki
+obrazki?
 \end_layout
 
 \end_inset
 
- The function of the zinc binding site in such domains is to stabilize the
+ The function of the zinc-binding site in such domains is to stabilize the
  
 \begin_inset ERT
 status open
@@ -1071,7 +1073,7 @@ gls{fold}
 
 \end_inset
 
- – a good example for this may be a 
+ – a good example of this may be a 
 \begin_inset ERT
 status open
 
@@ -1142,16 +1144,15 @@ gls{fold}
 
 \end_inset
 
- of zinc finger.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1126/science.278.5335.82
-\end_layout
+ of zinc finger 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dahiyat1997"
+literal "true"
 
 \end_inset
 
+.
  The 
 \emph on
 de novo 
@@ -1195,7 +1196,7 @@ gls{zif268}
 
 \end_inset
 
-, however the fragment compared with 
+, however, the fragment compared with 
 \begin_inset ERT
 status open
 
@@ -1209,12 +1210,10 @@ gls{zif268}
 \end_inset
 
  shares only four amino acids in the same positions 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1126/science.278.5335.82
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dahiyat1997"
+literal "true"
 
 \end_inset
 
@@ -1233,7 +1232,7 @@ gls{zif268}
 \end_inset
 
  sequence with hydrophobic and aromatic residues.
- Which stabilize energetically the 
+ Which stabilizes energetically the 
 \begin_inset ERT
 status open
 
@@ -1247,8 +1246,8 @@ gls{fold}
 \end_inset
 
  due to the hydrophobic effect.
- Maybe even greatest importance of structural zinc binding sites can be
- seen in case of chimeric 
+ Maybe even the greatest importance of structural zinc-binding sites can
+ be seen in the case of chimeric 
 \begin_inset ERT
 status open
 
@@ -1297,7 +1296,7 @@ gls{rad}
 
 \end_inset
 
- can efficiently replaced the 
+ can be efficiently replaced the 
 \begin_inset ERT
 status open
 
@@ -1311,12 +1310,10 @@ gls{mukb}
 \end_inset
 
  hinge 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://www.nature.com/articles/s41467-019-14025-0
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tatebe2020"
+literal "true"
 
 \end_inset
 
@@ -1352,9 +1349,9 @@ regulatory
 
 \end_inset
 
- zinc binding sites usually have medium affinities towards Zn(II), this
- property allow to associate with Zn(II) during the Zn(II) influx and dissociate
- during Zn(II) efflux.
+ zinc-binding sites usually have medium affinities towards Zn(II), this
+ property allows them to associate with Zn(II) during the Zn(II) influx
+ and dissociate during Zn(II) efflux.
  Zinc is an essential metal for life, however in case of Zn(II) excess,
  it exerts a toxic effect on the cell – thus the 
 \begin_inset ERT
@@ -1384,7 +1381,7 @@ gls{freezn}
 \end_inset
 
  concentration by various mechanisms.
- The functional division of the zinc binding sites proposed here distinguishes
+ The functional division of the zinc-binding sites proposed here distinguishes
  three classes that are involved in 
 \begin_inset ERT
 status open
@@ -1412,7 +1409,7 @@ gls{freezn}
 \end_inset
 
  in the cell.
- An example of the regulatory zinc binding site can be 
+ An example of the regulatory zinc-binding site can be the 
 \begin_inset ERT
 status open
 
@@ -1439,7 +1436,7 @@ gls{sc}
 \end_inset
 
 .
- Zinc binding by 
+ Zinc-binding by 
 \begin_inset ERT
 status open
 
@@ -1452,7 +1449,7 @@ Gls{zap1}
 
 \end_inset
 
- is characterized by a remarkable lability observed both 
+ is characterized by remarkable lability observed both 
 \emph on
 in vitro
 \emph default
@@ -1460,22 +1457,18 @@ in vitro
 \emph on
 in vivo
 \emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Qiao2006"
+literal "true"
+
+\end_inset
+
 .
 
 \emph on
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-https://www.pnas.org/doi/10.1073/pnas.0600928103
-\end_layout
-
-\end_inset
-
-
 \emph default
  This lability is essential for fulfilling its regulatory function.
 \end_layout
@@ -1499,10 +1492,10 @@ transporting
 
 \end_inset
 
- zinc binding sites are responsible for cellular influx or efflux of Zn(II).
- Similarly to regulatory and buffering binding sites, the transporting zinc
- binding sites are characterized by a medium affinity towards Zn(II).
- The examples of the transporting zinc binding sites are 
+ zinc-binding sites are responsible for cellular influx or efflux of Zn(II).
+ Similarly to regulatory and buffering binding sites, the transporting zinc-bind
+ing sites are characterized by a medium affinity towards Zn(II).
+ The examples of the transporting zinc-binding sites are 
 \begin_inset ERT
 status open
 
@@ -1541,7 +1534,7 @@ gls{zrt2}
 
 \end_inset
 
-, 
+, and 
 \begin_inset ERT
 status open
 
@@ -1570,33 +1563,18 @@ gls{zap1}
 .
  The driving force for Zn(II) transport (which requires the conformational,
  and affinity towards Zn(II) change) may be a proton motive force, which
- is the case of human proton-coupled zinc antiporters (ZnT family), however
- in case of the bigger Zn(II) transporter family (ZIP) the driving force
- is unknown yet.
+ is the case of human proton-coupled zinc antiporters (ZnT family), however,
+ in the case of the bigger Zn(II) transporter family (ZIP), the driving
+ force is unknown yet 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Coudray2013,Bafaro2017"
+literal "true"
+
+\end_inset
+
+.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://www.pnas.org/doi/full/10.1073/pnas.1215455110
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https: //www.ncbi.nlm.nih.gov/pmc/articles/PMC5661630/
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1618,7 +1596,7 @@ buffering
 
 \end_inset
 
- zinc binding sites are found in proteins that bind Zn(II) in order to maintain
+ zinc-binding sites are found in proteins that bind Zn(II) in order to maintain
  physiological 
 \begin_inset ERT
 status open
@@ -1633,8 +1611,8 @@ gls{freezn}
 \end_inset
 
  in the cell.
- Those sites are characterized by medium, but broad range of affinities,
- which allows to maintain the adequate 
+ Those sites are characterized by a medium, but a broad range of affinities,
+ which allows for maintaining adequate 
 \begin_inset ERT
 status open
 
@@ -1648,23 +1626,20 @@ gls{freezn}
 \end_inset
 
 .
- A flagship example of a buffering binding sites can be found in the metallothio
-neins, which may bind up to seven zinc, within a broad affinity range.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://pubs.acs.org/doi/10.1021/ja071979s
-\end_layout
+ A flagship example of buffering binding sites can be found in the metallothione
+ins, which may bind up to seven zinc, within a broad affinity range 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Krezel2007"
+literal "true"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-The number of zinc binding sites classes related to the regulation of the
+The number of zinc-binding sites classes related to the regulation of the
  
 \begin_inset ERT
 status open
@@ -1681,23 +1656,21 @@ gls{freezn}
  in the cell together with the occurrence of zinc ions in cellular vesicles
  potentially could be explained by the fact that no Zn(II)-storage proteins
  (akin to the iron storage proteins – ferritin) was found.
- Ferritin for example may store several thousands iron ions trapped in its
- core.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5713255/
-\end_layout
+ Ferritin for example may store several thousand iron ions trapped in its
+ core 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Maret2017"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
-In terms of architecture the zinc binding sites can be divided into five
+In terms of architecture, the zinc-binding sites can be divided into five
  classes:
 \end_layout
 
@@ -1720,9 +1693,9 @@ intraprotein
 
 \end_inset
 
- zinc binding is the most common type of zinc coordination in proteins.
- The intraprotein binding is understood as a formation of zinc binding site
- only by a singular polypeptide chains.
+ zinc-binding is the most common type of zinc coordination in proteins.
+ The intraprotein binding is understood as a formation of a zinc-binding
+ site only by singular polypeptide chains.
  
 \end_layout
 
@@ -1745,9 +1718,9 @@ clustered
 
 \end_inset
 
- zinc binding sites are multinuclear.
- The clustered zinc binding sites have more than one Zn(II) per a binding
- site, this is achieved by a presence of the bridging 
+ zinc-binding sites are multinuclear.
+ The clustered zinc-binding sites have more than one Zn(II) per binding
+ site, this is achieved by the presence of the bridging 
 \begin_inset ERT
 status open
 
@@ -1771,7 +1744,7 @@ pictures
 \end_inset
 
  These sites are quite thermodynamically stable, while at the same time
- are kinetically labile.
+ kinetically labile.
  No wonder why metallothioneins (mentioned in the 
 \begin_inset Flex CT - Spaced Low Small Caps
 status open
@@ -1782,8 +1755,8 @@ buffering
 
 \end_inset
 
- zinc binding sites) utilize this type of binding.
- This type of binding is seen in most of zinc enzymes, 
+ zinc-binding sites) utilize this type of binding.
+ This type of binding is seen in most zinc enzymes, 
 \begin_inset ERT
 status open
 
@@ -1796,7 +1769,7 @@ glspl{zf}
 
 \end_inset
 
- etc.
+, etc.
  
 \end_layout
 
@@ -1819,9 +1792,9 @@ interprotein
 
 \end_inset
 
- zinc binding sites are not so common (or at least are not so commonly discovere
-d and described) as intraprotein zinc binding sites.
- Interprotein zinc binding sites are formed by at least two polypeptide
+ zinc-binding sites are not so common (or at least are not so commonly discovere
+d and described) as intraprotein zinc-binding sites.
+ Interprotein zinc-binding sites are formed by at least two polypeptide
  chains, so in this architecture, Zn(II) bound at the 
 \begin_inset ERT
 status open
@@ -1835,10 +1808,10 @@ gls{interface}
 
 \end_inset
 
- of two proteins, takes a structural part in formation of the quaternary
+ of two proteins, takes a structural part in the formation of the quaternary
  protein structure.
- The formation interprotein zinc binding sites, referred in the thesis as
- 
+ The formation of interprotein zinc-binding sites, referred to in the thesis
+ as 
 \begin_inset ERT
 status open
 
@@ -1852,18 +1825,16 @@ gls{zppi}
 \end_inset
 
 , may be obligatory to form a quaternary structure, or Zn(II) may bind to
- already formed protein-protein complex, to further stabilize it.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-https://academic.oup.com/metallomics/article/7/2/244/6015107?login=false
-\end_layout
+ already formed protein-protein complex, to further stabilize it 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kochanczyk2015a"
+literal "true"
 
 \end_inset
 
- To date only few 
+.
+ To date only a few 
 \begin_inset ERT
 status open
 
@@ -1876,7 +1847,7 @@ glspl{zppi}
 
 \end_inset
 
- have been studied in terms of the complexes stabilities, this includes
+ have been studied in terms of the complexes' stabilities, this includes
  
 \begin_inset ERT
 status open
@@ -1904,18 +1875,10 @@ gls{cd4}
 \end_inset
 
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Zinc clasp-based reversible toolset for selective metal-mediated protein
- heterodimerization
-\end_layout
-
-\begin_layout Plain Layout
-A combined biochemical and cellular approach reveals Zn2+-dependent hetero-
- and homodimeric CD4 and Lck assemblies in T cells
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kocya2018a"
+literal "true"
 
 \end_inset
 
@@ -1945,14 +1908,11 @@ gls{cd8}
 
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Homodimerization and heterodimerization of minimal zinc(II)-binding-domain
- peptides of T-cell proteins CD4, CD8alpha and Lck,
-\end_layout
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Davis2009"
+literal "true"
 
 \end_inset
 
@@ -1969,13 +1929,11 @@ gls{rad}
 
 \end_inset
 
- orthologs studied by me and my collegues
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-hRad50, m.padjasek
-\end_layout
+ orthologs studied by me and my colleagues 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Padjasek2020a,Tran2022"
+literal "true"
 
 \end_inset
 
@@ -1983,7 +1941,8 @@ hRad50, m.padjasek
 \end_layout
 
 \begin_layout Standard
-In terms of time span of binding one can introduce two additional classifiers:
+In terms of the time span of binding one can introduce two additional classifier
+s:
 \end_layout
 
 \begin_layout Standard
@@ -2005,10 +1964,10 @@ transient
 
 \end_inset
 
- zinc binding sites are characterized often by medium affinities toward
+ zinc-binding sites are characterized often by medium affinities toward
  Zn(II).
- The role of such transient zinc binding sites is to bind Zn(II) temporally,
- which is the case in the buffering, transporting and regulatory zinc binding
+ The role of such transient zinc-binding sites is to bind Zn(II) temporally,
+ which is the case in the buffering, transporting, and regulatory zinc-binding
  sites.
  Those sites need to bind Zn(II) in a kinetically labile way in order to
  fulfill its functions.
@@ -2023,7 +1982,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-permament
+permanent
 \end_layout
 
 \end_inset
@@ -2033,11 +1992,11 @@ permament
 
 \end_inset
 
- zinc binding sites are kinetically inert.
- This type of binding is characteristic for structural and enzymatic binding
- sites.The Zn(II) bound to those sites is not easily dissociated from the
- site.
- Of course the reaction is in an equilibrium so the subunit exchange still
+ zinc-binding sites are kinetically inert.
+ This type of binding is characteristic of structural and enzymatic binding
+ sites.
+ The Zn(II) bound to those sites is not easily dissociated from the site.
+ Of course, the reaction is in equilibrium so the subunit exchange still
  happens (see equations 
 \begin_inset ERT
 status open
@@ -2061,7 +2020,7 @@ noprefix "false"
 
 \end_inset
 
-), however the binding is characterized by a low value of 
+), however, the binding is characterized by a low value of 
 \begin_inset ERT
 status open
 

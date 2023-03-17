@@ -1,5 +1,5 @@
 #LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+\lyxformat 539
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -52,7 +52,6 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -62,7 +61,6 @@
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
-\math_numbering_side default
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
@@ -166,75 +164,12 @@ https://bitbucket.org/amiede/classicthesis/
 
 \begin_layout Standard
 \noindent
-Some parts of the manuscript utilize 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{python}
-\end_layout
-
-\end_inset
-
- for typesetting.
- To do so I have used 
+Happy users of 
 \family typewriter
-Python
+classicthesis
 \family default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-TeX
-\backslash
-
-\end_layout
-
-\end_inset
-
- by Geoffrey Poore 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1088/1749-4699/8/1/014010
-\end_layout
-
-\end_inset
-
-.
- To use 
-\family typewriter
-Python
-\family default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-TeX
-\backslash
-
-\end_layout
-
-\end_inset
-
- in \SpecialChar LyX
- I have made a 
-\family typewriter
-Python
-\family default
--based wrapper available at
+ usually send the author a real postcard; the collection of postcards received
+ so far is featured at
 \begin_inset Separator latexpar
 \end_inset
 
@@ -248,21 +183,12 @@ status open
 
 \begin_layout Plain Layout
 
-https://github.com/jzftran/pythontex-wrapper.py
+http://postcards.miede.de/
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\noindent
-To retrieve bibliometric data about publications I have used 
-\family typewriter
-scholarly
-\family default
- .
 \end_layout
 
 \begin_layout Standard

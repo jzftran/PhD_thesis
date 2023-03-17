@@ -160,7 +160,11 @@ literal "false"
 
 \begin_layout Standard
 \align center
-To my parents and teachers, who managed to sustain the curiosity in me.
+To my parents and teachers,
+\begin_inset Newline newline
+\end_inset
+
+ who managed to sustain the curiosity in me.
 \end_layout
 
 \end_body

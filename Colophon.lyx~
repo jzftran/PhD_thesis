@@ -210,59 +210,11 @@ status open
 \end_inset
 
 .
- To use 
-\family typewriter
-Python
-\family default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-TeX
-\backslash
-
-\end_layout
-
-\end_inset
-
- in \SpecialChar LyX
- I have made a 
-\family typewriter
-Python
-\family default
--based wrapper available at
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://github.com/jzftran/pythontex-wrapper.py
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-To retrieve bibliometric data about publications I have used 
+ To retrieve bibliometric data about publications 
 \family typewriter
 scholarly
 \family default
- .
+ was used.
 \end_layout
 
 \begin_layout Standard

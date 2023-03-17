@@ -17,7 +17,7 @@
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -36,7 +36,7 @@
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command biber
+\bibtex_command default
 \index_command default
 \paperfontsize default
 \spacing single
@@ -56,7 +56,7 @@
 \cite_engine biblatex
 \cite_engine_type numerical
 \biblio_style plainnat
-\biblio_options backref=true,isbn=false,sorting=none,maxbibnames=9
+\biblio_options backref=true,isbn=false,sorting=none,maxbibnames=9,url=false
 \biblatex_bibstyle numeric-comp
 \biblatex_citestyle numeric-comp
 \use_bibtopic false
@@ -77,7 +77,7 @@
 \is_math_indent 1
 \math_indentation default
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -272,6 +272,22 @@ pagenumbering{arabic}
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsresetall
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Introduction
 \end_layout
@@ -360,10 +376,6 @@ Results And Discussion
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
 \begin_inset CommandInset include
 LatexCommand include
 filename "Galvanization.lyx"
@@ -374,6 +386,10 @@ filename "Galvanization.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "InterMetalDB.lyx"
@@ -384,6 +400,10 @@ filename "InterMetalDB.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "hRad50.lyx"
@@ -394,6 +414,10 @@ filename "hRad50.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "HgRad50.lyx"
@@ -404,10 +428,21 @@ filename "HgRad50.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "AgRad50.lyx"
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
 \end_inset
 
 
@@ -437,23 +472,6 @@ filename "Summary.lyx"
 \begin_layout Part
 \start_of_appendix
 Appendix
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Chapter0A.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard

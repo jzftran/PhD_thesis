@@ -109,17 +109,89 @@ Publications
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset citation
-LatexCommand citeauthor
-key "Tran2022"
-literal "false"
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% I have used Mendeley, which has problems exporting ą, ę, and uses wrong,
+ cedilla versions of those
+\end_layout
+
+\begin_layout Plain Layout
+
+% this script changes 
+\backslash
+c{a} and 
+\backslash
+c{e} to 
+\backslash
+k{a} and 
+\backslash
+k{e}, respectively
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ExplSyntaxOn
+\end_layout
+
+\begin_layout Plain Layout
+
+% call python script, here I assume the binary name is python
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+sys_shell_now:x {cd~
+\backslash
+thesispath~
+\backslash
+string&
+\backslash
+string&~conda~activate~thesis~
+\backslash
+string&
+\backslash
+string&~ python~Scripts
+\backslash
+string
+\backslash
+repair_bib
+\backslash
+string.py}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ExplSyntaxOff
+\end_layout
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 Some ideas and figures have appeared previously in the following publications:
 \end_layout
 

@@ -80,7 +80,7 @@
 \begin_body
 
 \begin_layout Chapter
-Goals
+Research aims
 \end_layout
 
 \begin_layout Standard
@@ -91,6 +91,468 @@ name "ch:Goals"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+coś tu na początek jeszcze napisać
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The unique zinc binding hook from the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ protein inspired me to ask questions: how many 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{mppi}
+\end_layout
+
+\end_inset
+
+ are structurally described.
+ The first goal of the research was to provide a survey of intermolecularly
+ bound Zn(II) ions available in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+.
+ The idea was to algorithmically filter for the physiological candidates
+ of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zppi}
+\end_layout
+
+\end_inset
+
+, followed by the manual assessement of the validity of the filtered structures.
+\end_layout
+
+\begin_layout Standard
+The second goal, an expansion of the first idea, was to provide freely,
+ and easily-available reso urce of all 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{mppi}
+\end_layout
+
+\end_inset
+
+ deposited in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+.
+ To do I have developed InterMetalDB, using 
+\family typewriter
+atomium
+\family default
+ 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Ireland2020"
+literal "true"
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{django}
+\end_layout
+
+\end_inset
+
+.
+ The service, and its open 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{code}
+\end_layout
+
+\end_inset
+
+ are available online.
+\end_layout
+
+\begin_layout Standard
+The third aim (which inspired formulation of two previous ideas) of my doctoral
+ project was to perform biophysical characterization of the zinc hook domain
+ of the human protein 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Gls{rad}
+\end_layout
+
+\end_inset
+
+ protein, occurs in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mr}
+\end_layout
+
+\end_inset
+
+ core complex in every domain of life—a key complex involved in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{dna}
+\end_layout
+
+\end_inset
+
+ damage response.
+ In eukaryotes 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mr}
+\end_layout
+
+\end_inset
+
+ core complex is stabilized and regulated by an additional interaction partner—
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{nbs}
+\end_layout
+
+\end_inset
+
+ (or 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{xrs}
+\end_layout
+
+\end_inset
+
+ in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{sc}
+\end_layout
+
+\end_inset
+
+), forming thus the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mrn}
+\end_layout
+
+\end_inset
+
+ complex.
+ The conserved zinc hook domain in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ is an example of unique 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zppi}
+\end_layout
+
+\end_inset
+
+, where the dimerization is strictly dependent on the Zn(II) ion co-cordination
+ by two 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ protomers.
+ The formation of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ dimer is essential for the proper functioning of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+, which is directly related to the functioning of the whole 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mr}
+\end_layout
+
+\end_inset
+
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mrn}
+\end_layout
+
+\end_inset
+
+) complex.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+coś tu jeszcze napisać
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finally, the last aim of the research was to investigate the potential detriment
+al effect of the mismetallation of the zinc hook from the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+.
+ This has been done by investigation of the effect of Hg(II) and Ag(I) on
+ the zinc hook from the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+.
+ The choice of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ to be the investigation target was the fact that this model is so far best
+ characterized model of the zinc hook available.
+ 
 \end_layout
 
 \end_body

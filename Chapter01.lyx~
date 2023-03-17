@@ -85,21 +85,10 @@
 \begin_body
 
 \begin_layout Chapter
-Proteins and cofactors
+Proteins and cofactors 
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:Proteins-and-cofactors"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-trochę dziwnie, że w tym rozdziale zatytułowanym proteins and cofactors
- mam informację o celu pracy.
-\end_layout
 
 \end_inset
 
@@ -108,22 +97,10 @@ trochę dziwnie, że w tym rozdziale zatytułowanym proteins and cofactors
 
 \begin_layout Standard
 A significant portion of organic compounds synthesized by living organisms
- are biopolymers; proteins, lipids, nucleic acids and other 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{hmw}
-\end_layout
-
-\end_inset
-
- compounds (e.g., lignins, gums, melanins).
+ are biopolymers; proteins, lipids, nucleic acids, and other macromolecules
+ (e.g., lignins, gums, melanins).
  Among these macromolecules, proteins fulfill key roles in almost every
- biological processes (catalysis, transport, mechanical-structural functions,
+ biological process (catalysis, transport, mechanical-structural functions,
  and others).
  This extraordinarily rich diversity of functions is achieved despite the
  fact that proteins are linear polymers built only of 20 types of canonical
@@ -151,13 +128,13 @@ glspl{ptm}
 \end_inset
 
 , those canonical amino acids linked sequentially into a linear polymer
- are responsible for a staggering variety of folds, structures and assemblies.
- This gorgeous diversity of protein structures allow to fulfill astonishing
- number of functions, however not every chemical (or physical) process is
- possible to conduct with only 20 canonical amino acids.
- One way the evolution 
+ are responsible for a staggering variety of folds, structures, and assemblies.
+ This gorgeous diversity of protein structures allows proteins to fulfill
+ an astonishing number of functions, however, not every chemical (or physical)
+ process is possible to conduct with only 20 canonical amino acids.
+ One way evolution 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 nie wiem czy nie antropomorfizuję zbytnio ewolucji tutaj
@@ -165,8 +142,8 @@ nie wiem czy nie antropomorfizuję zbytnio ewolucji tutaj
 
 \end_inset
 
- have solved the problem of limited chemical groups that can facilitate
- important processes is the use of 
+ has solved the problem of limited chemical groups that can facilitate important
+ processes is the use of 
 \begin_inset ERT
 status open
 
@@ -209,7 +186,7 @@ glspl{cofactor}
 
 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 My duty to the reader is to point out that the statement that one-third
@@ -227,25 +204,26 @@ glspl{cofactor}
 \end_inset
 
  is not very credible.
- This type of statement often appears in various papers treating about cofactors
-, yet one looks in vain for a reference to the literature, or information
+ This type of statement often appears in various papers discussing the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{cofactor}
+\end_layout
+
+\end_inset
+
+, yet one looks in vain for a reference to the literature or information
  on what organism these proteins are from, or how the analysis was done.
 \end_layout
 
 \end_inset
 
-.
-\begin_inset Note Note
-status open
 
-\begin_layout Plain Layout
-to jest jescze bardziej dyskusyjne patrzac na too, ze 1/3-1/4 bialek potrzebuje
- metalu
-\end_layout
-
-\end_inset
-
- 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Rosenzweig2002,Bushmarina2006,Cao2011,frontiersin"
@@ -253,6 +231,7 @@ literal "true"
 
 \end_inset
 
+.
  The 
 \begin_inset ERT
 status open
@@ -293,8 +272,7 @@ glspl{cofactor}
 
 \end_inset
 
- are essential for functioning of vast number of proteins.
- 
+ are essential for the functioning of a vast number of proteins 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Mukhopadhyay2019"
@@ -302,6 +280,7 @@ literal "true"
 
 \end_inset
 
+.
  
 \begin_inset Note Note
 status open
@@ -342,7 +321,7 @@ glspl{pgroup}
 \end_inset
 
  are not bound covalently to proteins, but associate with proteins by means
- of other interactions, e.g., hydrogen bonds, Van der Waals forces etc., thus
+ of other interactions, e.g., hydrogen bonds, Van der Waals forces, etc., thus
  to interact with 
 \begin_inset ERT
 status open
@@ -356,17 +335,8 @@ glspl{cofactor}
 
 \end_inset
 
- proteins had to evolve 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-czy białka mogą ewolułować???
-\end_layout
-
-\end_inset
-
- to form sites that will attract and associate with 
+ proteins had to evolve to form sites that will attract and associate with
+ 
 \begin_inset ERT
 status open
 
@@ -443,7 +413,7 @@ glspl{cofactor}
 \begin_inset Quotes eld
 \end_inset
 
-metal binding site
+metal binding sitea
 \begin_inset Quotes erd
 \end_inset
 
@@ -456,12 +426,12 @@ status open
 
 
 \backslash
-gls{cofactor}
+glspl{cofactor}
 \end_layout
 
 \end_inset
 
-, the Zn(II) cation is one of the most common found in proteins.
+, the Zn(II) cation is one of the most commonly found in proteins.
  The 
 \begin_inset ERT
 status open
@@ -481,8 +451,7 @@ glspl{mprotein}
  the structure of primary information about the primary structure of proteins.
  The bioinformatic study of this information analyzed in terms of metal
  interaction suggests that about 10% of the human proteome may bind Zn(II)
- ions.
- 
+ ions 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Andreini2006,Andreini2006a,Andreini2009"
@@ -490,6 +459,7 @@ literal "true"
 
 \end_inset
 
+.
  What is worth noting is the fact, that those predictions (based solely
  on the protein sequence) do not take into account the fact that the 
 \begin_inset ERT
@@ -522,36 +492,13 @@ What are the properties of such sites and the binding proteins?
 \begin_inset Quotes erd
 \end_inset
 
- and many other.
+ and many others.
  
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-nwm czy dobre pytanie, jak z interpunkcją?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-tu trochę o tym co było celem tej pracy
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-This PhD project was dedicated to analysis of proteins binding metal ion
- at 
+This PhD project was dedicated to the analysis of proteins binding metal
+ ions in 
 \begin_inset ERT
 status open
 
@@ -569,8 +516,8 @@ gls{ppi}
 \emph on
 in silico
 \emph default
- concerns the survey of all known proteins that bind metal ions in intermolecula
-r fashion (including zinc ion), while 
+ concerns the survey of all known proteins that bind metal ions in an intermolec
+ular fashion (including zinc ion), while 
 \emph on
 ex silico
 \emph default
@@ -582,7 +529,7 @@ status open
 
 
 \backslash
-gls{hs}
+glsfirst{hs}
 \end_layout
 
 \end_inset
@@ -631,9 +578,8 @@ Alkali and alkaline earth metal ions
 \end_layout
 
 \begin_layout Standard
-Approximately 1% of human body weight is made up of alkali and alkaline
- earth metal ions.
- 
+Approximately 1% of the human body weight are made up of alkali and alkaline
+ earth metal ions 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Stephanos2014"
@@ -641,13 +587,14 @@ literal "true"
 
 \end_inset
 
- The role of alkali and alkaline earth metal ions in organisms is divere,
- sodium and potassium ions occur in all known organisms, generally those
- ions function as electrolytes.
- Calcium ions are known to function as a messengers – used by the living
- organisms to communicate and orchestrate intracellular processes.
- Magnesium ions are the most abundant divalent cations in the cell, majority
- of it bound to 
+.
+ The role of alkali and alkaline earth metal ions in organisms is diverse,
+ sodium and potassium ions occur in all known organisms, and generally,
+ those ions function as electrolytes.
+ Calcium ions are known to function as messengers – used by living organisms
+ to communicate and orchestrate intracellular processes.
+ Magnesium ions are the most abundant divalent cations in the cell, the
+ majority of it bound to 
 \begin_inset ERT
 status open
 
@@ -660,7 +607,7 @@ gls{atp}
 
 \end_inset
 
-, is essential to utilize 
+, which is essential to utilize 
 \begin_inset ERT
 status open
 
@@ -670,26 +617,24 @@ status open
 \backslash
 gls{atp}
 \end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Schwartz2014"
+literal "true"
 
 \end_inset
 
 .
  
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-https://pubs.acs.org/doi/10.1021/ic5000606
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 jeszcze coś o takim biologicznym aspekcie, co to robi w organiźmie itd.
@@ -702,7 +647,7 @@ jeszcze coś o takim biologicznym aspekcie, co to robi w organiźmie itd.
 
 \begin_layout Standard
 In proteins both alkali and alkaline earth metal ions commonly play a structural
- role in stabilization of the protein 
+ role in the stabilization of the 
 \begin_inset ERT
 status open
 
@@ -715,37 +660,34 @@ gls{fold}
 
 \end_inset
 
-, however it is possible to play a catalytic role (e.g.
+, however, those metals can play a catalytic role as well (e.g.
  Mg(II) in T4 ligase 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Cherepanov & de Vries, 2002 
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cherepanov2002"
+literal "true"
 
 \end_inset
 
-), alkali and alkaline-earth compensate charge of highly acidic regions
- in macromolecules, e.g., polyphosphate backbone in nucleic acids.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-(Owczarzy et al., 2004 ▸; Zheng et al., 2015 ▸; Várnai & Zakrzewska, 2004
- ▸) 
-\end_layout
+).
+ Alkali and alkaline-earth compensate charge of highly acidic regions in
+ macromolecules, e.g., polyphosphate backbone in nucleic acids 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Owczarzy2004,Zheng2015,Varnai2004"
+literal "true"
 
 \end_inset
 
- Despite the fact that biology of alkali and alkaline earth metals is quite
- well understood, it still hides some of the secrets, for instance the biologica
-l effects (as well as some of the side effects) of lithium are known; lithium
- carbonate is widely used to treat some of the mood disorders, however the
- biological targets of Li(I) ions in the organisms are not known yet.
+.
+ Despite the fact that the biology of alkali and alkaline earth metals is
+ quite well understood, it still hides some of the secrets, for instance,
+ the biological effects (as well as some of the side effects) of lithium
+ are known; lithium carbonate is widely used to treat some of the mood disorders
+, however, the biological targets of Li(I) ions in the organisms are not
+ known yet.
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 nwm czy tu trzeba cytacji
@@ -761,7 +703,7 @@ The alkali metals have a single
 \emph on
 s
 \emph default
- electron, the alkaline earth metal ions have a filled outer 
+ electron, and the alkaline earth metal ions have a filled outer 
 \emph on
 s-
 \emph default
@@ -776,7 +718,7 @@ nwm czy poprawnie zapisany s oribal
 
 \end_inset
 
- Both groups of metals are highly electropositive and reluctantly polarizable.
+ Both groups of metals are highly electropositive and reluctantly polarizable
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -785,8 +727,9 @@ literal "true"
 
 \end_inset
 
+.
  Due to the low polarizability alkali and alkaline earth metal ions are
- considered to be a hard Lewis acids.
+ considered to be a hard Lewis acid.
  In accordance with Ralph Pearson's 
 \begin_inset ERT
 status open
@@ -800,7 +743,7 @@ gls{hsab}
 
 \end_inset
 
- concept, hard Lewis acids should react more willingly with hard Lewis bases.
+ concept, hard Lewis acids should react more willingly with hard Lewis bases
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -809,6 +752,7 @@ literal "true"
 
 \end_inset
 
+.
  This behavior is easily confirmed by observation of the 
 \begin_inset ERT
 status open
@@ -826,17 +770,15 @@ glspl{L}
  coordination sphere of those metal ions is usually consisting of hard Lewis
  acids (in proteins, by oxygen-containing acidic amino acids).
  Usually alkali and alkaline-earth metal ions are coordinated by macromolecules
- with six-coordinated octahedral geometry (
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Kuppuraj et al., 2009 ▸)
-\end_layout
+ with six-coordinated octahedral geometry 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kuppuraj2009"
+literal "true"
 
 \end_inset
 
-), however more than six donor atoms are sometimes found in the alkali or
+, however more than six donor atoms are sometimes found in the alkali or
  alkali-earth metal binding sites – mostly due to the bidentate 
 \begin_inset ERT
 status open
@@ -850,22 +792,15 @@ glsdescplural{L}
 
 \end_inset
 
-.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Zheng, H., Chruszcz, M., Lasota, P., Lebioda, L.
- & Minor, W.
- (2008).
- J.
- Inorg.
- Biochem.
-\end_layout
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Zheng2008"
+literal "true"
 
 \end_inset
 
-
+.
 \begin_inset Note Note
 status open
 
@@ -933,18 +868,16 @@ gls{ca2}
 
 \end_inset
 
-.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1021/cr050262p
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Krishnamurthy2008"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1043,18 +976,16 @@ gls{cofactor}
 
  in several enzymes, which maintain the metabolism, for examples in the
  human bran manganese-dependent glutamine synthetase is responsible for
- glutamine synthesis in astrocytes.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1016/S0165-0173(02)00234-5.
-\end_layout
+ glutamine synthesis in astrocytes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Takeda2003"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1117,7 +1048,7 @@ glspl{cofactor}
 \end_layout
 
 \begin_layout Standard
-Cobalt is essential part of vitamin B
+Cobalt is an essential part of vitamin B
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -1139,7 +1070,7 @@ gls{dna}
 
 \end_inset
 
- synthesis, amino acid and fatty acids metabolism.
+ synthesis, amino acid, and fatty acids metabolism.
  Similarly to iron, cobalt does not have to be only bound to corrin derivatives
  or vitamin B
 \begin_inset script subscript
@@ -1182,7 +1113,7 @@ glspl{mprotein}
 
  play essential roles in electron transport and oxygen metabolism.
  Copper is essential for aerobic respiration in eukaryotes, as it is found
- as 
+ as a 
 \begin_inset ERT
 status open
 
@@ -1195,7 +1126,7 @@ gls{coenzyme}
 
 \end_inset
 
- of cytochrome c oxidase, where it serves a function of electron transporter.
+ of cytochrome c oxidase, where it serves the function of electron transporter.
  Copper is also a coenzyme of copper-zinc 
 \begin_inset ERT
 status open
@@ -1209,7 +1140,7 @@ glspl{sod}
 
 \end_inset
 
-, an enzyme that catalyses the reaction of disproportionation of superoxides.
+, an enzyme that catalyzes the reaction of the disproportionation of superoxides.
 \end_layout
 
 \begin_layout Standard
@@ -1232,7 +1163,7 @@ enlargethispage{2cm}
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1241,7 +1172,7 @@ status open
 Simplified version of the Periodic Table of the Elements indicating biologically
  relevant metals.
  With green color essential for life metals were marked.
- Yellow color mark the elements that are essential for some species.
+ Yellow color marks the elements that are essential for some species.
  Chromium is marked in orange color as the essentiality for life of this
  element is questionable.
 \end_layout
@@ -4233,169 +4164,143 @@ d
 \emph on
 d
 \emph default
--block elements – chromium, vanadium and nickel – show some biological effects,
- however the essentiality and need of supplementation of those elements
- is debatable.
+-block elements – chromium, vanadium, and nickel – show some biological
+ effects, however, the essentiality and need for supplementation of those
+ elements is debatable.
  
 \end_layout
 
 \begin_layout Standard
 Cr(III) is found in foods and dietary supplements, many of which are advertised
- to have beneficial effect on glucose metabolism and regulation.
+ to have a beneficial effect on glucose metabolism and regulation.
  This rationale is based on observations of patients receiving Cr(III)-free
  intravenous drip who developed symptoms similar to insulin-resistant diabetes.
  Symptoms were relieved after intravenous drip supplementation with a small
- amount of Cr(III).
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5399133/
-\end_layout
-
-\end_inset
-
- The efficacy of the supplementation of Cr(III) is characterized by evidence
- of low strength thus the rationale to recommend their use for glycemic
- control in patients with type 2 diabetes mellitus are precarious.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://doi.org/10.1093/nutrit/nuw011
-\end_layout
-
-\end_inset
-
- In United States Cr(III) ions are consitered essential nutrient in humans
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/#h2
-\end_layout
-
-\end_inset
-
-, the European Food Safety Authority do not share this opinion, arguing
- that the evidence supporting this assumption is insufficient.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-https://www.efsa.europa.eu/en/efsajournal/pub/3845
-\end_layout
-
-\end_inset
-
- While the role of Cr(III) on human body is uncertain, the toxicity and
- carcinogenic properties of Cr(VI) are known for a long time.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Newman, D.
- (1890).
- "A case of adeno-carcinoma of the left inferior turbinated body, and perforatio
-n of the nasal septum, in the person of a worker in chrome pigments".
- Glasgow Medical Journal.
- 33: 469–470.
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-Vanadium seems to me more important for life in marine environments – number
- of marine life forms like algae utilize vanadium in enzymes 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-doi:10.1039/b302337k
-\end_layout
+ amount of Cr(III) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stehle2016"
+literal "true"
 
 \end_inset
 
 .
- Tunicates draw attention due to specialized blood cells types – vanadocytes,
- accumulating vanadium through vanadium interacting protein called vanabins,
- however the role of those proteins and the vanadium in tunicates is still
- shrouded in mystery.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://www.sciencedirect.com/science/article/abs/pii/S0167478103000368
-\end_layout
+ The efficacy of the supplementation of Cr(III) is characterized by evidence
+ of low strength thus the rationale to recommend their use for glycemic
+ control in patients with type 2 diabetes mellitus is precarious 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Costello2016"
+literal "true"
 
 \end_inset
 
- Vanadium related issues for human health are similar to the case of chromium
- – vanadium complexes may exert some antidiabetic effects 
-\begin_inset Note Note
-status open
+.
+ In the United States of America, Cr(III) ions are considered an essential
+ nutrient in humans 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chromium_nih"
+literal "true"
 
-\begin_layout Plain Layout
-10.1016/S0010-8545(01)00447-7
+\end_inset
+
+, the European Food Safety Authority does not share this opinion, arguing
+ that the evidence supporting this assumption is insufficient 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Panel2014"
+literal "true"
+
+\end_inset
+
+.
+ While the role of Cr(III) on the human body is uncertain, the toxicity
+ and carcinogenic properties of Cr(VI) are known for a long time 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Langard1975"
+literal "true"
+
+\end_inset
+
+.
+ 
 \end_layout
+
+\begin_layout Standard
+Vanadium seems to be more important for life in marine environments—the
+ number of marine life forms like algae utilizes vanadium in enzymes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Butler2004"
+literal "true"
+
+\end_inset
+
+.
+ Tunicates draw attention due to specialized blood cells types—vanadocytes,
+ accumulating vanadium through vanadium interacting protein called vanabins,
+ however, the role of those proteins and the vanadium in tunicates is still
+ shrouded in mystery 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ueki2003"
+literal "true"
+
+\end_inset
+
+.
+ Vanadium-related issues for human health are similar to the case of chromium—va
+nadium complexes may exert some antidiabetic effects 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sakurai2002"
+literal "true"
 
 \end_inset
 
 , however a functional role for vanadium in mammals and humans is not defined
- yet, thus it is not recognized as an essential nutrient.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://nap.nationalacademies.org/read/10026/chapter/15#532
-\end_layout
+ yet, thus it is not recognized as an essential nutrient 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Citation2001"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
-Nickel is essential to some of bacteria, archea, fungi and plants, where
+Nickel is essential to some bacteria, archaea, fungi, and plants, where
  usually nickel plays a role in enzymatic processes, e.g., urease, a nickel
- enzyme is considered as a virulence factor in some pathogens.
+ enzyme is considered a virulence factor in some pathogens.
  The essentiality of Ni(II) in mammals is still discussed, on the one hand,
- rats grown without nickel (or in low-abundance) exhibit depressed growth,
- several outside the norm biochemical and morphology results.
- Nickel seemed to be involved in reproduction of nickel-deprived rats, as
- the lack of the element resulted in increased perinatal mortality rate.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://link.springer.com/chapter/10.1007/978-94-007-7500-8_10
-\end_layout
+ rats grown without nickel (or in low abundance) exhibit depressed growth,
+ and several outside-the-norm biochemical and morphology results.
+ Nickel seemed to be involved in the reproduction of nickel-deprived rats,
+ as the lack of it resulted in an increased perinatal mortality rate 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Zambelli2013"
+literal "true"
 
 \end_inset
 
+.
  Though no physiological nickel targets in mammals and humans have been
  found, the vast usage of Ni(II) by prokaryotes suggests that the element
- might be essential for the symbiotic gut microbiota.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://link.springer.com/chapter/10.1007/978-94-007-7500-8_10
-\end_layout
+ might be essential for the symbiotic gut microbiota 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Zambelli2013"
+literal "true"
 
 \end_inset
 
- 
+.
 \end_layout
 
 \end_body

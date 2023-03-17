@@ -330,24 +330,12 @@ o 5a, 02-106 Warsaw, Poland
 
 
 \shape italic
-!!Citation 
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-
-\shape italic
-citation!!
-\end_layout
-
-\end_inset
-
-International Journal of Molecular Sciences
+Inorganic Chemistry
 \shape default
 \size small
  
 \size default
-2022 23, 11140.
+2023 62, 4076–4087
 \begin_inset VSpace medskip
 \end_inset
 
@@ -356,6 +344,435 @@ International Journal of Molecular Sciences
 
 \begin_layout Section
 Brief history and bibliometric data
+\end_layout
+
+\begin_layout Standard
+Bringing this article to publication was, of the other articles I co-authored,
+ the hardest.
+ Initially, we wanted to publish the article in 
+\emph on
+Chemical Communications
+\emph default
+, as a continuation of the project devoted to the investigation of the role
+ of Ag(I) on the intraprotein zinc-binding sites, where previously an article
+ about the formation of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{Ag_nS_n}
+\end_layout
+
+\end_inset
+
+ clusters in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zf}
+\end_layout
+
+\end_inset
+
+ was described.
+ Finally, after several iterations involving the exchange of criticism from
+ reviewers, the manuscript, and responses to the reviewers' objections,
+ the article was published in 
+\emph on
+Inorganic Chemistry
+\emph default
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{if}
+\end_layout
+
+\end_inset
+
+ of 5.436, March 6, 2023).
+\begin_inset Newline newline
+\end_inset
+
+I have mixed feelings as I think about the publication of this article.
+ My reservations about the peer-review process became even stronger after
+ this article.
+ In the 21st century, with the ability to exchange information cheaply,
+ and expressly, and where the cost of publishing information online is very
+ low, the peer-review process as a rule should be completely transparent.
+ In addition, the rule should be the possibility to criticize an article
+\emph on
+ after 
+\emph default
+it has been published, without having to write another article in which,
+ one refers to the criticized publication.
+ The publication process for this article was quite tedious due to the incompete
+nce of one of the reviewers—the prolonged review did not bring anything
+ new, did not improve our article, but only increased the time in review.
+ Also, this article, is the last article included in this thesis and I am
+ very pleased to have collaborated on it with my lab-mates, whom I saw every
+ day (provided there were no pandemic restrictions).
+ This successful cooperation between us was one of the reasons why the time
+ spent on experiments, data processing, and writing the manuscript, was
+ far less than the time this article spent in review.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pycode}[sessionA]
+\end_layout
+
+\begin_layout Plain Layout
+
+from scholarly import scholarly
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num2words = {1: 'once',
+\end_layout
+
+\begin_layout Plain Layout
+
+             2: 'two',
+\end_layout
+
+\begin_layout Plain Layout
+
+             3: 'three',
+\end_layout
+
+\begin_layout Plain Layout
+
+             4: 'four',
+\end_layout
+
+\begin_layout Plain Layout
+
+             5: 'five',
+\end_layout
+
+\begin_layout Plain Layout
+
+             6: 'six',
+\end_layout
+
+\begin_layout Plain Layout
+
+             7: 'seven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             8: 'eight',
+\end_layout
+
+\begin_layout Plain Layout
+
+             9: 'nine',
+\end_layout
+
+\begin_layout Plain Layout
+
+             10: 'ten',
+\end_layout
+
+\begin_layout Plain Layout
+
+             11: 'eleven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             12: 'twelve',
+\end_layout
+
+\begin_layout Plain Layout
+
+             13: 'thirteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             14: 'fourteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             15: 'fifteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             16: 'sixteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             17: 'seventeen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             18: 'eighteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             19: 'nineteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             20: 'twenty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             30: 'thirty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             40: 'forty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             50: 'fifty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             60: 'sixty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             70: 'seventy',
+\end_layout
+
+\begin_layout Plain Layout
+
+             80: 'eighty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             90: 'ninety',
+\end_layout
+
+\begin_layout Plain Layout
+
+             0: 'zero'}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+def n2w(n):
+\end_layout
+
+\begin_layout Plain Layout
+
+    try:
+\end_layout
+
+\begin_layout Plain Layout
+
+        return (num2words[n])
+\end_layout
+
+\begin_layout Plain Layout
+
+    except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+        try:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ((num2words[n-n % 10]) + ' ' + (num2words[n % 10].lower()))
+\end_layout
+
+\begin_layout Plain Layout
+
+        except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ('Number out of range')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+search_query = scholarly.search_single_pub(
+\end_layout
+
+\begin_layout Plain Layout
+
+    'Zn(II) to Ag(I) Swap in Rad50 Zinc Hook Domain Leads to Interprotein
+ Complex Disruption through the Formation of Highly Stable Agx(Cys)y Cores')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num_citations = search_query['num_citations']
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+if num_citations <= 10:
+\end_layout
+
+\begin_layout Plain Layout
+
+    if num_citations == 0:
+\end_layout
+
+\begin_layout Plain Layout
+
+       print("As the article was published recently, it is not surprising
+ that it is not yet cited (as of 
+\backslash
+
+\backslash
+today).")
+\end_layout
+
+\begin_layout Plain Layout
+
+    elif num_citations == 1:
+\end_layout
+
+\begin_layout Plain Layout
+
+        print(f'The article was published recently, however, it was already
+ cited {n2w(num_citations)} (as of 
+\backslash
+
+\backslash
+today).')
+\end_layout
+
+\begin_layout Plain Layout
+
+    else:
+\end_layout
+
+\begin_layout Plain Layout
+
+        print(f'The article was published recently, however, it was already
+ cited {n2w(num_citations)} times (as of 
+\backslash
+
+\backslash
+today).')
+\end_layout
+
+\begin_layout Plain Layout
+
+     
+\end_layout
+
+\begin_layout Plain Layout
+
+else:
+\end_layout
+
+\begin_layout Plain Layout
+
+    print(f'The article was warmly recieved in the scientific community
+ and was cited by {num_citations} other articles so far (as of 
+\backslash
+
+\backslash
+today).')
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pycode}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://scholar.google.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -418,14 +835,14 @@ ExplSyntaxOff
 \end_layout
 
 \begin_layout Standard
-The medical use of silver, both as a Ag(0) and as compounds of Ag(I) is
- known since millennia, the ancient Persians, Phoenicians, Greeks, Romans
+The medical use of silver, both as an Ag(0) and as compounds of Ag(I) is
+ known for millennia, the ancient Persians, Phoenicians, Greeks, Romans,
  and others were recorded to utilize various forms of silver to preserve
  both food and water, the custom practiced through World War II.
- The first preserved records of medical use of silver comes from Macedonians,
- who have attempted to treat infections with silver plates.
+ The first preserved records of the medical use of silver come from ancient
+ Macedonians, who attempted to treat infections with silver plates.
  Hippocrates, the Father of Medicine, was supposed to use silver preparations
- to treat the ulcers and promote wound healing.
+ to treat ulcers and promote wound healing.
  Before the introduction of antibiotics, silver, and various silver compounds
  were the most available antimicrobial agents.
  
@@ -436,11 +853,11 @@ literal "true"
 
 \end_inset
 
- The toxicity of silver is low compared to most of other heavy metals, which
- allows the use of silver in various utility goods, e.
+ The toxicity of silver is low compared to most of the other heavy metals,
+ which allows the use of silver in various utility goods, e.
  g.
- jewellery, silverware, or as a food additive.
- However it has been shown that high doses of silver given parenternally,
+ jewelry, silverware, or as a food additive.
+ However, it has been shown that high doses of silver given parenterally,
  can cause convulsions or even death.
  
 \begin_inset CommandInset citation
@@ -451,12 +868,12 @@ literal "true"
 \end_inset
 
  Though the silver toxicity is low, the organisms usually lack the mechanisms
- for silver detoxification, and in case of human body, when silver is delivered
- (e.g., injection, ingestion or applied topically) silver is accumulated irreversi
-bly.
+ for silver detoxification, and in the case of the human body, when silver
+ is delivered (e.g., injection, ingestion, or applied topically) silver is
+ accumulated irreversibly.
  The condition caused by sustained silver exposure (and light
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Like in a photography sunlight causes the decomposition of colorless silver
@@ -475,7 +892,7 @@ literal "true"
 \end_inset
 
  have identified 357 cases of recorded argyria, all of the recorded cases,
- except from the irreversible bluish skin tone, had benign course of the
+ except for the irreversible bluish skin tone, had a benign course of the
  disease.
  
 \begin_inset CommandInset citation
@@ -497,8 +914,8 @@ noprefix "false"
 \end_inset
 
 ), possibly the reason for this is the use of silver in everyday articles
- (e.g., use of the silver in deodorants, sportswear, anti-smoking pills),
- of which a lot of these items utilize 
+ (e.g., use of silver in deodorants, sportswear, anti-smoking pills), of which
+ a lot of these items utilize 
 \begin_inset ERT
 status open
 
@@ -576,8 +993,9 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Oligodynamic effect, which is the property of some metals to have biocidal
- effect, in case of silver is mainly caused by the bioactive species – Ag(I).
+The oligodynamic effect, which is the property of some metals to have a
+ biocidal effect, in the case of silver is mainly caused by the bioactive
+ species – Ag(I).
  The antimicrobial properties of 
 \begin_inset ERT
 status open
@@ -604,17 +1022,16 @@ glspl{agnp}
 
 \end_inset
 
- in the cell, followed by the release of Ag(I).
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cytacje potrzebne, z pracy Olga Józek
-\end_layout
+ in the cell, followed by the release of Ag(I) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lok2007,Hsiao2015"
+literal "true"
 
 \end_inset
 
- In biological systems the 
+.
+ In biological systems, the 
 \begin_inset ERT
 status open
 
@@ -627,18 +1044,16 @@ gls{lmw}
 
 \end_inset
 
- thiols (e.g., gluthatione) are found to be a common interaction partner for
- Ag(I).
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cytacje z pracy
-\end_layout
+ thiols (e.g., glutathione) are found to be a common interaction partner for
+ Ag(I) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Betts2021,Marchioni2018"
+literal "true"
 
 \end_inset
 
+.
  The Ag(I) complex with cysteine is much more stable than the complexes
  of Ag(I) and methionine or histidine, thus no wonder that in the 
 \begin_inset ERT
@@ -654,8 +1069,8 @@ gls{hmw}
 \end_inset
 
  (proteins), the common target for Ag(I) binding will be systems containing
- cysteines, e.g., natural cysteine-containing zinc binding sites.
- The interaction of Ag(I) with intraprotein zinc binding sites in 
+ cysteines, e.g., natural cysteine-containing zinc-binding sites.
+ The interaction of Ag(I) with intraprotein zinc-binding sites in 
 \begin_inset ERT
 status open
 
@@ -694,7 +1109,7 @@ gls{fold}
 
 \end_inset
 
- disruption, and in turn it can potentially lead to loss of function.
+ disruption, and in turn, it can potentially lead to loss of function.
  Despite the fact that the cysteine is the most common 
 \begin_inset ERT
 status open
@@ -708,7 +1123,7 @@ gls{Lg}
 
 \end_inset
 
- in the zinc binding sites (see 
+ in the zinc-binding sites (see 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -735,7 +1150,7 @@ literal "true"
 
 \end_inset
 
- the potential interactions of the zinc proteome with Ag(I) is yet unexplored,
+ the potential interactions of the zinc proteome with Ag(I) are yet unexplored,
  including the impact of free Ag(I) ions on the 
 \begin_inset ERT
 status open
@@ -817,8 +1232,8 @@ noprefix "false"
 
 \end_inset
 
-), however in this case the stability does not comes with selectivity, thus
- the Zn(II) is easily replaced, in accordance with 
+), however, in this case the stability does not comes with selectivity,
+ thus the Zn(II) is easily replaced, in accordance with 
 \begin_inset ERT
 status open
 
@@ -909,7 +1324,8 @@ gls{rad}
 
 \end_inset
 
-—the use of the model was dictated by the fact that the zinc hook 
+—the use of the model was dictated by tthe zinc-binding sites (seehe fact
+ that the zinc hook 
 \begin_inset ERT
 status open
 
@@ -1042,7 +1458,7 @@ gls{rad}
 
 \end_inset
 
- forms complexes of various stiochometries, which is seen by every used
+ forms complexes of various stoichiometries, which is seen by every used
  method during direct titration of Ag(I) into both apo-zinc hook and Zn(II)-satu
 rated zinc hook.
  The 
@@ -1084,7 +1500,7 @@ gls{rad}
 
 \end_inset
 
- zinc hook induces oligomeration of the zinc hook.
+ zinc hook induces oligomerization of the zinc hook.
  The 
 \begin_inset ERT
 status open
@@ -1098,8 +1514,8 @@ gls{MS}
 
 \end_inset
 
- studies confirm that Ag(I) replaces Zn(II) readily (within seconds), the
- 
+ studies confirm that Ag(I) replaces Zn(II) readily (within seconds), and
+ the 
 \begin_inset ERT
 status open
 
@@ -1113,7 +1529,7 @@ gls{MS}
 \end_inset
 
 -titrations are in great accordance with observed 1:1 and 2:1 Ag(I):zinc
- hook stoichometries observed in 
+ hook stoichiometries observed in 
 \begin_inset ERT
 status open
 
@@ -1153,7 +1569,7 @@ gls{uvvis}
 \end_inset
 
 -titration.
- Suprisingly 
+ Surprisingly 
 \begin_inset ERT
 status open
 
@@ -1210,10 +1626,11 @@ gls{itc}
 
 .
  Titration of Ag(I) into the pf zinc hook shows two equivalence points,
- the first one at ratio of 0.8 Ag(I):zinc hook, the second one at ratio ~2.1.
+ the first one at a ratio of 0.8 Ag(I):zinc hook, the second one at a ratio
+ ~2.1.
  The reverse titration (zinc hook into Ag(I)) is in agreement with the ratios
  resulting from the normal titration.
- Though the fitting of the multiple binding model to the isotherm was possible,
+ Though the fitting of the multiple-binding model to the isotherm was possible,
  the obtained formation constants should not be treated as reliable—firstly,
  the cumulative constant 
 \begin_inset ERT
@@ -1317,7 +1734,7 @@ gls{rad}
 
 \end_inset
 
- results in a single step process, in which the 
+ results in a single-step process, in which the 
 \begin_inset ERT
 status open
 
@@ -1344,7 +1761,7 @@ gls{Kex}
 
 \end_inset
 
- is is possible to 
+ it is possible to 
 \emph on
 estimate
 \emph default
@@ -1424,7 +1841,7 @@ gls{rad}
 
 \end_inset
 
- complex is the most stable, however the 
+ complex is the most stable, however, the 
 \begin_inset ERT
 status open
 
@@ -1437,7 +1854,7 @@ gls{itc}
 
 \end_inset
 
- might not be a sufficiently resolvable method to pinpoint the exact formed
+ might not be a sufficiently resolvable method to pinpoint the exactly formed
  complex.
  The 
 \emph on
@@ -1484,7 +1901,7 @@ gls{rad}
 
 \begin_layout Standard
 The study shows that Ag(I) ions may displace Zn(II) not only from the intraprote
-in zinc binding sites (e.g.
+in zinc-binding sites (e.g.
  in 
 \begin_inset ERT
 status open
@@ -1498,8 +1915,102 @@ gls{zf}
 
 \end_inset
 
-), but from interprotein zinc binding sites as well.
+), but from interprotein zinc-binding sites as well.
  The swap most likely will result in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zppi}
+\end_layout
+
+\end_inset
+
+ disruption, and even though the architecture of the complex might be saved,
+ the changes in the metal binding site conformation may lead to the loss
+ of the function and huge biological impact.
+ In case of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+, as previously established, the deleterious mutations at the CXXC motif
+ of cysteines to alanine and arginine is just as severe as the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textDelta
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ mutation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "He2012"
+literal "true"
+
+\end_inset
+
+.
+ The fact that the Zn(II)-induced dimerization is essential for proper functioni
+ng of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+, thus 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mrn}
+\end_layout
+
+\end_inset
+
+ as well, makes even small small disturbance in the zinc-binding site a
+ suspect for a genotoxicity.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1546,7 +2057,7 @@ status open
 
 
 \backslash
-includepdf[pages=-]{Articles/Placeholder.pdf}
+includepdf[pages=-]{Articles/AgRad50.pdf}
 \end_layout
 
 \end_inset

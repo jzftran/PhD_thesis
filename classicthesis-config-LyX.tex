@@ -29,25 +29,40 @@
 }{classicthesis}
 
 
+
+
 % ****************************************************************************************************
 % 2. Personal data and user ad-hoc commands
 % ****************************************************************************************************
 \newcommand{\myTitle}{TITLE\xspace}
 \newcommand{\mySubtitle}{Doctoral dissertation\xspace}
-\newcommand{\myDegree}{Master (MSc)\xspace}
+\newcommand{\myDegree}{Magister (mgr)\xspace}
 \newcommand{\myName}{Józef Tran\xspace}
 \newcommand{\myProf}{Artur Krężel\xspace}
 % \newcommand{\myOtherProf}{Put name here\xspace}
 % \newcommand{\mySupervisor}{Put name here\xspace}
 \newcommand{\myFaculty}{Wydział Biotechnologii\xspace}
-\newcommand{\myDepartment}{Department of Chemical Biology\xspace}
+\newcommand{\myDepartment}{Zakład Chemii Biologicznej\xspace}
 \newcommand{\myUni}{Uniwersytet Wrocławski\xspace}
 \newcommand{\myLocation}{Wrocław\xspace}
-\newcommand{\myTime}{February 2023\xspace}
+\newcommand{\myTime}{Marzec 2023\xspace}
 \newcommand{\myVersion}{v1.0}
 
-% There is a problem using ę with Mendeley, ę was expressed as \c{e}
+% There is a problem using ę and ą with Mendeley, ę was expressed as \c{e}, ą as \c{a}
+\renewcommand{\c}{\k}
 \DeclareUnicodeCharacter{0229}{\k{e}}
+\DeclareUnicodeCharacter{0327}{0328}
+\DeclareUnicodeCharacter{2032}{$\prime$}
+
+\DeclareUnicodeCharacter{0301}{Q}
+
+
+
+\newcommand\MarginFig[4][width=\marginparwidth]{%
+\marginpar{\includegraphics[#1]{#2}
+\captionof{figure}{#3}
+\label{#4}}
+}
 
 % ****************************************************************************************************
 
@@ -80,6 +95,9 @@
 
 \hyphenation{mon-o-meric}
 \hyphenation{en-donu-cle-olytic}
+\hyphenation{Cho-rą-żew-ska}
+\hyphenation{cha-ra-kte-ry-sty-ka}
+
 
 
 %*****************************************************************************************************
@@ -228,7 +246,7 @@ first={HyperText Markup Language (HTML)}
 }
 
 
-\newglossaryentry{python}{name={Python},
+\newglossaryentry{python}{name={\texttt{Python}},
 	description={Python is a high-level, object-oriented programming
 	language, often used in scientific community.},}
 
@@ -236,12 +254,12 @@ first={HyperText Markup Language (HTML)}
 
 
 \newglossaryentry{sql}{type=\acronymtype,
-name={SQL},
-description={Structured Query Language},
-first={Structured Query Language (SQL)},
+name={\texttt{SQL}},
+description={\texttt{Structured Query Language}},
+first={\texttt{{Structured Query Language}} (\texttt{SQL})},
 }
 
-\newglossaryentry{django}{name={Django},
+\newglossaryentry{django}{name={\texttt{Django}},
 	description={Django is a high-level Python-based web framework.},}
 
 \newglossaryentry{bassembly}{name={biological assembly},
@@ -251,7 +269,7 @@ The biological assembly may be a part of the \gls{asunit}, as well as \gls{asuni
 or more copies of the biological assembly.},
 plural = {biological assemblies}}
 
-\newglossaryentry{asunit}{name={assymetric unit},
+\newglossaryentry{asunit}{name={asymmetric unit},
 description={The asymmetric unit is the basic unit ot a crystal structure. After application
 symmetry operations to the asymmetric unit it is possible to generate the unit cell, which duplicated and translated can produce the whole crystal.},}
 
@@ -270,8 +288,8 @@ The complex plays a key role in \gls{dsb} repair.}}
 
 \newglossaryentry{rad}{type=\acronymtype,
 	name={Rad50},
-	description={DNA rapair protein Rad50, \glsseeformat[Glossary:]{radg}{}},
-	first={DNA rapair protein Rad50 (Rad50)\glsadd{radg}},
+	description={DNA repair protein Rad50, \glsseeformat[Glossary:]{radg}{}},
+	first={DNA repair protein Rad50 (Rad50)\glsadd{radg}},
 }
 
 
@@ -364,6 +382,12 @@ description={\textit{Chaetomium thermophilum}},
 first={\textit{Chaetomium thermophilum} (\textit{C. thermophilum})}}
 
 
+\newglossaryentry{if}{type=\acronymtype,
+name={IF},
+description={impact factor},
+first={impact factor (IF)}
+}
+
 
 \newglossaryentry{cd}{type=\acronymtype,
 name={CD},
@@ -448,14 +472,14 @@ first={Gibbs free energy change at standard state (\textDelta \textit{G}\textdeg
 
 \newglossaryentry{dH}{type=\acronymtype,
 name={\textDelta \textit{H}\textdegree},
-description={Enthalpy change at standard state},
-first={Enthalpy at standard state (\textDelta \textit{H}\textdegree)}
+description={enthalpy change at standard state},
+first={enthalpy change at standard state (\textDelta \textit{H}\textdegree)}
 }
 
 \newglossaryentry{dS}{type=\acronymtype,
 name={\textDelta \textit{S}\textdegree},
-description={Entropy change at standard state},
-first={Entropy change at standard state (\textDelta \textit{S}\textdegree)}
+description={entropy change at standard state},
+first={entropy change at standard state (\textDelta \textit{S}\textdegree)}
 }
 
 \newglossaryentry{T}{type=\acronymtype,
@@ -644,9 +668,9 @@ first={carbonic anhydrase II (CAII)},
 
 \newglossaryentry{zf}{type=\acronymtype, name={ZF},
 description={zinc finger},
-first={zinc finger (ZF),
-descriptionplural = {zinc fingers}
-firstplural = {zinc fingers	(ZFs)}},
+first={zinc finger (ZF)},
+descriptionplural = {zinc fingers},
+firstplural = {zinc fingers	(ZFs)}
 }
 
 

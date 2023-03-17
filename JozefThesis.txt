@@ -1,0 +1,3263 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+under supervision of
+
+ – 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+: , ,  
+
+[note:
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+
+
+
+
+ 
+
+
+
+
+
+For a research worker the unforgotten moments of his life are 
+those rare ones,
+which come after years of plodding work,
+ when the veil over nature’s secret seems suddenly to lift,
+and when what was dark and chaotic
+appears in a clear and beautiful light and pattern
+
+
+— Gerty Cori [103]
+
+
+
+
+
+To my parents and teachers,
+ who managed to sustain the curiosity in me.
+
+
+
+
+
+
+
+
+Abstract
+
+Almost every macromolecule in the cell or living organism has to 
+interact transiently or permanently with other particles to 
+fulfill their role. Around 30–40% of these macromolecules are 
+envisioned to interact with metal ions, often the interaction 
+being obligatory for the macromolecule to be biologically active. 
+What is bizarre, given those numbers, is that to date, studies 
+dedicated to the characterization of protein–protein networks do 
+not overlap with the research devoted to metal–protein 
+interactions, leaving the area of intersection a terra incognita. 
+My interdisciplinary doctoral project had two phases. During the 
+first phase, I attempted to explore the unknown area 
+programmatically surveying the , for the —protein–protein 
+interfaces involving the metal ions. The second phase was devoted 
+to thorough characterization, by biophysical methods, one of the 
+special cases of the —the zinc hook of , crucial for 
+physiological dimerization of the  and, consequently, necessary 
+for the proper functioning of the key player in  damage 
+response—the .
+
+The logic of the surveying was deployed using  programming 
+language. One of the two generated in this process surveys 
+present the physiological  (assessed manually). The second survey 
+is constantly and regularly updated, as is it deployed as an 
+online tool using the  framework—InterMetalDB.
+
+The second phase of my doctoral project—the biophysical 
+characterization of the zinc hook from the  had two parts. The 
+first part was to describe the sequence–structure–stability 
+relationship of the human . The study is the first study, 
+exploring the stability of the eukaryotic , moreover, to my 
+knowledge, the investigated complex forms the most stable 
+Zn(II)-complex described in the human proteome, so far. The human 
+ is phosphorylated in the near vicinity (structurally and 
+sequentially) of the zinc-binding motif, at threonine 690. We 
+have determined that, due to the extreme stability of the 
+complex, the phosphorylation of the zinc hook cannot be a switch 
+that controls the metallation state of the  under the 
+physiological conditions.
+
+Despite the extreme stability of the Zn()₂, the complex is not 
+selective against Zn(II), which can be replaced by metal ions 
+with higher affinities towards the zinc hook. The second part of 
+the characterization of the zinc hook was performed using the 
+model zinc hook domain from   and was devoted to the 
+investigation of the structural, as well as stability properties 
+of the mismetallated domain by heavy metal ions—Hg(II) and Ag(I). 
+Those metals easily and readily displaced Zn(II) under the 
+experimental condition, suggesting that the stabilities of the 
+formed complexes were even higher those of the Zn(II)-complex. I 
+was able to estimate these unimaginably high affinities using the 
+least likely method—. 
+
+The obtained results contribute to understanding the , including 
+, as well as the relationship between the structure and the 
+stability of the human , as well as the impact of the heavy metal 
+ions on the stability and architecture of the  from 
+
+
+
+
+
+ 
+
+Streszczenie
+
+Prawie każda makrocząsteczka w komórce lub żywym organizmie musi 
+przejściowo lub trwale oddziaływać z innymi cząsteczkami, aby 
+spełnić swoją rolę. Przewiduje się, że około 30–40% tych 
+makrocząsteczek oddziałuje z jonami metali, przy czym często 
+oddziaływanie to jest niezbędne, aby makrocząsteczka była 
+biologicznie aktywna. Biorąc pod uwagę te liczby, dziwi fakt, że 
+jak dotąd badania poświęcone charakterystyce sieci oddziaływań 
+białko–białko nie pokrywają się z badaniami poświęconymi 
+interakcjom metal–białko, pozostawiając obszar przecięcia jako 
+terra incognita. Mój interdyscyplinarny projekt doktorski miał 
+dwie fazy. W pierwszej fazie podjęłam próbę eksploracji 
+nieznanego obszaru programowo badając zasoby Research 
+Collaboratory for Structural Bioinformatics Protein Data Bank, 
+pod kątem interakcji białko–białko z udziałem metalu—a dokładniej 
+interfejsów białko–białko z udziałem jonów metali. Drugi etap 
+poświęcony był dokładnej charakterystyce, metodami biofizycznymi, 
+jednego ze szczególnych przypadków interakcji białko–białko z 
+udziałem jonu cynku—haczyka cynkowego białka naprawczego DNA 
+Rad50, koronnego dla fizjologicznej dimeryzacji Rad50, a w 
+konsekwencji niezbędnego do prawidłowego funkcjonowania 
+kluczowego gracza w odpowiedzi na uszkodzenia kwasu 
+deoksyrybonukleinowego—kompleksu Mre11–Rad50–Nbs1(Xrs2) (MRN(X)).
+
+Logika badania została wdrożona przy użyciu języka programowania 
+Python. Jeden z dwóch wygenerowanych w tym procesie przeglądów 
+przedstawia fizjologicznych interakcji białko–białko z udziałem 
+jonu cynku (ewaluowane ręcznie). Drugi przegląd jest stale i 
+regularnie aktualizowany, ponieważ jest wdrożony jako narzędzie 
+online z wykorzystaniem platformy programistycznej 
+Django—InterMetalDB.
+
+Drugi etap mojego projektu doktorskiego—biofizyczna 
+charakterystyka haczyka cynkowego z białka Rad50 składał się z 
+dwóch części. Pierwszą częścią było opisanie relacji 
+sekwencja–struktura–stabilność ludzkiego białka Rad50. Powstała 
+publikacja jest pierwszą publikacją, opisującą stabilność 
+eukariotycznego Rad50, ponadto, według mojej wiedzy, badany 
+kompleks tworzy najbardziej stabilny kompleks cynkowy opisany w 
+ludzkim proteomie. Ludzkie białko Rad50 jest fosforylowane w 
+bliskim sąsiedztwie (strukturalnie i sekwencyjnie) motywu 
+wiążącego cynk, na treoninie 690. Pokazałem również, że ze 
+względu na ekstremalną stabilność kompleksu fosforylacja haka 
+cynkowego nie może być przełącznikiem kontrolującym stan 
+dimeryzacji białka Rad50 w warunkach fizjologicznych. Pomimo 
+ekstremalnej stabilności Zn(Rad50)₂, kompleks nie jest selektywny 
+wobec Zn(II), który może być zastąpiony jonami metali o wyższym 
+powinowactwie do haka cynkowego.
+
+Druga część charakterystyki haczyka cynkowego została 
+przeprowadzona z wykorzystaniem modelowej domeny haczyka 
+cynkowego z Rad50 pochodzącego z z Pyrococcus furiosus (P. 
+furiosus) i była poświęcona badaniu właściwości strukturalnych, a 
+także stabilności domeny wysyconej przez jony metali 
+ciężkich—Hg(II) i Ag(I). Metale te w warunkach eksperymentalnych 
+łatwo i chętnie wypierały Zn(II), co sugeruje, że stabilność 
+powstałych kompleksów była nawet wyższa niż kompleksu cynkowego. 
+Te niewyobrażalnie wysokie powinowactwa udało mi się oszacować 
+przy użyciu najmniej prawdopodobnej metody—izotermicznej 
+kalorymetrii miareczkowej. Uzyskane wyniki przyczyniają się do 
+zrozumienia interakcji białko–białko z udziałem metalu, w tym 
+interakcji białko–białko z udziałem jonu cynku, jak również 
+zależności pomiędzy strukturą i stabilnością ludzkiego białka 
+Rad50, a także wpływu jonów metali ciężkich na stabilność i 
+architekturę białka Rad50 z P. furiosus.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Publications
+
+Some ideas and figures have appeared previously in the following 
+publications:
+
+
+
+
+
+
+
+Bibliography
+
+
+
+ 
+
+
+
+
+
+
+
+To succeed, planning alone is insufficient. 
+One must improvise as well. 
+
+
+ — Isaac Asimov [12] 
+
+
+
+
+
+ 
+
+Acknowledgments
+
+Plato, and his student, Aristotle, thought that  is by nature a 
+political animal, i.e., man is made to live in a polis, and be an 
+active member of society. A solitary man is not 
+self-sufficient—he has various needs that cannot be fulfilled 
+alone. An individual cannot even meet his material needs, let to 
+say intellectual needs, such as play, art, music, sports, 
+friendship, and learning. The same is true for conducting 
+research—this doctorate would not have been possible without the 
+contribution (direct or indirect) of others. These 
+acknowledgments are not sorted by importance, I do believe that 
+would be impossible to do objectively, however, I do hope that 
+everyone important during my doctoral project is mentioned and 
+recognized.
+
+I would like to thank to:
+
+• my supervisor Artur Krężel for being my supervisor and guidance 
+  for past the five years,
+
+• Violetta Trzyna for being the invaluable help with tedious and 
+  complicated paperwork,
+
+• Michał Padjasek for sharing various hobbies, support, and 
+  inspiring,
+
+• my parents and family for support,
+
+• Adam Pomorski for insightful chats and brilliant remarks,
+
+• Jakub Sławski, Michał Tracz and Marek Łuczkowski for common 
+  lunches and discussions,
+
+• Mateusz Krzyścik for technical expertise and providing a wrench 
+  when needed,
+
+• Anna Kocyła, Olga Kerber, Marek Łuczkowski, Aleksandra Chorążew
+  ska, Alicja Misiaszek and other labmates, for successful 
+  collaboration,
+
+• students that have I worked with: Aleksandra Gędaj and Ewa 
+  Olczak for patience,
+
+• Krystyna Grzesiak for understanding, patience, and support, so 
+  much needed when conducting research and writing articles,
+
+• Czarek Grzesiak for short and long walks,
+
+• Gabor Markowski, Wojciech Graf ,and Krzysztof Pukało for 
+  showing me that sport can be fun,
+
+• Krzysztof Pukało, Wojciech Graf, Gabor Markowski, Maciej Majkow
+  ski and Piotr Bachry for giving me the opportunity to stress 
+  out by playing Dungeons & Dragons,
+
+• Katsuaki Inoue, Nathan Cowieson, Diego Gianolio for being a 
+  local contact at Diamond Light Source.
+
+• Alexandra Elbakyan, for her contributions to science.
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+Proteins and cofactors <chap:Proteins-and-cofactors>
+
+A significant portion of organic compounds synthesized by living 
+organisms are biopolymers; proteins, lipids, nucleic acids, and 
+other macromolecules (e.g., lignins, gums, melanins). Among these 
+macromolecules, proteins fulfill key roles in almost every 
+biological process (catalysis, transport, mechanical-structural 
+functions, and others). This extraordinarily rich diversity of 
+functions is achieved despite the fact that proteins are linear 
+polymers built only of 20 types of canonical amino acids[footnote:
+Without taking into account  and amino acid residues that are 
+inserted during the cotranslation process.
+], those canonical amino acids linked sequentially into a linear 
+polymer are responsible for a staggering variety of folds, 
+structures, and assemblies. This gorgeous diversity of protein 
+structures allows proteins to fulfill an astonishing number of 
+functions, however, not every chemical (or physical) process is 
+possible to conduct with only 20 canonical amino acids. One way 
+evolution  has solved the problem of limited chemical groups that 
+can facilitate important processes is the use of  and . Numerous 
+publications state that roughly one-third of proteins interact 
+with [footnote:
+My duty to the reader is to point out that the statement that 
+one-third of proteins interact with  is not very credible. This 
+type of statement often appears in various papers discussing the 
+, yet one looks in vain for a reference to the literature or 
+information on what organism these proteins are from, or how the 
+analysis was done.
+]Rosenzweig 2002; Bushmarina et al. 2006; Cao and Li 2011; ?? ??. 
+The  queried for structures of enzymes return over 30% of enzymes 
+that contain , which points out that  are essential for the 
+functioning of a vast number of proteins Mukhopadhyay et al. 2019
+.  
+
+, contrary to the  are not bound covalently to proteins, but 
+associate with proteins by means of other interactions, e.g., 
+hydrogen bonds, Van der Waals forces, etc., thus to interact with 
+ proteins had to evolve to form sites that will attract and 
+associate with . The residues (not the sequence!) that adopt 
+particular conformation and arrangement in space, being able to 
+accommodate a particular  are called collectively a binding site.
+
+Proteins are able to interact with organic, non-protein , called 
+, the inorganic molecules constituting  are mostly metal ions. 
+The residues that binding sites that interact with metal ions are 
+called a “metal binding sitea”. Among various , the Zn(II) cation 
+is one of the most commonly found in proteins. The  interacting 
+with Zn(II) are among the most diverse and widespread proteins 
+found in nature. Genome sequencing projects have provided a great 
+deal of information about the structure of primary information 
+about the primary structure of proteins. The bioinformatic study 
+of this information analyzed in terms of metal interaction 
+suggests that about 10% of the human proteome may bind Zn(II) 
+ions Andreini et al. 2006; Andreini et al. 2006; Andreini, Bertini, and Rosato 2009
+. What is worth noting is the fact, that those predictions (based 
+solely on the protein sequence) do not take into account the fact 
+that the  may be bound by two or more macromolecules. This 
+minuscule comment spans a variety of other, challenging questions 
+— “How often this intermolecular metal binding is occurring?”, “
+What are the properties of such sites and the binding proteins?” 
+and many others. 
+
+This PhD project was dedicated to the analysis of proteins 
+binding metal ions in . The part of the project realized in 
+silico concerns the survey of all known proteins that bind metal 
+ions in an intermolecular fashion (including zinc ion), while ex 
+silico studies regard the interaction of metal ions with   (See: [ch:Rad50]
+).
+
+1.1 Metal ions
+
+1.1.1 Alkali and alkaline earth metal ions
+
+Approximately 1% of the human body weight are made up of alkali 
+and alkaline earth metal ions Joseph J. Stephanos 2014. The role 
+of alkali and alkaline earth metal ions in organisms is diverse, 
+sodium and potassium ions occur in all known organisms, and 
+generally, those ions function as electrolytes. Calcium ions are 
+known to function as messengers—used by living organisms to 
+communicate and orchestrate intracellular processes. Magnesium 
+ions are the most abundant divalent cations in the cell, the 
+majority of it bound to , which is essential to utilize  Schwartz et al. 2014
+. 
+
+
+
+In proteins both alkali and alkaline earth metal ions commonly 
+play a structural role in the stabilization of the , however, 
+those metals can play a catalytic role as well (e.g. Mg(II) in T4 
+ligase Cherepanov and de Vries 2002). Alkali and alkaline-earth 
+compensate charge of highly acidic regions in macromolecules, 
+e.g., polyphosphate backbone in nucleic acids Owczarzy et al. 2004; Zheng et al. 2015; Varnai and Zakrzewska 2004
+. Despite the fact that the biology of alkali and alkaline earth 
+metals is quite well understood, it still hides some of the 
+secrets, for instance, the biological effects (as well as some of 
+the side effects) of lithium are known; lithium carbonate is 
+widely used to treat some of the mood disorders, however, the 
+biological targets of Li(I) ions in the organisms are not known 
+yet.
+
+The alkali metals have a single s electron, and the alkaline 
+earth metal ions have a filled outer s-orbital (by two 
+electrons).  Both groups of metals are highly electropositive and 
+reluctantly polarizable Joseph J. Stephanos 2014. Due to the low 
+polarizability alkali and alkaline earth metal ions are 
+considered to be a hard Lewis acid. In accordance with Ralph 
+Pearson's  concept, hard Lewis acids should react more willingly 
+with hard Lewis bases Pearson 1963. This behavior is easily 
+confirmed by observation of the  that complex those metals, i.e., 
+coordination sphere of those metal ions is usually consisting of 
+hard Lewis acids (in proteins, by oxygen-containing acidic amino 
+acids). Usually alkali and alkaline-earth metal ions are 
+coordinated by macromolecules with six-coordinated octahedral 
+geometry Kuppuraj, Dudev, and Lim 2009, however more than six 
+donor atoms are sometimes found in the alkali or alkali-earth 
+metal binding sites – mostly due to the bidentate  Zheng et al. 2008
+.
+
+1.1.2 Transition metal ions <subsec:Transition-metal-ions>
+
+Transition metals are defined as elements that have partially 
+filled d orbital. Transition metals due to the fact that d 
+orbitals are quite close in energy levels (degenerated), can form 
+compounds with a wide range of oxidation states, some of those 
+states are quite stable. The elements across the d block tend to 
+be more polarizable. Those two properties make the use of 
+transition metals useful in catalysis, thus there is no wonder 
+why evolution has utilized so widely transition metals in 
+enzymes. The first property is used when there is need for 
+switching the oxidation state of the enzyme's substrate. In such 
+enzyme, the metal ion can cycle between oxidation states and play 
+a role as an acceptor or donor of electrons (depending on the 
+catalyzed reaction). The second property allow metal ions to 
+function in the catalytic sites without changing the oxidation 
+state. Such metal cations play a role of a Lewis acid, accepting 
+pairs of electrons, e.g., like Zn(II) in catalytic site of  Krishnamurthy et al. 2008
+. 
+
+In the presence of  the orbitals of the transition metal ions 
+break of degeneracy, this causes a variety of physio-chemical 
+effects (i.e., the property of having a color), but also exerts a 
+particular geometry of the complex. Unsurprisingly proteins have 
+evolved to accommodate a various geometries of the metal ions—the 
+metal binding sites have to match the geometry of the particular 
+metal ion to bind it.
+
+Out of ten first-row transition metals, five of them are 
+essential to human health—manganese, iron, cobalt, copper and 
+zinc (not being a transition metal per se, discussed in [sec:properties_of_zinc]
+). The essentiality of those elements is nonnegotiable, as those 
+elements are  or build some of the  of biologically important 
+proteins or enzymes. 
+
+Manganese is present as a  in several enzymes, which maintain the 
+metabolism, for examples in the human bran manganese-dependent 
+glutamine synthetase is responsible for glutamine synthesis in 
+astrocytes Takeda 2003. 
+
+Iron accounts for 0.05‰ of human body weight. Hemoglobin is a 
+flagship protein that realizes the necessity of iron in human 
+diet. Iron in  is often bound as a —heme, however,  where iron 
+ions act as a  exists as well, e.g., ferritin or rubredoxin.
+
+Cobalt is an essential part of vitamin B[subscript:12], which is used as a coenzyme in  synthesis, amino acid, and 
+fatty acids metabolism. Similarly to iron, cobalt does not have 
+to be only bound to corrin derivatives or vitamin B[subscript:12], but can be utilized by some proteins as a  directly (e.g., 
+methionine aminopeptidase 2).
+
+Copper  play essential roles in electron transport and oxygen 
+metabolism. Copper is essential for aerobic respiration in 
+eukaryotes, as it is found as a  of cytochrome c oxidase, where 
+it serves the function of electron transporter. Copper is also a 
+coenzyme of copper-zinc , an enzyme that catalyzes the reaction 
+of the disproportionation of superoxides.
+
+
+
+[float Table:
+[Tabela 1.1: 
+Simplified version of the Periodic Table of the Elements 
+indicating biologically relevant metals. With green color 
+essential for life metals were marked. Yellow color marks the 
+elements that are essential for some species. Chromium is marked 
+in orange color as the essentiality for life of this element is 
+questionable.
+]
+
+
+
+
+
+
+]
+
+Additionally, to the five first-row essential d-block elements, 
+three more first-row d-block elements—chromium, vanadium, and 
+nickel—show some biological effects, however, the essentiality 
+and need for supplementation of those elements is debatable. 
+
+Cr(III) is found in foods and dietary supplements, many of which 
+are advertised to have a beneficial effect on glucose metabolism 
+and regulation. This rationale is based on observations of 
+patients receiving Cr(III)-free intravenous drip who developed 
+symptoms similar to insulin-resistant diabetes. Symptoms were 
+relieved after intravenous drip supplementation with a small 
+amount of Cr(III) Stehle, Stoffel-Wagner, and Kuhn 2016. The 
+efficacy of the supplementation of Cr(III) is characterized by 
+evidence of low strength thus the rationale to recommend their 
+use for glycemic control in patients with type 2 diabetes 
+mellitus is precarious Costello, Dwyer, and Bailey 2016. In the 
+United States of America, Cr(III) ions are considered an 
+essential nutrient in humans ?? 2022, the European Food Safety 
+Authority does not share this opinion, arguing that the evidence 
+supporting this assumption is insufficient Agostoni et al. 2014. 
+While the role of Cr(III) on the human body is uncertain, the 
+toxicity and carcinogenic properties of Cr(VI) are known for a 
+long time Långard and Norseth 1975. 
+
+Vanadium seems to be more important for life in marine 
+environments—the number of marine life forms like algae utilizes 
+vanadium in enzymes Butler and Carter-Franklin 2004. Tunicates 
+draw attention due to specialized blood cells types—vanadocytes, 
+accumulating vanadium through vanadium interacting protein called 
+vanabins, however, the role of those proteins and the vanadium in 
+tunicates is still shrouded in mystery Ueki et al. 2003. 
+Vanadium-related issues for human health are similar to the case 
+of chromium—vanadium complexes may exert some antidiabetic 
+effects Sakurai et al. 2002, however a functional role for 
+vanadium in mammals and humans is not defined yet, thus it is not 
+recognized as an essential nutrient Institute of Medicine 2001. 
+
+Nickel is essential to some bacteria, archaea, fungi, and plants, 
+where usually nickel plays a role in enzymatic processes, e.g., 
+urease, a nickel enzyme is considered a virulence factor in some 
+pathogens. The essentiality of Ni(II) in mammals is still 
+discussed, on the one hand, rats grown without nickel (or in low 
+abundance) exhibit depressed growth, and several outside-the-norm 
+biochemical and morphology results. Nickel seemed to be involved 
+in the reproduction of nickel-deprived rats, as the lack of it 
+resulted in an increased perinatal mortality rate Zambelli and Ciurli 2013
+. Though no physiological nickel targets in mammals and humans 
+have been found, the vast usage of Ni(II) by prokaryotes suggests 
+that the element might be essential for the symbiotic gut 
+microbiota Zambelli and Ciurli 2013.
+
+
+
+
+
+
+Zinc proteome <chap:Zinc proteome>
+
+2.1 Properties of zinc <sec:properties_of_zinc>
+
+As have been mentioned in the first sentence of [subsec:Transition-metal-ions]
+ transition metals have partially filled d orbital, following 
+this definition one cannot classify zinc as a transition metal ([fig:Bohr-model-diagram-zinc]
+). The other definitions of transition metals (i.e. as chemical 
+elements in the d-block of the periodic table), may include zinc 
+as a transition metal. The goal of this subsection is not to 
+discuss whether zinc is a transition metal— “transition metals” 
+is a human concept, people are in the habit of categorizing and 
+dividing, however, it does not matter for the chemical and 
+physical properties of zinc whether one classifies zinc as a 
+transition metal or not. The unique properties of zinc and the 
+reason why chemists discuss where to categorize zinc is due to 
+zinc's electron configuration ([fig:Bohr-model-diagram-zinc]) – 
+the fully filled d orbitals of zinc are energetically stable, and 
+usually, zinc can lose only 4s electrons, leading to the 
+formation of stable Zn(II), which is entirely different to the 
+biologically active transition metals. This property of zinc of 
+occurrence in only one oxidation state (2+) prevents zinc from 
+partaking directly in redox reactions. The total filling of 
+zinc's d orbitals makes zinc a 'spectroscopically quiet' metal – 
+zinc complexes have no color. Contrary to metals that have 
+partially filled d-shells, zinc has almost no spectroscopic 
+signature Penner-Hahn 2005. This limitation of Zn(II) being 
+redox-inert in biology might produce a false view of its use by 
+evolution in proteins.
+
+[float Figure:
+
+
+[Rysunek 2.1: 
+<fig:Bohr-model-diagram-zinc>Bohr model diagram for of zinc.
+]
+]
+
+Zinc, after iron, is the second most abundant d-block element 
+found in proteins, Andreini et al. 2006; Andreini et al. 2006; Andreini, Bertini, and Rosato 2009
+ moreover it is the only d-block element that is found in all 
+classes of enzymes, Vallee and Auld 1990 this is possible due to 
+being a Lewis acid by Zn(II).
+
+In solution Zn(II) ions exist in equilibrium as an octahedral 
+hexaaquo complexes ([Zn(H₂O)₆][superscript:2+]) and as a tetrahedral [Zn(H₂O)₄][superscript:2+], with equilibrium shifted towards the first one. Krężel and Maret 2016
+ Due to the total filling of the d orbitals, the transition 
+between the octahedral to tetrahedral coordination (typical for 
+complexation by proteins) in the case of zinc does not entail an 
+energetic penalty, Lachenmann et al. 2004 additionally the 
+release of solvent from the aqua-complex involves an increase in 
+degrees of freedom in the system, which is energetically 
+favorable due to the increase of . Krężel and Maret 2016  that 
+utilize this unique , are unique as well, and bind this metal ion 
+in an unusual fashion.
+
+2.2 zinc-binding Sites<sec:Zinc-Binding-Sites>
+
+Zinc(II) binding proteins are extremely diverse in structure and 
+function. Zn(II) is an intermediate Lewis acid in terms of 
+hardness according to the , theory formulated by Ralph Pearson. Pearson 1963
+ Because of this, Zn(II) can be coordinated by zarówno the sulfur 
+atom of the cysteine (a soft Lewis base), the nitrogen atom of 
+the histidine (an intermediate Lewis base), as well as by 
+carboxyl anions derived from the aspartates and glutamates (a 
+hard Lewis base). The most common  found in the zinc-binding 
+sites is cysteine, followed by histidine and acidic residues, 
+i.e. aspartic acid and glutamic acid [footnote:
+Those findings are based on the structural data from the . Just 
+because there are structures of such  does not necessarily mean 
+that this is true in all existing zinc-binding sites existing.
+]. Laitaoja, Valjakka, and Jänis 2013 For zinc-binding sites,  
+ranging from two to seven were found in the literature Sousa et al. 2009; Andreini, Bertini, and Cavallaro 2011
+, however, di- and tricoordinate are zinc complexes are highly 
+reactive, meaning that the stable zinc-binding sites have  at 
+least equal four. Thorough manual analysis performed by Laitaoja, Valjakka, and Jänis 2013
+ ruled out of physiological existence of zinc-binding sites of  
+higher than seven. Laitaoja, Valjakka, and Jänis 2013 The most 
+common zinc-binding sites found in the  have =4, which 
+corresponds to the tetrahedral geometry. The low occurrence of 
+zinc-binding sites with >4 is probably due to the small size of 
+Zn(II) (~74 pm and ~88 pm for =4 and =6, respectively), which 
+causes molecular repulsion between the  Miessler, Fischer, and Tarr 2013
+. The  equal to two in zinc-binding sites is usually caused by 
+the not-fully resolved structure of zinc-binding site having 
+higher  (e.g. structure of   zinc hook domain,  [https://www.rcsb.org/structure/6ZFF||6ZFF]
+ Soh, Basquin, and Gruber 2021), likewise =3 in most cases is 
+unresolved zinc-binding site with =4, which is a very common 
+situation in enzymatic zinc-binding sites, where the missing, 
+unresolved  is often a water molecule. The different number and 
+types of  often translate into differences in the properties of 
+the coordination sphere and zinc-binding site formed.
+
+The process of Zn(II) complexation by polypeptide often entails 
+the formation of a stable conformation. The zinc-binding sites 
+can exist as a pre-made arrangement of amino acids in the space, 
+where zinc-binding does not cause huge structural changes in 
+protein (usually in enzymes), however, the zinc-binding can 
+promote protein folding and formation of separate protein domains 
+(e.g., zinc fingers), this process is often in structural zinc 
+sites. Kochańczyk, Drozd, and Krężel 2015
+
+Zinc-binding sites can be divided by function but also by their 
+architecture. Functionally, zinc sites can be divided into:
+
+catalytic Zn(II) can be found in the active center of any of the 
+six classes of enzymes distinguished by the International Union 
+of Biochemistry and Molecular Biology. In almost every enzyme 
+Zn(II) acts as a  and one of the zinc  is a water molecule. In 
+other proteins with no catalytic function, Zn(II) is usually 
+bound by the atoms of the side chains of the amino acid residues. 
+The interaction of the water molecule with the zinc cation allows 
+for the transient replacement of the water molecule by the 
+coordination of the substrate molecule. However in the case of 
+the most studied carbonic anhydrase, , the water molecule is not 
+replaced displaced from the zinc-binding site, Zn(II) lowers the 
+water p, facilitating dissociation to a hydroxide, that reacts 
+with .
+
+structural zinc-binding sites are usually characterized by a high 
+affinity towards Zn(II). A classical example of domains 
+containing structural zinc-binding sites are . An important 
+structural characteristic that accompanies structural binding 
+sites is the presence of a hydrophobic core that stabilizes the 
+zinc-protein complex Padjasek et al. 2020. The function of the 
+zinc-binding site in such domains is to stabilize the  – a good 
+example of this may be a  peptide, an example of de novo protein 
+design that bases on the   of zinc finger Dahiyat, Sarisky, and Mayo 1997
+. The de novo  peptide maintains the same  as a fragment of , 
+however, the fragment compared with  shares only four amino acids 
+in the same positions Dahiyat, Sarisky, and Mayo 1997. What is 
+most notable is the change of the  sequence with hydrophobic and 
+aromatic residues. Which stabilizes energetically the  due to the 
+hydrophobic effect. Maybe even the greatest importance of 
+structural zinc-binding sites can be seen in the case of chimeric 
+ , where zinc hook  from  can be efficiently replaced the  hinge Tatebe et al. 2020
+ while taking much less volume.
+
+regulatory zinc-binding sites usually have medium affinities 
+towards Zn(II), this property allows them to associate with 
+Zn(II) during the Zn(II) influx and dissociate during Zn(II) 
+efflux. Zinc is an essential metal for life, however in case of 
+Zn(II) excess, it exerts a toxic effect on the cell – thus the  
+concentration in the cell needs to be regulated. So the cell 
+regulates the  concentration by various mechanisms. The 
+functional division of the zinc-binding sites proposed here 
+distinguishes three classes that are involved in  regulation, 
+which shows the importance of maintaining physiological  in the 
+cell. An example of the regulatory zinc-binding site can be the  
+from . Zinc-binding by  is characterized by remarkable lability 
+observed both in vitro and in vivo Qiao et al. 2006.  This 
+lability is essential for fulfilling its regulatory function.
+
+transporting zinc-binding sites are responsible for cellular 
+influx or efflux of Zn(II). Similarly to regulatory and buffering 
+binding sites, the transporting zinc-binding sites are 
+characterized by a medium affinity towards Zn(II). The examples 
+of the transporting zinc-binding sites are  , , and , which are 
+regulated by . The driving force for Zn(II) transport (which 
+requires the conformational, and affinity towards Zn(II) change) 
+may be a proton motive force, which is the case of human 
+proton-coupled zinc antiporters (ZnT family), however, in the 
+case of the bigger Zn(II) transporter family (ZIP), the driving 
+force is unknown yet Coudray et al. 2013; Bafaro et al. 2017. 
+
+buffering zinc-binding sites are found in proteins that bind 
+Zn(II) in order to maintain physiological  in the cell. Those 
+sites are characterized by a medium, but a broad range of 
+affinities, which allows for maintaining adequate . A flagship 
+example of buffering binding sites can be found in the 
+metallothioneins, which may bind up to seven zinc, within a broad 
+affinity range Krężel and Maret 2007.
+
+The number of zinc-binding sites classes related to the 
+regulation of the  in the cell together with the occurrence of 
+zinc ions in cellular vesicles potentially could be explained by 
+the fact that no Zn(II)-storage proteins (akin to the iron 
+storage proteins – ferritin) was found. Ferritin for example may 
+store several thousand iron ions trapped in its core Maret 2017. 
+
+In terms of architecture, the zinc-binding sites can be divided 
+into five classes:
+
+intraprotein zinc-binding is the most common type of zinc 
+coordination in proteins. The intraprotein binding is understood 
+as a formation of a zinc-binding site only by singular 
+polypeptide chains. 
+
+clustered zinc-binding sites are multinuclear. The clustered 
+zinc-binding sites have more than one Zn(II) per binding site, 
+this is achieved by the presence of the bridging  (usually sulfur 
+from cysteines). These sites are quite thermodynamically stable, 
+while at the same time kinetically labile. No wonder why 
+metallothioneins (mentioned in the buffering zinc-binding sites) 
+utilize this type of binding. This type of binding is seen in 
+most zinc enzymes, , etc. 
+
+interprotein zinc-binding sites are not so common (or at least 
+are not so commonly discovered and described) as intraprotein 
+zinc-binding sites. Interprotein zinc-binding sites are formed by 
+at least two polypeptide chains, so in this architecture, Zn(II) 
+bound at the  of two proteins, takes a structural part in the 
+formation of the quaternary protein structure. The formation of 
+interprotein zinc-binding sites, referred to in the thesis as , 
+may be obligatory to form a quaternary structure, or Zn(II) may 
+bind to already formed protein-protein complex, to further 
+stabilize it Kochańczyk, Drozd, and Krężel 2015. To date only a 
+few  have been studied in terms of the complexes' stabilities, 
+this includes - Kocyła and Krężel 2018and - Davis and Berg 2009 
+complexes, and various  orthologs studied by me and my colleagues 
+Padjasek et al. 2020; Tran, Padjasek, and Krężel 2022.
+
+In terms of the time span of binding one can introduce two 
+additional classifiers:
+
+transient zinc-binding sites are characterized often by medium 
+affinities toward Zn(II). The role of such transient zinc-binding 
+sites is to bind Zn(II) temporally, which is the case in the 
+buffering, transporting, and regulatory zinc-binding sites. Those 
+sites need to bind Zn(II) in a kinetically labile way in order to 
+fulfill its functions.
+
+permanent zinc-binding sites are kinetically inert. This type of 
+binding is characteristic of structural and enzymatic binding 
+sites. The Zn(II) bound to those sites is not easily dissociated 
+from the site. Of course, the reaction is in equilibrium so the 
+subunit exchange still happens (see equations  and [eq:Ka_definition]
+), however, the binding is characterized by a low value of .
+
+
+
+
+
+
+
+
+Investigation of intermolecular metal-binding sites
+
+Zn(II) ions were found to be essential for the growth of the 
+toxic mold – Aspergillus niger in 1869, nearly one hundred years 
+later, in 1961, it was postulated that zinc is essential also for 
+humans.  Almost 20 years later the first structures of proteins 
+containing Zn(II) started to appear. It will not be an 
+exaggeration if I say that the number of scientific questions is 
+proportional to the amount of new data—with the advent of the 
+first Zn(II)-containing macromolecular structures, questions 
+about the factors that govern the formation of the zinc-binding 
+sites started to appear. With more Zn(II)-containing structures 
+deposited in the  some tendencies became clear (see [sec:Zinc-Binding-Sites]
+), however, the fact that the Zn(II) ions (and other metal ions) 
+can be bound at the  of two or more macromolecules was rather 
+ignored – one of the first reviews of structural knowledge of 
+metal-binding sites in proteins appeared in 1992[a], Tainer, Roberts, and Getzoff 1992
+ whereas the first review regarding the binding of metals at  
+appeared in 2014[a]. Song et al. 2014 This Chapter will focus on 
+the methodology of how one can investigate the metal-binding 
+sites at .
+
+3.1 In silico investigation of intermolecular metal-binding sites
+
+3.1.1 The problems of in silico investigation of intermolecular 
+  metal-binding sites
+
+To date, there are no computational algorithms or other methods 
+that are able to identify or classify intermolecular 
+metal-binding based on protein sequence or structure. The problem 
+of metal-binding sites prediction was undertaken in the past 
+several times. Apart from the availability of such tools, which 
+is often unacceptable Ye et al. 2022, the quality of the proposed 
+classifiers is often poor. [margin:
+Classifier is a tool that assigns an element to a certain class. 
+An algorithm that tells whether a protein is a  based on the 
+protein attributes is a classifier.
+] Usually, the authors of such algorithms present the quality and 
+efficiency of their classifier in a reliable way, e.g., by 
+showing various kinds of statistics like receiver operating 
+characteristic curve in the case of binary classifiers, the 
+presented tools at first glance seem to work very well, however, 
+to date, the use of such tools is limited. For sure one cannot 
+accuse the authors of such articles of scientific misconduct or 
+ill-faith – usually, the problem lies deeper. The are two main 
+problems with the classifiers: the first one is the problem with 
+the initial data set, which eventually is a source for creating 
+the training and the test data sets, and the second problem is 
+the choice of explanatory variables.
+
+The availability of well-annotated (due to manual curation) 
+protein sequence data is quite good. The primary source of such 
+information is scientific articles. A publication that treats 
+whether a protein binds metal or not has a number of methods that 
+show and describe this binding. Such publication does not need to 
+include information about the structure of the protein, this 
+information is not necessary to prove the interaction of the 
+metal with the protein. Typically, this type of data can be 
+aggregated in , where metal-interacting residues are often 
+assigned based on similarity and sequence. The problem with this 
+type of data is the sparsity of annotations – not every known  is 
+annotated in  to interact with metal. This leads to the attempts 
+to create one's own data set, which in turn involves the use of 
+the other type of input – the structural data deposited in the , 
+however, the metal-binding sites in the  are not annotated to be 
+a true physiological or adventitious metal-binding sites. This, 
+in turn, leads to the use of simple algorithms that sort “true” 
+from “false” metal-binding sites in the data set based on simple 
+rules, i.e., the distance between the metal and , the number of , 
+type of , etc., however, this approach is far from being 
+accurate.
+
+The problem with the selection of explanatory variables is most 
+acute with classifiers that are based on the sequence. Whereas 
+structural-based classifiers may involve the abundance of 
+meaningful variables for the classifier (e.g., hydrophobicity, a 
+charge of the amino acids, geometry, position in space, etc.), 
+the effort of prediction of a metal-binding site based solely on 
+the sequence might be similar to the prediction of the sales on 
+stock exchange based using only stock shares name. Nevertheless, 
+in some specific cases, where there is an existing pattern in the 
+sequence it is possible to build sensitive and specific 
+classifiers, e.g., the prediction of zinc fingers based on 
+sequence is possible due to the existence of well-defined input 
+data and the existence of patterns in the sequences Sathyaseelan, Patro, and Rathinavelan 2023
+.
+
+The above problems with the prediction of metal-binding sites are 
+the same for intermolecular metal-binding sites, as well, 
+moreover, the fact of two or more interacting macromolecules 
+increases the complexity of the problem. So how to search for 
+metals bound at  if there are no viable  in silico tools? The 
+question is addressed below in [subsec:Obtaining-knowledge-about-InterMBS]
+.
+
+3.1.2 Obtaining knowledge about intermolecular metal-binding 
+  sites<subsec:Obtaining-knowledge-about-InterMBS>
+
+As in the case of information about the interaction of the metal 
+with the protein, here also publications may also be the primary 
+source of information about metal-binding on . However, the lack 
+of recognition of inter-protein metal ion binding has partly 
+contributed to the fact that even if a publication is accompanied 
+by the deposition of a structure in the , the fact of 
+inter-protein metal ion binding is not necessarily commented on 
+in the publication in any way. An additional problem with 
+extracting knowledge directly from publications is the fact that 
+the search for this type of information can be time-consuming. 
+There may be problems with the availability of the article (not 
+every article is published as an open access article), and the 
+fact that there is no tool that aggregates the articles based on 
+the information on whether the described protein within the 
+article has an inter-protein metal-binding site, makes this 
+approach unreasonable. Nevertheless, it is not out of the 
+question that this type of information aggregation will change 
+(not necessarily regarding the ) with the increasing number of 
+open access articles published each year and the development of 
+technologies related to natural language processing.
+
+To date, the best source of information on proteins that bind 
+metal ions in an intermolecular manner are structural databases 
+like . Since  contains all deposited structures (whether they 
+contain metal or not) searching for information on metal-binding 
+sites in  is not necessarily an easy task. For this reason, 
+various secondary databases have been created that rely on the 
+information contained in the .
+
+MESPEUS was one of the first databases to include information on 
+zinc sites, MESPEUS allowed filtering of data based on metal,  
+type, and resolution, unfortunately, MESPEUS is now no longer 
+available Hsin et al. 2008; Harding and Hsin 2014. 
+
+ZifBASE is an even more specific database – it is dedicated only 
+to zinc fingers, plus it contains far more information than just 
+structural information – it contains sequence information, 
+potential DNA interaction sequences, and more. However, as of 
+today, despite the existence of the site, ZifBASE appears to be 
+severely broken or non-functional at all, search and other 
+functions do not work, additionally, it is not known how often 
+the database is updated or whether longer updated Jayakanthan et al. 2009
+. 
+
+MetalPDB is the best-known derivative database based on  
+regarding metal ions. MetalPDB has more advanced features 
+compared to a simple database like MESPEUS, it has, for example, 
+the ability to search for binding sites by geometric likeness. 
+The big advantage of MetalPDB is the use of the “Minimal 
+Functional Site” concept which allows the implementation of the 
+above function. The disadvantage of MetalPDB is that MetalPDB is 
+based on , not . This approach to building a database is 
+incorrect because some of the binding sites (and especially the 
+intermolecular binding) can only be seen after the symmetry 
+operations are applied and the  is created. Like the rest of 
+these tools, MetalPDB does not allow searching for inter-protein 
+binding sites of metal ions. MetalPDB despite the fact that it is 
+possible to automate this type of tool seems to be rarely 
+updated, as of February 13, 2023, MetalPDB gives an update date 
+as of April 5, 2022, which does not seem to be true. No 
+metal-containing structures, but published close to the supposed 
+MetalPDB update date are present in the database – for example, 
+the structures [https://www.rcsb.org/structure/7V8G||7V8G] 
+(published March 30, 2022) or [https://www.rcsb.org/structure/7TIH||7TIH]
+ (published March 30, 2022) despite the fact that it is strewn 
+with metals is also absent. The fact that derivative databases do 
+not have all the records that are present in the primary database 
+is understandable – for various reasons, over the years  files 
+have all sorts of errors, inaccuracies, or format 
+incompatibilities that cause problems in processing, 
+nevertheless, the number of missing files in MetalPDB is puzzling 
+Andreini et al. 2013; Putignano et al. 2018.
+
+ZincBind is one of the newest databases, which includes 
+information on “physiological” binding sites for Zn(II) ions, 
+however,  it does not have information on intermolecular 
+zinc-binding. Physiological sites in ZincBind are understood to 
+be those with at least two binding residues and at least three 
+binding atoms, additionally, ZincBind overcomes the biggest 
+issues of MetalPDB: ZincBind is automatically updated, presented 
+structures are already in the , and most of all the  of ZincBind 
+is freely available under the MIT License Ireland and Martin 2019
+.[margin:
+The  availability makes the science more transparent.
+] 
+
+Using various types of databases, it is possible, after applying 
+certain logic, to select  files that have metal ions at the 
+interface of two macromolecules.[footnote:
+This does not automatically mean that these sites will be 
+physiologically relevant. 
+] However, this type of manipulation may require some programming 
+expertise to avoid the tedious manual review of hundreds or 
+thousands of structures. To make this search possible for 
+scientists without programming knowledge to find intermolecular 
+metal-binding sites in proteins, I have decided to create a 
+publicly available database – InterMetalDB[footnote:
+https://intermetaldb.biotech.uni.wroc.pl/
+]([chap:InterMetalDB]).
+
+3.1.3 How one does build a database?
+
+The first step in building a database is data acquisition. In the 
+case of creating a primary database, data should be obtained 
+directly from a suitable source. For scientific databases, the 
+source of such data is often publications. For example, the 
+NIST46[footnote:
+https://www.nist.gov/srd/nist46
+] database of affinity constants for chelator complexes with 
+metals was built by searching and evaluating data from 
+publications. In the case of , the situation is somewhat 
+different nowadays – journals now often require the structure to 
+be deposited prior to the article acceptation or release. This is 
+a very smart approach, for several reasons – it reduces the 
+workload on the  side, and guarantees that virtually every 
+publication presenting a new structure will simultaneously 
+deposit the structure in the . However, this does not mean that 
+every structure described by humankind will be available in the . 
+In 2023, private companies still do not publish macromolecular 
+structures in the , while structures deposited in the  contribute 
+to the development of new drugs by public entities Westbrook and Burley 2019
+. 
+
+In the case of the derivative databases, the first step o 
+acquiring a data set is to query a primary database. If  is 
+available the acquisition is usually trivial, as it requires only 
+the application of the proper querying logic. If the database 
+does not provide the  one still can obtain the information – 
+manually or by constructing a web crawler [margin:
+A web crawler is a program that scans the Internet. The main 
+purpose of web crawlers is to collect data for various purposes, 
+such as search engine indexing, data mining, and content 
+monitoring.
+] provided the database has an online version.
+
+If the data was not filtered in the previous step the next step 
+is the data selection, annotation, organization, and storage. The 
+goal of this step is to ensure that the data is accurate and 
+consistent. This step is particularly important in scientific 
+research, where data is often complex, and diverse and requires 
+long-term preservation. This can be done manually, by computer 
+programs or scripts, or by a combination of these approaches. In 
+case of the curation of the macromolecular data, it is important 
+to take into account various information that accompanies the 
+structure: the sequence of the macromolecules in the  files, the 
+coordinates in the file, gene source organism, the expression 
+mechanism, ways of structure acquisition, etc. An important issue 
+with the data aggregated in the  is the fact of the redundancy[margin:
+In the case of the  redundancy is understood as the existence of 
+many similar macromolecular structures, i.e., two  files of the 
+same protein can be almost identical, however, one file may have 
+a better resolution.
+] of structural files, which should be taken into account during 
+the construction of the derivative database. This redundancy is 
+dealt with usually by clustering based on the sequence.
+
+During the data organization it is important to design a proper 
+logic of the database – how the records of the databases are 
+connected together within the database. For example 
+macromolecular structure may contain multiple metal-binding 
+sites, this simple and hardly revealing fact implies several 
+questions, e.g.,: how the records of the metal-binding sites 
+should be connected with the records of the structures?; how to 
+choose a representative metal-binding site from a structure, or 
+maybe are there multiple representative metal-binding sites?. If 
+the answers to those and other questions are known it is possible 
+to implement the logic behind the database.
+
+The final step of the data curation is the data presentation and 
+sharing, in the age of the Internet it is normal to present the 
+curated data over the Internet as a hosted web application that 
+allows for the querying, and viewing the aggregated results. This 
+step largely relies on the previous step and the logic behind the 
+database, if the database has poorly done bindings the querying 
+of the database for the end user will be cumbersome. 
+
+  Use of programming and markup languages in the creation and 
+  presentation of databases
+
+Programming languages play an important role in the creation of 
+modern databases. There are several programming languages that 
+are commonly used for creating the back-end[margin:
+The back-end is understood as everything that is invisible to the 
+end user. It contains all the application logic, bindings, etc.
+] databases including , , Java, and others.
+
+ is the most widely used language for managing and querying 
+relational databases. It is used to create, modify, and delete 
+database objects, such as tables, views, and indexes.  is also 
+used to insert, update, and retrieve data from tables.
+
+ is a popular general-purpose programming language that is widely 
+used for data processing and analysis. A variety of libraries 
+allow for easy object manipulation in , which allows for managing 
+and building the logic in the database. For example,  is a 
+popular web framework that is built on  and is often used for 
+creating web applications that are operating on databases. The 
+use of  allows working with databases using high-level 
+abstractions instead of writing raw  queries. With , it is 
+possible to define the logic and models of the database tables as 
+regular  classes.  provides a convenient  for querying the 
+database allowing it to retrieve and manipulate the data with  
+objects and methods, which allows finally for a presentation as a 
+front-end. [margin:
+Front-end is everything that the end-user is able to see – user 
+interface; buttons, images, etc. 
+] 
+
+The front-end of the web application is usually built with , the 
+website is stylized using Cascading Style Sheets, and the 
+interactivity is added using JavaScript (e.g., the ability to 
+view the protein structure).
+
+  Clustering
+
+The part of data curation is the clustering of the primary data. 
+One of the most common ways of dealing with redundancy in the 
+protein structures is the use of a sequence clustering algorithm. 
+This can be done by several programs, however,  in the 
+InterMetalDB ([chap:InterMetalDB]) I have decided to utilize 
+CD-HIT Li and Godzik 2006; Fu et al. 2012. Similar algorithms and 
+programs may be used, e.g., BLAST Camacho et al. 2009 or mmseqs2 Mirdita, Steinegger, and Söding 2019; Mirdita et al. 2021
+. To cluster  files one typically follows several steps:
+
+1. Convert the  files into a FASTA format (a text file extending 
+  ).
+
+2. Use CD-HIT to cluster the protein sequences at a desired 
+  sequence identity threshold.
+
+3. Map the clustered sequences back to the original  structures.
+
+4. Remove redundant structures in each cluster and select a 
+  representative structure for each cluster. This step can be 
+  performed by choosing as a representative a structure with the 
+  best resolution or newest structure.
+
+The resulting output is a set of non-redundant (or with 
+diminished redundancy) representative structures for each 
+cluster. Depending on the clustering threshold it may be required 
+to cluster the structures based on another factor, e.g., based on 
+the structure.
+
+
+
+3.2 Ex silico investigation of intermolecular metal-binding sites
+
+What if one already have some preliminary information (for 
+example, obtained through database research, [subsec:Obtaining-knowledge-about-InterMBS]
+) or hunch about the intermolecular metal-binding at ? With 
+preliminary knowledge (or suspicion) of intermolecular metal 
+binding, one can proceed with ex silico testing, where ex silico 
+I will understand as all experiments performed without the use of 
+a computer as the main working tool. In general, verification of 
+intermolecular metal-binding is not significantly different from 
+the study of metal–protein interaction, although there are 
+existent some important differences that should be taken into 
+account during the design of the experiment.
+
+3.2.1 Proteomic tools for the detection of metal-involved 
+  protein-protein interfaces
+
+At the outset, it is worth noting that the issues addressed below 
+concern both intermolecular metal ion binding and metal-induced  
+formation. The verdict, which process is dealt of may require a 
+more thorough investigation, for example, the involvement of 
+structural and biophysical methods (see bellow). To my knowledge 
+no , to detect complexes with an intermolecularly bound metal 
+ion, have been performed so far, thus leaving the landscape of  
+hidden in the fog —for this reason, considerations in this 
+Subsection are purely theoretical.
+
+State of art proteomic technologies already may give some 
+information about , however, the detection of such interactions 
+by those methods requires to take into experimental framework 
+some important ideas regarding the complexes stabilities (see [subsec:Equilibria]
+). One of the most important issues to take care for is the 
+availability of the free metal (e.g., ) in the experiment. The 
+care should be taken to supply used buffers with an appropriate 
+metal, preferably in an controlled manner ([subsec:Equilibria]). 
+Unfortunately the most of the modern proteomic technologies are 
+not suitable for the investigation of transient (or weak) 
+interactions, mostly due to the washing steps aimed at removal of 
+nonspecific interactions. Furthermore, the subsequent detection 
+of interaction partners with  techniques efficiently removes 
+metals due to the low pH during sample preparation, thus 
+additionally to the control experiments, experiments that 
+stabilize the complexes (e.g, by crosslinking) should be 
+prepared.
+
+  Mass spectrometry
+
+ is the gold standard method that is utilized in proteomics. 
+Using  it is possible to tell what is the mass of the measured 
+protein, or the fragments of the protein – peptides. Seemingly 
+this information is of low value to the researcher, however, the 
+the number of articles published each year proves different – 
+with known protein mass it is possible to identify modifications 
+of the protein. Tandem  and/or enzymatic fragmentation can give 
+information about identity of the protein (provided the genome of 
+the investigated organism is known).  combined with crosslinking 
+and computational modeling can provide information about protein 
+topology or even the structure Petrotchenko and Borchers 2022. So 
+it is not without reason why  techniques are used so often in 
+proteomics, including the investigation of . Unfortunately the 
+investigation of  with  is not straightforward, as the sample 
+prepared for the  usually have different pH than the 
+physiological, and combined with protein fragmentation (enzymatic 
+or in tandem ), and harsh ionization causes loosing of the bound 
+metal ion. Combining regular  with native  can partly facilitate 
+the detection of metal, however, native  comes with its own 
+limitations.
+
+  Affinity chromatography
+
+The identification of novel  can be realized by means of affinity 
+purification methods – based on the selective interaction between 
+a  and a target proteins of peptides followed by identification 
+using a coupled .[footnote:
+Note that sample preparation and ionization in  usually leads to 
+loss of the metal.
+] From various affinity purification techniques two techniques 
+stand out:  and . Both techniques rely on recombinant fusion 
+proteins with affinity labels. The affinity labels used in those 
+methods are used to pull-down the recombinant protein in complex 
+with the interaction partner. The binding and washing steps 
+determine the composition of eluted sample so during the 
+experiment care should be taken to perform those steps in the 
+buffers containing metal ions of interest, preferably in a 
+controlled manner. The control experiments should be made that 
+are conducted in metal of interest free environment. 
+
+Additionally improvements, mostly due to the use of crosslinking 
+(which can be made in vivo) in those techniques have been made to 
+detect transient binding. The crosslinking allows for use of more 
+rigorous washing steps, however, at cost of loosing bound metal 
+ions.
+
+Unfortunately this approach seems unsuitable for homomeric 
+interactions.  
+
+  Label transfer
+
+In label transfer, the protein of interest is tagged with a 
+reagent that after the crosslinking reaction is able to transfer 
+the label to an interacting partner. The first step of the label 
+transfer is the crosslinking of the complex composed of tagged 
+protein of interest with an interaction partner, this is done 
+usually using the photoreactive mechanism. The label transfer can 
+be performed by another type of chemistry, e.g., by reducing the 
+disulfide bond in the label. The transferred label can be used in 
+affinity purification and detection. The obtained sample can be 
+analyzed by downstream methods like Western Blot or  Liu et al. 2007
+. Potentially this system could be used to detect  by performing 
+crosslinking in the presence of metal of interest and comparison 
+with a control crosslinking in metal-free buffers. The proteins 
+that are found in the experiment with metal, but are missing from 
+the control, the metal-free experiment could interact with the 
+protein of interest due to the presence of particular metal.
+
+  Crosslinking
+
+Crosslinking can assist or be a part of the above-mentioned 
+methods. The development of reactive groups that allow in vivo 
+crosslinking certainly can facilitate the discovery of new , even 
+those that are transient. The cell environment contains the 
+physiological concentrations of free metals, thus providing the 
+ideal environment for the metal-protein interaction. The 
+crosslinking in vivo can be performed using cell-permeable 
+chemicals or using genetically encoded noncanonical amino acids 
+containing the reactive crosslinking groups. The crosslinked 
+proteins can be detected using . 
+
+3.2.2 Equilibria of metal-protein complexes<subsec:Equilibria>
+
+Biophysical tools that are suitable for the investigation of  
+generally answer the question “How strong is the interaction?”. 
+The answer to the question can be expressed as a value, namely  ( 
+or ). This thermodynamic property of a metal–protein system is a 
+key element, that allows one to understand the interaction in a 
+biological systems. So how to obtain those values and how are 
+they defined? To simplify the discussion presented below I will 
+focus only on the , which is sufficient to obtain the  value as 
+it is defined as K_{\text{d}}=\frac{1}{K_{\text{a}}}. As the 
+reader reads through the following somewhat lengthy introduction, 
+it should become clear to the reader that, along with choosing 
+the right experiment, the right models must be chosen to describe 
+metal binding—each case may require a slightly different 
+approach.
+
+For reaction:
+
+
+
+in which theoretical particles A and B form the complex  the  is 
+defined as:
+
+K_{\text{a}}=\frac{[A_{x}B_{y}]}{[A]^{x}\cdot[B]^{y}}=\frac{k_{\text{on}}}{k_{\text{off}}}
+,where  is the  and  is the . All the equilibria reactions that 
+concern the interaction of metal ions with proteins are happening 
+in water, thus one should define a new constant—:
+
+K_{\text{ex}}=\frac{[\text{MeL}]\cdot[\text{H}_{2}\text{O}]^{x}}{[\text{M\ensuremath{\text{e}_{\text{aq}}}}]\cdot[\text{L}]}=K_{\text{a}}[\text{H}_{2}\text{O}]^{x}
+,where  is a metal ion and  is a . Note that in reaction:
+
+the  does not change due to the fact that in most systems , the  
+does not change making the  constant. Due to this fact in 
+biochemistry,  is usually defined as in [eq:Ka_definition]. 
+Following this logic,  for the processis defined as:
+
+K_{\text{a}}=\frac{[\text{MeL}]}{[\text{Me}]\cdot[\text{L}]}So 
+the  for the homodimeric  complex, which formation is defined by:
+is defined as:
+
+K_{\text{a}}=\frac{[\text{MeL}_{2}]}{[\text{Me}]\cdot[\text{L}]^{2}}
+In case of , (¹ and ² are two different types of ) which forming is 
+described by equation  the  assume the same unit as  defined in 
+equation [eq:Ka_ML2], however, have different form (equation [eq:Ka_ML1L2]
+).
+
+
+
+K_{\text{a}}=\frac{[\text{Me}\text{L}^{1}\text{L}^{2}]}{[\text{Me}]\cdot[\text{L}^{1}]\cdot[\text{L}^{2}]}
+Note that with more interacting partners the  definition, thus as 
+well as the unit, will change. This should be taken into 
+consideration when comparing complexes of various 
+stoichiometries. Depending on the system the  can be determined 
+with direct titration of the metal to the protein or competition 
+experiments. 
+
+  Direct titration experiments
+
+In direct titrations, the only competing  for the metal is only 
+water. Thus in the case of the  complex, equation [eq:KaML] 
+defines the . In such conditions the total concentration of  is 
+equal to the sum of protein-bound  and free , thus:
+
+\frac{[\text{MeL}]}{[\text{Me\ensuremath{]_{\text{t}}}}}=\frac{1}{1+\frac{1}{K_{\text{a}}\cdot[\text{L}]}}
+, where [\text{Me\ensuremath{]_{\text{t}}}} is total  
+concentration. So in situations where \frac{1}{K_{\text{a}}}>>[L] 
+the ratio of \frac{[\text{MeL}]}{[\text{Me\ensuremath{]_{\text{t}}}}}\rightarrow0
+, which means that the affinity is too low to be observable (or 
+nonexistent) during the titration, the similar situation is 
+observed when \frac{1}{K_{\text{a}}}<<[L], in such case \frac{[\text{MeL}]}{[\text{Me\ensuremath{]_{\text{t}}}}}\rightarrow1
+, which means that the affinity is to high to be observable. This 
+behavior of the system can be modified by precise choice of the 
+concentrations of the reagents. However the manipulation with 
+reagent's concentrations is possible in some range: solubility of 
+the reagents in case of weak-binding, and the detection limit in 
+case of tight-binding.
+
+  Competition titration experiments<subsec:Competition-titration-experiment>
+
+In situations of tight binding (i.e.,\frac{1}{K_{\text{a}}}<<[L]\Rightarrow\frac{[\text{MeL}]}{[\text{Me\ensuremath{]_{\text{t}}}}}\rightarrow1
+, according to equation [eq:MeL/Me_t ratio]) the metals in direct 
+titration are bound to the protein in a manner that prevents the 
+direct detection of free metal (in case of metals that can be 
+observed directly, e.g. Fe(II) by  spectroscopy. To determine the 
+ of such metal-protein complexes the  has to compete for the  
+(equation ) with another compound () of which [superscript:MeC] is known.
+
+
+
+With known [superscript:MeL] and [superscript:MeC] it is possible to define  (equation [eq:Kex_competition]).
+
+K_{\text{ex}}=\frac{[\text{MeL}]\cdot[\text{C}]}{[\text{MeC}]\cdot[\text{L}]}=\frac{K_{\text{a}}^{\text{MeL}}}{K_{\text{a}}^{\text{MeC}}}
+
+With defined  and known [superscript:MeC] it is possible to determine the [superscript:MeL] provided that at least one of the components can be measured at 
+equilibrium or can give a measurable signal (e.g., heat change, 
+fluorescence, etc.). The shortly described titration experiment 
+can be designed to determine affinities of complexes with higher 
+stoichiometries (i.e. ₂, ₃, etc.), as well as using the  with 
+higher stoichiometries, so long as the affinities of the  are 
+known, and in range of the [superscript:MeL]. Of course in practice it is better to use  with 1:1 
+stoichiometry when possible. The use of competition titration 
+sometimes is called a metal-ion buffer, due to the fact that a  
+provides a controlled source of free metal ions analogously to 
+the pH buffers.
+
+3.2.3 Structural methods for the characterization of 
+  metal-involved protein-protein interfaces
+
+The detailed description of structural methods that are used for 
+the characterization of the proteins, metal-proteins complexes, 
+and  is far beyond the scope of this thesis – more comprehensive 
+and elaborate resources are available. Structures of proteins and 
+ can be acquired by X-ray crystallography, ,  spectroscopy, and 
+other, less frequently used techniques. Due to the fact that 
+during my PhD project, I have utilized some more `exotic` 
+structural methods they are worth mentioning. At the outset, it 
+is worth noting that the methods used by me during the PhD 
+project do not give the precise coordinates of each atom in the 
+protein, contrary to the above-mentioned structural methods. 
+
+  Small-angle X-ray scattering
+
+Similarly, like  spectroscopy or X-ray crystallography  results 
+may be written into a  file. This technique provides information 
+about the overall shape and size distribution of a protein.  is 
+particularly useful for studying large proteins. The biggest 
+advantage over the X-ray crystallography and  spectroscopy is the 
+fact that  can be applied to flexible proteins. The combination 
+of  with other biophysical techniques allows for the 
+understanding of the shape and dynamics of the protein. Although  
+itself is blind to metal ions it can be a helpful tool for the 
+description of protein dynamics Padjasek 2022 (or its lack—[chap:hRad50]
+, Tran, Padjasek, and Krężel 2022) induced by metal ion 
+complexation.
+
+  Extended X-ray absorption fine structure and X-ray absorption 
+  near-edge structure
+
+X-ray absorption spectroscopy is a technique used to study the 
+electronic structure of elements and their local coordination 
+environment in various materials, also in . X-ray absorption 
+spectroscopy encompasses two techniques  and 
+
+ involves the measurement of the intensity of X-rays scattered at 
+large angles from a target atom. The scattered X-rays are 
+collected and analyzed to determine the average distance and 
+coordination number of the neighboring atoms surrounding the 
+target atom.  provides information about the local coordination 
+environment of the target atom and can be used to study the 
+bonding environment of target atoms in .
+
+, on the other hand, involves the measurement of the absorption 
+of X-rays near the absorption edge of the target atom.  provides 
+information about the oxidation state and coordination geometry 
+of the target atom by analyzing the fine structure in the X-ray 
+absorption spectra near the absorption edge.  can be used to 
+determine the oxidation state of metal ions in , which can 
+provide valuable information about their function and reactivity.
+
+Both  and  have been widely used in the study of  and have 
+provided important insights into the mechanisms of  function. By 
+combining these techniques with other experimental and 
+computational methods, scientists have been able to gain a deeper 
+understanding of the roles of metal ions in enzyme catalysis, 
+electron transfer reactions, and oxidative stress.
+
+3.2.4 Biophysical tools for the characterization of 
+  metal-involved protein-protein interfaces<subsec:Biophysical-tools-for>
+
+[subsec:Equilibria] is a short introduction to the 
+equilibria-related calculations, that are necessary to obtain 
+accurate values, that can be later compared to other known 
+affinities, which should give those values a biological context. 
+However, to be able to calculate anything one requires data, this 
+Subsection is devoted to the description of some methods that can 
+produce the data for those calculations.
+
+  Size Exclusion Chromatography
+
+ is one of the first liquid chromatography techniques developed 
+to investigate protein–protein interactions Boone and Adamec 2016
+.  separates the molecules based on their size (thus on the 
+molecular weight). With a properly calibrated  column, it is 
+possible to approximate the weight of the investigated protein or 
+protein complex. Provided the change in the complexes' molecular 
+weight is considerable it is possible to measure the binding. In 
+the case of homodimerization, the molecular weight of the complex 
+is twice as big as the monomeric protein thus making  an ideal 
+solution for the detection. However, in a theoretical case of 
+heterodimerization of a macromolecule with a small peptide, 
+assuming that the binding does not induce a huge conformational 
+change in the macromolecule  seems inapplicable. 
+
+It is possible to run directly titrated with metal samples on , 
+however, in case of weak binding the lack of appropriate metal 
+ions in the running buffers may cause the dissociation of the 
+metal-protein complexes. To circumvent this inconvenience, the 
+separation on  can be run in metal-ion buffers ([subsec:Competition-titration-experiment]
+) that control the concentration of available metal. The  from 
+the competition experiment performed with  can be calculated 
+using the area under the peaks corresponding to the various 
+protein fractions Kocyła and Krężel 2018, however, it should be 
+noted that the observed peaks are not literally in an 
+equilibrium.
+
+The detection of separated protein fractions can be performed 
+with almost any flow-method, e.g.  spectrophotometry, , .
+
+  MALS
+
+Usually  is performed in conjugation with  (-). This is due to 
+the fact that, not every macromolecule is perfectly globular, and 
+ separates particles based on shape and hydrodynamic radius – the 
+latter is often correlated with the molecular weight of the 
+particle, however, the shape is not necessarily correlated. Thus 
+the application of  in-line with  allows for determination of 
+mass and size in solution, overcoming many inconveniences with  
+column calibration Minton 2016.
+
+  Circular dichorism
+
+ can be used in the determination of  in both, direct and 
+competition titrations. With , it is possible to evaluate the 
+secondary structure of the protein (or peptide) Greenfield 2007, 
+folding and binding, provided that a change in the secondary 
+structure of the protein is observed. The direct titration of 
+protein with a metal ion provided tight affinities that can show 
+the ratio of binding. For example,  interaction with Zn(II) can 
+be monitored using  ([chap:Galvanization-of-Protein-Protein]), 
+due to the tight binding it is possible to plot the ellipticity 
+at the chosen wavelength in the Zn(II)/protein function, and 
+observe the specific turning point at Zn(II)/protein=0.5, which 
+together with the rest of the evidence suggests the formation of 
+Zn()₂complex. 
+
+  Ultraviolet-Visible spectrophotometry
+
+ spectrophotometry is a useful tool that can be utilized as a 
+detection for  separation.  spectrophotometry is an essential 
+method in thhe determination of a metal–protein stabilities.  
+seems an ideal method for 'spectroscopically loud' metals.[footnote:
+Spectroscopically quiet metals have completely filled or empty 
+d-shell. So colloquially metal ions with partially filled d-shell 
+should be called `loud` Penner-Hahn 2005.
+]  observation of some 'spectroscopically quiet' metal complexes 
+is possible due to the  phenomenon.  is a type of electron 
+transition in which the electron from the donor is transitioned 
+to the acceptor's orbital. In the case of thiolates and Zn(II) 
+the  transition can be observed, which shows that even in the 
+case of `spectroscopically quiet` metals  can be applicable[footnote:
+Sometimes it is not possible to observe  from the native metal 
+coordinated by the protein of interest due to overlapping of the  
+bands with the absorption bands of the protein backbone. In such 
+cases one can use isostructural probes showing absorption bands 
+in a different region, i.e., in case of Zn(II), Co(II) Kluska, Adamczyk, and Krężel 2018
+ and Cd(II) Freisinger and Vašák 2013 can be used as 
+isostructural spectroscopic probes.
+] Vasak, Kaegi, and Hill 1981. 
+
+Similarly to  in case of tight-affinities, it is possible to 
+determine the binding stoichiometry from  titration.  can be used 
+as well in competition titration studies, however, the ease of 
+use of this technique will be dependent on the availability of 
+the proper chelating probe Kocyła, Pomorski, and Krężel 2015. 
+
+  Isothermal titration calorimetry
+
+Virtually every chemical reaction involves heat change. This 
+allows the reaction to be monitored with accurate titration 
+calorimeters. Also, metal-binding can be monitored using, . As 
+with the aforementioned methods, competitive titration can be 
+used, provided that the competitor used is well characterized 
+thermodynamically. At the same time, the fact that virtually 
+every reaction involves a change in heat analysis of  data can be 
+somewhat problematic, that is: proton dissociation from the 
+protein during binding, protonation of the buffer, association of 
+the metal ion with coordinating residues, and so on. All these 
+factors should be taken into account during data analysis. It is 
+more than important to convert the obtained [superscript:ITC] constant into the association constants for the corresponding 
+complex. 
+
+Recent data analysis advances in the  allow to determine the 
+kinetic information from the experiments – this can be done by 
+the analysis of each injection peak, which adds an additional 
+cross-validation layer to the experiment, due to the fact that 
+the kinetic constants are bound with the  with the equations  and 
+[eq:Ka_definition] Burnouf et al. 2012. 
+
+  Potentiometry
+
+The use of the glass electrode in potentiometry allows for the 
+quantitative determination of equation . Of course, the general 
+equation  will take another form in case of different complexes 
+with different stoichiometry, i.e., ₂, etc. 
+
+Potentiometry still is the gold standard for the determination of 
+complexes stabilities, however, it should be noted that all 
+proton-related equilibria should be taken into account while 
+calculating the  – this is often impossible for proteins due to 
+large number of sidechains that can exchange protons. Moreover, 
+proteins are sensitive to pH, in extremely acidic or basic 
+conditions proteins may change structure, unfold and precipitate, 
+thus making the potentiometry only suitable for shorter peptide 
+models.
+
+  Fluorescence-based techniques
+
+Fluorescence-based techniques for determination of metal-protein 
+complexes affinities can be divided into two categories:
+
+label-free techniques may rely on measurement of intrinsic 
+protein's fluorescence, in which case the direct titration with 
+metal may be applied. However, if the intrinsic fluorescence is 
+lacking the label-based techniques may be applied, or a 
+competition titration with a appropriate fluorescent probe (e.g, 
+FluoZin-3 for Zn(II) , mag-fura-2 for Mg(II), etc.) Johnson 2010, 
+
+label-based techniques may use recombinant proteins of interest 
+with fluorescent proteins to measure properties like 
+fluorescence, , fluorescence anisotropy and fluorescence 
+anisotropy decay. Except from the heterologous expression of 
+recombinated proteins, proteins of interests may be labeled by 
+chemical means Qiao et al. 2006.
+
+The biggest advantage of the use of fluorescence based techniques 
+is the low protein concentration required, this if often a huge 
+advantage for reasons of economy, time and workload, though care 
+should be when envisioning the stabilities constants of the 
+unlabeled proteins from the labeled counterparts – the 
+introduction of label may change the protein's conformation with 
+in turn may change the affinity towards the metal.
+
+  Bio-layer interferometry and surface plasmon resonance
+
+Both  and  measurement techniques provide label-free detection, 
+due to the real-time monitoring and the fact that the measurement 
+consists of both association and dissociation step it is possible 
+to measure the kinetics of the interaction. The measurement of  
+with the use of  and  implies the use of the metal ion buffers ([subsec:Competition-titration-experiment]
+) and the loading of the protein on the surface. While this 
+method may be useful for investigation of heteromeric complexes 
+(i.e.,  ), it seems to be non-ideal in the case of the homomeric 
+complexes (i.e. ), or in the case where individual components 
+from the heterocomplex dimerize as a result of metal-binding 
+(e.g. zinc mediated  and ) Kocyła and Krężel 2018. A certain 
+limitation of  and  is also the fact, the lack of advanced models 
+that can take into account more advanced binding stoichiometries. 
+
+The determination of  in  and  is possible by the determination 
+of  and , which later can be used to calculate  (see equations  
+and [eq:Ka_definition]).
+
+
+
+
+DNA repair protein Rad50
+
+4.1 The Mre11-Rad50-Nbs1(Xrs2) complex—architecture and function
+
+<ch:Rad50>
+
+The genetic material of every cell is constantly under the stress 
+– both endogenous and exogenous  damaging agents, which may 
+introduce  to the chromosome. In addition, the  formation 
+sometimes is even a `physiological` phenomenon—the formation of  
+is an essential step in immunoglobulin gene rearrangements and 
+meiotic chromosome recombination Johnson et al. 2021; Zhang et al. 2022
+. The  arise from exposure to ionizing radiation, and genotoxic 
+agents, and may arise spontaneously while  is replicated Tubbs and Nussenzweig 2017
+. Because even the single  event may be a cause of chromosomal 
+aberration, aneuploidy, tumorigenesis, and cell death, cells have 
+evolved to sense, signal and repair . The  complex is crucial for 
+ repair as the complex is involved in every step of repair: 
+sensing,  end binding, signaling and finally repairing. Those 
+processes follow two general routes:  and . In the Eukarya the 
+use of one of two pathways is dependent on the cell cycle Scully et al. 2019
+. 
+
+The , also known as the  complex is a complex composed of three 
+types of proteins: , , and  or . The  is essential for the 
+viability of vertebrate cells (the yeast cells are viable without 
+the ). The  is engaged in  metabolism, from which the most 
+important is the  repair. The  orthologs have been found in every 
+domain of life – which underlines the importance of the  and  Pal 2020
+. The  (and its homologs) seems to be unique to Eukarya, as no 
+homologs of the protein were found in the other domains. The X in 
+the  stands for the  protein characteristic of , sharing a 
+similar function to  despite the weak homology.
+
+Recent five years of  research showed mechanical and structural 
+insight into the modes of action of . The  complex binds to the 
+homoduplex  and scans past the nucleosomes to locate  ends. The 
+recognition of free  ends is inherent to the , however,  the  
+sliding and nucleosome bypassing is inherent to the . This 
+function separation may explain why two of the subunits are 
+conserved in all domains of life as the  core complex. The  
+performs the  end recognition via facilitated one-dimensional 
+diffusion. The sliding (not alternate binding and dissociation) 
+is facilitated by the  subunit. Though  binds and hydrolyzes , 
+the diffusion coefficients are  independent, which means that  
+hydrolysis does not regulate facilitated diffusion. The region 
+responsible for the one-dimensional facilitated diffusion is 
+located along the globular domains of the ,  is not responsible 
+for the - interaction Myler et al. 2017. Due to the unique  
+properties, the whole  complex is able to diffuse on euchromatin 
+and nucleosome-free regions, however,  the diffusion on 
+heterochromatin may be hampered, which may be the reason why the  
+is limited or the repair of  at such regions is slow.
+
+Often the free  end created by a  event will be blocked by a 
+protein, e.g. . In yeast the  deficient cells are highly 
+sensitive to , this phenotype is attenuated by deletion of the  
+gene — the  has to remove –blocked  to enable the  resistance. 
+However,  it should be noted that the  is not abundant in lower 
+eukaryotes as it is in higher eukaryotes, and in most cases in  
+the  end processing is not required when the  are not obstructed Llorente and Symington 2004; Mimitou and Symington 2008; Zhu et al. 2008
+. The [margin:
+In prokaryotes the  is homomeric.
+] heterodimer is an abundant protein (especially in human cells) Beck et al. 2011
+, combined with the high affinity towards the  and the 
+recruitment within seconds in vivo Mari et al. 2006, the  (and 
+some other –interacting factors) is essential in  processing in 
+high eukaryotes Sartori et al. 2007. The process is most likely 
+facilitated by the  resection and subsequent  repair, this is 
+often done by the  end resection.
+
+Because the  can form hairpins or be modified by chemicals, 
+associated proteins (like ), or covalently bound proteins Morimoto et al. 2019; Johnson et al. 2021
+, the  repair requires the cut. The enzymatic cleavage is done by 
+, an Mn(II) dependent metalloenzyme Paull and Gellert 1998; Trujillo et al. 1998; Usui et al. 1998
+, but how it is done if the recombinant  in vitro is a 3'\rightarrow
+5' exonuclease? The strict polarity of the  nuclease is 
+counterintuitive, as for the  the 5'- strand is required Ranjha, Howard, and Cejka 2018
+. The paradox was fueled by the genetic experiments performed on  
+showing that the  is responsible for the 5'\rightarrow3' 
+resection in vivo. How it is possible that the  contributes to 
+the 5' strand degradation, and how the 3'\rightarrow5' 
+exonucleolytic activity is inhibited? The second question is 
+answered by the formation of the  core complex. In the cell, the 
+-loaded  inhibits sterically the 3'\rightarrow5' exonuclease 
+activity. Though the ase activity of  is low, in  the core  
+complex endonucleolytic–exonucleolytic balance is regulated by  
+hydrolysis.  promotes endonucleolytic activity, while  hydrolysis 
+switches those activities Majka et al. 2012. 
+
+In Eukarya (and especially in mammals or humans) the  (or  in ) 
+is much more important in  in the core  complex functioning. 
+First of all the () is required for nuclear transport, however,   
+the nuclease regulation differs between  and . In ,  is not 
+necessary for the endonucleolytic activity of , however,   it 
+exerts some positive stimulation on the process, thus in the 
+cells with deletion of , and nuclear localization signal placed 
+on  the  end resection was only minimally impaired. In  the  is 
+crucial for endonucleolytic activity, which is stimulated by 
+additional factors, especially the .  (and in , the ortholog of —
+) stimulates the endonucleolytic nick of 5' , facilitating the 
+formation of the 3' overhanging .
+
+The  performs this by the cut at the 5' strand in the near 
+vicinity of the  end, followed by exonucleolytic resection from 
+3'\rightarrow5' direction Garcia et al. 2011; Deshpande et al. 2016
+.[margin:
+to jest znane jako jakiś model czy coś  może jakiś obrazek?
+] The result of this nucleolytic cleavage is , an intermediate to 
+be utilized in strand annealing in  or to be further elongated by 
+a 5'\rightarrow3' degradation in the . Both  and bacterial  can 
+enzymatically cleave off the second strand, which results in the 
+release of the blocked  termini Deshpande et al. 2016; Connelly, de Leau, and Leach 2003
+. 
+
+The  polarity paradox is thus explained by the:
+
+proteins that bind free  ends, block sterically the 3'\rightarrow
+5' exonucleolytic activity of ,
+
+tight interaction with , inhibiting the 3'\rightarrow5' 
+exonucleolytic activity while –loaded,
+
+, () and () stimulation of the 5'-endonucleolytic activity of .
+
+4.2 Globular domain of MRN(X)—the catalytic core
+
+The globular domain of the  complex harbors the active centers of 
+ and . The globular domain allows association and sliding on the  
+in search of the  Myler et al. 2017. The globular domain of  
+contains the Walker A and B motifs, which do bind . The mutation 
+that prevents the  binding in  is equivalent to [margin:
+ before the gene's name indicates deletion. 
+]rad50, however,   the   complex with  that does not bind  the 
+complex was only not functional in the cutting of the 3' 
+overhanging  Moncalian et al. 2004. The biochemical studies of  
+show that  hydrolysis by  simulates the nucleolytic activity of 
+the  on  Connelly et al. 1997; Deshpande, Lee, and Paull 2017; Herdendorf et al. 2011; Hopfner et al. 2000; Paull and Gellert 1999; Trujillo and Sung 2001
+, while the  core complex, is active on  even in the absence of  Connelly and Leach 1996; Herdendorf et al. 2011; Hopfner et al. 2000
+. The exact step-by-step catalysis (and associated conformational 
+changes) of the nucleolytic activity of the  or  is unknown yet. 
+Many structures of the catalytic cores of / were published to 
+date Hopfner et al. 2000; Hopfner et al. 2001; Lammens et al. 2011; Lim et al. 2011; Liu et al. 2016; Möckel et al. 2012; Park et al. 2011; Seifert et al. 2016; Williams et al. 2008; Williams et al. 2011…
+, however,  no structural evidence of free  ends is shown, in 
+which  is bound after  hydrolysis. Moreover, the structural 
+differences between the  globular domain from  and bacterial and 
+archeal  complexes suggest differences in the mechanism of action 
+Park et al. 2011.
+
+Till this year (2023) the structural detail of the interaction of 
+human  with the catalytic core of  was unknown. Recent advances 
+in  allowed for the visualization of the interaction of the human 
+ with the  core complex. Rotheneder et al. 2023 Contrary to 
+previous assumptions (and structures), single, not two  particles 
+wrap around the dimeric . The binding is centered, and  wraps the 
+ in a pseudo-symmetric fashion, the feature seems to be 
+evolutionarily conserved across various eukaryotes. Rotheneder et al. 2023
+
+The dynamicity of the complex differs between the domains, and 
+the  complex behavior from [margin:
+The  complex in  is called SbcC–SbcD complex.
+] differs from the eukaryotic  from  or —quite unexpected 
+observation, as the   complex adopts a closed (rod-shape) in a 
+resting state Rotheneder et al. 2023, rather than the open 
+conformation that is observed for the   complex Käshammer et al. 2019
+. The open conformation of the complex was believed to be the 
+conformation that is loaded onto , however,  at least in the case 
+of the eukaryotic  the `rod` conformation is proposed as a 
+loading conformation. Rotheneder et al. 2023 propose that the 
+C-terminal fragment of eukaryotic  is responsible for the 
+–independent  binding. The  C terminus could bind  directly, or 
+orchestrate the –binding of the  catalytic core Williams et al. 2008
+. However, the presented data show that the  has to be passed 
+through the coiled coils of  to the catalytic core of . This 
+suggests that at least two different –binding models must 
+exist—an observation that fits well with the single-molecule  
+curtain experiments—  binds  ends in an -dependent fashion, 
+cleavage of –blocked end (and  from  itself) is an -dependent 
+process as well, but the facilitated one-dimensional diffusion 
+over the  is -independent Myler et al. 2017. Moreover, the C 
+terminus of human  was found to be cleaved by the DNA-dependent 
+metalloprotease SPRTN in cancer cells— lacking its C terminus is 
+suggested to be a reason for impaired  binding and increased 
+radiosensitivity Na et al. 2021. 
+
+4.3 Coiled coil of the Rad50—flexible linker between the zinc 
+  hook and catalytic core
+
+Another unique part of the  complex is the extremely long coiled 
+coil region of the  protein. The long internal coiled coil that 
+constitutes the middle part of the  is formed by folding upon 
+itself in the middle of the protein (the zinc hook), so the 
+antiparallel coiled coil is formed in an intermolecular fashion. 
+Atomic force microscopy showed that the coiled coil domains of   
+span around 400 , while the coiled coil domain from human  is 
+around 100  longer and reaches up to 500 . The length and the 
+sequence of coiled coils are quite well conserved, moreover, the 
+truncation of the coiled coils leads to severe biological 
+consequences—shortening of the coiled coil of  abrogates the 
+physiological meiotic  formation, telomere maintenance, and 
+impairs the  repair by , interestingly  abrogation appeared after 
+the deletion of the longer fragment than the deleted fragment 
+that caused the problems with  Hohl et al. 2010.
+
+The atomic force microscopy and the recent  images present the  
+and  complexes in various conformations. Those conformations are 
+available to form due to the flexibility of the coiled coil, this 
+is probably achieved by breaks in heptade repeats of the coiled 
+coil. The coiled coil conformation is dependent on the binding of 
+ and  in the globular domain of  or . Käshammer et al. have 
+observed that the   in the absence of  the nuclease domains were 
+separated, and the stable globular domain formation was obtained 
+after introduction of  to the solution. The -bound complex is 
+proposed as a major autoinhibited state of the  complex ( active 
+sites are blocked), due to the abundance of  in the cell and the 
+low efficiency of the  in -hydrolysis. The -bound  presents a 
+more compact structure, however,  the coiled coils of each  
+protomer are separated, and form the flexible (thus so far 
+impossible to use as input in the model reconstruction) `open` 
+conformation. Further complex stiffening was observed in the 
+vitrified sample containing both  and — the  complex was observed 
+in the rod-shaped conformation, which allowed to reconstruct 
+around one-third (from globular domains to the zinc hook) of the  
+structure.
+
+
+
+However,  as has been mentioned previously, the eukaryotic  
+behaves in a different manner than the prokaryotic , the resting, 
+-bound state of the  assumes mostly a rod-shape (however,  the 
+open coiled coil subpopulation is observed as well). Rotheneder et al. 2023
+ 
+
+4.4 The zinc hook—a tetramerization domain?<sec:The-zinc-hook>
+
+The atomic force microscopy of the  showed that at the apex of 
+the coiled coil domain, the  interacts with another  protomer, 
+the follow-up X-ray crystallography studies (and more recent ) 
+showed the detailed structure of the —the zinc hook of . The  
+formed by two  protomers is a , where two of the protomers 
+co-coordinate a single Zn(II) ion[footnote:
+The first structure of the zinc hook presents zinc hook from   ([https://www.rcsb.org/structure/1L8D||1L8D]
+), the structure contains Hg(II) ion, instead of Zn(II), this is 
+discussed more in [chap:HgRad50].
+], by the conserved CXXC motif, where C corresponds to a cysteine 
+residue, and X corresponds to any of 20 canonical amino acids. 
+The Zn(II) co-coordination of the cysteine's thiolates implies 
+that Zn(II) directly takes part in the formation of the tertiary 
+structure of the , what is more, the Zn(II) ion induces 
+metal–coupled folding of the zinc hook domain, which is one of 
+the reasons of the extreme stability of the Zn()₂ complex. Kochańczyk 2016; Kochańczyk et al. 2016
+
+The zinc hook domain is not structurally separated from the 
+coiled coil domain of , i.e., one cannot separate the particular 
+domain just by assessment of the structure like in the case of 
+pyruvate kinase ([https://www.rcsb.org/structure/1PKN||1PKN]), 
+where three domain structure is easily seen at once Morris, Black, and Stollar 2022
+. A similar distinction between the globular domain of the  and 
+the superhelical domain is visible without any further 
+investigation (see [https://www.rcsb.org/structure/7ZR1||7ZR1]). 
+However,  the  marks a priori the stretch of around 100 amino 
+acids flanking the canonical CXXC motif to be the zinc hook, 
+however,  this approach seems to be experimentally unjustified.
+
+In structural biology, protein domain is understood as a part of 
+the protein that is folded independently of the rest of the 
+protein, and is stable per se. Combining this with the a priori 
+assignment of the zinc hook domain is not justified in the lack 
+of the structural discriminant of the coiled coil and the zinc 
+hook domain. The marking of the region that makes the zinc hook 
+domain should be functional (e.g. assessment of the stability), 
+not structural. This distinction is possible due to the 
+experimental work performed by Kochańczyk and complemented 
+further by Padjasek et al. for the zinc hook domain from  . Kochańczyk 2016; Kochańczyk et al. 2016; Padjasek et al. 2020
+ The stabilities studies show that in the  from  only a 
+45-amino-acid-long fragment (with the CXXC motif and flanking 
+region) is sufficient to form a stable domain, further elongation 
+does not result in the stabilization, thus the zinc hook in the  
+should be annotated as this short region in case of . The 
+stabilities studies performed during my PhD project show that in 
+the case of the   the zinc hook domain is longer—an increment in 
+the stability of the zinc hook domain is observed up to a length 
+of ~130 amino acids (see [chap:hRad50]). Tran, Padjasek, and Krężel 2022
+ 
+
+From  the first experiments investigating the zinc hook from , 
+till the beginning of 2023[a] the zinc hook was thought to be a 
+dimerization domain—Zn(II) is bound in a tetrahedron geometry, by 
+two cysteines from each  protomer. The [https://www.rcsb.org/structure/1L8D||1L8D]
+ Hopfner et al. 2002 structure presented by Karl-Peter Hopfner 
+after his postdoctoral fellowship presents the  from  in a 
+`V-shaped` conformation, without any possibilities of the  
+tetramerization. After 15 years, Park et al. present the 
+structure of a zinc hook from  —[https://www.rcsb.org/structure/5GOX||5GOX]
+, the structure adopts a totally different shape, compared to the 
+V-shaped conformation of the zinc hook from . The newly described 
+`rod` conformation is validated by the in-solution experiments 
+(inter alia  and ) and stands in agreement with the atomic force 
+microscopy of . Park et al. 2017 Four years later Soh, Basquin, and Gruber
+ present an almost identical sequence of   to the sequence 
+crystallized in the [https://www.rcsb.org/structure/1L8D||1L8D] ([https://www.rcsb.org/structure/6ZFF||6ZFF]
+), however,  the zinc hook, instead of adopting the `V-shaped` 
+assembly, adopts a `rod-shape`. Soh, Basquin, and Gruber 2021 The 
+[https://www.rcsb.org/structure/6ZFF||6ZFF] structure has 
+suggested that the zinc hook domain from  has stabilizing 
+interactions that are not present in the [https://www.rcsb.org/structure/1L8D||1L8D]
+, however,  this does not stand in agreement with the 
+experimental data provided by Kochańczyk and Padjasek et al.,Kochańczyk 2016; Kochańczyk et al. 2016; Padjasek et al. 2020
+ this is discussed in the Relations between Structure and Zn(II) Binding Affinity Shed Light on the Mechanisms of Rad50 Hook Domain Functioning and Its …
+ (see [chap:hRad50]), as the experimental description of the   
+zinc hook stability stands in a great agreement with the [https://www.rcsb.org/structure/5GOX||5GOX]
+ structure proposed by Park et al., making a great pivot for 
+discussion of the relationship between the structure and 
+sequence. After 21 years, Hopfner, now as a group leader, 
+releases another  structure. Those 21 years of technological 
+development allowed for the reconstruction of the complete 
+eukaryotic  structure, together in complex with  and  ([https://www.rcsb.org/structure/7ZR1||7ZR1]
+). The observed   complex, similar to [https://www.rcsb.org/structure/5GOX||5GOX]
+ and [https://www.rcsb.org/structure/6ZFF||6ZFF] presents the  in 
+the `rod` conformation. While taking  microphotographs Rotheneder et al.
+ observed that the  complex formed conglomerates, connected by 
+the zinc hook, however,  due to the low number of particles it 
+was impossible to resolve the three-dimensional map of the 
+conglomerate, to obtain a structure with better resolution and to 
+investigate the  between the apexes, the crystal structure of the 
+zinc hook from   was resolved ([https://www.rcsb.org/structure/7ZQY||7ZQY]
+). It turned out that the  consist of the dimer of dimers (zinc 
+hooks)—the same arrangement that was observed by the . Curiously 
+enough the previous eukaryotic zinc hook structure, [https://www.rcsb.org/structure/5GOX||5GOX]
+, shows the same tendency in the crystal lattice (when the  is 
+duplicated and translated), however,  the propensity to form 
+tetrameric assembly was not obvious to Park et al. when the 
+structure was published, thus the  presented in the  shows the   
+in a dimeric assembly. During the  experiments performed by me on 
+the zinc hook from  , I was not able to observe the 
+tetramerization, as the radius of gyration stands in accordance 
+with the crystal structure. Tran, Padjasek, and Krężel 2022 
+
+The ability to form various architectures by interaction in the 
+zinc hook domain suggests that the  complex is able to assume 
+conformations that could hold the  fragments together, which 
+possible could be one of the steps involved in the  damage repair 
+via . The architecture formed by the tetramerization of the  by 
+apex-apex interaction could form a structure that is at least 
+1000  long, which theoretically should allow the binding of the 
+sister chromatids during the . However,  to date the exact 
+biological role of the apex-apex tetramerization of the  is 
+shrouded in mystery—the apex-apex interface is not conserved 
+evolutionarily, and the tethering and its regulation probably 
+differ in organisms. Precise in vivo experiments are needed to 
+put the  tetramerization in the biological aspect.
+
+
+
+
+Research aims
+
+<ch:Goals>
+
+
+
+The unique zinc binding hook from the  protein inspired me to ask 
+questions: how many  and  are structurally described. The first 
+goal of the research was to provide a survey of intermolecularly 
+bound Zn(II) ions available in the . The idea was to 
+algorithmically filter for the physiological candidates of , 
+followed by the manual assessement of the validity of the 
+filtered structures.
+
+The second goal, an expansion of the first idea, was to provide 
+freely, and easily-available reso urce of all  deposited in the . 
+To do I have developed InterMetalDB, using atomium Ireland and Martin
+ and . The service, and its open  are available online.
+
+The third aim (which inspired formulation of two previous ideas) 
+of my doctoral project was to perform biophysical 
+characterization of the zinc hook domain of the human protein .  
+protein, occurs in the  core complex in every domain of life—a 
+key complex involved in  damage response. In eukaryotes  core 
+complex is stabilized and regulated by an additional interaction 
+partner— (or  in ), forming thus the  complex. The conserved zinc 
+hook domain in  is an example of unique , where the dimerization 
+is strictly dependent on the Zn(II) ion co-cordination by two  
+protomers. The formation of  dimer is essential for the proper 
+functioning of the , which is directly related to the functioning 
+of the whole () complex. 
+
+Finally, the last aim of the research was to investigate the 
+potential detrimental effect of the mismetallation of the zinc 
+hook from the . This has been done by investigation of the effect 
+of Hg(II) and Ag(I) on the zinc hook from the  . The choice of 
+the   to be the investigation target was the fact that this model 
+is so far best characterized model of the zinc hook available. 
+
+
+
+
+
+
+Results And Discussion
+
+Galvanization of Protein–Protein Interactions in a Dynamic Zinc 
+Interactome
+
+
+
+<chap:Galvanization-of-Protein-Protein>
+
+Anna Kocyła, Józef Ba Tran and Artur Krężel
+Department of Chemical Biology, Faculty of Biotechnology, 
+University of Wrocław, F. Joliot-Curie 14a, 50-383 Wrocław, 
+Poland
+
+Trends in Biochemical Sciences 2021 46(1), 64–79.
+
+
+
+6.1 Brief history and bibliometric data
+
+The first chapters presenting published work of mine ([chap:Galvanization-of-Protein-Protein]
+ and [chap:InterMetalDB]) focus mostly on in silico endeavors to 
+systematically describe, and characterize metal-involved . My 
+contribution in neither of the articles would not be possible 
+without involvement in the wet lab experiments from the very 
+beginning of my master's and doctoral studies. My ongoing journey 
+with computer programming began as a mere way to make my 
+laboratory work easier. Producing countless amounts of data, I 
+had to prepare scripts to pre-process the raw data or workflows 
+to facilitate data analysis, some of those scripts were made at 
+the request of my coworkers (e.g. the script that was part of the 
+fluorescence lifetime analysis workflow), some already may solve 
+the problems of the researchers on the other continents.[footnote:
+Allowing for batch export of the data from  like [https://github.com/jzftran/jws2txt||jws2txt]
+, mentioned at: 
+https://www.researchgate.net/post/Batch_export_processing_of_Jasco_interval_data_files_jwb_to_csv
+.
+] My interest in programming led to a collaboration with Anna 
+Kocyła on the Galvanization of Protein--Protein Interactions in a Dynamic Zinc Interactome
+, where I was able to use my skills in preparing a structural 
+data set of . After the few years I have been back to scripts 
+written for our publication, I am pleased with how much I have 
+grown in terms of writing clear and efficient . And though the  I 
+have written at the time was not beautiful, to say, it worked and 
+was one of the reasons why we were able to select around 150 
+examples of the  deposited in the  and publish our results in a 
+well-renowned journal Trends in Biochemical Sciences, the  of 
+14.264 (as of March 6, 2023). [footnote:
+https://scholar.google.com/
+]
+
+6.2 Summary
+
+The functions that are performed by macromolecules in the cell 
+are dependent on the interaction with their partners. The role of 
+the macromolecule depends on what the interaction partner is. For 
+example, in the case of glucose-6-phosphate isomerase, one of the 
+interaction partners for the enzyme is glucose 6-phosphate, which 
+is interconverted into fructose-6-phosphate. Berg, Tymoczko, and Stryer 2007
+ Other proteins interact with lipids, nucleic acid, and other 
+proteins. It is not an exaggeration to state that virtually every 
+protein has to interact, transiently or permanently, with other 
+macromolecules to realize its function in the organism. The 
+holistic knowledge  about these interactions is used to plot the 
+map of the interactions, which in turn can identify the functions 
+of the proteins and their interdependence leading to 
+understanding the cellular function. Cafarelli et al. 2017 From 
+this network of interactions,  are crucial to gain comprehension 
+of the functional relationships between proteins. Over the last 
+decades, the development of  methods e.g. peptide phage display ,Sundell and Ivarsson 2014
+ yeast surface display,Boder and Wittrup 1997 yeast-two-hybrid 
+system, Fields and Song 1989 and others lead to heaping amount of 
+data. Together with huge amount of data a large number of 
+databases have been founded to curate and annotate the . Patil 2019
+ 
+
+However, none of the vast interaction networks presents a full 
+landscape, as interactions induced by small ligands as well as 
+caused by metal ions may be missing from the picture. What is 
+worth mentioning here, is the rough projection of how many 
+proteins associate with metal ions – it is estimated that roughly 
+30-40% of all proteins interact with metal ions. Andreini et al. 2008; Andreini et al. 2013; Waldron et al. 2009
+ Taking into account that bioinformatic analyses estimate that in 
+human  every tenth protein is a zinc-binding protein Andreini, Bertini, and Rosato 2009; Bertini, Decaria, and Rosato 2010
+, and the fact that most of the  methods do not even consider the 
+presence of another actor (i.e. Zn(II)) in the interaction, thus 
+causing such interactions to be overlooked, makes a substantial 
+amount of interactions not fully resolved. Although metal ions, 
+compared to macromolecules, are small in both mass and size, they 
+have a significant impact on protein structure, which implies 
+consequences for the stability and function of proteins and 
+protein complexes. Though the impact of various metal ions on 
+living organisms has been studied for a while, and the effects of 
+deficit or surplus of some microelements are known, the mechanism 
+of action of those elements may be still vague. As has been 
+described in [chap:Zinc proteome] [chap:Zinc proteome] Zn(II) can 
+be found in various architectures. The studies of how the 
+architecture translates into function led to the identification 
+of catalytic and structural zinc-binding sites, however, the fact 
+that Zn(II) can be located on the  is often overlooked. 
+
+Our goal in this report was to provide a comprehensive 
+description of . We wanted to underline that the presence of 
+Zn(II) at protein–protein  plays a role in orchestrating the 
+complex stability, adds additional level of the protein complex 
+regulation, and despite the fact that it seems to be quite a rare 
+phenomenon the presence of Zn(II) is crucial for fulfilling 
+several essential for the organism physiological functions. As a 
+showcase example – Zn(II)–protein complex, essential component of 
+the circadian clock, can be evoked, where interdependent Zn(II) 
+complexation and disulfide bond formation modulates the complex. Schmalen et al. 2014
+ Our review article, attached bellow presents more fascinating  
+examples where Zn(II) is essential for proper functioning of the 
+protein complexes.
+
+The description of outstanding  examples is only one part of our 
+review, the formation of  is governed by the same thermodynamic 
+and chemical principles as regular protein-protein complexes, 
+however, the involvement of Zn(II) in the complexation makes the 
+formation of complex dependent on the . This dependence of 
+complex formation on an additional factor might be unclear, thus 
+to introduce the reader into the world of chemical equilibria we 
+discuss the effect of availability of the Zn(II) and its 
+fluctuations caused by Zn(II) influx and efflux, and its effect 
+on formation of . Because the mechanisms of action of various 
+zinc transients are still unknown, our contemplation on the 
+subject is purely hypothetical, nevertheless, we can deduce that 
+terra incognita of Zn(II) fluctuations and the interdependence of 
+ formation  is a vast, worth investigating field.
+
+For sure the impact of the review would have been lower if no 
+thorough survey on  was made. I have decided to collect 
+information about discovered protein-protein complexes with 
+Zn(II) on the . So how does one search for ? How common is zinc 
+at protein-protein ? It is known that characteristic sequence 
+motifs involving cysteines, histidines, and acidic residues[footnote:
+glutamates and aspartates
+][margin:
+Single-letter code for these amino acids and their frequency in 
+Zn(II)-binding sequences was an inspiration for the tool “CHED”. Babor et al. 2007
+ 
+] that provide a clue to Zn(II) coordination within a 
+single-chain protein. Yet, the prediction, based solely on the 
+protein sequence, of metal binding on the protein-protein  to 
+date is not possible. One way of identification would be a  
+thorough literature search, one could hypothetically search the 
+Internet using research tools for scientific literature like 
+Google Scholar[footnote:
+https://scholar.google.com/
+], Semantic Scholar[footnote:
+https://www.semanticscholar.org/
+], or other similar tools utilizing keywords “zinc”, “
+intermolecular binding”, “protein–protein ”. However, this way of 
+analysis seems to be cumbersome, and requires tremendous amount 
+of manual work, not to mention that the found literature might 
+not be available. The only logical solution to the problem is to 
+search online databases that provide information about proteins. 
+Usually, for the researcher the first source of information about 
+the protein of interest is  Bateman et al. 2022, a significant 
+amount of protein sequences aggregated in  are properly annotated 
+to interact with metal ions, including Zn(II) ion, alas,  does 
+not provide the information whether the metal ion is bound on the 
+protein-protein . Taking into account the fact of non-existence 
+of metal ions at protein-protein  and the fact that it is not 
+possible (so far) infer the intermolecular binding based on the 
+sequence solely I have decided to use one of the most 
+comprehensive resources available for any structural biologist – 
+the  Berman, Westbrook, and Feng 2000; Burley et al. 2021. The 
+reason why I used  as a source of information, instead of already 
+established databases containing structures of metal ion-protein 
+complexes (e.g. MetalPDB Andreini et al. 2013, ZincBind Ireland and Martin 2019
+) is shortly discussed in the review. Using the data from  and 
+simple  scripts I was able to automate much of the required 
+effort.
+
+One of the biggest pitfalls of our work, as well as similar 
+studies (e.g. Laitaoja, Valjakka, and Jänis 2013; Song et al. 2014
+), is the fact that the gathered knowledge simultaneously with 
+the acceptance of the article stops from being updated. It does 
+not mean it becomes automatically outdated, the extensive 
+description and analysis of the gathered and reviewed examples 
+stay scientifically true (until the next breakthrough in the 
+field), however, the lists of structures, and interwoven 
+statistics and numbers change over time. From the publication 
+date of Galvanization of Protein--Protein Interactions in a Dynamic Zinc Interactome
+  (accessed ) is richer with  Zn(II)-containing structures! To 
+partially mitigate this deficiency I have developed InterMetalDB 
+(see [chap:InterMetalDB]). Tran and Krężel 2021
+
+
+
+The bioinogranic chemistry literature rarely divagate whether 
+found Zn(II) is bound in a protein-protein interface, this is 
+similar to classical biochemistry and structural biology 
+textbooks, which if any, mention only briefly that metal ions may 
+be involved in stabilization of quaternary protein structures. As 
+has been mentioned in [chap:Proteins-and-cofactors] around 10% 
+human proteins interact with Zn(II), and almost every protein 
+have to interact with other macromolecule in order to fulfill its 
+function. So why only short mention that Zn(II) can be bound by 
+two or more macromolecules? Is this because the formation of  is 
+a rare phenomenon or is this due to the fact that the studies of 
+metals at protein-protein  is difficult to systematically study? 
+Our opinion is the latter, which motivated us to describe known . 
+However, many questions still are without any answer, making the 
+search and study of  a terra incognita for bold researchers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+InterMetalDB: A Database and Browser of Intermolecular Metal 
+Binding Sites in Macromolecules with Structural Information
+
+
+
+<chap:InterMetalDB>
+
+Józef Ba Tran and Artur Krężel
+Department of Chemical Biology, Faculty of Biotechnology, 
+University of Wrocław, F. Joliot-Curie 14a, 50-383 Wrocław, 
+Poland
+
+Journal of Proteome Research 2021 20(4), 1889–1901.
+
+
+
+
+
+7.1 Brief history and bibliometric data
+
+The work on the Galvanization of Protein--Protein Interactions in a Dynamic Zinc Interactome
+ ([chap:Galvanization-of-Protein-Protein]), among other things, 
+included the preparation of the data set containing all deposited 
+ in the . To manipulate  files, and filter for  I have used the 
+BioPython library Cock et al. 2009. My primary school art teacher 
+used to say “If something is for everything, it's really for 
+nothing.”, the similar is with BioPython, which has a wide range 
+of tools used in bioinformatics, however, the offered  is rather 
+clumsy in use, and BioPython itself lacks some more advanced 
+functions to handle  files. Combined with the restructuration of 
+the  search  and often questions from Ania Kocyła if the data set 
+is ready I knew that the next project that will involve data from 
+ will have to offer an easier in use libraries. Around this time 
+a new  library emerged that allowed for efficient and easy  file 
+parsing—atomium Ireland and Martin 2020, which allowed for easy 
+manipulation with  files, building a better logic behind the 
+database, and making the whole process scalable. 
+
+The article describing InterMetalDB was accepted and published 
+only after minor revision in the Journal of Proteome Research ( 
+of 5.370, March 6, 2023) in 2021, and to date () the article was 
+cited [footnote:
+https://scholar.google.com/
+]
+
+7.2 Summary
+
+The fact that the metal ions can be bound at the  that is created 
+by two or more interacting macromolecules has been missing 
+interest from researchers (see [chap:Galvanization-of-Protein-Protein]
+). The first systematic review of metal ions bound at 
+protein-protein  was published in 2014 Song et al. 2014, next, 
+similar article (which was in part my creation) was published 
+seven years later, however, the article was concerning only 
+intermolecularly bound Zn(II) ions. Kocyła, Tran, and Krężel 2021 
+This stands in opposition to studies devoted to complexes with 
+stoichiometry of 1:1 – similar database surveys, generally 
+concerning Zn(II)[footnote:
+Probably due to its unique properties and abundance in . See [chap:Zinc proteome]
+. 
+], were done numerously in the past. Alberts, Nadassy, and Wodak 1998; Auld 2001; Patel, Kumar, and Durani 2007; Dokmanić, Šikić, and Tomić 2008; Zheng et al. 2008; Lee and Lim 2008; Hsin et al. 2008; Sousa et al. 2009; Andreini, Bertini, and Cavallaro 2011; Laitaoja, Valjakka, and Jänis 2013
+ As mentioned in [chap:Galvanization-of-Protein-Protein] one of 
+the biggest pitfalls of such studies is the fact that 
+simultaneously with the publication of an article, the 
+meticulously gathered, and classified[margin:
+Laitaoja, Valjakka, and Jänis have manually analyzed around 7800 
+Zn(II)-binding sites! Laitaoja, Valjakka, and Jänis 2013
+] knowledge is no longer updated, combined together with the fact 
+that usually the generated data set and the methodology is not 
+easily and publicly available makes such studies fleetly 
+outdated. This observation, which happened to occur to me during 
+my work on the Galvanization of Protein--Protein Interactions in a Dynamic Zinc Interactome
+ ([chap:Galvanization-of-Protein-Protein]), sprouted into an idea 
+that the data set I will generate should be easily available to 
+anyone, free of charge and updated even after the publication of 
+the article. This idea growth further, eventually bore fruit – InterMetalDB: A Database and Browser of Intermolecular Metal Binding Sites in Macromolecules with Structural Information
+[footnote:
+https://intermetaldb.biotech.uni.wroc.pl/
+].
+
+My intention for the creation of InterMetalDB was to provide a 
+tool, which would make researchers aware that macromolecules can 
+bind metal ions at the . The goal of InterMetalDB is to search 
+for macromolecular structures containing metal ions bound at the 
+interface. By doing so InterMetalDB fills the free niche, that 
+was left unoccupied for a long time. Because the process of data 
+acquisition, analysis, and presentation is automated it does 
+require little or no human intervention. The biggest issue with 
+this approach is the fact that it is not possible to filter out 
+adventitiously bound metal ions[margin:
+One of many sources of adventitious metal ions in the structure 
+may be a buffer used during the protein crystallization.
+], as it would require tedious manual investigation of the 
+structure, followed by (often) extensive literature research.
+
+What is worth noting is how the InterMetalDB is built. Contrary 
+to preceding databases (e.g. MESPEUS Hsin et al. 2008, ZifBase Jayakanthan et al. 2009
+, MetalPDBAndreini et al. 2013; Putignano et al. 2018), 
+InterMetalDB operates on . Compared [margin:
+Clustering proteins based on their sequence identity is a method 
+that reduces or removes redundancy in fetched protein structures.
+] to Galvanization of Protein--Protein Interactions in a Dynamic Zinc Interactome
+ study I have decided to use clustering based on 50% of identity[footnote:
+Protein sequences that are in the cluster are have share 50% of 
+their sequence identity.
+], instead of 95% like it have been done previously. The gentle 
+clustering threshold of 50% sequence identity ensures that the 
+structures in the cluster will share the same . Instead of 
+selecting the representative structures, InterMetalDB marks “
+representative” metal binding sites, this is done by lookup what 
+residues are in the radius of 5 , a concept similar to the 
+Minimal Functioning Site adapted in the MetalPDB Andreini et al. 2013
+, followed by the selection of the metal binding site 
+characterized by the best resolution or if the resolution is 
+equal across the cluster, selection of the first.   The exact 
+methodology how the data set is generated is described in details 
+in the article, the  is available under MIT License[margin:
+The MIT License is one of the most permissive license used for 
+software licensing.
+] at https://github.com/jzftran/InterMetalDB. Making the  
+published under the MIT License makes the InterMetalDB reusable 
+by other researchers, it allows any part of the code to be used 
+in another project. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Relations between Structure and Zn(II) Binding Affinity Shed 
+Light on the Mechanisms of Rad50 Hook Domain Functioning and Its 
+Phosphorylation
+
+
+
+<chap:hRad50>
+
+Józef Ba Tran, Michał Padjasek and Artur Krężel
+Department of Chemical Biology, Faculty of Biotechnology, 
+University of Wrocław, F. Joliot-Curie 14a, 50-383 Wrocław, 
+Poland
+
+International Journal of Molecular Sciences 2022 23, 11140.
+
+
+
+8.1 Brief history and bibliometric data
+
+My early work as a researcher of protein-metal interactions 
+involved joint work with Michał Padjasek on the Rad50 protein 
+from  (data not published yet). Padjasek 2022 It was Michal 
+Padjasek who largely showed me the ins and outs of the 
+experiments that give insight into the world of . It was this 
+knowledge that allowed me to study the behavior of the zinc hook 
+from the human . Historically, my participation in the research 
+is part of a larger project, already separated into several 
+grants, devoted to studying the orthologs of the zinc hook from  
+protein. This research was initiated by Tomasz Kochańczyk and 
+continued by Michał Padjasek, myself, Olga Kerber, and Marek 
+Łuczkowski. As it turned out, the zinc hook from the human  
+behaves in a different way than its orthologs from  and . The 
+hard work on this subject resulted in a publication in the 
+International Journal of Molecular Sciences, a journal with an  
+of 6.208 (as of March 6, 2023) 
+
+8.2 Summary
+
+ play a crucial role in many biological processes and are usually 
+stabilized by an extensive network of non-covalent intermolecular 
+interactions. An additional factor contributing to the formation 
+of protein complexes is intermolecular metal binding, in which 
+the affinity of the metal for the protein affects the stability 
+of the entire complex. Most of the metal-involved  are 
+uncharacterized in terms of the role of metal at the interface or 
+in terms of the complex stability. One of few, quite well 
+characterized  is the interaction observed in the zinc hook 
+domain of the . Zn(II)- complex. Previous studies have 
+investigated the relationship between the structure of the   and 
+Zn(II)-complex stability. Kochańczyk 2016; Kochańczyk et al. 2016; Padjasek et al. 2020
+ Those studies show that the complex stabilization occurs 
+primarily in a small 45-amino-acid-long fragment consisting of 
+the CXXC binding motif and the flanking region. In 2017[a] 
+publication appeared that shifted the paradigm about the 
+architecture of . Park et al. 2017 The newly published structure 
+( 5GOX) presented the rod-shape of the  , and as it usually is 
+with new data, new questions arise. How does the rod-shaped 
+architecture of  determines the complex stability? What are the 
+elements that contribute to the  stability? Are there any other 
+factors that influence the formation and the complex stability?
+
+We have hypothesized that increasing the length of the peptides 
+being studies, similarly to  Rad50 Kochańczyk et al. 2016, would 
+increase the stability of the complex by increasing the number of 
+inter- and intra- interactions. To test this hypothesis we used 
+potentiometry and competition titration with spectropolarimetric 
+detection. The results showed that in contrast to  from  the   
+Zn(II)-complex stabilization occurs over much longer distance. 
+The observation we have made show that the human  forms the 
+strongest known Zn(II)-protein known so far. This extremely 
+elevated stability is due to similar effect that was observed in 
+the   – However, the extent of the effect in human  is much 
+greater, the stabilization occurs over the length of 140 
+amino-acids, which means that the Zn(II)-complex is stabilized by 
+protein regions that are approximately 60  from the Zn(II) 
+binding site. On the other hand, while trying to determine the 
+factors that may modulate the Zn(II) complex stability we have 
+investigated the effect of the phosphorylation at threonine 690 
+of human  zinc hook domain. The phosphorylation site is located 
+closely to the Zn(II) binding site, at the apex of the zinc hook. 
+We hypothesized that the phosphorylation in close proximity of 
+Zn(II) binding site will strongly influence the Zn(II) affinity 
+towards the zinc hook. Our hypothesis turned out to be true, 
+phosphorylation of short, 42-amino-acid-long fragment diminish 
+the stability of the Zn()₂ complex by approximately one order of 
+magnitude, However, this effect is attenuated in the 
+183-amino-acid-long fragment and the conditional formation 
+constant is lower by one-fourth order of magnitude. This 
+apparently considerable changes in stability do not have huge 
+impact on the formation of the Zn()₂ complex. The observed shift 
+of the complex stability, concurrent with observable by direct 
+Zn(II)-titration of 42-amino-acid-long peptide with extensive 
+secondary structure change (detection by ), was not observable 
+for the 183-amino-acid-long protein fragment by . Neither local 
+changes at the Zn(II)-binding site was observable by means of . 
+The fact that the phosphorylation effect is attenuated in the 
+longer protein fragment, and the fact of the extreme complex 
+stability, the phosphorylation do not exert the complex 
+dissociation under physiological  concentration, However, 
+phosphorylation of the threonine 690 may be involved in 
+undiscovered yet signaling pathway.
+
+This study provides new insights into the stability and 
+regulation of the protein-protein interactions mediated by zinc 
+binding sites (). The unique interaction of the human Rad50 
+protein with zinc ions and the effect of phosphorylation on the 
+stability of the complex highlight the importance of studying 
+these interactions in detail. Further research on the mechanisms 
+underlying the stability of protein-protein interactions mediated 
+by zinc binding sites may lead to a better understanding of the 
+biological processes they regulate and the development of new 
+therapeutic strategies targeting these interactions.
+
+
+
+
+
+
+
+
+
+
+
+An Extremely Stable Interprotein Tetrahedral Hg(Cys)₄ Forms in the 
+Zinc Hook Domain of Rad50 Protein at Physiological pH
+
+
+
+<chap:HgRad50>
+
+Marek Łuczkowski[superscript:*], Michał Padjasek[superscript:*], Józef Ba Tran[superscript:*], Lars Hemmingsen[superscript:†], Olga Kerber[superscript:*], Jelena Habjanič[superscript:‡], Eva Freisinger[superscript:‡] and Artur Krężel[superscript:*]
+[superscript:*]Department of Chemical Biology, Faculty of Biotechnology 
+University of Wrocław, F. Joliot-Curie 14a, 50-383 Wrocław, 
+Poland
+
+[superscript:†]Department of Chemistry, University of Copenhagen, 
+Universitetparken 5, 2100 København Ø, Denmark
+
+[superscript:‡]Department of Chemistry, University of Zurich, 
+Winterthurerstrasse, 190, 8057 Zürich, Switzerland
+
+Chemistry – A European Journal 2022 28, e202202738
+
+
+
+
+
+9.1 Brief history and bibliometric data
+
+The last two chapters ([chap:HgRad50] and [chap:AgRad50]) 
+presenting the results of my doctoral project focus on the 
+mismetallation of  from . My participation in the first of this 
+studies is quite astonishing, I do believe that “Insanity is 
+doing the same thing over and over again, but expecting different 
+results.”[footnote:
+A quote wrongly attributed to Albert Einstein.
+], and asking me to perform the same  experiments because the 
+results are not in agreement with the initial hypothesis seemed 
+to me as a waste of time, however, for some reason, maybe I had a 
+hunch, I agreed to perform again the same experiments. My task 
+was to conduct  experiments that would give information about the 
+stability of the Hg(II)– complex. The first experiments I have 
+performed gave exactly the same results as those obtained by my 
+colleagues. The observed  of binding of Hg(II) to the zinc hook, 
+assuming that the  of binding of Zn(II), Cd(II) and Hg(II) were 
+the same, was too small for the observed lack of competition 
+between the competitor (e.g., acetylcysteine, cyanides) and the 
+zinc hook to be explained by the formation constant calculated 
+using the measured  and the  estimated by other experiments (see [eq:deltaG]
+, [eq:GandK] and the rest of the chapter). 
+
+By default, all  experiments, I and my predecessors have 
+performed, were performed in buffers containing  from  intended 
+to provide ionic strength. In the case of other measurements made 
+with Zn(II), Kochańczyk et al. 2016 or Cd(II), Padjasek et al. 2020
+ this did not make any difference, but in this case it did. 
+Browsing the literature in search of constants of formation of 
+mercury complexes with various compounds, I came across 
+information on enthalpies of formation of Hg(II) complexes with 
+chlorides, eureka!, I have calculated the chemical speciation of 
+Hg(II) and  complexes, and along with the speciation I have 
+calculated the sum of enthalpies of formation of the complexes. 
+According to Hess's law, the enthalpy of formation of the Hg()₂ 
+complex should be diminished by the enthalpy of formation of 
+various Hg(II) complexes with chlorides. One more I have repeated 
+the  experiments using a different mercury salt and a different 
+buffer (-free), unsurprisingly the difference in the observed 
+enthalpy was consistent with my theoretical calculations. The 
+measured enthalpy allowed me to estimate the formation constant 
+of the Hg(II) and  complex. What was very nice, was the fact that 
+the reviewers assigned by Chemistry – A European Journal ( of 
+5.020, March 6, 2023) have pointed out an interesting application 
+of  for measuring the complex stability. [footnote:
+https://scholar.google.com/
+]
+
+9.2 Summary
+
+The following two articles described in this Chapter and [chap:AgRad50]
+ focus on the phenomenon of mismetallation of  zinc hook domain 
+by other than Zn(II), potentially toxic metal ions: Hg(II) and 
+Ag(I) (the later described in [chap:AgRad50]). It is a well-known 
+fact that mercury contamination affects both ecosystem and human 
+health. Mercury pollution stems from both sources – natural and 
+anthropogenic, where after its release into the environment 
+mercury undergoes various (physical and chemical, often 
+redox-related changes). Driscoll et al. 2013 Mercury poisoning 
+results as a consequence of exposure to mercury, the severity of 
+the poisoning, as usual, is dependent on the dose and the length 
+of the exposure. Another factor that impacts the poisoning 
+severity is the form of the mercury – various mercury forms are 
+characterized by diverse absorbability and reactivity towards 
+biological targets, e.g. methylmercury cation [margin:
+Methylmercury cation is a major source of mercury poisoning in 
+human Bernhoft 2012.
+] is easily absorbed into the brain, liver, kidneys, etc., while 
+Hg(II) for various reasons, including the reactions with 
+sulfhydryl groups on erythrocytes or glutathione in the plasma 
+does not easily cross the blood-brain barrier Bernhoft 2012. The 
+mercury accumulation mostly in mitochondria and in the nucleus 
+was already proven years ago Bucio et al. 1999; Christensen, Mogensen, and Rungby 1988; Yoneyama, Sharma, and Kleinschuster 1985; Königsberg et al. 2001
+. Inside the cell, organic mercury may be demethylated into 
+inorganic mercury Suda and Takahashi 1992.  It was proven that 
+the Hg(II) ions (a product of demethylation) may inhibit the 
+activity of transcription factors that contain zinc fingers, 
+however, the exact mechanism of how Hg(II) disturbs the function 
+of the transcription factors is not known, as no data how mercury 
+is coordinated by those transcription factors were provided Rodgers et al. 2001
+. One of the mechanisms of the inhibition of the transcription 
+factors could be the formation of the aberrant metal binding 
+site, as Hg(II) in the aqueous environment tends to form linear 
+complexes, however, the formation of complexes with higher 
+coordination number is possible, those complexes usually are 
+distorted, with T-shaped geometry of the complex being an extreme 
+example of the three-coordinated species Chakraborty et al. 2010. 
+In  living organisms, correspondingly to the , Hg(II), as a soft 
+Lewis acid will preferentially react with sulfhydryl groups (soft 
+Lewis bases), therefore it is not surprising that the cell 
+detoxifying mechanisms copiously utilize thiolates to sense (), 
+sequester (e.g. metallothioneins), and to enzymatically process 
+mercury compounds to less toxic forms or to Hg(0) Ledwidge et al. 2010
+. [margin:
+Hg(0) is the major form of mercury emitted to the atmosphere. 
+Hg(II) buried in sediments may be reduced to Hg(0), which can be 
+re-emited to the astmosphere Christakis, Barkay, and Boyd 2021.
+] In the cytoplasm Hg(II) will preferentially form diagonal 
+complexes with low molecular weight compounds with thiol groups 
+(i.e. cysteine, glutathione), however, when Hg(II) interacts with 
+the protein, like in the case of Hg(II)-substituted rubredoxin, 
+the protein may already impose a structurally defined metal 
+binding site, where the Hg(II) will adopt a tetrahedral or 
+pseudotetrahedral architecture Faller et al. 2000. The observed 
+coordination in the crystal structure does not necessarily 
+correspond to the Hg(II) binding site formed in the solution, as 
+has been verified in the case of the —contrarily to the crystal 
+structure ([https://www.rcsb.org/structure/1FE4||1FE4], dimer, 
+crystallized at pH 6.5) in solution (pH 7.5) Hg(II) prefers to 
+form linear complexes with monomeric protein Łuczkowski et al. 2013
+. 
+
+How does the coordination look like in case of  mismetallation by 
+Hg(II)? Does the crystal structure of the zinc hook domain from  
+, which was the sole model of the  zinc hook for 15 years really 
+contain HgCys₄? Is the Hg(II) substituted zinc hook a proper model 
+for Zn(II) loaded   zinc hook? Hopfner et al. claim that the 
+presented by them zinc hook Hg(II) substituted structure ( 1L8D) 
+is isostructural with Zn(II)-loaded structure, however, the 
+Zn(II)-containing structure had lower resolution, which in turn 
+prompted the authors to deposit in the  the Hg(II)-containing 
+structure only. Hopfner et al. 2002 Olga Kerber as part of her 
+doctoral project was able to obtain in similar conditions 
+Zn(II)-loaded   (data unpublished as of ). The structure of 
+Zn(II)-loaded  is indeed isostructural with the model proposed by 
+Hopfner et al., however, it does not unveil the mystery of the 
+tetrahedral Hg(II) coordination.
+
+To answer the question about the tetrahedral Hg(II) coordination 
+experiments performed in solution were required – the set of 
+experiments consisting of titrations with  spectroscopic and 
+spectropolarimetric detection, fluorescence anisotropy,  
+spectroscopy and [superscript:199]Hg . All of those mentioned methods clearly indicate the Hg(II) 
+coordination by four cysteines, two of each originating from each 
+ protomer involved in the Hg(II) binding. The fluorescence 
+anisotropy, largely performed by Michał Padjasek, showed that 
+even 100\times excess of  over the 45-amino-acid-long peptide did 
+not exhibit any traces of competition between Hg()₂and Hg( )ₓ, [margin:
+The stability of Hg()ₓ complex(es) is not known, however, it can 
+be assumed that the stability constant(s) are comparable to 
+stability constants of other compounds with two thiol groups, 
+e.g. Hg-dimercaprol complexes.
+] which suggests the extreme stability of the Hg()₂ complex. 
+
+How to measure, or at least estimate extremely high affinities? 
+The answer to the question is somewhat perverse since the answer 
+is . [margin:
+ usually is not suited for measuring either extremely high or 
+extremely low affinities.
+] When tight affinities are measured with  usually the experiment 
+that is performed implies the use of a well-characterized 
+competitor, nevertheless in the described issue I have leveraged 
+the fact of the isostructurality of the Hg(II) and Zn(II) 
+structure (and probably Cd()₂ complex as well Padjasek et al. 2020
+), which implies that the entropic effect that accompanies the 
+metal complexation should be very similar, and allow the 
+calculation of  if  and  were known, according to the Equation [eq:deltaG]
+ where   denotes absolute temperature.
+
+\Delta G\text{°}=\Delta H\lyxmathsym{\textdegree}-T\Delta S\text{°}
+
+Using the relationship described by Equations [eq:GandK] ( 
+denotes molar gas constant) and [eq:K12] I was able to calculate 
+the , where  is Hg(II) and  is zinc hook from  , described as Hk 
+in Equations [eq:K12] and . Equation [eq:K12] describes the 
+cumulative association constant of the process described by 
+equation .
+
+\Delta G\text{°}=-R\cdot T\cdot\ln K_{12}
+
+K_{12}=\frac{[\mathrm{HgHk_{2}}]}{\mathrm{[Hg(II)]\cdot[Hk]^{2}}}
+
+
+
+The described methodology allowed me to estimate the highest 
+known (so far) stability of Hg(II) and protein complex, not just 
+any kind of the complex, but the first described, 
+pseudotetrahedral Hg(II)-complex formed at the , that is formed 
+preferentially at pH 7.4. 
+
+Extremely high Hg(II) affinity towards  causes the replacement of 
+physiologically occurring Zn(II) in the zinc hook domain. It 
+would be an exaggeration to claim that the replacement of Zn(II) 
+by Hg(II) is the sole reason for Hg(II) genotoxicity, especially 
+taking into account the fact that the Hg(II)-saturated   is 
+isostructural to the Zn(II) loaded protein. However, one cannot 
+rule out the possibility that the affinity of the Hg(II) is not 
+detrimental to the functioning of the  complex – not without 
+reason the affinity towards Zn(II) across various organisms 
+differ, reaching higher values in case of  from thermophilic  
+when compared to  from . It is worth noting that somehow between 
+the globular domains of  and the zinc hook domain communicate, 
+i.e. even a single point mutation in the coding sequence of the 
+zinc hook [margin:
+In eukaryotes, the globular domain of  and the zinc hook can be 
+as far apart as 600 ! Hopfner et al. 2002
+] may abolish some of the functions fulfilled in the globular 
+domains of . Lafrance-Vanasse, Williams, and Tainer 2015 Maybe 
+the Hg(II) complexation by  somehow increases the rigidity of the 
+protein, which in turn prevents the allosteric signal 
+transduction between the zinc hook and globular domains? Maybe 
+the increased complex stability somehow shifts the exchange of 
+subunits (note that the association of the  with any metal ion is 
+an equilibrium process as described by ), thus potentially 
+influencing the  flexibility? Thangaraj et al. 2019; Merickel et al. 2002
+ This and many other questions remain to be answered, however, 
+the first problem to tackle should be an assessment of whether 
+Hg(II) binding in the zinc hook domain influences any of the 
+various functions filled by the .
+
+
+
+
+
+
+
+
+
+
+
+Zn(II) to Ag(I) swap in Rad50 zinc hook domain leads to highly 
+stable interprotein complex disruption through the formation of 
+Agₓ(Cys)[subscript:y] cores
+
+
+
+<chap:AgRad50>
+
+Olga Kerber[superscript:*], Józef Ba Tran[superscript:*], Alicja Misiaszek[superscript:*], Aleksandra Chorążewska[superscript:*], Wojciech Bal[superscript:†] and Artur Krężel[superscript:*]
+[superscript:*]Department of Chemical Biology, Faculty of Biotechnology, 
+University of Wrocław, F. Joliot-Curie 14a, 50-383 Wrocław, 
+Poland
+
+[superscript:*]Institute of Biochemistry and Biophysics, Polish Academy of 
+Sciences, Pawińskiego 5a, 02-106 Warsaw, Poland
+
+Inorganic Chemistry 2023 62, 4076–4087
+
+
+
+10.1 Brief history and bibliometric data
+
+Bringing this article to publication was, of the other articles I 
+co-authored, the hardest. Initially, we wanted to publish the 
+article in Chemical Communications, as a continuation of the 
+project devoted to the investigation of the role of Ag(I) on the 
+intraprotein zinc-binding sites, where previously an article 
+about the formation of  clusters in  was described. Finally, 
+after several iterations involving the exchange of criticism from 
+reviewers, the manuscript, and responses to the reviewers' 
+objections, the article was published in Inorganic Chemistry ( of 
+5.436, March 6, 2023).
+I have mixed feelings as I think about the publication of this 
+article. My reservations about the peer-review process became 
+even stronger after this article. In the 21st century, with the 
+ability to exchange information cheaply, and expressly, and where 
+the cost of publishing information online is very low, the 
+peer-review process as a rule should be completely transparent. 
+In addition, the rule should be the possibility to criticize an 
+article after it has been published, without having to write 
+another article in which, one refers to the criticized 
+publication. The publication process for this article was quite 
+tedious due to the incompetence of one of the reviewers—the 
+prolonged review did not bring anything new, did not improve our 
+article, but only increased the time in review. Also, this 
+article, is the last article included in this thesis and I am 
+very pleased to have collaborated on it with my lab-mates, whom I 
+saw every day (provided there were no pandemic restrictions). 
+This successful cooperation between us was one of the reasons why 
+the time spent on experiments, data processing, and writing the 
+manuscript, was far less than the time this article spent in 
+review.
+[footnote:
+https://scholar.google.com/
+]
+
+10.2 Summary
+
+
+
+The medical use of silver, both as an Ag(0) and as compounds of 
+Ag(I) is known for millennia, the ancient Persians, Phoenicians, 
+Greeks, Romans, and others were recorded to utilize various forms 
+of silver to preserve both food and water, the custom practiced 
+through World War II. The first preserved records of the medical 
+use of silver come from ancient Macedonians, who attempted to 
+treat infections with silver plates. Hippocrates, the Father of 
+Medicine, was supposed to use silver preparations to treat ulcers 
+and promote wound healing. Before the introduction of 
+antibiotics, silver, and various silver compounds were the most 
+available antimicrobial agents. Alexander 2009 The toxicity of 
+silver is low compared to most of the other heavy metals, which 
+allows the use of silver in various utility goods, e. g. jewelry, 
+silverware, or as a food additive. However, it has been shown 
+that high doses of silver given parenterally, can cause 
+convulsions or even death. Alexander 2009 Though the silver 
+toxicity is low, the organisms usually lack the mechanisms for 
+silver detoxification, and in the case of the human body, when 
+silver is delivered (e.g., injection, ingestion, or applied 
+topically) silver is accumulated irreversibly. The condition 
+caused by sustained silver exposure (and light[footnote:
+Like in a photography sunlight causes the decomposition of 
+colorless silver compounds to Ag(0) or silver sulfides.
+]) is called argyria. By 1939 Hill and Pillsbury have identified 
+357 cases of recorded argyria, all of the recorded cases, except 
+for the irreversible bluish skin tone, had a benign course of the 
+disease. Hill and Pillsbury 1939 Despite low toxicity, the number 
+of publications dedicated to silver toxicity by the year 
+increases ([fig:ag_hg_count]), possibly the reason for this is 
+the use of silver in everyday articles (e.g., use of silver in 
+deodorants, sportswear, anti-smoking pills), of which a lot of 
+these items utilize .
+
+[float Figure:
+<Graphics file: C:/Users/makro/Desktop/PhD/gfx/ag_hg_count.png> [Rysunek 10.1: 
+<fig:ag_hg_count>Number of publications devoted to silver or 
+mercury toxicity aggregated in PubMed (accessed ) Sayers et al. 2022
+, blue and orange lines respectively. Note that since 2013 
+(marked as a dashed line) more publications are devoted to the 
+toxicity of silver than mercury.
+]
+]
+
+The oligodynamic effect, which is the property of some metals to 
+have a biocidal effect, in the case of silver is mainly caused by 
+the bioactive species – Ag(I). The antimicrobial properties of  
+mainly arise due to the oxidative dissolution of  in the cell, 
+followed by the release of Ag(I) Lok et al. 2007; Hsiao et al. 2015
+. In biological systems, the  thiols (e.g., glutathione) are 
+found to be a common interaction partner for Ag(I) Betts et al. 2021; Marchioni et al. 2018
+. The Ag(I) complex with cysteine is much more stable than the 
+complexes of Ag(I) and methionine or histidine, thus no wonder 
+that in the  (proteins), the common target for Ag(I) binding will 
+be systems containing cysteines, e.g., natural 
+cysteine-containing zinc-binding sites. The interaction of Ag(I) 
+with intraprotein zinc-binding sites in  has been shown to swap 
+Zn(II) for Ag(I) leading to - disruption, and in turn, it can 
+potentially lead to loss of function. Despite the fact that the 
+cysteine is the most common  in the zinc-binding sites (see [sec:Zinc-Binding-Sites]
+), Laitaoja, Valjakka, and Jänis 2013 the potential interactions 
+of the zinc proteome with Ag(I) are yet unexplored, including the 
+impact of free Ag(I) ions on the , an interaction that is present 
+in the zinc hook of the . The  forms Zn()₂ complex of extreme 
+stability [chap:hRad50]), however, in this case the stability 
+does not comes with selectivity, thus the Zn(II) is easily 
+replaced, in accordance with , by the `softer` ions (e.g., Cd(II) 
+or Hg(II)) from the tetrathiolate coordination sphere of  (see [chap:HgRad50]
+). This lack of selectivity makes  a potential target for 
+genotoxicity induced by heavy metal ions.
+
+The following article present the influence of Ag(I) on the zinc 
+hook domain from the  —the use of the model was dictated by tthe 
+zinc-binding sites (seehe fact that the zinc hook  from  is the 
+best described zinc hook model so far. In the study we have 
+utilized the 14- and 45-amino acid long fragments with the CXXC 
+motif as a minimal and full domain model (see definition of the 
+zinc hook domain in [sec:The-zinc-hook]), respectively. The used 
+constructs allowed us to get insight into the coordination and 
+stability properties of the Ag(I)- complexes. To do so we have 
+applied array of biophysical methods like: ,  spectrophotometry,  
+and .
+
+Ag(I) with  forms complexes of various stoichiometries, which is 
+seen by every used method during direct titration of Ag(I) into 
+both apo-zinc hook and Zn(II)-saturated zinc hook. The  shows 
+that Ag(I) binding to the   zinc hook induces oligomerization of 
+the zinc hook. The  studies confirm that Ag(I) replaces Zn(II) 
+readily (within seconds), and the -titrations are in great 
+accordance with observed 1:1 and 2:1 Ag(I):zinc hook 
+stoichiometries observed in  and - or -titration. Surprisingly , 
+contrary to the -, -, and both spectrophotometric titrations, 
+does not discriminate many multiple complexes observed during the 
+rest of the titrations. This may be because the heat or formation 
+constants of the individual complexes are too small to be visible 
+during . Titration of Ag(I) into the pf zinc hook shows two 
+equivalence points, the first one at a ratio of 0.8 Ag(I):zinc 
+hook, the second one at a ratio ~2.1. The reverse titration (zinc 
+hook into Ag(I)) is in agreement with the ratios resulting from 
+the normal titration. Though the fitting of the multiple-binding 
+model to the isotherm was possible, the obtained formation 
+constants should not be treated as reliable—firstly, the 
+cumulative constant  of the Zn()₂ is far out of the measurable 
+range of ,Kochańczyk et al. 2016 secondly, Ag(I) displaces Zn(II) 
+easily, which means that the Ag(I)-zinc hook formation constant 
+is much higher than the formation constant of Zn()₂. The titration 
+of the Ag(I) into the Zn()₂ results in a single-step process, in 
+which the  is obtainable. Assuming the correctness of  it is 
+possible to estimate (not determine) the affinity of the Ag(I)- 
+complexes. The estimated affinity of the Ag(I)- complexes 
+probably refers to the complex Ag₄₂, as the equivalence point for 
+the titration is around two, and the rest of the experiments 
+suggest that the 4:2 Ag(I): complex is the most stable, however, 
+the  might not be a sufficiently resolvable method to pinpoint 
+the exactly formed complex. The estimated stability of the Ag(I) 
+and  species is around 5.4 orders of magnitude higher than the 
+stability of the Zn()₂ complex.
+
+The study shows that Ag(I) ions may displace Zn(II) not only from 
+the intraprotein zinc-binding sites (e.g. in ), but from 
+interprotein zinc-binding sites as well. The swap most likely 
+will result in the  disruption, and even though the architecture 
+of the complex might be saved, the changes in the metal binding 
+site conformation may lead to the loss of the function and huge 
+biological impact. In case of the , as previously established, 
+the deleterious mutations at the CXXC motif of cysteines to 
+alanine and arginine is just as severe as the  mutation He et al. 2012
+. The fact that the Zn(II)-induced dimerization is essential for 
+proper functioning of , thus  as well, makes even small small 
+disturbance in the zinc-binding site a suspect for a 
+genotoxicity. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Summary
+
+
+
+
+Summary
+
+When starting my doctorate, even though I had a plan of research 
+and experiments written out and arranged in my head, I could not 
+expect the final form my doctorate would take. I expected my 
+doctorate to combine different fields of science, but I could not 
+expect my doctorate to be, so interdisciplinary. I could not 
+expect, the pandemic that started in 2019, and that in 2020 it 
+would lock me in complete isolation for two weeks. I tried to 
+make the most of the time in quarantine by conducting in silico 
+research, despite the ex silico research that had already begun. 
+
+I think the great advantage of presenting one's PhD as a set of 
+publications linked by a common theme is that one tends to 
+present things that more or less came out well, things we are 
+satisfied with—we do not have to go back to things that did not 
+come out, didn't have a chance to come out, things that 
+demotivated us on a daily basis and kept us up at night. Of 
+course, these things also happened during my doctorate, and I 
+think it's important for other, younger, researchers to realize 
+that a lot of the lines of research I undertook did not result in 
+pushing the state of science forward, or an article—what was 
+collected and presented in this thesis is the essence of hard 
+work, but also luck.
+
+This PhD has been the investigation of properties of , 
+particularly . I do believe that contributions in the form of the 
+articles presented here are of importance at a basic research 
+level, but they also provide a foundation on which to build 
+applied research. Understanding the assemblies formed by  may 
+eventually lead to the creation of a model that could predict the 
+interprotein metal binding from the structure or sequence of a 
+protein. Correspondingly, filling the missing pieces of the 
+metal–protein interaction in the protein–protein interaction 
+puzzle can offer insight into the metal-dependent regulation of 
+the interaction, as well as help to identify novel interactions 
+that were missing from the picture due to the metal dependence. 
+From a medical perspective, understanding  can give insight into 
+diseases associated with abnormal metal-induced aggregation 
+(e.g., crystallins in the eye) Ramirez-Bello et al. 2022, and how 
+mismetallation of those sites may cause various diseases.
+
+I am glad that all the publications presented here are available 
+in open access, this allows other researchers to freely read and 
+use the information meticulously prepared by us. This is truly 
+important in the case of Galvanization of Protein--Protein Interactions in a Dynamic Zinc Interactome
+ where we present the curated data set of the physiological . The 
+ex silico part of my doctorate focused on the  protein, as the 
+data presenting the   properties are still unpublished as of 
+March 6, 2023, the Relations between Structure and Zn(II) Binding Affinity Shed Light on the Mechanisms of Rad50 Hook Domain Functioning and Its …
+ makes a great foundation for the discussion of the properties of 
+the  protein. The study lays out the basis of the long-range 
+allostery between the zinc hook and the rest of the protein. To 
+my knowledge, the described stabilization of the Zn()₂ is the 
+first example of complex stabilization over such a long distance. 
+The description of the link between the  damage response with the 
+biology of Zn(II) ions and signal transduction pathways can be a 
+great step in the apprehension of the metal dynamics in cancer 
+cells.
+
+To last two articles presented in the thesis show how detrimental 
+is for the zinc-binding sites the mismetallation by heavy metal 
+ions. Those articles, together with Metal Exchange in the Interprotein ZnII-Binding Site of the Rad50 Hook Domain: Struct…
+ Padjasek et al. 2020 are the first articles addressing the issue 
+of mismetallation of interprotein metal binding sites. Our 
+studies provide an explanation of a potential genotoxic mechanism 
+of mismetallation of the zinc hook.
+
+Though the article describing InterMetalDB was published in a 
+journal with a lower  the article describing physiological , Kocyła, Tran, and Krężel 2021
+ I think that this is a much more fundamental contribution in 
+this field. Most of the previous surveys regarding the existence 
+of metal ions in  structures gather the data as a spreadsheet 
+that is usually available after an exchange of emails, the same 
+goes for the algorithms that were used to select the data. Even 
+when the data is publicly available, the data is created only 
+once and is no longer updated (as in the case of Galvanization of Protein--Protein Interactions in a Dynamic Zinc Interactome
+, and similar studies). InterMetalDB is different—data presented 
+in InterMetalDB is available after a few mouse clicks via the web 
+interface, moreover, the resource is constantly updated, without 
+any human involvement. The resource will be updated as long as 
+the service is maintained, unfortunately, nobody, especially in 
+the academy, can guarantee that the service will be maintained 
+forever, where the service does not generate any revenue. Not 
+surprisingly, even the services that were published last year are 
+no longer available, and the URLs point to “404 Not Found”. With 
+that thought in mind, I have envisioned InterMetalDB to be an 
+open  project—freely available and reproducible. Any function, 
+any component of InterMetalDB can be used by anyone, researcher 
+or not, one only has to click “copy”, or “fork” repository on 
+GitHub, instead of wasting time to recreate the whole service 
+from the source article.
+
+I believe that conducting research in line with open science 
+principles (inter alia, providing free access to publications, 
+data, software, and ) is the next step in the evolution of 
+scientific knowledge dissemination in the age of the Internet, as 
+it was with 17th-century advent of scientific journal during the 
+Scientific Revolution. Already some principles of open science 
+make the publication presented in the thesis available to the 
+reader without the need to pay for the information, InterMetalDB 
+and its resources are pushed the furthest in accordance with the 
+principles of open science, which makes the InterMetalDB easily 
+reproducible even after the ceasing of hosting.
+
+
+
+Appendix
+
+
+
+
+
+Bibliography
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Colophon
+
+This document was typeset using classicthesis style developed by 
+André Miede. The style was inspired by Robert Bringhurst's 
+seminal book on typography “The Elements of Typographic Style”. 
+It is available for LaTeX and LyX at
+
+
+https://bitbucket.org/amiede/classicthesis/
+
+Some parts of the manuscript utilize  for typesetting. To do so I 
+have used Python by Geoffrey Poore . To use Python in LyX I have 
+made a Python-based wrapper available at
+
+
+https://github.com/jzftran/pythontex-wrapper.py
+
+To retrieve bibliometric data about publications I have used 
+scholarly .
+
+
+
+
+
+
+
+[note:
+Hermann Zapf's Palatino and Euler type faces (Type 1 PostScript 
+fonts URW Palladio L and FPL) are used. The “typewriter” text is 
+typeset in Bera Mono, originally developed by Bitstream, Inc. as “
+Bitstream Vera”. (Type 1 PostScript fonts were made available by 
+Malte Rosenau and Ulrich Dirr.)
+]
+
+[note:
+The custom size of the textblock was calculated using the 
+directions given by Mr. Bringhurst (pages 26–29 and 175/176). 10 
+pt Palatino needs 133.21 pt for the string 
+``abcdefghijklmnopqrstuvwxyz''. This yields a good line length 
+between 24–26 pc (288–312 pt). Using a “double square textblock” 
+with a 1:2 ratio this results in a textblock of 312:624 pt (which 
+includes the headline in this design). A good alternative would 
+be the “golden section textblock” with a ratio of 1:1.62, here 
+312:505.44 pt. For comparison, DIV9 of the typearea package 
+results in a line length of 389 pt (32.4 pc), which is by far too 
+long. However, this information will only be of interest for 
+hardcore pseudo-typographers like me.
+
+To make your own calculations, use the following commands and 
+look up the corresponding lengths in the book: \settowidth{\abcd}{abcdefghijklmnopqrstuvwxyz}
+
+\the\abcd\ % prints the value of the length
+ Please see the file classicthesis.sty for some precalculated 
+values for Palatino and Minion.
+]
+
+
+
+
+
+
+ 
+
+
+
+Declaration
+
+Put your declaration here.
+
+
+
+, 
+
+
+
+
+
+
+     
+-----
+     
+
+
+
+
+ 
+
+Rights and Permissions
+
+Articles that build fragments of this thesis are open access 
+articles distributed under the terms of the Creative Commons 
+license, which permits unrestricted use, distribution and 
+reproduction, provided the proper citation of the original work. 
+Thus before each article I present the citation of the original 
+article.
+
+
+

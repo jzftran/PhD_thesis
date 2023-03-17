@@ -83,7 +83,7 @@
 \begin_body
 
 \begin_layout Chapter
-Galvanization of Protein-Protein Interactions in a Dynamic Zinc Interactome
+Galvanization of Protein–Protein Interactions in a Dynamic Zinc Interactome
 \end_layout
 
 \begin_layout Standard
@@ -163,7 +163,582 @@ Brief history and bibliometric data
 \end_layout
 
 \begin_layout Standard
-Something
+The first
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+'{
+\backslash
+i}}
+\end_layout
+
+\end_inset
+
+ chapters presenting published work of mine (
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:Galvanization-of-Protein-Protein"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:InterMetalDB"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+) focus mostly on 
+\emph on
+in silico 
+\emph default
+endeavors to systematically describe, and characterize metal-involved 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{ppi}
+\end_layout
+
+\end_inset
+
+.
+ My contribution in neither of the articles would not be possible without
+ involvement in the wet lab experiments from the very beginning of my master's
+ and doctoral studies.
+ My ongoing journey with computer programming began as a mere way to make
+ my laboratory work easier.
+ Producing countless amounts of data, I had to prepare scripts to pre-process
+ the raw data or workflows to facilitate data analysis, some of those scripts
+ were made at the request of my coworkers (e.g.
+ the script that was part of the fluorescence lifetime analysis workflow),
+ some already may solve the problems of the researchers on the other continents.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Allowing for batch export of the data from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cd}
+\end_layout
+
+\end_inset
+
+ like 
+\begin_inset CommandInset href
+LatexCommand href
+name "jws2txt"
+target "https://github.com/jzftran/jws2txt"
+literal "false"
+
+\end_inset
+
+, mentioned at: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.researchgate.net/post/Batch_export_processing_of_Jasco_interval_data_f
+iles_jwb_to_csv
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+, or adding the multiple-binding sites model for the open 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{code}
+\end_layout
+
+\end_inset
+
+ program for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+ analysis.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+need to be done
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ My interest in programming led to a collaboration with Anna Kocyła on the
+ 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Kocyla2021"
+literal "true"
+
+\end_inset
+
+, where I was able to use my skills in preparing a structural data set of
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+.
+ After the few years I have been back to scripts written for our publication,
+ I am pleased with how much I have grown in terms of writing clear and efficient
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{code}
+\end_layout
+
+\end_inset
+
+.
+ And though the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{code}
+\end_layout
+
+\end_inset
+
+ I have written at the time was not beautiful, to say, it worked and was
+ one of the reasons why we were able to select around 150 examples of the
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zppi}
+\end_layout
+
+\end_inset
+
+ deposited in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+ and publish our results in a well-renowned journal 
+\shape italic
+Trends in Biochemical Sciences
+\emph on
+, the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{if}
+\end_layout
+
+\end_inset
+
+ of 14.264 (as of March 6, 2023).
+ 
+\shape default
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pycode}[sessionA]
+\end_layout
+
+\begin_layout Plain Layout
+
+from scholarly import scholarly
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num2words = {1: 'one',
+\end_layout
+
+\begin_layout Plain Layout
+
+             2: 'two',
+\end_layout
+
+\begin_layout Plain Layout
+
+             3: 'three',
+\end_layout
+
+\begin_layout Plain Layout
+
+             4: 'four',
+\end_layout
+
+\begin_layout Plain Layout
+
+             5: 'five',
+\end_layout
+
+\begin_layout Plain Layout
+
+             6: 'six',
+\end_layout
+
+\begin_layout Plain Layout
+
+             7: 'seven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             8: 'eight',
+\end_layout
+
+\begin_layout Plain Layout
+
+             9: 'nine',
+\end_layout
+
+\begin_layout Plain Layout
+
+             10: 'ten',
+\end_layout
+
+\begin_layout Plain Layout
+
+             11: 'eleven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             12: 'twelve',
+\end_layout
+
+\begin_layout Plain Layout
+
+             13: 'thirteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             14: 'fourteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             15: 'fifteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             16: 'sixteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             17: 'seventeen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             18: 'eighteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             19: 'nineteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             20: 'twenty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             30: 'thirty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             40: 'forty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             50: 'fifty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             60: 'sixty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             70: 'seventy',
+\end_layout
+
+\begin_layout Plain Layout
+
+             80: 'eighty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             90: 'ninety',
+\end_layout
+
+\begin_layout Plain Layout
+
+             0: 'zero'}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+def n2w(n):
+\end_layout
+
+\begin_layout Plain Layout
+
+    try:
+\end_layout
+
+\begin_layout Plain Layout
+
+        return (num2words[n])
+\end_layout
+
+\begin_layout Plain Layout
+
+    except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+        try:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ((num2words[n-n % 10]) + ' ' + (num2words[n % 10].lower()))
+\end_layout
+
+\begin_layout Plain Layout
+
+        except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ('Number out of range')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+search_query = scholarly.search_single_pub(
+\end_layout
+
+\begin_layout Plain Layout
+
+    'Galvanization of Protein-Protein Interactions in a Dynamic Zinc Interactome
+')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num_citations = search_query['num_citations']
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+if num_citations <= 10:
+\end_layout
+
+\begin_layout Plain Layout
+
+    print(f'The article was warmly received in the scientific community
+ and was cited by {n2w(num_citations)} other articles so far (as of 
+\backslash
+
+\backslash
+today).')
+\end_layout
+
+\begin_layout Plain Layout
+
+else:
+\end_layout
+
+\begin_layout Plain Layout
+
+    print(f'The article was warmly received in the scientific community
+ and was cited by {num_citations} other articles so far (as of 
+\backslash
+
+\backslash
+today).')
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pycode}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://scholar.google.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -173,10 +748,10 @@ Summary
 \begin_layout Standard
 The functions that are performed by macromolecules in the cell are dependent
  on the interaction with their partners.
- What is the partner of the interaction depends on the role of the macromolecule.
- For example, in the case of glucose-6-phosphate isomerase the one of the
- interaction partners for the enzyme is glucose 6-phosphate, which is interconve
-rted into fructose-6-phosphate.
+ The role of the macromolecule depends on what the interaction partner is.
+ For example, in the case of glucose-6-phosphate isomerase, one of the interacti
+on partners for the enzyme is glucose 6-phosphate, which is interconverted
+ into fructose-6-phosphate.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -185,8 +760,8 @@ literal "true"
 
 \end_inset
 
- Other proteins interact with lipids, nucleic acid and other proteins.
- It is not an exaggeration to state that virtually every protein have to
+ Other proteins interact with lipids, nucleic acid, and other proteins.
+ It is not an exaggeration to state that virtually every protein has to
  interact, transiently or permanently, with other macromolecules to realize
  its function in the organism.
  The holistic knowledge 
@@ -223,7 +798,7 @@ glspl{ppi}
 
 \end_inset
 
- are crucial to gain comprehension about the functional relationships between
+ are crucial to gain comprehension of the functional relationships between
  proteins.
  Over the last decades, the development of 
 \begin_inset ERT
@@ -239,7 +814,7 @@ gls{hts}
 \end_inset
 
  methods e.g.
- peptide phage display 
+ peptide phage display ,
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sundell2014"
@@ -247,7 +822,7 @@ literal "true"
 
 \end_inset
 
-, yeast surface display 
+ yeast surface display,
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Boder1997"
@@ -255,7 +830,7 @@ literal "true"
 
 \end_inset
 
-, yeast-two-hybrid system 
+ yeast-two-hybrid system, 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Fields1989"
@@ -291,7 +866,7 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-However, none of the vast interaction networks presents full landscape,
+However, none of the vast interaction networks presents a full landscape,
  as interactions induced by small ligands as well as caused by metal ions
  may be missing from the picture.
  What is worth mentioning here, is the rough projection of how many proteins
@@ -340,7 +915,7 @@ gls{hts}
 
 \end_inset
 
- methods do not even consider the presence of another actors (i.e.
+ methods do not even consider the presence of another actor (i.e.
  Zn(II)) in the interaction, thus causing such interactions to be overlooked,
  makes a substantial amount of interactions not fully resolved.
 \begin_inset Note Note
@@ -357,22 +932,39 @@ W ogóle to zdanie jest średnie i może wymagać zmiany
 
 \end_inset
 
- Though metal ions, compared to macromolecules, are small, compared both,
- mass and dimensions, they have a significant impact on the structure of
- the protein implying the consequences for the stability and function of
- protein, and protein complexes.
- Though the impact of the of various metal ions on the living organisms
- have been studied for a while, and the effects of deficit or surplus of
- some microelements are known, the mechanism of action of those elements
- may be still vague.
- As have been described in 
+ Although metal ions, compared to macromolecules, are small in both mass
+ and size, they have a significant impact on protein structure, which implies
+ consequences for the stability and function of proteins and protein complexes.
+ Though the impact of various metal ions on living organisms has been studied
+ for a while, and the effects of deficit or surplus of some microelements
+ are known, the mechanism of action of those elements may be still vague.
+ As has been described in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
 \begin_layout Plain Layout
 \begin_inset CommandInset ref
 LatexCommand labelonly
-reference "ch:Zn(II) binding sites"
+reference "chap:Zinc proteome"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:Zinc proteome"
 plural "false"
 caps "false"
 noprefix "false"
@@ -385,9 +977,9 @@ noprefix "false"
 \end_inset
 
  Zn(II) can be found in various architectures.
- The studies how the architecture translates into function led to identification
- of catalytic and structural zinc-binding sites, however the fact that Zn(II)
- can in be located on the 
+ The studies of how the architecture translates into function led to the
+ identification of catalytic and structural zinc-binding sites, however,
+ the fact that Zn(II) can be located on the 
 \begin_inset ERT
 status open
 
@@ -429,7 +1021,7 @@ glspl{zppi}
 \end_inset
 
 .
- We wanted to underline that the presence of Zn(II) at protein-protein 
+ We wanted to underline that the presence of Zn(II) at protein–protein 
 \begin_inset ERT
 status open
 
@@ -459,7 +1051,7 @@ gls{cry}
 
 \end_inset
 
-/
+–
 \begin_inset ERT
 status open
 
@@ -528,8 +1120,8 @@ glspl{zppi}
 \end_inset
 
  is governed by the same thermodynamic and chemical principles as regular
- protein-protein complexes, however the involvement of Zn(II) in the complexatio
-n makes the formation of complex dependent on the 
+ protein-protein complexes, however, the involvement of Zn(II) in the complexati
+on makes the formation of complex dependent on the 
 \begin_inset ERT
 status open
 
@@ -665,7 +1257,7 @@ nwm czy to pytanie jest rozwiewane w zupełności
 \end_inset
 
  It is known that characteristic sequence motifs involving cysteines, histidines
- and acidic residues
+, and acidic residues
 \begin_inset Foot
 status open
 
@@ -713,7 +1305,7 @@ nie wiem czy tu poprawnie these używam.
 
 \end_inset
 
- that provide clue to Zn(II) coordination within single-chain protein.
+ that provide a clue to Zn(II) coordination within a single-chain protein.
  Yet, the prediction, based solely on the protein sequence, of metal binding
  on the protein-protein 
 \begin_inset ERT
@@ -729,7 +1321,7 @@ glspl{interface}
 \end_inset
 
  to date is not possible.
- One way of identification would be thorough literature search, one could
+ One way of identification would be a  thorough literature search, one could
  hypothetically search the Internet using research tools for scientific
  literature like Google Scholar
 \begin_inset Foot
@@ -737,7 +1329,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -753,7 +1345,7 @@ https://scholar.google.com/
 
 , Semantic Scholar
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
@@ -771,7 +1363,7 @@ https://www.semanticscholar.org/
 
 \end_inset
 
- or other similar tools utilizing keywords 
+, or other similar tools utilizing keywords 
 \begin_inset Quotes eld
 \end_inset
 
@@ -791,7 +1383,7 @@ intermolecular binding
 \begin_inset Quotes eld
 \end_inset
 
-protein-protein 
+protein–protein 
 \begin_inset ERT
 status open
 
@@ -809,12 +1401,12 @@ gls{interface}
 \end_inset
 
 .
- However this way of analysis seems to be cumbersome, requires tremendous
+ However, this way of analysis seems to be cumbersome, and requires tremendous
  amount of manual work, not to mention that the found literature might not
  be available.
  The only logical solution to the problem is to search online databases
  that provide information about proteins.
- Usually for the researcher the first source of information about protein
+ Usually, for the researcher the first source of information about the protein
  of interest is 
 \begin_inset ERT
 status open
@@ -836,7 +1428,7 @@ literal "true"
 
 \end_inset
 
-, significant amount of protein sequences aggregated in 
+, a significant amount of protein sequences aggregated in 
 \begin_inset ERT
 status open
 
@@ -961,7 +1553,7 @@ gls{rcsb}
 
 \end_inset
 
- and a simple 
+ and simple 
 \begin_inset ERT
 status open
 
@@ -978,7 +1570,7 @@ gls{python}
 \end_layout
 
 \begin_layout Standard
-One of the biggest pitfalls of our work, as well similar studies (e.g.
+One of the biggest pitfalls of our work, as well as similar studies (e.g.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -990,9 +1582,9 @@ literal "true"
 ), is the fact that the gathered knowledge simultaneously with the acceptance
  of the article stops from being updated.
  It does not mean it becomes automatically outdated, the extensive description
- and analysis of the gathered and reviewed examples stays scientifically
- true (until the next breakthrough in the field), however the lists of structure
-s, and interwoven statistics and numbers change over time.
+ and analysis of the gathered and reviewed examples stay scientifically
+ true (until the next breakthrough in the field), however, the lists of
+ structures, and interwoven statistics and numbers change over time.
  From the publication date of 
 \begin_inset CommandInset citation
 LatexCommand citetitle
@@ -1333,15 +1925,7 @@ end{pycode}
 \end_inset
 
  Zn(II)-containing structures! To partially mitigate this deficiency I have
- developed InterMetalDB 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Tran2021"
-literal "true"
-
-\end_inset
-
-, (see 
+ developed InterMetalDB (see 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1360,7 +1944,21 @@ noprefix "false"
 
 \end_inset
 
-), additionally, to accommodate up-to-date knowledge about 
+).
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tran2021"
+literal "true"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+, additionally, to accommodate up-to-date knowledge about 
 \begin_inset ERT
 status open
 
@@ -1444,6 +2042,11 @@ noprefix "false"
 .
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
 status open
@@ -1471,25 +2074,6 @@ status open
 \begin_inset CommandInset ref
 LatexCommand labelonly
 reference "chap:Proteins-and-cofactors"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- and 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand labelonly
-reference "ch:Zn(II) binding sites"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1560,7 +2144,7 @@ glspl{zppi}
 
 \end_inset
 
- 
+ a 
 \emph on
 terra incognita
 \emph default

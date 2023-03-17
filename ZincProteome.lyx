@@ -80,23 +80,14 @@
 \begin_body
 
 \begin_layout Chapter
-Investigation of intermolecular metal binding sites
+Investigation of intermolecular metal-binding sites
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-coś jest źle z tym plikiem
-\end_layout
-
-\end_inset
-
-Zn(II) ions were found to be essential for growth of the toxic for human
- mold – 
+Zn(II) ions were found to be essential for the growth of the toxic mold
+ – 
 \emph on
-Aspergillus nigerr 
+Aspergillus niger 
 \emph default
 in 1869, nearly one hundred years later, in 1961, it was postulated that
  zinc is essential also for humans.
@@ -131,19 +122,9 @@ status collapsed
  Almost 20 years later the first structures of proteins containing Zn(II)
  started to appear.
  It will not be an exaggeration if I say that the number of scientific questions
- is proportional to the amount of new data 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-może to jednak jest przesada
-\end_layout
-
-\end_inset
-
-– with the advent of the first Zn(II)-containing macromolecular structures,
- questions about the factors that govern the formation of the zinc binding
- sites started to appear.
+ is proportional to the amount of new data—with the advent of the first
+ Zn(II)-containing macromolecular structures, questions about the factors
+ that govern the formation of the zinc-binding sites started to appear.
  With more Zn(II)-containing structures deposited in the 
 \begin_inset ERT
 status open
@@ -176,8 +157,8 @@ noprefix "false"
 
 \end_inset
 
-), however the fact that the Zn(II) ions (and other metal ions) can be bound
- at 
+), however, the fact that the Zn(II) ions (and other metal ions) can be
+ bound at the 
 \begin_inset ERT
 status open
 
@@ -190,9 +171,9 @@ gls{interface}
 
 \end_inset
 
- of two or more macromolecules was rather ignored – the one of the first
- reviews of structural knowledge of metal binding sites in proteins appeared
- in 
+ of two or more macromolecules was rather ignored – one of the first reviews
+ of structural knowledge of metal-binding sites in proteins appeared in
+ 
 \begin_inset CommandInset citation
 LatexCommand citebyear
 key "Tainer1992"
@@ -238,8 +219,8 @@ literal "true"
 
 \end_inset
 
- This Chapter will focus on the methodology how one can investigate the
- metal binding sites at 
+ This Chapter will focus on the methodology of how one can investigate the
+ metal-binding sites at 
 \begin_inset ERT
 status open
 
@@ -254,7 +235,7 @@ glsdescplural{ppi}
 
 .
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 podać jakieś charakterystyki miejsc cynkowych, powiedzieć dlaczego szukanie
@@ -271,7 +252,7 @@ podać jakieś charakterystyki miejsc cynkowych, powiedzieć dlaczego szukanie
 \emph on
 In silico
 \emph default
- investigation of intermolecular metal binding sites
+ investigation of intermolecular metal-binding sites
 \begin_inset Note Note
 status open
 
@@ -291,17 +272,17 @@ informacje o tym, że możliwe, że coś się zmieniło wraz z typem annotacji
 
 \begin_layout Subsection
 The problems of 
-\emph on
+\shape italic
 in silico
-\emph default
- investigation of intermolecular metal binding sites
+\shape default
+ investigation of intermolecular metal-binding sites
 \end_layout
 
 \begin_layout Standard
 To date, there are no computational algorithms or other methods that are
- able to identify or classify intermolecular metal binding based on protein
+ able to identify or classify intermolecular metal-binding based on protein
  sequence or structure.
- The problem of metal bindings sites prediction was undertaken in the past
+ The problem of metal-binding sites prediction was undertaken in the past
  several times.
  Apart from the availability of such tools, which is often unacceptable
  
@@ -315,10 +296,10 @@ literal "true"
 , the quality of the proposed classifiers is often poor.
  
 \begin_inset Marginal
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Classifier is a tool that assigns an element to certain class.
+Classifier is a tool that assigns an element to a certain class.
  An algorithm that tells whether a protein is a 
 \begin_inset ERT
 status open
@@ -337,23 +318,23 @@ gls{mprotein}
 
 \end_inset
 
- Usually the authors of such algorithms present the quality and efficiency
+ Usually, the authors of such algorithms present the quality and efficiency
  of their classifier in a reliable way, e.g., by showing various kinds of
  statistics like receiver operating characteristic curve in the case of
- binary classifiers, the presented tools on the first glance seem to work
- very well, however to date, the use of such tools is limited.
+ binary classifiers, the presented tools at first glance seem to work very
+ well, however, to date, the use of such tools is limited.
  For sure one cannot accuse the authors of such articles of scientific misconduc
-t or ill-faith – usually the problem lies deeper.
- The are two main problems with the classifiers: first one is the problem
+t or ill-faith – usually, the problem lies deeper.
+ The are two main problems with the classifiers: the first one is the problem
  with the initial data set, which eventually is a source for creating the
- training and the test data sets, the second problem is the choice of explanator
-y variables.
+ training and the test data sets, and the second problem is the choice of
+ explanatory variables.
 \end_layout
 
 \begin_layout Standard
 The availability of well-annotated (due to manual curation) protein sequence
  data is quite good.
- The primary source of such information are scientific articles.
+ The primary source of such information is scientific articles.
  A publication that treats whether a protein binds metal or not has a number
  of methods that show and describe this binding.
  Such publication does not need to include information about the structure
@@ -403,7 +384,7 @@ gls{UniProt}
 
  to interact with metal.
  This leads to the attempts to create one's own data set, which in turn
- involves the use of the other type input – the structural data deposited
+ involves the use of the other type of input – the structural data deposited
  in the 
 \begin_inset ERT
 status open
@@ -417,7 +398,7 @@ gls{rcsb}
 
 \end_inset
 
-, however the metal binding sites in the 
+, however, the metal-binding sites in the 
 \begin_inset ERT
 status open
 
@@ -430,9 +411,9 @@ gls{rcsb}
 
 \end_inset
 
- are not annotated to be a true physiological or adventitious metal binding
+ are not annotated to be a true physiological or adventitious metal-binding
  sites.
- This, in turn, leads to use of simple algorithms that sort 
+ This, in turn, leads to the use of simple algorithms that sort 
 \begin_inset Quotes eld
 \end_inset
 
@@ -448,7 +429,7 @@ false
 \begin_inset Quotes erd
 \end_inset
 
- metal binding sites in the data set based on simple rules, i.e., distance
+ metal-binding sites in the data set based on simple rules, i.e., the distance
  between the metal and 
 \begin_inset ERT
 status open
@@ -488,38 +469,38 @@ glspl{Lg}
 
 \end_inset
 
- etc., however this approach is far from being accurate.
+, etc., however, this approach is far from being accurate.
 \end_layout
 
 \begin_layout Standard
-The problem with the selection of explanatory variables is mostly acute
- with classifiers that base on the sequence.
+The problem with the selection of explanatory variables is most acute with
+ classifiers that are based on the sequence.
  Whereas structural-based classifiers may involve the abundance of meaningful
- variables for the classifier (e.g., hydrophobicity, charge of the amino acids,
- geometry, position in space, etc.), the effort of prediction of metal binding
- site based solely on the sequence might be similar to prediction of the
- sales on stock exchange based using only stock shares name.
- Nevertheless in some specific cases, where there is an existing pattern
+ variables for the classifier (e.g., hydrophobicity, a charge of the amino
+ acids, geometry, position in space, etc.), the effort of prediction of a
+ metal-binding site based solely on the sequence might be similar to the
+ prediction of the sales on stock exchange based using only stock shares
+ name.
+ Nevertheless, in some specific cases, where there is an existing pattern
  in the sequence it is possible to build sensitive and specific classifiers,
  e.g., the prediction of zinc fingers based on sequence is possible due to
  the existence of well-defined input data and the existence of patterns
- in the sequences.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://doi.org/10.1016/j.patcog.2022.109134
-\end_layout
+ in the sequences 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sathyaseelan2023"
+literal "true"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-The above problems with prediction of metal binding sites are the same for
- intermolecular metal binding sites, as well, moreover the fact of two or
- more interacting macromolecules increases the complexity of the problem.
+The above problems with the prediction of metal-binding sites are the same
+ for intermolecular metal-binding sites, as well, moreover, the fact of
+ two or more interacting macromolecules increases the complexity of the
+ problem.
  So how to search for metals bound at 
 \begin_inset ERT
 status open
@@ -533,7 +514,7 @@ glspl{ppi}
 
 \end_inset
 
- is there is no viable 
+ if there are no viable 
 \begin_inset Note Note
 status open
 
@@ -547,7 +528,7 @@ nwm czy tu dobrze viiable
 \emph on
 in silico
 \emph default
- tools? The question is addressed bellow in the 
+ tools? The question is addressed below in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -570,7 +551,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsection
-Obtaining knowledge about intermolecular metal binding sites
+Obtaining knowledge about intermolecular metal-binding sites
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Obtaining-knowledge-about-InterMBS"
@@ -581,9 +562,9 @@ name "subsec:Obtaining-knowledge-about-InterMBS"
 \end_layout
 
 \begin_layout Standard
-As in the case of information about the interaction of metal with the protein,
- here also publications may also be the primary source of information about
- metal binding on 
+As in the case of information about the interaction of the metal with the
+ protein, here also publications may also be the primary source of information
+ about metal-binding on 
 \begin_inset ERT
 status open
 
@@ -618,9 +599,9 @@ gls{rcsb}
  is the fact that the search for this type of information can be time-consuming.
  There may be problems with the availability of the article (not every article
  is published as an open access article), and the fact that there is no
- tool that aggregate the articles based on the information whether the described
- protein within the article has an inter-protein metal binding site, makes
- this approach unreasonable.
+ tool that aggregates the articles based on the information on whether the
+ described protein within the article has an inter-protein metal-binding
+ site, makes this approach unreasonable.
  Nevertheless, it is not out of the question that this type of information
  aggregation will change (not necessarily regarding the 
 \begin_inset ERT
@@ -733,18 +714,17 @@ gls{Lg}
 
 \end_inset
 
- type, and resolution, unfortunately MESPEUS is now no longer available.
+ type, and resolution, unfortunately, MESPEUS is now no longer available
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1007/978-1-62703-691-7_23
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hsin2008,Harding2014"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -768,23 +748,21 @@ ZifBASE
 
  is an even more specific database – it is dedicated only to zinc fingers,
  plus it contains far more information than just structural information
- – it contains sequence information, potential DNA interaction sequences
+ – it contains sequence information, potential DNA interaction sequences,
  and more.
  However, as of today, despite the existence of the site, ZifBASE appears
  to be severely broken or non-functional at all, search and other functions
- do not work, additionally it is is not known how often the database is
- updated.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1186/1471-2164-10-421
-\end_layout
+ do not work, additionally, it is not known how often the database is updated
+ or whether longer updated 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Jayakanthan2009"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -859,7 +837,7 @@ glspl{bassembly}
 \end_inset
 
 .
- This approach of building a database is incorrect because some of the binding
+ This approach to building a database is incorrect because some of the binding
  sites (and especially the intermolecular binding) can only be seen after
  the symmetry operations are applied and the 
 \begin_inset ERT
@@ -879,9 +857,9 @@ gls{bassembly}
 in binding sites of metal ions.
  MetalPDB despite the fact that it is possible to automate this type of
  tool seems to be rarely updated, as of February 13, 2023, MetalPDB gives
- an update date as April 5, 2022, which does not seem to be true.
+ an update date as of April 5, 2022, which does not seem to be true.
  No metal-containing structures, but published close to the supposed MetalPDB
- update date are present in the database – for example the structures 
+ update date are present in the database – for example, the structures 
 \begin_inset CommandInset href
 LatexCommand href
 name "7V8G"
@@ -916,9 +894,17 @@ gls{pdb}
 
 \end_inset
 
- files have all sorts of errors, inaccuracies or format incompatibilities
- that cause problems in processing, nevertheless the number of missing files
- in MetalPDB is puzzling.
+ files have all sorts of errors, inaccuracies, or format incompatibilities
+ that cause problems in processing, nevertheless, the number of missing
+ files in MetalPDB is puzzling 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Andreini2013,Putignano2018"
+literal "true"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -948,10 +934,10 @@ physiological
 \begin_inset Quotes erd
 \end_inset
 
- binding sites for Zn(II) ions, however, it does not have information on
- intermolecular zinc binding.
+ binding sites for Zn(II) ions, however,  it does not have information on
+ intermolecular zinc-binding.
  Physiological sites in ZincBind are understood to be those with at least
- two binding residues and at least three binding atoms, additionally ZincBind
+ two binding residues and at least three binding atoms, additionally, ZincBind
  overcomes the biggest issues of MetalPDB: ZincBind is automatically updated,
  presented structures are already in the 
 \begin_inset ERT
@@ -979,7 +965,15 @@ gls{code}
 
 \end_inset
 
- of ZincBind is freely available under the MIT License
+ of ZincBind is freely available under the MIT License 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ireland2019"
+literal "true"
+
+\end_inset
+
+.
 \begin_inset Marginal
 status open
 
@@ -1003,16 +997,6 @@ gls{code}
 \end_inset
 
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1093/database/baz006
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1043,8 +1027,8 @@ This does not automatically mean that these sites will be physiologically
 \end_inset
 
  However, this type of manipulation may require some programming expertise
- to avoid tedious manual review of hundreds or thousands of structures.
- To make this search possible for a scientists without programming knowledge
+ to avoid the tedious manual review of hundreds or thousands of structures.
+ To make this search possible for scientists without programming knowledge
  to find intermolecular metal-binding sites in proteins, I have decided
  to create a publicly available database – InterMetalDB
 \begin_inset Foot
@@ -1086,19 +1070,6 @@ noprefix "false"
 \end_inset
 
 ).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-sequence techniques, blast, cdhit, python, django
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -1218,23 +1189,21 @@ gls{rcsb}
 
 \end_inset
 
- contribute to the development of new drugs by public entities.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7325526/
-\end_layout
+ contribute to the development of new drugs by public entities 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Westbrook2019"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
-In case of the derivative databases the first step o acquiring a data set
- is to query a primary database.
+In the case of the derivative databases, the first step o acquiring a data
+ set is to query a primary database.
  If 
 \begin_inset ERT
 status open
@@ -1276,20 +1245,20 @@ A web crawler is a program that scans the Internet.
 
 \end_inset
 
- provided the database has online version.
+ provided the database has an online version.
 \end_layout
 
 \begin_layout Standard
 If the data was not filtered in the previous step the next step is the data
- selection, annotation, organization and storage.
+ selection, annotation, organization, and storage.
  The goal of this step is to ensure that the data is accurate and consistent.
  This step is particularly important in scientific research, where data
- is often complex, diverse and requires long-term preservation.
- This can be done manually, by computer programs or scripts, or by combination
+ is often complex, and diverse and requires long-term preservation.
+ This can be done manually, by computer programs or scripts, or by a combination
  of these approaches.
- In case of the curation of the macromolecular data it is important to take
- into account various information that accompany the structure: the sequence
- of the macromolecules in the 
+ In case of the curation of the macromolecular data, it is important to
+ take into account various information that accompanies the structure: the
+ sequence of the macromolecules in the 
 \begin_inset ERT
 status open
 
@@ -1303,7 +1272,7 @@ gls{pdb}
 \end_inset
 
  files, the coordinates in the file, gene source organism, the expression
- mechanism, ways of structure acquisition etc.
+ mechanism, ways of structure acquisition, etc.
  An important issue with the data aggregated in the 
 \begin_inset ERT
 status open
@@ -1319,10 +1288,10 @@ gls{rcsb}
 
  is the fact of the redundancy
 \begin_inset Marginal
-status collapsed
+status open
 
 \begin_layout Plain Layout
-In case of the 
+In the case of the 
 \begin_inset ERT
 status open
 
@@ -1335,8 +1304,8 @@ gls{rcsb}
 
 \end_inset
 
- redundancy is understood as existence of many similar macromolecular structures
-, i.e., two 
+ redundancy is understood as the existence of many similar macromolecular
+ structures, i.e., two 
 \begin_inset ERT
 status open
 
@@ -1349,7 +1318,7 @@ gls{pdb}
 
 \end_inset
 
- files of the same protein can be almost identical, however one file may
+ files of the same protein can be almost identical, however, one file may
  have a better resolution.
 \end_layout
 
@@ -1357,19 +1326,19 @@ gls{pdb}
 
  of structural files, which should be taken into account during the construction
  of the derivative database.
- This redundancy is dealt with usually by clustering based on sequence.
+ This redundancy is dealt with usually by clustering based on the sequence.
 \end_layout
 
 \begin_layout Standard
 During the data organization it is important to design a proper logic of
  the database – how the records of the databases are connected together
  within the database.
- For example macromolecular structure may contain multiple metal binding
+ For example macromolecular structure may contain multiple metal-binding
  sites, this simple and hardly revealing fact implies several questions,
- e.g.,: how the records of the metal binding sites should be connected with
- the records of the structures?; how to choose a representative metal binding
- site from a structure, or maybe are there multiple representative metal
- binding sites?.
+ e.g.,: how the records of the metal-binding sites should be connected with
+ the records of the structures?; how to choose a representative metal-binding
+ site from a structure, or maybe are there multiple representative metal-binding
+ sites?.
  If the answers to those and other questions are known it is possible to
  implement the logic behind the database.
 \end_layout
@@ -1398,7 +1367,7 @@ Programming languages play an important role in the creation of modern databases
 status open
 
 \begin_layout Plain Layout
-Back-end is understood as everything that is invisible for the end-user.
+The back-end is understood as everything that is invisible to the end user.
  It contains all the application logic, bindings, etc.
 \end_layout
 
@@ -1430,7 +1399,11 @@ gls{python}
 
 \end_inset
 
-, Java and others.
+, 
+\family typewriter
+Java
+\family default
+, and others.
 \end_layout
 
 \begin_layout Standard
@@ -1493,8 +1466,8 @@ gls{python}
 
 \end_inset
 
-, which allows for managing building the logic in the database.
- For example 
+, which allows for managing and building the logic in the database.
+ For example, 
 \begin_inset ERT
 status open
 
@@ -1520,8 +1493,7 @@ gls{python}
 
 \end_inset
 
- and is often used for creating web applications that are operating on the
- databases.
+ and is often used for creating web applications that are operating on databases.
  The use of 
 \begin_inset ERT
 status open
@@ -1535,8 +1507,8 @@ gls{django}
 
 \end_inset
 
- allows to work with databases using high-level abstractions instead of
- writing the raw 
+ allows working with databases using high-level abstractions instead of
+ writing raw 
 \begin_inset ERT
 status open
 
@@ -1563,7 +1535,7 @@ gls{django}
 
 \end_inset
 
- is is possible to define the logic and models of the database tables as
+, it is possible to define the logic and models of the database tables as
  regular 
 \begin_inset ERT
 status open
@@ -1604,7 +1576,7 @@ gls{api}
 
 \end_inset
 
- for querying the database, allowing to retrieve and manipulate the data
+ for querying the database allowing it to retrieve and manipulate the data
  with 
 \begin_inset ERT
 status open
@@ -1618,14 +1590,14 @@ gls{python}
 
 \end_inset
 
- object and methods, which allows finally for a presentation as a front-end.
+ objects and methods, which allows finally for a presentation as a front-end.
  
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
 Front-end is everything that the end-user is able to see – user interface;
- buttons, images etc.
+ buttons, images, etc.
  
 \end_layout
 
@@ -1635,7 +1607,7 @@ Front-end is everything that the end-user is able to see – user interface;
 \end_layout
 
 \begin_layout Standard
-The front-end of web application is usually built with 
+The front-end of the web application is usually built with 
 \begin_inset ERT
 status open
 
@@ -1660,7 +1632,7 @@ Clustering
 The part of data curation is the clustering of the primary data.
  One of the most common ways of dealing with redundancy in the protein structure
 s is the use of a sequence clustering algorithm.
- This can be done by several programs, however in the InterMetalDB (
+ This can be done by several programs, however,  in the InterMetalDB (
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1679,29 +1651,33 @@ noprefix "false"
 
 \end_inset
 
-) I have decided to utilize CD-HIT.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-citation
-\end_layout
+) I have decided to utilize CD-HIT 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Li2006,Fu2012"
+literal "true"
 
 \end_inset
 
- Similar algorithms and programs may be used, e.g., BLAST.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cytacja
-\end_layout
+.
+ Similar algorithms and programs may be used, e.g., BLAST 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Camacho2009"
+literal "true"
 
 \end_inset
 
-To cluster 
+ or mmseqs2 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mirdita2019,Mirdita2021"
+literal "true"
+
+\end_inset
+
+.
+ To cluster 
 \begin_inset ERT
 status open
 
@@ -1783,24 +1759,30 @@ The resulting output is a set of non-redundant (or with diminished redundancy)
  structures based on another factor, e.g., based on the structure.
 \end_layout
 
-\begin_layout Section
+\begin_layout Standard
 
 \emph on
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 \emph on
-w poprzednim rozdziale info o tym, że ze struktury nie można nic mówić o
- stopniu utlenienia
+w tym rozdziale info o tym, że ze struktury nie można nic mówić o stopniu
+ utlenienia
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Section
+
+\emph on
 Ex silico 
 \emph default
-investigation of intermolecular metal binding sites
+investigation of intermolecular metal-binding sites
 \end_layout
 
 \begin_layout Standard
@@ -1824,7 +1806,7 @@ noprefix "false"
 
 \end_inset
 
-) or hunch about the intermolecular metal binding at 
+) or hunch about the intermolecular metal-binding at 
 \begin_inset ERT
 status open
 
@@ -1837,8 +1819,19 @@ gls{ppi}
 
 \end_inset
 
-? In general, verification of intermolecular metal binding is not significantly
- different from the study of metal-protein interaction, although there are
+? With preliminary knowledge (or suspicion) of intermolecular metal binding,
+ one can proceed with
+\emph on
+ ex silico 
+\emph default
+testing, where
+\emph on
+ ex silico 
+\emph default
+I will understand as all experiments performed without the use of a computer
+ as the main working tool.
+ In general, verification of intermolecular metal-binding is not significantly
+ different from the study of metal–protein interaction, although there are
  existent some important differences that should be taken into account during
  the design of the experiment.
 \end_layout
@@ -1888,8 +1881,8 @@ glspl{hts}
 
 \end_inset
 
- to detect complexes with intermolecularly bound metal ion, have been performed
- so far leaving the landscape of 
+, to detect complexes with an intermolecularly bound metal ion, have been
+ performed so far, thus leaving the landscape of 
 \begin_inset ERT
 status open
 
@@ -1913,7 +1906,7 @@ status open
 
 \end_inset
 
- – for this reason, considerations in this Subsection are purely theoretical.
+—for this reason, considerations in this Subsection are purely theoretical.
 \end_layout
 
 \begin_layout Standard
@@ -1931,9 +1924,9 @@ glspl{mppi}
 
 \end_inset
 
-, however the detection of such interactions by those methods requires to
- take into experimental framework some important ideas regarding the complexes
- stabilities (see 
+, however, the detection of such interactions by those methods requires
+ to take into experimental framework some important ideas regarding the
+ complexes stabilities (see 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1990,8 +1983,8 @@ noprefix "false"
 
 ).
  Unfortunately the most of the modern proteomic technologies are not suitable
- for investigation of transient (or weak) interactions, mostly due to the
- washing steps aimed at removal of nonspecific interactions.
+ for the investigation of transient (or weak) interactions, mostly due to
+ the washing steps aimed at removal of nonspecific interactions.
  Furthermore, the subsequent detection of interaction partners with 
 \begin_inset ERT
 status open
@@ -2043,9 +2036,9 @@ gls{MS}
 
  it is possible to tell what is the mass of the measured protein, or the
  fragments of the protein – peptides.
- Seemingly this information is of low value to the researcher, however the
- the number of articles published each year proves different – with known
- protein mass it is possible to identify modifications of the protein.
+ Seemingly this information is of low value to the researcher, however,
+ the the number of articles published each year proves different – with
+ known protein mass it is possible to identify modifications of the protein.
  Tandem 
 \begin_inset ERT
 status open
@@ -2075,17 +2068,15 @@ Glsdesc{MS}
 \end_inset
 
  combined with crosslinking and computational modeling can provide information
- about protein topology or even the structure.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-acs.chemrev.1c00302
-\end_layout
+ about protein topology or even the structure 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Petrotchenko2022"
+literal "true"
 
 \end_inset
 
+.
  So it is not without reason why 
 \begin_inset ERT
 status open
@@ -2194,7 +2185,7 @@ gls{MS}
 
 \end_inset
 
- can partly facilitate the detection of metal, however native 
+ can partly facilitate the detection of metal, however, native 
 \begin_inset ERT
 status open
 
@@ -2335,7 +2326,7 @@ Additionally improvements, mostly due to the use of crosslinking (which
 in vivo
 \emph default
 ) in those techniques have been made to detect transient binding.
- The crosslinking allows for use of more rigorous washing steps, however
+ The crosslinking allows for use of more rigorous washing steps, however,
  at cost of loosing bound metal ions.
 \end_layout
 
@@ -2359,13 +2350,13 @@ Label transfer
 \end_layout
 
 \begin_layout Standard
-In label transfer the protein of interest is tagged with a reagent that
- after crosslinking reaction is able to transfer the label to an interacting
+In label transfer, the protein of interest is tagged with a reagent that
+ after the crosslinking reaction is able to transfer the label to an interacting
  partner.
  The first step of the label transfer is the crosslinking of the complex
  composed of tagged protein of interest with an interaction partner, this
  is done usually using the photoreactive mechanism.
- The label transfer can be performed by other type of chemistry 
+ The label transfer can be performed by another type of chemistry,
 \begin_inset Note Note
 status open
 
@@ -2375,8 +2366,8 @@ nwm jak to napisać
 
 \end_inset
 
-, e.g., by reducing the disulfide bond in the label.
- The transferred label can be used in the affinity purification and detection.
+ e.g., by reducing the disulfide bond in the label.
+ The transferred label can be used in affinity purification and detection.
  The obtained sample can be analyzed by downstream methods like Western
  Blot or 
 \begin_inset ERT
@@ -2391,17 +2382,15 @@ gls{MS}
 
 \end_inset
 
-.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-tu trzeba jakiejś cytacji
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Liu2007"
+literal "true"
 
 \end_inset
 
+.
  Potentially this system could be used to detect 
 \begin_inset ERT
 status open
@@ -2418,16 +2407,16 @@ glspl{mppi}
  by performing crosslinking in the presence of metal of interest and comparison
  with a control crosslinking in metal-free buffers.
  The proteins that are found in the experiment with metal, but are missing
- from the control, metal-free experiment could interact with the protein
+ from the control, the metal-free experiment could interact with the protein
  of interest due to the presence of particular metal.
 \end_layout
 
 \begin_layout Subsubsection
-Cross linking
+Crosslinking
 \end_layout
 
 \begin_layout Standard
-Crosslinking can assist or be a part of the above mentioned methods.
+Crosslinking can assist or be a part of the above-mentioned methods.
  The development of reactive groups that allow 
 \emph on
 in vivo
@@ -2447,7 +2436,7 @@ glspl{mppi}
 
 , even those that are transient.
  The cell environment contains the physiological concentrations of free
- metals, thus providing ideal environment for the metal-protein interaction.
+ metals, thus providing the ideal environment for the metal-protein interaction.
  The crosslinking 
 \emph on
 in vivo
@@ -2493,7 +2482,7 @@ coś jeszcze o pH
 \end_layout
 
 \begin_layout Standard
-Biophysical tools for that are suitable for investigation of 
+Biophysical tools that are suitable for the investigation of 
 \begin_inset ERT
 status open
 
@@ -2515,7 +2504,7 @@ How strong is the interaction?
 \end_inset
 
 .
- The answer to the question can be expressed as a value – 
+ The answer to the question can be expressed as a value, namely 
 \begin_inset ERT
 status open
 
@@ -2528,7 +2517,7 @@ gls{Ka}
 
 \end_inset
 
- or 
+ ( or 
 \begin_inset ERT
 status open
 
@@ -2541,11 +2530,11 @@ gls{Kd}
 
 \end_inset
 
-.
- This thermodynamic property of metal-protein system is a key element, that
- allows to understand the interaction in a biological systems.
+).
+ This thermodynamic property of a metal–protein system is a key element,
+ that allows one to understand the interaction in a biological systems.
  So how to obtain those values and how are they defined? To simplify the
- discussion presented bellow I will focus only on the 
+ discussion presented below I will focus only on the 
 \begin_inset ERT
 status open
 
@@ -2576,6 +2565,10 @@ gls{Kd}
 \end_inset
 
 .
+ As the reader reads through the following somewhat lengthy introduction,
+ it should become clear to the reader that, along with choosing the right
+ experiment, the right models must be chosen to describe metal binding—each
+ case may require a slightly different approach.
 \end_layout
 
 \begin_layout Standard
@@ -2723,8 +2716,7 @@ glsdesc{koff}
 
 .
  All the equilibria reactions that concern the interaction of metal ions
- with proteins are happening in water, thus one should define a new constant
- – 
+ with proteins are happening in water, thus one should define a new constant—
 \begin_inset ERT
 status open
 
@@ -2866,7 +2858,7 @@ gls{Kex}
 
 \end_inset
 
- do not change making the 
+ does not change making the 
 \begin_inset ERT
 status open
 
@@ -2880,7 +2872,7 @@ gls{Ka}
 \end_inset
 
  constant.
- Due to this fact in biochemistry 
+ Due to this fact in biochemistry, 
 \begin_inset ERT
 status open
 
@@ -3152,7 +3144,7 @@ noprefix "false"
 
 \end_inset
 
-, however have different form (equation 
+, however, have different form (equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Ka_ML1L2"
@@ -3203,20 +3195,6 @@ end{equation}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-And in 2001, pharmaceutical companies solve many protein crystals that are
- not deposited in the PDB.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
 K_{\text{a}}=\frac{[\text{Me}\text{L}^{1}\text{L}^{2}]}{[\text{Me}]\cdot[\text{L}^{1}]\cdot[\text{L}^{2}]}\label{eq:Ka_ML1L2}
@@ -3237,7 +3215,7 @@ gls{Ka}
 
 \end_inset
 
- definition, thus as well as unit, will change.
+ definition, thus as well as the unit, will change.
  This should be taken into consideration when comparing complexes of various
  stoichiometries.
  Depending on the system the 
@@ -3258,28 +3236,12 @@ gls{Ka}
  
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Along with this somewhat lengthy introduction, it should become clear to
- the reader that with the selection of an appropriate experiment, appropriate
- models should be chosen to describe metal binding – each case may require
- a slightly different approach.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 Direct titration experiments
 \end_layout
 
 \begin_layout Standard
-In direct titrations the only competing 
+In direct titrations, the only competing 
 \begin_inset ERT
 status open
 
@@ -3293,7 +3255,7 @@ gls{Lg}
 \end_inset
 
  for the metal is only water.
- Thus in case of 
+ Thus in the case of the 
 \begin_inset ERT
 status open
 
@@ -3306,7 +3268,7 @@ ce{MeL}
 
 \end_inset
 
- complex the 
+ complex, equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:KaML"
@@ -3343,7 +3305,7 @@ gls{Me}
 
 \end_inset
 
- is equal to sum of protein-bound 
+ is equal to the sum of protein-bound 
 \begin_inset ERT
 status open
 
@@ -3439,7 +3401,7 @@ In situations of tight binding (i.e.,
 \begin_inset Formula $\frac{1}{K_{\text{a}}}<<[L]\Rightarrow\frac{[\text{MeL}]}{[\text{Me]_{\text{t}}}}\rightarrow1$
 \end_inset
 
-, according to the equation 
+, according to equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:MeL/Me_t ratio"
@@ -3449,7 +3411,7 @@ noprefix "false"
 
 \end_inset
 
-) the metals in direct titration is bound to the protein in a manner that
+) the metals in direct titration are bound to the protein in a manner that
  prevents the direct detection of free metal (in case of metals that can
  be observed directly, e.g.
  Fe(II) by 
@@ -3492,7 +3454,7 @@ gls{Lg}
 
 \end_inset
 
- have to compete for the 
+ has to compete for the 
 \begin_inset ERT
 status open
 
@@ -3893,8 +3855,8 @@ Structural methods for the characterization of metal-involved protein-protein
 \end_layout
 
 \begin_layout Standard
-The detailed description of structural methods that are used for characterizatio
-n of the proteins, metal-proteins complexes and 
+The detailed description of structural methods that are used for the characteriz
+ation of the proteins, metal-proteins complexes, and 
 \begin_inset ERT
 status open
 
@@ -3948,12 +3910,12 @@ gls{nmr}
 
 \end_inset
 
- spectroscopy and other, less frequently used techniques.
- Due to the fact that during my PhD project I have utilized some more 'exotic'
+ spectroscopy, and other, less frequently used techniques.
+ Due to the fact that during my PhD project, I have utilized some more `exotic`
  structural methods they are worth mentioning.
- At the outset, it is worth noting that methods used by me during the PhD
- project do not give the precise coordinates of each atom in the protein,
- contrarily to the above mentioned structural methods.
+ At the outset, it is worth noting that the methods used by me during the
+ PhD project do not give the precise coordinates of each atom in the protein,
+ contrary to the above-mentioned structural methods.
  
 \end_layout
 
@@ -3962,7 +3924,7 @@ Small-angle X-ray scattering
 \end_layout
 
 \begin_layout Standard
-Similarly like 
+Similarly, like 
 \begin_inset ERT
 status open
 
@@ -4017,7 +3979,7 @@ Gls{saxs}
 
 \end_inset
 
- is particulary useful for studying large proteins.
+ is particularly useful for studying large proteins.
  The biggest advantage over the X-ray crystallography and 
 \begin_inset ERT
 status open
@@ -4045,7 +4007,7 @@ gls{saxs}
 \end_inset
 
  can be applied to flexible proteins.
- Combination of 
+ The combination of 
 \begin_inset ERT
 status open
 
@@ -4058,7 +4020,7 @@ gls{saxs}
 
 \end_inset
 
- with other biophysical techniques allow for understanding of the shape
+ with other biophysical techniques allows for the understanding of the shape
  and dynamics of the protein.
  Although 
 \begin_inset ERT
@@ -4073,7 +4035,7 @@ gls{saxs}
 
 \end_inset
 
- itself is blind to the metal ions it can be a helpful tool for the description
+ itself is blind to metal ions it can be a helpful tool for the description
  of protein dynamics 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4082,7 +4044,7 @@ literal "true"
 
 \end_inset
 
- (or its lack 
+ (or its lack—
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -4257,9 +4219,19 @@ Gls{xanes}
 \end_inset
 
  can be used to determine the oxidation state of metal ions in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
 \backslash
-glspl{mprotein}, which can provide valuable information about their function
- and reactivity.
+glspl{mprotein}
+\end_layout
+
+\end_inset
+
+, which can provide valuable information about their function and reactivity.
 \end_layout
 
 \begin_layout Standard
@@ -4335,7 +4307,6 @@ name "subsec:Biophysical-tools-for"
 \end_layout
 
 \begin_layout Standard
-The 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -4355,11 +4326,11 @@ noprefix "false"
 \end_inset
 
  is a short introduction to the equilibria-related calculations, that are
- necessary to obtain the accurate values, that can be later compared to
- other known affinities, which should give those values a biological context.
+ necessary to obtain accurate values, that can be later compared to other
+ known affinities, which should give those values a biological context.
  However, to be able to calculate anything one requires data, this Subsection
- is devoted to description of some methods that can produce the data for
- those calculations.
+ is devoted to the description of some methods that can produce the data
+ for those calculations.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4380,20 +4351,11 @@ Gls{SEC}
 \end_inset
 
  is one of the first liquid chromatography techniques developed to investigate
- protein-protein interactions 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Top-Down Proteomics C.
- Boone, J.
- Adamec, in Proteomic Profiling and Analytical Chemistry (Second Edition),
- 2016
-\end_layout
-
-\begin_layout Plain Layout
-10.2.1.3 Size-Exclusion Chromatography
-\end_layout
+ protein–protein interactions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Boone2016"
+literal "true"
 
 \end_inset
 
@@ -4412,7 +4374,7 @@ Gls{SEC}
 \end_inset
 
  separates the molecules based on their size (thus on the molecular weight).
- With properly calibrated 
+ With a properly calibrated 
 \begin_inset ERT
 status open
 
@@ -4425,12 +4387,12 @@ gls{SEC}
 
 \end_inset
 
- column it is possible to approximate the weight of the investigated protein
+ column, it is possible to approximate the weight of the investigated protein
  or protein complex.
- Provided the change of the complexes molecular weight is considerable it
- is possible to measure the binding.
- In case of homodimerization the molecular weight of the complex is twice
- as big as the monomeric protein thus making 
+ Provided the change in the complexes' molecular weight is considerable
+ it is possible to measure the binding.
+ In the case of homodimerization, the molecular weight of the complex is
+ twice as big as the monomeric protein thus making 
 \begin_inset ERT
 status open
 
@@ -4444,9 +4406,9 @@ gls{SEC}
 \end_inset
 
  an ideal solution for the detection.
- However in a theoretical case of heterodimerization of macromolecule with
- a small peptide, assuming that the binding does not induce huge conformational
- change in the macromolecule 
+ However, in a theoretical case of heterodimerization of a macromolecule
+ with a small peptide, assuming that the binding does not induce a huge
+ conformational change in the macromolecule 
 \begin_inset ERT
 status open
 
@@ -4477,7 +4439,7 @@ gls{SEC}
 
 \end_inset
 
-, however in case of weak binding the lack of appropriate metal ions in
+, however, in case of weak binding the lack of appropriate metal ions in
  the running buffers may cause the dissociation of the metal-protein complexes.
  To circumvent this inconvenience, the separation on 
 \begin_inset ERT
@@ -4492,7 +4454,7 @@ gls{SEC}
 
 \end_inset
 
- can be run in a metal-ion buffers (
+ can be run in metal-ion buffers (
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -4539,18 +4501,16 @@ gls{SEC}
 \end_inset
 
  can be calculated using the area under the peaks corresponding to the various
- protein fractions,
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-kocyła
-\end_layout
+ protein fractions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kocya2018a"
+literal "true"
 
 \end_inset
 
- however it should be noted that the observed peaks are not literally in
- an equilibrium.
+, however, it should be noted that the observed peaks are not literally
+ in an equilibrium.
 \end_layout
 
 \begin_layout Standard
@@ -4675,7 +4635,7 @@ gls{SEC}
 shape
 \emph default
  and hydrodynamic radius – the latter is often correlated with the molecular
- weight of the particle, however the shape is not necessarily correlated.
+ weight of the particle, however, the shape is not necessarily correlated.
  Thus the application of 
 \begin_inset ERT
 status open
@@ -4716,18 +4676,15 @@ gls{SEC}
 
 \end_inset
 
- column calibration.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-jakas cytacja
-\end_layout
+ column calibration 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Minton2016"
+literal "true"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4747,7 +4704,7 @@ Gls{cd}
 
 \end_inset
 
- can be used in determination of 
+ can be used in the determination of 
 \begin_inset ERT
 status open
 
@@ -4774,23 +4731,20 @@ glsdesc{cd}
 
 \end_inset
 
- it is possible to evaluate the secondary structure of the protein (or peptide)
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728378/#:~:text=Circular%20dichroism%2
-0(CD)%20is%20an%20excellent%20method%20for%20rapidly%20evaluating,right%2Dhanded
-%20circularly%20polarized%20light.
-\end_layout
+, it is possible to evaluate the secondary structure of the protein (or
+ peptide) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Greenfield2007"
+literal "true"
 
 \end_inset
 
 , folding and binding, provided that a change in the secondary structure
  of the protein is observed.
- The direct titration of protein with a metal ion, provided the tight affinities
- can show the ratio of binding.
- For example 
+ The direct titration of protein with a metal ion provided tight affinities
+ that can show the ratio of binding.
+ For example, 
 \begin_inset ERT
 status open
 
@@ -4818,7 +4772,7 @@ gls{cd}
 
  (
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset CommandInset ref
@@ -4835,10 +4789,10 @@ noprefix "false"
 
 \end_inset
 
-), due to the tight-binding it is possible to plot the ellipticity at chosen
- wavelength in the Zn(II)/protein function, and observe the specific turning
- point at Zn(II)/protein=0.5, which together with the rest of the evidence
- suggests the formation of Zn(
+), due to the tight binding it is possible to plot the ellipticity at the
+ chosen wavelength in the Zn(II)/protein function, and observe the specific
+ turning point at Zn(II)/protein=0.5, which together with the rest of the
+ evidence suggests the formation of Zn(
 \begin_inset ERT
 status open
 
@@ -4909,8 +4863,8 @@ Gls{uvvis}
 
 \end_inset
 
- spectrophotometry is an essential method in determination of metal-protein
- stabilities.
+ spectrophotometry is an essential method in thhe determination of a metal–prote
+in stabilities.
  
 \begin_inset ERT
 status open
@@ -4938,18 +4892,15 @@ d
 \emph on
 d
 \emph default
--shell should be called 'loud'.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-http://websites.umich.edu/~jphgroup/XAS_Course/Sydney/CCR-silentmetals.pdf
-\end_layout
+-shell should be called `loud` 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Penner-Hahn2005"
+literal "true"
 
 \end_inset
 
-
+.
 \end_layout
 
 \end_inset
@@ -4995,9 +4946,9 @@ gls{ct}
 
 \end_inset
 
- is a type of electron transition in which electron from donor is transitioned
- to acceptor's orbital.
- In case of thiolates and Zn(II) the 
+ is a type of electron transition in which the electron from the donor is
+ transitioned to the acceptor's orbital.
+ In the case of thiolates and Zn(II) the 
 \begin_inset ERT
 status open
 
@@ -5010,8 +4961,8 @@ gls{lmct}
 
 \end_inset
 
- transition can be observed, which shows that even in case of 'spectroscopically
- quiet' metals 
+ transition can be observed, which shows that even in the case of `spectroscopic
+ally quiet` metals 
 \begin_inset ERT
 status open
 
@@ -5024,7 +4975,7 @@ gls{uvvis}
 
 \end_inset
 
- can be applicable.
+ can be applicable
 \begin_inset Foot
 status collapsed
 
@@ -5058,33 +5009,36 @@ gls{lmct}
 
  bands with the absorption bands of the protein backbone.
  In such cases one can use isostructural probes showing absorption bands
- in a different region, i.e., in case of Zn(II), Co(II) and Cd(II) can be
- used as isostructural spectroscopic probes.
+ in a different region, i.e., in case of Zn(II), Co(II) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kluska2018"
+literal "true"
+
+\end_inset
+
+ and Cd(II) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Freisinger2013"
+literal "true"
+
+\end_inset
+
+ can be used as isostructural spectroscopic probes.
+\end_layout
+
+\end_inset
+
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-chyba cytacja
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vasak1981"
+literal "true"
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1021/bi00513a022
-\end_layout
-
-\end_inset
-
+.
  
 \end_layout
 
@@ -5102,8 +5056,8 @@ gls{cd}
 
 \end_inset
 
- in case of tight-affinities it is possible to determine the binding stoichiomet
-ry from 
+ in case of tight-affinities, it is possible to determine the binding stoichiome
+try from 
 \begin_inset ERT
 status open
 
@@ -5130,20 +5084,18 @@ Gls{uvvis}
 
 \end_inset
 
- can be used as well in competition titration studies, however the ease
+ can be used as well in competition titration studies, however, the ease
  of use of this technique will be dependent on the availability of the proper
- chelating probe.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1016/j.jinorgbio.2015.08.024
-\end_layout
+ chelating probe 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kocya2015"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -5153,7 +5105,7 @@ Isothermal titration calorimetry
 \begin_layout Standard
 Virtually every chemical reaction involves heat change.
  This allows the reaction to be monitored with accurate titration calorimeters.
- Also, metal binding can be monitored using 
+ Also, metal-binding can be monitored using, 
 \begin_inset ERT
 status open
 
@@ -5266,18 +5218,16 @@ noprefix "false"
 
 \end_inset
 
-.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://pubs.acs.org/doi/abs/10.1021/ja209057d
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Burnouf2012"
+literal "true"
 
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -5285,8 +5235,8 @@ Potentiometry
 \end_layout
 
 \begin_layout Standard
-The use of glass electrode in potentiometry allows for quantitative determinatio
-n of the equation 
+The use of the glass electrode in potentiometry allows for the quantitative
+ determination of equation 
 \begin_inset ERT
 status open
 
@@ -5300,7 +5250,7 @@ ref{eq:protonation}
 \end_inset
 
 .
- Of course the general equation 
+ Of course, the general equation 
 \begin_inset ERT
 status open
 
@@ -5388,7 +5338,7 @@ end{equation}
 \end_inset
 
 Potentiometry still is the gold standard for the determination of complexes
- stabilities, however it should be noted that all proton-related equilibria
+ stabilities, however, it should be noted that all proton-related equilibria
  should be taken into account while calculating the 
 \begin_inset ERT
 status open
@@ -5414,7 +5364,7 @@ Fluorescence-based techniques
 \end_layout
 
 \begin_layout Standard
-Fluorescence based techniques for determination of metal-protein complexes
+Fluorescence-based techniques for determination of metal-protein complexes
  affinities can be divided into two categories:
 \end_layout
 
@@ -5441,17 +5391,15 @@ label-free techniques
  the direct titration with metal may be applied.
  However, if the intrinsic fluorescence is lacking the label-based techniques
  may be applied, or a competition titration with a appropriate fluorescent
- probe (e.g, FluoZin-3 for Zn(II) , mag-fura-2 for Mg(II), etc.), 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cytacja molecular probes
-\end_layout
+ probe (e.g, FluoZin-3 for Zn(II) , mag-fura-2 for Mg(II), etc.) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "johnson2010molecular"
+literal "true"
 
 \end_inset
 
-
+, 
 \end_layout
 
 \begin_layout Standard
@@ -5473,8 +5421,8 @@ label-based techniques
 
 \end_inset
 
-, may use recombinant proteins of interest with fluorescent proteins to
- measure properties like fluorescence, 
+ may use recombinant proteins of interest with fluorescent proteins to measure
+ properties like fluorescence, 
 \begin_inset ERT
 status open
 
@@ -5489,17 +5437,15 @@ gls{FRET}
 
 , fluorescence anisotropy and fluorescence anisotropy decay.
  Except from the heterologous expression of recombinated proteins, proteins
- of interests may be labeled by chemical means.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-gdzieś cytacja
-\end_layout
+ of interests may be labeled by chemical means 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Qiao2006"
+literal "true"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -5543,7 +5489,7 @@ gls{BLI}
 \end_inset
 
  measurement techniques provide label-free detection, due to the real-time
- monitoring and the fact that the mesurement consists of both association
+ monitoring and the fact that the measurement consists of both association
  and dissociation step it is possible to measure the kinetics of the interaction.
  The measurement of 
 \begin_inset ERT
@@ -5603,9 +5549,9 @@ noprefix "false"
 
 \end_inset
 
-) and loading of the protein on the surface.
+) and the loading of the protein on the surface.
  While this method may be useful for investigation of heteromeric complexes
- (i.e.,
+ (i.e., 
 \begin_inset ERT
 status open
 
@@ -5618,7 +5564,7 @@ ce{MeL^1_xL^2_y}
 
 \end_inset
 
- ), it seems to be non ideal in case of the homomeric complexes (i.e.
+ ), it seems to be non-ideal in the case of the homomeric complexes (i.e.
  
 \begin_inset ERT
 status open
@@ -5632,8 +5578,8 @@ ce{MeL_x}
 
 \end_inset
 
-), or in case where individual components from the heterocomplex dimerize
- as a result of metal binding (e.g.
+), or in the case where individual components from the heterocomplex dimerize
+ as a result of metal-binding (e.g.
  zinc mediated 
 \begin_inset ERT
 status open
@@ -5740,7 +5686,7 @@ gls{BLI}
 
 \end_inset
 
- is possible by determination of 
+ is possible by the determination of 
 \begin_inset ERT
 status open
 

@@ -247,12 +247,6 @@ chapter*{#1}%
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "app:bibliography"
-
-\end_inset
-
 
 \end_layout
 

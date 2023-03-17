@@ -167,7 +167,586 @@ Brief history and bibliometric data
 \end_layout
 
 \begin_layout Standard
-Something
+The work on the 
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Kocyla2021"
+literal "true"
+
+\end_inset
+
+ (
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:Galvanization-of-Protein-Protein"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+), among other things, included the preparation of the data set containing
+ all deposited 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+.
+ To manipulate 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pdb}
+\end_layout
+
+\end_inset
+
+ files, and filter for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glspl{zppi}
+\end_layout
+
+\end_inset
+
+ I have used the 
+\family typewriter
+BioPython
+\family default
+ library 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cock2009"
+literal "true"
+
+\end_inset
+
+.
+ My primary school art teacher used to say 
+\begin_inset Quotes eld
+\end_inset
+
+If something is for everything, it's really for nothing.
+\begin_inset Quotes erd
+\end_inset
+
+, the similar is with 
+\family typewriter
+BioPython
+\family default
+, which has a wide range of tools used in bioinformatics, however, the offered
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{api}
+\end_layout
+
+\end_inset
+
+ is rather clumsy in use, and 
+\family typewriter
+BioPython 
+\family default
+itself lacks some more advanced functions to handle 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pdb}
+\end_layout
+
+\end_inset
+
+ files.
+ Combined with the restructuration of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+ search 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{api}
+\end_layout
+
+\end_inset
+
+ and often questions from Ania Kocyła if the data set is ready I knew that
+ the next project that will involve data from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+ will have to offer an easier in use libraries.
+ Around this time a new 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{python}
+\end_layout
+
+\end_inset
+
+ library emerged that allowed for efficient and easy 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pdb}
+\end_layout
+
+\end_inset
+
+ file parsing—
+\family typewriter
+atomium
+\family default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ireland2020"
+literal "true"
+
+\end_inset
+
+, which allowed for easy manipulation with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pdb}
+\end_layout
+
+\end_inset
+
+ files, building a better logic behind the database, and making the whole
+ process scalable.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+tu może coś więcej napisać?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The article describing InterMetalDB was accepted and published only after
+ minor revision in the 
+\shape italic
+Journal of Proteome Research
+\emph on
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{if}
+\end_layout
+
+\end_inset
+
+ of 
+\shape default
+\emph default
+5.370
+\shape italic
+\emph on
+, March 6, 2023) in 2021, and to date (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+) the article was cited 
+\shape default
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pycode}[sessionA]
+\end_layout
+
+\begin_layout Plain Layout
+
+from scholarly import scholarly
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num2words = {1: 'one',
+\end_layout
+
+\begin_layout Plain Layout
+
+             2: 'two',
+\end_layout
+
+\begin_layout Plain Layout
+
+             3: 'three',
+\end_layout
+
+\begin_layout Plain Layout
+
+             4: 'four',
+\end_layout
+
+\begin_layout Plain Layout
+
+             5: 'five',
+\end_layout
+
+\begin_layout Plain Layout
+
+             6: 'six',
+\end_layout
+
+\begin_layout Plain Layout
+
+             7: 'seven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             8: 'eight',
+\end_layout
+
+\begin_layout Plain Layout
+
+             9: 'nine',
+\end_layout
+
+\begin_layout Plain Layout
+
+             10: 'ten',
+\end_layout
+
+\begin_layout Plain Layout
+
+             11: 'eleven',
+\end_layout
+
+\begin_layout Plain Layout
+
+             12: 'twelve',
+\end_layout
+
+\begin_layout Plain Layout
+
+             13: 'thirteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             14: 'fourteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             15: 'fifteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             16: 'sixteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             17: 'seventeen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             18: 'eighteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             19: 'nineteen',
+\end_layout
+
+\begin_layout Plain Layout
+
+             20: 'twenty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             30: 'thirty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             40: 'forty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             50: 'fifty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             60: 'sixty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             70: 'seventy',
+\end_layout
+
+\begin_layout Plain Layout
+
+             80: 'eighty',
+\end_layout
+
+\begin_layout Plain Layout
+
+             90: 'ninety',
+\end_layout
+
+\begin_layout Plain Layout
+
+             0: 'zero'}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+def n2w(n):
+\end_layout
+
+\begin_layout Plain Layout
+
+    try:
+\end_layout
+
+\begin_layout Plain Layout
+
+        return (num2words[n])
+\end_layout
+
+\begin_layout Plain Layout
+
+    except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+        try:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ((num2words[n-n % 10]) + ' ' + (num2words[n % 10].lower()))
+\end_layout
+
+\begin_layout Plain Layout
+
+        except KeyError:
+\end_layout
+
+\begin_layout Plain Layout
+
+            return ('Number out of range')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+search_query = scholarly.search_single_pub(
+\end_layout
+
+\begin_layout Plain Layout
+
+    'InterMetalDB: A Database and Browser of Intermolecular Metal Binding
+ Sites in Macromolecules with Structural Information')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+num_citations = search_query['num_citations']
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+if num_citations <= 10:
+\end_layout
+
+\begin_layout Plain Layout
+
+    print(f' {n2w(num_citations)} times.')
+\end_layout
+
+\begin_layout Plain Layout
+
+else:
+\end_layout
+
+\begin_layout Plain Layout
+
+    print(f' {num_citations} times.')
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pycode}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://scholar.google.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -208,7 +787,7 @@ noprefix "false"
 
 \end_inset
 
-) .
+).
  The first systematic review of metal ions bound at protein-protein 
 \begin_inset ERT
 status open
@@ -231,8 +810,8 @@ literal "true"
 \end_inset
 
 , next, similar article (which was in part my creation) was published seven
- years later, however the article was concerning only intermolecularly bound
- Zn(II) ions.
+ years later, however, the article was concerning only intermolecularly
+ bound Zn(II) ions.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -244,7 +823,7 @@ literal "true"
  This stands in opposition to studies devoted to complexes with stoichiometry
  of 1:1 – similar database surveys, generally concerning Zn(II)
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Probably due to its unique properties and abundance in 
@@ -425,16 +1004,16 @@ glspl{interface}
  metal ions bound at the interface.
  By doing so InterMetalDB fills the free niche, that was left unoccupied
  for a long time.
- Because the process of data acquisition, analysis and presentation is automated
- it does require little or no human intervention.
+ Because the process of data acquisition, analysis, and presentation is
+ automated it does require little or no human intervention.
  The biggest issue with this approach is the fact that it is not possible
  to filter out adventitiously bound metal ions
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
-One of many sources of adventitious metal ions in the structure may be buffer
- used during the protein crystallization.
+One of many sources of adventitious metal ions in the structure may be a
+ buffer used during the protein crystallization.
 \end_layout
 
 \end_inset
