@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -74,7 +74,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -105,34 +105,21 @@ pdfbookmark[0]{Publications}{publications}
 \end_layout
 
 \begin_layout Chapter*
-Publications
+Publikacje
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
+Niektóre pomysły i idee pojawiły się wcześniej w następujących publikacjach:
+\end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-% I have used Mendeley, which has problems exporting ą, ę, and uses wrong,
- cedilla versions of those
-\end_layout
-
-\begin_layout Plain Layout
-
-% this script changes 
-\backslash
-c{a} and 
-\backslash
-c{e} to 
-\backslash
-k{a} and 
-\backslash
-k{e}, respectively
+% I have used Zotero, which has problems with exporting citations of websites,
+ this script repairs % bibliographies, as well as solves problems with i
 \end_layout
 
 \begin_layout Plain Layout
@@ -184,15 +171,6 @@ ExplSyntaxOff
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-Some ideas and figures have appeared previously in the following publications:
 \end_layout
 
 \begin_layout Standard

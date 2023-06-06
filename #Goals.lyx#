@@ -124,10 +124,7 @@ glink{mppi}{międzyczasteczkowymi miejscami wiązania jonów metali (MPPI,
 
 \end_inset
 
- zainspirowała mnie unikalna domena haczyka wiążąca jon Zn(II) z
-\begin_inset space ~
-\end_inset
-białka
+ zainspirowała mnie unikalna domena haczyka wiążąca jon Zn(II) z białka
  
 \begin_inset ERT
 status open
@@ -146,13 +143,7 @@ gls{rad}
 
 \begin_layout Standard
 Pierwszym celem badań było przedstawienie przeglądu międzycząsteczkowo związanyc
-h
-\begin_inset space ~
-\end_inset
-jonów Zn(II) dostępnych w
-\begin_inset space ~
-\end_inset
-
+h jonów Zn(II) dostępnych w 
 \begin_inset ERT
 status open
 
@@ -183,21 +174,12 @@ gls{zppi}
 
 \end_inset
 
-, a
-\begin_inset space ~
-\end_inset
-następnie ręcznej ocenie istotności fizjologicznej otrzymanych struktur.
+, a następnie ręcznej ocenie istotności fizjologicznej otrzymanych struktur.
 \end_layout
 
 \begin_layout Standard
 Drugim celem, rozwinięciem pierwszego pomysłu, było zapewnienie swobodnie
- i
-\begin_inset space ~
-\end_inset
-łatwo dostępnej informacji o
-\begin_inset space ~
-\end_inset
-wszystkich 
+ i łatwo dostępnej informacji o wszystkich 
 \begin_inset ERT
 status open
 
@@ -210,10 +192,7 @@ gls{mppi}
 
 \end_inset
 
- zdeponowanych w
-\begin_inset space ~
-\end_inset
-
+ zdeponowanych w 
 \begin_inset ERT
 status open
 
@@ -227,16 +206,11 @@ gls{rcsb}
 \end_inset
 
 .
- W
-\begin_inset space ~
-\end_inset
-tym celu stworzyłem InterMetalDB, używając biblioteki 
+ W tym celu stworzyłem InterMetalDB, używając biblioteki 
 \family typewriter
 atomium
 \family default
-
-\begin_inset space ~
-\end_inset
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Ireland2020"
@@ -258,10 +232,7 @@ gls{django}
 \end_inset
 
 .
- Usługa, jak i
-\begin_inset space ~
-\end_inset
-otwarty 
+ Usługa, jak i otwarty 
 \begin_inset ERT
 status open
 
@@ -280,10 +251,7 @@ gls{code}
 \begin_layout Standard
 Trzecim celem (który zainspirował sformułowanie dwóch poprzednich pomysłów)
  mojego projektu doktoranckiego była charakterystyka biofizyczna domeny
- haczyka cynkowego z
-\begin_inset space ~
-\end_inset
-ludzkiego białka 
+ haczyka cynkowego z ludzkiego białka 
 \begin_inset ERT
 status open
 
@@ -310,10 +278,7 @@ gls{rad}
 
 \end_inset
 
-, występuje w
-\begin_inset space ~
-\end_inset
-kompleksie rdzeniowym 
+, występuje w kompleksie rdzeniowym 
 \begin_inset ERT
 status open
 
@@ -326,14 +291,8 @@ gls{mr}
 
 \end_inset
 
-, którego przedstawiciele są znajdowani w
-\begin_inset space ~
-\end_inset
-każdej domenie życia—kluczowym
- kompleksie zaangażowanym w
-\begin_inset space ~
-\end_inset
-odpowiedź na uszkodzenia 
+, którego przedstawiciele są znajdowani w każdej domenie życia—kluczowym
+ kompleksie zaangażowanym w odpowiedź na uszkodzenia 
 \begin_inset ERT
 status open
 
@@ -347,10 +306,7 @@ gls{dna}
 \end_inset
 
 .
- U
-\begin_inset space ~
-\end_inset
-eukariontów kompleks rdzenia 
+ U eukariontów kompleks rdzenia 
 \begin_inset ERT
 status open
 
@@ -363,10 +319,7 @@ gls{mr}
 
 \end_inset
 
- jest stabilizowany i
-\begin_inset space ~
-\end_inset
-regulowany przez dodatkowego partnera interakcji—
+ jest stabilizowany i regulowany przez dodatkowego partnera interakcji—
 \begin_inset ERT
 status open
 
@@ -392,10 +345,7 @@ gls{xrs}
 
 \end_inset
 
- w
-\begin_inset space ~
-\end_inset
-
+ w 
 \begin_inset ERT
 status open
 
@@ -408,10 +358,7 @@ gls{sc}
 
 \end_inset
 
-), tworząc w
-\begin_inset space ~
-\end_inset
-ten sposób kompleks 
+), tworząc w ten sposób kompleks 
 \begin_inset ERT
 status open
 
@@ -425,10 +372,7 @@ gls{mrn}
 \end_inset
 
 .
- Konserwatywna domena haczyka cynkowego w
-\begin_inset space ~
-\end_inset
-
+ Konserwatywna domena haka cynkowego w 
 \begin_inset ERT
 status open
 
@@ -495,10 +439,7 @@ gls{rad}
 
 \end_inset
 
-, co jest bezpośrednio związane z
-\begin_inset space ~
-\end_inset
-funkcjonowaniem całego kompleksu 
+, co jest bezpośrednio związane z funkcjonowaniem całego kompleksu 
 \begin_inset ERT
 status open
 
@@ -525,10 +466,7 @@ gls{mrn}
 \end_inset
 
 ).
- Charakterystyka biofizyczna domeny haczyka cynkowego z
-\begin_inset space ~
-\end_inset
-ludzkiego białka
+ Charakterystyka biofizyczna domeny haczyka cynkowego z ludzkiego białka
  
 \begin_inset ERT
 status open
@@ -543,22 +481,13 @@ gls{rad}
 \end_inset
 
  obejmowała poznanie jej powinowactwa do jonu Zn(II) formy niefosforylowanej,
- jak i
-\begin_inset space ~
-\end_inset
-ufosforylowanej na reszcie treoniny 690, oraz opis zależności między
- sekwencją, strukturą i
-\begin_inset space ~
-\end_inset
-powinowactwem do jonu Zn(II).
+ jak i ufosforylowanej na reszcie treoniny 690, oraz opis zależności między
+ sekwencją, strukturą i powinowactwem do jonu Zn(II).
 \end_layout
 
 \begin_layout Standard
 Ostatnim celem badań było zbadanie, potencjalnie szkodliwego, wpływu nieprawidło
-wego wysycenia toksycznymi jonami metali ciężkich na haczyk cynkowy z
-\begin_inset space ~
-\end_inset
-
+wego wysycenia toksycznymi jonami metali ciężkich na haczyk cynkowy z 
 \begin_inset ERT
 status open
 
@@ -572,14 +501,8 @@ gls{rad}
 \end_inset
 
 .
- Dokonano tego poprzez zbadanie wpływu Hg(II) i
-\begin_inset space ~
-\end_inset
-Ag(I) domenę pochodzącą
- z
-\begin_inset space ~
-\end_inset
-
+ Dokonano tego poprzez zbadanie wpływu Hg(II) i Ag(I) na haczyk cynkowy
+ z 
 \begin_inset ERT
 status open
 
@@ -607,11 +530,8 @@ gls{rad}
 
 .
  Moim celem było przeprowadzenie badań nad haczykiem cynkowym, skupiając
- się głównie na jego właściwościach termodynamicznych.
- Powinowactwo jonów Hg(II) i
-\begin_inset space ~
-\end_inset
-Ag(I) do domeny haczyka cynkowego 
+ się głównie na jego właściwościach termodynamicznych, powinowactwo jonów
+ Hg(II) i Ag(I) do domeny haczyka cynkowego 
 \emph on
 oszacowałem 
 \emph default

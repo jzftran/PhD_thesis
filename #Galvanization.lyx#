@@ -1559,7 +1559,7 @@ asparaginianów.
 
 , 
 \begin_inset Marginal
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Jednoliterowy kod tych aminokwasów i
@@ -1578,7 +1578,7 @@ CHED
 \begin_inset Quotes prd
 \end_inset
 
-
+.
 \begin_inset space ~
 \end_inset
 
@@ -1590,8 +1590,17 @@ literal "true"
 
 \end_inset
 
-.
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+nie wiem czy tu poprawnie these używam.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2407,7 +2416,7 @@ noprefix "false"
 
 \end_inset
 
-)
+).
 \begin_inset space ~
 \end_inset
 
@@ -2419,7 +2428,7 @@ literal "true"
 
 \end_inset
 
-.
+
 \begin_inset Note Note
 status open
 

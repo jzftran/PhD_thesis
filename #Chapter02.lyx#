@@ -959,7 +959,7 @@ literal "true"
 
 \end_inset
 
- wykluczyła fizjologiczne istnienie miejsc wiążących Zn(II) z
+ wykluczyli fizjologiczne istnienie miejsc wiążących Zn(II) z
 \begin_inset space ~
 \end_inset
 
@@ -976,7 +976,7 @@ gls{cn}
 
 \end_inset
 
- większych niż siedem
+ wyższych niż siedem.
 \begin_inset space ~
 \end_inset
 
@@ -988,7 +988,6 @@ literal "true"
 
 \end_inset
 
-.
  Najczęściej miejsca wiążące Zn(II) (w 
 \begin_inset ERT
 status open
@@ -1289,7 +1288,7 @@ tworzeniu odrębnych domen białkowych (np.
 \begin_inset space ~
 \end_inset
 
-strukturalnych miejscach cynkowych
+strukturalnych miejscach cynkowych.
 \begin_inset space ~
 \end_inset
 
@@ -1301,7 +1300,7 @@ literal "true"
 
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1836,9 +1835,9 @@ literal "true"
 
 \end_inset
 
-.
+ .
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 odnośnik do figury pokazujący mu kb i

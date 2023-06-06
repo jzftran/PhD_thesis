@@ -1,16 +1,13 @@
 #LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+\lyxformat 539
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass classicthesis
-\begin_preamble
-
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language polish
+\language american
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -25,7 +22,7 @@
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
-\use_dash_ligatures true
+\use_dash_ligatures false
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -46,18 +43,15 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine biblatex
+\cite_engine natbib
 \cite_engine_type numerical
 \biblio_style plainnat
-\biblatex_bibstyle numeric-comp
-\biblatex_citestyle numeric-comp
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -67,8 +61,7 @@
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
-\math_numbering_side default
-\quotes_style polish
+\quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -95,195 +88,41 @@ thispagestyle{empty}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill*
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-myName
-\end_layout
-
-\end_inset
-
-: 
-\shape italic
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-myTitle
-\end_layout
-
-\end_inset
-
-,
-\shape default
  
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mySubtitle
-\end_layout
-
-\end_inset
-
-, 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcopyright
-\end_layout
-
-\end_inset
-
-
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-myTime
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Comment
-status collapsed
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
+
+
+\backslash
+pdfbookmark[0]{Declaration}{declaration}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Declaration
+\end_layout
+
+\begin_layout Standard
+Put your declaration here.
 \begin_inset VSpace bigskip
 \end_inset
 
 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-spacedlowsmallcaps{Supervisors}: 
-\backslash
-
-\backslash
-
 \end_layout
 
-\end_inset
+\begin_layout Standard
+\noindent
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-myProf 
-\backslash
-
-\backslash
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-myOtherProf 
-\backslash
-
-\backslash
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mySupervisor
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset VSpace medskip
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-spacedlowsmallcaps{Location}: 
-\backslash
-
-\backslash
-
-\end_layout
-
-\end_inset
-
-
+\shape italic
 \begin_inset ERT
 status open
 
@@ -296,33 +135,7 @@ myLocation
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset VSpace medskip
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-spacedlowsmallcaps{Time Frame}: 
-\backslash
-
-\backslash
-
-\end_layout
-
-\end_inset
-
-
+, 
 \begin_inset ERT
 status open
 
@@ -337,6 +150,56 @@ myTime
 
 
 \end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features tabularvalignment="middle">
+<column alignment="none" valignment="middle" width="5cm">
+<row>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+myName
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 

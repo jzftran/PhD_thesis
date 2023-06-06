@@ -15,7 +15,7 @@
 % See ClassicThesis.pdf for more information.
 % ****************************************************************************************************
 \PassOptionsToPackage{
-	drafting=true,      % print version information on the bottom of the pages
+	drafting=false,      % print version information on the bottom of the pages
 	tocaligned=false,   % the left column of the toc will be aligned (no indentation)
 	dottedtoc=false,    % page numbers in ToC flushed right
 	parts=true,         % use part division
@@ -34,8 +34,8 @@
 % ****************************************************************************************************
 % 2. Personal data and user ad-hoc commands
 % ****************************************************************************************************
-\newcommand{\myTitle}{TITLE\xspace}
-\newcommand{\mySubtitle}{Doctoral dissertation\xspace}
+\newcommand{\myTitle}{Analiza bioinformatyczna, strukturalna i~funkcjonalna międzybiałkowych miejsc wiązania jonów Zn(II)\xspace}
+\newcommand{\mySubtitle}{Praca doktorska\xspace}
 \newcommand{\myDegree}{Magister (mgr)\xspace}
 \newcommand{\myName}{Józef Tran\xspace}
 \newcommand{\myProf}{Artur Krężel\xspace}
@@ -45,8 +45,8 @@
 \newcommand{\myDepartment}{Zakład Chemii Biologicznej\xspace}
 \newcommand{\myUni}{Uniwersytet Wrocławski\xspace}
 \newcommand{\myLocation}{Wrocław\xspace}
-\newcommand{\myTime}{Marzec 2023\xspace}
-\newcommand{\myVersion}{v1.0}
+\newcommand{\myTime}{Maj 2023\xspace}
+\newcommand{\myVersion}{v1.3}
 
 % There is a problem using ę and ą with Mendeley, ę was expressed as \c{e}, ą as \c{a}
 \renewcommand{\c}{\k}
@@ -54,7 +54,7 @@
 \DeclareUnicodeCharacter{0327}{0328}
 \DeclareUnicodeCharacter{2032}{$\prime$}
 
-\DeclareUnicodeCharacter{0301}{Q}
+% \DeclareUnicodeCharacter{0301}{◌́◌́}
 
 
 
@@ -86,19 +86,22 @@
 % Package to use Python code in the thesis 
 \usepackage[gobble=auto]{pythontex}
 \def \thesispath{"C:\string\Users\string\makro\string\Desktop\string\PhD"}
-
+% 
 
 \usepackage{newpxtext,newpxmath}
 \useosf
 \usepackage{textgreek}
 \usepackage[version=4]{mhchem}
 
+
+
 \hyphenation{mon-o-meric}
 \hyphenation{en-donu-cle-olytic}
 \hyphenation{Cho-rą-żew-ska}
 \hyphenation{cha-ra-kte-ry-sty-ka}
+\hyphenation{za-cho-wa-nie}
 
-
+\babelprovide[transforms = oneletter.nobreak]{polish} 
 
 %*****************************************************************************************************
 % Colors
@@ -108,474 +111,510 @@
 % Glossary
 % ****************************************************************************************************
 % \usepackage[acronym]{glossaries}
+\usepackage[automake,nolist,nopostdot,sort=standard,acronym,]{glossaries}
 
-
-
-\usepackage[automake,nolist,nopostdot,sort=use,acronym,]{glossaries}
-
-
-
-
+% \setlength{\glsdescwidth}{\glsdescwidth-\glspagelistwidth}
+\setlength{\glsdescwidth}{\glsdescwidth-6\tabcolsep}
+% glossaries style
 \newglossarystyle{no_indentation_long}{% 
 	\setglossarystyle{long}
 	\renewenvironment{theglossary}%
-	{\begin{longtable}[l]{@{}lp{\glsdescwidth}}}%
+	{\begin{longtable}[l]{@{}p{4cm}p{\glsdescwidth}}}%
 			{\end{longtable}}
 }
 
-
-
-%acronyms
-%akronimy komentarze przykłady, to edytować - pozwala na robienie odnośników
-
 \makeglossaries
-
-%% modsuper glossary display style
-
 
 
 \newglossaryentry{apig}{name={API},
-	description={An Application Programming Interface (API) is a set
-			of rules and protocols that a allows two or more software components
-			to communicate with each other.}}
+	description={Interfejs programowania aplikacji (API) to zestaw
+	zasad i~protokołów, które pozwalają dwóm lub większej ilości komponentów oprogramowania
+	na komunikację między sobą.}
+	}
 
 \newglossaryentry{api}{type=\acronymtype, name={API},
-	description={Application
-			Programming Interface, \glsseeformat[Glossary:]{apig}{}},
-	first={Application Programming Interface (API)\glsadd{apig}}}
+	description={interfejs programowania aplikacji (ang. Application
+			Programming Interface), \glsseeformat[Słownik terminów:]{apig}{}},
+	first={interfejs programowania aplikacji  (API, ang. Application
+	Programming Interface)\glsadd{apig}}
+	}
 
 
 
 
 \newglossaryentry{ppi}{type=\acronymtype, name={PPI},
-	description={Protein-Protein Interaction},
-	first={Protein-Protein Interaction (PPI)},
+	description={interakcja białko--białko (ang. protein--protein interaction)},
+	first={interakcja białko-białko (PPI, ang. protein--protein interaction)},
 	plural={PPIs},
-	descriptionplural={Protein-Protein Interactions},
-	firstplural={Protein-Protein Interactions (\glsentryplural{ppi})}}
+	descriptionplural={interakcje białko--białko (ang. protein--protein interactions)},
+	firstplural={interakcje białko--białko (\glsentryplural{ppi}, ang. protein--protein interactions)}
+	}
 
 
 
-\newglossaryentry{proteome}{name={proteome},
-	description={A proteome is the complete set of poroteins
-			that can or are expressed by an organism.},}
+\newglossaryentry{proteome}{name={proteom},
+	description={Proteom to kompletny zestaw białek,
+	które mogą być lub są wyrażane przez organizm.}
+	}
 
 \newglossaryentry{htsg}{name={HTS},
-	description={High-throughput screening is a application
-			of robotics followed by data processing to test large
-			number of samples.}}
+	description={Badania przesiewowe o wysokiej wydajności to zastosowanie
+	robotyki, a~następnie przetwarzania danych do badania dużej
+	liczby próbek.}
+	}
 
 \newglossaryentry{hts}{type=\acronymtype, name={HTS},
-	description={High-Throughput Screening, \glsseeformat[Glossary:]{htsg}{}},
-	first={High-Throughput Screening (HTS)\glsadd{htsg}},
-	firstplural ={High-Throughput Screenings (HTSs)\glsadd{htsg}} }
+	description={badania przesiewowe o wysokiej wydajności  (ang. high-throughput screening, \glsseeformat[Słownik terminów:]{htsg}{})},
+	first={badania przesiewowe o wysokiej wydajności (HTS, ang. high-throughput screening) \glsadd{htsg}},
+	firstplural ={badania przesiewowe o wysokiej wydajności (HTS, ang. high-throughput screening))\glsadd{htsg}} 
+	}
 
-\newglossaryentry{interface}{name={interface},
-	description={A shared surface between two or more components.
-			Interface in \gls{ppi} is made of residues of a protein that
-			contact with residues from another interacting partner. Sometimes
-			interfaces may include additional interaction partners, e.g. protein cofactors
-			and ligands.}}
+\newglossaryentry{interface}{name={interfejs},
+	description={Wspólna powierzchnia pomiędzy dwoma lub wiekszą ilością komponentów (np. cząsteczkami).
+	W przypadku białek powierzchnia oddziaływania składa się z~reszt aminokwasowych, które
+	stykają się z~resztami innego partnera interakcji. Czasami
+	interfejsy międzybiałkowe mogą zawierać dodatkowych partnerów interakcji, np. kofaktory białkowe
+	i~ligandy.}
+	}
 
 \newglossaryentry{zppig}{name={ZPPI},
-	description={Zn(II)-involved \glsdesc{ppi} is a protein-protein interaction
-			in which a vital role is played by Zn(II)},}
+	description={Interakcja białko--białko z~udziałem Zn(II)
+	 jest interakcją w której kluczową rolę odgrywa jon Zn(II).
+	 W tej pracy ZPPI będzie odnosić się głównie do interfejsów
+	 tworzonych poprzez kokoordynację jonu Zn(II) przez dwie lub
+	 więcej makromolekuł.}
+	}
 
 \newglossaryentry{zppi}{type=\acronymtype, name={ZPPI},
-	description={Zn(II)-involved \glsdesc{ppi}, \glsseeformat[Glossary:]{zppig}{}},
-	first={Zn(II)-involved \glsdesc{ppi} (ZPPI)\glsadd{zppig}},
+	description={interakcja białko--białko z~udziałem Zn(II) (ang. Zn(II)-involved protein--protein interaction), \glsseeformat[Słownik terminów:]{zppig}{}},
+	first={interakcja białko--białko z~udziałem Zn(II) (ZPPI, ang. Zn(II)-involved protein--protein interaction)\glsadd{zppig}},
 	plural={ZPPIs},
-	descriptionplural={Zn(II)-involved \glsdescplural{ppi}},
-  firstplural={Zn(II)-involved \glsdescplural{ppi} (\glsentryplural{zppi})}}
+	descriptionplural={interakcje białko--białko z~udziałem Zn(II) (ang. Zn(II)-involved protein--protein interactions)},
+  firstplural={interakcje białko--białko z~udziałem Zn(II) (ang. Zn(II)-involved protein--protein interactions) (\glsentryplural{zppi})}
+  }
 
 
 \newglossaryentry{mppig}{name={MPPI},
-description={Metal-involved \glsdesc{ppi} is a protein-protein interaction
-		in which a vital role is played by a metal},}
+description={Interakcja białko--białko z~udziałem metalu jest
+ interakcją w której kluczową rolę odgrywa jon metalu.
+ W tej pracy MPPI będzie odnosić się głównie do interfejsów
+ tworzonych poprzez kokoordynację jonu metalu przez dwie lub
+ więcej makromolekuł.}
+}
 
-\newglossaryentry{mppi}{type=\acronymtype, name={MPPI},
-description={Metal-involved \glsdesc{ppi}, \glsseeformat[Glossary:]{mppig}{}},
-first={Metal-involved \glsdesc{ppi} (MPPI)\glsadd{mppig}},
+\newglossaryentry{mppi}{type=\acronymtype, 
+name={MPPI},
+description={interakcja białko--białko z~udziałem metalu (ang. metal-involved protein--protein interaction), \glsseeformat[Słownik terminów:]{mppig}{}},
+first={interakcja białko--białko z~udziałem metalu (MPPI, ang. metal-involved protein--protein interaction) (MPPI)\glsadd{mppig}},
 plural={MPPIs},
-descriptionplural={Metal-involved \glsdescplural{ppi}},
-firstplural={Metal-involved \glsdescplural{ppi} (\glsentryplural{mppi})}}
-
-
-
-
-
-
-\newglossaryentry{cry}{type=\acronymtype, name={CRY1},
-	description={Cryptochrome 1},
-	first={Cryptochrome 1 (CRY1)},
-}
-
-\newglossaryentry{per}{type=\acronymtype, name={PER2},
-	description={Period 2},
-	first={Period 2 (PER2)}
+descriptionplural={interakcje białko--białko z~udziałem metalu (ang. metal-involved protein--protein interactions)},
+firstplural={interakcje białko--białko z~udziałem emtalu (ang. metal-involved protein--protein interactions)}
 }
 
 
-\newglossaryentry{freezn}{name={free Zn(II)},
-	description={Available, loosely bound Zn(II) ion.},}
 
-\newglossaryentry{rcsb}{type=\acronymtype, name={RCSB PDB},
+
+
+\newglossaryentry{cry}{type=\acronymtype,
+	name={CRY1},
+	description={białko kryptochrom 1 (ang. cryptochrome 1)},
+	first={białko kryptochrom 1 (CRY1, ang. cryptochrome 1)},
+}
+
+\newglossaryentry{per}{type=\acronymtype,
+	name={PER2},
+	description={białko period 2},
+	first={ białko period 2 (PER2)}
+}
+
+
+\newglossaryentry{freezn}{
+	name={wolny Zn(II)},
+	description={Frakcja jonów cynku, która jest labilna kinetycznie i~luźno związana (np. z~cząsteczkami wody lub niskoczasteczkowymi ligandami), a nie ściśle związana z~makrocząsteczkami---wolny Zn(II) jest dostępny dla makrocząsteczek. W~literaturze spotykane są synonimy: labilny Zn(II), wymienialny Zn(II), biodostępny Zn(II).}
+	}
+
+\newglossaryentry{rcsb}{type=\acronymtype,
+name={RCSB PDB},
 description={Research Collaboratory for Structural Bioinformatics Protein Data Bank},
 first={Research Collaboratory for Structural Bioinformatics \gls{pdb} (RCSB \gls{pdb})}
 }
 
 \newglossaryentry{UniProt}{name={UniProt},
-description={The Universal Protein Resource (UniProt) is a database of
-protein sequence and annotation data.},
+description={Universal Protein Resource (UniProt) to baza danych zawierająca
+dane dotyczących sekwencji i~adnotacji białek.},
 }
 
 
 \newglossaryentry{pdb}{type=\acronymtype, name={PDB},
-description={Protein Data Bank or Protein Data Bank file type},
+description={Protein Data Bank lub typ pliku Protein Data Bank},
 first={Protein Data Bank (PDB)}
 }
 
 \newglossaryentry{ascii}{type=\acronymtype, name={ASCII},
-description={American Standard Code for Information Interchange},
-first={American Standard Code for Information Interchange (ASCII)}
+description={Amerykański Standardowy Kod Wymiany Informacji
+(ang. American Standard Code for Information Interchange)},
+first={Amerykański Standardowy Kod Wymiany Informacji
+ (ASCII, ang. American Standard Code for Information Interchange)}
 }
 
 \newglossaryentry{html}{type=\acronymtype, name={HTML},
-description={HyperText Markup Language},
-first={HyperText Markup Language (HTML)}
+description={hipertekstowy język znaczników (ang. HyperText Markup Language)},
+first={hipertekstowy język znaczników (HTML, ang. HyperText Markup Language)}
 }
 
 
-\newglossaryentry{python}{name={\texttt{Python}},
-	description={Python is a high-level, object-oriented programming
-	language, often used in scientific community.},}
+\newglossaryentry{python}{name={Python},
+	description={Python jest wysokopoziomowym, obiektowym językiem programowania
+	często używanym w środowisku naukowym.}}
 
 
 
 
 \newglossaryentry{sql}{type=\acronymtype,
-name={\texttt{SQL}},
-description={\texttt{Structured Query Language}},
-first={\texttt{{Structured Query Language}} (\texttt{SQL})},
+name={SQL},
+description={strukturalny język zapytań (ang. Structured Query Language)},
+first={strukturalny język zapytań (SQL, ang. Structured Query Language)} 
 }
 
-\newglossaryentry{django}{name={\texttt{Django}},
-	description={Django is a high-level Python-based web framework.},}
 
-\newglossaryentry{bassembly}{name={biological assembly},
-description={The biological assembly is the arrangement of macromolecules
-in space that is believed or proved to be the functional form of the molecule.
-The biological assembly may be a part of the \gls{asunit}, as well as \gls{asunit} may contain one
-or more copies of the biological assembly.},
-plural = {biological assemblies}}
+\newglossaryentry{django}{name={Django},
+	description={Django to wysokopoziomowa platforma programistyczna służąca do rozwoju aplikacji internetowych opartych na języku Python.}
+	}
 
-\newglossaryentry{asunit}{name={asymmetric unit},
-description={The asymmetric unit is the basic unit ot a crystal structure. After application
-symmetry operations to the asymmetric unit it is possible to generate the unit cell, which duplicated and translated can produce the whole crystal.},}
+\newglossaryentry{bassembly}{name={złożenie biologiczne},
+description={Złożenie biologiczne to układ makrocząsteczek
+	w przestrzeni, co do którego uważa się lub udowodniono, że jest funkcjonalną formą cząsteczki.
+	Złożenie biologiczne może być częścią jednostki asymetrycznej, jak również jednostka asymetryczna może zawierać jedną lub więcej kopii złożenia biologicznego.},
+plural = {złożenia biologiczne}
+}
 
-\newglossaryentry{code}{name={source code},
-description={Source code is the set of instuctions written using programming language (e.g. \gls{python}.)},}
+\newglossaryentry{asunit}{name={jednostka asymetryczna},
+description={Jednostka asymetryczna jest podstawową jednostką struktury krystalicznej. Po zastosowaniu
+operacji symetrii na jednostce asymetrycznej można wygenerować komórkę krystalizacji, która powielona i~przełożona może dać obraz całego kryształu.}
+}
 
-\newglossaryentry{fold}{name={protein fold},
-description={Definition of a protein fold is arbitrary and depending on a context.
-Generally protein fold is usually understood as a comon shape for proteins.}}
+\newglossaryentry{code}{name={kod źródłowy},
+description={Kod źródłowy to zbiór instrukcji napisanych za pomocą języka programowania (np. za pomocą języka Python).}
+}
+
+\newglossaryentry{fold}{name={zwinięcie białkowe},
+description={Definicja zwinięcia białkowego jest bardzo ogólna i~zależy od kontekstu.
+Zwykle termin "zwinięcie białkowe" jest rozumiany jako wspólny kształt dla białek (lub domen białkowych).
+Przykładem może być zwinięcie globinowe lub zwinięcie Rossmanna.}
+}
 
 
 
 \newglossaryentry{radg}{name={Rad50},
-description={Components of the \gls{mrn} complex.
-The complex plays a key role in \gls{dsb} repair.}}
+description={Komponent kompleksu MRN(X). Kluczowego kompleksu biorącego udział w naprawie DSB.}
+}
 
 \newglossaryentry{rad}{type=\acronymtype,
 	name={Rad50},
-	description={DNA repair protein Rad50, \glsseeformat[Glossary:]{radg}{}},
-	first={DNA repair protein Rad50 (Rad50)\glsadd{radg}},
+	description={białko naprawy DNA Rad50, \glsseeformat[Słownik terminów:]{radg}{}},
+	first={białko naprawy DNA (Rad50)\glsadd{radg}},
 }
 
 
 \newglossaryentry{mrng}{name={MRN(X)},
-description={The \gls{mrn} complex plays a key in \gls{dsb} repair.}}
+description={Kompleks składający się z białek Mre11, Rad50, oraz Nbs1 (lub Xrs2).
+MRN(X) odgrywa kluczową rolę w naprawie DSB,
+poprzedzając naprawę na drodze \glslink{nhej}{NHEJ} oraz \glslink{hr}{HR}.}
+}
 
 \newglossaryentry{mrn}{type=\acronymtype,
 name={MRN(X)},
-description={\glslink{mre}{Mre11}-\glslink{rad}{Rad50}-\glslink{nbs}{Nbs1}(\glslink{xrs}{Xrs2}) \glsseeformat[Glossary:]{mrng}{}},
-first={\glslink{mre}{Mre11}-\glslink{rad}{Rad50}-\glslink{nbs}{Nbs1}(\glslink{xrs}{Xrs2}) complex (MRN(X))\glsadd{mrng}},
+description={\glslink{mre}{Mre11}-\glslink{rad}{Rad50}-\glslink{nbs}{Nbs1}(\glslink{xrs}{Xrs2}) \glsseeformat[Słownik terminów:]{mrng}{}},
+first={kompleks \glslink{mre}{Mre11}-\glslink{rad}{Rad50}-\glslink{nbs}{Nbs1}(\glslink{xrs}{Xrs2}) (MRN(X))\glsadd{mrng}},
 }
 
 \newglossaryentry{mr}{type=\acronymtype,
 name={MR},
-description={\glslink{mre}{Mre11}-\glslink{rad}{Rad50} core complex \glsseeformat[Glossary:]{mrg}{}},
-first={\glslink{mre}{Mre11}-\glslink{rad}{Rad50} core complex (MR)\glsadd{mrg}},
+description={kompleks rdzeniowy \glslink{mre}{Mre11}--\glslink{rad}{Rad50} \glsseeformat[Słownik terminów:]{mrg}{}},
+first={kompleks rdzeniowy \glslink{mre}{Mre11}--\glslink{rad}{Rad50} (MR)\glsadd{mrg}},
 }
 
 \newglossaryentry{mrg}{name={MR},
-description={The \gls{mr} core complex acts like \gls{mrn} in Bacteria and Archea, despite the lacking
-\gls{nbs} or \gls{xrs}.}}
+description={Kompleks rdzeniowy \glslink{mre}{Mre11}--\glslink{rad}{Rad50} odgrywa podobne role w bakeriach i~archeonach, pomimo braku \gls{nbs} lub \gls{xrs}.}
+}
 
 
 \newglossaryentry{mreg}{name={Mre11},
-description={Components of the \gls{mrn} complex.
-\Gls{mre} provides both, single-strand endonuclease
-and double-strand-specific 3'-5' exonuclease activity to the \gls{mrn}.}}
+description={Komponent kompleksu \gls{mrn}. Odpowiedzialny za aktywność enzymatycznej jednoniciowej endonukleazy DNA i~specyficznej dla podwójnej nici DNA aktywności egzonukleazy 3'-5'.}
+}
 
 \newglossaryentry{mre}{type=\acronymtype,
 name={Mre11},
-description={Double-strand break repair protein Mre11, \glsseeformat[Glossary:]{mreg}{}},
-first={Double-strand break repair protein Mre11 (Mre11)\glsadd{mreg}},
+description={białko naprawy pęknięć podwójnej nici DNA Mre11, \glsseeformat[Słownik terminów:]{mreg}{}},
+first={białko naprawy pęknięć podwójnej nici DNA Mre11 (Mre11)\glsadd{mreg}},
 }
 
 
 \newglossaryentry{nbsg}{name={Nbs1},
-description={Components of the \gls{mrn} complex.
-\Gls{nbs} modulates the DNA damage repair by recruiting various kinases..}}
+description={Komponent kompleksu \gls{mrn}. Nbs1 moduluje naprawę uszkodzeń DNA poprzez rekrutację różnych kinaz.}
+}
 
 \newglossaryentry{nbs}{type=\acronymtype,
 name={Nbs1},
-description={Nibrin, \glsseeformat[Glossary:]{nbsg}{}},
-first={Nibrin (Nbs1)\glsadd{nbsg}},
+description={nibryna, \glsseeformat[Słownik terminów:]{nbsg}{}},
+first={nibryna (Nbs1)\glsadd{nbsg}},
 }
 
 
 
 \newglossaryentry{xrsg}{name={Xrs2},
-description={Components of the \gls{mrn} complex.
-\Gls{xrs} and \gls{nbs} share little sequence identity.
-\gls{xrs} probably regulates the 5'-3' exonuclease activity of the \gls{mrn} complex.}}
+description={Składnik kompleksu \gls{mrn} w \gls{sc}.
+\Gls{xrs} i~\gls{nbs} mają niewielką identyczność sekwencji,
+\gls{xrs} prawdopodobnie reguluje aktywność 5'-3' egzonukleazy kompleksu \gls{mrn}.}
+}
 
 \newglossaryentry{xrs}{type=\acronymtype,
 name={Xrs2},
-description={DNA repair protein XRS2, \glsseeformat[Glossary:]{xrsg}{}},
-first={DNA repair protein (Xrs2)\glsadd{xrsg}}}
+description={białko naprawy DNA Xrs2, \glsseeformat[Słownik terminów:]{xrsg}{}},
+first={białko naprawy DNA Xrs2 (Xrs2)\glsadd{xrsg}}
+}
 
 \newglossaryentry{dsb}{type=\acronymtype,
 name={DSB},
-description={Double-Strand Break},
-first={Double-Strand Break (DSB)},
+description={przerwanie podwójnej nici (ang. double-strand break)},
+first={przerwanie podwójnej nici (DSB, ang. double-strand break)},
 plural={DSBs},
-descriptionplural={Double-Strand Breaks},
-firstplural={Double-Strand Breaks (\glsentryplural{dsb})}
+descriptionplural={przerwania podwójnej nici (ang. double-strand breaks)},
+firstplural={przerwania podwójnej nici (DSBs, ang. double-strand breaks)}
 }
 
 \newglossaryentry{hs}{type=\acronymtype,
 name={\textit{H. sapiens}},
 description={\textit{Homo sapiens}},
-first={\textit{Homo sapiens} (\textit{H. sapiens})}}
+first={\textit{Homo sapiens} (\textit{H. sapiens})}
+}
 
 \newglossaryentry{pf}{type=\acronymtype,
 name={\textit{P. furiosus}},
 description={\textit{Pyrococcus furiosus}},
-first={\textit{Pyrococcus furiosus} (\textit{P. furiosus})}}
+first={\textit{Pyrococcus furiosus} (\textit{P. furiosus})}
+}
 
 \newglossaryentry{sc}{type=\acronymtype,
 name={\textit{S. cerevisiae}},
 description={\textit{Saccharomyces cerevisiae}},
-first={\textit{Saccharomyces cerevisiae} (\textit{S. cerevisiae})}}
+first={\textit{Saccharomyces cerevisiae} (\textit{S. cerevisiae})}
+}
 
 \newglossaryentry{ec}{type=\acronymtype,
 name={\textit{E. coli}},
 description={\textit{Escherichia coli}},
-first={\textit{Escherichia coli} (\textit{E. coli})}}
+first={\textit{Escherichia coli} (\textit{E. coli})}
+}
 
 \newglossaryentry{cthermo}{type=\acronymtype,
 name={\textit{C. thermophilum}},
 description={\textit{Chaetomium thermophilum}},
-first={\textit{Chaetomium thermophilum} (\textit{C. thermophilum})}}
+first={\textit{Chaetomium thermophilum} (\textit{C. thermophilum})}
+}
 
 
 \newglossaryentry{if}{type=\acronymtype,
 name={IF},
-description={impact factor},
-first={impact factor (IF)}
+description={współczynnik oddziaływania (ang. impact factor)},
+first={współczynnik oddziaływania (ang. impact factor)}
 }
 
 
 \newglossaryentry{cd}{type=\acronymtype,
 name={CD},
-description={Circular Dichroism},
-first={Circular Dichroism (CD)}}
+description={dichroizm kołowy},
+first={dichroizm kołowy (CD, ang. Circular Dichroism)}
+}
 
 \newglossaryentry{saxs}{type=\acronymtype,
 name={SAXS},
-description={Small-angle X-ray scattering},
-first={Small-angle X-ray scattering (SAXS)}}
+description={rozpraszanie promieniowania rentgenowskiego pod małym kątem},
+first={rozpraszanie promieniowania rentgenowskiego pod małym kątem (SAXS, ang. Small-angle X-ray scattering)}
+}
 
 \newglossaryentry{mals}{type=\acronymtype,
 name={MALS},
-description={multiangle light scattering},
-first={multiangle light scattering (MALS)}}
+description={wielokątowe rozpraszanie światła},
+first={wielokątowe rozpraszanie światła (MALS, ang. multiangle light scattering)}
+}
 
 \newglossaryentry{xas}{type=\acronymtype,
 name={XAS},
-description={X-ray absorption spectroscopy},
-first={X-ray absorption spectroscopy (XAS)}}
+description={spektroskopia absorpcji promieniowania rentgenowskiego},
+first={spektroskopia absorpcji promieniowania rentgenowskiego (XAS, ang. X-ray absorption spectroscopy)}
+}
 
 \newglossaryentry{hsabg}{name={HSAB},
-	description={Hard and Soft Acid and Bases principle describes what acids and bases prefer to interact.
-	Soft metal ions (Lewis acids) will preferentially interact with soft Lewis bases, e.g. Hg(II) will
-	preferentially react with thiolates.},}
+	description={Zasada twardych i~miękkich kwasów  i~zasad opisuje, które kwasy i~zasady Lewisa preferują interakcje.
+	Przykładowo miękkie jony metali (kwasy Lewisa) będą preferencyjnie oddziaływać z~miękkimi zasadami Lewisa, np., Hg(II) będzie preferencyjnie reagować z~donorami siarkowymi.}
+	}
 
 \newglossaryentry{hsab}{type=\acronymtype,
 	name={HSAB},
-	description={Hard and Soft Acid and Bases , \glsseeformat[Glossary:]{hsabg}{}},
-	first={Hard and Soft Acid and Bases (HSAB)\glsadd{hsabg}},
+	description={zasada twardych i~miękkich kwasów i~zasad (ang. Hard and Soft Acid and Bases), \glsseeformat[Słownik terminów:]{hsabg}{}},
+	first={zasada twardych i~miękkich kwasów i~zasad (HSAB, ang. Hard and Soft Acid and Bases)\glsadd{hsabg}},
 	}
 
 \newglossaryentry{merr}{type=\acronymtype,
 name={MerR},
-description={Mercuric resistance operon regulatory protein},
-first={Mercuric resistance operon regulatory protein (MerR)},
+description={białko regulacyjne operonu odporności na rtęć},
+first={białko regulacyjne operonu odporności na rtęć (MerR)},
 }
 
 \newglossaryentry{atox}{type=\acronymtype,
 name={ATOX1},
-description={Copper transport protein ATOX1},
-first={Copper transport protein ATOX1 (ATOX1)},
+description={białko transportujące miedź ATOX1},
+first={białko transportujące miedź ATOX1 (ATOX1)},
 }
 
+%!!
 \newglossaryentry{uvvis}{type=\acronymtype,
 name={UV--Vis},
-description={Ultraviolet-Visible},
-first={Ultraviolet-Visible (UV--Vis)}
+description={zakres ultrafioletu i~światła widzialnego},
+first={zakres ultrafioletu i~światła widzialnego (UV--Vis)}
 }
 
 \newglossaryentry{pac}{type=\acronymtype,
 name={PAC},
-description={Perturbed \textgamma-\textgamma\ Angular Correlation},
-first={Perturbed \textgamma-\textgamma\ Angular Correlation (PAC)}
+description={zaburzona korelacja kątowa \textgamma-\textgamma\ (ang. perturbed \textgamma-\textgamma\ angular correlation)},
+first={zaburzona korelacja kątowa \textgamma-\textgamma\ (PAC, ang. perturbed \textgamma-\textgamma\ angular correlation)}
 }
 
 
 
 \newglossaryentry{DTT}{type=\acronymtype,
 name={DTT},
-description={dithiothreitol},
-first={dithiothreitol (DTT)}
+description={DL-ditiotreitol},
+first={DL-ditiotreitol (DTT)}
 }
 
 \newglossaryentry{itc}{type=\acronymtype,
 name={ITC},
-description={Isothermal Titration Calorimetry},
-first={Isothermal Titration Calorimetry (ITC)}
+description={izotermiczna kalorymetria miareczkowa (ang. isothermal titration calorimetry)},
+first={izotermiczna kalorymetria miareczkowa (ITC, ang. isothermal titration calorimetry)}
 }
 
 \newglossaryentry{MS}{type=\acronymtype,
 name={MS},
-description={mass spectrometry},
-first={Mass Spectrometry (MS)}
+description={spektrometria mas},
+first={spektrometria mas (MS)}
 }
 
 \newglossaryentry{dG}{type=\acronymtype,
 name={\textDelta \textit{G}\textdegree},
-description={Gibbs free energy change at standard state},
-first={Gibbs free energy change at standard state (\textDelta \textit{G}\textdegree)}
+description={zmiana energii swobodnej Gibbsa w stanie standardowym},
+first={zmiana energii swobodnej Gibbsa w stanie standardowym (\textDelta \textit{G}\textdegree)}
 }
 
 \newglossaryentry{dH}{type=\acronymtype,
 name={\textDelta \textit{H}\textdegree},
-description={enthalpy change at standard state},
-first={enthalpy change at standard state (\textDelta \textit{H}\textdegree)}
+description={zmiana entalpii w stanie standardowym},
+first={zmiana entalpii w stanie standardowym (\textDelta \textit{H}\textdegree)}
 }
 
 \newglossaryentry{dS}{type=\acronymtype,
 name={\textDelta \textit{S}\textdegree},
-description={entropy change at standard state},
-first={entropy change at standard state (\textDelta \textit{S}\textdegree)}
+description={zmiana entropii w stanie standardowym},
+first={zmiana entropii w stanie standardowym (\textDelta \textit{S}\textdegree)}
 }
 
 \newglossaryentry{T}{type=\acronymtype,
 name={\textit{T}},
-description={absolute temperature},
-first={absolute temperature (\textit{T})}
+description={temperatura bezwzględna},
+first={temperatura bezwzględna (\textit{T})}
 }
 
 \newglossaryentry{K12}{type=\acronymtype,
 name={\textit{K}\textsubscript{12}},
-description={cumulative formation constant of the \glslink{Me}{Me}\glslink{L}{L}\textsubscript{2} complex},
-first={cumulative formation constant of the \glslink{Me}{Me}\glslink{L}{L}\textsubscript{2} complex (\textit{K}\textsubscript{12})}
+description={kumulatywna stała tworzenia się  kompleksu \glslink{Me}{M}\glslink{L}{L}\textsubscript{2} },
+first={kumulatywna stała tworzenia się  kompleksu \glslink{Me}{M}\glslink{L}{L}\textsubscript{2}  (\textit{K}\textsubscript{12})}
 }
 
 \newglossaryentry{Ka}{type=\acronymtype,
 name={\textit{K}\textsubscript{a}},
-description={association constant},
-first={association constant (\textit{K}\textsubscript{a})}
+description={stała asocjacji},
+first={stała asocjacji (\textit{K}\textsubscript{a})}
 }
 
 
 
 \newglossaryentry{Kd}{type=\acronymtype,
 name={\textit{K}\textsubscript{d}},
-description={dissociation constant},
-first={dissociation constant (\textit{K}\textsubscript{d})}
+description={stała dysocjacji},
+first={stała dysocjacji (\textit{K}\textsubscript{d})}
 }
 
 
 \newglossaryentry{Kex}{type=\acronymtype,
 name={\textit{K}\textsubscript{ex}},
-description={constant of exchange},
-first={constant of exchange (\textit{K}\textsubscript{ex})}
+description={stała wymiany},
+first={stała wymiany (\textit{K}\textsubscript{ex})}
 }
 
 \newglossaryentry{koff}{type=\acronymtype,
 name={\textit{k}\textsubscript{off}},
-description={dissociation rate},
-first={dissociation rate (\textit{k}\textsubscript{off})}
+description={kinetyczna stała dysocjacji},
+first={kinetyczna stała dysocjacji (\textit{k}\textsubscript{off})}
 }
 
 \newglossaryentry{kon}{type=\acronymtype,
 name={\textit{k}\textsubscript{on}},
-description={association rate},
-first={association rate (\textit{k}\textsubscript{on})}
+description={kinetyczna stała asocjacji},
+first={kinetyczna stała asocjacji (\textit{k}\textsubscript{on})}
 }
 
 
 
 \newglossaryentry{lmct}{type=\acronymtype,
 name={LMCT},
-description={ligand-metal charge transfer},
-first={ligand-metal charge transfer (LMCT)}
+description={przeniesienie ładunku od liganda do jonu metalu (ang. ligand-metal charge transfer)},
+first={ przeniesienie ładunku od liganda do jonu metalu (LMCT, ang. ligand-metal charge transfer)}
 }
 
 \newglossaryentry{ct}{type=\acronymtype,
 name={CT},
-description={charge transfer},
-first={charge transfer (CT)}
+description={przeniesienie ładunku (ang. charge transfer)},
+first={przeniesienie ładunku (CT, ang. charge transfer)}
 }
 
 
 \newglossaryentry{Me}{type=\acronymtype,
-name={Me},
-description={metal},
-first={metal (Me)}
+name={M},
+description={metal lub jon metalu},
+first={metal lub jon metalu (M)}
 }
 
 \newglossaryentry{Lg}{name={ligand},
-	description={In chemistry ligand is a ion or molecule that act as a Lewis base
-	(see \gls{hsab}) for the molecule or ion (a Lewis acid). Thus interacting
-	with the Lewis acid by a coordination bond.
-	In biochemistry  ligand is understood as a molecule that binds to another
-	(macro)molecule.}}
+	description={W chemii ligand to jon lub cząsteczka, będąca zasadą Lewisa, oddziałująca
+	z~kwasem Lewisa poprzez wiązanie koordynacyjne. (patrz: \gls{hsab}).
+	W biochemii ligand rozumiany jest jako cząsteczka, która wiąże się z~inną
+	(makro)cząsteczką.}
+	}
 
 \newglossaryentry{L}{type=\acronymtype, name={L},
-	description={ligand, \glsseeformat[Glossary:]{Lg}{}},
+	description={ligand, \glsseeformat[Słownik terminów:]{Lg}{}},
 	first={ligand (L) \glsadd{Lg}},
-	descriptionplural ={ligands}}
+	descriptionplural ={ligandy}
+	}
 
 \newglossaryentry{C}{type=\acronymtype, name={C},
-description={competitor},
-first={competitor (C)},
-descriptionplural ={competitors}}
+description={ligand współzawodniczacy (C)},
+first={ligand współzawodniczacy (C)},
+descriptionplural ={ligandy współzawodniczace}
+}
 
 \newglossaryentry{R}{type=\acronymtype,
 name={R},
-description={molar gas constant},
-first={molar gas constant (R)}
+description={molowa stała~gazowa},
+first={molowa stała~gazowa (R)}
 }
 
 \newglossaryentry{agnp}{type=\acronymtype, name={AgNP},
-	description={silver nanoparticle},
-	first={silver nanoparticle (AgNP)},
-	descriptionplural={silver nanoparticles},
-	firstplural = {silver nanoparticles (AgNPs)}
+	description={nanocząstka srebra},
+	first={nanocząstka srebra (AgNP, ang. silver nanoparticle)},
+	descriptionplural={nanocząstki srebra},
+	firstplural = {nanocząstki srebra (AgNPs, ang. silver nanoparticles)}
 	}
 
 \newglossaryentry{hmw}{type=\acronymtype, name={HMW},
@@ -584,252 +623,290 @@ first={high molecular weight (HMW)},
 }
 
 \newglossaryentry{lmw}{type=\acronymtype, name={LMW},
-description={low molecular weight},
-first={low molecular weight (LMW)},
+description={niska masa cząsteczkowa},
+first={niska masa cząsteczkowa (LMW, ang. low molecular weight)},
 }
 
 
 \newglossaryentry{ptmg}{name={PTM},
-	description={Post-translational modification is the covalent (usually enzymatic)
-	modification of protein that is subsequent to the protein biosynthesis.}}
+	description={modyfikacja potranslacyjna to kowalencyjna (zwykle enzymatyczna)
+	modyfikacja białka, która następuje po biosyntezie białka.}
+	}
 
 \newglossaryentry{ptm}{type=\acronymtype, name={PTM},
-	description={post-translational modification, \glsseeformat[Glossary:]{ptmg}{}},
-	first={post-translational modification (PTM) \glsadd{ptmg}},
+	description={modyfikacja potranslacyjna, \glsseeformat[Słownik terminów:]{ptmg}{}},
+	first={modyfikacja potranslacyjna (PTM, ang. post-translational modification) \glsadd{ptmg}},
 	plural={PTMs},
-	descriptionplural={post-translational modifications},
-	firstplural={post-translational modifications (\glsentryplural{ptm})}}
+	descriptionplural={modyfikacje potranslacyjne},
+	firstplural={modyfikacje potranslacyjne (PTMs, ang. post-translational modifications)}
+	}
 
-\newglossaryentry{coenzyme}{name={coenzyme},
-description={Coenzyme is a non-protein organic \gls{cofactor}.}} %https://www.jove.com/science-education/10975/cofactors-and-coenzymes
+\newglossaryentry{coenzyme}{name={koenzym},
+description={Koenzym jest niebiałkowym organicznym kofaktorem.}
+} %https://www.jove.com/science-education/10975/cofactors-and-coenzymes
 
-\newglossaryentry{cofactor}{name={cofactor},
-description={Cofactor is a non-protein chemical compound required for a protein to fulfill its functions.}} 
+\newglossaryentry{cofactor}{name={kofaktor},
+description={Kofaktor to niebiałkowy związek chemiczny, atom lub jon, wymagany aby białko mogło spełniać swoje funkcje.}
+} 
 
-\newglossaryentry{pgroup}{name={prosthetic group},
-description={Prosthetic group is a non-protein compound required for a protein to fulfill its functions,
-however, contrary to the \gls{cofactor} prosthetic group is covalently conjugated with a protein.}} 
+\newglossaryentry{pgroup}{name={grupa prostetyczna},
+description={Grupa prostetyczna to związek niebiałkowy niezbędny do pełnienia przez białko jego funkcji, jednak w przeciwieństwie do kofaktora grupa prostetyczna jest kowalencyjnie związana z~białkiem.}
+} 
 
 
-\newglossaryentry{mprotein}{name={metalloprotein},
-description={metalloprotein is a protein that contain at least one metal ion as a \gls{cofactor} or as a part of \gls{pgroup}.}} 
+\newglossaryentry{mprotein}{name={metalobiałko},
+description={Metalobiałko to białko, które zawiera co najmniej jeden jon metalu jako kofaktor lub jako część grupy prostetycznej.}
+} 
 
 
 \newglossaryentry{atp}{type=\acronymtype, name={ATP},
-	description={adenosine triphosphate},
-	first={adenosine triphosphate (ATP)},
+	description={adenozyno-5$\prime$-trifosforan},
+	first={adenozyno-5$\prime$-trifosforan (ATP)},
 	}
 
 \newglossaryentry{sod}{type=\acronymtype, name={SOD},
-description={superoxide dismutase},
-descriptionplural={superoxide dismutases},
-first={superoxide dismutase (SOD)},
-firstplural={superoxide dismutases (SODs)},
+description={dysmutaza ponadtlenkowa},
+descriptionplural={dysmutaza ponadtlenkowa},
+first={dysmutaza ponadtlenkowa (SOD, ang. superoxide dismutase)},
+firstplural={dysmutazy ponadtlenkowe (SODs, ang. superoxide dismutase)},
 }
 
 \newglossaryentry{dna}{type=\acronymtype, name={DNA},
-	description={deoxyribonucleic acid},
-	first={deoxyribonucleic acid (DNA)},
+	description={kwas deoksyrybonukleinowy},
+	first={kwas deoksyrybonukleinowy (DNA)},
 	}
 
 \newglossaryentry{ssdna}{type=\acronymtype, name={ssDNA},
-description={single-stranded \glslink{dna}{DNA}},
-first={single-stranded \glslink{dna}{DNA} (ssDNA)},
+description={jednoniciowe \glslink{dna}{DNA}},
+first={jednoniciowe \glslink{dna}{DNA} (ssDNA, ang. single-stranded \glslink{dna}{DNA})},
 }
 
 \newglossaryentry{dsdna}{type=\acronymtype, name={dsDNA},
-description={double-stranded \glslink{dna}{DNA}},
-first={double-stranded \glslink{dna}{DNA} (ssDNA)},
+description={dwuniciowe \glslink{dna}{DNA}},
+first={dwuniciowe \glslink{dna}{DNA} (dsDNA, ang. double-stranded \glslink{dna}{DNA})},
 }
 
 \newglossaryentry{ku}{type=\acronymtype, name={Ku},
-description={non-homologous end joining protein Ku},
-first={non-homologous end joining protein Ku (Ku)},
+description={białko łączące niehomologiczne końce Ku},
+first={białko łączące niehomologiczne końce Ku (Ku)},
 }
 
 
 
 \newglossaryentry{ctip}{type=\acronymtype, name={CtiP},
-description={CtBP-interacting protein},
-first={CtBP-interacting protein (CtiP)},
+description={białko oddziałujące z~CtBP},
+first={białko oddziałujące z~ CtBP (CtiP, ang. CtBP-interacting protein)},
 }
 
 \newglossaryentry{sae}{type=\acronymtype, name={Sae2},
-description={DNA endonuclease Sae2},
-first={DNA endonuclease Sae2 (Sae2)},
+description={endonukleaza DNA  Sae2},
+first={endonukleaza DNA  Sae2 (Sae2)},
 }
 
 
 
 \newglossaryentry{ca2}{type=\acronymtype, name={CAII},
-description={carbonic anhydrase II},
-first={carbonic anhydrase II (CAII)},
+description={anhydraza węglowa II},
+first={anhydraza węglowa II (CAII, ang. carbonic anhydrase II)},
 }
 
 \newglossaryentry{zf}{type=\acronymtype, name={ZF},
-description={zinc finger},
-first={zinc finger (ZF)},
-descriptionplural = {zinc fingers},
-firstplural = {zinc fingers	(ZFs)}
+description={palec cynkowy},
+first={palec cynkowy  (ZF, ang. zinc finger)},
+descriptionplural = {palce cynkowe},
+firstplural = {palce cynkowe  (ZFs, ang. zinc fingers)}
 }
 
 
-\newglossaryentry{cn}{type=\acronymtype, name={CN},
-description={coordination number},
-first={coordination number (CN)},
-firstplural={coordination numbers (CNs)},
-plural={CNs},
+\newglossaryentry{cn}{type=\acronymtype, name={LK},
+description={liczba koordynacyjna},
+first={liczba koordynacyjna  (LK)},
+firstplural={liczby koordynacyjna  (LK)},
+plural={LK},
 }
 
 \newglossaryentry{OSETA}{type=\acronymtype,
 name={OSETA},
-description={one single-epitope tag affinity purification},
-first={one single-epitope tag affinity purification (OSETA)}
+description={pojedyncze oczyszczanie powinowactwa ze znacznikiem jedno epitopowym (ang. one single-epitope tag affinity purification)},
+first={pojedyncze oczyszczanie powinowactwa ze znacznikiem jedno epitopowym (OSETA, ang. one single-epitope tag affinity purification)}
 }
 
 \newglossaryentry{TAP}{type=\acronymtype,
 name={TAP},
-description={tandem affinity purification},
-first={tandem affinity purification (TAP)}
+description={tandemowa chromatografia powinowactwa (ang. tandem affinity purification)},
+first={tandemowa chromatografia powinowactwa  (TAP, ang. tandem affinity purification)}
 }
 
 \newglossaryentry{SEC}{type=\acronymtype,
 name={SEC},
-description={size exclusion chromatography},
-first={Size Exclusion Chromatography (SEC)}
+description={chromatografia wykluczania (ang. size exclusion chromatography)},
+first={chromatografia wykluczania (SEC, ang. size exclusion chromatography)}
 }
 
 \newglossaryentry{FRET}{type=\acronymtype,
 name={FRET},
-description={Förster resonance energy transfer},
-first={Förster resonance energy transfer (FRET)}
+description={transfer energii rezonansu Förstera (ang. Förster resonance energy transfer)},
+first={transfer energii rezonansu Förstera (FRET, ang. Förster resonance energy transfer)}
 }
 
 \newglossaryentry{BLI}{type=\acronymtype,
 name={BLI},
-description={Bio-Layer Interferometry},
-first={Bio-Layer Interferometry (BLI)}
+description={interferometria warstwy biologicznej (ang. Bio-Layer Interferometry)},
+first={interferometria warstwy biologicznej (BLI, ang. Bio-Layer Interferometry)}
 }
 
 
 \newglossaryentry{SPR}{type=\acronymtype,
 name={SPR},
-description={Surface plasmon resonance},
-first={Surface plasmon resonance (SPR)}
+description={rezonans plazmonów powierzchniowych (ang. surface plasmon resonance)},
+first={rezonans plazmonów powierzchniowych (SPR, ang. surface plasmon resonance)}
 }
 
 \newglossaryentry{lck}{type=\acronymtype,
 name={Lck},
-description={lymphocyte-specific protein tyrosine kinase},
-first={lymphocyte-specific protein tyrosine kinase (Lck)}
+description={specyficzna dla limfocytów białkowa kinaza tyrozynowa (ang. lymphocyte-specific protein tyrosine kinase)},
+first={specyficzna dla limfocytów białkowa kinaza tyrozynowa (Lck, ang. lymphocyte-specific protein tyrosine kinase)}
 }
 
 \newglossaryentry{cd4}{type=\acronymtype,
 name={CD4},
-description={cluster of differentiation 4},
-first={cluster of differentiation 4 (CD4)}
+description={glikoproteina CD4 (ang. cluster of differentiation 4)},
+first={glikoproteina CD4 (CD4, ang. cluster of differentiation 4)}
 }
 
 
 \newglossaryentry{cd8}{type=\acronymtype,
 name={CD8},
-description={cluster of differentiation 8},
-first={cluster of differentiation 8 (CD8)}
+description={glikoproteina CD8 (ang. cluster of differentiation 8)},
+first={glikoproteina CD8 (CD4, ang. cluster of differentiation 8)}
 }
 
 
 \newglossaryentry{nmr}{type=\acronymtype,
 name={NMR},
-description={nuclear magnetic resonance},
-first={nuclear magnetic resonance (NMR)}
+description={magnetyczny rezonans jądrowy (ang. nuclear magnetic resonance)},
+first={magnetyczny rezonans jądrowy, (NMR, ang. nuclear magnetic resonance)}
 }
 
 \newglossaryentry{cryoem}{type=\acronymtype,
 name={cryoEM},
-description={cryogenic electron microscopy},
-first={cryogenic electron microscopy (cryoEM)}}
+description={kriogeniczna mikroskopia elektronowa (ang. cryogenic electron microscopy)},
+first={kriogeniczna mikroskopia elektronowa (cryoEM, ang. cryogenic electron microscopy)}
+}
 
 
 \newglossaryentry{exafs}{type=\acronymtype,
 name={EXAFS},
-description={extended X-ray absorption fine structure},
-first={extended X-ray absorption fine structure (EXAFS)}}
+description={rozszerzona subtelna struktura  absorpcji promieniowania rentgenowskiego (ang. extended X-ray absorption fine structure)},
+first={rozszerzona subtelna struktura absorpcji promieniowania rentgenowskiego (EXAFS, ang. extended X-ray absorption fine structure)}
+}
 
 \newglossaryentry{xanes}{type=\acronymtype,
 name={XANES},
-description={X-ray absorption near-edge structure},
-first={X-ray absorption near-edge structure (XANES)}}
+description={struktura absorpcji promieniowania rentgenowskiego w pobliżu krawędzi (ang. X-ray absorption near-edge structure)},
+first={struktura absorpcji promieniowania rentgenowskiego w pobliżu krawędzi (XANES, ang. X-ray absorption near-edge structure)}
+}
 
 \newglossaryentry{fsd1}{type=\acronymtype,
 name={FSD-1},
-description={full sequence design},
-first={full sequence design (FSD-1)}}
+description={peptyd Full Sequence Design 1},
+first={peptyd Full Sequence Design 1 (FSD-1)}
+}
 
 \newglossaryentry{zif268}{type=\acronymtype,
 name={Zif268},
-description={Zinc finger-containing transcription factor 268},
-first={Zinc finger-containing transcription factor 268 (Zif268)}}
+description={czynnik transkrypcyjny zawierający palec cynkowy 268 (ang. zinc finger-containing transcription factor 268)},
+first={czynnik transkrypcyjny zawierający palec cynkowy 268 (Zif268, ang. zinc finger-containing transcription factor 268)}
+}
 
 \newglossaryentry{mukb}{type=\acronymtype,
 name={MukB},
-description={chromosome partition protein MukB},
-first={chromosome partition protein MukB (MukB)}}
+description={białko podziału chromosomu MukB},
+first={białko podziału chromosomu MukB (MukB)}
+}
 
 \newglossaryentry{zap1}{type=\acronymtype,
 name={ZAP1},
-description={Zinc-responsive transcriptional regulator ZAP1},
-first={Zinc-responsive transcriptional regulator ZAP1 (ZAP1)}}
+description={regulator transkrypcyjny reagujący na cynk ZAP1},
+first={regulator transkrypcyjny reagujący na cynk ZAP1 (ZAP1)}
+}
 
 
 \newglossaryentry{zrt1}{type=\acronymtype,
 name={ZRT1},
-description={Zinc-regulated transporter 1},
-first={Zinc-regulated transporter 1 (ZRT1)}}
+description={transporter regulowany przez cynk 1 (ang. zinc-regulated transporter 1)},
+first={transporter regulowany przez cynk (ZRT1, ang. zinc-regulated transporter 1)}
+}
 
 \newglossaryentry{zrt2}{type=\acronymtype,
 name={ZRT2},
-description={Zinc-regulated transporter 2},
-first={Zinc-regulated transporter 2 (ZRT2)}}
+description={transporter regulowany przez cynk 2 (ang. zinc-regulated transporter 2)},
+first={transporter regulowany przez cynk (ZRT2, ang. zinc-regulated transporter 2)}
+}
+
 
 \newglossaryentry{zrt3}{type=\acronymtype,
 name={ZRT3},
-description={Zinc-regulated transporter 3},
-first={Zinc-regulated transporter 3 (ZRT3)}}
+description={transporter regulowany przez cynk 3 (ang. zinc-regulated transporter 3)},
+first={transporter regulowany przez cynk (ZRT3, ang. zinc-regulated transporter 3)}
+}
+
 
 \newglossaryentry{zip}{type=\acronymtype,
 name={ZIP},
-description={Zrt-, Irt-like proteins},
-first={Zrt-, Irt-like proteins (ZIP)}}
+description={białka podobne do Zrt i~Irt (ang. Zrt-, Irt-like proteins)},
+first={białka podobne do Zrt i~Irt (ZIP, ang. Zrt-, Irt-like proteins)}
+}
 
 
 \newglossaryentry{nhejg}{name={NHEJ},
-	description={DESCRIPTION}}
+	description={Niehomologiczne łączenie końców, jest ścieżką naprawy przerwania podwójnej nici DNA poprzez ligację końców bez potrzeby istnienia homologicznego wzorca.}}
 
 \newglossaryentry{nhej}{type=\acronymtype, name={NHEJ},
-	description={non-homologous end joining, \glsseeformat[Glossary:]{nhejg}{}},
-	first={non-homologous end joining (NHEJ) \glsadd{nhejg}},
+	description={niehomologiczne łączenie końców (ang. non-homologous end joining), \glsseeformat[Słownik terminów:]{nhejg}{}},
+	first={niehomologiczne łączenie końców (NHEJ, ang. non-homologous end joining) \glsadd{nhejg}},
 	plural={NHEJs},
-	descriptionplural={non-homologous end joining},
-	firstplural={non-homologous end joining (\glsentryplural{nhej})}}
+	descriptionplural={niehomologiczne łączenie końców (ang. non-homologous end joining)},
+	firstplural={niehomologiczne łączenie końców (NHEJs, ang. non-homologous end joining) (\glsentryplural{nhej})}}
 
 
 
 \newglossaryentry{hrg}{name={HR},
-description={DESCRIPTION}}
+description={Homologiczne łączenie końców,
+ jest ścieżką naprawy przerwania podwójnej nici DNA, z~wykorzystaniem
+ siostrzanej chromatydy lub homologicznego chromosomu jako wzorca naprawy.}}
 
 \newglossaryentry{hr}{type=\acronymtype, name={HR},
-	description={homologous recombination, \glsseeformat[Glossary:]{hrg}{}},
-	first={homologous recombination (HR) \glsadd{hrg}},
+	description={rekombinacja homologiczna (ang. homologous recombination) \glsseeformat[Słownik terminów:]{hrg}{}},
+	first={rekombinacja homologiczna (HR, ang. homologous recombination)\glsadd{hrg}},
 	plural={HRs},
-	descriptionplural={homologous recombination},
-	firstplural={homologous recombination (\glsentryplural{hr})}}
+	descriptionplural={rekombinacja homologiczna (HR, ang. homologous recombination)},
+	firstplural={rekombinacja homologiczna (HRs, ang. homologous recombination) }}
 
 
+\newglossaryentry{zn}{type=\acronymtype,
+name={Zn(II)},
+description={cynk(II))},
+first={cynk(II) (Zn(II))}
+}
+
+\newglossaryentry{hg}{type=\acronymtype,
+name={Hg(II)},
+description={rtęć(II))},
+first={rtęć(II) (Hg(II))}
+}
 
 
+\newglossaryentry{ag}{type=\acronymtype,
+name={Ag(I)},
+description={srebro(I)},
+first={srebro(I) (Ag(I))}
+}
 
-%%%% shortcuts
+
+%%%% shortcuts for glossaries
 \newcommand{\gshort}[1]{\glslink{#1}{#1}}
+\newcommand{\glink}[2]{\glslink{#1}{#2}\glsunset{#1}}
 % affinity
 
 % ****************************************************************************************************
@@ -920,6 +997,16 @@ description={DESCRIPTION}}
 		\renewcommand*{\subsectionautorefname}{Section}%
 		\renewcommand*{\subsubsectionautorefname}{Section}%
 	}%
+	\addto\extraspolish{%
+		\renewcommand*{\figureautorefname}{Figura}%
+		\renewcommand*{\tableautorefname}{Tabela}%
+		\renewcommand*{\partautorefname}{Część}%
+		\renewcommand*{\chapterautorefname}{Rozdział}%
+		\renewcommand*{\sectionautorefname}{Sekcja}%
+		\renewcommand*{\subsectionautorefname}{Sekcja}%
+		\renewcommand*{\subsubsectionautorefname}{Sekcja}%
+		\renewcommand*{\equationautorefname}{Równanie}%
+	}%
 	\addto\extrasngerman{%
 		\renewcommand*{\paragraphautorefname}{Absatz}%
 		\renewcommand*{\subparagraphautorefname}{Unterabsatz}%
@@ -938,6 +1025,11 @@ description={DESCRIPTION}}
 % ****************************************************************************************************
 % 7. Further adjustments (experimental)
 % ****************************************************************************************************
+\addto\captionspolish{%
+  \renewcommand{\figurename}{Figura}%
+}
+
+
 % ********************************************************************
 % Changing the text area
 % ********************************************************************

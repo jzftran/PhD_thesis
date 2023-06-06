@@ -4,12 +4,12 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass classicthesis
+\textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language english
 \language_package default
-\inputencoding utf8
+\inputencoding auto
 \fontencoding global
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -26,42 +26,37 @@
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command biber
+\bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
-\use_package esint 0
+\use_package esint 1
 \use_package mathdots 1
 \use_package mathtools 1
 \use_package mhchem 1
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine biblatex
-\cite_engine_type numerical
-\biblio_style plainnat
-\biblio_options backref=true,isbn=false,sorting=nyt,maxbibnames=9
-\biblatex_bibstyle numeric-comp
-\biblatex_citestyle numeric-comp
+\cite_engine basic
+\cite_engine_type default
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 0
+\use_refstyle 1
 \use_minted 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 2
-\tocdepth 2
+\secnumdepth 3
+\tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
@@ -80,19 +75,20 @@
 
 \begin_body
 
-\begin_layout Chapter
-Acta, non verba
-\end_layout
-
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "cha:template"
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{api}
+\end_layout
 
 \end_inset
 
-If I have seen further than others, it is by standing upon the shoulders
- of giants.
+
 \end_layout
 
 \end_body

@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -65,7 +65,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -255,7 +255,7 @@ status open
 
 \begin_layout Plain Layout
 
-%*************************
+%**********************  ***
 \end_layout
 
 \begin_layout Plain Layout
@@ -369,13 +369,17 @@ listoftables
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset VSpace 8ex
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -431,8 +435,15 @@ lstlistoflistings
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-\begin_inset VSpace 8ex
+
+\lang american
+\begin_inset VSpace vfill
 \end_inset
 
 
@@ -583,7 +594,11 @@ phantomsection
 \backslash
 printglossary[type=
 \backslash
-acronymtype, style = no_indentation_long]
+acronymtype, style = no_indentation_long, title={Spis Skrótów}]
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout

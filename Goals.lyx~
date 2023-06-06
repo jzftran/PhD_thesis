@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -65,7 +65,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -80,7 +80,7 @@
 \begin_body
 
 \begin_layout Chapter
-Research aims
+Cele pracy
 \end_layout
 
 \begin_layout Standard
@@ -94,20 +94,38 @@ name "ch:Goals"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+Do podjęcia tematyki badań nad 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-coś tu na początek jeszcze napisać
+
+
+\backslash
+glink{zppi}{międzyczasteczkowymi miejscami wiązania jonów Zn(II) (ZPPI,
+ ang.
+ Zn(II)-involved protein--protein interactions)}
 \end_layout
 
 \end_inset
 
+ oraz 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+glink{mppi}{międzyczasteczkowymi miejscami wiązania jonów metali (MPPI,
+ ang.
+ metal-involved protein--protein interaction)}
 \end_layout
 
-\begin_layout Standard
-The unique zinc binding hook from the 
+\end_inset
+
+ zainspirowała mnie unikalna domena haczyka wiążąca jon Zn(II) z białka
+ 
 \begin_inset ERT
 status open
 
@@ -120,35 +138,12 @@ gls{rad}
 
 \end_inset
 
- protein inspired me to ask questions: how many 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{zppi}
+.
 \end_layout
 
-\end_inset
-
- and 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{mppi}
-\end_layout
-
-\end_inset
-
- are structurally described.
- The first goal of the research was to provide a survey of intermolecularly
- bound Zn(II) ions available in the 
+\begin_layout Standard
+Pierwszym celem badań było przedstawienie przeglądu międzycząsteczkowo związanyc
+h jonów Zn(II) dostępnych w 
 \begin_inset ERT
 status open
 
@@ -162,8 +157,11 @@ gls{rcsb}
 \end_inset
 
 .
- The idea was to algorithmically filter for the physiological candidates
- of 
+ Idea ta polegała na algorytmicznym filtrowaniu dla fizjologicznych 
+\emph on
+kandydatów
+\emph default
+ 
 \begin_inset ERT
 status open
 
@@ -176,12 +174,12 @@ gls{zppi}
 
 \end_inset
 
-, followed by the manual assessement of the validity of the filtered structures.
+, a następnie ręcznej ocenie istotności fizjologicznej otrzymanych struktur.
 \end_layout
 
 \begin_layout Standard
-The second goal, an expansion of the first idea, was to provide freely,
- and easily-available reso urce of all 
+Drugim celem, rozwinięciem pierwszego pomysłu, było zapewnienie swobodnie
+ i łatwo dostępnej informacji o wszystkich 
 \begin_inset ERT
 status open
 
@@ -189,12 +187,12 @@ status open
 
 
 \backslash
-glspl{mppi}
+gls{mppi}
 \end_layout
 
 \end_inset
 
- deposited in the 
+ zdeponowanych w 
 \begin_inset ERT
 status open
 
@@ -208,21 +206,19 @@ gls{rcsb}
 \end_inset
 
 .
- To do I have developed InterMetalDB, using 
+ W tym celu stworzyłem InterMetalDB, używając biblioteki 
 \family typewriter
 atomium
 \family default
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cytacja
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ireland2020"
+literal "true"
 
 \end_inset
 
-and 
+ oraz 
 \begin_inset ERT
 status open
 
@@ -236,7 +232,7 @@ gls{django}
 \end_inset
 
 .
- The service, and its open 
+ Usługa, jak i otwarty 
 \begin_inset ERT
 status open
 
@@ -249,13 +245,13 @@ gls{code}
 
 \end_inset
 
- are available online.
+ są dostępne online.
 \end_layout
 
 \begin_layout Standard
-The third aim (which inspired formulation of two previous ideas) of my doctoral
- project was to perform biophysical characterization of the zinc hook domain
- of the human protein 
+Trzecim celem (który zainspirował sformułowanie dwóch poprzednich pomysłów)
+ mojego projektu doktoranckiego była charakterystyka biofizyczna domeny
+ haczyka cynkowego z ludzkiego białka 
 \begin_inset ERT
 status open
 
@@ -269,7 +265,7 @@ gls{rad}
 \end_inset
 
 .
- 
+ Białko 
 \begin_inset ERT
 status open
 
@@ -277,12 +273,12 @@ status open
 
 
 \backslash
-Gls{rad}
+gls{rad}
 \end_layout
 
 \end_inset
 
- protein, occurs in the 
+, występuje w kompleksie rdzeniowym 
 \begin_inset ERT
 status open
 
@@ -295,7 +291,8 @@ gls{mr}
 
 \end_inset
 
- core complex in every domain of life—a key complex involved in 
+, którego przedstawiciele są znajdowani w każdej domenie życia—kluczowym
+ kompleksie zaangażowanym w odpowiedź na uszkodzenia 
 \begin_inset ERT
 status open
 
@@ -308,8 +305,8 @@ gls{dna}
 
 \end_inset
 
- damage response.
- In eukaryotes 
+.
+ U eukariontów kompleks rdzenia 
 \begin_inset ERT
 status open
 
@@ -322,7 +319,7 @@ gls{mr}
 
 \end_inset
 
- core complex is stabilized and regulated by an additional interaction partner—
+ jest stabilizowany i regulowany przez dodatkowego partnera interakcji—
 \begin_inset ERT
 status open
 
@@ -335,7 +332,7 @@ gls{nbs}
 
 \end_inset
 
- (or 
+ (lub 
 \begin_inset ERT
 status open
 
@@ -348,7 +345,7 @@ gls{xrs}
 
 \end_inset
 
- in 
+ w 
 \begin_inset ERT
 status open
 
@@ -361,7 +358,7 @@ gls{sc}
 
 \end_inset
 
-), forming thus the 
+), tworząc w ten sposób kompleks 
 \begin_inset ERT
 status open
 
@@ -374,8 +371,8 @@ gls{mrn}
 
 \end_inset
 
- complex.
- The conserved zinc hook domain in 
+.
+ Konserwatywna domena haczyka cynkowego w 
 \begin_inset ERT
 status open
 
@@ -388,7 +385,7 @@ gls{rad}
 
 \end_inset
 
- is an example of unique 
+ jest przykładem unikalnego 
 \begin_inset ERT
 status open
 
@@ -401,8 +398,8 @@ gls{zppi}
 
 \end_inset
 
-, where the dimerization is strictly dependent on the Zn(II) ion co-cordination
- by two 
+, gdzie dimeryzacja jest ściśle zależna od współkoordynacji jonów Zn(II)
+ przez dwa protomery 
 \begin_inset ERT
 status open
 
@@ -415,8 +412,8 @@ gls{rad}
 
 \end_inset
 
- protomers.
- The formation of 
+.
+ Tworzenie dimeru 
 \begin_inset ERT
 status open
 
@@ -429,7 +426,7 @@ gls{rad}
 
 \end_inset
 
- dimer is essential for the proper functioning of the 
+ jest niezbędne do prawidłowego funkcjonowania 
 \begin_inset ERT
 status open
 
@@ -442,7 +439,7 @@ gls{rad}
 
 \end_inset
 
-, which is directly related to the functioning of the whole 
+, co jest bezpośrednio związane z funkcjonowaniem całego kompleksu 
 \begin_inset ERT
 status open
 
@@ -468,23 +465,29 @@ gls{mrn}
 
 \end_inset
 
-) complex.
+).
+ Charakterystyka biofizyczna domeny haczyka cynkowego z ludzkiego białka
  
-\begin_inset Note Note
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-coś tu jeszcze napisać
+
+
+\backslash
+gls{rad}
 \end_layout
 
 \end_inset
 
-
+ obejmowała poznanie jej powinowactwa do jonu Zn(II) formy niefosforylowanej,
+ jak i ufosforylowanej na reszcie treoniny 690, oraz opis zależności między
+ sekwencją, strukturą i powinowactwem do jonu Zn(II).
 \end_layout
 
 \begin_layout Standard
-Finally, the last aim of the research was to investigate the potential detriment
-al effect of the mismetallation of the zinc hook from the 
+Ostatnim celem badań było zbadanie, potencjalnie szkodliwego, wpływu nieprawidło
+wego wysycenia toksycznymi jonami metali ciężkich na haczyk cynkowy z 
 \begin_inset ERT
 status open
 
@@ -498,8 +501,8 @@ gls{rad}
 \end_inset
 
 .
- This has been done by investigation of the effect of Hg(II) and Ag(I) on
- the zinc hook from the 
+ Dokonano tego poprzez zbadanie wpływu Hg(II) i Ag(I) domenę pochodzącą
+ z 
 \begin_inset ERT
 status open
 
@@ -526,7 +529,27 @@ gls{rad}
 \end_inset
 
 .
- The choice of the 
+ Moim celem było przeprowadzenie badań nad haczykiem cynkowym, skupiając
+ się głównie na jego właściwościach termodynamicznych, powinowactwo jonów
+ Hg(II) i Ag(I) do domeny haczyka cynkowego 
+\emph on
+oszacowałem 
+\emph default
+za pomocą 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+.
+ Wybór 
 \begin_inset ERT
 status open
 
@@ -552,9 +575,8 @@ gls{rad}
 
 \end_inset
 
- to be the investigation target was the fact that this model is so far best
- characterized model of the zinc hook available.
- 
+ jako modelu dla badań był podyktowany faktem, że domena ta jest jak dotąd
+ najlepiej scharakteryzowanym modelem haczyka cynkowego.
 \end_layout
 
 \end_body

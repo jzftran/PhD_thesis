@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -63,7 +63,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -117,32 +117,32 @@ pdfbookmark[0]{Colophon}{colophon}
 \end_layout
 
 \begin_layout Section*
-Colophon
+Kolofon
 \end_layout
 
 \begin_layout Standard
-This document was typeset using 
+Ten dokument został napisany przy użyciu stylu 
 \family typewriter
 classicthesis
 \family default
- style developed by André Miede.
- The style was inspired by Robert Bringhurst's seminal book on typography
- 
-\emph on
-
-\begin_inset Quotes eld
+ opracowanego przez André Miede.
+ Styl ten został zainspirowany przez owocną książkę Roberta Bringhursta
+ o typografii 
+\begin_inset Quotes pld
 \end_inset
 
 The Elements of Typographic Style
-\begin_inset Quotes erd
+\begin_inset Quotes prd
 \end_inset
 
-
-\emph default
 .
- It is available for \SpecialChar LaTeX
- and \SpecialChar LyX
- at
+ Styl 
+\family typewriter
+classicthesis
+\family default
+ Jest on dostępny dla \SpecialChar LaTeX
+a i \SpecialChar LyX
+a pod adresem
 \begin_inset Separator latexpar
 \end_inset
 
@@ -162,11 +162,15 @@ https://bitbucket.org/amiede/classicthesis/
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\noindent
-Some parts of the manuscript utilize 
+\align block
+Niektóre części manuskryptu wykorzystują język programowania 
 \begin_inset ERT
 status open
 
@@ -179,12 +183,8 @@ gls{python}
 
 \end_inset
 
- for typesetting.
- To do so I have used 
-\family typewriter
-Python
-\family default
-
+ do składu tekstu.
+ W tym celu wykorzystałem Python
 \begin_inset ERT
 status open
 
@@ -199,22 +199,108 @@ TeX
 
 \end_inset
 
- by Geoffrey Poore 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1088/1749-4699/8/1/014010
-\end_layout
+ Geoffreya Poore'a 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "poorePythonTeXReproducibleDocuments2015"
+literal "true"
 
 \end_inset
 
 .
- To retrieve bibliometric data about publications 
+ Aby używać Python
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeX
+\backslash
+
+\end_layout
+
+\end_inset
+
+ w \SpecialChar LyX
+ , udostępniłem funkcję opakowującą opartą na języku Python pod adresem
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/jzftran/pythontex-wrapper.py
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Do pozyskiwania danych bibliometrycznych o publikacjach wykorzystałem 
 \family typewriter
 scholarly
 \family default
- was used.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cholewiakScholarly2023"
+literal "true"
+
+\end_inset
+
+.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Gls{code}
+\end_layout
+
+\end_inset
+
+ tej tezy jest dostępny pod adresem
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/jzftran/PhD_thesis
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -74,7 +74,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -105,38 +105,36 @@ pdfbookmark[0]{Publications}{publications}
 \end_layout
 
 \begin_layout Chapter*
-Publications
+Publikacje
 \end_layout
 
 \begin_layout Standard
-Some ideas and figures have appeared previously in the following publications:
+Niektóre pomysły i
+\begin_inset space ~
+\end_inset
+idee prezentowane w
+\begin_inset space ~
+\end_inset
+niniejszej tezie pojawiły się wcześniej
+ w
+\begin_inset space ~
+\end_inset
+następujących publikacjach, których jestem współautorem:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-% I have used Mendeley, which has problems exporting ą, ę, and uses wrong,
- cedilla versions of those
-\end_layout
-
-\begin_layout Plain Layout
-
-% this script changes 
-\backslash
-c{a} and 
-\backslash
-c{e} to 
-\backslash
-k{a} and 
-\backslash
-k{e}, respectively
+% I
+\begin_inset space ~
+\end_inset
+have used Zotero, which has problems with exporting citations of websites,
+ this script repairs % bibliographies, as well as solves problems with i
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \begin_layout Plain Layout
@@ -148,7 +146,10 @@ ExplSyntaxOn
 
 \begin_layout Plain Layout
 
-% call python script, here I assume the binary name is python
+% call python script, here I
+\begin_inset space ~
+\end_inset
+assume the binary name is python
 \end_layout
 
 \begin_layout Plain Layout
@@ -183,11 +184,6 @@ string.py}
 
 \backslash
 ExplSyntaxOff
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset

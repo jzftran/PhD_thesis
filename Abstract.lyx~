@@ -25,7 +25,7 @@
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \paperfontsize default
@@ -87,6 +87,586 @@ status open
 
 
 \backslash
+pdfbookmark[0]{Streszczenie}{Streszczenie}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Chapter*
+
+\lang polish
+Streszczenie
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Prawie każda makrocząsteczka w
+\begin_inset space ~
+\end_inset
+
+komórce lub żywym organizmie musi przejściowo lub trwale oddziaływać z
+\begin_inset space ~
+\end_inset
+
+innymi cząsteczkami, aby spełnić swoją rolę.
+ Przewiduje się, że około 30–40% tych makrocząsteczek oddziałuje z
+\begin_inset space ~
+\end_inset
+
+jonami metali, przy czym często oddziaływanie to jest niezbędne, aby makrocząste
+czka była biologicznie aktywna.
+ Biorąc pod uwagę te liczby, dziwi fakt, że jak dotąd badania poświęcone
+ charakterystyce sieci oddziaływań białko–białko nie pokrywają się z
+\begin_inset space ~
+\end_inset
+
+badaniami poświęconymi interakcjom metal–białko, pozostawiając obszar przecięcia
+ jako 
+\emph on
+terra incognita
+\emph default
+.
+ Mój interdyscyplinarny projekt doktorski miał dwie fazy.
+ W
+\begin_inset space ~
+\end_inset
+
+pierwszej fazie podjąłem próbę poznania tego nieznanego obszaru badając
+ programowo zasoby 
+\lang american
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rcsb}
+\end_layout
+
+\end_inset
+
+
+\lang polish
+, pod kątem 
+\lang american
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{mppi}{interakcji białko–białko zudziałem metalu (MPPI, ang.
+ metal-involved protein--protein interaction)}
+\end_layout
+
+\end_inset
+
+
+\lang polish
+—a
+\begin_inset space ~
+\end_inset
+
+dokładniej interfejsów białko–białko z
+\begin_inset space ~
+\end_inset
+
+udziałem jonów metali.
+ Drugi etap poświęcony był dokładnej charakterystyce, metodami biofizycznymi,
+ jednego ze szczególnych przypadków 
+\lang american
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{zppi}{ interakcji białko–białko zudziałem jonu cynku (ZPPI, ang.
+ zinc-involved protein--protein interaction)}
+\end_layout
+
+\end_inset
+
+
+\lang polish
+—domeny haczyka cynkowego 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{rad}{białka naprawy DNA (Rad50)}
+\end_layout
+
+\end_inset
+
+, koronnej domeny dla fizjologicznej dimeryzacji białka 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+, a
+\begin_inset space ~
+\end_inset
+
+w konsekwencji niezbędnego do prawidłowego funkcjonowania kluczowego gracza
+ w
+\begin_inset space ~
+\end_inset
+
+odpowiedzi na uszkodzenia 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{dna}{kwasu deoksyrybonukleinowego (DNA)}
+\end_layout
+
+\end_inset
+
+—kompleksu 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{mrn}{Mre11--Rad50--Nbs1(Xrs2) (MRN(X))}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Logika badania została wdrożona przy użyciu języka programowania 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{python}
+\end_layout
+
+\end_inset
+
+.
+ Jeden z
+\begin_inset space ~
+\end_inset
+
+dwóch wygenerowanych w
+\begin_inset space ~
+\end_inset
+
+tym procesie przeglądów przedstawia fizjologiczne
+\begin_inset space ~
+\end_inset
+
+interakcje białko–białko z
+\begin_inset space ~
+\end_inset
+
+udziałem jonu cynku (ewaluowane ręcznie).
+ Drugi przegląd jest stale i
+\begin_inset space ~
+\end_inset
+
+regularnie aktualizowany, ponieważ jest wdrożony jako narzędzie online z
+\begin_inset space ~
+\end_inset
+
+wykorzystaniem platformy programistycznej 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{django}
+\end_layout
+
+\end_inset
+
+—InterMetalDB.
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Drugi etap mojego projektu doktorskiego—biofizyczna charakterystyka haczyka
+ cynkowego z
+\begin_inset space ~
+\end_inset
+
+białka 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ składał się z
+\begin_inset space ~
+\end_inset
+
+dwóch części.
+ Pierwszą częścią było opisanie relacji sekwencja–struktura–stabilność ludzkiego
+ białka 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+.
+ Powstała publikacja jest pierwszym artykułem, opisującym stabilność eukariotycz
+nego 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+, ponadto, według mojej wiedzy, badany kompleks tworzy najbardziej stabilny
+ kompleks cynkowy opisany w
+\begin_inset space ~
+\end_inset
+
+ludzkim 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{proteome}{proteomie}
+\end_layout
+
+\end_inset
+
+.
+ Ludzkie białko 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ jest fosforylowane w
+\begin_inset space ~
+\end_inset
+
+bliskim sąsiedztwie (strukturalnie i
+\begin_inset space ~
+\end_inset
+
+sekwencyjnie) motywu wiążącego jon 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{zn}{cynku(II) (Zn(II))}
+\end_layout
+
+\end_inset
+
+, na reszcie treoniny 690.
+ Pokazałem również, że ze względu na ekstremalną stabilność kompleksu fosforylac
+ja haczyka cynkowego nie może być przełącznikiem kontrolującym stan dimeryzacji
+ białka Rad50 w
+\begin_inset space ~
+\end_inset
+
+warunkach fizjologicznych.
+ Pomimo ekstremalnej stabilności Zn(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang polish
+2
+\end_layout
+
+\end_inset
+
+, kompleks nie jest selektywny wobec Zn(II), który może być zastąpiony jonami
+ metali o
+\begin_inset space ~
+\end_inset
+
+wyższym powinowactwie do haczyka cynkowego.
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Druga część charakterystyki domeny haczyka cynkowego została przeprowadzona
+ z
+\begin_inset space ~
+\end_inset
+
+wykorzystaniem modelowej domeny haczyka cynkowego z
+\begin_inset space ~
+\end_inset
+
+Rad50 pochodzącego z
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+była poświęcona badaniu właściwości strukturalnych, a
+\begin_inset space ~
+\end_inset
+
+także stabilności domeny wysyconej przez toksyczne jony metali ciężkich—
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{hg}{rtęci(II) (Hg(II))}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{ag}{srebra(I) (Ag(I)))}
+\end_layout
+
+\end_inset
+
+.
+ Metale te w
+\begin_inset space ~
+\end_inset
+
+warunkach eksperymentalnych łatwo i
+\begin_inset space ~
+\end_inset
+
+chętnie wypierały Zn(II), co sugeruje, że stabilność powstałych kompleksów
+ była nawet wyższa niż kompleksu cynkowego.
+ Te ekstremalnie wysokie powinowactwa udało mi się oszacować przy użyciu
+ najmniej prawdopodobnej metody—
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{itc}{izotermicznej kalorymetrii miareczkowej (ITC, ang., isothermal
+ titration calorimetry)}
+\end_layout
+
+\end_inset
+
+.
+ Uzyskane wyniki przyczyniają się do zrozumienia 
+\lang american
+oddziaływań typu 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mppi}
+\end_layout
+
+\end_inset
+
+
+\lang polish
+, w
+\begin_inset space ~
+\end_inset
+
+tym oddziaływań typu 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zppi}
+\end_layout
+
+\end_inset
+
+, jak również zależności pomiędzy strukturą i
+\begin_inset space ~
+\end_inset
+
+stabilnością ludzkiego białka 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+, a
+\begin_inset space ~
+\end_inset
+
+także wpływu jonów metali ciężkich na stabilność i
+\begin_inset space ~
+\end_inset
+
+architekturę białka 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ z
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
 pdfbookmark[0]{Abstract}{Abstract}
 \end_layout
 
@@ -108,14 +688,25 @@ Almost every macromolecule in the cell or living organism has to interact
  What is bizarre, given those numbers, is that to date, studies dedicated
  to the characterization of protein–protein networks do not overlap with
  the research devoted to metal–protein interactions, leaving the area of
- intersection a 
+ intersection a
+\begin_inset space ~
+\end_inset
+
+
 \emph on
 terra incognita
 \emph default
 .
  My interdisciplinary doctoral project had two phases.
- During the first phase, I attempted to explore the unknown area programmaticall
-y surveying the 
+ During the first phase, I
+\begin_inset space ~
+\end_inset
+
+attempted to explore the unknown area programmatically
+\begin_inset space ~
+\end_inset
+
+surveying the 
 \begin_inset ERT
 status open
 
@@ -123,7 +714,7 @@ status open
 
 
 \backslash
-gls{rcsb}
+glsdesc{rcsb}
 \end_layout
 
 \end_inset
@@ -136,7 +727,7 @@ status open
 
 
 \backslash
-glspl{mppi}
+glink{mppi}{metal-involved protein--protein interactions (MPPIs)}
 \end_layout
 
 \end_inset
@@ -151,7 +742,7 @@ status open
 
 
 \backslash
-glspl{zppi}
+glink{zppi}{zinc-involved protein--protein interactions (ZPPIs)}
 \end_layout
 
 \end_inset
@@ -164,7 +755,7 @@ status open
 
 
 \backslash
-gls{rad}
+glink{rad}{DNA repair protein Rad50 (Rad50)}
 \end_layout
 
 \end_inset
@@ -204,7 +795,7 @@ status open
 
 
 \backslash
-gls{mrn}
+glink{mrn}{Mre11--Rad50--Nbs1(Xrs2) complex (MRN(X))}
 \end_layout
 
 \end_inset
@@ -305,7 +896,20 @@ gls{rad}
 \end_inset
 
 , moreover, to my knowledge, the investigated complex forms the most stable
- Zn(II)-complex described in the human proteome, so far.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{zn}{zinc(II) (Zn(II))}
+\end_layout
+
+\end_inset
+
+-complex described in the human proteome, so far.
  The human 
 \begin_inset ERT
 status open
@@ -322,8 +926,15 @@ gls{rad}
  is phosphorylated in the near vicinity (structurally and sequentially)
  of the zinc-binding motif, at threonine 690.
  We have determined that, due to the extreme stability of the complex, the
- phosphorylation of the zinc hook cannot be a switch that controls the metallati
-on state of the 
+ phosphorylation of the zinc hook cannot be a
+\begin_inset space ~
+\end_inset
+
+switch that controls the metalation
+\begin_inset space ~
+\end_inset
+
+state of the 
 \begin_inset ERT
 status open
 
@@ -392,15 +1003,7 @@ gls{rad}
 \end_inset
 
  and was devoted to the investigation of the structural, as well as stability
- properties of the mismetallated domain by heavy metal ions—Hg(II) and Ag(I).
- Those metals easily and readily displaced Zn(II) under the experimental
- condition, suggesting that the stabilities of the formed complexes were
- even higher those of the Zn(II)-complex.
- I was able to 
-\emph on
-estimate 
-\emph default
-these unimaginably high affinities using the least likely method—
+ properties of the mismetallated domain by toxic heavy metal ions—
 \begin_inset ERT
 status open
 
@@ -408,7 +1011,45 @@ status open
 
 
 \backslash
-gls{itc}
+glink{hg}{mercury(II) (Hg(II))}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{ag}{silver(I) (Ag(I))}
+\end_layout
+
+\end_inset
+
+.
+ Those metals easily and readily displaced Zn(II) under the experimental
+ condition, suggesting that the stabilities of the formed complexes were
+ even higher those of the Zn(II)-complex.
+ I
+\begin_inset space ~
+\end_inset
+
+was able to 
+\emph on
+estimate 
+\emph default
+these extremely high affinities using the least likely method—
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{itc}{isothermal titration calorimetry (ITC)}
 \end_layout
 
 \end_inset
@@ -459,7 +1100,11 @@ gls{rad}
 \end_inset
 
 , as well as the impact of the heavy metal ions on the stability and architectur
-e of the 
+e
+\begin_inset space ~
+\end_inset
+
+of the 
 \begin_inset ERT
 status open
 
@@ -492,144 +1137,6 @@ gls{pf}.
 \begin_inset VSpace vfill
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-pdfbookmark[0]{Streszczenie}{Streszczenie}
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Chapter*
-
-\lang polish
-Streszczenie
-\end_layout
-
-\begin_layout Standard
-
-\lang polish
-Prawie każda makrocząsteczka w komórce lub żywym organizmie musi przejściowo
- lub trwale oddziaływać z innymi cząsteczkami, aby spełnić swoją rolę.
- Przewiduje się, że około 30-40% tych makrocząsteczek oddziałuje z jonami
- metali, przy czym często oddziaływanie to jest niezbędne, aby makrocząsteczka
- była biologicznie aktywna.
- Biorąc pod uwagę te liczby, dziwi fakt, że jak dotąd badania poświęcone
- charakterystyce sieci oddziaływań białko–białko nie pokrywają się z badaniami
- poświęconymi interakcjom metal–białko, pozostawiając obszar przecięcia
- jako 
-\emph on
-terra incognita
-\emph default
-.
- Mój interdyscyplinarny projekt doktorski miał dwie fazy.
- W pierwszej fazie podjęłam próbę eksploracji nieznanego obszaru programowo
- badając zasoby Research Collaboratory for Structural Bioinformatics Protein
- Data Bank, pod kątem interakcji białko–białko z udziałem metalu—a dokładniej
- interfejsów białko–białko z udziałem jonów metali.
- Drugi etap poświęcony był dokładnej charakterystyce, metodami biofizycznymi,
- jednego ze szczególnych przypadków interakcji białko–białko z udziałem
- jonu cynku—haczyka cynkowego białka naprawczego DNA Rad50, koronnego dla
- fizjologicznej dimeryzacji Rad50, a w konsekwencji niezbędnego do prawidłowego
- funkcjonowania kluczowego gracza w odpowiedzi na uszkodzenia kwasu deoksyrybonu
-kleinowego—kompleksu Mre11–Rad50–Nbs1(Xrs2) (MRN(X)).
-\end_layout
-
-\begin_layout Standard
-
-\lang polish
-Logika badania została wdrożona przy użyciu języka programowania Python.
- Jeden z dwóch wygenerowanych w tym procesie przeglądów przedstawia fizjologiczn
-ych interakcji białko–białko z udziałem jonu cynku (ewaluowane ręcznie).
- Drugi przegląd jest stale i regularnie aktualizowany, ponieważ jest wdrożony
- jako narzędzie online z wykorzystaniem platformy programistycznej 
-\family typewriter
-Django
-\family default
-—InterMetalDB.
-\end_layout
-
-\begin_layout Standard
-
-\lang polish
-Drugi etap mojego projektu doktorskiego—biofizyczna charakterystyka haczyka
- cynkowego z białka Rad50 składał się z dwóch części.
- Pierwszą częścią było opisanie relacji sekwencja–struktura–stabilność ludzkiego
- białka Rad50.
- Powstała publikacja jest pierwszą publikacją, opisującą stabilność eukariotyczn
-ego Rad50, ponadto, według mojej wiedzy, badany kompleks tworzy najbardziej
- stabilny kompleks cynkowy opisany w ludzkim proteomie.
- Ludzkie białko Rad50 jest fosforylowane w bliskim sąsiedztwie (strukturalnie
- i sekwencyjnie) motywu wiążącego cynk, na treoninie 690.
- Pokazałem również, że ze względu na ekstremalną stabilność kompleksu fosforylac
-ja haka cynkowego nie może być przełącznikiem kontrolującym stan dimeryzacji
- białka Rad50 w warunkach fizjologicznych.
- Pomimo ekstremalnej stabilności Zn(Rad50)
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-
-\lang polish
-2
-\end_layout
-
-\end_inset
-
-, kompleks nie jest selektywny wobec Zn(II), który może być zastąpiony jonami
- metali o wyższym powinowactwie do haka cynkowego.
-\end_layout
-
-\begin_layout Standard
-
-\lang polish
-Druga część charakterystyki haczyka cynkowego została przeprowadzona z wykorzyst
-aniem modelowej domeny haczyka cynkowego z Rad50 pochodzącego z 
-\emph on
-z Pyrococcus furiosus 
-\emph default
-(
-\emph on
-P.
- furiosus
-\emph default
-) i była poświęcona badaniu właściwości strukturalnych, a także stabilności
- domeny wysyconej przez jony metali ciężkich—Hg(II) i Ag(I).
- Metale te w warunkach eksperymentalnych łatwo i chętnie wypierały Zn(II),
- co sugeruje, że stabilność powstałych kompleksów była nawet wyższa niż
- kompleksu cynkowego.
- Te niewyobrażalnie wysokie powinowactwa udało mi się oszacować przy użyciu
- najmniej prawdopodobnej metody—izotermicznej kalorymetrii miareczkowej.
- Uzyskane wyniki przyczyniają się do zrozumienia interakcji białko–białko
- z udziałem metalu, w tym interakcji białko–białko z udziałem jonu cynku,
- jak również zależności pomiędzy strukturą i stabilnością ludzkiego białka
- Rad50, a także wpływu jonów metali ciężkich na stabilność i architekturę
- białka Rad50 z 
-\emph on
-P.
- furiosus
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 

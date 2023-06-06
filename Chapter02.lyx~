@@ -10,7 +10,7 @@
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -68,7 +68,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -83,10 +83,10 @@
 \begin_body
 
 \begin_layout Chapter
-Zinc proteome 
+Proteom cynkowy 
 \begin_inset CommandInset label
 LatexCommand label
-name "ch:Zinc proteome"
+name "chap:Zinc proteome"
 
 \end_inset
 
@@ -94,7 +94,7 @@ name "ch:Zinc proteome"
 \end_layout
 
 \begin_layout Section
-Properties of zinc 
+Właściwości cynku
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:properties_of_zinc"
@@ -105,7 +105,10 @@ name "sec:properties_of_zinc"
 \end_layout
 
 \begin_layout Standard
-As have been mentioned in the first sentence of 
+Jak już wspomniano wcześniej (zob.
+
+\begin_inset space ~
+\end_inset
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -124,12 +127,20 @@ noprefix "false"
 
 \end_inset
 
- transition metals have partially filled 
+) metale przejściowe mają częściowo wypełniony orbital 
 \emph on
 d
+\begin_inset space ~
+\end_inset
 \emph default
- orbital, following this definition one cannot classify zinc as a transition
- metal (
+, i
+\begin_inset space ~
+\end_inset
+zgodnie z
+\begin_inset space ~
+\end_inset
+tą definicją nie można zaliczyć cynku do metali przejściowych
+ (
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -149,26 +160,43 @@ noprefix "false"
 \end_inset
 
 ).
- The other definitions of transition metals (i.e.
- as chemical elements in the 
+ Pozostałe definicje metali przejściowych (tj., jako pierwiastków chemicznych
+ w
+\begin_inset space ~
+\end_inset
+bloku 
 \emph on
 d
+\begin_inset space ~
+\end_inset
 \emph default
--block of the periodic table), may include zinc as a transition metal.
- The goal of this subsection is not to discuss whether zinc is a transition
- metal— 
-\begin_inset Quotes eld
+ układu okresowego), mogą obejmować cynk jako metal przejściowy.
+ Celem tego podrozdziału nie jest dyskusja nad tym, czy cynk jest metalem
+ przejściowym—
+\begin_inset Quotes pld
 \end_inset
 
-transition metals
-\begin_inset Quotes erd
+metale przejściowe
+\begin_inset Quotes prd
 \end_inset
 
- is a human concept, people are in the habit of categorizing and dividing,
- however, it does not matter for the chemical and physical properties of
- zinc whether one classifies zinc as a transition metal or not.
- The unique properties of zinc and the reason why chemists discuss where
- to categorize zinc is due to zinc's electron configuration (
+ to pojęcie ludzkie, ludzie mają zwyczaj kategoryzowania i
+\begin_inset space ~
+\end_inset
+dzielenia, jednakże
+ dla właściwości chemicznych i
+\begin_inset space ~
+\end_inset
+fizycznych cynku nie ma znaczenia, czy ktoś
+ sklasyfikuje cynk jako metal przejściowy czy nie.
+ Unikalne właściwości cynku i
+\begin_inset space ~
+\end_inset
+powód, dla którego chemicy dyskutują, gdzie
+ sklasyfikować cynk, wynikają z
+\begin_inset space ~
+\end_inset
+jego konfiguracji elektronowej (
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -187,34 +215,60 @@ noprefix "false"
 
 \end_inset
 
-) – the fully filled 
+)—w pełni wypełnione orbitale 
 \emph on
-d 
+d
+\begin_inset space ~
+\end_inset
 \emph default
-orbitals of zinc are energetically stable, and usually, zinc can lose 
+ cynku są energetycznie stabilne i
+\begin_inset space ~
+\end_inset
+zazwyczaj cynk może stracić tylko elektrony
+ z
+\begin_inset space ~
+\end_inset
+powłoki 
 \emph on
-only
+4s
 \emph default
- 4
+, co prowadzi do powstania stabilnego jonu Zn(II), który jest zupełnie inny
+ niż biologicznie aktywne metale przejściowe.
+ Ta właściwość cynku polegająca na występowaniu tylko w
+\begin_inset space ~
+\end_inset
+jednym stanie utlenienia
+ (2+) uniemożliwia cynkowi bezpośredni udział w
+\begin_inset space ~
+\end_inset
+reakcjach redoks.
+ Natomiast, całkowite wypełnienie orbitali 
 \emph on
-s
+d
+\begin_inset space ~
+\end_inset
 \emph default
- electrons, leading to the formation of stable Zn(II), which is entirely
- different to the biologically active transition metals.
- This property of zinc of occurrence in only one oxidation state (2+) prevents
- zinc from partaking directly in redox reactions\SpecialChar endofsentence
- The total filling of zinc's
- 
+ cynku sprawia, że jest on 
+\begin_inset Quotes pld
+\end_inset
+
+spektroskopowo niemym
+\begin_inset Quotes prd
+\end_inset
+
+ metalem—kompleksy cynku nie mają zwykle koloru.
+ W
+\begin_inset space ~
+\end_inset
+przeciwieństwie do metali, które mają częściowo wypełnione orbitale 
 \emph on
-d 
+d
+\begin_inset space ~
+\end_inset
 \emph default
-orbitals makes zinc a 'spectroscopically quiet' metal – zinc complexes have
- no color.
- Contrary to metals that have partially filled 
-\emph on
-d-
-\emph default
-shells, zinc has almost no spectroscopic signature 
+, cynk nie ma prawie żadnej sygnatury spektroskopowej
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Penner-Hahn2005"
@@ -223,8 +277,28 @@ literal "true"
 \end_inset
 
 .
- This limitation of Zn(II) being redox-inert in biology might produce a
- false view of its use by evolution in proteins.
+ To ograniczenie, że Zn(II) jest redoksowo inertny może wytworzyć fałszywy
+ pogląd na jego wykorzystanie przez procesy ewolucyjne w
+\begin_inset space ~
+\end_inset
+białkach—przeświadczeni
+e, że Zn(II) nie jest zbyt często fizjologicznym 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{cofactor}{kofaktorem}
+\end_layout
+
+\end_inset
+
+ w
+\begin_inset space ~
+\end_inset
+białkach.
 \end_layout
 
 \begin_layout Standard
@@ -299,7 +373,7 @@ name "fig:Bohr-model-diagram-zinc"
 
 \end_inset
 
-Bohr model diagram for of zinc.
+Schemat modelu Bohra dla cynku.
 \end_layout
 
 \end_inset
@@ -313,11 +387,19 @@ Bohr model diagram for of zinc.
 \end_layout
 
 \begin_layout Standard
-Zinc, after iron, is the second most abundant 
+Cynk, po żelazie, jest drugim najobficiej występującym w
+\begin_inset space ~
+\end_inset
+białkach pierwiastkiem
+ bloku 
 \emph on
 d
+\begin_inset space ~
+\end_inset
 \emph default
--block element found in proteins, 
+,
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Andreini2006,Andreini2006a,Andreini2009"
@@ -325,11 +407,15 @@ literal "true"
 
 \end_inset
 
- moreover it is the only 
+ ponadto, jest to jedyny element bloku 
 \emph on
 d
+\begin_inset space ~
+\end_inset
 \emph default
--block element that is found in all classes of enzymes, 
+, który występuje we wszystkich klasach enzymów,
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Vallee1990"
@@ -337,12 +423,57 @@ literal "true"
 
 \end_inset
 
- this is possible due to being a Lewis acid by Zn(II).
+ jest to możliwe, ponieważ Zn(II) jest pośrednim kwasem Lewisa (zgodnie
+ z
+\begin_inset space ~
+\end_inset
+konceptem 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{hsab}
+\end_layout
+
+\end_inset
+
+, zob.
+
+\begin_inset space ~
+\end_inset
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "sec:Zinc-Binding-Sites"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
-In solution Zn(II) ions exist in equilibrium as an octahedral hexaaquo complexes
- ([Zn(H
+W
+\begin_inset space ~
+\end_inset
+roztworze wodnym jony Zn(II) istnieją w
+\begin_inset space ~
+\end_inset
+równowadze jako oktaedryczne kompleksy
+ sześciowodne ([Zn(H
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -369,7 +500,10 @@ O)
 
 \end_inset
 
-) and as a tetrahedral [Zn(H
+) i
+\begin_inset space ~
+\end_inset
+jako tetraedryczne [Zn(H
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -396,8 +530,16 @@ O)
 
 \end_inset
 
-, with equilibrium shifted towards the first one.
- 
+, z
+\begin_inset space ~
+\end_inset
+równowagą przesuniętą w
+\begin_inset space ~
+\end_inset
+kierunku pierwszego jonu.
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Krezel2016"
@@ -405,13 +547,23 @@ literal "true"
 
 \end_inset
 
- Due to the total filling of the
+ Ze względu na całkowite wypełnienie orbitali 
 \emph on
- d 
+d
+\begin_inset space ~
+\end_inset
 \emph default
-orbitals, the transition between the octahedral to tetrahedral coordination
- (typical for complexation by proteins) in the case of zinc does not entail
- an energetic penalty, 
+, przejście pomiędzy koordynacją oktaedryczną a
+\begin_inset space ~
+\end_inset
+tetraedryczną (typową dla
+ kompleksowania przez białka) w
+\begin_inset space ~
+\end_inset
+przypadku Zn(II) nie pociąga za sobą kary
+ energetycznej
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lachenmann2004"
@@ -419,9 +571,15 @@ literal "true"
 
 \end_inset
 
- additionally the release of solvent from the aqua-complex involves an increase
- in degrees of freedom in the system, which is energetically favorable due
- to the increase of 
+, dodatkowo uwolnienie rozpuszczalnika z
+\begin_inset space ~
+\end_inset
+akwakompleksu wiąże się ze wzrostem
+ stopni swobody w
+\begin_inset space ~
+\end_inset
+układzie, co jest korzystne energetycznie ze względu na
+ wzrost 
 \begin_inset ERT
 status open
 
@@ -429,7 +587,7 @@ status open
 
 
 \backslash
-glslink{dS}{entropy change (
+glink{dS}{entropii układu (
 \backslash
 textDelta 
 \backslash
@@ -439,7 +597,9 @@ textit{S})}
 \end_inset
 
 .
- 
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Krezel2016"
@@ -455,12 +615,12 @@ status open
 
 
 \backslash
-Glspl{mprotein}
+glink{mprotein}{Metalobiałka}
 \end_layout
 
 \end_inset
 
- that utilize this unique 
+ które wykorzystują ten unikalny 
 \begin_inset ERT
 status open
 
@@ -468,16 +628,78 @@ status open
 
 
 \backslash
-gls{cofactor}
+glink{cofactor}{kofaktor}
 \end_layout
 
 \end_inset
 
-, are unique as well, and bind this metal ion in an unusual fashion.
+ są również unikalne i
+\begin_inset space ~
+\end_inset
+wiążą ten jon metalu w
+\begin_inset space ~
+\end_inset
+niezwykły sposób.
+\end_layout
+
+\begin_layout Standard
+W
+\begin_inset space ~
+\end_inset
+układach biologicznych Zn(II) może być kompleksowany przez białka, bądź
+ występować jako tzw.
+ pula 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{freezn}{wolnego Zn(II)}
+\end_layout
+
+\end_inset
+
+—kinetycznie i
+\begin_inset space ~
+\end_inset
+termodynamicznie dostępny dla makrocząsteczek jon Zn(II).
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{freezn}{Wolny Zn(II)}
+\end_layout
+
+\end_inset
+
+ w
+\begin_inset space ~
+\end_inset
+układach biologicznych, zarówno w
+\begin_inset space ~
+\end_inset
+cytoplazmie, jak i
+\begin_inset space ~
+\end_inset
+poza komórką, będzie
+ związany z
+\begin_inset space ~
+\end_inset
+łatwo dysocjującymi ligandami, np.
+ cząsteczki wody, ale również mogą to być organiczne i
+\begin_inset space ~
+\end_inset
+nieorganiczne jony.
 \end_layout
 
 \begin_layout Section
-zinc-binding Sites
+Miejsca wiążące cynk
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Zinc-Binding-Sites"
@@ -488,9 +710,12 @@ name "sec:Zinc-Binding-Sites"
 \end_layout
 
 \begin_layout Standard
-Zinc(II) binding proteins are extremely diverse in structure and function.
- Zn(II) is an intermediate Lewis acid in terms of hardness according to
- the 
+Białka wiążące Zn(II) są niezwykle zróżnicowane pod względem struktury i
+\begin_inset space ~
+\end_inset
+ funkcji.
+ Zn(II) jest pośrednim kwasem Lewisa pod względem twardości według konceptu
+ 
 \begin_inset ERT
 status open
 
@@ -503,8 +728,9 @@ gls{hsab}
 
 \end_inset
 
-, theory formulated by Ralph Pearson.
- 
+, teorii sformułowana przez Ralpha Pearsona
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Pearson1963"
@@ -512,11 +738,20 @@ literal "true"
 
 \end_inset
 
- Because of this, Zn(II) can be coordinated by zarówno the sulfur atom of
- the cysteine (a soft Lewis base), the nitrogen atom of the histidine (an
- intermediate Lewis base), as well as by carboxyl anions derived from the
- aspartates and glutamates (a hard Lewis base).
- The most common 
+, z
+\begin_inset space ~
+\end_inset
+tego powodu Zn(II) może być koordynowany zarówno przez atom siarki reszty
+ cysteiny (miękka zasada Lewisa), atom azotu pierścienia imidazolowego reszty
+ histydyny (pośrednia zasada Lewisa), jak i
+\begin_inset space ~
+\end_inset
+przez aniony karboksylowe pochodzące
+ od reszt asparaginianów i
+\begin_inset space ~
+\end_inset
+glutaminianów (twarda zasada Lewisa).
+ Najczęstszym 
 \begin_inset ERT
 status open
 
@@ -524,19 +759,34 @@ status open
 
 
 \backslash
-gls{Lg}
+glink{L}{ligandem}
 \end_layout
 
 \end_inset
 
- found in the zinc-binding sites is cysteine, followed by histidine and
- acidic residues, i.e.
- aspartic acid and glutamic acid 
+ występującym w
+\begin_inset space ~
+\end_inset
+miejscach wiążących cynk jest reszta cysteiny, następnie
+ reszta histydyny i
+\begin_inset space ~
+\end_inset
+reszty kwasowe, tj.
+ pochodzące z
+\begin_inset space ~
+\end_inset
+reszt kwasu asparaginowego i
+\begin_inset space ~
+\end_inset
+kwasu glutaminowego
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
-Those findings are based on the structural data from the 
+Ustalenia te opierają się na danych strukturalnych pochodzących z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -550,7 +800,10 @@ gls{rcsb}
 \end_inset
 
 .
- Just because there are structures of such 
+ To, że istnieją struktury tego typu miejsc i
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -558,19 +811,21 @@ status open
 
 
 \backslash
-glspl{mprotein}
+glink{mprotein}{metaloprotein}
 \end_layout
 
 \end_inset
 
- does not necessarily mean that this is true in all existing zinc-binding
- sites existing.
+ nie musi oznaczać, że tak jest we wszystkich, również tych niepoznanych
+ do tej pory, miejscach wiążących cynk.
 \end_layout
 
 \end_inset
 
 .
- 
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Laitaoja2013"
@@ -578,7 +833,7 @@ literal "true"
 
 \end_inset
 
- For zinc-binding sites, 
+ Dane literaturowe pokazują, że 
 \begin_inset ERT
 status open
 
@@ -586,12 +841,17 @@ status open
 
 
 \backslash
-glspl{cn}
+gls{cn}
 \end_layout
 
 \end_inset
 
- ranging from two to seven were found in the literature 
+ w
+\begin_inset space ~
+\end_inset
+przypadku miejsc wiążących Zn(II), wynosi od dwóch do siedmiu
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sousa2009,Andreini2011"
@@ -599,8 +859,11 @@ literal "true"
 
 \end_inset
 
-, however, di- and tricoordinate are zinc complexes are highly reactive,
- meaning that the stable zinc-binding sites have 
+, jednak dwu- i
+\begin_inset space ~
+\end_inset
+trójkoordynacyjne kompleksy Zn(II) są wysoce reaktywne,
+ co oznacza, że stabilne miejsca wiązania Zn(II) mają 
 \begin_inset ERT
 status open
 
@@ -613,16 +876,21 @@ gls{cn}
 
 \end_inset
 
- at least equal four.
- Thorough manual analysis performed by 
+ co najmniej równą cztery.
+ Dokładna ręczna analiza przeprowadzona przez
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citeauthor
 key "Laitaoja2013"
 literal "true"
 
 \end_inset
 
- ruled out of physiological existence of zinc-binding sites of 
+ wykluczyli fizjologiczne istnienie miejsc wiążących Zn(II) z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -635,8 +903,10 @@ gls{cn}
 
 \end_inset
 
- higher than seven.
- 
+ wyższych niż siedem.
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Laitaoja2013"
@@ -644,7 +914,7 @@ literal "true"
 
 \end_inset
 
- The most common zinc-binding sites found in the 
+ Najczęściej miejsca wiążące Zn(II) (w 
 \begin_inset ERT
 status open
 
@@ -657,7 +927,7 @@ gls{rcsb}
 
 \end_inset
 
- have 
+) mają 
 \begin_inset ERT
 status open
 
@@ -670,8 +940,11 @@ gls{cn}
 
 \end_inset
 
-=4, which corresponds to the tetrahedral geometry.
- The low occurrence of zinc-binding sites with 
+=4, co odpowiada geometrii tetraedrycznej.
+ Rzadkie występowanie miejsc wiążących Zn(II) z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -684,7 +957,10 @@ gls{cn}
 
 \end_inset
 
->4 is probably due to the small size of Zn(II) (~74
+>4 wynika prawdopodobnie z
+\begin_inset space ~
+\end_inset
+niewielkich rozmiarów Zn(II) (~74
 \begin_inset space \space{}
 \end_inset
 
@@ -692,7 +968,7 @@ pm and ~88
 \begin_inset space \space{}
 \end_inset
 
-pm for 
+pm odpowiednio dla 
 \begin_inset ERT
 status open
 
@@ -705,7 +981,10 @@ gls{cn}
 
 \end_inset
 
-=4 and 
+=4 i
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -718,7 +997,7 @@ gls{cn}
 
 \end_inset
 
-=6, respectively), which causes molecular repulsion between the 
+=6), co powoduje odpychanie molekularne między 
 \begin_inset ERT
 status open
 
@@ -726,12 +1005,14 @@ status open
 
 
 \backslash
-glspl{Lg}
+glink{L}{ligandami}
 \end_layout
 
 \end_inset
 
- 
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Miessler2013"
@@ -740,7 +1021,31 @@ literal "true"
 \end_inset
 
 .
- The 
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Gls{cn}
+\end_layout
+
+\end_inset
+
+ równa dwa w
+\begin_inset space ~
+\end_inset
+miejscach wiążących cynk jest zwykle spowodowana nie w
+\begin_inset space ~
+\end_inset
+pełni
+ rozwiązaną strukturą miejsca wiążącego Zn(II), które w
+\begin_inset space ~
+\end_inset
+rzeczywistości ma
+ wyższą 
 \begin_inset ERT
 status open
 
@@ -753,22 +1058,8 @@ gls{cn}
 
 \end_inset
 
- equal to two in zinc-binding sites is usually caused by the not-fully resolved
- structure of zinc-binding site having higher 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{cn}
-\end_layout
-
-\end_inset
-
- (e.g.
- structure of 
+ (np.
+ struktura domeny haczyka cynkowego 
 \begin_inset ERT
 status open
 
@@ -781,7 +1072,10 @@ gls{pf}
 
 \end_inset
 
- 
+ z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -794,7 +1088,7 @@ gls{rad}
 
 \end_inset
 
- zinc hook domain, 
+—
 \begin_inset ERT
 status open
 
@@ -816,7 +1110,9 @@ literal "false"
 
 \end_inset
 
- 
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Soh2021"
@@ -824,7 +1120,7 @@ literal "true"
 
 \end_inset
 
-), likewise 
+), podobnie 
 \begin_inset ERT
 status open
 
@@ -837,7 +1133,14 @@ gls{cn}
 
 \end_inset
 
-=3 in most cases is unresolved zinc-binding site with 
+=3 w
+\begin_inset space ~
+\end_inset
+większości przypadków jest nierozwiązanym miejscem wiążącym Zn(II)
+ z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -850,8 +1153,11 @@ gls{cn}
 
 \end_inset
 
-=4, which is a very common situation in enzymatic zinc-binding sites, where
- the missing, unresolved 
+=4, co jest bardzo częstą sytuacją w
+\begin_inset space ~
+\end_inset
+enzymatycznych miejscach wiążących
+ Zn(II), gdzie brakującym, nierozwiązanym 
 \begin_inset ERT
 status open
 
@@ -859,38 +1165,45 @@ status open
 
 
 \backslash
-gls{Lg}
+glink{L}{ligandem}
 \end_layout
 
 \end_inset
 
- is often a water molecule.
- The different number and types of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{Lg}
-\end_layout
-
-\end_inset
-
- often translate into differences in the properties of the coordination
- sphere and zinc-binding site formed.
+ jest często cząsteczka wody.
+ 
 \end_layout
 
 \begin_layout Standard
-The process of Zn(II) complexation by polypeptide often entails the formation
- of a stable conformation.
- The zinc-binding sites can exist as a pre-made arrangement of amino acids
- in the space, where zinc-binding does not cause huge structural changes
- in protein (usually in enzymes), however, the zinc-binding can promote
- protein folding and formation of separate protein domains (e.g., zinc fingers),
- this process is often in structural zinc sites.
- 
+Proces kompleksowania Zn(II) przez polipeptyd często wiąże się z
+\begin_inset space ~
+\end_inset
+utworzeniem
+ stabilnej konformacji.
+ Miejsca wiążące Zn(II) mogą istnieć jako wstępnie przygotowany układ aminokwasó
+w
+\begin_inset space ~
+\end_inset
+w przestrzeni, gdzie wiązanie Zn(II) nie powoduje ogromnych zmian strukturalny
+ch w
+\begin_inset space ~
+\end_inset
+białku (zwykle w
+\begin_inset space ~
+\end_inset
+enzymach), jednak wiązanie Zn(II) może sprzyjać zwijaniu
+ białka i
+\begin_inset space ~
+\end_inset
+tworzeniu odrębnych domen białkowych (np.
+ palców cynkowych), proces ten często zachodzi w
+\begin_inset space ~
+\end_inset
+strukturalnych miejscach
+ cynkowych.
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kochanczyk2015a"
@@ -902,8 +1215,12 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Zinc-binding sites can be divided by function but also by their architecture.
- Functionally, zinc sites can be divided into:
+Miejsca wiążące Zn(II) można podzielić ze względu na funkcję, architekturę,
+ ale również ze względu na czas oddziaływania.
+\begin_inset Newline newline
+\end_inset
+
+Funkcjonalnie miejsca cynkowe można podzielić na:
 \end_layout
 
 \begin_layout Standard
@@ -915,7 +1232,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-catalytic
+katalityczny
 \end_layout
 
 \end_inset
@@ -925,10 +1242,22 @@ catalytic
 
 \end_inset
 
- Zn(II) can be found in the active center of any of the six classes of enzymes
- distinguished by the International Union of Biochemistry and Molecular
- Biology.
- In almost every enzyme Zn(II) acts as a 
+ Zn(II) jest znajdywany  w
+\begin_inset space ~
+\end_inset
+centrum aktywnym każdej z
+\begin_inset space ~
+\end_inset
+sześciu klas enzymów
+ wyróżnionych przez Międzynarodową Unię Biochemii i
+\begin_inset space ~
+\end_inset
+Biologii Molekularnej.
+ W
+\begin_inset space ~
+\end_inset
+prawie każdym enzymie cynkowym, Zn(II) pełni rolę m.in.
+ 
 \begin_inset ERT
 status open
 
@@ -936,12 +1265,18 @@ status open
 
 
 \backslash
-gls{cofactor}
+glink{cofactor}{kofaktora}
 \end_layout
 
 \end_inset
 
- and one of the zinc 
+ i
+\begin_inset space ~
+\end_inset
+jeden z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -949,18 +1284,26 @@ status open
 
 
 \backslash
-glspl{Lg}
+glink{L}{ligandów}
 \end_layout
 
 \end_inset
 
- is a water molecule.
- In other proteins with no catalytic function, Zn(II) is usually bound by
- the atoms of the side chains of the amino acid residues.
- The interaction of the water molecule with the zinc cation allows for the
- transient replacement of the water molecule by the coordination of the
- substrate molecule.
- However in the case of the most studied carbonic anhydrase, 
+ jest cząsteczką wody.
+ W
+\begin_inset space ~
+\end_inset
+innych białkach nie pełniących funkcji katalitycznej Zn(II) jest zwykle
+ związany przez atomy łańcuchów bocznych reszt aminokwasowych.
+ Oddziaływanie cząsteczki wody z
+\begin_inset space ~
+\end_inset
+kationem Zn(II) pozwala na przejściowe
+ zastąpienie cząsteczki wody przez koordynację cząsteczki substratu.
+ Jednak w
+\begin_inset space ~
+\end_inset
+przypadku najlepiej zbadanej anhydrazy węglowej 
 \begin_inset ERT
 status open
 
@@ -968,13 +1311,18 @@ status open
 
 
 \backslash
-glsfirst{ca2}
+gls{ca2}
 \end_layout
 
 \end_inset
 
-, the water molecule is not replaced displaced from the zinc-binding site,
- Zn(II) lowers the water p
+, cząsteczka wody nie zostaje wyparta z
+\begin_inset space ~
+\end_inset
+miejsca wiążącego cynk, Zn(II) obniża
+ p
+\begin_inset space ~
+\end_inset
 \begin_inset ERT
 status open
 
@@ -982,12 +1330,19 @@ status open
 
 
 \backslash
-gshort{Ka}
+glink{Ka}{
+\backslash
+textit{K}
+\backslash
+textsubscript{a}}
 \end_layout
 
 \end_inset
 
-, facilitating dissociation to a hydroxide, that reacts with 
+ wody, ułatwiając dysocjację do jonu wodorotlenkowego, który reaguje z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1012,7 +1367,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-structural
+strukturalne
 \end_layout
 
 \end_inset
@@ -1022,10 +1377,10 @@ structural
 
 \end_inset
 
- zinc-binding sites are usually characterized by a high affinity towards
- Zn(II).
- A classical example of domains containing structural zinc-binding sites
- are 
+ miejsca wiążące Zn(II) charakteryzują się zwykle wysokim powinowactwem
+ do Zn(II).
+ Klasycznym przykładem domen zawierających strukturalne miejsca wiążące
+ Zn(II) są 
 \begin_inset ERT
 status open
 
@@ -1039,9 +1394,11 @@ glspl{zf}
 \end_inset
 
 .
- An important structural characteristic that accompanies structural binding
- sites is the presence of a hydrophobic core that stabilizes the zinc-protein
- complex 
+ Ważną cechą strukturalną towarzyszącą strukturalnym miejscom wiązania jest
+ obecność hydrofobowego rdzenia, który stabilizuje kompleks cynk–białko
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Padjasek2020"
@@ -1059,8 +1416,10 @@ obrazki?
 
 \end_inset
 
- The function of the zinc-binding site in such domains is to stabilize the
- 
+ Funkcją miejsca wiążącego Zn(II) w
+\begin_inset space ~
+\end_inset
+takich domenach jest stabilizacja 
 \begin_inset ERT
 status open
 
@@ -1068,12 +1427,12 @@ status open
 
 
 \backslash
-gls{fold}
+glink{fold}{zwinięcia białka}
 \end_layout
 
 \end_inset
 
- – a good example of this may be a 
+—dobrym przykładem może być 
 \begin_inset ERT
 status open
 
@@ -1086,11 +1445,24 @@ gls{fsd1}
 
 \end_inset
 
- peptide, an example of 
+, przykład peptydu 
 \emph on
 de novo
 \emph default
- protein design that bases on the 
+ bazującym na 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{fold}{zwinięciu}
+\end_layout
+
+\end_inset
+
+ 
 \begin_inset ERT
 status open
 
@@ -1131,7 +1503,10 @@ textalpha
 
 \end_inset
 
- 
+ z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1139,12 +1514,14 @@ status open
 
 
 \backslash
-gls{fold}
+gls{zf}
 \end_layout
 
 \end_inset
 
- of zinc finger 
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Dahiyat1997"
@@ -1153,9 +1530,9 @@ literal "true"
 \end_inset
 
 .
- The 
+ 
 \emph on
-de novo 
+De novo 
 \emph default
 
 \begin_inset ERT
@@ -1170,7 +1547,7 @@ gls{fsd1}
 
 \end_inset
 
- peptide maintains the same 
+ utrzymuje to samo 
 \begin_inset ERT
 status open
 
@@ -1178,12 +1555,45 @@ status open
 
 
 \backslash
-gls{fold}
+glink{fold}{złożenie}
 \end_layout
 
 \end_inset
 
- as a fragment of 
+ jak 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{zf}{palec cynkowy}
+\end_layout
+
+\end_inset
+
+ z
+\begin_inset space ~
+\end_inset
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{zif268}{czynnika transkrypcyjnego zawierającego palec cynkowy 268
+ (Zif268)}
+\end_layout
+
+\end_inset
+
+, jednak fragment porównywany z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1196,20 +1606,12 @@ gls{zif268}
 
 \end_inset
 
-, however, the fragment compared with 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{zif268}
-\end_layout
-
+ dzieli tylko cztery wspólne aminokwasy w
+\begin_inset space ~
 \end_inset
-
- shares only four amino acids in the same positions 
+tych samych pozycjach
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Dahiyat1997"
@@ -1218,7 +1620,7 @@ literal "true"
 \end_inset
 
 .
- What is most notable is the change of the 
+ Na uwagę zasługuje przede wszystkim zmiana sekwencji względem 
 \begin_inset ERT
 status open
 
@@ -1231,23 +1633,16 @@ gls{zif268}
 
 \end_inset
 
- sequence with hydrophobic and aromatic residues.
- Which stabilizes energetically the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{fold}
-\end_layout
-
+ na reszty hydrofobowe i
+\begin_inset space ~
 \end_inset
-
- due to the hydrophobic effect.
- Maybe even the greatest importance of structural zinc-binding sites can
- be seen in the case of chimeric 
+aromatyczne, która stabilizuje energetycznie fałd
+ dzięki efektowi hydrofobowemu.
+ Być może nawet największe znaczenie strukturalnych miejsc wiążących Zn(II)
+ można dostrzec w
+\begin_inset space ~
+\end_inset
+przypadku chimerycznych konstruktów 
 \begin_inset ERT
 status open
 
@@ -1260,7 +1655,7 @@ gls{rad}
 
 \end_inset
 
- 
+–
 \begin_inset ERT
 status open
 
@@ -1273,17 +1668,20 @@ gls{mukb}
 
 \end_inset
 
-, where zinc hook 
+, gdzie haczyk cynkowy 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-tu odnosnik do zinc hooka
+tu odnośnik do zinc hooka
 \end_layout
 
 \end_inset
 
- from 
+ z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1296,7 +1694,10 @@ gls{rad}
 
 \end_inset
 
- can be efficiently replaced the 
+ może skutecznie zastąpić domenę zawiasu z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1309,7 +1710,9 @@ gls{mukb}
 
 \end_inset
 
- hinge 
+, przy tym zajmując znacznie mniejszą objętość
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Tatebe2020"
@@ -1317,12 +1720,15 @@ literal "true"
 
 \end_inset
 
- while taking much less volume.
+ .
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-odnośnik do figury pokazujący mukb i rad50
+odnośnik do figury pokazujący mu kb i
+\begin_inset space ~
+\end_inset
+rad50
 \end_layout
 
 \end_inset
@@ -1339,7 +1745,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-regulatory
+regulatorowe
 \end_layout
 
 \end_inset
@@ -1349,11 +1755,46 @@ regulatory
 
 \end_inset
 
- zinc-binding sites usually have medium affinities towards Zn(II), this
- property allows them to associate with Zn(II) during the Zn(II) influx
- and dissociate during Zn(II) efflux.
- Zinc is an essential metal for life, however in case of Zn(II) excess,
- it exerts a toxic effect on the cell – thus the 
+ miejsca wiążące Zn(II) mają zwykle umiarkowane powinowactwo do Zn(II).
+ Właściwość ta pozwala im na asocjację z
+\begin_inset space ~
+\end_inset
+Zn(II) podczas wzrastającego stężenia
+ Zn(II) i
+\begin_inset space ~
+\end_inset
+dysocjację podczas malejącego stężenia tego jonu w
+\begin_inset space ~
+\end_inset
+komórce.
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Stężenie jonów Zn(II) w
+\begin_inset space ~
+\end_inset
+komórce nie jest stałe, Zn(II) może być do komórki
+ importowany, bądź eksportowany
+\begin_inset space ~
+\end_inset
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liTransientFluctuationsIntracellular2009"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ Cynk jest metalem niezbędnym do życia, jednak w
+\begin_inset space ~
+\end_inset
+przypadku nadmiaru Zn(II)
+ wywiera toksyczny wpływ na komórkę—stąd stężenie 
 \begin_inset ERT
 status open
 
@@ -1361,13 +1802,16 @@ status open
 
 
 \backslash
-gls{freezn}
+glink{freezn}{wolnego Zn(II)}
 \end_layout
 
 \end_inset
 
- concentration in the cell needs to be regulated.
- So the cell regulates the 
+ w
+\begin_inset space ~
+\end_inset
+komórce musi być ściśle kontrolowane.
+ Dlatego też istnieją komórkowe mechanizmy regulujące stężenie 
 \begin_inset ERT
 status open
 
@@ -1375,14 +1819,17 @@ status open
 
 
 \backslash
-gls{freezn}
+glink{freezn}{wolnego Zn(II)}
 \end_layout
 
 \end_inset
 
- concentration by various mechanisms.
- The functional division of the zinc-binding sites proposed here distinguishes
- three classes that are involved in 
+.
+ Zaproponowany tu podział funkcjonalny miejsc wiążących cynk wyróżnia trzy
+ klasy, które są zaangażowane w
+\begin_inset space ~
+\end_inset
+regulację 
 \begin_inset ERT
 status open
 
@@ -1390,12 +1837,12 @@ status open
 
 
 \backslash
-gls{freezn}
+glink{freezn}{wolnego Zn(II)}
 \end_layout
 
 \end_inset
 
- regulation, which shows the importance of maintaining physiological 
+, co wskazuje na znaczenie utrzymania fizjologicznego stężenia 
 \begin_inset ERT
 status open
 
@@ -1403,13 +1850,16 @@ status open
 
 
 \backslash
-gls{freezn}
+glink{freezn}{wolnego Zn(II)}
 \end_layout
 
 \end_inset
 
- in the cell.
- An example of the regulatory zinc-binding site can be the 
+ w
+\begin_inset space ~
+\end_inset
+komórce.
+ Przykładem regulacyjnego miejsca wiążącego cynk może być 
 \begin_inset ERT
 status open
 
@@ -1422,7 +1872,10 @@ gls{zap1}
 
 \end_inset
 
- from 
+ z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1436,7 +1889,7 @@ gls{sc}
 \end_inset
 
 .
- Zinc-binding by 
+ Wiązanie cynku przez 
 \begin_inset ERT
 status open
 
@@ -1444,20 +1897,25 @@ status open
 
 
 \backslash
-Gls{zap1}
+gls{zap1}
 \end_layout
 
 \end_inset
 
- is characterized by remarkable lability observed both 
+ charakteryzuje się niezwykłą labilnością obserwowaną zarówno 
 \emph on
 in vitro
 \emph default
- and 
+, jak i
+\begin_inset space ~
+\end_inset
+
 \emph on
 in vivo
 \emph default
- 
+—ta labilność jest niezbędna do pełnienia jego funkcji regulacyjnej
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Qiao2006"
@@ -1466,11 +1924,6 @@ literal "true"
 \end_inset
 
 .
-
-\emph on
- 
-\emph default
- This lability is essential for fulfilling its regulatory function.
 \end_layout
 
 \begin_layout Standard
@@ -1482,7 +1935,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-transporting
+transportujące
 \end_layout
 
 \end_inset
@@ -1492,23 +1945,14 @@ transporting
 
 \end_inset
 
- zinc-binding sites are responsible for cellular influx or efflux of Zn(II).
- Similarly to regulatory and buffering binding sites, the transporting zinc-bind
-ing sites are characterized by a medium affinity towards Zn(II).
- The examples of the transporting zinc-binding sites are 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{sc}
-\end_layout
-
+ miejsca wiążące Zn(II) są odpowiedzialne za komórkowy napływ lub odpływ
+ tych jonów.
+ Podobnie jak miejsca wiążące regulacyjne i
+\begin_inset space ~
 \end_inset
-
- 
+buforowe, transportowe miejsca
+ wiążące Zn(II) charakteryzują się średnim powinowactwem do Zn(II).
+ Przykładami transportowych miejsc wiążących Zn(II) są 
 \begin_inset ERT
 status open
 
@@ -1534,7 +1978,10 @@ gls{zrt2}
 
 \end_inset
 
-, and 
+ i
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1547,7 +1994,23 @@ gls{zrt3}
 
 \end_inset
 
-, which are regulated by 
+ z
+\begin_inset space ~
+\end_inset
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{sc}
+\end_layout
+
+\end_inset
+
+, które są regulowane przez 
 \begin_inset ERT
 status open
 
@@ -1561,11 +2024,34 @@ gls{zap1}
 \end_inset
 
 .
- The driving force for Zn(II) transport (which requires the conformational,
- and affinity towards Zn(II) change) may be a proton motive force, which
- is the case of human proton-coupled zinc antiporters (ZnT family), however,
- in the case of the bigger Zn(II) transporter family (ZIP), the driving
- force is unknown yet 
+ Siłą napędową transportu Zn(II) (który wymaga zmiany konformacyjnej, oraz
+ powinowactwa do Zn(II)) może być siła motoryczna protonu, co ma miejsce
+ w
+\begin_inset space ~
+\end_inset
+przypadku ludzkich antyporterów cynkowych sprzężonych z
+\begin_inset space ~
+\end_inset
+protonem (rodzina
+ ZnT), jednak w
+\begin_inset space ~
+\end_inset
+przypadku liczniejszej rodziny transporterów cynkowych (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zip}
+\end_layout
+
+\end_inset
+
+) siła napędowa jest jeszcze nieznana
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Coudray2013,Bafaro2017"
@@ -1586,7 +2072,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-buffering
+buforujące
 \end_layout
 
 \end_inset
@@ -1596,8 +2082,14 @@ buffering
 
 \end_inset
 
- zinc-binding sites are found in proteins that bind Zn(II) in order to maintain
- physiological 
+ miejsca wiążące Zn(II) znajdują się w
+\begin_inset space ~
+\end_inset
+białkach, które wiążą Zn(II) w
+\begin_inset space ~
+\end_inset
+celu
+ utrzymania fizjologicznego stężenia 
 \begin_inset ERT
 status open
 
@@ -1605,14 +2097,17 @@ status open
 
 
 \backslash
-gls{freezn}
+glink{freezn}{wolnego Zn(II)}
 \end_layout
 
 \end_inset
 
- in the cell.
- Those sites are characterized by a medium, but a broad range of affinities,
- which allows for maintaining adequate 
+ w
+\begin_inset space ~
+\end_inset
+komórce.
+ Miejsca te charakteryzują się średnim, ale szerokim zakresem powinowactwa,
+ co pozwala na utrzymanie odpowiedniego 
 \begin_inset ERT
 status open
 
@@ -1620,14 +2115,20 @@ status open
 
 
 \backslash
-gls{freezn}
+glink{freezn}{wolnego Zn(II)}
 \end_layout
 
 \end_inset
 
 .
- A flagship example of buffering binding sites can be found in the metallothione
-ins, which may bind up to seven zinc, within a broad affinity range 
+ Sztandarowym przykładem buforowych miejsc wiążących mogą być metalotioneiny,
+ które mogą wiązać do siedmiu jonów Zn(II), w
+\begin_inset space ~
+\end_inset
+szerokim zakresie powinowactwa
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Krezel2007"
@@ -1639,8 +2140,10 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-The number of zinc-binding sites classes related to the regulation of the
- 
+Ilość klas miejsc wiążących Zn(II) związanych z
+\begin_inset space ~
+\end_inset
+regulacją stężenia 
 \begin_inset ERT
 status open
 
@@ -1648,16 +2151,31 @@ status open
 
 
 \backslash
-gls{freezn}
+glink{freezn}{wolnego Zn(II)}
 \end_layout
 
 \end_inset
 
- in the cell together with the occurrence of zinc ions in cellular vesicles
- potentially could be explained by the fact that no Zn(II)-storage proteins
- (akin to the iron storage proteins – ferritin) was found.
- Ferritin for example may store several thousand iron ions trapped in its
- core 
+ w
+\begin_inset space ~
+\end_inset
+komórce wraz z
+\begin_inset space ~
+\end_inset
+występowaniem jonów cynku w
+\begin_inset space ~
+\end_inset
+pęcherzykach komórkowych potencjal
+nie może tłumaczyć fakt, braku odkrycia białek magazynujących Zn(II) (podobnych
+ do białek magazynujących żelazo—ferrytyny).
+ Dla przykładu, ferrytyna może wiązać i
+\begin_inset space ~
+\end_inset
+przechowywać do kilku tysięcy jonów
+ żelaza, natomiast cząsteczki metalotioneiny mogą tymczasowo przechowywać
+ do kilku jonów Zn(II)
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Maret2017"
@@ -1670,8 +2188,11 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-In terms of architecture, the zinc-binding sites can be divided into five
- classes:
+Pod względem architektury, w
+\begin_inset space ~
+\end_inset
+białkach miejsca wiążące Zn(II) można podzielić
+ na trzy klasy:
 \end_layout
 
 \begin_layout Standard
@@ -1683,7 +2204,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-intraprotein
+wewnątrzbiałkowe
 \end_layout
 
 \end_inset
@@ -1693,9 +2214,13 @@ intraprotein
 
 \end_inset
 
- zinc-binding is the most common type of zinc coordination in proteins.
- The intraprotein binding is understood as a formation of a zinc-binding
- site only by singular polypeptide chains.
+ wiązanie Zn(II) jest wydaje się być najbardziej rozpowszechnionym typem
+ koordynacji cynku w
+\begin_inset space ~
+\end_inset
+białkach.
+ Wiązanie wewnątrzbiałkowe rozumiane jest jako tworzenie miejsca wiążącego
+ Zn(II) tylko przez pojedynczy łańcuch polipeptydowy.
  
 \end_layout
 
@@ -1708,7 +2233,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-clustered
+klastrowe
 \end_layout
 
 \end_inset
@@ -1718,9 +2243,12 @@ clustered
 
 \end_inset
 
- zinc-binding sites are multinuclear.
- The clustered zinc-binding sites have more than one Zn(II) per binding
- site, this is achieved by the presence of the bridging 
+ miejsca wiążące Zn(II) są wielojądrowe.
+ W
+\begin_inset space ~
+\end_inset
+klastrowych miejscach wiążących występuje więcej niż jeden Zn(II), co
+ jest możliwe dzięki obecności mostkujących 
 \begin_inset ERT
 status open
 
@@ -1728,12 +2256,15 @@ status open
 
 
 \backslash
-glspl{Lg}
+glink{L}{ligandów}
 \end_layout
 
 \end_inset
 
- (usually sulfur from cysteines).
+ (zwykle atom siarki z
+\begin_inset space ~
+\end_inset
+reszty cysteiny).
 \begin_inset Note Note
 status open
 
@@ -1743,34 +2274,23 @@ pictures
 
 \end_inset
 
- These sites are quite thermodynamically stable, while at the same time
- kinetically labile.
- No wonder why metallothioneins (mentioned in the 
+ Miejsca te są dość stabilne termodynamicznie, a
+\begin_inset space ~
+\end_inset
+jednocześnie labilne kinetyczni
+e.
+ Nic dziwnego, że metalotioneiny (wspomniane w.
+ 
 \begin_inset Flex CT - Spaced Low Small Caps
 status open
 
 \begin_layout Plain Layout
-buffering
+buforujących
 \end_layout
 
 \end_inset
 
- zinc-binding sites) utilize this type of binding.
- This type of binding is seen in most zinc enzymes, 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{zf}
-\end_layout
-
-\end_inset
-
-, etc.
- 
+ miejscach wiążących cynk) wykorzystują ten typ wiązania.
 \end_layout
 
 \begin_layout Standard
@@ -1782,7 +2302,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-interprotein
+międzybiałkowe
 \end_layout
 
 \end_inset
@@ -1792,10 +2312,17 @@ interprotein
 
 \end_inset
 
- zinc-binding sites are not so common (or at least are not so commonly discovere
-d and described) as intraprotein zinc-binding sites.
- Interprotein zinc-binding sites are formed by at least two polypeptide
- chains, so in this architecture, Zn(II) bound at the 
+ miejsca wiążące cynk nie są tak rozpowszechnione (a przynajmniej nie są
+ tak powszechnie odkrywane i
+\begin_inset space ~
+\end_inset
+opisywane) jak miejsca wiążące cynk wewnątrzbiałkow
+o.
+ Międzybiałkowe miejsca wiążące cynk są utworzone przez co najmniej dwa
+ łańcuchy polipeptydowe, więc w
+\begin_inset space ~
+\end_inset
+tej architekturze Zn(II) związany na 
 \begin_inset ERT
 status open
 
@@ -1803,15 +2330,21 @@ status open
 
 
 \backslash
-gls{interface}
+glink{interface}{interfejsie}
 \end_layout
 
 \end_inset
 
- of two proteins, takes a structural part in the formation of the quaternary
- protein structure.
- The formation of interprotein zinc-binding sites, referred to in the thesis
- as 
+ dwóch (lub większej liczby) białek, bierze udział w
+\begin_inset space ~
+\end_inset
+tworzeniu struktury
+ czwartorzędowej białka.
+ Tworzenie międzybiałkowych miejsc wiążących cynk, określane w
+\begin_inset space ~
+\end_inset
+rozprawie
+ jako 
 \begin_inset ERT
 status open
 
@@ -1824,8 +2357,14 @@ gls{zppi}
 
 \end_inset
 
-, may be obligatory to form a quaternary structure, or Zn(II) may bind to
- already formed protein-protein complex, to further stabilize it 
+, może być obowiązkowe do utworzenia struktury czwartorzędowej, alternatywnie
+ Zn(II) może wiązać się do już utworzonego kompleksu białko–białko, w
+\begin_inset space ~
+\end_inset
+celu
+ jego dalszej stabilizacji
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kochanczyk2015a"
@@ -1834,7 +2373,7 @@ literal "true"
 \end_inset
 
 .
- To date only a few 
+ Do tej pory tylko kilka oddziaływań typu 
 \begin_inset ERT
 status open
 
@@ -1842,13 +2381,14 @@ status open
 
 
 \backslash
-glspl{zppi}
+gls{zppi}
 \end_layout
 
 \end_inset
 
- have been studied in terms of the complexes' stabilities, this includes
- 
+ zostały przebadane pod kątem stabilności kompleksów, jest to m.
+ in.
+ kompleks 
 \begin_inset ERT
 status open
 
@@ -1856,12 +2396,14 @@ status open
 
 
 \backslash
-gls{lck}
+glink{lck}{specyficznej dla limfocytów białkowej kinazy tyrozynowej (Lck,
+ ang.
+ lymphocyte-specific protein tyrosine kinase)}
 \end_layout
 
 \end_inset
 
--
+–
 \begin_inset ERT
 status open
 
@@ -1869,12 +2411,15 @@ status open
 
 
 \backslash
-gls{cd4}
+glink{cd4}{glikoproteiny CD4 (CD4, ang.
+ cluster of differentiation 4)}
 \end_layout
 
 \end_inset
 
- 
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kocya2018a"
@@ -1882,7 +2427,7 @@ literal "true"
 
 \end_inset
 
-and 
+ oraz kompleks 
 \begin_inset ERT
 status open
 
@@ -1895,7 +2440,7 @@ gls{lck}
 
 \end_inset
 
--
+–
 \begin_inset ERT
 status open
 
@@ -1903,12 +2448,15 @@ status open
 
 
 \backslash
-gls{cd8}
+glink{cd8}{glikoproteiny CD8 (ang.
+ cluster of differentiation 8)}
 \end_layout
 
 \end_inset
 
- 
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Davis2009"
@@ -1916,7 +2464,10 @@ literal "true"
 
 \end_inset
 
- complexes, and various 
+, a
+\begin_inset space ~
+\end_inset
+także różne ortologi białka 
 \begin_inset ERT
 status open
 
@@ -1929,7 +2480,12 @@ gls{rad}
 
 \end_inset
 
- orthologs studied by me and my colleagues 
+ badane przeze mnie oraz moje koleżanki i
+\begin_inset space ~
+\end_inset
+kolegów
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Padjasek2020a,Tran2022"
@@ -1941,8 +2497,10 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-In terms of the time span of binding one can introduce two additional classifier
-s:
+W
+\begin_inset space ~
+\end_inset
+zakresie czasu wiązania można wprowadzić dwa dodatkowe klasyfikatory:
 \end_layout
 
 \begin_layout Standard
@@ -1954,7 +2512,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-transient
+przejściowe
 \end_layout
 
 \end_inset
@@ -1964,13 +2522,25 @@ transient
 
 \end_inset
 
- zinc-binding sites are characterized often by medium affinities toward
- Zn(II).
- The role of such transient zinc-binding sites is to bind Zn(II) temporally,
- which is the case in the buffering, transporting, and regulatory zinc-binding
- sites.
- Those sites need to bind Zn(II) in a kinetically labile way in order to
- fulfill its functions.
+ miejsca wiążące Zn(II) charakteryzują się często średnim powinowactwem
+ do Zn(II).
+ Rolą takich przejściowych miejsc wiążących cynk jest czasowe wiązanie Zn(II),
+ co ma miejsce w
+\begin_inset space ~
+\end_inset
+miejscach buforujących, transportujących i
+\begin_inset space ~
+\end_inset
+regulujących
+ wiązanie Zn(II).
+ Miejsca te, aby spełniać swoje funkcje, muszą wiązać Zn(II) w
+\begin_inset space ~
+\end_inset
+sposób kinetyczni
+e
+\begin_inset space ~
+\end_inset
+labilny.
 \end_layout
 
 \begin_layout Standard
@@ -1982,7 +2552,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-permanent
+trwałe
 \end_layout
 
 \end_inset
@@ -1992,12 +2562,36 @@ permanent
 
 \end_inset
 
- zinc-binding sites are kinetically inert.
- This type of binding is characteristic of structural and enzymatic binding
- sites.
- The Zn(II) bound to those sites is not easily dissociated from the site.
- Of course, the reaction is in equilibrium so the subunit exchange still
- happens (see equations 
+ miejsca wiążące cynk są kinetycznie inertne.
+ Ten typ wiązania jest charakterystyczny dla strukturalnych i
+\begin_inset space ~
+\end_inset
+katalitycznych
+ miejsc wiążących.
+ Zn(II) związany z
+\begin_inset space ~
+\end_inset
+tymi miejscami nie dysocjuje łatwo od miejsca wiązania.
+ Oczywiście, reakcja jest w
+\begin_inset space ~
+\end_inset
+równowadze, więc wymiana podjednostek nadal
+ zachodzi (patrz równania
+\begin_inset space ~
+\end_inset
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Ka_definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ oraz
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -2010,17 +2604,7 @@ ref{eq:equilibrium}
 
 \end_inset
 
- and 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:Ka_definition"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-), however, the binding is characterized by a low value of 
+), jednak wiązanie to charakteryzuje się niską wartością 
 \begin_inset ERT
 status open
 
@@ -2028,7 +2612,11 @@ status open
 
 
 \backslash
-gls{koff}
+glink{koff}{kinetycznej stałej dysocjacji 
+\backslash
+textit{k}
+\backslash
+textsubscript{off}}
 \end_layout
 
 \end_inset

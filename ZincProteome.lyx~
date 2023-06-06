@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -65,7 +65,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -80,52 +80,56 @@
 \begin_body
 
 \begin_layout Chapter
-Investigation of intermolecular metal-binding sites
-\end_layout
-
-\begin_layout Standard
-Zn(II) ions were found to be essential for the growth of the toxic mold
- – 
-\emph on
-Aspergillus niger 
-\emph default
-in 1869, nearly one hundred years later, in 1961, it was postulated that
- zinc is essential also for humans.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-(1) Raulin J.
- Etudes cliniques sur la vegetation.
- Ann.
- Sci.
- Nat.
- Bot.
- Biol.
- Veg.
- Ser.
- 1869, 11, 293– 299.
- (2) Prasad, A.
- S.
- et al.
- Syndrome of iron deficiency anemia, hepatosplenomegaly, hypogonadism, dwarfism
- and geophagia.
- Am.
- J.
- Med.
- 1961, 31, 532–546.
-\end_layout
+Badanie międzycząsteczkowych miejsc wiązania metali
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Badanie_inter"
 
 \end_inset
 
- Almost 20 years later the first structures of proteins containing Zn(II)
- started to appear.
- It will not be an exaggeration if I say that the number of scientific questions
- is proportional to the amount of new data—with the advent of the first
- Zn(II)-containing macromolecular structures, questions about the factors
- that govern the formation of the zinc-binding sites started to appear.
- With more Zn(II)-containing structures deposited in the 
+
+\end_layout
+
+\begin_layout Standard
+W
+\begin_inset space ~
+\end_inset
+
+1869 roku jony Zn(II) okazały się niezbędne do wzrostu toksycznej pleśni—
+\emph on
+Aspergillus niger
+\emph default
+, prawie sto lat później, bo w
+\begin_inset space ~
+\end_inset
+
+1961 roku, postulowano, że cynk jest niezbędny również dla człowieka.
+ Prawie 20 lat później zaczęły pojawiać się pierwsze struktury białek zawierając
+ych Zn(II).
+ Nie będzie przesadą, jeśli powiem, że liczba pytań naukowych jest proporcjonaln
+a
+\begin_inset space ~
+\end_inset
+
+do ilości nowych danych—i wraz z
+\begin_inset space ~
+\end_inset
+
+pojawieniem się pierwszych struktur wielkocząsteczkowych zawierających Zn(II)
+ zaczęły pojawiać się pytania o
+\begin_inset space ~
+\end_inset
+
+czynniki rządzące powstawaniem miejsc wiążących cynk.
+ Wraz z
+\begin_inset space ~
+\end_inset
+
+kolejnymi strukturami zawierającymi Zn(II) zdeponowanymi w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -138,7 +142,11 @@ gls{rcsb}
 
 \end_inset
 
- some tendencies became clear (see 
+ pewne tendencje stały się jasne (zob.
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -157,23 +165,25 @@ noprefix "false"
 
 \end_inset
 
-), however, the fact that the Zn(II) ions (and other metal ions) can be
- bound at the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{interface}
-\end_layout
-
+), jednak fakt, że jony Zn(II) (i inne jony metali) mogą być związane na
+ powierzchni dwóch lub więcej makrocząsteczek był raczej ignorowany—jeden
+ z
+\begin_inset space ~
 \end_inset
 
- of two or more macromolecules was rather ignored – one of the first reviews
- of structural knowledge of metal-binding sites in proteins appeared in
- 
+pierwszych przeglądów wiedzy strukturalnej o
+\begin_inset space ~
+\end_inset
+
+miejscach wiązania metali w
+\begin_inset space ~
+\end_inset
+
+białkach pojawił się w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citebyear
 key "Tainer1992"
@@ -181,7 +191,11 @@ literal "true"
 
 \end_inset
 
-, 
+ roku
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Tainer1992"
@@ -189,7 +203,11 @@ literal "true"
 
 \end_inset
 
- whereas the first review regarding the binding of metals at 
+, podczas gdy pierwszy przegląd literatury dotyczący wiązania metali w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -197,30 +215,45 @@ status open
 
 
 \backslash
-glspl{ppi}
+gls{ppi}
 \end_layout
 
 \end_inset
 
- appeared in 
+ pojawił się dopiero w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citebyear
+key "Song2014"
+literal "true"
+
+\end_inset
+
+ roku
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
 key "Song2014"
 literal "true"
 
 \end_inset
 
 .
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Song2014"
-literal "true"
-
+ Ten rozdział będzie skupiał się na metodologi w
+\begin_inset space ~
 \end_inset
 
- This Chapter will focus on the methodology of how one can investigate the
- metal-binding sites at 
+jaki sposób można badać metal związane w
+\begin_inset space ~
+\end_inset
+
+tworzeniu 
 \begin_inset ERT
 status open
 
@@ -228,7 +261,7 @@ status open
 
 
 \backslash
-glsdescplural{ppi}
+gls{ppi}
 \end_layout
 
 \end_inset
@@ -248,11 +281,11 @@ podać jakieś charakterystyki miejsc cynkowych, powiedzieć dlaczego szukanie
 \end_layout
 
 \begin_layout Section
-
+Badanie międzycząsteczkowych miejsc wiązania metali 
 \emph on
-In silico
+in silico
 \emph default
- investigation of intermolecular metal-binding sites
+ 
 \begin_inset Note Note
 status open
 
@@ -261,8 +294,15 @@ gdzieś tu powinno pojawić się
 \begin_inset space \space{}
 \end_inset
 
-informacje o tym, że możliwe, że coś się zmieniło wraz z typem annotacji
- zrobionej przez włochów, ale nwm.
+informacje o
+\begin_inset space ~
+\end_inset
+
+tym, że możliwe, że coś się zmieniło wraz z
+\begin_inset space ~
+\end_inset
+
+typem annotacji zrobionej przez włochów, ale nwm.
 \end_layout
 
 \end_inset
@@ -271,21 +311,54 @@ informacje o tym, że możliwe, że coś się zmieniło wraz z typem annotacji
 \end_layout
 
 \begin_layout Subsection
-The problems of 
+Problemy badania 
 \shape italic
 in silico
 \shape default
- investigation of intermolecular metal-binding sites
+ międzycząsteczkowych miejsc wiązania metali
 \end_layout
 
 \begin_layout Standard
-To date, there are no computational algorithms or other methods that are
- able to identify or classify intermolecular metal-binding based on protein
- sequence or structure.
- The problem of metal-binding sites prediction was undertaken in the past
- several times.
- Apart from the availability of such tools, which is often unacceptable
- 
+Do tej pory brak algorytmów obliczeniowych lub innych metod, które byłyby
+ w
+\begin_inset space ~
+\end_inset
+
+stanie zidentyfikować lub sklasyfikować międzycząsteczkowe wiązania metali
+ na podstawie sekwencji lub struktury białka, chociaż w
+\begin_inset space ~
+\end_inset
+
+przeszłości problem przewidywania miejsc wiązania jonów metali był kilkukrotnie
+ podejmowany.
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Klasyfikator to narzędzie, które przypisuje element do pewnej klasy.
+ Algorytm, który mówi, czy dane białko jest 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{mprotein}{metaloproteiną}
+\end_layout
+
+\end_inset
+
+ na podstawie atrybutów lub sekwencji białka, jest klasyfikatorem.
+\end_layout
+
+\end_inset
+
+ Pomijając dostępność takich narzędzi, która często jest nie do zaakceptowania
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Ye2022"
@@ -293,99 +366,154 @@ literal "true"
 
 \end_inset
 
-, the quality of the proposed classifiers is often poor.
+, jakość proponowanych klasyfikatorów jest często słaba.
+ Zazwyczaj autorzy takich algorytmów w
+\begin_inset space ~
+\end_inset
+
+rzetelny sposób prezentują jakość i
+\begin_inset space ~
+\end_inset
+
+skuteczność swojego klasyfikatora, np.
+ pokazując różnego rodzaju statystyki, takich jak krzywa charakterystyki
+ operacyjnej odbiornika (ROC, ang.
+ receiver operating characteristic) w
+\begin_inset space ~
+\end_inset
+
+przypadku klasyfikatorów binarnych.
+ Prezentowane narzędzia na pierwszy rzut oka wydają się działać bardzo dobrze,
+ jednak do tej pory, wykorzystanie takich narzędzi w
+\begin_inset space ~
+\end_inset
+
+praktyce jest ograniczone.
+ Na pewno nie można zarzucić autorom takich artykułów uchybień naukowych,
+ czy złej woli—zazwyczaj problem leży głębiej.
+ Z
+\begin_inset space ~
+\end_inset
+
+projektowaniem klasyfikatora wiążą się dwa główne problemy: pierwszy, to
+ problem z
+\begin_inset space ~
+\end_inset
+
+początkowym zbiorem danych, który ostatecznie jest źródłem tworzenia zbiorów
+ danych treningowych i
+\begin_inset space ~
+\end_inset
+
+testowych, drugim problemem jest wybór zmiennych objaśniających.
+\end_layout
+
+\begin_layout Standard
+Dostępność dobrze opisanych (dzięki ręcznej kurateli) danych o
+\begin_inset space ~
+\end_inset
+
+sekwencjach białek jest dość wysoka.
+ Podstawowym źródłem takich informacji są artykuły naukowe.
+ Publikacja traktująca o
+\begin_inset space ~
+\end_inset
+
+tym, czy białko wiąże jon metalu posiada szereg metod pokazujących i
+\begin_inset space ~
+\end_inset
+
+opisujących to wiązanie.
+ Publikacja taka nie musi zawierać informacji o
+\begin_inset space ~
+\end_inset
+
+strukturze białka, informacja ta nie jest konieczna do udowodnienia oddziaływani
+a metalu z
+\begin_inset space ~
+\end_inset
+
+białkiem.
+ I
+\begin_inset space ~
+\end_inset
+
+pomimo tego, że publikacja nie musi koniecznie być ogólnodostępna, zazwyczaj
+ dane o
+\begin_inset space ~
+\end_inset
+
+oddziaływaniu białka z
+\begin_inset space ~
+\end_inset
+
+metalem mogą być zagregowane w
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{UniProt}
+\end_layout
+
+\end_inset
+
+, gdzie reszty oddziałujące z
+\begin_inset space ~
+\end_inset
+
+metalami są często przypisywane na podstawie podobieństwa i
+\begin_inset space ~
+\end_inset
+
+sekwencji.
+ Problemem tego typu danych jest rzadkość przypisania—nie każde znane białko
+ ma w
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
  
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Classifier is a tool that assigns an element to a certain class.
- An algorithm that tells whether a protein is a 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{mprotein}
-\end_layout
-
-\end_inset
-
- based on the protein attributes is a classifier.
-\end_layout
-
-\end_inset
-
- Usually, the authors of such algorithms present the quality and efficiency
- of their classifier in a reliable way, e.g., by showing various kinds of
- statistics like receiver operating characteristic curve in the case of
- binary classifiers, the presented tools at first glance seem to work very
- well, however, to date, the use of such tools is limited.
- For sure one cannot accuse the authors of such articles of scientific misconduc
-t or ill-faith – usually, the problem lies deeper.
- The are two main problems with the classifiers: the first one is the problem
- with the initial data set, which eventually is a source for creating the
- training and the test data sets, and the second problem is the choice of
- explanatory variables.
-\end_layout
-
-\begin_layout Standard
-The availability of well-annotated (due to manual curation) protein sequence
- data is quite good.
- The primary source of such information is scientific articles.
- A publication that treats whether a protein binds metal or not has a number
- of methods that show and describe this binding.
- Such publication does not need to include information about the structure
- of the protein, this information is not necessary to prove the interaction
- of the metal with the protein.
- Typically, this type of data can be aggregated in 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
 \backslash
 gls{UniProt}
 \end_layout
 
 \end_inset
 
-, where metal-interacting residues are often assigned based on similarity
- and sequence.
- The problem with this type of data is the sparsity of annotations – not
- every known 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{mprotein}
-\end_layout
-
+ adnotację o
+\begin_inset space ~
 \end_inset
 
- is annotated in 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{UniProt}
-\end_layout
-
+interakcji z
+\begin_inset space ~
 \end_inset
 
- to interact with metal.
- This leads to the attempts to create one's own data set, which in turn
- involves the use of the other type of input – the structural data deposited
- in the 
+metalem (lub jego brakiem).
+ To natomiast prowadzi do prób stworzenia własnego zestawu danych, co z
+\begin_inset space ~
+\end_inset
+
+ kolei wiąże się z
+\begin_inset space ~
+\end_inset
+
+wykorzystaniem drugiego typu danych wejściowych—danych strukturalnych zdeponowan
+ych w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -398,7 +526,16 @@ gls{rcsb}
 
 \end_inset
 
-, however, the metal-binding sites in the 
+.
+ Jednakże miejsca wiążące jony metali w
+\begin_inset space ~
+\end_inset
+
+strukturach makrocząsteczek dostępnych w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -411,26 +548,42 @@ gls{rcsb}
 
 \end_inset
 
- are not annotated to be a true physiological or adventitious metal-binding
- sites.
- This, in turn, leads to the use of simple algorithms that sort 
-\begin_inset Quotes eld
+ nie są opisanej jako prawdziwe, fizjologicznie występujące lub jony metali
+ związane w
+\begin_inset space ~
 \end_inset
 
-true
-\begin_inset Quotes erd
+przygodny sposób.
+ To z
+\begin_inset space ~
 \end_inset
 
- from 
-\begin_inset Quotes eld
+kolei prowadzi do stosowania prostych algorytmów, które sortują 
+\begin_inset Quotes pld
 \end_inset
 
-false
-\begin_inset Quotes erd
+prawdziwe
+\begin_inset Quotes prd
 \end_inset
 
- metal-binding sites in the data set based on simple rules, i.e., the distance
- between the metal and 
+ od 
+\begin_inset Quotes pld
+\end_inset
+
+fałszywych
+\begin_inset Quotes prd
+\end_inset
+
+ miejsc wiążących jony metali w
+\begin_inset space ~
+\end_inset
+
+oparciu o
+\begin_inset space ~
+\end_inset
+
+proste reguły, tj.
+ odległość między 
 \begin_inset ERT
 status open
 
@@ -438,12 +591,16 @@ status open
 
 
 \backslash
-glspl{Lg}
+glink{Me}{metalem}
 \end_layout
 
 \end_inset
 
-, the number of 
+ a
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -451,12 +608,16 @@ status open
 
 
 \backslash
-glspl{Lg}
+glink{L}{ligandem}
 \end_layout
 
 \end_inset
 
-, type of 
+, liczbą i
+\begin_inset space ~
+\end_inset
+
+typem 
 \begin_inset ERT
 status open
 
@@ -464,28 +625,71 @@ status open
 
 
 \backslash
-glspl{Lg}
+glink{L}{ligandów}
 \end_layout
 
 \end_inset
 
-, etc., however, this approach is far from being accurate.
+, itd., niemniej jednak to podejście jest dalekie od bycia doskonałym.
 \end_layout
 
 \begin_layout Standard
-The problem with the selection of explanatory variables is most acute with
- classifiers that are based on the sequence.
- Whereas structural-based classifiers may involve the abundance of meaningful
- variables for the classifier (e.g., hydrophobicity, a charge of the amino
- acids, geometry, position in space, etc.), the effort of prediction of a
- metal-binding site based solely on the sequence might be similar to the
- prediction of the sales on stock exchange based using only stock shares
- name.
- Nevertheless, in some specific cases, where there is an existing pattern
- in the sequence it is possible to build sensitive and specific classifiers,
- e.g., the prediction of zinc fingers based on sequence is possible due to
- the existence of well-defined input data and the existence of patterns
- in the sequences 
+Problem z
+\begin_inset space ~
+\end_inset
+
+doborem zmiennych objaśniających jest najbardziej dotkliwy w
+\begin_inset space ~
+\end_inset
+
+przypadku klasyfikatorów bazujących na sekwencji.
+ O
+\begin_inset space ~
+\end_inset
+
+ile klasyfikatory oparte na strukturze mogą wiązać się z
+\begin_inset space ~
+\end_inset
+
+bogactwem znaczących dla klasyfikatora zmiennych (np.
+ hydrofobowość, ładunek aminokwasów, geometria, położenie w
+\begin_inset space ~
+\end_inset
+
+przestrzeni, itp.), to wysiłek związany z
+\begin_inset space ~
+\end_inset
+
+przewidywaniem miejsca wiążącego metale wyłącznie na podstawie sekwencji
+ może być podobny do przewidywania sprzedaży na giełdzie papierów wartościowych
+ na podstawie wyłącznie nazwy akcji.
+ Niemniej jednak, w
+\begin_inset space ~
+\end_inset
+
+niektórych specyficznych przypadkach, gdy istnieje wzór w
+\begin_inset space ~
+\end_inset
+
+sekwencji, możliwe jest zbudowanie czułych i
+\begin_inset space ~
+\end_inset
+
+specyficznych klasyfikatorów, np.
+ przewidywanie palców cynkowych na podstawie sekwencji jest możliwe dzięki
+ istnieniu dobrze zdefiniowanych danych wejściowych i
+\begin_inset space ~
+\end_inset
+
+istnieniu wzorów w
+\begin_inset space ~
+\end_inset
+
+ sekwencjach
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sathyaseelan2023"
@@ -497,11 +701,29 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-The above problems with the prediction of metal-binding sites are the same
- for intermolecular metal-binding sites, as well, moreover, the fact of
- two or more interacting macromolecules increases the complexity of the
- problem.
- So how to search for metals bound at 
+Powyższe problemy z
+\begin_inset space ~
+\end_inset
+
+przewidywaniem miejsc wiązania metali są takie same również dla międzycząsteczko
+wych miejsc wiązania metali.
+ Ponadto fakt występowania dwóch lub więcej oddziałujących makrocząsteczek
+ zwiększa złożoność problemu, oprócz małej świadomości badaczy o
+\begin_inset space ~
+\end_inset
+
+istnieniu międzycząsteczkowego wiązania jonów metali, może to być jednym
+ z
+\begin_inset space ~
+\end_inset
+
+powodów, dlaczego tego typu narzędzie nigdy nie powstało dla miejsc międzycząste
+czkowego wiązania.
+ Jak więc szukać jonów metali związanych w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -509,26 +731,20 @@ status open
 
 
 \backslash
-glspl{ppi}
+gls{ppi}
 \end_layout
 
 \end_inset
 
- if there are no viable 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-nwm czy tu dobrze viiable
-\end_layout
-
-\end_inset
-
- 
+ jeśli nie ma do tego odpowiednich narzędzi 
 \emph on
 in silico
 \emph default
- tools? The question is addressed below in 
+? Pytanie to zostało omówione poniżej, zob.
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -551,7 +767,11 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsection
-Obtaining knowledge about intermolecular metal-binding sites
+Pozyskanie wiedzy o
+\begin_inset space ~
+\end_inset
+
+międzycząsteczkowych miejscach wiązania metali 
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Obtaining-knowledge-about-InterMBS"
@@ -562,9 +782,31 @@ name "subsec:Obtaining-knowledge-about-InterMBS"
 \end_layout
 
 \begin_layout Standard
-As in the case of information about the interaction of the metal with the
- protein, here also publications may also be the primary source of information
- about metal-binding on 
+Podobnie jak w
+\begin_inset space ~
+\end_inset
+
+przypadku informacji o
+\begin_inset space ~
+\end_inset
+
+oddziaływaniu jonu metalu z
+\begin_inset space ~
+\end_inset
+
+białkiem, również w
+\begin_inset space ~
+\end_inset
+
+tym przypadku publikacje mogą być podstawowym źródłem informacji o
+\begin_inset space ~
+\end_inset
+
+wiązaniu jonów metali w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -578,9 +820,16 @@ gls{ppi}
 \end_inset
 
 .
- However, the lack of recognition of inter-protein metal ion binding has
- partly contributed to the fact that even if a publication is accompanied
- by the deposition of a structure in the 
+ Jednak brak świadomości wśród naukowców o
+\begin_inset space ~
+\end_inset
+
+międzybiałkowym wiązaniu jonów metali przyczynił się częściowo do tego,
+ że nawet jeśli publikacji towarzyszy zdeponowanie struktury w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -593,36 +842,60 @@ gls{rcsb}
 
 \end_inset
 
-, the fact of inter-protein metal ion binding is not necessarily commented
- on in the publication in any way.
- An additional problem with extracting knowledge directly from publications
- is the fact that the search for this type of information can be time-consuming.
- There may be problems with the availability of the article (not every article
- is published as an open access article), and the fact that there is no
- tool that aggregates the articles based on the information on whether the
- described protein within the article has an inter-protein metal-binding
- site, makes this approach unreasonable.
- Nevertheless, it is not out of the question that this type of information
- aggregation will change (not necessarily regarding the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{mppi}
-\end_layout
-
+, to fakt międzybiałkowego wiązania jonów metali niekoniecznie jest w
+\begin_inset space ~
 \end_inset
 
-) with the increasing number of open access articles published each year
- and the development of technologies related to natural language processing.
+publikacji w
+\begin_inset space ~
+\end_inset
+
+jakikolwiek sposób komentowany.
+ Dodatkowym problemem związanym z
+\begin_inset space ~
+\end_inset
+
+pozyskiwaniem wiedzy bezpośrednio z
+\begin_inset space ~
+\end_inset
+
+publikacji jest fakt, że poszukiwanie tego typu informacji może być czasochłonne.
+ Mogą pojawić się problemy z
+\begin_inset space ~
+\end_inset
+
+dostępnością artykułu (nie każdy artykuł jest publikowany jako artykuł w
+\begin_inset space ~
+\end_inset
+
+otwartym dostępie (ang.
+ open access)), a
+\begin_inset space ~
+\end_inset
+
+fakt, że nie istnieje narzędzie agregujące artykuły na podstawie informacji
+ o
+\begin_inset space ~
+\end_inset
+
+tym, czy opisane białko w
+\begin_inset space ~
+\end_inset
+
+ramach artykułu posiada międzybiałkowe miejsce wiązania jonów metali, czyni
+ takie podejście nieracjonalnym.
 \end_layout
 
 \begin_layout Standard
-To date, the best source of information on proteins that bind metal ions
- in an intermolecular manner are structural databases like 
+Do tej pory najlepszym źródłem informacji o
+\begin_inset space ~
+\end_inset
+
+białkach wiążących jony metali w
+\begin_inset space ~
+\end_inset
+
+sposób międzycząsteczkowy są strukturalne bazy danych, takie jak 
 \begin_inset ERT
 status open
 
@@ -636,7 +909,7 @@ gls{rcsb}
 \end_inset
 
 .
- Since 
+ Ponieważ 
 \begin_inset ERT
 status open
 
@@ -649,8 +922,16 @@ gls{rcsb}
 
 \end_inset
 
- contains all deposited structures (whether they contain metal or not) searching
- for information on metal-binding sites in 
+ zawiera wszystkie zdeponowane struktury (niezależnie od tego, czy zawierają
+ metal, czy nie) wyszukiwanie informacji o
+\begin_inset space ~
+\end_inset
+
+miejscach wiążących metale w
+\begin_inset space ~
+\end_inset
+
+ 
 \begin_inset ERT
 status open
 
@@ -663,9 +944,17 @@ gls{rcsb}
 
 \end_inset
 
- is not necessarily an easy task.
- For this reason, various secondary databases have been created that rely
- on the information contained in the 
+ niekoniecznie jest łatwym zadaniem.
+ Z
+\begin_inset space ~
+\end_inset
+
+tego powodu stworzono różne wtórne bazy danych, które opierają się na informacja
+ch zawartych w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -700,8 +989,24 @@ MESPEUS
 
 \end_inset
 
- was one of the first databases to include information on zinc sites, MESPEUS
- allowed filtering of data based on metal, 
+ jako jedna z
+\begin_inset space ~
+\end_inset
+
+pierwszych baz danych zawierała informacje o
+\begin_inset space ~
+\end_inset
+
+miejscach występowania
+\begin_inset space ~
+\end_inset
+
+Zn(II) w
+\begin_inset space ~
+\end_inset
+
+białkach.
+ MESPEUS umożliwiał filtrowanie danych na podstawie metalu, typie 
 \begin_inset ERT
 status open
 
@@ -709,13 +1014,21 @@ status open
 
 
 \backslash
-gls{Lg}
+glink{L}{liganda}
 \end_layout
 
 \end_inset
 
- type, and resolution, unfortunately, MESPEUS is now no longer available
- 
+ i
+\begin_inset space ~
+\end_inset
+
+rozdzielczości.
+ Niestety MESPEUS nie jest dłużej dostępny
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hsin2008,Harding2014"
@@ -746,14 +1059,70 @@ ZifBASE
 
 \end_inset
 
- is an even more specific database – it is dedicated only to zinc fingers,
- plus it contains far more information than just structural information
- – it contains sequence information, potential DNA interaction sequences,
- and more.
- However, as of today, despite the existence of the site, ZifBASE appears
- to be severely broken or non-functional at all, search and other functions
- do not work, additionally, it is not known how often the database is updated
- or whether longer updated 
+ jest jeszcze bardziej specyficzną bazą danych—poświęconą wyłącznie palcom
+ cynkowym, dodatkowo zawiera znacznie więcej informacji niż tylko informacje
+ strukturalne—zawiera informacje o
+\begin_inset space ~
+\end_inset
+
+sekwencjach, potencjalnych sekwencjach interakcji 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{zf}
+\end_layout
+
+\end_inset
+
+ z
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{dna}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+nie tylko.
+ Jednak na dzień dzisiejszy, pomimo istnienia strony, ZifBASE wydaje się
+ być poważnie uszkodzony lub w
+\begin_inset space ~
+\end_inset
+
+ogóle niefunkcjonalny, wyszukiwanie i
+\begin_inset space ~
+\end_inset
+
+inne funkcje nie działają, dodatkowo nie wiadomo jak często baza jest aktualizow
+ana i
+\begin_inset space ~
+\end_inset
+
+czy dłużej w
+\begin_inset space ~
+\end_inset
+
+ogóle jest aktualizowana
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Jayakanthan2009"
@@ -784,7 +1153,7 @@ MetalPDB
 
 \end_inset
 
- is the best-known derivative database based on 
+ jest najbardziej znaną pochodną bazą danych opartą na 
 \begin_inset ERT
 status open
 
@@ -797,20 +1166,23 @@ gls{rcsb}
 
 \end_inset
 
- regarding metal ions.
- MetalPDB has more advanced features compared to a simple database like
- MESPEUS, it has, for example, the ability to search for binding sites by
- geometric likeness.
- The big advantage of MetalPDB is the use of the 
-\begin_inset Quotes eld
+ dotyczącą jonów metali.
+ MetalPDB posiada bardziej zaawansowane funkcje w
+\begin_inset space ~
 \end_inset
 
-Minimal Functional Site
-\begin_inset Quotes erd
+porównaniu do prostej bazy danych jaką jest MESPEUS, posiada np.
+ możliwość wyszukiwania miejsc wiążących według podobieństwa geometrycznego.
+ Dużą zaletą MetalPDB jest zastosowanie koncepcji 
+\begin_inset Quotes pld
 \end_inset
 
- concept which allows the implementation of the above function.
- The disadvantage of MetalPDB is that MetalPDB is based on 
+minimalnego funkcjonalnego miejsca
+\begin_inset Quotes prd
+\end_inset
+
+, która pozwala na realizację powyższej funkcji.
+ Wadą MetalPDB jest to, że MetalPDB opiera się na 
 \begin_inset ERT
 status open
 
@@ -818,12 +1190,16 @@ status open
 
 
 \backslash
-glspl{asunit}
+glink{asunit}{jednostkach asymetrycznych}
 \end_layout
 
 \end_inset
 
-, not 
+, a
+\begin_inset space ~
+\end_inset
+
+nie 
 \begin_inset ERT
 status open
 
@@ -831,15 +1207,19 @@ status open
 
 
 \backslash
-glspl{bassembly}
+glink{bassembly}{złożeniach biologicznych}
 \end_layout
 
 \end_inset
 
 .
- This approach to building a database is incorrect because some of the binding
- sites (and especially the intermolecular binding) can only be seen after
- the symmetry operations are applied and the 
+ Takie podejście do budowania bazy danych jest nieprawidłowe, ponieważ niektóre
+ miejsca wiązania (zwłaszcza międzycząsteczkowe) można zobaczyć dopiero
+ po zastosowaniu operacji symetrii i
+\begin_inset space ~
+\end_inset
+
+utworzeniu 
 \begin_inset ERT
 status open
 
@@ -847,19 +1227,28 @@ status open
 
 
 \backslash
-gls{bassembly}
+glink{bassembly}{złożenia biologicznego}
 \end_layout
 
 \end_inset
 
- is created.
- Like the rest of these tools, MetalPDB does not allow searching for inter-prote
-in binding sites of metal ions.
- MetalPDB despite the fact that it is possible to automate this type of
- tool seems to be rarely updated, as of February 13, 2023, MetalPDB gives
- an update date as of April 5, 2022, which does not seem to be true.
- No metal-containing structures, but published close to the supposed MetalPDB
- update date are present in the database – for example, the structures 
+.
+ Podobnie jak pozostałe z
+\begin_inset space ~
+\end_inset
+
+wymienionych narzędzi, MetalPDB nie pozwala na wyszukiwanie międzybiałkowych
+ miejsc wiązania jonów metali.
+ MetalPDB pomimo możliwości zautomatyzowania tego typu narzędzia wydaje
+ się być rzadko aktualizowany, na dzień 13 lutego 2023 roku MetalPDB podaje
+ datę aktualizacji na 5 kwietnia 2022 roku, co nie wydaje się być prawdą.
+ W
+\begin_inset space ~
+\end_inset
+
+bazie nie występują struktury zawierające metal, ale opublikowane blisko
+ rzekomej daty aktualizacji MetalPDB—np.
+ struktury 
 \begin_inset CommandInset href
 LatexCommand href
 name "7V8G"
@@ -868,7 +1257,7 @@ literal "false"
 
 \end_inset
 
- (published March 30, 2022) or 
+ (opublikowana 30 marca 2022) lub 
 \begin_inset CommandInset href
 LatexCommand href
 name "7TIH"
@@ -877,11 +1266,23 @@ literal "false"
 
 \end_inset
 
- (published March 30, 2022) despite the fact that it is strewn with metals
- is also absent.
- The fact that derivative databases do not have all the records that are
- present in the primary database is understandable – for various reasons,
- over the years 
+ (opublikowana 30 marca 2022) pomimo tego, że usiane metalami są nieobecne
+ w
+\begin_inset space ~
+\end_inset
+
+MetalPDB.
+ Fakt, że pochodne bazy danych nie posiadają wszystkich rekordów, które
+ występują w
+\begin_inset space ~
+\end_inset
+
+bazie podstawowej jest zrozumiały—z różnych powodów, na przestrzeni lat,
+ w
+\begin_inset space ~
+\end_inset
+
+plikach 
 \begin_inset ERT
 status open
 
@@ -894,9 +1295,20 @@ gls{pdb}
 
 \end_inset
 
- files have all sorts of errors, inaccuracies, or format incompatibilities
- that cause problems in processing, nevertheless, the number of missing
- files in MetalPDB is puzzling 
+ pojawiają się różnego rodzaju błędy, nieścisłości czy niezgodności formatu,
+ które powodują problemy w
+\begin_inset space ~
+\end_inset
+
+przetwarzaniu, niemniej jednak liczba brakujących plików w
+\begin_inset space ~
+\end_inset
+
+MetalPDB jest zastanawiająca
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Andreini2013,Putignano2018"
@@ -926,20 +1338,39 @@ ZincBind
 
 \end_inset
 
- is one of the newest databases, which includes information on 
-\begin_inset Quotes eld
+ jest jedną z
+\begin_inset space ~
 \end_inset
 
-physiological
-\begin_inset Quotes erd
+najnowszych baz danych, która zawiera informacje o
+\begin_inset space ~
 \end_inset
 
- binding sites for Zn(II) ions, however,  it does not have information on
- intermolecular zinc-binding.
- Physiological sites in ZincBind are understood to be those with at least
- two binding residues and at least three binding atoms, additionally, ZincBind
- overcomes the biggest issues of MetalPDB: ZincBind is automatically updated,
- presented structures are already in the 
+
+\begin_inset Quotes pld
+\end_inset
+
+fizjologicznych
+\begin_inset Quotes prd
+\end_inset
+
+ miejscach wiązania jonów Zn(II), nie posiada jednak informacji o
+\begin_inset space ~
+\end_inset
+
+międzycząsteczkowym wiązaniu Zn(II).
+ Przez fizjologiczne miejsca w
+\begin_inset space ~
+\end_inset
+
+ZincBind rozumie się te, które posiadają co najmniej dwie reszty wiążące
+ i
+\begin_inset space ~
+\end_inset
+
+co najmniej trzy atomy wiążące, dodatkowo ZincBind rozwiązuje największe
+ problemy MetalPDB—ZincBind jest automatycznie aktualizowany, prezentowane
+ struktury są 
 \begin_inset ERT
 status open
 
@@ -947,12 +1378,16 @@ status open
 
 
 \backslash
-glspl{bassembly}
+glink{bassembly}{złożeniami biologicznymi}
 \end_layout
 
 \end_inset
 
-, and most of all the 
+, a
+\begin_inset space ~
+\end_inset
+
+przede wszystkim 
 \begin_inset ERT
 status open
 
@@ -965,7 +1400,15 @@ gls{code}
 
 \end_inset
 
- of ZincBind is freely available under the MIT License 
+ ZincBind jest ogólnodostępny na licencji MIT (jednej z
+\begin_inset space ~
+\end_inset
+
+bardziej liberalnych licencji otwartego oprogramowania)
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Ireland2019"
@@ -978,7 +1421,7 @@ literal "true"
 status open
 
 \begin_layout Plain Layout
-The 
+Dostępność 
 \begin_inset ERT
 status open
 
@@ -986,12 +1429,16 @@ status open
 
 
 \backslash
-gls{code}
+glink{code}{kodu źródłowego}
 \end_layout
 
 \end_inset
 
- availability makes the science more transparent.
+ czyni naukę bardziej przejrzystą i
+\begin_inset space ~
+\end_inset
+
+powtarzalną.
 \end_layout
 
 \end_inset
@@ -1000,8 +1447,8 @@ gls{code}
 \end_layout
 
 \begin_layout Standard
-Using various types of databases, it is possible, after applying certain
- logic, to select 
+Wykorzystując różnego rodzaju bazy danych można, po zastosowaniu pewnej
+ logiki, wyselekcjonować pliki 
 \begin_inset ERT
 status open
 
@@ -1014,23 +1461,29 @@ gls{pdb}
 
 \end_inset
 
- files that have metal ions at the interface of two macromolecules.
+, w
+\begin_inset space ~
+\end_inset
+
+których na styku dwóch makrocząsteczek występują jony metali
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-This does not automatically mean that these sites will be physiologically
- relevant.
+Nie oznacza to automatycznie, że miejsca te będą miały znaczenie fizjologiczne.
  
 \end_layout
 
 \end_inset
 
- However, this type of manipulation may require some programming expertise
- to avoid the tedious manual review of hundreds or thousands of structures.
- To make this search possible for scientists without programming knowledge
- to find intermolecular metal-binding sites in proteins, I have decided
- to create a publicly available database – InterMetalDB
+ Tego typu manipulacje mogą jednak wymagać pewnej wiedzy programistycznej,
+ aby uniknąć żmudnego, ręcznego przeglądania setek lub tysięcy struktur.
+ Aby umożliwić naukowcom bez wiedzy programistycznej takie wyszukiwanie
+ międzycząsteczkowych miejsc wiązania metali w
+\begin_inset space ~
+\end_inset
+
+białkach, postanowiłem stworzyć publicznie dostępną bazę danych—InterMetalDB
 \begin_inset Foot
 status open
 
@@ -1050,7 +1503,7 @@ https://intermetaldb.biotech.uni.wroc.pl/
 
 \end_inset
 
-(
+ (
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1073,17 +1526,33 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsection
-How one does build a database?
+Jak się buduje bazę danych?
 \end_layout
 
 \begin_layout Standard
-The first step in building a database is data acquisition.
- In the case of creating a primary database, data should be obtained directly
- from a suitable source.
- For scientific databases, the source of such data is often publications.
- For example, the NIST46
+Pierwszym krokiem w
+\begin_inset space ~
+\end_inset
+
+budowie bazy danych jest pozyskanie danych.
+ W
+\begin_inset space ~
+\end_inset
+
+przypadku tworzenia bazy pierwotnej, dane powinny być pozyskane bezpośrednio
+ z
+\begin_inset space ~
+\end_inset
+
+odpowiedniego źródła.
+ W
+\begin_inset space ~
+\end_inset
+
+przypadku naukowych baz danych, źródłem takich danych są często publikacje.
+ Przykładem może być baza danych NIST46
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
@@ -1101,9 +1570,37 @@ https://www.nist.gov/srd/nist46
 
 \end_inset
 
- database of affinity constants for chelator complexes with metals was built
- by searching and evaluating data from publications.
- In the case of 
+—baza danych stałych powinowactwa dla kompleksów 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{L}{ligandów}
+\end_layout
+
+\end_inset
+
+ z
+\begin_inset space ~
+\end_inset
+
+metalami zbudowana poprzez wyszukiwanie i
+\begin_inset space ~
+\end_inset
+
+ocenę danych z
+\begin_inset space ~
+\end_inset
+
+publikacji.
+ W
+\begin_inset space ~
+\end_inset
+
+przypadku 
 \begin_inset ERT
 status open
 
@@ -1116,10 +1613,13 @@ gls{rcsb}
 
 \end_inset
 
-, the situation is somewhat different nowadays – journals now often require
- the structure to be deposited prior to the article acceptation or release.
- This is a very smart approach, for several reasons – it reduces the workload
- on the 
+, obecnie sytuacja jest nieco inna—czasopisma często wymagają zdeponowania
+ struktury przed akceptacją lub wydaniem artykułu.
+ Jest to bardzo mądre podejście, z
+\begin_inset space ~
+\end_inset
+
+kilku powodów— zmniejsza obciążenie pracą po stronie 
 \begin_inset ERT
 status open
 
@@ -1132,8 +1632,16 @@ gls{rcsb}
 
 \end_inset
 
- side, and guarantees that virtually every publication presenting a new
- structure will simultaneously deposit the structure in the 
+ i
+\begin_inset space ~
+\end_inset
+
+gwarantuje, że praktycznie każda publikacja prezentująca nową strukturę
+ będzie jednocześnie deponowała ją w
+\begin_inset space ~
+\end_inset
+
+ 
 \begin_inset ERT
 status open
 
@@ -1147,8 +1655,12 @@ gls{rcsb}
 \end_inset
 
 .
- However, this does not mean that every structure described by humankind
- will be available in the 
+ Nie oznacza to jednak, że każda struktura opisana przez ludzkość będzie
+ dostępna w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -1162,8 +1674,16 @@ gls{rcsb}
 \end_inset
 
 .
- In 2023, private companies still do not publish macromolecular structures
- in the 
+ W
+\begin_inset space ~
+\end_inset
+
+2023 roku prywatne firmy nadal nie publikują struktur makromolekularnych
+ w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -1176,7 +1696,11 @@ gls{rcsb}
 
 \end_inset
 
-, while structures deposited in the 
+, podczas gdy struktury zdeponowane w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -1189,7 +1713,11 @@ gls{rcsb}
 
 \end_inset
 
- contribute to the development of new drugs by public entities 
+ przyczyniają się do rozwoju nowych leków przez podmioty publiczne
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Westbrook2019"
@@ -1202,9 +1730,16 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-In the case of the derivative databases, the first step o acquiring a data
- set is to query a primary database.
- If 
+W
+\begin_inset space ~
+\end_inset
+
+przypadku baz pochodnych, pierwszym krokiem o
+\begin_inset space ~
+\end_inset
+
+pozyskanie zbioru danych jest zapytanie do bazy pierwotnej.
+ Jeśli jest dostępny 
 \begin_inset ERT
 status open
 
@@ -1217,9 +1752,9 @@ gls{api}
 
 \end_inset
 
- is available the acquisition is usually trivial, as it requires only the
- application of the proper querying logic.
- If the database does not provide the 
+ to jej pozyskanie jest zwykle trywialne, gdyż wymaga jedynie zastosowania
+ odpowiedniej logiki zapytań.
+ Jeśli baza danych nie udostępnia 
 \begin_inset ERT
 status open
 
@@ -1232,33 +1767,64 @@ gls{api}
 
 \end_inset
 
- one still can obtain the information – manually or by constructing a web
- crawler 
+ nadal można uzyskać informacje—ręcznie lub poprzez skonstruowanie internetowego
+ robota indeksującego (ang.
+ web crawler) 
 \begin_inset Marginal
 status collapsed
 
 \begin_layout Plain Layout
-A web crawler is a program that scans the Internet.
- The main purpose of web crawlers is to collect data for various purposes,
- such as search engine indexing, data mining, and content monitoring.
+Robot indeksujący to program, który skanuje Internet.
+ Roboty indeksujące zbierają dane do różnych celów, takich jak indeksowanie
+ w
+\begin_inset space ~
+\end_inset
+
+wyszukiwarkach, eksploracja danych i
+\begin_inset space ~
+\end_inset
+
+monitorowanie treści.
 \end_layout
 
 \end_inset
 
- provided the database has an online version.
+ pod warunkiem, że baza danych posiada wersję online.
 \end_layout
 
 \begin_layout Standard
-If the data was not filtered in the previous step the next step is the data
- selection, annotation, organization, and storage.
- The goal of this step is to ensure that the data is accurate and consistent.
- This step is particularly important in scientific research, where data
- is often complex, and diverse and requires long-term preservation.
- This can be done manually, by computer programs or scripts, or by a combination
- of these approaches.
- In case of the curation of the macromolecular data, it is important to
- take into account various information that accompanies the structure: the
- sequence of the macromolecules in the 
+Jeśli dane nie zostały przefiltrowane w
+\begin_inset space ~
+\end_inset
+
+poprzednim kroku, następnym krokiem jest wybór danych, adnotacja, organizacja
+ i
+\begin_inset space ~
+\end_inset
+
+przechowywanie.
+ Celem tego kroku jest zapewnienie spójności danych.
+ Ten krok jest szczególnie ważny w
+\begin_inset space ~
+\end_inset
+
+badaniach naukowych, gdzie dane są często złożone, różnorodne i
+\begin_inset space ~
+\end_inset
+
+wymagają długoterminowego przechowywania.
+ Można to zrobić ręcznie, za pomocą programów komputerowych lub skryptów,
+ lub przez kombinację tych podejść.
+ W
+\begin_inset space ~
+\end_inset
+
+przypadku kurateli danych makrocząsteczkowych ważne jest uwzględnienie różnych
+ metadanych, które towarzyszą strukturze: sekwencji makrocząsteczek w
+\begin_inset space ~
+\end_inset
+
+plikach 
 \begin_inset ERT
 status open
 
@@ -1271,9 +1837,31 @@ gls{pdb}
 
 \end_inset
 
- files, the coordinates in the file, gene source organism, the expression
- mechanism, ways of structure acquisition, etc.
- An important issue with the data aggregated in the 
+, współrzędnych w
+\begin_inset space ~
+\end_inset
+
+pliku, organizmu z
+\begin_inset space ~
+\end_inset
+
+którego pochodzi gen białka, mechanizmu i
+\begin_inset space ~
+\end_inset
+
+organizmu ekspresji, sposobu pozyskiwania struktury itp.
+\end_layout
+
+\begin_layout Standard
+Ważnym zagadnieniem związanym z
+\begin_inset space ~
+\end_inset
+
+danymi zagregowanymi w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -1286,12 +1874,16 @@ gls{rcsb}
 
 \end_inset
 
- is the fact of the redundancy
+ jest fakt redundancji 
 \begin_inset Marginal
-status open
+status collapsed
 
 \begin_layout Plain Layout
-In the case of the 
+W
+\begin_inset space ~
+\end_inset
+
+przypadku 
 \begin_inset ERT
 status open
 
@@ -1304,8 +1896,9 @@ gls{rcsb}
 
 \end_inset
 
- redundancy is understood as the existence of many similar macromolecular
- structures, i.e., two 
+ redundancja jest rozumiana jako istnienie wielu podobnych struktur wielkocząste
+czkowych, tzn.
+ dwa pliki 
 \begin_inset ERT
 status open
 
@@ -1318,62 +1911,138 @@ gls{pdb}
 
 \end_inset
 
- files of the same protein can be almost identical, however, one file may
- have a better resolution.
+ tego samego białka mogą być prawie identyczne, jednak jeden plik może mieć
+ lepszą rozdzielczość.
 \end_layout
 
 \end_inset
 
- of structural files, which should be taken into account during the construction
- of the derivative database.
- This redundancy is dealt with usually by clustering based on the sequence.
+ plików strukturalnych, które powinny być uwzględnione podczas budowy bazy
+ danych pochodnych.
+ Z
+\begin_inset space ~
+\end_inset
+
+tą redundancją radzi się zwykle poprzez grupowanie na podstawie sekwencji.
 \end_layout
 
 \begin_layout Standard
-During the data organization it is important to design a proper logic of
- the database – how the records of the databases are connected together
- within the database.
- For example macromolecular structure may contain multiple metal-binding
- sites, this simple and hardly revealing fact implies several questions,
- e.g.,: how the records of the metal-binding sites should be connected with
- the records of the structures?; how to choose a representative metal-binding
- site from a structure, or maybe are there multiple representative metal-binding
- sites?.
- If the answers to those and other questions are known it is possible to
- implement the logic behind the database.
+Podczas organizacji danych ważne jest zaprojektowanie odpowiedniej logiki
+ bazy danych—czyli tego jak rekordy bazy danych są ze sobą połączone w
+\begin_inset space ~
+\end_inset
+
+ramach bazy.
+ Na przykład struktura makrocząsteczkowa może zawierać wiele miejsc wiążących
+ metale, ten prosty i
+\begin_inset space ~
+\end_inset
+
+mało odkrywczy fakt implikuje kilka pytań, np.: 
+\begin_inset Quotes pld
+\end_inset
+
+Jak rekordy miejsc wiążących metale powinny być połączone z
+\begin_inset space ~
+\end_inset
+
+rekordami struktur?
+\begin_inset Quotes prd
+\end_inset
+
+, 
+\begin_inset Quotes pld
+\end_inset
+
+Jak wybrać reprezentatywne miejsce wiążące metale ze struktury?
+\begin_inset Quotes prd
+\end_inset
+
+, 
+\begin_inset Quotes pld
+\end_inset
+
+Czy istnieje wiele reprezentatywnych miejsc wiążących metale?
+\begin_inset Quotes prd
+\end_inset
+
+.
+ Jeśli znane są odpowiedzi na te i
+\begin_inset space ~
+\end_inset
+
+inne pytania, możliwe jest zaimplementowanie logiki stojącej za bazą danych.
 \end_layout
 
 \begin_layout Standard
-The final step of the data curation is the data presentation and sharing,
- in the age of the Internet it is normal to present the curated data over
- the Internet as a hosted web application that allows for the querying,
- and viewing the aggregated results.
- This step largely relies on the previous step and the logic behind the
- database, if the database has poorly done bindings the querying of the
- database for the end user will be cumbersome.
+Ostatnim krokiem kurateli danych jest prezentacja i
+\begin_inset space ~
+\end_inset
+
+udostępnianie danych.
+ W
+\begin_inset space ~
+\end_inset
+
+dobie Internetu normalnym jest prezentowanie danych online w
+\begin_inset space ~
+\end_inset
+
+postaci hostowanej aplikacji internetowej, która pozwala na zadawanie zapytań
+ i
+\begin_inset space ~
+\end_inset
+
+ przeglądanie zagregowanych wyników.
+ Ten krok w
+\begin_inset space ~
+\end_inset
+
+dużej mierze opiera się na poprzednim kroku i
+\begin_inset space ~
+\end_inset
+
+logice stojącej za bazą danych, jeśli baza danych ma źle wykonane wiązania,
+ odpytywanie bazy danych dla użytkownika końcowego będzie uciążliwe.
  
 \end_layout
 
 \begin_layout Subsubsection
-Use of programming and markup languages in the creation and presentation
- of databases
+Wykorzystanie języków programowania i
+\begin_inset space ~
+\end_inset
+
+języków znaczników w
+\begin_inset space ~
+\end_inset
+
+tworzeniu i
+\begin_inset space ~
+\end_inset
+
+prezentacji baz danych
 \end_layout
 
 \begin_layout Standard
-Programming languages play an important role in the creation of modern databases.
- There are several programming languages that are commonly used for creating
- the back-end
+Języki programowania odgrywają ważną rolę w
+\begin_inset space ~
+\end_inset
+
+tworzeniu nowoczesnych baz danych.
+ Istnieje kilka języków programowania, które są powszechnie używane do tworzenia
+ back-endu 
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
-The back-end is understood as everything that is invisible to the end user.
- It contains all the application logic, bindings, etc.
+Back-end jest rozumiany jako wszystko, co jest niewidoczne dla użytkownika
+ końcowego.
+ Zawiera on całą logikę aplikacji, wiązania, itp.
 \end_layout
 
 \end_inset
 
- databases including 
+ bazy danych, są to m.in., 
 \begin_inset ERT
 status open
 
@@ -1399,11 +2068,7 @@ gls{python}
 
 \end_inset
 
-, 
-\family typewriter
-Java
-\family default
-, and others.
+, Java, oraz inne.
 \end_layout
 
 \begin_layout Standard
@@ -1419,10 +2084,24 @@ Gls{sql}
 
 \end_inset
 
- is the most widely used language for managing and querying relational databases.
- It is used to create, modify, and delete database objects, such as tables,
- views, and indexes.
- 
+ jest najczęściej używanym językiem do zarządzania i
+\begin_inset space ~
+\end_inset
+
+zadawania zapytań w
+\begin_inset space ~
+\end_inset
+
+ relacyjnych bazach danych.
+ Służy do tworzenia, modyfikowania i
+\begin_inset space ~
+\end_inset
+
+usuwania obiektów bazy danych, takich jak tabele, widoki i
+\begin_inset space ~
+\end_inset
+
+indeksy, 
 \begin_inset ERT
 status open
 
@@ -1430,12 +2109,20 @@ status open
 
 
 \backslash
-Gls{sql}
+gls{sql}
 \end_layout
 
 \end_inset
 
- is also used to insert, update, and retrieve data from tables.
+ jest również używany do wstawiania, aktualizowania i
+\begin_inset space ~
+\end_inset
+
+pobierania danych z
+\begin_inset space ~
+\end_inset
+
+tabel.
 \end_layout
 
 \begin_layout Standard
@@ -1451,9 +2138,17 @@ Gls{python}
 
 \end_inset
 
- is a popular general-purpose programming language that is widely used for
- data processing and analysis.
- A variety of libraries allow for easy object manipulation in 
+ jest popularnym językiem programowania ogólnego przeznaczenia, który jest
+ szeroko stosowany do przetwarzania i
+\begin_inset space ~
+\end_inset
+
+analizy danych.
+ Różnorodne biblioteki pozwalają na łatwe manipulowanie obiektami w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -1466,8 +2161,16 @@ gls{python}
 
 \end_inset
 
-, which allows for managing and building the logic in the database.
- For example, 
+, co pozwala na zarządzanie i
+\begin_inset space ~
+\end_inset
+
+budowanie logiki w
+\begin_inset space ~
+\end_inset
+
+bazie danych.
+ Na przykład, 
 \begin_inset ERT
 status open
 
@@ -1480,7 +2183,7 @@ gls{django}
 
 \end_inset
 
- is a popular web framework that is built on 
+ to popularna platforma programistyczna zbudowana na bazie języka 
 \begin_inset ERT
 status open
 
@@ -1493,8 +2196,8 @@ gls{python}
 
 \end_inset
 
- and is often used for creating web applications that are operating on databases.
- The use of 
+.
+ 
 \begin_inset ERT
 status open
 
@@ -1507,8 +2210,31 @@ gls{django}
 
 \end_inset
 
- allows working with databases using high-level abstractions instead of
- writing raw 
+ jest często wykorzystywany do tworzenia aplikacji internetowych działających
+ na bazach danych.
+ Zastosowanie 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{django}
+\end_layout
+
+\end_inset
+
+ pozwala na pracę z
+\begin_inset space ~
+\end_inset
+
+bazami danych przy użyciu wysokopoziomowych abstrakcji zamiast pisania kwerend
+ w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -1521,8 +2247,12 @@ gls{sql}
 
 \end_inset
 
- queries.
- With 
+u.
+ 
+\end_layout
+
+\begin_layout Standard
+Dzięki 
 \begin_inset ERT
 status open
 
@@ -1535,8 +2265,11 @@ gls{django}
 
 \end_inset
 
-, it is possible to define the logic and models of the database tables as
- regular 
+ możliwe jest zdefiniowanie logiki i
+\begin_inset space ~
+\end_inset
+
+modeli tabel bazy danych jako zwykłych klas 
 \begin_inset ERT
 status open
 
@@ -1549,7 +2282,7 @@ gls{python}
 
 \end_inset
 
- classes.
+.
  
 \begin_inset ERT
 status open
@@ -1563,7 +2296,7 @@ Gls{django}
 
 \end_inset
 
- provides a convenient 
+ zapewnia wygodne 
 \begin_inset ERT
 status open
 
@@ -1576,8 +2309,15 @@ gls{api}
 
 \end_inset
 
- for querying the database allowing it to retrieve and manipulate the data
- with 
+ dla zapytań do bazy danych pozwalające na pobieranie i
+\begin_inset space ~
+\end_inset
+
+manipulowanie danymi za pomocą obiektów i
+\begin_inset space ~
+\end_inset
+
+metod języka 
 \begin_inset ERT
 status open
 
@@ -1590,14 +2330,20 @@ gls{python}
 
 \end_inset
 
- objects and methods, which allows finally for a presentation as a front-end.
- 
+, co pozwala w
+\begin_inset space ~
+\end_inset
+
+końcu na prezentację danych jako front-end.
 \begin_inset Marginal
-status open
+status collapsed
 
 \begin_layout Plain Layout
-Front-end is everything that the end-user is able to see – user interface;
- buttons, images, etc.
+Front-end to wszystko, co użytkownik końcowy jest w
+\begin_inset space ~
+\end_inset
+
+stanie zobaczyć—interfejs użytkownika; przyciski, obrazy itp.
  
 \end_layout
 
@@ -1607,7 +2353,7 @@ Front-end is everything that the end-user is able to see – user interface;
 \end_layout
 
 \begin_layout Standard
-The front-end of the web application is usually built with 
+Front-end aplikacji internetowej jest zwykle budowany za pomocą 
 \begin_inset ERT
 status open
 
@@ -1620,19 +2366,44 @@ gls{html}
 
 \end_inset
 
-, the website is stylized using Cascading Style Sheets, and the interactivity
- is added using JavaScript (e.g., the ability to view the protein structure).
+, strona jest stylizowana za pomocą kaskadowych arkuszy stylów, a
+\begin_inset space ~
+\end_inset
+
+interaktywność często jest dodawana za pomocą języka JavaScript (np.
+ możliwość obejrzenia struktury białka).
 \end_layout
 
 \begin_layout Subsubsection
-Clustering
+Klastrowanie
 \end_layout
 
 \begin_layout Standard
-The part of data curation is the clustering of the primary data.
- One of the most common ways of dealing with redundancy in the protein structure
-s is the use of a sequence clustering algorithm.
- This can be done by several programs, however,  in the InterMetalDB (
+Częścią kurateli danych jest klasteryzacja danych pierwotnych, czyli podział
+ danych na mniejsze grupy, zawierające podobne dane—jest to szczególnie
+ istotne w
+\begin_inset space ~
+\end_inset
+
+przypadku kurateli danych strukturalnych.
+ Jednym z
+\begin_inset space ~
+\end_inset
+
+najczęstszych sposobów radzenia sobie z
+\begin_inset space ~
+\end_inset
+
+redundancją w
+\begin_inset space ~
+\end_inset
+
+strukturach białkowych jest zastosowanie algorytmu klasteryzacji sekwencji.
+ Można to zrobić za pomocą kilku programów, jednak w
+\begin_inset space ~
+\end_inset
+
+InterMetalDB (
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1651,24 +2422,11 @@ noprefix "false"
 
 \end_inset
 
-) I have decided to utilize CD-HIT 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Li2006,Fu2012"
-literal "true"
-
+) postanowiłem wykorzystać mmseqs2
+\begin_inset space ~
 \end_inset
 
-.
- Similar algorithms and programs may be used, e.g., BLAST 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Camacho2009"
-literal "true"
 
-\end_inset
-
- or mmseqs2 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Mirdita2019,Mirdita2021"
@@ -1677,7 +2435,37 @@ literal "true"
 \end_inset
 
 .
- To cluster 
+ W
+\begin_inset space ~
+\end_inset
+
+zależności od danych można zastosować podobne algorytmy, np.
+ BLAST
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Camacho2009"
+literal "true"
+
+\end_inset
+
+, czy CD-HIT
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fu2012,Li2006"
+literal "true"
+
+\end_inset
+
+.
+ Aby wykonać klasteryzację plików 
 \begin_inset ERT
 status open
 
@@ -1690,11 +2478,11 @@ gls{pdb}
 
 \end_inset
 
- files one typically follows several steps:
+ zazwyczaj należy wykonać sekwencyjnie kilka kroków:
 \end_layout
 
 \begin_layout Enumerate
-Convert the 
+Przekonwertować pliki 
 \begin_inset ERT
 status open
 
@@ -1707,7 +2495,7 @@ gls{pdb}
 
 \end_inset
 
- files into a FASTA format (a text file extending 
+ do formatu FASTA (plik tekstowy rozszerzający 
 \begin_inset ERT
 status open
 
@@ -1724,12 +2512,11 @@ gls{ascii}
 \end_layout
 
 \begin_layout Enumerate
-Use CD-HIT to cluster the protein sequences at a desired sequence identity
- threshold.
+Zastosować klasteryzację sekwencji przy żądanym progu identyczności sekwencji.
 \end_layout
 
 \begin_layout Enumerate
-Map the clustered sequences back to the original 
+Zmapować pogrupowane sekwencje do oryginalnych plików 
 \begin_inset ERT
 status open
 
@@ -1742,21 +2529,39 @@ gls{pdb}
 
 \end_inset
 
- structures.
+.
 \end_layout
 
 \begin_layout Enumerate
-Remove redundant structures in each cluster and select a representative
- structure for each cluster.
- This step can be performed by choosing as a representative a structure
- with the best resolution or newest structure.
+Usunąć zbędne struktury w
+\begin_inset space ~
+\end_inset
+
+każdym klastrze i
+\begin_inset space ~
+\end_inset
+
+wybrać reprezentatywną strukturę dla każdego klastra.
+ Krok ten można wykonać wybierając jako reprezentatywną strukturę o
+\begin_inset space ~
+\end_inset
+
+najlepszej rozdzielczości lub najnowszą strukturę.
 \end_layout
 
 \begin_layout Standard
-The resulting output is a set of non-redundant (or with diminished redundancy)
- representative structures for each cluster.
- Depending on the clustering threshold it may be required to cluster the
- structures based on another factor, e.g., based on the structure.
+Wynikiem jest zbiór nieredundantnych (lub o
+\begin_inset space ~
+\end_inset
+
+zmniejszonej redundancji) struktur reprezentatywnych dla każdego klastra.
+ W
+\begin_inset space ~
+\end_inset
+
+zależności od progu grupowania może być wymagane grupowanie struktur na
+ podstawie innego czynnika, np.
+ na podstawie struktury.
 \end_layout
 
 \begin_layout Standard
@@ -1768,8 +2573,19 @@ status open
 \begin_layout Plain Layout
 
 \emph on
-w tym rozdziale info o tym, że ze struktury nie można nic mówić o stopniu
- utlenienia
+w
+\begin_inset space ~
+\end_inset
+
+tym rozdziale info o
+\begin_inset space ~
+\end_inset
+
+tym, że ze struktury nie można nic mówić o
+\begin_inset space ~
+\end_inset
+
+stopniu utlenienia
 \end_layout
 
 \end_inset
@@ -1778,16 +2594,24 @@ w tym rozdziale info o tym, że ze struktury nie można nic mówić o stopniu
 \end_layout
 
 \begin_layout Section
-
+Badanie 
 \emph on
-Ex silico 
+ex silico
 \emph default
-investigation of intermolecular metal-binding sites
+ międzycząsteczkowych miejsc wiązania metali
 \end_layout
 
 \begin_layout Standard
-What if one already have some preliminary information (for example, obtained
- through database research, 
+Co zrobić, jeśli ma się już jakieś wstępne informacje (np.
+ uzyskane w
+\begin_inset space ~
+\end_inset
+
+wyniku przeszukiwania bazy danych,
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1806,7 +2630,15 @@ noprefix "false"
 
 \end_inset
 
-) or hunch about the intermolecular metal-binding at 
+) czy przeczucie o
+\begin_inset space ~
+\end_inset
+
+międzycząsteczkowym wiązaniu metalu w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -1819,25 +2651,40 @@ gls{ppi}
 
 \end_inset
 
-? With preliminary knowledge (or suspicion) of intermolecular metal binding,
- one can proceed with
+? Mając wstępną wiedzę (lub podejrzenie) o
+\begin_inset space ~
+\end_inset
+
+międzycząsteczkowym wiązaniu metali, można przystąpić do badań 
 \emph on
- ex silico 
+ex silico
 \emph default
-testing.
- In general, verification of intermolecular metal-binding is not significantly
- different from the study of metal–protein interaction, although there are
- existent some important differences that should be taken into account during
- the design of the experiment.
+, gdzie 
+\emph on
+ex silico
+\emph default
+ będę rozumiał jako wszystkie eksperymenty wykonywane bez użycia komputera
+ jako głównego narzędzia pracy.
+\end_layout
+
+\begin_layout Standard
+Generalnie weryfikacja międzycząsteczkowego wiązania metali nie różni się
+ znacząco od badania oddziaływań metal–białko, choć istnieją pewne istotne
+ różnice, które powinny być uwzględnione podczas projektowania eksperymentu.
 \end_layout
 
 \begin_layout Subsection
-Proteomic tools for the detection of metal-involved protein-protein interfaces
+Proteomiczne narzędzia do wykrywania międzybiałkowych miejsc wiązania jonów
+ metali
 \end_layout
 
 \begin_layout Standard
-At the outset, it is worth noting that the issues addressed below concern
- both intermolecular metal ion binding and metal-induced 
+Na wstępie warto zaznaczyć, że poruszane poniżej zagadnienia dotyczą zarówno
+ międzycząsteczkowego wiązania jonów metali, jak i
+\begin_inset space ~
+\end_inset
+
+indukowanego przez metale powstawania 
 \begin_inset ERT
 status open
 
@@ -1845,68 +2692,26 @@ status open
 
 
 \backslash
-glspl{ppi}
+gls{ppi}
 \end_layout
 
 \end_inset
 
- formation.
- The verdict, which process is dealt of 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-nwm czy zdanie dobre
-\end_layout
-
+.
+ Werdykt, z
+\begin_inset space ~
 \end_inset
 
-may require a more thorough investigation, for example, the involvement
- of structural and biophysical methods (see bellow).
- To my knowledge no 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{hts}
-\end_layout
-
+którym procesem mamy do czynienia wymaga dokładniejszego zbadania, na przykład
+ zaangażowania metod strukturalnych i
+\begin_inset space ~
 \end_inset
 
-, to detect complexes with an intermolecularly bound metal ion, have been
- performed so far, thus leaving the landscape of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{mppi}
-\end_layout
-
-\end_inset
-
- hidden in the fog 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(https://febs.onlinelibrary.wiley.com/doi/full/10.1111/j.1742-4658.2011.08061.x#b28)
- to dzieswłożyć
-\end_layout
-
-\end_inset
-
-—for this reason, considerations in this Subsection are purely theoretical.
+biofizycznych (patrz poniżej).
 \end_layout
 
 \begin_layout Standard
-State of art proteomic technologies already may give some information about
- 
+Według mojej wiedzy nie przeprowadzono dotychczas żadnych 
 \begin_inset ERT
 status open
 
@@ -1914,14 +2719,63 @@ status open
 
 
 \backslash
-glspl{mppi}
+glink{hts}{ badań przesiewowych owysokiej wydajności (HTS, ang.
+ High-Throughput Screening))}
 \end_layout
 
 \end_inset
 
-, however, the detection of such interactions by those methods requires
- to take into experimental framework some important ideas regarding the
- complexes stabilities (see 
+, mających na celu wykrycie kompleksów z
+\begin_inset space ~
+\end_inset
+
+międzycząsteczkowo związanym jonem metalu, pozostawiając tym samym krajobraz
+ oddziaływań 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mppi}
+\end_layout
+
+\end_inset
+
+ ukryty we mgle—z tego powodu rozważania w
+\begin_inset space ~
+\end_inset
+
+tym podrozdziale mają charakter czysto teoretyczny.
+\end_layout
+
+\begin_layout Standard
+Najnowsze technologie proteomiczne mogą już dostarczyć pewnych informacji
+ na temat 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mppi}
+\end_layout
+
+\end_inset
+
+, jednak wykrywanie takich interakcji za pomocą tych metod wymaga uwzględnienia
+ w
+\begin_inset space ~
+\end_inset
+
+ramach eksperymentu pewnych ważnych idei dotyczących stabilności kompleksów
+ (zob.
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1941,23 +2795,32 @@ noprefix "false"
 \end_inset
 
 ).
- One of the most important issues to take care for is the availability of
- the free metal (e.g., 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{freezn}
-\end_layout
-
+ Jedną z
+\begin_inset space ~
 \end_inset
 
-) in the experiment.
- The care should be taken to supply used buffers with an appropriate metal,
- preferably in an controlled manner (
+najważniejszych kwestii, o
+\begin_inset space ~
+\end_inset
+
+które należy zadbać, jest dostępność wolnego metalu (np.
+ należy zadbać o
+\begin_inset space ~
+\end_inset
+
+zaopatrzenie używanych buforów w
+\begin_inset space ~
+\end_inset
+
+odpowiedni metal, najlepiej w
+\begin_inset space ~
+\end_inset
+
+sposób kontrolowany za pomocą buforu metalicznego, patrz
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1977,10 +2840,10 @@ noprefix "false"
 \end_inset
 
 ).
- Unfortunately the most of the modern proteomic technologies are not suitable
- for the investigation of transient (or weak) interactions, mostly due to
- the washing steps aimed at removal of nonspecific interactions.
- Furthermore, the subsequent detection of interaction partners with 
+ Niestety większość nowoczesnych technologii proteomicznych nie nadaje się
+ do badania przejściowych (lub słabych) interakcji, głównie ze względu na
+ etapy płukania mające na celu usunięcie niespecyficznych oddziaływań.
+ Ponadto, późniejsza detekcja partnerów interakcji za pomocą technik 
 \begin_inset ERT
 status open
 
@@ -1988,18 +2851,19 @@ status open
 
 
 \backslash
-gls{MS}
+glink{MS}{spektrometrii mass (MS)}
 \end_layout
 
 \end_inset
 
- techniques efficiently removes metals due to the low pH during sample preparati
-on, thus additionally to the control experiments, experiments that stabilize
- the complexes (e.g, by crosslinking) should be prepared.
+ skutecznie usuwa metale ze względu na niskie pH podczas przygotowania próbek,
+ dlatego dodatkowo do eksperymentów kontrolnych należy przygotować eksperymenty
+ stabilizujące kompleksy (np.
+ poprzez sieciowanie).
 \end_layout
 
 \begin_layout Subsubsection
-Mass spectrometry
+Spektrometria mass
 \end_layout
 
 \begin_layout Standard
@@ -2015,8 +2879,12 @@ Glsfirst{MS}
 
 \end_inset
 
- is the gold standard method that is utilized in proteomics.
- Using 
+ jest złotym standardem wykorzystywanym w
+\begin_inset space ~
+\end_inset
+
+proteomice.
+ Za pomocą 
 \begin_inset ERT
 status open
 
@@ -2029,12 +2897,15 @@ gls{MS}
 
 \end_inset
 
- it is possible to tell what is the mass of the measured protein, or the
- fragments of the protein – peptides.
- Seemingly this information is of low value to the researcher, however,
- the the number of articles published each year proves different – with
- known protein mass it is possible to identify modifications of the protein.
- Tandem 
+ można stwierdzić jaka jest masa mierzonego białka, lub jego fragmentów,
+ czyli peptydów.
+ Z
+\begin_inset space ~
+\end_inset
+
+pozoru informacja ta jest mało wartościowa dla badacza, jednak liczba publikowan
+ych co roku artykułów dowodzi, że jest inaczej—przy znanej masie białka
+ możliwa jest identyfikacja jego modyfikacji, fragmentacja tandemowa 
 \begin_inset ERT
 status open
 
@@ -2047,9 +2918,14 @@ gls{MS}
 
 \end_inset
 
- and/or enzymatic fragmentation can give information about identity of the
- protein (provided the genome of the investigated organism is known).
- 
+ i/lub enzymatyczna może dać informację o
+\begin_inset space ~
+\end_inset
+
+tożsamości białka (pod warunkiem, że znany jest genom badanego organizmu).
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -2057,13 +2933,40 @@ status open
 
 
 \backslash
-Glsdesc{MS}
+Gls{MS}
 \end_layout
 
 \end_inset
 
- combined with crosslinking and computational modeling can provide information
- about protein topology or even the structure 
+ w
+\begin_inset space ~
+\end_inset
+
+połączeniu z
+\begin_inset space ~
+\end_inset
+
+sieciowaniem i
+\begin_inset space ~
+\end_inset
+
+modelowaniem obliczeniowym może dostarczyć informacji o
+\begin_inset space ~
+\end_inset
+
+topologii białka, a
+\begin_inset space ~
+\end_inset
+
+nawet o
+\begin_inset space ~
+\end_inset
+
+jego strukturze
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Petrotchenko2022"
@@ -2072,7 +2975,7 @@ literal "true"
 \end_inset
 
 .
- So it is not without reason why 
+ Nie bez powodu więc techniki 
 \begin_inset ERT
 status open
 
@@ -2085,8 +2988,15 @@ gls{MS}
 
 \end_inset
 
- techniques are used so often in proteomics, including the investigation
- of 
+ są tak często wykorzystywane w
+\begin_inset space ~
+\end_inset
+
+proteomice, w
+\begin_inset space ~
+\end_inset
+
+tym do badania 
 \begin_inset ERT
 status open
 
@@ -2094,13 +3004,13 @@ status open
 
 
 \backslash
-glspl{ppi}
+gls{ppi}
 \end_layout
 
 \end_inset
 
 .
- Unfortunately the investigation of 
+ Niestety badanie 
 \begin_inset ERT
 status open
 
@@ -2108,25 +3018,12 @@ status open
 
 
 \backslash
-glspl{mppi}
+gls{mppi}
 \end_layout
 
 \end_inset
 
- with 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{MS}
-\end_layout
-
-\end_inset
-
- is not straightforward, as the sample prepared for the 
+ za pomocą 
 \begin_inset ERT
 status open
 
@@ -2139,8 +3036,7 @@ gls{MS}
 
 \end_inset
 
- usually have different pH than the physiological, and combined with protein
- fragmentation (enzymatic or in tandem 
+ nie jest proste, ponieważ próbka przygotowana do 
 \begin_inset ERT
 status open
 
@@ -2153,8 +3049,19 @@ gls{MS}
 
 \end_inset
 
-), and harsh ionization causes loosing of the bound metal ion.
- Combining regular 
+ ma zazwyczaj inne pH niż fizjologiczne, a
+\begin_inset space ~
+\end_inset
+
+w połączeniu z
+\begin_inset space ~
+\end_inset
+
+fragmentacją białka (enzymatyczną lub w
+\begin_inset space ~
+\end_inset
+
+tandemie 
 \begin_inset ERT
 status open
 
@@ -2167,7 +3074,7 @@ gls{MS}
 
 \end_inset
 
- with native 
+–
 \begin_inset ERT
 status open
 
@@ -2180,7 +3087,8 @@ gls{MS}
 
 \end_inset
 
- can partly facilitate the detection of metal, however, native 
+) oraz brutalną jonizacją powoduje utratę związanego jonu metalu.
+ Połączenie eksperymentu 
 \begin_inset ERT
 status open
 
@@ -2193,15 +3101,50 @@ gls{MS}
 
 \end_inset
 
- comes with its own limitations.
+ z
+\begin_inset space ~
+\end_inset
+
+natywnym 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{MS}
+\end_layout
+
+\end_inset
+
+ może częściowo ułatwić wykrywanie metalu, jednakże natywne 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{MS}
+\end_layout
+
+\end_inset
+
+ ma swoje własne ograniczenia i
+\begin_inset space ~
+\end_inset
+
+nawet delikatne warunki jonizacji mogą powodować utratę jonu metalu tudzież
+ dysocjację kompleksu.
 \end_layout
 
 \begin_layout Subsubsection
-Affinity chromatography
+Chromatografia powinowactwa
 \end_layout
 
 \begin_layout Standard
-The identification of novel 
+Nowych 
 \begin_inset ERT
 status open
 
@@ -2209,13 +3152,13 @@ status open
 
 
 \backslash
-glspl{mppi}
+gls{mppi}
 \end_layout
 
 \end_inset
 
- can be realized by means of affinity purification methods – based on the
- selective interaction between a 
+ odkryć za pomocą metod chromatografii powinowactwa, opartych na selektywnym
+ oddziaływaniu pomiędzy 
 \begin_inset ERT
 status open
 
@@ -2223,12 +3166,16 @@ status open
 
 
 \backslash
-gls{Lg}
+glink{L}{ligandem}
 \end_layout
 
 \end_inset
 
- and a target proteins of peptides followed by identification using a coupled
+ a
+\begin_inset space ~
+\end_inset
+
+docelowym białkiem lub peptydem, po której następuje identyﬁkacja za pomocą
  
 \begin_inset ERT
 status open
@@ -2242,12 +3189,20 @@ gls{MS}
 
 \end_inset
 
-.
+
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-Note that sample preparation and ionization in 
+Należy zwrócić uwagę, że przygotowanie próbki i
+\begin_inset space ~
+\end_inset
+
+jonizacja w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -2260,13 +3215,18 @@ gls{MS}
 
 \end_inset
 
- usually leads to loss of the metal.
+ często będzie prowadzić do utraty metalu.
 \end_layout
 
 \end_inset
 
- From various affinity purification techniques two techniques stand out:
- 
+ sprzężonego z
+\begin_inset space ~
+\end_inset
+
+chromatografem cieczowym.
+ Spośród różnych technik oczyszczania powinowactwa na szczególną uwagę zasługują
+ dwie techniki: 
 \begin_inset ERT
 status open
 
@@ -2279,7 +3239,11 @@ gls{OSETA}
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -2293,46 +3257,76 @@ gls{TAP}
 \end_inset
 
 .
- Both techniques rely on recombinant fusion proteins with affinity labels.
- The affinity labels used in those methods are used to pull-down
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-nie wiem czy nie jest to żargon
-\end_layout
-
+ Obie metody opierają się na rekombinowanych białkach fuzyjnych z
+\begin_inset space ~
 \end_inset
 
- the recombinant protein in complex with the interaction partner.
- The binding and washing steps determine the composition of eluted sample
- so during the experiment care should be taken to perform those steps in
- the buffers containing metal ions of interest, preferably in a controlled
- manner.
- The control experiments should be made that are conducted in metal of interest
- free environment.
+etykietami powinowactwa.
+ Etykiety powinowactwa stosowane w
+\begin_inset space ~
+\end_inset
+
+tych metodach są używane do ściągania rekombinowanego białka w
+\begin_inset space ~
+\end_inset
+
+kompleksie z
+\begin_inset space ~
+\end_inset
+
+partnerem interakcji.
+ Etapy wiązania i
+\begin_inset space ~
+\end_inset
+
+płukania określają skład eluowanej próbki, więc podczas eksperymentu należy
+ zadbać o
+\begin_inset space ~
+\end_inset
+
+to, aby wykonać te etapy w
+\begin_inset space ~
+\end_inset
+
+buforach zawierających interesujące nas jony metali, najlepiej w
+\begin_inset space ~
+\end_inset
+
+sposób kontrolowany.
+ Eksperymenty kontrolne powinny być przeprowadzane w
+\begin_inset space ~
+\end_inset
+
+środowisku wolnym od interesujących nas jonów metali.
  
 \end_layout
 
 \begin_layout Standard
-Additionally improvements, mostly due to the use of crosslinking (which
- can be made 
+Dodatkowo, dzięki zastosowaniu sieciowania (które może być wykonane 
 \emph on
 in vivo
 \emph default
-) in those techniques have been made to detect transient binding.
- The crosslinking allows for use of more rigorous washing steps, however,
- at cost of loosing bound metal ions.
+) w
+\begin_inset space ~
+\end_inset
+
+tych technikach dokonano ulepszeń w
+\begin_inset space ~
+\end_inset
+
+celu wykrycia przejściowego wiązania.
+ Sieciowanie pozwala na zastosowanie bardziej rygorystycznych etapów wymywania,
+ jednak kosztem utraty związanych jonów metali.
 \end_layout
 
 \begin_layout Standard
-Unfortunately this approach seems unsuitable for homomeric interactions.
+Niestety podejście to wydaje się nieodpowiednie dla oddziaływań homomerycznych.
  
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-moze coś tu jeszcze?
+możne coś tu jeszcze?
 \end_layout
 
 \end_inset
@@ -2341,30 +3335,48 @@ moze coś tu jeszcze?
 \end_layout
 
 \begin_layout Subsubsection
-Label transfer
+Przeniesienie etykiety
 \end_layout
 
 \begin_layout Standard
-In label transfer, the protein of interest is tagged with a reagent that
- after the crosslinking reaction is able to transfer the label to an interacting
- partner.
- The first step of the label transfer is the crosslinking of the complex
- composed of tagged protein of interest with an interaction partner, this
- is done usually using the photoreactive mechanism.
- The label transfer can be performed by another type of chemistry,
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-nwm jak to napisać
-\end_layout
-
+W
+\begin_inset space ~
 \end_inset
 
- e.g., by reducing the disulfide bond in the label.
- The transferred label can be used in affinity purification and detection.
- The obtained sample can be analyzed by downstream methods like Western
- Blot or 
+transferze etykiety interesujące nas białko jest znakowane odczynnikiem,
+ który po reakcji sieciowania jest w
+\begin_inset space ~
+\end_inset
+
+stanie przenieść etykietę na partnera interakcji.
+ Pierwszym etapem transferu etykiety jest usieciowanie kompleksu złożonego
+ ze znakowanego białka z
+\begin_inset space ~
+\end_inset
+
+partnerem interakcji, co odbywa się zwykle z
+\begin_inset space ~
+\end_inset
+
+wykorzystaniem mechanizmu fotoreaktywnego.
+ Przeniesienie etykiety może odbywać się za pomocą innego rodzaju chemii,
+ np.
+ poprzez redukcję wiązania disulfidowego w
+\begin_inset space ~
+\end_inset
+
+etykiecie.
+ Przeniesiona etykieta może być wykorzystana w
+\begin_inset space ~
+\end_inset
+
+procesie oczyszczania powinowactwa
+\begin_inset space ~
+\end_inset
+
+i detekcji.
+ Otrzymana próbka może być analizowana kolejnymi metodami, takimi jak Western
+ Blot lub 
 \begin_inset ERT
 status open
 
@@ -2377,7 +3389,11 @@ gls{MS}
 
 \end_inset
 
- 
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Liu2007"
@@ -2386,7 +3402,7 @@ literal "true"
 \end_inset
 
 .
- Potentially this system could be used to detect 
+ Potencjalnie system ten mógłby być użyty do wykrywania 
 \begin_inset ERT
 status open
 
@@ -2394,29 +3410,71 @@ status open
 
 
 \backslash
-glspl{mppi}
+gls{mppi}
 \end_layout
 
 \end_inset
 
- by performing crosslinking in the presence of metal of interest and comparison
- with a control crosslinking in metal-free buffers.
- The proteins that are found in the experiment with metal, but are missing
- from the control, the metal-free experiment could interact with the protein
- of interest due to the presence of particular metal.
+ przez wykonanie sieciowania w
+\begin_inset space ~
+\end_inset
+
+obecności interesującego nas metalu i
+\begin_inset space ~
+\end_inset
+
+porównanie z
+\begin_inset space ~
+\end_inset
+
+kontrolnym sieciowaniem w
+\begin_inset space ~
+\end_inset
+
+buforach bez metalu.
+ Białka, które są znalezione w
+\begin_inset space ~
+\end_inset
+
+eksperymencie z
+\begin_inset space ~
+\end_inset
+
+metalem, ale brakuje ich w
+\begin_inset space ~
+\end_inset
+
+kontroli mogą tworzyć 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{mppi}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
-Crosslinking
+Sieciowanie białek
 \end_layout
 
 \begin_layout Standard
-Crosslinking can assist or be a part of the above-mentioned methods.
- The development of reactive groups that allow 
+Sieciowanie może wspomagać lub być częścią wyżej wymienionych metod.
+ Opracowanie grup reaktywnych, które umożliwiają sieciowanie 
 \emph on
 in vivo
 \emph default
- crosslinking certainly can facilitate the discovery of new 
+, z
+\begin_inset space ~
+\end_inset
+
+pewnością może ułatwić znalezienie nowych 
 \begin_inset ERT
 status open
 
@@ -2429,16 +3487,17 @@ glspl{mppi}
 
 \end_inset
 
-, even those that are transient.
- The cell environment contains the physiological concentrations of free
- metals, thus providing the ideal environment for the metal-protein interaction.
- The crosslinking 
+, nawet te, które mają charakter przejściowy.
+ Wewnątrz komórki panują fizjologiczne stężenia wolnych metali, które zapewniają
+ optymalne warunki dla interakcji metal–białko.
+ Usieciowanie
 \emph on
-in vivo
+ in vivo
 \emph default
- can be performed using cell-permeable chemicals or using genetically encoded
- noncanonical amino acids containing the reactive crosslinking groups.
- The crosslinked proteins can be detected using 
+ może być wykonane przy użyciu substancji chemicznych przepuszczalnych przez
+ błonę komórkową lub przy użyciu genetycznie zakodowanych niekanonicznych
+ aminokwasów zawierających reaktywne grupy sieciujące.
+ Usieciowane białka mogą być wykrywane przy użyciu 
 \begin_inset ERT
 status open
 
@@ -2456,7 +3515,7 @@ gls{MS}
 \end_layout
 
 \begin_layout Subsection
-Equilibria of metal-protein complexes
+Równowagi kompleksów metal–peptyd/białko
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Equilibria"
@@ -2468,7 +3527,11 @@ name "subsec:Equilibria"
 status open
 
 \begin_layout Plain Layout
-coś jeszcze o pH
+coś jeszcze o
+\begin_inset space ~
+\end_inset
+
+pH
 \end_layout
 
 \end_inset
@@ -2477,7 +3540,7 @@ coś jeszcze o pH
 \end_layout
 
 \begin_layout Standard
-Biophysical tools that are suitable for the investigation of 
+Narzędzia biofizyczne, które nadają się do badania 
 \begin_inset ERT
 status open
 
@@ -2485,21 +3548,22 @@ status open
 
 
 \backslash
-glspl{mppi}
+gls{mppi}
 \end_layout
 
 \end_inset
 
- generally answer the question 
-\begin_inset Quotes eld
+ ogólnie odpowiadają na pytanie 
+\begin_inset Quotes pld
 \end_inset
 
-How strong is the interaction?
-\begin_inset Quotes erd
+Jak mocne jest oddziaływanie?
+\begin_inset Quotes prd
 \end_inset
 
 .
- The answer to the question can be expressed as a value, namely 
+ Odpowiedź na pytanie można wyrazić jako wartość, tj.
+ 
 \begin_inset ERT
 status open
 
@@ -2507,12 +3571,16 @@ status open
 
 
 \backslash
-gls{Ka}
+glink{Ka}{stałą asocjacji 
+\backslash
+textit{K}
+\backslash
+textsubscript{a}}
 \end_layout
 
 \end_inset
 
- ( or 
+ (lub 
 \begin_inset ERT
 status open
 
@@ -2520,16 +3588,36 @@ status open
 
 
 \backslash
-gls{Kd}
+glink{Kd}{stałą dysocjacji 
+\backslash
+textit{K}
+\backslash
+textsubscript{d}}
 \end_layout
 
 \end_inset
 
-).
- This thermodynamic property of a metal–protein system is a key element,
- that allows one to understand the interaction in a biological systems.
- So how to obtain those values and how are they defined? To simplify the
- discussion presented below I will focus only on the 
+) powstałego kompleksu w
+\begin_inset space ~
+\end_inset
+
+danych warunkach.
+ Ta termodynamiczna właściwość układu metal–białko jest kluczowym elementem,
+ który pozwala zrozumieć oddziaływanie w
+\begin_inset space ~
+\end_inset
+
+układach biologicznych.
+ Jak więc opisać i
+\begin_inset space ~
+\end_inset
+
+zrozumieć te wartości, w
+\begin_inset space ~
+\end_inset
+
+jaki sposób są one definiowane? Dla uproszczenia dyskusji przedstawionej
+ poniżej skupię się tylko na 
 \begin_inset ERT
 status open
 
@@ -2542,7 +3630,7 @@ glsfirst{Ka}
 
 \end_inset
 
-, which is sufficient to obtain the 
+, co jest wystarczające do uzyskania 
 \begin_inset ERT
 status open
 
@@ -2555,22 +3643,62 @@ gls{Kd}
 
 \end_inset
 
- value as it is defined as 
+ zdefiniowanej jako
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Formula $K_{\text{d}}=\frac{1}{K_{\text{a}}}$
 \end_inset
 
 .
- As the reader reads through the following somewhat lengthy introduction,
- it should become clear to the reader that, along with choosing the right
- experiment, the right models must be chosen to describe metal binding—each
- case may require a slightly different approach.
+ Warto również zwrócić uwagę, że opisywana tutaj stała 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ będzie rozumiana jako warunkowa stała asocjacji, adekwatna tylko dla konkretnyc
+h
+\begin_inset space ~
+\end_inset
+
+warunków—w układach biologicznych rozumiane to jest głównie jako warunki
+ o
+\begin_inset space ~
+\end_inset
+
+stałej temperaturze, stałym pH, a
+\begin_inset space ~
+\end_inset
+
+także stałej sile jonowej.
+ Dla uproszczenia zapisu ładunek reagujących cząsteczek został pominięty.
 \end_layout
 
 \begin_layout Standard
-For reaction:
+W
+\begin_inset space ~
+\end_inset
+
+miarę czytania poniższego powinno stać się dla czytelnika jasne, że wraz
+ z
+\begin_inset space ~
+\end_inset
+
+wyborem odpowiedniego eksperymentu, należy wybrać odpowiednie modele do
+ opisu wiązania metali—każdy przypadek może wymagać nieco innego podejścia.
 \end_layout
 
 \begin_layout Standard
+Dla reakcji:
 \begin_inset ERT
 status open
 
@@ -2592,7 +3720,7 @@ label{eq:equilibrium}
 
 
 \backslash
-ce{A_x + B_y <=>[${k_
+ce{$x$A + $y$B <=>[${k_
 \backslash
 text{on}}$][${k_
 \backslash
@@ -2608,11 +3736,19 @@ end{equation}
 
 \end_inset
 
+w
+\begin_inset space ~
+\end_inset
 
-\end_layout
+którym teoretyczne cząstki A
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-in which theoretical particles A and B form the complex 
+i B
+\begin_inset space ~
+\end_inset
+
+tworzą kompleks 
 \begin_inset ERT
 status open
 
@@ -2625,7 +3761,7 @@ ce{A_xB_y}
 
 \end_inset
 
- the 
+, 
 \begin_inset ERT
 status open
 
@@ -2638,7 +3774,7 @@ gls{Ka}
 
 \end_inset
 
- is defined as:
+ jest zdefiniowane jako:
 \end_layout
 
 \begin_layout Standard
@@ -2649,7 +3785,7 @@ K_{\text{a}}=\frac{[A_{x}B_{y}]}{[A]^{x}\cdot[B]^{y}}=\frac{k_{\text{on}}}{k_{\t
 
 \end_inset
 
-,where 
+ gdzie 
 \begin_inset ERT
 status open
 
@@ -2666,7 +3802,7 @@ textsubscript{on}}
 
 \end_inset
 
- is the 
+ jest 
 \begin_inset ERT
 status open
 
@@ -2674,12 +3810,12 @@ status open
 
 
 \backslash
-glsdesc{kon}
+glink{kon}{kinetyczną stałą asocjacji}
 \end_layout
 
 \end_inset
 
- and 
+ oraz 
 \begin_inset ERT
 status open
 
@@ -2696,7 +3832,7 @@ textsubscript{off}}
 
 \end_inset
 
- is the 
+ to 
 \begin_inset ERT
 status open
 
@@ -2710,8 +3846,15 @@ glsdesc{koff}
 \end_inset
 
 .
- All the equilibria reactions that concern the interaction of metal ions
- with proteins are happening in water, thus one should define a new constant—
+ Wszystkie reakcje równowagowe dotyczące oddziaływania jonów metali z
+\begin_inset space ~
+\end_inset
+
+białkami zachodzą w
+\begin_inset space ~
+\end_inset
+
+wodzie, dlatego należy zdefiniować nową stałą—
 \begin_inset ERT
 status open
 
@@ -2730,12 +3873,12 @@ gls{Kex}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-K_{\text{ex}}=\frac{[\text{MeL}]\cdot[\text{H}_{2}\text{O}]^{x}}{[\text{M\text{e}_{\text{aq}}}]\cdot[\text{L}]}=K_{\text{a}}[\text{H}_{2}\text{O}]^{x}
+K_{\text{ex}}=\frac{[\text{ML}]\cdot[\text{H}_{2}\text{O}]^{x}}{[\text{M}_{\text{aq}}]\cdot[\text{L}]}=K_{\text{a}}[\text{H}_{2}\text{O}]^{x}
 \end{equation}
 
 \end_inset
 
-,where 
+ gdzie 
 \begin_inset ERT
 status open
 
@@ -2743,12 +3886,18 @@ status open
 
 
 \backslash
-gshort{Me}
+glink{Me}{M
+\backslash
+textsubscript{aq}}
 \end_layout
 
 \end_inset
 
- is a metal ion and 
+ jest uwodnionym jonem metalu, a
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -2761,7 +3910,7 @@ gshort{L}
 
 \end_inset
 
- is a 
+ jest 
 \begin_inset ERT
 status open
 
@@ -2769,16 +3918,17 @@ status open
 
 
 \backslash
-gls{Lg}
+glink{L}{ligandem}
 \end_layout
 
 \end_inset
 
 .
- Note that in reaction:
-\end_layout
+ Warto zwrócić uwagę, że w
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+reakcji:
 \begin_inset ERT
 status open
 
@@ -2793,14 +3943,14 @@ begin{equation}
 
 
 \backslash
-label{eq:equilibrium}
+label{eq:equilibrium_metal}
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-ce{Me_{aq} + L <=> ML + x H2O}
+ce{M_{aq} + L<=> ML + xH2O}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2812,7 +3962,7 @@ end{equation}
 
 \end_inset
 
-the 
+ 
 \begin_inset ERT
 status open
 
@@ -2825,7 +3975,11 @@ ce{[H2O]}
 
 \end_inset
 
- does not change due to the fact that in most systems 
+ nie zmienia się ze względu na fakt, że w
+\begin_inset space ~
+\end_inset
+
+większości systemów 
 \begin_inset ERT
 status open
 
@@ -2833,14 +3987,14 @@ status open
 
 
 \backslash
-ce{Me}$<<$
+ce{M}$<<$
 \backslash
 ce{[H2O]}
 \end_layout
 
 \end_inset
 
-, the 
+, co implikuje stałą 
 \begin_inset ERT
 status open
 
@@ -2853,7 +4007,7 @@ gls{Kex}
 
 \end_inset
 
- does not change making the 
+, sprawiając, że 
 \begin_inset ERT
 status open
 
@@ -2866,8 +4020,12 @@ gls{Ka}
 
 \end_inset
 
- constant.
- Due to this fact in biochemistry, 
+ jest stałe.
+ Ze względu na ten fakt w
+\begin_inset space ~
+\end_inset
+
+biochemii, 
 \begin_inset ERT
 status open
 
@@ -2880,7 +4038,11 @@ gls{Ka}
 
 \end_inset
 
- is usually defined as in 
+ jest zwykle definiowany jak w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Ka_definition"
@@ -2891,7 +4053,7 @@ noprefix "false"
 \end_inset
 
 .
- Following this logic, 
+ Idąc tym tokiem rozumowania, 
 \begin_inset ERT
 status open
 
@@ -2904,7 +4066,7 @@ gls{Ka}
 
 \end_inset
 
- for the process
+ dla procesu
 \begin_inset ERT
 status open
 
@@ -2926,7 +4088,7 @@ label{eq:ML}
 
 
 \backslash
-ce{Me + L <=> MeL}
+ce{M_{aq} + L<=> ML}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2938,18 +4100,79 @@ end{equation}
 
 \end_inset
 
-is defined as:
+jest definiowane jako:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-K_{\text{a}}=\frac{[\text{MeL}]}{[\text{Me}]\cdot[\text{L}]}\label{eq:KaML}
+K_{\text{a}}=\frac{[\text{ML}]}{[\text{M}_{\text{aq}}]\cdot[\text{L}]}\label{eq:KaML}
 \end{equation}
 
 \end_inset
 
-So the 
+
+\end_layout
+
+\begin_layout Standard
+Warto tutaj zwrócić uwagę, że równania
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:ML}
+\end_layout
+
+\end_inset
+
+ oraz
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:KaML"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ są prawidłowe tylko wtedy gdy do reakcji równowagi dochodzi w
+\begin_inset space ~
+\end_inset
+
+ściśle zdefiniowanych warunkach, tj.
+ przy stałym pH oraz temperaturze—w reakcja opisana przez równanie
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:ML}
+\end_layout
+
+\end_inset
+
+ w
+\begin_inset space ~
+\end_inset
+
+innym pH, będzie charakteryzować się odmienną wartością 
 \begin_inset ERT
 status open
 
@@ -2962,7 +4185,15 @@ gls{Ka}
 
 \end_inset
 
- for the homodimeric 
+.
+\end_layout
+
+\begin_layout Standard
+Analogicznie do równań
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -2970,12 +4201,52 @@ status open
 
 
 \backslash
-ce{MeL2}
+ref{eq:ML}
 \end_layout
 
 \end_inset
 
- complex, which formation is defined by:
+ oraz
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:KaML"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ dla homodimerycznego kompleksu 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{ML2}
+\end_layout
+
+\end_inset
+
+, którego tworzenie jest określone przez
 \begin_inset ERT
 status open
 
@@ -2997,7 +4268,7 @@ label{eq:ML2}
 
 
 \backslash
-ce{Me + 2L <=> MeL2}
+ce{M_{aq} + 2L <=> ML2}
 \end_layout
 
 \begin_layout Plain Layout
@@ -3009,18 +4280,18 @@ end{equation}
 
 \end_inset
 
-is defined as:
+jest definiowane jako:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-K_{\text{a}}=\frac{[\text{MeL}_{2}]}{[\text{Me}]\cdot[\text{L}]^{2}}\label{eq:Ka_ML2}
+K_{\text{a}}=\frac{[\text{ML}_{2}]}{[\text{\text{M}_{\text{aq}}}]\cdot[\text{L}]^{2}}\label{eq:Ka_ML2}
 \end{equation}
 
 \end_inset
 
-In case of 
+
 \begin_inset ERT
 status open
 
@@ -3028,7 +4299,43 @@ status open
 
 
 \backslash
-ce{MeL^1L^2}
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ w
+\begin_inset space ~
+\end_inset
+
+równaniu
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Ka_ML2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ jest kumulatywną stałą tworzenia.
+ W
+\begin_inset space ~
+\end_inset
+
+przypadku homodimerycznego kompleksu 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{ML^1L^2}
 \end_layout
 
 \end_inset
@@ -3055,7 +4362,11 @@ gshort{L}
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -3077,7 +4388,7 @@ gshort{L}
 
 \end_inset
 
- are two different types of 
+ są dwoma różnymi 
 \begin_inset ERT
 status open
 
@@ -3085,12 +4396,16 @@ status open
 
 
 \backslash
-glspl{Lg}
+glink{Lg}{ligandami}
 \end_layout
 
 \end_inset
 
-) which forming is described by equation 
+), którego tworzenie opisuje równanie
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -3103,7 +4418,7 @@ ref{eq:ML1L2}
 
 \end_inset
 
- the 
+, 
 \begin_inset ERT
 status open
 
@@ -3116,7 +4431,8 @@ gls{Ka}
 
 \end_inset
 
- assume the same unit as 
+, również będąca kumulatywną stałą tworzenia, przyjmuje tę samą jednostkę
+ co 
 \begin_inset ERT
 status open
 
@@ -3129,7 +4445,46 @@ gls{Ka}
 
 \end_inset
 
- defined in equation 
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Formalnie stałe równowagi są wartościami obliczanymi przy użyciu efektywnych
+ stężeń lub aktywności reagentów i
+\begin_inset space ~
+\end_inset
+
+produktów.
+ Aktywności te są stosunkami zmierzonych stężeń do stężenia substancji w
+\begin_inset space ~
+\end_inset
+
+ stanie standardowym (1 M).
+ W
+\begin_inset space ~
+\end_inset
+
+rezultacie jednostki stężenia się znoszą, co sprawia, że stała równowagi
+ jest bez jednostek.
+ Niemniej jednak, w
+\begin_inset space ~
+\end_inset
+
+biochemii przyjęto podawać stałe równowag chemicznych wraz z
+\begin_inset space ~
+\end_inset
+
+jednostkami.
+\end_layout
+
+\end_inset
+
+ określone równaniem
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Ka_ML2"
@@ -3139,7 +4494,11 @@ noprefix "false"
 
 \end_inset
 
-, however, have different form (equation 
+, mają jednak inną postać (równanie
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Ka_ML1L2"
@@ -3150,9 +4509,6 @@ noprefix "false"
 \end_inset
 
 ).
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -3174,7 +4530,7 @@ label{eq:ML1L2}
 
 
 \backslash
-ce{Me + L^1 + L^2 <=> MeL^1L^2}
+ce{M_{aq} + L^1 + L^2 <=> ML^1L^2}
 \end_layout
 
 \begin_layout Plain Layout
@@ -3192,12 +4548,13 @@ end{equation}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-K_{\text{a}}=\frac{[\text{Me}\text{L}^{1}\text{L}^{2}]}{[\text{Me}]\cdot[\text{L}^{1}]\cdot[\text{L}^{2}]}\label{eq:Ka_ML1L2}
+K_{\text{a}}=\frac{[\text{M}\text{L}^{1}\text{L}^{2}]}{[\text{\text{M}_{\text{aq}}}]\cdot[\text{L}^{1}]\cdot[\text{L}^{2}]}\label{eq:Ka_ML1L2}
 \end{equation}
 
 \end_inset
 
-Note that with more interacting partners the 
+Warto zauważyć, że przy większej liczbie współdziałających partnerów, definicja
+ 
 \begin_inset ERT
 status open
 
@@ -3210,10 +4567,21 @@ gls{Ka}
 
 \end_inset
 
- definition, thus as well as the unit, will change.
- This should be taken into consideration when comparing complexes of various
- stoichiometries.
- Depending on the system the 
+, a
+\begin_inset space ~
+\end_inset
+
+więc i
+\begin_inset space ~
+\end_inset
+
+jednostka, ulegnie zmianie.
+ Należy to brać pod uwagę przy porównywaniu kompleksów o
+\begin_inset space ~
+\end_inset
+
+różnej stechiometrii.
+ Zależnie od układu, 
 \begin_inset ERT
 status open
 
@@ -3226,17 +4594,21 @@ gls{Ka}
 
 \end_inset
 
- can be determined with direct titration of the metal to the protein or
- competition experiments.
+ można wyznaczyć za pomocą bezpośredniego miareczkowania metalu do białka
+ lub eksperymentów konkurencyjnych.
  
 \end_layout
 
 \begin_layout Subsubsection
-Direct titration experiments
+Miareczkowanie bezpośrednie
 \end_layout
 
 \begin_layout Standard
-In direct titrations, the only competing 
+W
+\begin_inset space ~
+\end_inset
+
+miareczkowaniu bezpośrednim jedynym konkurującym 
 \begin_inset ERT
 status open
 
@@ -3244,13 +4616,17 @@ status open
 
 
 \backslash
-gls{Lg}
+glink{Lg}{ligandem}
 \end_layout
 
 \end_inset
 
- for the metal is only water.
- Thus in the case of the 
+ dla metalu jest tylko woda.
+ Tak więc w
+\begin_inset space ~
+\end_inset
+
+przypadku kompleksu 
 \begin_inset ERT
 status open
 
@@ -3258,12 +4634,16 @@ status open
 
 
 \backslash
-ce{MeL}
+ce{ML}
 \end_layout
 
 \end_inset
 
- complex, equation 
+, równanie
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:KaML"
@@ -3273,7 +4653,7 @@ noprefix "false"
 
 \end_inset
 
- defines the 
+ definiuje 
 \begin_inset ERT
 status open
 
@@ -3287,7 +4667,11 @@ gls{Ka}
 \end_inset
 
 .
- In such conditions the total concentration of 
+ W
+\begin_inset space ~
+\end_inset
+
+takich warunkach całkowite stężenie 
 \begin_inset ERT
 status open
 
@@ -3300,7 +4684,7 @@ gls{Me}
 
 \end_inset
 
- is equal to the sum of protein-bound 
+ jest równe sumie wolnego 
 \begin_inset ERT
 status open
 
@@ -3313,35 +4697,34 @@ gls{Me}
 
 \end_inset
 
- and free 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{Me}
-\end_layout
-
+ i
+\begin_inset space ~
 \end_inset
 
-, thus:
+związanego z
+\begin_inset space ~
+\end_inset
+
+ligandem (białkiem), dlatego: 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\frac{[\text{MeL}]}{[\text{Me]_{\text{t}}}}=\frac{1}{1+\frac{1}{K_{\text{a}}\cdot[\text{L}]}}\label{eq:MeL/Me_t ratio}
+\frac{[\text{ML}]}{[\text{M]_{\text{t}}}}=\frac{1}{1+\frac{1}{K_{\text{a}}\cdot[\text{L}]}}\label{eq:MeL/Me_t ratio}
 \end{equation}
 
 \end_inset
 
-, where 
-\begin_inset Formula $[\text{Me]_{\text{t}}}$
+gdzie
+\begin_inset space ~
 \end_inset
 
- is total 
+
+\begin_inset Formula $[\text{M]_{\text{t}}}$
+\end_inset
+
+ to całkowite stężenie 
 \begin_inset ERT
 status open
 
@@ -3354,34 +4737,76 @@ gls{Me}
 
 \end_inset
 
- concentration.
- So in situations where 
+.
+ Więc w
+\begin_inset space ~
+\end_inset
+
+sytuacjach, gdy
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Formula $\frac{1}{K_{\text{a}}}>>[L]$
 \end_inset
 
- the ratio of 
-\begin_inset Formula $\frac{[\text{MeL}]}{[\text{Me]_{\text{t}}}}\rightarrow0$
+ stosunek
+\begin_inset space ~
 \end_inset
 
-, which means that the affinity is too low to be observable (or nonexistent)
- during the titration, the similar situation is observed when 
+
+\begin_inset Formula $\frac{[\text{ML}]}{[\text{M]_{\text{t}}}}\rightarrow0$
+\end_inset
+
+, co oznacza, że powinowactwo jest zbyt małe, aby było obserwowalne (lub
+ nie istnieje) podczas miareczkowania, podobną sytuację obserwujemy, gdy
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Formula $\frac{1}{K_{\text{a}}}<<[L]$
 \end_inset
 
-, in such case 
-\begin_inset Formula $\frac{[\text{MeL}]}{[\text{Me]_{\text{t}}}}\rightarrow1$
+, w
+\begin_inset space ~
 \end_inset
 
-, which means that the affinity is to high to be observable.
- This behavior of the system can be modified by precise choice of the concentrat
-ions of the reagents.
- However the manipulation with reagent's concentrations is possible in some
- range: solubility of the reagents in case of weak-binding, and the detection
- limit in case of tight-binding.
+takim przypadku
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\frac{[\text{ML}]}{[\text{M]_{\text{t}}}}\rightarrow1$
+\end_inset
+
+, co oznacza, że powinowactwo jest zbyt duże, aby można je zmierzyć.
+ Takie zachowanie układu może być modyfikowane poprzez precyzyjny dobór
+ stężeń reagentów.
+ Manipulacja stężeniami reagentów jest jednak możliwa w
+\begin_inset space ~
+\end_inset
+
+pewnym zakresie: rozpuszczalności reagentów w
+\begin_inset space ~
+\end_inset
+
+przypadku słabego wiązania oraz granicy wykrywalności w
+\begin_inset space ~
+\end_inset
+
+przypadkach słabego i
+\begin_inset space ~
+\end_inset
+
+mocnego wiązania.
 \end_layout
 
 \begin_layout Subsubsection
-Competition titration experiments
+Miareczkowanie współzawodnictwa i
+\begin_inset space ~
+\end_inset
+
+bufory metaliczne
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Competition-titration-experiment"
@@ -3392,24 +4817,8 @@ name "subsec:Competition-titration-experiment"
 \end_layout
 
 \begin_layout Standard
-In situations of tight binding (i.e.,
-\begin_inset Formula $\frac{1}{K_{\text{a}}}<<[L]\Rightarrow\frac{[\text{MeL}]}{[\text{Me]_{\text{t}}}}\rightarrow1$
-\end_inset
-
-, according to equation 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:MeL/Me_t ratio"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-) the metals in direct titration are bound to the protein in a manner that
- prevents the direct detection of free metal (in case of metals that can
- be observed directly, e.g.
- Fe(II) by 
+Zastosowanie miareczkowania współzawodnictwa nazywane jest niekiedy buforowaniem
+ jonów metali, ze względu na fakt, że 
 \begin_inset ERT
 status open
 
@@ -3417,13 +4826,301 @@ status open
 
 
 \backslash
-gls{uvvis}
+glsdesc{C}
 \end_layout
 
 \end_inset
 
- spectroscopy.
- To determine the 
+ zapewnia kontrolowane źródło wolnych jonów metali, analogicznie do buforów
+ pH.
+ W
+\begin_inset space ~
+\end_inset
+
+roztworach wodnych zawierających jony metali, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Me}
+\end_layout
+
+\end_inset
+
+, chelator (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdesc{C}
+\end_layout
+
+\end_inset
+
+) może tworzyć kompleksy zgodnie z
+\begin_inset space ~
+\end_inset
+
+równaniem
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:metal_buffer}
+\end_layout
+
+\end_inset
+
+, w
+\begin_inset space ~
+\end_inset
+
+przypadku oddziaływania o
+\begin_inset space ~
+\end_inset
+
+stechiometrii 1:1, reakcję tę można zapisać jako:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{eq:metal_buffer}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{M + C<=> MC}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{equation}
+\end_layout
+
+\end_inset
+
+ze stałą asocjacji opisaną przez:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K_{\text{a}}^{\text{MC}}=\frac{[\text{MC}]}{[\text{\text{M}_{\text{aq}}}]\cdot[\text{C}]}\label{eq:K_MC}
+\end{equation}
+
+\end_inset
+
+Można wyprowadzić za pomocą równania
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:K_MC"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, analogicznie do buforów pH, równanie przypominające równanie Hendersona–Hassel
+balcha
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\text{pM}=\log K_{\text{a}}^{\text{MC}}+\log\frac{[\text{C}]}{[\text{MC}]}\label{eq: pM}
+\end{equation}
+
+\end_inset
+
+gdzie
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\text{pM}=-\log[\text{M}]$
+\end_inset
+
+.
+ Zgodnie z
+\begin_inset space ~
+\end_inset
+
+tym, w
+\begin_inset space ~
+\end_inset
+
+roztworach o
+\begin_inset space ~
+\end_inset
+
+dużym nadmiarze 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{C}{liganda współzawodniczącego}
+\end_layout
+
+\end_inset
+
+ nad stężeniem jonu metalu, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{freezn}{stężenie wolnego jonu metalu}
+\end_layout
+
+\end_inset
+
+ będzie buforowane w
+\begin_inset space ~
+\end_inset
+
+podobny sposób do buforowania pH.
+ Bardzo często zarówno 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{L}{ligand}
+\end_layout
+
+\end_inset
+
+ (np.
+ białko lub peptyd), jak i
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{C}{ligand współzawodniczący}
+\end_layout
+
+\end_inset
+
+ będą podlegać protonacji, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{eq:protonation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{H+ + L<=> HL}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{equation}
+\end_layout
+
+\end_inset
+
+tworząc w
+\begin_inset space ~
+\end_inset
+
+ten sposób związki niemogące kompleksować jony metali.
+ Warto zwrócić uwagę, że zdolność zarówno 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{L}{liganda}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{C}{liganda współzawodniczącego}
+\end_layout
+
+\end_inset
+
+ do tworzenia kompleksów z
+\begin_inset space ~
+\end_inset
+
+jonami metali będzie ściśle uwarunkowana pH roztworu, uzależniając więc
+ warunkowe stałe asocjacji 
 \begin_inset ERT
 status open
 
@@ -3436,7 +5133,123 @@ gls{Ka}
 
 \end_inset
 
- of such metal-protein complexes the 
+ od stałych dysocjacji kwasowej 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{L}{liganda}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{C}{liganda współzawodniczącego}
+\end_layout
+
+\end_inset
+
+.
+ Dlatego też, bufory metaliczne są buforowane również pod względem pH, przy
+ czym, przy doborze buforu pH należy dobrać bufor, który nie oddziałuje
+ z
+\begin_inset space ~
+\end_inset
+
+buforowanym jonem metalu.
+\end_layout
+
+\begin_layout Standard
+W
+\begin_inset space ~
+\end_inset
+
+sytuacjach ścisłego związania (tj.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\frac{1}{K_{\text{a}}}<<[L]\Rightarrow\frac{[\text{ML}]}{[\text{M]_{\text{t}}}}\rightarrow1$
+\end_inset
+
+, zgodnie z
+\begin_inset space ~
+\end_inset
+
+równaniem
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:MeL/Me_t ratio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) jony metali w
+\begin_inset space ~
+\end_inset
+
+miareczkowaniu bezpośrednim są związane z
+\begin_inset space ~
+\end_inset
+
+białkiem w
+\begin_inset space ~
+\end_inset
+
+sposób uniemożliwiający bezpośrednią detekcję wolnego metalu (w przypadku
+ metali, które można obserwować bezpośrednio, np.
+ Fe(II) przez spektroskopię absorpcyjną w
+\begin_inset space ~
+\end_inset
+
+zakresie 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{uvvis}{UV--Vis}
+\end_layout
+
+\end_inset
+
+).
+ Aby wyznaczyć stałą 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ takich kompleksów metalowo–białkowych 
 \begin_inset ERT
 status open
 
@@ -3449,7 +5262,11 @@ gls{Lg}
 
 \end_inset
 
- has to compete for the 
+ musi konkurować o
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -3462,7 +5279,11 @@ gls{Me}
 
 \end_inset
 
- (equation 
+ (równanie
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -3475,7 +5296,11 @@ ref{eq:competition}
 
 \end_inset
 
-) with another compound (
+) z
+\begin_inset space ~
+\end_inset
+
+innym związkiem (
 \begin_inset ERT
 status open
 
@@ -3483,12 +5308,12 @@ status open
 
 
 \backslash
-gls{C}
+glink{C}{ligandem współzawodniczącym (C)}
 \end_layout
 
 \end_inset
 
-) of which 
+) którego 
 \begin_inset ERT
 status open
 
@@ -3505,15 +5330,12 @@ gls{Ka}
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-MeC
+MC
 \end_layout
 
 \end_inset
 
- is known.
-\end_layout
-
-\begin_layout Standard
+ jest znane.
 \begin_inset ERT
 status open
 
@@ -3535,7 +5357,7 @@ label{eq:competition}
 
 
 \backslash
-ce{MeL + C <=> MeC + L}
+ce{ML + C<=> MC + L}
 \end_layout
 
 \begin_layout Plain Layout
@@ -3547,11 +5369,7 @@ end{equation}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-With known 
+Znając 
 \begin_inset ERT
 status open
 
@@ -3568,12 +5386,16 @@ gls{Ka}
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-MeL
+ML
 \end_layout
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -3590,12 +5412,12 @@ gls{Ka}
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-MeC
+MC
 \end_layout
 
 \end_inset
 
- it is possible to define 
+ można zdefiniować 
 \begin_inset ERT
 status open
 
@@ -3608,7 +5430,15 @@ gls{Kex}
 
 \end_inset
 
- (equation 
+ (zgodnie z
+\begin_inset space ~
+\end_inset
+
+równaniem
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Kex_competition"
@@ -3624,16 +5454,12 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-K_{\text{ex}}=\frac{[\text{MeL}]\cdot[\text{C}]}{[\text{MeC}]\cdot[\text{L}]}=\frac{K_{\text{a}}^{\text{MeL}}}{K_{\text{a}}^{\text{MeC}}}\label{eq:Kex_competition}
+K_{\text{ex}}=\frac{[\text{ML}]\cdot[\text{C}]}{[\text{MC}]\cdot[\text{L}]}=\frac{K_{\text{a}}^{\text{ML}}}{K_{\text{a}}^{\text{MC}}}\label{eq:Kex_competition}
 \end{equation}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-With defined 
+Wraz ze zdefiniowanym 
 \begin_inset ERT
 status open
 
@@ -3646,7 +5472,7 @@ gls{Kex}
 
 \end_inset
 
- and known 
+ oraz znanym 
 \begin_inset ERT
 status open
 
@@ -3663,12 +5489,12 @@ gls{Ka}
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-MeC
+MC
 \end_layout
 
 \end_inset
 
- it is possible to determine the 
+ możliwe jest określenie 
 \begin_inset ERT
 status open
 
@@ -3685,15 +5511,26 @@ gls{Ka}
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-MeL
+ML
 \end_layout
 
 \end_inset
 
- provided that at least one of the components can be measured at equilibrium
- or can give a measurable signal (e.g., heat change, fluorescence, etc.).
- The shortly described titration experiment can be designed to determine
- affinities of complexes with higher stoichiometries (i.e.
+ pod warunkiem, że co najmniej jeden ze składników może być mierzony w
+\begin_inset space ~
+\end_inset
+
+stanie równowagi lub może dawać mierzalny sygnał (np.
+ zmiana ciepła, fluorescencja, itp.).
+ Opisany pokrótce eksperyment miareczkowy można zaprojektować w
+\begin_inset space ~
+\end_inset
+
+celu wyznaczenia powinowactwa kompleksów o
+\begin_inset space ~
+\end_inset
+
+wyższych stechiometriach (tj.
  
 \begin_inset ERT
 status open
@@ -3764,7 +5601,11 @@ gls{L}
 
 \end_inset
 
-, etc.), as well as using the 
+, itp.), jak również z
+\begin_inset space ~
+\end_inset
+
+wykorzystaniem 
 \begin_inset ERT
 status open
 
@@ -3772,12 +5613,16 @@ status open
 
 
 \backslash
-glsdescplural{C}
+glink{C}{ligandów współzawodniczących}
 \end_layout
 
 \end_inset
 
- with higher stoichiometries, so long as the affinities of the 
+ z
+\begin_inset space ~
+\end_inset
+
+wyższymi stechiometriami, tak długo jak powinowactwa 
 \begin_inset ERT
 status open
 
@@ -3785,12 +5630,16 @@ status open
 
 
 \backslash
-glsdescplural{C}
+glink{C}{ligandów współzawodniczących}
 \end_layout
 
 \end_inset
 
- are known, and in range of the 
+ są znane, i
+\begin_inset space ~
+\end_inset
+
+w zakresie 
 \begin_inset ERT
 status open
 
@@ -3807,13 +5656,13 @@ gls{Ka}
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-MeL
+ML
 \end_layout
 
 \end_inset
 
 .
- Of course in practice it is better to use 
+ Oczywiście, zawsze gdy jest to możliwe lepiej jest używać 
 \begin_inset ERT
 status open
 
@@ -3821,37 +5670,30 @@ status open
 
 
 \backslash
-glsdescplural{C}
+glink{C}{ligandów współzawodniczących}
 \end_layout
 
 \end_inset
 
- with 1:1 stoichiometry when possible.
- The use of competition titration sometimes is called a metal-ion buffer,
- due to the fact that a 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glsdesc{C}
-\end_layout
-
+ z
+\begin_inset space ~
 \end_inset
 
- provides a controlled source of free metal ions analogously to the pH buffers.
+zachowaniem stechiometrii 1:1.
 \end_layout
 
 \begin_layout Subsection
-Structural methods for the characterization of metal-involved protein-protein
- interfaces
+Strukturalne metody charakterystyki międzybiałkowych miejsc wiązania jonów
+ metali
 \end_layout
 
 \begin_layout Standard
-The detailed description of structural methods that are used for the characteriz
-ation of the proteins, metal-proteins complexes, and 
+Szczegółowy opis metod strukturalnych, które są wykorzystywane do charakterystyk
+i
+\begin_inset space ~
+\end_inset
+
+białek, kompleksów metal–białko oraz 
 \begin_inset ERT
 status open
 
@@ -3859,14 +5701,22 @@ status open
 
 
 \backslash
-glspl{mppi}
+gls{mppi}
 \end_layout
 
 \end_inset
 
- is far beyond the scope of this thesis – more comprehensive and elaborate
- resources are available.
- Structures of proteins and 
+ znacznie wykracza poza zakres tej rozprawy—dostępne są bardziej wszechstronne
+ i
+\begin_inset space ~
+\end_inset
+
+rozbudowane zasoby.
+ Struktury białek i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -3874,12 +5724,16 @@ status open
 
 
 \backslash
-glspl{mprotein}
+glink{mprotein}{metalobiałek}
 \end_layout
 
 \end_inset
 
- can be acquired by X-ray crystallography, 
+ można uzyskać za pomocą krystalografii rentgenowskiej i
+\begin_inset space ~
+\end_inset
+
+technik takich jak 
 \begin_inset ERT
 status open
 
@@ -3892,7 +5746,7 @@ gls{cryoem}
 
 \end_inset
 
-, 
+, spektroskopii 
 \begin_inset ERT
 status open
 
@@ -3900,26 +5754,38 @@ status open
 
 
 \backslash
-gls{nmr}
+glink{nmr}{magnetycznego rezonansu jądrowego (NMR, ang.
+ nuclear magnetic resonance)}
 \end_layout
 
 \end_inset
 
- spectroscopy, and other, less frequently used techniques.
- Due to the fact that during my PhD project, I have utilized some more `exotic`
- structural methods they are worth mentioning.
- At the outset, it is worth noting that the methods used by me during the
- PhD project do not give the precise coordinates of each atom in the protein,
- contrary to the above-mentioned structural methods.
+, oraz innych, rzadziej stosowanych technik.
+ Ze względu na fakt, że podczas realizacji projektu doktorskiego wykorzystałem
+ kilka rzadziej stosowanych metod strukturalnych warto o
+\begin_inset space ~
+\end_inset
+
+nich wspomnieć.
+ Na wstępie warto zaznaczyć, że metody stosowane przeze mnie podczas projektu
+ doktorskiego nie podają dokładnych współrzędnych każdego atomu w
+\begin_inset space ~
+\end_inset
+
+białku, w
+\begin_inset space ~
+\end_inset
+
+przeciwieństwie do wyżej wymienionych metod strukturalnych.
  
 \end_layout
 
 \begin_layout Subsubsection
-Small-angle X-ray scattering
+Rozpraszanie promieniowania rentgenowskiego pod małym kątem
 \end_layout
 
 \begin_layout Standard
-Similarly, like 
+Podobnie jak spektroskopia 
 \begin_inset ERT
 status open
 
@@ -3932,7 +5798,7 @@ gls{nmr}
 
 \end_inset
 
- spectroscopy or X-ray crystallography 
+ lub krystalografia rentgenowska, 
 \begin_inset ERT
 status open
 
@@ -3945,7 +5811,11 @@ gls{saxs}
 
 \end_inset
 
- results may be written into a 
+ dostarcza wyników, które mogą być zapisane w
+\begin_inset space ~
+\end_inset
+
+postaci pliku 
 \begin_inset ERT
 status open
 
@@ -3958,9 +5828,16 @@ gls{pdb}
 
 \end_inset
 
- file.
- This technique provides information about the overall shape and size distributi
-on of a protein.
+.
+ Technika ta daje informacje o
+\begin_inset space ~
+\end_inset
+
+ogólnym kształcie i
+\begin_inset space ~
+\end_inset
+
+rozkładzie wielkości białka.
  
 \begin_inset ERT
 status open
@@ -3974,8 +5851,15 @@ Gls{saxs}
 
 \end_inset
 
- is particularly useful for studying large proteins.
- The biggest advantage over the X-ray crystallography and 
+ jest szczególnie przydatny do badania dużych białek, a
+\begin_inset space ~
+\end_inset
+
+jego największą przewagę nad krystalografią rentgenowską i
+\begin_inset space ~
+\end_inset
+
+spektroskopią 
 \begin_inset ERT
 status open
 
@@ -3988,7 +5872,7 @@ gls{nmr}
 
 \end_inset
 
- spectroscopy is the fact that 
+ jest fakt, że 
 \begin_inset ERT
 status open
 
@@ -4001,8 +5885,8 @@ gls{saxs}
 
 \end_inset
 
- can be applied to flexible proteins.
- The combination of 
+ can można zastosować do elastycznych białek.
+ Połączenie 
 \begin_inset ERT
 status open
 
@@ -4015,9 +5899,16 @@ gls{saxs}
 
 \end_inset
 
- with other biophysical techniques allows for the understanding of the shape
- and dynamics of the protein.
- Although 
+ z
+\begin_inset space ~
+\end_inset
+
+innymi technikami biofizycznymi pozwala na zrozumienie kształtu i
+\begin_inset space ~
+\end_inset
+
+dynamiki białka.
+ Mimo, że technika 
 \begin_inset ERT
 status open
 
@@ -4030,8 +5921,12 @@ gls{saxs}
 
 \end_inset
 
- itself is blind to metal ions it can be a helpful tool for the description
- of protein dynamics 
+ nie jest czuła względem jonów metali, może być pomocnym narzędziem do opisu
+ dynamiki białek
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Padjasek2022"
@@ -4039,7 +5934,7 @@ literal "true"
 
 \end_inset
 
- (or its lack—
+ (lub jej braku—
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -4058,7 +5953,11 @@ noprefix "false"
 
 \end_inset
 
-, 
+,
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Tran2022"
@@ -4066,18 +5965,37 @@ literal "true"
 
 \end_inset
 
-) induced by metal ion complexation.
+) indukowanej przez kompleksowanie jonów metali.
 \end_layout
 
 \begin_layout Subsubsection
-Extended X-ray absorption fine structure and X-ray absorption near-edge
- structure
+Rozszerzona subtelna struktura absorpcji promieniowania rentgenowskiego
+ i
+\begin_inset space ~
+\end_inset
+
+struktura absorpcji promieniowania rentgenowskiego w
+\begin_inset space ~
+\end_inset
+
+pobliżu krawędzi
 \end_layout
 
 \begin_layout Standard
-X-ray absorption spectroscopy is a technique used to study the electronic
- structure of elements and their local coordination environment in various
- materials, also in 
+Rentgenowska spektroskopia absorpcyjna jest techniką stosowaną do badania
+ struktury elektronowej pierwiastków i
+\begin_inset space ~
+\end_inset
+
+ich lokalnego środowiska koordynacyjnego w
+\begin_inset space ~
+\end_inset
+
+różnych materiałach, także w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -4085,13 +6003,28 @@ status open
 
 
 \backslash
-glspl{mprotein}
+glink{mprotein}{metalobiałkach}
 \end_layout
 
 \end_inset
 
 .
- X-ray absorption spectroscopy encompasses two techniques 
+ Na 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{xas}{spektroskopię absorpcji promieniowania rentgenowskiego (XAS,
+ ang.
+ X-ray absorption spectroscopy)}
+\end_layout
+
+\end_inset
+
+ składają się dwie techniki 
 \begin_inset ERT
 status open
 
@@ -4104,7 +6037,11 @@ gls{exafs}
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -4133,11 +6070,28 @@ Gls{exafs}
 
 \end_inset
 
- involves the measurement of the intensity of X-rays scattered at large
- angles from a target atom.
- The scattered X-rays are collected and analyzed to determine the average
- distance and coordination number of the neighboring atoms surrounding the
- target atom.
+ polega na pomiarze intensywności promieniowania X
+\begin_inset space ~
+\end_inset
+
+rozproszonego pod dużym kątem od mierzonego atomu.
+ Rozproszone promieniowanie X
+\begin_inset space ~
+\end_inset
+
+jest zbierane i
+\begin_inset space ~
+\end_inset
+
+analizowane w
+\begin_inset space ~
+\end_inset
+
+celu określenia średniej odległości i
+\begin_inset space ~
+\end_inset
+
+liczby koordynacyjnej sąsiednich atomów otaczających atom docelowy.
  
 \begin_inset ERT
 status open
@@ -4146,13 +6100,20 @@ status open
 
 
 \backslash
-gls{exafs}
+Gls{exafs}
 \end_layout
 
 \end_inset
 
- provides information about the local coordination environment of the target
- atom and can be used to study the bonding environment of target atoms in
+ dostarcza informacji o
+\begin_inset space ~
+\end_inset
+
+otoczeniu koordynacyjnym mierzonego atomu i
+\begin_inset space ~
+\end_inset
+
+może być wykorzystany do badania otoczenia koordynacyjnego jonów metali
  
 \begin_inset ERT
 status open
@@ -4161,7 +6122,7 @@ status open
 
 
 \backslash
-glspl{mprotein}
+glink{mprotein}{metalobiałkach}
 \end_layout
 
 \end_inset
@@ -4182,8 +6143,15 @@ Gls{xanes}
 
 \end_inset
 
-, on the other hand, involves the measurement of the absorption of X-rays
- near the absorption edge of the target atom.
+, z
+\begin_inset space ~
+\end_inset
+
+drugiej strony, polega na pomiarze absorpcji promieniowania X
+\begin_inset space ~
+\end_inset
+
+w pobliżu krawędzi absorpcyjnej atomu docelowego.
  
 \begin_inset ERT
 status open
@@ -4197,9 +6165,24 @@ Gls{xanes}
 
 \end_inset
 
- provides information about the oxidation state and coordination geometry
- of the target atom by analyzing the fine structure in the X-ray absorption
- spectra near the absorption edge.
+ dostarcza informacji o
+\begin_inset space ~
+\end_inset
+
+stanie utlenienia i
+\begin_inset space ~
+\end_inset
+
+geometrii koordynacyjnej atomu docelowego poprzez analizę drobnej struktury
+ w
+\begin_inset space ~
+\end_inset
+
+widmie absorpcji promieniowania rentgenowskiego w
+\begin_inset space ~
+\end_inset
+
+pobliżu krawędzi absorpcji.
  
 \begin_inset ERT
 status open
@@ -4213,7 +6196,11 @@ Gls{xanes}
 
 \end_inset
 
- can be used to determine the oxidation state of metal ions in 
+ może być użyta do określenia stanu utlenienia jonów metali w
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -4221,16 +6208,24 @@ status open
 
 
 \backslash
-glspl{mprotein}
+glink{mprotein}{metalobiałkach}
 \end_layout
 
 \end_inset
 
-, which can provide valuable information about their function and reactivity.
+, które mogą dostarczyć cennych informacji o
+\begin_inset space ~
+\end_inset
+
+ich funkcji i
+\begin_inset space ~
+\end_inset
+
+reaktywności.
 \end_layout
 
 \begin_layout Standard
-Both 
+Zarówno 
 \begin_inset ERT
 status open
 
@@ -4243,7 +6238,11 @@ Gls{exafs}
 
 \end_inset
 
- and 
+, jak i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -4256,7 +6255,11 @@ Gls{xanes}
 
 \end_inset
 
- have been widely used in the study of 
+ były szeroko stosowane w
+\begin_inset space ~
+\end_inset
+
+badaniach 
 \begin_inset ERT
 status open
 
@@ -4264,12 +6267,16 @@ status open
 
 
 \backslash
-glspl{mprotein}
+glink{mprotein}{metalobiałkach}
 \end_layout
 
 \end_inset
 
- and have provided important insights into the mechanisms of 
+ i
+\begin_inset space ~
+\end_inset
+
+dostarczyły ważnych informacji na temat mechanizmów 
 \begin_inset ERT
 status open
 
@@ -4277,21 +6284,45 @@ status open
 
 
 \backslash
-gls{mprotein}
+glink{mprotein}{metalobiałek}
 \end_layout
 
 \end_inset
 
- function.
- By combining these techniques with other experimental and computational
- methods, scientists have been able to gain a deeper understanding of the
- roles of metal ions in enzyme catalysis, electron transfer reactions, and
- oxidative stress.
+ i
+\begin_inset space ~
+\end_inset
+
+ich funkcji.
+ Łącząc te techniki z
+\begin_inset space ~
+\end_inset
+
+innymi metodami eksperymentalnymi i
+\begin_inset space ~
+\end_inset
+
+obliczeniowymi, naukowcy byli w
+\begin_inset space ~
+\end_inset
+
+stanie uzyskać głębsze zrozumienie roli jonów metali w
+\begin_inset space ~
+\end_inset
+
+ katalizie enzymów, reakcjach przeniesienia elektronu i
+\begin_inset space ~
+\end_inset
+
+stresie oksydacyjnym.
 \end_layout
 
 \begin_layout Subsection
-Biophysical tools for the characterization of metal-involved protein-protein
- interfaces
+Biofizyczne narzędzia do charakterystyki interfejsów białko–białko z
+\begin_inset space ~
+\end_inset
+
+udziałem metalu
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Biophysical-tools-for"
@@ -4320,16 +6351,71 @@ noprefix "false"
 
 \end_inset
 
- is a short introduction to the equilibria-related calculations, that are
- necessary to obtain accurate values, that can be later compared to other
- known affinities, which should give those values a biological context.
- However, to be able to calculate anything one requires data, this Subsection
- is devoted to the description of some methods that can produce the data
- for those calculations.
+ to krótkie wprowadzenie do obliczeń związanych z
+\begin_inset space ~
+\end_inset
+
+równowagą, które są niezbędne do uzyskania dokładnych wartości stałych asocjacji
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+), które mogą być później porównane z
+\begin_inset space ~
+\end_inset
+
+innymi znanymi powinowactwami, co powinno nadać tym wartościom kontekst
+ biologiczny.
+ Dla przykładu, wiedza o
+\begin_inset space ~
+\end_inset
+
+oddziaływaniu białka z
+\begin_inset space ~
+\end_inset
+
+jonem Zn(II) ze stałą 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Kd}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\approx10^{-15}$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+M
+\begin_inset space ~
+\end_inset
+
+sugeruje, że dochodzi do tworzenia strukturalnego miejsca wiązania jonu.
+ Jednakże, aby móc cokolwiek obliczyć potrzebne są dane eksperymentalne,
+ niniejszy podrozdział poświęcony jest opisowi niektórych metod, które mogą
+ dostarczyć dane do tych obliczeń.
 \end_layout
 
 \begin_layout Subsubsection
-Size Exclusion Chromatography
+Chromatografia wykluczania
 \end_layout
 
 \begin_layout Standard
@@ -4345,8 +6431,16 @@ Gls{SEC}
 
 \end_inset
 
- is one of the first liquid chromatography techniques developed to investigate
- protein–protein interactions 
+ jest jedną z
+\begin_inset space ~
+\end_inset
+
+pierwszych technik chromatografii cieczowej opracowaną do badania interakcji
+ białko–białko
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Boone2016"
@@ -4368,8 +6462,12 @@ Gls{SEC}
 
 \end_inset
 
- separates the molecules based on their size (thus on the molecular weight).
- With a properly calibrated 
+ rozdziela cząsteczki na podstawie ich kształtu i
+\begin_inset space ~
+\end_inset
+
+wielkości (a więc pośrednio również na podstawie masy cząsteczkowej).
+ Przy prawidłowo skalibrowanej kolumnie 
 \begin_inset ERT
 status open
 
@@ -4382,136 +6480,11 @@ gls{SEC}
 
 \end_inset
 
- column, it is possible to approximate the weight of the investigated protein
- or protein complex.
- Provided the change in the complexes' molecular weight is considerable
- it is possible to measure the binding.
- In the case of homodimerization, the molecular weight of the complex is
- twice as big as the monomeric protein thus making 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{SEC}
-\end_layout
-
-\end_inset
-
- an ideal solution for the detection.
- However, in a theoretical case of heterodimerization of a macromolecule
- with a small peptide, assuming that the binding does not induce a huge
- conformational change in the macromolecule 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{SEC}
-\end_layout
-
-\end_inset
-
- seems inapplicable.
- 
-\end_layout
-
-\begin_layout Standard
-It is possible to run directly titrated with metal samples on 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{SEC}
-\end_layout
-
-\end_inset
-
-, however, in case of weak binding the lack of appropriate metal ions in
- the running buffers may cause the dissociation of the metal-protein complexes.
- To circumvent this inconvenience, the separation on 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{SEC}
-\end_layout
-
-\end_inset
-
- can be run in metal-ion buffers (
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand labelonly
-reference "subsec:Competition-titration-experiment"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-) that control the concentration of available metal.
- The 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{Ka}
-\end_layout
-
-\end_inset
-
- from the competition experiment performed with 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{SEC}
-\end_layout
-
-\end_inset
-
- can be calculated using the area under the peaks corresponding to the various
- protein fractions 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Kocya2018a"
-literal "true"
-
-\end_inset
-
-, however, it should be noted that the observed peaks are not literally
- in an equilibrium.
-\end_layout
-
-\begin_layout Standard
-The detection of separated protein fractions can be performed with almost
- any flow-method, e.g.
- 
+, możliwe jest przybliżone określenie masy badanego białka lub kompleksu
+ białkowego.
+ Detekcja rozdzielonych frakcji może być przeprowadzona za pomocą prawie
+ każdej metody przepływowej, np.
+ spektrofotometrii 
 \begin_inset ERT
 status open
 
@@ -4524,7 +6497,7 @@ gls{uvvis}
 
 \end_inset
 
- spectrophotometry, 
+, 
 \begin_inset ERT
 status open
 
@@ -4545,20 +6518,32 @@ status open
 
 
 \backslash
-gls{mals}
+glink{mals}{MALS}
 \end_layout
 
 \end_inset
 
-.
-\end_layout
+, itd., dobór odpowiedniej metody zwykle będzie uwarunkowany właściwościami
+ mierzonego kompleksu i
+\begin_inset space ~
+\end_inset
 
-\begin_layout Subsubsection
-MALS
-\end_layout
+substratów.
+ O
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Usually 
+ile zmiana masy cząsteczkowej kompleksów jest znaczna, możliwy jest ilościowy
+ pomiar tworzonego kompleksu lub substratów.
+ Pomiar ilości tworzonego kompleksu (lub ubytku substratów) może być przeprowadz
+ony np.
+ przez zmierzenie powierzchni pod obserwowanym pikiem chromatograficznym.
+ W
+\begin_inset space ~
+\end_inset
+
+przypadku homodimeryzacji masa cząsteczkowa kompleksu jest dwukrotnie większa
+ od masy białka monomerycznego, co czyni 
 \begin_inset ERT
 status open
 
@@ -4566,12 +6551,209 @@ status open
 
 
 \backslash
-gls{mals}
+gls{SEC}
 \end_layout
 
 \end_inset
 
- is performed in conjugation with 
+ idealnym rozwiązaniem do detekcji.
+ Jednak w
+\begin_inset space ~
+\end_inset
+
+teoretycznym przypadku heterodimeryzacji makrocząsteczki z
+\begin_inset space ~
+\end_inset
+
+małym peptydem, przy założeniu, że wiązanie nie wywołuje ogromnych zmian
+ konformacyjnych w
+\begin_inset space ~
+\end_inset
+
+makrocząsteczce, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{SEC}
+\end_layout
+
+\end_inset
+
+ wydaje się nie mieć zastosowania.
+ 
+\end_layout
+
+\begin_layout Standard
+W
+\begin_inset space ~
+\end_inset
+
+przypadku oddziaływania z
+\begin_inset space ~
+\end_inset
+
+jonami metalu, możliwe jest wprowadzenie bezpośrednio
+\begin_inset space ~
+\end_inset
+
+miareczkowanych próbek na 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{SEC}
+\end_layout
+
+\end_inset
+
+, jednak w
+\begin_inset space ~
+\end_inset
+
+przypadku słabego wiązania, brak odpowiednich jonów metali w
+\begin_inset space ~
+\end_inset
+
+ buforach do rozdziału może spowodować dysocjację kompleksów metal–białko.
+ Aby ominąć tę niedogodność, rozdział na 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{SEC}
+\end_layout
+
+\end_inset
+
+ można prowadzić w
+\begin_inset space ~
+\end_inset
+
+buforach z
+\begin_inset space ~
+\end_inset
+
+kontrolowanym stężeniem jonów metali, za pomocą buforów metalicznych (
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "subsec:Competition-titration-experiment"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+).
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Gls{Ka}
+\end_layout
+
+\end_inset
+
+ z
+\begin_inset space ~
+\end_inset
+
+rozdziału białka miareczkowanego bezpośrednio, jak i
+\begin_inset space ~
+\end_inset
+
+eksperymentu współzawodnictwa przeprowadzonego za pomocą 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{SEC}
+\end_layout
+
+\end_inset
+
+ można obliczyć, wykorzystując powierzchnię pod pikami odpowiadającymi różnym
+ frakcjom białkowym
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kocya2018a"
+literal "true"
+
+\end_inset
+
+, jednak należy zauważyć, że obserwowane piki nie są dosłownie w
+\begin_inset space ~
+\end_inset
+
+równowadze.
+\end_layout
+
+\begin_layout Subsubsection
+Wielokątowe rozpraszanie światła 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+rozwinięcie
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zwykle 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsfirst{mals}
+\end_layout
+
+\end_inset
+
+ odbywa się w
+\begin_inset space ~
+\end_inset
+
+połączeniu z
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -4597,7 +6779,7 @@ gls{SEC}
 
 \end_inset
 
--
+–
 \begin_inset ERT
 status open
 
@@ -4611,8 +6793,15 @@ gls{mals}
 \end_inset
 
 ).
- This is due to the fact that, not every macromolecule is perfectly globular,
- and 
+ Wynika to z
+\begin_inset space ~
+\end_inset
+
+faktu, że nie każda makrocząsteczka jest idealnie globularna, a
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -4625,13 +6814,20 @@ gls{SEC}
 
 \end_inset
 
- separates particles based on 
+ oddziela cząstki na podstawie 
 \emph on
-shape
+kształtu
 \emph default
- and hydrodynamic radius – the latter is often correlated with the molecular
- weight of the particle, however, the shape is not necessarily correlated.
- Thus the application of 
+ i
+\begin_inset space ~
+\end_inset
+
+promienia hydrodynamicznego—ten ostatni jest często skorelowany z
+\begin_inset space ~
+\end_inset
+
+masą cząsteczkową cząstki, jednak kształt już niekoniecznie.
+ Tak więc zastosowanie 
 \begin_inset ERT
 status open
 
@@ -4644,7 +6840,15 @@ gls{mals}
 
 \end_inset
 
- in-line with 
+ w
+\begin_inset space ~
+\end_inset
+
+linii z
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -4657,8 +6861,19 @@ gls{SEC}
 
 \end_inset
 
- allows for determination of mass and size in solution, overcoming many
- inconveniences with 
+ pozwala na określenie masy i
+\begin_inset space ~
+\end_inset
+
+rozmiaru w
+\begin_inset space ~
+\end_inset
+
+roztworze, przezwyciężając wiele niedogodności związanych z
+\begin_inset space ~
+\end_inset
+
+kalibracją kolumny 
 \begin_inset ERT
 status open
 
@@ -4671,7 +6886,11 @@ gls{SEC}
 
 \end_inset
 
- column calibration 
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Minton2016"
@@ -4683,7 +6902,7 @@ literal "true"
 \end_layout
 
 \begin_layout Subsubsection
-Circular dichorism
+Dichroizm kołowy
 \end_layout
 
 \begin_layout Standard
@@ -4699,7 +6918,7 @@ Gls{cd}
 
 \end_inset
 
- can be used in the determination of 
+ można wykorzystać do określenia 
 \begin_inset ERT
 status open
 
@@ -4712,8 +6931,20 @@ gls{Ka}
 
 \end_inset
 
- in both, direct and competition titrations.
- With 
+ zarówno w
+\begin_inset space ~
+\end_inset
+
+miareczkowaniu bezpośrednim, jak i
+\begin_inset space ~
+\end_inset
+
+współzawodnictwa.
+ Dzięki miareczkowaniu z
+\begin_inset space ~
+\end_inset
+
+detekcją za pomocą 
 \begin_inset ERT
 status open
 
@@ -4721,13 +6952,16 @@ status open
 
 
 \backslash
-glsdesc{cd}
+gls{cd}
 \end_layout
 
 \end_inset
 
-, it is possible to evaluate the secondary structure of the protein (or
- peptide) 
+ można ocenić strukturę drugorzędową białka (lub peptydu)
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Greenfield2007"
@@ -4735,11 +6969,220 @@ literal "true"
 
 \end_inset
 
-, folding and binding, provided that a change in the secondary structure
- of the protein is observed.
- The direct titration of protein with a metal ion provided tight affinities
- that can show the ratio of binding.
- For example, 
+, zwijanie się białka i
+\begin_inset space ~
+\end_inset
+
+wiązanie 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{Lg}{liganda}
+\end_layout
+
+\end_inset
+
+, pod warunkiem, że obserwuje się zmianę struktury drugorzędowej białka.
+ Bezpośrednie miareczkowanie białka z
+\begin_inset space ~
+\end_inset
+
+jonem metalu, pod warunkiem ścisłego powinowactwa (wysokie 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+), może uwidocznić stechiometrię wiązania (Figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:conc_sim"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), w
+\begin_inset space ~
+\end_inset
+
+przypadku słabszego oddziaływania 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{cd}
+\end_layout
+
+\end_inset
+
+ może sugerować interakcję, aczkolwiek wyznaczenie stechiometrii wiązania,
+ bez dodatkowych eksperymentów, może być niemożliwe.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename gfx/conc_simulation.png
+	width 100line%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:conc_sim"
+
+\end_inset
+
+ Symulacja przedstawiająca wysycenie liganda w
+\begin_inset space ~
+\end_inset
+
+zależności od stałej asocjacji tworzonego kompleksu z
+\begin_inset space ~
+\end_inset
+
+jonem metalu w
+\begin_inset space ~
+\end_inset
+
+funkcji stosunku całkowitego stężenia jonu metalu (
+\begin_inset Formula $[\text{M}]_{\text{t}}$
+\end_inset
+
+) i
+\begin_inset space ~
+\end_inset
+
+liganda (
+\begin_inset Formula $[\text{L}]_{\text{t}}$
+\end_inset
+
+).
+ Całkowite stężenie każdego liganda 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+jest stałe i
+\begin_inset space ~
+\end_inset
+
+wynosi 4.5
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textmu
+\end_layout
+
+\end_inset
+
+ M, użyte w
+\begin_inset space ~
+\end_inset
+
+symulacji ligandy tworzą kompleksy o
+\begin_inset space ~
+\end_inset
+
+log
+\emph on
+K
+\begin_inset space ~
+\end_inset
+
+
+\emph default
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+a
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+w
+\begin_inset space ~
+\end_inset
+
+zakresie 2–10 w
+\begin_inset space ~
+\end_inset
+
+stosunku stechiometrycznym 1:1.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dla przykładu, interakcję 
 \begin_inset ERT
 status open
 
@@ -4752,7 +7195,7 @@ gls{rad}
 
 \end_inset
 
- interaction with Zn(II) can be monitored using 
+ ze Zn(II) można monitorować za pomocą 
 \begin_inset ERT
 status open
 
@@ -4784,10 +7227,33 @@ noprefix "false"
 
 \end_inset
 
-), due to the tight binding it is possible to plot the ellipticity at the
- chosen wavelength in the Zn(II)/protein function, and observe the specific
- turning point at Zn(II)/protein=0.5, which together with the rest of the
- evidence suggests the formation of Zn(
+)—ze względu na ścisłe wiązanie jonu Zn(II) przez 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ możliwe jest wykreślenie eliptyczności przy wybranej długości fali w
+\begin_inset space ~
+\end_inset
+
+funkcji stosunku Zn(II)/białko i
+\begin_inset space ~
+\end_inset
+
+zaobserwowanie specyficznego punktu przegięcia przy Zn(II)/białko=0.5, co
+ wraz z
+\begin_inset space ~
+\end_inset
+
+resztą eksperymentów sugeruje powstawanie kompleksu Zn(
 \begin_inset ERT
 status open
 
@@ -4809,15 +7275,16 @@ gls{rad}
 
 \end_inset
 
-complex.
+.
  
 \end_layout
 
 \begin_layout Subsubsection
-Ultraviolet-Visible spectrophotometry
+Spektrofotometria UV–Vis
 \end_layout
 
 \begin_layout Standard
+Spektrofotometria 
 \begin_inset ERT
 status open
 
@@ -4825,13 +7292,14 @@ status open
 
 
 \backslash
-Gls{uvvis}
+gls{uvvis}
 \end_layout
 
 \end_inset
 
- spectrophotometry is a useful tool that can be utilized as a detection
- for 
+ jest użytecznym narzędziem, które może być wykorzystane do detekcji przy
+ separacji chromatograficznej, np.
+ za pomocą 
 \begin_inset ERT
 status open
 
@@ -4844,120 +7312,8 @@ gls{SEC}
 
 \end_inset
 
- separation.
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Gls{uvvis}
-\end_layout
-
-\end_inset
-
- spectrophotometry is an essential method in thhe determination of a metal–prote
-in stabilities.
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Gls{uvvis}
-\end_layout
-
-\end_inset
-
- seems an ideal method for 'spectroscopically loud' metals.
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Spectroscopically quiet metals have completely filled or empty 
-\emph on
-d
-\emph default
--shell.
- So colloquially metal ions with partially filled 
-\emph on
-d
-\emph default
--shell should be called `loud` 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Penner-Hahn2005"
-literal "true"
-
-\end_inset
-
 .
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Gls{uvvis}
-\end_layout
-
-\end_inset
-
- observation of some 'spectroscopically quiet' metal complexes is possible
- due to the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{ct}
-\end_layout
-
-\end_inset
-
- phenomenon.
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{ct}
-\end_layout
-
-\end_inset
-
- is a type of electron transition in which the electron from the donor is
- transitioned to the acceptor's orbital.
- In the case of thiolates and Zn(II) the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{lmct}
-\end_layout
-
-\end_inset
-
- transition can be observed, which shows that even in the case of `spectroscopic
-ally quiet` metals 
+ Spektrofotometria 
 \begin_inset ERT
 status open
 
@@ -4970,12 +7326,120 @@ gls{uvvis}
 
 \end_inset
 
- can be applicable
+ jest podstawową metodą w
+\begin_inset space ~
+\end_inset
+
+określaniu stabilności metal–białko.
+ Spektrofotometria wydaje się być idealną metodą dla kompleksów dającymi
+ intensywne widma.
+ Obserwacja niektórych 
+\begin_inset Quotes pld
+\end_inset
+
+niemych spektroskopowo
+\begin_inset Quotes prd
+\end_inset
+
+ kompleksów metali za pomocą spektrofotometrii 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{uvvis}
+\end_layout
+
+\end_inset
+
+ jest możliwa dzięki zjawisku 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{ct}{przeniesienia ładunku (CT, ang.
+ charge transfer)}
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Gls{ct}
+\end_layout
+
+\end_inset
+
+ to rodzaj przejścia elektronowego, w
+\begin_inset space ~
+\end_inset
+
+którym pary elektronowe z
+\begin_inset space ~
+\end_inset
+
+donora przechodzą na orbital molekularny akceptora.
+ W
+\begin_inset space ~
+\end_inset
+
+przypadku oddziaływania Zn(II)–tiolan można zaobserwować pasmo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{lmct}{przenisienia ładunku od liganda do jonu metalu (LMCT, ang.
+ ligand--metal charge transfer)}
+\end_layout
+
+\end_inset
+
+, co pokazuje, że nawet w
+\begin_inset space ~
+\end_inset
+
+przypadku 
+\begin_inset Quotes pld
+\end_inset
+
+spektroskopowo niemych
+\begin_inset Quotes prd
+\end_inset
+
+ metali spektrofotometria 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{uvvis}
+\end_layout
+
+\end_inset
+
+ może być zastosowana
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Sometimes it is not possible to observe 
+Czasami nie jest możliwe zaobserwowanie 
 \begin_inset ERT
 status open
 
@@ -4988,8 +7452,12 @@ gls{lmct}
 
 \end_inset
 
- from the native metal coordinated by the protein of interest due to overlapping
- of the 
+ od fizjologicznie związanego jonu metalu koordynowanego przez interesujące
+ nas białko z
+\begin_inset space ~
+\end_inset
+
+powodu nakładania się pasm 
 \begin_inset ERT
 status open
 
@@ -5002,9 +7470,38 @@ gls{lmct}
 
 \end_inset
 
- bands with the absorption bands of the protein backbone.
- In such cases one can use isostructural probes showing absorption bands
- in a different region, i.e., in case of Zn(II), Co(II) 
+ z
+\begin_inset space ~
+\end_inset
+
+pasmami absorpcyjnymi łańcucha głównego białka.
+ W
+\begin_inset space ~
+\end_inset
+
+takich przypadkach można zastosować sondy izostrukturalne wykazujące pasma
+ absorpcji w
+\begin_inset space ~
+\end_inset
+
+innym regionie, tj.
+ w
+\begin_inset space ~
+\end_inset
+
+przypadku Zn(II) będą to: Co(II) (obserwowalne pasma wynikające z
+\begin_inset space ~
+\end_inset
+
+przejść typu 
+\emph on
+d–d
+\emph default
+)
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kluska2018"
@@ -5012,7 +7509,36 @@ literal "true"
 
 \end_inset
 
- and Cd(II) 
+ oraz Cd(II) (obserwowalne pasma wynikające z
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{lmct}
+\end_layout
+
+\end_inset
+
+, ale o
+\begin_inset space ~
+\end_inset
+
+niższej energii w
+\begin_inset space ~
+\end_inset
+
+porównaniu do Zn(II))
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Freisinger2013"
@@ -5020,12 +7546,16 @@ literal "true"
 
 \end_inset
 
- can be used as isostructural spectroscopic probes.
+.
 \end_layout
 
 \end_inset
 
- 
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Vasak1981"
@@ -5038,7 +7568,11 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Similarly to 
+Podobnie jak w
+\begin_inset space ~
+\end_inset
+
+przypadku 
 \begin_inset ERT
 status open
 
@@ -5051,8 +7585,11 @@ gls{cd}
 
 \end_inset
 
- in case of tight-affinities, it is possible to determine the binding stoichiome
-try from 
+, również w
+\begin_inset space ~
+\end_inset
+
+spektrofotometrii 
 \begin_inset ERT
 status open
 
@@ -5065,8 +7602,13 @@ gls{uvvis}
 
 \end_inset
 
- titration.
- 
+, w
+\begin_inset space ~
+\end_inset
+
+przypadku mocnych oddziaływań możliwe jest określenie stechiometrii wiązania
+ na podstawie miareczkowania.
+ Spektrofotometria 
 \begin_inset ERT
 status open
 
@@ -5074,14 +7616,47 @@ status open
 
 
 \backslash
-Gls{uvvis}
+gls{uvvis}
 \end_layout
 
 \end_inset
 
- can be used as well in competition titration studies, however, the ease
- of use of this technique will be dependent on the availability of the proper
- chelating probe 
+ może być również stosowana w
+\begin_inset space ~
+\end_inset
+
+przypadku miareczkowania współzawodnictwa, jednak łatwość użycia tej techniki
+ będzie zależała od dostępności odpowiedniej sondy chelatującej—związku
+ chemicznego, o
+\begin_inset space ~
+\end_inset
+
+znanej stałej 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+, wiążącego jon metalu w
+\begin_inset space ~
+\end_inset
+
+wyniku czego powstaje kompleks o
+\begin_inset space ~
+\end_inset
+
+mierzalnych właściwościach spektrofotometrycznych
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kocya2015"
@@ -5090,17 +7665,21 @@ literal "true"
 \end_inset
 
 .
- 
 \end_layout
 
 \begin_layout Subsubsection
-Isothermal titration calorimetry
+Izotermiczna kalorymetria miareczkowa
 \end_layout
 
 \begin_layout Standard
-Virtually every chemical reaction involves heat change.
- This allows the reaction to be monitored with accurate titration calorimeters.
- Also, metal-binding can be monitored using, 
+Praktycznie każda reakcja chemiczna wiąże się z
+\begin_inset space ~
+\end_inset
+
+wymianą ciepła.
+ Dzięki temu reakcja może być monitorowana za pomocą dokładnych kalorymetrów
+ miareczkowych.
+ Również wiązanie jonów metali może być monitorowane za pomocą 
 \begin_inset ERT
 status open
 
@@ -5108,33 +7687,44 @@ status open
 
 
 \backslash
-gls{itc}
+glink{itc}{izotermicznej kalorymetrii miareczkowej (ITC, ang.
+ isothermal titration calorimetry)}
 \end_layout
 
 \end_inset
 
 .
- As with the aforementioned methods, competitive titration can be used,
- provided that the competitor used is well characterized thermodynamically.
- At the same time, the fact that virtually every reaction involves a change
- in heat analysis of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{itc}
-\end_layout
-
+ Podobnie jak w
+\begin_inset space ~
 \end_inset
 
- data can be somewhat problematic, that is: proton dissociation from the
- protein during binding, protonation of the buffer, association of the metal
- ion with coordinating residues, and so on.
- All these factors should be taken into account during data analysis.
- It is more than important to convert the obtained 
+przypadku wyżej wymienionych metod, można zastosować miareczkowanie współzawodni
+ctwa, pod warunkiem, że zastosowany konkurent jest dobrze scharakteryzowany
+ termodynamicznie.
+ Jednocześnie fakt, że praktycznie każda reakcja pociąga za sobą zmianę
+ ciepła analiza danych może być nieco problematyczna—obserwowany termogram
+ będzie składową różnych czynników, np.: dysocjacji protonu z
+\begin_inset space ~
+\end_inset
+
+białka podczas wiązania jonu metalu, protonacji buforu, asocjacji jonu metalu
+ z
+\begin_inset space ~
+\end_inset
+
+resztami koordynacyjnymi i
+\begin_inset space ~
+\end_inset
+
+tak dalej.
+ Wszystkie te czynniki powinny być brane pod uwagę podczas analizy danych.
+ Również bardzo istotne jest dobranie odpowiedniego modelu, który będzie
+ dopasowany do otrzymanych danych eksperymentalnych, warto tu zwrócić uwagę,
+ że uzyskane w
+\begin_inset space ~
+\end_inset
+
+ten sposób 
 \begin_inset ERT
 status open
 
@@ -5156,28 +7746,7 @@ ITC
 
 \end_inset
 
- constant into the association constants for the corresponding complex.
- 
-\end_layout
-
-\begin_layout Standard
-Recent data analysis advances in the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{itc}
-\end_layout
-
-\end_inset
-
- allow to determine the kinetic information from the experiments – this
- can be done by the analysis of each injection peak, which adds an additional
- cross-validation layer to the experiment, due to the fact that the kinetic
- constants are bound with the 
+, może nie odpowiadać wartości 
 \begin_inset ERT
 status open
 
@@ -5190,7 +7759,96 @@ gls{Ka}
 
 \end_inset
 
- with the equations 
+ oddziaływania metal–białko, ponieważ często jony metali oddziałują ze składnika
+mi buforu, czyniąc tym samym 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+ITC
+\end_layout
+
+\end_inset
+
+ stałą wymiany 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Kex}
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Ostatnie postępy w
+\begin_inset space ~
+\end_inset
+
+analizie danych z
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{itc}
+\end_layout
+
+\end_inset
+
+ pozwalają na określenie informacji kinetycznej z
+\begin_inset space ~
+\end_inset
+
+eksperymentów—można to zrobić poprzez analizę każdego piku iniekcyjnego.
+ Ze względu na fakt, że stałe kinetyczne są związane z
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ (zob.
+ równania
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -5203,7 +7861,11 @@ ref{eq:equilibrium}
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Ka_definition"
@@ -5213,7 +7875,41 @@ noprefix "false"
 
 \end_inset
 
- 
+) otrzymane wartości 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{kon}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{koff}
+\end_layout
+
+\end_inset
+
+ dodają do eksperymentu dodatkową warstwę walidacji krzyżowej
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Burnouf2012"
@@ -5226,12 +7922,19 @@ literal "true"
 \end_layout
 
 \begin_layout Subsubsection
-Potentiometry
+Potencjometria
 \end_layout
 
 \begin_layout Standard
-The use of the glass electrode in potentiometry allows for the quantitative
- determination of equation 
+Zastosowanie elektrody szklanej w
+\begin_inset space ~
+\end_inset
+
+potencjometrii pozwala na ilościowe określenie równania
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -5240,12 +7943,42 @@ status open
 
 \backslash
 ref{eq:protonation}
+\end_layout
+
+\end_inset
+
+, opisującego tworzenie kompleksu 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Me}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{L}
 \end_layout
 
 \end_inset
 
 .
- Of course, the general equation 
+ Oczywiście, ogólne równanie
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -5258,8 +7991,15 @@ ref{eq:protonation}
 
 \end_inset
 
- will take another form in case of different complexes with different stoichiome
-try, i.e., 
+ przyjmie inną postać w
+\begin_inset space ~
+\end_inset
+
+przypadku kompleksów o
+\begin_inset space ~
+\end_inset
+
+różnej stechiometrii (tj., 
 \begin_inset ERT
 status open
 
@@ -5294,7 +8034,7 @@ gls{L}
 
 \end_inset
 
-, etc.
+, itd.).
  
 \end_layout
 
@@ -5320,7 +8060,7 @@ label{eq:protonation}
 
 
 \backslash
-ce{Me + H_x L^x+ <=> MeL + x H+}
+ce{M + H_x L^x+ <=> ML + xH+}
 \end_layout
 
 \begin_layout Plain Layout
@@ -5332,35 +8072,52 @@ end{equation}
 
 \end_inset
 
-Potentiometry still is the gold standard for the determination of complexes
- stabilities, however, it should be noted that all proton-related equilibria
- should be taken into account while calculating the 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-
-\backslash
-gls{Ka}
-\end_layout
-
-\end_inset
-
- – this is often impossible for proteins due to large number of sidechains
- that can exchange protons.
- Moreover, proteins are sensitive to pH, in extremely acidic or basic conditions
- proteins may change structure, unfold and precipitate, thus making the
- potentiometry only suitable for shorter peptide models.
-\end_layout
-
-\begin_layout Subsubsection
-Fluorescence-based techniques
 \end_layout
 
 \begin_layout Standard
-Fluorescence-based techniques for determination of metal-protein complexes
- affinities can be divided into two categories:
+Potencjometria nadal jest złotym standardem w
+\begin_inset space ~
+\end_inset
+
+określaniu stabilności kompleksów, jednak należy pamiętać, że przy obliczaniu
+ kumulatywnych stałych tworzenia (często oznaczanych jako
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\beta$
+\end_inset
+
+) należy brać pod uwagę wszystkie równowagi związane z
+\begin_inset space ~
+\end_inset
+
+protonami—w przypadku białek jest to często niemożliwe ze względu na dużą
+ liczbę łańcuchów bocznych, które mogą wymieniać protony.
+ Ponadto białka są wrażliwe na pH, w
+\begin_inset space ~
+\end_inset
+
+warunkach skrajnie kwaśnych lub zasadowych, białka mogą zmieniać strukturę,
+ rozkładać się i
+\begin_inset space ~
+\end_inset
+
+wytrącać, przez co potencjometria głównie wykorzystywana jest w
+\begin_inset space ~
+\end_inset
+
+przypadku krótszych modeli peptydowych.
+\end_layout
+
+\begin_layout Subsubsection
+Techniki oparte na fluorescencji
+\end_layout
+
+\begin_layout Standard
+Techniki oparte na pomiarze fluorescencji, do określania powinowactwa kompleksów
+ metal–białko można podzielić na dwie kategorie:
 \end_layout
 
 \begin_layout Standard
@@ -5372,7 +8129,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-label-free techniques
+techniki bez etykietowania
 \end_layout
 
 \end_inset
@@ -5382,11 +8139,27 @@ label-free techniques
 
 \end_inset
 
- may rely on measurement of intrinsic protein's fluorescence, in which case
- the direct titration with metal may be applied.
- However, if the intrinsic fluorescence is lacking the label-based techniques
- may be applied, or a competition titration with a appropriate fluorescent
- probe (e.g, FluoZin-3 for Zn(II) , mag-fura-2 for Mg(II), etc.) 
+ mogą opierać się na pomiarze wewnętrznej fluorescencji białka, w
+\begin_inset space ~
+\end_inset
+
+którym to przypadku można zastosować bezpośrednie miareczkowanie z
+\begin_inset space ~
+\end_inset
+
+metalem.
+ Jednakże, jeśli brakuje wewnętrznej, inherentnej dla białka fluorescencji,
+ można zastosować techniki oparte na etykietach lub miareczkowanie współzawodnic
+twa z
+\begin_inset space ~
+\end_inset
+
+odpowiednią sondą fluorescencyjną (np.
+ FluoZin-3 dla Zn(II) , mag-fura-2 dla Mg(II), itp.)
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "johnson2010molecular"
@@ -5394,7 +8167,7 @@ literal "true"
 
 \end_inset
 
-, 
+.
 \end_layout
 
 \begin_layout Standard
@@ -5406,7 +8179,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-label-based techniques
+techniki oparte na etykietach
 \end_layout
 
 \end_inset
@@ -5416,8 +8189,13 @@ label-based techniques
 
 \end_inset
 
- may use recombinant proteins of interest with fluorescent proteins to measure
- properties like fluorescence, 
+ mogą wykorzystywać rekombinowane białka będące przedmiotem zainteresowania
+ z
+\begin_inset space ~
+\end_inset
+
+białkami fluorescencyjnymi do pomiaru właściwości takich jak fluorescencja,
+ 
 \begin_inset ERT
 status open
 
@@ -5430,9 +8208,17 @@ gls{FRET}
 
 \end_inset
 
-, fluorescence anisotropy and fluorescence anisotropy decay.
- Except from the heterologous expression of recombinated proteins, proteins
- of interests may be labeled by chemical means 
+, anizotropia fluorescencji i
+\begin_inset space ~
+\end_inset
+
+zanik anizotropii fluorescencji.
+ Poza heterologiczną ekspresją rekombinowanych białek, interesujące nas
+ białka mogą być znakowane za pomocą środków chemicznych
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Qiao2006"
@@ -5444,20 +8230,44 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-The biggest advantage of the use of fluorescence based techniques is the
- low protein concentration required, this if often a huge advantage for
- reasons of economy, time and workload, though care should be when envisioning
- the stabilities constants of the unlabeled proteins from the labeled counterpar
-ts – the introduction of label may change the protein's conformation with
- in turn may change the affinity towards the metal.
+Największą zaletą stosowania technik opartych na fluorescencji jest niski
+ próg detekcji, a
+\begin_inset space ~
+\end_inset
+
+więc wymagane stężenie białka do eksperymentu również będzie małe—jest ogromną
+ zaletą z
+\begin_inset space ~
+\end_inset
+
+ekonomicznego punktu widzenia, czasu i
+\begin_inset space ~
+\end_inset
+
+nakładu pracy.
+ Niemniej jednak warto zachować ostrożność przy przewidywaniu stałych stabilnośc
+i
+\begin_inset space ~
+\end_inset
+
+białek nieoznakowanych używając ich oznakowanych odpowiedników—wprowadzenie
+ etykiety może zmienić konformację białka, co z
+\begin_inset space ~
+\end_inset
+
+kolei może zmienić powinowactwo do metalu.
 \end_layout
 
 \begin_layout Subsubsection
-Bio-layer interferometry and surface plasmon resonance
+Interferometria warstwy biologicznej i
+\begin_inset space ~
+\end_inset
+
+rezonans plazmonów powierzchniowych
 \end_layout
 
 \begin_layout Standard
-Both 
+Zarówno 
 \begin_inset ERT
 status open
 
@@ -5470,7 +8280,11 @@ gls{SPR}
 
 \end_inset
 
- and 
+, jak i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -5483,10 +8297,156 @@ gls{BLI}
 
 \end_inset
 
- measurement techniques provide label-free detection, due to the real-time
- monitoring and the fact that the measurement consists of both association
- and dissociation step it is possible to measure the kinetics of the interaction.
- The measurement of 
+ techniki pomiarowe zapewniają bezetykietową detekcję, a
+\begin_inset space ~
+\end_inset
+
+dzięki monitorowaniu w
+\begin_inset space ~
+\end_inset
+
+czasie rzeczywistym oraz temu, że pomiar składa się zarówno z
+\begin_inset space ~
+\end_inset
+
+etapu asocjacji jak i
+\begin_inset space ~
+\end_inset
+
+dysocjacji możliwy jest pomiar kinetyki oddziaływania.
+ Wyznaczenia 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ (a tym samym 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Kd}
+\end_layout
+
+\end_inset
+
+) za pomocą 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{SPR}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{BLI}
+\end_layout
+
+\end_inset
+
+ jest możliwe poprzez określenie 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{kon}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{koff}
+\end_layout
+
+\end_inset
+
+, które później mogą być wykorzystane do obliczenia 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Ka}
+\end_layout
+
+\end_inset
+
+ (zob.
+ równania
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:equilibrium}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Ka_definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Pomiar 
 \begin_inset ERT
 status open
 
@@ -5499,7 +8459,11 @@ gls{mppi}
 
 \end_inset
 
- with the use of 
+ z
+\begin_inset space ~
+\end_inset
+
+wykorzystaniem 
 \begin_inset ERT
 status open
 
@@ -5512,7 +8476,11 @@ gls{SPR}
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -5525,7 +8493,7 @@ gls{BLI}
 
 \end_inset
 
- implies the use of the metal ion buffers (
+ implikuje stosowanie buforów metalicznych (
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -5544,9 +8512,10 @@ noprefix "false"
 
 \end_inset
 
-) and the loading of the protein on the surface.
- While this method may be useful for investigation of heteromeric complexes
- (i.e., 
+).
+ Chociaż metoda ta może być przydatna do badania kompleksów heteromerycznych
+ (tj.
+ 
 \begin_inset ERT
 status open
 
@@ -5559,7 +8528,11 @@ ce{MeL^1_xL^2_y}
 
 \end_inset
 
- ), it seems to be non-ideal in the case of the homomeric complexes (i.e.
+), wydaje się być nieidealna w
+\begin_inset space ~
+\end_inset
+
+przypadku kompleksów homomerycznych (tj.
  
 \begin_inset ERT
 status open
@@ -5573,9 +8546,20 @@ ce{MeL_x}
 
 \end_inset
 
-), or in the case where individual components from the heterocomplex dimerize
- as a result of metal-binding (e.g.
- zinc mediated 
+), lub w
+\begin_inset space ~
+\end_inset
+
+przypadku, gdy poszczególne składniki z
+\begin_inset space ~
+\end_inset
+
+heterokompleksu dimeryzują w
+\begin_inset space ~
+\end_inset
+
+wyniku wiązania jonu metalu (np.
+ 
 \begin_inset ERT
 status open
 
@@ -5588,7 +8572,11 @@ gls{lck}
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -5601,7 +8589,25 @@ gls{cd4}
 
 \end_inset
 
-) 
+, tj.
+ tworzą kompleksy typu 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{MeL_2}
+\end_layout
+
+\end_inset
+
+ pod nieobecność drugiego partnera oddziaływania)
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kocya2018a"
@@ -5610,7 +8616,7 @@ literal "true"
 \end_inset
 
 .
- A certain limitation of 
+ Pewnym ograniczeniem 
 \begin_inset ERT
 status open
 
@@ -5623,7 +8629,11 @@ gls{BLI}
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -5636,114 +8646,9 @@ gls{SPR}
 
 \end_inset
 
- is also the fact, the lack of advanced models that can take into account
- more advanced binding stoichiometries.
+ jest fakt braku zaawansowanych modeli, które mogłyby uwzględniać bardziej
+ złożone stechiometrie wiązań.
  
-\end_layout
-
-\begin_layout Standard
-The determination of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{Ka}
-\end_layout
-
-\end_inset
-
- in 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{SPR}
-\end_layout
-
-\end_inset
-
- and 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{BLI}
-\end_layout
-
-\end_inset
-
- is possible by the determination of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{kon}
-\end_layout
-
-\end_inset
-
- and 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{koff}
-\end_layout
-
-\end_inset
-
-, which later can be used to calculate 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{Ka}
-\end_layout
-
-\end_inset
-
- (see equations 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-ref{eq:equilibrium}
-\end_layout
-
-\end_inset
-
- and 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:Ka_definition"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
 \end_layout
 
 \end_body

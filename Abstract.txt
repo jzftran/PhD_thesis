@@ -1,0 +1,140 @@
+
+
+Abstract
+
+Almost every macromolecule in the cell or living organism has to 
+interact transiently or permanently with other particles to 
+fulfill their role. Around 30–40% of these macromolecules are 
+envisioned to interact with metal ions, often the interaction 
+being obligatory for the macromolecule to be biologically active. 
+What is bizarre, given those numbers, is that to date, studies 
+dedicated to the characterization of protein–protein networks do 
+not overlap with the research devoted to metal–protein 
+interactions, leaving the area of intersection a terra incognita. 
+My interdisciplinary doctoral project had two phases. During the 
+first phase, I attempted to explore the unknown area 
+programmatically surveying the , for the —protein–protein 
+interfaces involving the metal ions. The second phase was devoted 
+to thorough characterization, by biophysical methods, one of the 
+special cases of the —the zinc hook of , crucial for 
+physiological dimerization of the  and, consequently, necessary 
+for the proper functioning of the key player in  damage 
+response—the .
+
+The logic of the surveying was deployed using  programming 
+language. One of the two generated in this process surveys 
+present the physiological  (assessed manually). The second survey 
+is constantly and regularly updated, as is it deployed as an 
+online tool using the  framework—InterMetalDB.
+
+The second phase of my doctoral project—the biophysical 
+characterization of the zinc hook from the  had two parts. The 
+first part was to describe the sequence–structure–stability 
+relationship of the human . The study is the first study, 
+exploring the stability of the eukaryotic , moreover, to my 
+knowledge, the investigated complex forms the most stable 
+Zn(II)-complex described in the human proteome, so far. The human 
+ is phosphorylated in the near vicinity (structurally and 
+sequentially) of the zinc-binding motif, at threonine 690. We 
+have determined that, due to the extreme stability of the 
+complex, the phosphorylation of the zinc hook cannot be a switch 
+that controls the metallation state of the  under the 
+physiological conditions.
+
+Despite the extreme stability of the Zn()₂, the complex is not 
+selective against Zn(II), which can be replaced by metal ions 
+with higher affinities towards the zinc hook. The second part of 
+the characterization of the zinc hook was performed using the 
+model zinc hook domain from   and was devoted to the 
+investigation of the structural, as well as stability properties 
+of the mismetallated domain by heavy metal ions—Hg(II) and Ag(I). 
+Those metals easily and readily displaced Zn(II) under the 
+experimental condition, suggesting that the stabilities of the 
+formed complexes were even higher those of the Zn(II)-complex. I 
+was able to estimate these unimaginably high affinities using the 
+least likely method—. 
+
+The obtained results contribute to understanding the , including 
+, as well as the relationship between the structure and the 
+stability of the human , as well as the impact of the heavy metal 
+ions on the stability and architecture of the  from 
+
+
+
+
+
+ 
+
+Streszczenie
+
+Prawie każda makrocząsteczka w komórce lub żywym organizmie musi 
+przejściowo lub trwale oddziaływać z innymi cząsteczkami, aby 
+spełnić swoją rolę. Przewiduje się, że około 30–40% tych 
+makrocząsteczek oddziałuje z jonami metali, przy czym często 
+oddziaływanie to jest niezbędne, aby makrocząsteczka była 
+biologicznie aktywna. Biorąc pod uwagę te liczby, dziwi fakt, że 
+jak dotąd badania poświęcone charakterystyce sieci oddziaływań 
+białko–białko nie pokrywają się z badaniami poświęconymi 
+interakcjom metal–białko, pozostawiając obszar przecięcia jako 
+terra incognita. Mój interdyscyplinarny projekt doktorski miał 
+dwie fazy. W pierwszej fazie podjęłam próbę eksploracji 
+nieznanego obszaru programowo badając zasoby Research 
+Collaboratory for Structural Bioinformatics Protein Data Bank, 
+pod kątem interakcji białko–białko z udziałem metalu—a dokładniej 
+interfejsów białko–białko z udziałem jonów metali. Drugi etap 
+poświęcony był dokładnej charakterystyce, metodami biofizycznymi, 
+jednego ze szczególnych przypadków interakcji białko–białko z 
+udziałem jonu cynku—haczyka cynkowego białka naprawczego DNA 
+Rad50, koronnego dla fizjologicznej dimeryzacji Rad50, a w 
+konsekwencji niezbędnego do prawidłowego funkcjonowania 
+kluczowego gracza w odpowiedzi na uszkodzenia kwasu 
+deoksyrybonukleinowego—kompleksu Mre11–Rad50–Nbs1(Xrs2) (MRN(X)).
+
+Logika badania została wdrożona przy użyciu języka programowania 
+Python. Jeden z dwóch wygenerowanych w tym procesie przeglądów 
+przedstawia fizjologicznych interakcji białko–białko z udziałem 
+jonu cynku (ewaluowane ręcznie). Drugi przegląd jest stale i 
+regularnie aktualizowany, ponieważ jest wdrożony jako narzędzie 
+online z wykorzystaniem platformy programistycznej 
+Django—InterMetalDB.
+
+Drugi etap mojego projektu doktorskiego—biofizyczna 
+charakterystyka haczyka cynkowego z białka Rad50 składał się z 
+dwóch części. Pierwszą częścią było opisanie relacji 
+sekwencja–struktura–stabilność ludzkiego białka Rad50. Powstała 
+publikacja jest pierwszą publikacją, opisującą stabilność 
+eukariotycznego Rad50, ponadto, według mojej wiedzy, badany 
+kompleks tworzy najbardziej stabilny kompleks cynkowy opisany w 
+ludzkim proteomie. Ludzkie białko Rad50 jest fosforylowane w 
+bliskim sąsiedztwie (strukturalnie i sekwencyjnie) motywu 
+wiążącego cynk, na treoninie 690. Pokazałem również, że ze 
+względu na ekstremalną stabilność kompleksu fosforylacja haka 
+cynkowego nie może być przełącznikiem kontrolującym stan 
+dimeryzacji białka Rad50 w warunkach fizjologicznych. Pomimo 
+ekstremalnej stabilności Zn(Rad50)₂, kompleks nie jest selektywny 
+wobec Zn(II), który może być zastąpiony jonami metali o wyższym 
+powinowactwie do haka cynkowego.
+
+Druga część charakterystyki haczyka cynkowego została 
+przeprowadzona z wykorzystaniem modelowej domeny haczyka 
+cynkowego z Rad50 pochodzącego z z Pyrococcus furiosus (P. 
+furiosus) i była poświęcona badaniu właściwości strukturalnych, a 
+także stabilności domeny wysyconej przez jony metali 
+ciężkich—Hg(II) i Ag(I). Metale te w warunkach eksperymentalnych 
+łatwo i chętnie wypierały Zn(II), co sugeruje, że stabilność 
+powstałych kompleksów była nawet wyższa niż kompleksu cynkowego. 
+Te niewyobrażalnie wysokie powinowactwa udało mi się oszacować 
+przy użyciu najmniej prawdopodobnej metody—izotermicznej 
+kalorymetrii miareczkowej. Uzyskane wyniki przyczyniają się do 
+zrozumienia interakcji białko–białko z udziałem metalu, w tym 
+interakcji białko–białko z udziałem jonu cynku, jak również 
+zależności pomiędzy strukturą i stabilnością ludzkiego białka 
+Rad50, a także wpływu jonów metali ciężkich na stabilność i 
+architekturę białka Rad50 z P. furiosus.
+
+
+
+
+
+
+

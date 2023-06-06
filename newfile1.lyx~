@@ -4,12 +4,12 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass classicthesis
+\textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language polish
+\language english
 \language_package default
-\inputencoding utf8
+\inputencoding auto
 \fontencoding global
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -29,52 +29,39 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
 \use_hyperref false
-\pdf_bookmarks true
-\pdf_bookmarksnumbered false
-\pdf_bookmarksopen false
-\pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder true
-\pdf_colorlinks true
-\pdf_backref false
-\pdf_pdfusetitle false
 \papersize default
 \use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
-\use_package esint 0
+\use_package esint 1
 \use_package mathdots 1
 \use_package mathtools 1
 \use_package mhchem 1
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine biblatex
-\cite_engine_type authoryear
-\biblio_style plainnat
-\biblatex_bibstyle authoryear
-\biblatex_citestyle authoryear
+\cite_engine basic
+\cite_engine_type default
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 0
+\use_refstyle 1
 \use_minted 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 2
-\tocdepth 2
+\secnumdepth 3
+\tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style polish
+\quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -89,31 +76,7 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-
-\backslash
-pdfbookmark[0]{Prawa i zezwolenia}{Prawa i zezwolenia}
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Chapter*
-Prawa i zezwolenia
-\end_layout
-
-\begin_layout Standard
-Artykuły stanowiące fragmenty niniejszej pracy dyplomowej są artykułami
- o otwartym dostępie rozpowszechnianymi na zasadach licencji Creative Commons,
- która zezwala na nieograniczone wykorzystanie, dystrybucję i reprodukcję,
- pod warunkiem odpowiedniego cytowania oryginalnej pracy.
- Dlatego przed każdym artykułem przedstawiam odnośnik do oryginalnego artykułu.
 \end_layout
 
 \end_body

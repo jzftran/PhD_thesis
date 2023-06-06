@@ -85,11 +85,7 @@
 \begin_body
 
 \begin_layout Chapter
-Białka i
-\begin_inset space ~
-\end_inset
-
-kofaktory
+Białka i kofaktory
 \end_layout
 
 \begin_layout Standard
@@ -104,28 +100,15 @@ name "chap:Proteins-and-cofactors"
 
 \begin_layout Standard
 Znaczną część związków organicznych syntetyzowanych przez organizmy żywe
- stanowią biopolimery; białka, lipidy, kwasy nukleinowe i
-\begin_inset space ~
-\end_inset
-
-inne makrocząsteczki (np.
+ stanowią biopolimery; białka, lipidy, kwasy nukleinowe i inne makrocząsteczki
+ (np.
  ligniny, gumy, melaniny).
- Wśród tych makrocząsteczek, białka pełnią kluczowe role w
-\begin_inset space ~
-\end_inset
-
-niemal każdym procesie biologicznym (kataliza, transport, funkcje mechaniczno-st
-rukturalne i
-\begin_inset space ~
-\end_inset
-
-inne).
+ Wśród tych makrocząsteczek, białka pełnią kluczowe role w niemal każdym
+ procesie biologicznym (kataliza, transport, funkcje mechaniczno-strukturalne
+ i inne).
  Ta niezwykle bogata różnorodność funkcji jest osiągana pomimo faktu, że
- białka są liniowymi polimerami zbudowanymi jedynie z
-\begin_inset space ~
-\end_inset
-
-20 rodzajów kanonicznych aminokwasów.
+ białka są liniowymi polimerami zbudowanymi jedynie z 20 rodzajów kanonicznych
+ aminokwasów.
 \begin_inset Foot
 status collapsed
 
@@ -144,24 +127,13 @@ glslink{ptm}{modyfikowanych potranslacyjnie (PTM, ang.
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
-aminokwasowych, które są przyłączane w
-\begin_inset space ~
-\end_inset
-
-procesie kotranslacji.
+ i aminokwasowych, które są przyłączane w procesie kotranslacji.
 \end_layout
 
 \end_inset
 
- Te kanoniczne aminokwasy połączone sekwencyjnie w
-\begin_inset space ~
-\end_inset
-
-liniowy polimer są odpowiedzialne za oszałamiającą różnorodność 
+ Te kanoniczne aminokwasy połączone sekwencyjnie w liniowy polimer są odpowiedzi
+alne za oszałamiającą różnorodność 
 \begin_inset ERT
 status open
 
@@ -175,21 +147,13 @@ glink{fold}{zwinięć (ang.
 
 \end_inset
 
-, struktur i
-\begin_inset space ~
-\end_inset
-
-złożeń.
+, struktur i złożeń.
  Ta wspaniała różnorodność struktur białkowych pozwala im spełniać zadziwiającą
  liczbę funkcji, jednakże nie każdy proces chemiczny (lub fizyczny) jest
  możliwy do przeprowadzenia przy użyciu tylko 20 kanonicznych aminokwasów.
- Jednym ze sposobów, w
-\begin_inset space ~
-\end_inset
-
-jaki sposób mechanizmy ewolucyjne doprowadziły do rozwiązania problemu ograniczo
-nej liczby grup chemicznych, które mogą ułatwić ważne procesy, było użycie
- 
+ Jednym ze sposobów, w jaki sposób mechanizmy ewolucyjne doprowadziły do
+ rozwiązania problemu ograniczonej liczby grup chemicznych, które mogą ułatwić
+ ważne procesy, było użycie 
 \begin_inset ERT
 status open
 
@@ -202,11 +166,7 @@ glslink{cofactor}{kofaktorów}
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
-
+ i 
 \begin_inset ERT
 status open
 
@@ -224,11 +184,7 @@ glslink{coenzyme}{koenzymów}
 
 \begin_layout Standard
 Liczne publikacje podają, że mniej więcej jedna trzecia białek oddziałuje
- z
-\begin_inset space ~
-\end_inset
-
-
+ z 
 \begin_inset ERT
 status open
 
@@ -247,15 +203,7 @@ status collapsed
 
 \begin_layout Plain Layout
 Moim obowiązkiem wobec czytelnika jest zwrócenie uwagi na to, że stwierdzenie,
- iż jedna trzecia białek wchodzi w
-\begin_inset space ~
-\end_inset
-
-interakcje z
-\begin_inset space ~
-\end_inset
-
-
+ iż jedna trzecia białek wchodzi w interakcje z 
 \begin_inset ERT
 status open
 
@@ -269,11 +217,8 @@ glslink{cofactor}{kofaktorami}
 \end_inset
 
  jest mało wiarygodne.
- Tego typu stwierdzenia często pojawiają się w
-\begin_inset space ~
-\end_inset
-
-różnych pracach omawiających 
+ Tego typu stwierdzenia często pojawiają się w różnych pracach omawiających
+ 
 \begin_inset ERT
 status open
 
@@ -286,24 +231,13 @@ glslink{cofactor}{kofaktory}
 
 \end_inset
 
-, a
-\begin_inset space ~
-\end_inset
-
-mimo to na próżno szukać odniesienia do literatury lub informacji z
-\begin_inset space ~
-\end_inset
-
+, a mimo to na próżno szukać odniesienia do literatury lub informacji z
  jakiego organizmu pochodzą te białka, czy też jak przeprowadzono analizę.
 \end_layout
 
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
-
-
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Rosenzweig2002,Bushmarina2006,Cao2011,RoleCofactorsProtein"
@@ -325,11 +259,8 @@ Gls{rcsb}
 
 \end_inset
 
- zapytane o
-\begin_inset space ~
-\end_inset
-
-struktury enzymów zwraca ponad 30% enzymów, które zawierają 
+ zapytane o struktury enzymów zwraca ponad 30% enzymów, które zawierają
+ 
 \begin_inset ERT
 status open
 
@@ -355,15 +286,7 @@ glslink{cofactor}{kofaktory}
 
 \end_inset
 
- są niezbędne do funkcjonowania ogromnej liczby enzymów i
-\begin_inset space ~
-\end_inset
-
-białek
-\begin_inset space ~
-\end_inset
-
-
+ są niezbędne do funkcjonowania ogromnej liczby enzymów i białek 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Mukhopadhyay2019"
@@ -388,11 +311,7 @@ glslink{cofactor}{Kofaktory}
 
 \end_inset
 
-, w
-\begin_inset space ~
-\end_inset
-
-przeciwieństwie do 
+, w przeciwieństwie do 
 \begin_inset ERT
 status open
 
@@ -405,21 +324,10 @@ glslink{pgroup}{grup prostetycznych}
 
 \end_inset
 
- nie są związane kowalencyjnie z
-\begin_inset space ~
-\end_inset
-
-białkami, ale wiążą się z
-\begin_inset space ~
-\end_inset
-
-białkami za pomocą innych oddziaływań, np.
+ nie są związane kowalencyjnie z białkami, ale wiążą się z białkami za pomocą
+ innych oddziaływań, np.
  wiązań wodorowych, sił Van der Waalsa, wiązań akceptorowo-donorowym, itp.,
- dlatego, aby oddziaływać z
-\begin_inset space ~
-\end_inset
-
-
+ dlatego, aby oddziaływać z 
 \begin_inset ERT
 status open
 
@@ -433,15 +341,7 @@ glink{cofactor}{kofaktorem}
 \end_inset
 
  białka musiały wyewoluować tak, aby utworzyć miejsca, które będą przyciągać
- i
-\begin_inset space ~
-\end_inset
-
-wiązać się się z
-\begin_inset space ~
-\end_inset
-
-
+ i wiązać się się z 
 \begin_inset ERT
 status open
 
@@ -456,19 +356,7 @@ glink{cofactor}{kofaktorem}
 
 .
  Reszty aminokwasowe (nie sekwencja!), które przyjmują określoną konformację
- i
-\begin_inset space ~
-\end_inset
-
-układ w
-\begin_inset space ~
-\end_inset
-
-przestrzeni, będąc w
-\begin_inset space ~
-\end_inset
-
-stanie pomieścić określony 
+ i układ w przestrzeni, będąc w stanie pomieścić określony 
 \begin_inset ERT
 status open
 
@@ -485,15 +373,7 @@ gls{cofactor}
 \end_layout
 
 \begin_layout Standard
-Białka są w
-\begin_inset space ~
-\end_inset
-
-stanie oddziaływać z
-\begin_inset space ~
-\end_inset
-
-organicznym, niebiałkowym 
+Białka są w stanie oddziaływać z organicznym, niebiałkowym 
 \begin_inset ERT
 status open
 
@@ -534,11 +414,8 @@ gls{cofactor}
 \end_inset
 
  to najczęściej jony metali.
- Zgrupowanie reszt aminokwasowych, ułożonych odpowiednio w
-\begin_inset space ~
-\end_inset
-
-przestrzeni, które wiążą jony metali, nazywane są 
+ Zgrupowanie reszt aminokwasowych, ułożonych odpowiednio w przestrzeni,
+ które wiążą jony metali, nazywane są 
 \begin_inset Quotes pld
 \end_inset
 
@@ -560,44 +437,17 @@ glink{cofactor}{kofaktorów}
 
 \end_inset
 
- kation Zn(II) jest jednym z
-\begin_inset space ~
-\end_inset
-
-najczęściej występujących w
-\begin_inset space ~
-\end_inset
-
-białkach.
- Białka oddziałujące z
-\begin_inset space ~
-\end_inset
-
-Zn(II) należą do najbardziej zróżnicowanych i
-\begin_inset space ~
-\end_inset
-
-rozpowszechnionych białek występujących w
-\begin_inset space ~
-\end_inset
-
-przyrodzie.
+ kation Zn(II) jest jednym z najczęściej występujących w białkach.
+ Białka oddziałujące z Zn(II) należą do najbardziej zróżnicowanych i rozpowszech
+nionych białek występujących w przyrodzie.
  
 \end_layout
 
 \begin_layout Standard
 Projekty sekwencjonowania genomów dostarczyły ogromnej ilości informacji
- o
-\begin_inset space ~
-\end_inset
-
-strukturze pierwotnej białek.
+ o strukturze pierwotnej białek.
  Bioinformatyczna analiza tych informacji przeprowadzona pod kątem interakcji
- z
-\begin_inset space ~
-\end_inset
-
-metalami sugeruje, że około 10% ludzkiego 
+ z metalami sugeruje, że około 10% ludzkiego 
 \begin_inset ERT
 status open
 
@@ -610,11 +460,7 @@ glslink{proteome}{proteomu}
 
 \end_inset
 
- wiąże lub może wiązać jony Zn(II)
-\begin_inset space ~
-\end_inset
-
-
+ wiąże lub może wiązać jony Zn(II) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Andreini2006,Andreini2006a,Andreini2009"
@@ -638,11 +484,7 @@ gls{L}
 \end_inset
 
  może być związany przez dwie lub więcej makrocząsteczek.
- W
-\begin_inset space ~
-\end_inset
-
-tej drobnej uwadze kryje się wiele innych, trudnych pytań—
+ W tej drobnej uwadze kryje się wiele innych, trudnych pytań—
 \begin_inset Quotes prd
 \end_inset
 
@@ -654,19 +496,11 @@ Jak często dochodzi do takiego międzycząsteczkowego wiązania metali?
 \begin_inset Quotes pld
 \end_inset
 
-Jakie są właściwości takich miejsc i
-\begin_inset space ~
-\end_inset
-
-białek wiążących?
+Jakie są właściwości takich miejsc i białek wiążących?
 \begin_inset Quotes prd
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
-inne.
+ i inne.
  
 \end_layout
 
@@ -685,11 +519,7 @@ glink{ppi}{interakcji białko--białko (PPI, ang.
 
 \end_inset
 
-, w
-\begin_inset space ~
-\end_inset
-
-których jony metalu odgrywają kluczową funkcję—
+, w których jony metalu odgrywają kluczową funkcję—
 \begin_inset ERT
 status open
 
@@ -697,7 +527,7 @@ status open
 
 
 \backslash
-glink{mppi}{interakcji białko--białko zudziałem metalu (MPPI, ang.
+glink{mppi}{interakcji białko--białko z udziałem metalu (MPPI, ang.
  metal-involved protein--protein interaction)}
 \end_layout
 
@@ -712,19 +542,12 @@ Część projektu realizowana
 \emph on
 in silico
 \emph default
- dotyczy badania wszystkich znanych białek wiążących jony metali w
-\begin_inset space ~
-\end_inset
-
-sposób międzycząsteczkowy (w tym jon cynku), natomiast badania 
+ dotyczy badania wszystkich znanych białek wiążących jony metali w sposób
+ międzycząsteczkowy (w tym jon cynku), natomiast badania 
 \emph on
 ex silico
 \emph default
- dotyczą oddziaływań jonów metali z
-\begin_inset space ~
-\end_inset
-
-
+ dotyczą oddziaływań jonów metali z 
 \begin_inset ERT
 status open
 
@@ -737,11 +560,7 @@ glink{rad}{białkiem naprawy DNA Rad50 (Rad50)}
 
 \end_inset
 
- pochodzącym z
-\begin_inset space ~
-\end_inset
-
-
+ pochodzącym z 
 \begin_inset ERT
 status open
 
@@ -754,11 +573,7 @@ gls{hs}
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
-
+ i 
 \begin_inset ERT
 status open
 
@@ -772,10 +587,7 @@ gls{pf}
 \end_inset
 
  (zob.
-\begin_inset space ~
-\end_inset
-
-
+ 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -802,23 +614,12 @@ Jony metali
 \end_layout
 
 \begin_layout Subsection
-Jony metali alkalicznych i
-\begin_inset space ~
-\end_inset
-
-ziem alkalicznych
+Jony metali alkalicznych i ziem alkalicznych
 \end_layout
 
 \begin_layout Standard
-Około 1% masy ciała człowieka stanowią jony metali alkalicznych i
-\begin_inset space ~
-\end_inset
-
-ziem alkalicznych
-\begin_inset space ~
-\end_inset
-
-
+Około 1% masy ciała człowieka stanowią jony metali alkalicznych i ziem alkaliczn
+ych 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Stephanos2014"
@@ -827,23 +628,9 @@ literal "true"
 \end_inset
 
 .
- Rola jonów metali alkalicznych i
-\begin_inset space ~
-\end_inset
-
-ziem alkalicznych w
-\begin_inset space ~
-\end_inset
-
-organizmach jest zróżnicowana, jony sodu (Na(I)) i
-\begin_inset space ~
-\end_inset
-
-potasu (K(I)) występują we wszystkich znanych organizmach i
-\begin_inset space ~
-\end_inset
-
-generalnie jony te funkcjonują jako elektrolity.
+ Rola jonów metali alkalicznych i ziem alkalicznych w organizmach jest zróżnicow
+ana, jony sodu (Na(I)) i potasu (K(I)) występują we wszystkich znanych organizma
+ch i generalnie jony te funkcjonują jako elektrolity.
  Jony wapnia (Ca(II)) są znane jako 
 \begin_inset Quotes pld
 \end_inset
@@ -852,29 +639,10 @@ posłańcy
 \begin_inset Quotes prd
 \end_inset
 
-—używane przez żywe organizmy do komunikacji, przekazywania sygnału i
-\begin_inset space ~
-\end_inset
-
-organizacji
-\begin_inset space ~
-\end_inset
-
-procesów wewnątrzkomórkowych.
+—używane przez żywe organizmy do komunikacji, przekazywania sygnału i organizacj
+i procesów wewnątrzkomórkowych.
  Jony magnezu (Mg(II)) są najobficiej występującymi kationami dwuwartościowymi
- w
-\begin_inset space ~
-\end_inset
-
-komórce, większość z
-\begin_inset space ~
-\end_inset
-
-nich jest związana z
-\begin_inset space ~
-\end_inset
-
-
+ w komórce, większość z nich jest związana z 
 \begin_inset ERT
 status open
 
@@ -902,15 +670,8 @@ gls{atp}
 
 \end_inset
 
- w
-\begin_inset space ~
-\end_inset
-
-komórkach
-\begin_inset space ~
-\end_inset
-
-
+ w komórkach.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Schwartz2014"
@@ -927,15 +688,7 @@ literal "true"
 status open
 
 \begin_layout Plain Layout
-jeszcze coś o
-\begin_inset space ~
-\end_inset
-
-takim biologicznym aspekcie, co to robi w
-\begin_inset space ~
-\end_inset
-
-organizmie itd.
+jeszcze coś o takim biologicznym aspekcie, co to robi w organizmie itd.
 \end_layout
 
 \end_inset
@@ -944,19 +697,8 @@ organizmie itd.
 \end_layout
 
 \begin_layout Standard
-W
-\begin_inset space ~
-\end_inset
-
-białkach zarówno jony metali alkalicznych, jak i
-\begin_inset space ~
-\end_inset
-
-ziem alkalicznych powszechnie odgrywają rolę strukturalną w
-\begin_inset space ~
-\end_inset
-
-stabilizacji 
+W białkach zarówno jony metali alkalicznych, jak i ziem alkalicznych powszechnie
+ odgrywają rolę strukturalną w stabilizacji 
 \begin_inset ERT
 status open
 
@@ -970,15 +712,7 @@ glslink{fold}{zwinięcia białka}
 \end_inset
 
 , jednak metale te mogą pełnić również rolę katalityczną (np.
- Mg(II) w
-\begin_inset space ~
-\end_inset
-
-ligazie T4
-\begin_inset space ~
-\end_inset
-
-
+ Mg(II) w ligazie T4 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Cherepanov2002"
@@ -987,28 +721,9 @@ literal "true"
 \end_inset
 
 ).
- Jony metali alkalicznych i
-\begin_inset space ~
-\end_inset
-
-ziem alkalicznych wyrównują ładunek wysoce negatywnie
-\begin_inset space ~
-\end_inset
-
-naładowanych obszarów w
-\begin_inset space ~
-\end_inset
-
-makrocząsteczkach, np.
- szkielecie polifosforanowym w
-\begin_inset space ~
-\end_inset
-
-kwasach nukleinowych
-\begin_inset space ~
-\end_inset
-
-
+ Jony metali alkalicznych i ziem alkalicznych wyrównują ładunek wysoce negatywni
+e naładowanych obszarów w makrocząsteczkach, np.
+ szkielecie polifosforanowym w kwasach nukleinowych 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Owczarzy2004,Zheng2015,Varnai2004"
@@ -1017,60 +732,24 @@ literal "true"
 \end_inset
 
 .
- Pomimo tego, że biologia metali alkalicznych i
-\begin_inset space ~
-\end_inset
-
-metali ziem alkalicznych jest dość dobrze poznana, nadal skrywa pewne tajemnice,
- np.
+ Pomimo tego, że biologia metali alkalicznych i metali ziem alkalicznych
+ jest dość dobrze poznana, nadal skrywa pewne tajemnice, np.
  znane są efekty biologiczne (a także niektóre działania niepożądane) litu—węgla
-n
-\begin_inset space ~
-\end_inset
-
-litu jest szeroko stosowany w
-\begin_inset space ~
-\end_inset
-
-leczeniu niektórych zaburzeń nastroju, jednak cele biologiczne jonów Li(I)
- w
-\begin_inset space ~
-\end_inset
-
-organizmach nie są jeszcze znane.
+n litu jest szeroko stosowany w leczeniu niektórych zaburzeń nastroju, jednak
+ cele biologiczne jonów Li(I) w organizmach nie są jeszcze znane.
 \end_layout
 
 \begin_layout Standard
 Metale alkaliczne mają pojedynczy elektron 
 \emph on
 s
-\begin_inset space ~
-\end_inset
-
-
 \emph default
-, a
-\begin_inset space ~
-\end_inset
-
-jony metali ziem alkalicznych mają wypełniony zewnętrzny orbital 
+, a jony metali ziem alkalicznych mają wypełniony zewnętrzny orbital 
 \emph on
 s
-\begin_inset space ~
-\end_inset
-
-
 \emph default
  (przez dwa elektrony).
- Obie grupy metali są silnie elektroujemne i
-\begin_inset space ~
-\end_inset
-
-niechętnie polaryzowalne
-\begin_inset space ~
-\end_inset
-
-
+ Obie grupy metali są silnie elektroujemne i niechętnie polaryzowalne 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Stephanos2014"
@@ -1079,20 +758,9 @@ literal "true"
 \end_inset
 
 .
- Ze względu na niską polaryzowalność jony metali alkalicznych i
-\begin_inset space ~
-\end_inset
-
-ziem alkalicznych
-\begin_inset space ~
-\end_inset
-
-zaliczane są do twardych kwasów Lewisa.
- Zgodnie z
-\begin_inset space ~
-\end_inset
-
-konceptem 
+ Ze względu na niską polaryzowalność jony metali alkalicznych i ziem alkalicznyc
+h zaliczane są do twardych kwasów Lewisa.
+ Zgodnie z konceptem 
 \begin_inset ERT
 status open
 
@@ -1100,21 +768,14 @@ status open
 
 
 \backslash
-glink{hsab}{twardych imiekkich kwasów izasad (HSAB, ang.
+glink{hsab}{twardych i miekkich kwasów i zasad (HSAB, ang.
  Hard and Soft Acid and Bases)}
 \end_layout
 
 \end_inset
 
- Ralpha Pearsona twarde kwasy Lewisa powinny chętniej oddziaływać z
-\begin_inset space ~
-\end_inset
-
-twardymi zasadami Lewisa
-\begin_inset space ~
-\end_inset
-
-
+ Ralpha Pearsona twarde kwasy Lewisa powinny chętniej oddziaływać z twardymi
+ zasadami Lewisa 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Pearson1963"
@@ -1137,33 +798,12 @@ glink{L}{ligandy}
 \end_inset
 
  kompleksujące te metale, tzn.
- sfera koordynacyjna jonów tych metali składa się zwykle z
-\begin_inset space ~
-\end_inset
-
-twardych kwasów Lewisa (w białkach, donorów grup bocznych aminokwasów kwasowych
- lub donorów tlenowych i
-\begin_inset space ~
-\end_inset
-
-azotowych wchodzących w
-\begin_inset space ~
-\end_inset
-
-skład wiązania peptydowego).
- Zazwyczaj jony metali alkalicznych i
-\begin_inset space ~
-\end_inset
-
-ziem alkalicznych są koordynowane przez makrocząsteczki o
-\begin_inset space ~
-\end_inset
-
-sześcio-koordynacyjnej geometrii oktaedrycznej
-\begin_inset space ~
-\end_inset
-
-
+ sfera koordynacyjna jonów tych metali składa się zwykle z twardych kwasów
+ Lewisa (w białkach, donorów grup bocznych aminokwasów kwasowych lub donorów
+ tlenowych i azotowych wchodzących w skład wiązania peptydowego).
+ Zazwyczaj jony metali alkalicznych i ziem alkalicznych są koordynowane
+ przez makrocząsteczki o sześcio-koordynacyjnej geometrii oktaedrycznej
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kuppuraj2009"
@@ -1171,12 +811,9 @@ literal "true"
 
 \end_inset
 
-, jednak w
-\begin_inset space ~
-\end_inset
-
-miejscach wiązania metali alkalicznych lub ziem alkalicznych występuje niekiedy
- więcej niż sześć atomów donorowych—głównie za sprawą bidentnych 
+, jednak w miejscach wiązania metali alkalicznych lub ziem alkalicznych
+ występuje niekiedy więcej niż sześć atomów donorowych—głównie za sprawą
+ bidentnych 
 \begin_inset ERT
 status open
 
@@ -1189,11 +826,7 @@ glink{L}{ligandów}
 
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
-
-
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Zheng2008"
@@ -1230,95 +863,34 @@ Metale przejściowe definiuje się jako pierwiastki, które mają częściowo
  wypełniony orbital 
 \emph on
 d
-\begin_inset space ~
-\end_inset
-
-
 \emph default
 .
  Metale przejściowe dzięki temu, że orbitale 
 \emph on
 d
-\begin_inset space ~
-\end_inset
-
-
 \emph default
  są dość blisko siebie na poziomach energetycznych (zdegenerowane), mogą
- tworzyć związki o
-\begin_inset space ~
-\end_inset
-
-szerokim zakresie stanów utlenienia, a
-\begin_inset space ~
-\end_inset
-
-niektóre z
-\begin_inset space ~
-\end_inset
-
-tych stanów są dość stabilne.
+ tworzyć związki o szerokim zakresie stanów utlenienia, a niektóre z tych
+ stanów są dość stabilne.
  Pierwiastki po prawej stronie bloku 
 \emph on
 d
-\begin_inset space ~
-\end_inset
-
-
 \emph default
  mają tendencję do większej polaryzacji.
  Te dwie cechy sprawiają, że zastosowanie metali przejściowych jest przydatne
- w
-\begin_inset space ~
-\end_inset
-
-katalizie, i
-\begin_inset space ~
-\end_inset
-
-nie ma więc nic dziwnego w
-\begin_inset space ~
-\end_inset
-
-tym, że mechanizmy ewolucyjne tak szeroko wykorzystały metale przejściowe
- w
-\begin_inset space ~
-\end_inset
-
-enzymach.
+ w katalizie, i nie ma więc nic dziwnego w tym, że mechanizmy ewolucyjne
+ tak szeroko wykorzystały metale przejściowe w enzymach.
  Pierwsza właściwość jest wykorzystywana, gdy zachodzi potrzeba zmiany stanu
  utlenienia substratu enzymu.
- W
-\begin_inset space ~
-\end_inset
-
-takim enzymie jon metalu może cyklicznie przechodzić pomiędzy stanami utlenienia
- i
-\begin_inset space ~
-\end_inset
-
-pełnić rolę akceptora lub donora elektronów (w zależności od katalizowanej
- reakcji).
- Druga właściwość pozwala jonom metalu funkcjonować w
-\begin_inset space ~
-\end_inset
-
-miejscach katalitycznych bez zmiany stanu utlenienia.
+ W takim enzymie jon metalu może cyklicznie przechodzić pomiędzy stanami
+ utlenienia i pełnić rolę akceptora lub donora elektronów (w zależności
+ od katalizowanej reakcji).
+ Druga właściwość pozwala jonom metalu funkcjonować w miejscach katalitycznych
+ bez zmiany stanu utlenienia.
  Takie kationy metali pełnią rolę kwasu Lewisa, akceptując pary elektronów,
  np.
- jak Mn(II) w
-\begin_inset space ~
-\end_inset
-
-miejscu katalitycznym dehydrogenazy jabłczanowej (dekarboksylującej
-\begin_inset space ~
-\end_inset
-
-szczawiooctan)
-\begin_inset space ~
-\end_inset
-
-
+ jak Mn(II) w miejscu katalitycznym dehydrogenazy jabłczanowej (dekarboksylujące
+j szczawiooctan) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "taoCrystalStructuresSubstrate2003"
@@ -1331,11 +903,7 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-W
-\begin_inset space ~
-\end_inset
-
-obecności 
+W obecności 
 \begin_inset ERT
 status open
 
@@ -1358,31 +926,14 @@ glink{L}{ligandów}
 \end_layout
 
 \begin_layout Standard
-Z
-\begin_inset space ~
-\end_inset
-
-dziesięciu pierwszorzędowych metali przejściowych, pięć z
-\begin_inset space ~
-\end_inset
-
-nich jest niezbędnych
-\begin_inset space ~
-\end_inset
-
-dla zdrowia człowieka—mangan, żelazo, kobalt, miedź i
-\begin_inset space ~
-\end_inset
-
-cynk (nie będący metalem przejściowym 
+Z dziesięciu pierwszorzędowych metali przejściowych, pięć z nich jest niezbędnyc
+h dla zdrowia człowieka—mangan, żelazo, kobalt, miedź i cynk (nie będący
+ metalem przejściowym 
 \emph on
 per se
 \emph default
 , zob.
-\begin_inset space ~
-\end_inset
-
-
+ 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1447,24 +998,8 @@ glink{cofactor}{kofaktor}
 
 \end_inset
 
- w
-\begin_inset space ~
-\end_inset
-
-kilku znanych enzymach, na przykład w
-\begin_inset space ~
-\end_inset
-
-ludzkim mózgu manganozależna syntetaza glutaminy jest odpowiedzialna za
- syntezę glutaminy w
-\begin_inset space ~
-\end_inset
-
-astrocytach
-\begin_inset space ~
-\end_inset
-
-
+ w kilku znanych enzymach, na przykład w ludzkim mózgu manganozależna syntetaza
+ glutaminy jest odpowiedzialna za syntezę glutaminy w astrocytach 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Takeda2003"
@@ -1479,16 +1014,8 @@ literal "true"
 \begin_layout Standard
 Żelazo stanowi 0,05‰ masy ciała człowieka.
  Hemoglobina jest sztandarowym białkiem, które pokazuje konieczność obecności
- żelaza w
-\begin_inset space ~
-\end_inset
-
-diecie człowieka.
- Żelazo w
-\begin_inset space ~
-\end_inset
-
-
+ żelaza w diecie człowieka.
+ Żelazo w 
 \begin_inset ERT
 status open
 
@@ -1514,11 +1041,7 @@ glink{mprotein}{metalobiałka}
 
 \end_inset
 
-, w
-\begin_inset space ~
-\end_inset
-
-których jony żelaza pełnią rolę 
+, w których jony żelaza pełnią rolę 
 \begin_inset ERT
 status open
 
@@ -1537,10 +1060,6 @@ glink{cofactor}{kofaktora}
 
 \begin_layout Standard
 Kobalt jest niezbędnym składnikiem witaminy B
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -1562,11 +1081,7 @@ glink{coenzyme}{koenzym}
 
 \end_inset
 
- w
-\begin_inset space ~
-\end_inset
-
-syntezie 
+ w syntezie 
 \begin_inset ERT
 status open
 
@@ -1579,28 +1094,9 @@ glink{dna}{kwasu dezoksyrybonukleinowego (DNA)}
 
 \end_inset
 
-, metabolizmie aminokwasów i
-\begin_inset space ~
-\end_inset
-
-kwasów tłuszczowych.
- Podobnie jak w
-\begin_inset space ~
-\end_inset
-
-przypadku żelaza, kobalt nie musi być tylko związany z
-\begin_inset space ~
-\end_inset
-
-pochodnymi
-\begin_inset space ~
-\end_inset
-
-korryny lub witaminą B
-\begin_inset space ~
-\end_inset
-
-
+, metabolizmie aminokwasów i kwasów tłuszczowych.
+ Podobnie jak w przypadku żelaza, kobalt nie musi być tylko związany z pochodnym
+i korryny lub witaminą B
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -1627,20 +1123,10 @@ glink{mprotein}{Metalobiałka}
 
 \end_inset
 
- miedziowe odgrywają zasadnicze role w
-\begin_inset space ~
-\end_inset
-
-transporcie elektronów i
-\begin_inset space ~
-\end_inset
-
-metabolizmie tlenu.
- Miedź jest niezbędna do oddychania tlenowego u
-\begin_inset space ~
-\end_inset
-
-eukariontów, gdyż występuje jako 
+ miedziowe odgrywają zasadnicze role w transporcie elektronów i metabolizmie
+ tlenu.
+ Miedź jest niezbędna do oddychania tlenowego u eukariontów, gdyż występuje
+ jako 
 \begin_inset ERT
 status open
 
@@ -1911,8 +1397,8 @@ rotatebox{90}},
 
 \begin_layout Plain Layout
 
-Okres & 1 & H    &    &    &    &    &    &    &    &    &    &    &   
- &    &    &    &    &    &    & He 
+Okres & 1 & H     &    &    &    &    &    &    &    &    &    &    &  
+  &    &    &    &    &    &    & He 
 \backslash
 
 \backslash
@@ -1922,7 +1408,7 @@ Okres & 1 & H    &    &    &    &    &    &    &    &    &    &    &
 \begin_layout Plain Layout
 
        & 2 & Li    & Be &    &    &    &    &    &    &    &    &    & 
-   &    & B & C & N & O & F & Ne 
+   &    & B  & C  & N  & O  & F  & Ne 
 \backslash
 
 \backslash
@@ -1932,7 +1418,7 @@ Okres & 1 & H    &    &    &    &    &    &    &    &    &    &    &
 \begin_layout Plain Layout
 
        & 3 & Na    & Mg &    &    &    &    &    &    &    &    &    & 
-   &    & Al & Si & P & S & Cl & Ar 
+   &    & Al & Si & P  & S  & Cl & Ar 
 \backslash
 
 \backslash
@@ -1941,7 +1427,7 @@ Okres & 1 & H    &    &    &    &    &    &    &    &    &    &    &
 
 \begin_layout Plain Layout
 
-       & 4 & K    & Ca &    & Sc & Ti & V & Cr & Mn & Fe & Co & Ni & Cu
+       & 4 & K     & Ca &    & Sc & Ti & V  & Cr & Mn & Fe & Co & Ni & Cu
  & Zn & Ga & Ge & As & Se & Br & Kr 
 \backslash
 
@@ -1951,8 +1437,8 @@ Okres & 1 & H    &    &    &    &    &    &    &    &    &    &    &
 
 \begin_layout Plain Layout
 
-       & 5 & Rb    & Sr &    & Y & Zr & Nb & Mo & Tc & Ru & Rh & Pd & Ag
- & Cd & In & Sn & Sb & Te & I & Xe 
+       & 5 & Rb    & Sr &    & Y  & Zr & Nb & Mo & Tc & Ru & Rh & Pd & Ag
+ & Cd & In & Sn & Sb & Te & I  & Xe 
 \backslash
 
 \backslash
@@ -1961,7 +1447,7 @@ Okres & 1 & H    &    &    &    &    &    &    &    &    &    &    &
 
 \begin_layout Plain Layout
 
-       & 6 & Cs    & Ba & *  & Lu & Hf & Ta & W & Re & Os & Ir & Pt & Au
+       & 6 & Cs    & Ba & *  & Lu & Hf & Ta & W  & Re & Os & Ir & Pt & Au
  & Hg & Tl & Pb & Bi & Po & At & Rn 
 \backslash
 
@@ -2001,7 +1487,7 @@ Okres & 1 & H    &    &    &    &    &    &    &    &    &    &    &
 
 \begin_layout Plain Layout
 
-       &   &       &    & ** & Ac & Th & Pa & U & Np & Pu & Am & Cm & Bk
+       &   &       &    & ** & Ac & Th & Pa & U  & Np & Pu & Am & Cm & Bk
  & Cf & Es & Fm & Md & No &    &    
 \end_layout
 
@@ -2511,10 +1997,6 @@ Period
 
 \size tiny
 H
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2833,10 +2315,6 @@ Be
 
 \size tiny
 B
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2848,10 +2326,6 @@ B
 
 \size tiny
 C
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2863,10 +2337,6 @@ C
 
 \size tiny
 N
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2878,10 +2348,6 @@ N
 
 \size tiny
 O
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2893,10 +2359,6 @@ O
 
 \size tiny
 F
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -3084,10 +2546,6 @@ Si
 
 \size tiny
 P
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -3099,10 +2557,6 @@ P
 
 \size tiny
 S
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -3158,10 +2612,6 @@ Ar
 
 \size tiny
 K
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -3215,10 +2665,6 @@ Ti
 
 \size tiny
 V
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -3426,10 +2872,6 @@ Sr
 
 \size tiny
 Y
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -3584,10 +3026,6 @@ Te
 
 \size tiny
 I
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -3698,10 +3136,6 @@ Ta
 
 \size tiny
 W
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -4570,10 +4004,6 @@ Pa
 
 \size tiny
 U
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -4722,19 +4152,6 @@ No
 \end_inset
 
 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-enlargethispage{2cm}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -4742,61 +4159,23 @@ Dodatkowo, oprócz pięciu pierwszorzędowych pierwiastków niezbędnych bloku
  
 \emph on
 d
-\begin_inset space ~
-\end_inset
-
-
 \emph default
 , trzy kolejne pierwiastki pierwszorzędowe 
 \emph on
 d
-\begin_inset space ~
-\end_inset
-
-
 \emph default
--bloku—chrom, wanad i
-\begin_inset space ~
-\end_inset
-
-nikiel—wykazują pewne efekty biologiczne, jednak istotność i
-\begin_inset space ~
-\end_inset
-
-potrzeba suplementacji tych pierwiastków jest dyskusyjna.
+-bloku—chrom, wanad i nikiel—wykazują pewne efekty biologiczne, jednak istotność
+ i potrzeba suplementacji tych pierwiastków jest dyskusyjna.
 \end_layout
 
 \begin_layout Standard
-Cr(III) występuje w
-\begin_inset space ~
-\end_inset
-
-żywności i
-\begin_inset space ~
-\end_inset
-
-suplementach diety, z
-\begin_inset space ~
-\end_inset
-
-których wiele jest reklamowanych jako mające korzystny wpływ na metabolizm
- i
-\begin_inset space ~
-\end_inset
-
-regulację glukozy.
+Cr(III) występuje w żywności i suplementach diety, z których wiele jest
+ reklamowanych jako mające korzystny wpływ na metabolizm i regulację glukozy.
  Uzasadnienie to opiera się na obserwacji pacjentów otrzymujących kroplówki
- dożylne bez Cr(III), u
-\begin_inset space ~
-\end_inset
-
-których rozwinęły się objawy podobne do cukrzycy insulinoopornej.
+ dożylne bez Cr(III), u których rozwinęły się objawy podobne do cukrzycy
+ insulinoopornej.
  Objawy ustępowały po suplementacji kroplówki dożylnej niewielką ilością
- Cr(III)
-\begin_inset space ~
-\end_inset
-
-
+ Cr(III) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Stehle2016"
@@ -4805,27 +4184,9 @@ literal "true"
 \end_inset
 
 .
- Skuteczność suplementacji Cr(III) charakteryzują dowody o
-\begin_inset space ~
-\end_inset
-
-niskiej jakości, stąd uzasadnienie dla zalecania ich stosowania w
-\begin_inset space ~
-\end_inset
-
-celu kontroli glikemii u
-\begin_inset space ~
-\end_inset
-
-pacjentów z
-\begin_inset space ~
-\end_inset
-
-cukrzycą typu drugiego jest niepewne
-\begin_inset space ~
-\end_inset
-
-
+ Skuteczność suplementacji Cr(III) charakteryzują dowody o niskiej jakości,
+ stąd uzasadnienie dla zalecania ich stosowania w celu kontroli glikemii
+ u pacjentów z cukrzycą typu drugiego jest niepewne 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Costello2016"
@@ -4834,16 +4195,8 @@ literal "true"
 \end_inset
 
 .
- W
-\begin_inset space ~
-\end_inset
-
-Stanach Zjednoczonych Ameryki jony Cr(III) są uznawane za niezbędny składnik
- odżywczy dla ludzi
-\begin_inset space ~
-\end_inset
-
-
+ W Stanach Zjednoczonych Ameryki jony Cr(III) są uznawane za niezbędny składnik
+ odżywczy dla ludzi 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "chromium_nih"
@@ -4856,11 +4209,7 @@ literal "true"
  European Food Safety Authority
 \lang polish
  nie podziela tej opinii, twierdząc, że dowody potwierdzające to założenie
- są niewystarczające
-\begin_inset space ~
-\end_inset
-
-
+ są niewystarczające 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Panel2014"
@@ -4869,27 +4218,8 @@ literal "true"
 \end_inset
 
 .
- O
-\begin_inset space ~
-\end_inset
-
-ile rola Cr(III) w
-\begin_inset space ~
-\end_inset
-
-organizmie człowieka jest niepewna, o
-\begin_inset space ~
-\end_inset
-
-tyle toksyczność i
-\begin_inset space ~
-\end_inset
-
-rakotwórcze właściwości Cr(VI) są znane od dawna
-\begin_inset space ~
-\end_inset
-
-
+ O ile rola Cr(III) w organizmie człowieka jest niepewna, o tyle toksyczność
+ i rakotwórcze właściwości Cr(VI) są znane od dawna 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Langard1975"
@@ -4902,20 +4232,8 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Wanad wydaje się być ważniejszy dla życia w
-\begin_inset space ~
-\end_inset
-
-środowisku morskim—liczba morskich form życia, takich jak algi wykorzystuje
- wanad w
-\begin_inset space ~
-\end_inset
-
-enzymach
-\begin_inset space ~
-\end_inset
-
-
+Wanad wydaje się być ważniejszy dla życia w środowisku morskim—liczba morskich
+ form życia, takich jak algi wykorzystuje wanad w enzymach 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Butler2004"
@@ -4926,23 +4244,9 @@ literal "true"
 .
  Osłonice przyciągają uwagę badaczy ze względu na wyspecjalizowane komórki
  krwi—wanadocyty, gromadzące wanad za pośrednictwem białek oddziałujących
- z
-\begin_inset space ~
-\end_inset
-
-wanadem, zwanych wanabinami, jednak rola tych białek i
-\begin_inset space ~
-\end_inset
-
-wanadu u
-\begin_inset space ~
-\end_inset
-
-osłonic jest nadal owiana tajemnicą.
-\begin_inset space ~
-\end_inset
-
-
+ z wanadem, zwanych wanabinami, jednak rola tych białek i wanadu u tuńczyków
+ jest nadal owiana tajemnicą.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Ueki2003"
@@ -4951,20 +4255,9 @@ literal "true"
 \end_inset
 
 .
- Zagadnienia związane z
-\begin_inset space ~
-\end_inset
-
-wanadem dla zdrowia człowieka są podobne jak w
-\begin_inset space ~
-\end_inset
-
-przypadku związków chromu—związki wanadu mogą wywierać pewne działanie przeciwcu
-krzycowe
-\begin_inset space ~
-\end_inset
-
-
+ Zagadnienia związane z wanadem dla zdrowia człowieka są podobne jak w przypadku
+ związków chromu—związki wanadu mogą wywierać pewne działanie przeciwcukrzycowe
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sakurai2002"
@@ -4972,20 +4265,9 @@ literal "true"
 
 \end_inset
 
-, jednakże funkcjonalna rola wanadu u
-\begin_inset space ~
-\end_inset
-
-ssaków i
-\begin_inset space ~
-\end_inset
-
-ludzi nie została jeszcze określona, dlatego też nie jest on uznawany za
- niezbędny składnik odżywczy
-\begin_inset space ~
-\end_inset
-
-
+, jednakże funkcjonalna rola wanadu u ssaków i ludzi nie została jeszcze
+ określona, dlatego też nie jest on uznawany za niezbędny składnik odżywczy
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Citation2001"
@@ -4998,51 +4280,15 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Nikiel jest niezbędny dla niektórych bakterii, archeonów, grzybów i
-\begin_inset space ~
-\end_inset
-
-roślin, gdzie zazwyczaj odgrywa rolę w
-\begin_inset space ~
-\end_inset
-
-procesach enzymatycznych, np.
- ureaza—enzym niklowy, uważany za czynnik wirulencji u
-\begin_inset space ~
-\end_inset
-
-niektórych patogenów.
- Istotność Ni(II) u
-\begin_inset space ~
-\end_inset
-
-ssaków jest nadal dyskutowana, z
-\begin_inset space ~
-\end_inset
-
-jednej strony szczury hodowane bez niklu (lub w
-\begin_inset space ~
-\end_inset
-
-niskich ilościach) wykazują obniżony wzrost i
-\begin_inset space ~
-\end_inset
-
- kilka poza normalnych wyników biochemicznych i
-\begin_inset space ~
-\end_inset
-
-morfologicznych.
- Nikiel wydawał się być zaangażowany w
-\begin_inset space ~
-\end_inset
-
-reprodukcję szczurów pozbawionych niklu, ponieważ jego brak powodował zwiększoną
- śmiertelność okołoporodową
-\begin_inset space ~
-\end_inset
-
-
+Nikiel jest niezbędny dla niektórych bakterii, archeonów, grzybów i roślin,
+ gdzie zazwyczaj odgrywa rolę w procesach enzymatycznych, np.
+ ureaza—enzym niklowy, uważany za czynnik wirulencji u niektórych patogenów.
+ Istotność Ni(II) u ssaków jest nadal dyskutowana, z jednej strony szczury
+ hodowane bez niklu (lub w niskich ilościach) wykazują obniżony wzrost i
+ kilka poza normalnych wyników biochemicznych i morfologicznych.
+ Nikiel wydawał się być zaangażowany w reprodukcję szczurów pozbawionych
+ niklu, ponieważ jego brak powodował zwiększoną śmiertelność okołoporodową
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Zambelli2013"
@@ -5052,20 +4298,10 @@ literal "true"
 
 .
  Chociaż nie znaleziono fizjologicznych obiektów molekularnych dla jonów
- niklu u
-\begin_inset space ~
-\end_inset
-
-ssaków i
-\begin_inset space ~
-\end_inset
-
-ludzi, szerokie wykorzystanie Ni(II) przez prokarionty sugeruje, że pierwiastek
- ten może być niezbędny dla symbiotycznej mikroflory jelitowej
-\begin_inset space ~
-\end_inset
-
-
+ niklu u ssaków i ludzi, szerokie wykorzystanie Ni(II) przez prokarionty
+ sugeruje, że pierwiastek ten może być niezbędny dla symbiotycznej mikroflory
+ jelitowej.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Zambelli2013"

@@ -35,7 +35,7 @@
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \paperfontsize default
@@ -289,7 +289,7 @@ glsresetall
 \end_layout
 
 \begin_layout Part
-Introduction
+Wstęp
 \end_layout
 
 \begin_layout Standard
@@ -372,7 +372,10 @@ filename "Goals.lyx"
 \end_layout
 
 \begin_layout Part
-Results And Discussion
+Rezultaty i
+\begin_inset space ~
+\end_inset
+dyskusja
 \end_layout
 
 \begin_layout Standard
@@ -449,7 +452,7 @@ filename "AgRad50.lyx"
 \end_layout
 
 \begin_layout Part
-Summary
+Podsumowanie
 \end_layout
 
 \begin_layout Standard
@@ -471,7 +474,7 @@ filename "Summary.lyx"
 
 \begin_layout Part
 \start_of_appendix
-Appendix
+Aneks
 \end_layout
 
 \begin_layout Standard
@@ -503,16 +506,6 @@ filename "Colophon.lyx"
 
 \begin_layout Standard
 \begin_inset Newpage cleardoublepage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Declaration.lyx"
-
 \end_inset
 
 

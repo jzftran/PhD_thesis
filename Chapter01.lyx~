@@ -12,7 +12,7 @@
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -70,7 +70,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -85,7 +85,13 @@
 \begin_body
 
 \begin_layout Chapter
-Proteins and cofactors 
+Białka i
+\begin_inset space ~
+\end_inset
+kofaktory
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:Proteins-and-cofactors"
@@ -96,20 +102,33 @@ name "chap:Proteins-and-cofactors"
 \end_layout
 
 \begin_layout Standard
-A significant portion of organic compounds synthesized by living organisms
- are biopolymers; proteins, lipids, nucleic acids, and other macromolecules
- (e.g., lignins, gums, melanins).
- Among these macromolecules, proteins fulfill key roles in almost every
- biological process (catalysis, transport, mechanical-structural functions,
- and others).
- This extraordinarily rich diversity of functions is achieved despite the
- fact that proteins are linear polymers built only of 20 types of canonical
- amino acids
+Znaczną część związków organicznych syntetyzowanych przez organizmy żywe
+ stanowią biopolimery; białka, lipidy, kwasy nukleinowe i
+\begin_inset space ~
+\end_inset
+inne makrocząsteczki
+ (np.
+ ligniny, gumy, melaniny).
+ Wśród tych makrocząsteczek, białka pełnią kluczowe role w
+\begin_inset space ~
+\end_inset
+niemal każdym
+ procesie biologicznym (kataliza, transport, funkcje mechaniczno-strukturalne
+ i
+\begin_inset space ~
+\end_inset
+inne).
+ Ta niezwykle bogata różnorodność funkcji jest osiągana pomimo faktu, że
+ białka są liniowymi polimerami zbudowanymi jedynie z
+\begin_inset space ~
+\end_inset
+20 rodzajów kanonicznych
+ aminokwasów.
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-Without taking into account 
+Bez uwzględnienia reszt 
 \begin_inset ERT
 status open
 
@@ -117,33 +136,28 @@ status open
 
 
 \backslash
-glspl{ptm}
+glslink{ptm}{modyfikowanych potranslacyjnie (PTM, ang.
+ post-translational modifications)}
 \end_layout
 
 \end_inset
 
- and amino acid residues that are inserted during the cotranslation process.
+ i
+\begin_inset space ~
+\end_inset
+aminokwasowych, które są przyłączane w
+\begin_inset space ~
+\end_inset
+procesie kotranslacji.
 \end_layout
 
 \end_inset
 
-, those canonical amino acids linked sequentially into a linear polymer
- are responsible for a staggering variety of folds, structures, and assemblies.
- This gorgeous diversity of protein structures allows proteins to fulfill
- an astonishing number of functions, however, not every chemical (or physical)
- process is possible to conduct with only 20 canonical amino acids.
- One way evolution 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-nie wiem czy nie antropomorfizuję zbytnio ewolucji tutaj
-\end_layout
-
+ Te kanoniczne aminokwasy połączone sekwencyjnie w
+\begin_inset space ~
 \end_inset
-
- has solved the problem of limited chemical groups that can facilitate important
- processes is the use of 
+liniowy polimer są odpowiedzi
+alne za oszałamiającą różnorodność 
 \begin_inset ERT
 status open
 
@@ -151,12 +165,25 @@ status open
 
 
 \backslash
-glspl{cofactor}
+glink{fold}{zwinięć (ang.
+ protein fold)}
 \end_layout
 
 \end_inset
 
- and 
+, struktur i
+\begin_inset space ~
+\end_inset
+złożeń.
+ Ta wspaniała różnorodność struktur białkowych pozwala im spełniać zadziwiającą
+ liczbę funkcji, jednakże nie każdy proces chemiczny (lub fizyczny) jest
+ możliwy do przeprowadzenia przy użyciu tylko 20 kanonicznych aminokwasów.
+ Jednym ze sposobów, w
+\begin_inset space ~
+\end_inset
+jaki sposób mechanizmy ewolucyjne doprowadziły do
+ rozwiązania problemu ograniczonej liczby grup chemicznych, które mogą ułatwić
+ ważne procesy, było użycie 
 \begin_inset ERT
 status open
 
@@ -164,14 +191,36 @@ status open
 
 
 \backslash
-glspl{coenzyme}
+glslink{cofactor}{kofaktorów}
+\end_layout
+
+\end_inset
+
+ i
+\begin_inset space ~
+\end_inset
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{coenzyme}{koenzymów}
 \end_layout
 
 \end_inset
 
 .
- Numerous publications state that roughly one-third of proteins interact
- with 
+\end_layout
+
+\begin_layout Standard
+Liczne publikacje podają, że mniej więcej jedna trzecia białek oddziałuje
+ z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -179,7 +228,7 @@ status open
 
 
 \backslash
-glspl{cofactor}
+glslink{cofactor}{kofaktorami}
 \end_layout
 
 \end_inset
@@ -189,8 +238,14 @@ glspl{cofactor}
 status collapsed
 
 \begin_layout Plain Layout
-My duty to the reader is to point out that the statement that one-third
- of proteins interact with 
+Moim obowiązkiem wobec czytelnika jest zwrócenie uwagi na to, że stwierdzenie,
+ iż jedna trzecia białek wchodzi w
+\begin_inset space ~
+\end_inset
+interakcje z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -198,54 +253,16 @@ status open
 
 
 \backslash
-glspl{cofactor}
+glslink{cofactor}{kofaktorami}
 \end_layout
 
 \end_inset
 
- is not very credible.
- This type of statement often appears in various papers discussing the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{cofactor}
-\end_layout
-
+ jest mało wiarygodne.
+ Tego typu stwierdzenia często pojawiają się w
+\begin_inset space ~
 \end_inset
-
-, yet one looks in vain for a reference to the literature or information
- on what organism these proteins are from, or how the analysis was done.
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Rosenzweig2002,Bushmarina2006,Cao2011,frontiersin"
-literal "true"
-
-\end_inset
-
-.
- The 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rcsb}
-\end_layout
-
-\end_inset
-
- queried for structures of enzymes return over 30% of enzymes that contain
+różnych pracach omawiających
  
 \begin_inset ERT
 status open
@@ -254,12 +271,34 @@ status open
 
 
 \backslash
-glspl{cofactor}
+glslink{cofactor}{kofaktory}
 \end_layout
 
 \end_inset
 
-, which points out that 
+, a
+\begin_inset space ~
+\end_inset
+mimo to na próżno szukać odniesienia do literatury lub informacji z
+\begin_inset space ~
+\end_inset
+ jakiego organizmu pochodzą te białka, czy też jak przeprowadzono analizę.
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rosenzweig2002,Bushmarina2006,Cao2011,RoleCofactorsProtein"
+literal "true"
+
+\end_inset
+
+.
+ 
 \begin_inset ERT
 status open
 
@@ -267,12 +306,47 @@ status open
 
 
 \backslash
-glspl{cofactor}
+Gls{rcsb}
 \end_layout
 
 \end_inset
 
- are essential for the functioning of a vast number of proteins 
+ zapytane o
+\begin_inset space ~
+\end_inset
+struktury enzymów zwraca ponad 30% enzymów, które zawierają
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{cofactor}{kofaktory}
+\end_layout
+
+\end_inset
+
+, co wskazuje na to, że 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{cofactor}{kofaktory}
+\end_layout
+
+\end_inset
+
+ są niezbędne do funkcjonowania ogromnej liczby enzymów i
+\begin_inset space ~
+\end_inset
+białek
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Mukhopadhyay2019"
@@ -281,16 +355,6 @@ literal "true"
 \end_inset
 
 .
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-coś o typie oddziaływania kofaktorów z białkami?
-\end_layout
-
-\end_inset
-
  
 \end_layout
 
@@ -302,12 +366,15 @@ status open
 
 
 \backslash
-Glspl{cofactor}
+glslink{cofactor}{Kofaktory}
 \end_layout
 
 \end_inset
 
-, contrary to the 
+, w
+\begin_inset space ~
+\end_inset
+przeciwieństwie do 
 \begin_inset ERT
 status open
 
@@ -315,14 +382,24 @@ status open
 
 
 \backslash
-glspl{pgroup}
+glslink{pgroup}{grup prostetycznych}
 \end_layout
 
 \end_inset
 
- are not bound covalently to proteins, but associate with proteins by means
- of other interactions, e.g., hydrogen bonds, Van der Waals forces, etc., thus
- to interact with 
+ nie są związane kowalencyjnie z
+\begin_inset space ~
+\end_inset
+białkami, ale wiążą się z
+\begin_inset space ~
+\end_inset
+białkami za pomocą
+ innych oddziaływań, np.
+ wiązań wodorowych, sił Van der Waalsa, wiązań akceptorowo-donorowym, itp.,
+ dlatego, aby oddziaływać z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -330,13 +407,19 @@ status open
 
 
 \backslash
-glspl{cofactor}
+glink{cofactor}{kofaktorem}
 \end_layout
 
 \end_inset
 
- proteins had to evolve to form sites that will attract and associate with
- 
+ białka musiały wyewoluować tak, aby utworzyć miejsca, które będą przyciągać
+ i
+\begin_inset space ~
+\end_inset
+wiązać się się z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -344,14 +427,23 @@ status open
 
 
 \backslash
-glspl{cofactor}
+glink{cofactor}{kofaktorem}
 \end_layout
 
 \end_inset
 
 .
- The residues (not the sequence!) that adopt particular conformation and
- arrangement in space, being able to accommodate a particular 
+ Reszty aminokwasowe (nie sekwencja!), które przyjmują określoną konformację
+ i
+\begin_inset space ~
+\end_inset
+układ w
+\begin_inset space ~
+\end_inset
+przestrzeni, będąc w
+\begin_inset space ~
+\end_inset
+stanie pomieścić określony 
 \begin_inset ERT
 status open
 
@@ -364,11 +456,17 @@ gls{cofactor}
 
 \end_inset
 
- are called collectively a binding site.
+, nazywane są zbiorczo miejscem wiążącym.
 \end_layout
 
 \begin_layout Standard
-Proteins are able to interact with organic, non-protein 
+Białka są w
+\begin_inset space ~
+\end_inset
+stanie oddziaływać z
+\begin_inset space ~
+\end_inset
+organicznym, niebiałkowym 
 \begin_inset ERT
 status open
 
@@ -376,12 +474,12 @@ status open
 
 
 \backslash
-glspl{cofactor}
+glslink{cofactor}{kofaktorem}
 \end_layout
 
 \end_inset
 
-, called 
+, zwanym 
 \begin_inset ERT
 status open
 
@@ -389,36 +487,13 @@ status open
 
 
 \backslash
-glspl{coenzyme}
+glslink{coenzyme}{koenzymem}
 \end_layout
 
-\end_inset
-
-, the inorganic molecules constituting 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{cofactor}
-\end_layout
-
-\end_inset
-
- are mostly metal ions.
- The residues that binding sites that interact with metal ions are called
- a 
-\begin_inset Quotes eld
-\end_inset
-
-metal binding sitea
-\begin_inset Quotes erd
 \end_inset
 
 .
- Among various 
+ Nieorganiczne cząsteczki stanowiące 
 \begin_inset ERT
 status open
 
@@ -426,13 +501,26 @@ status open
 
 
 \backslash
-glspl{cofactor}
+gls{cofactor}
 \end_layout
 
 \end_inset
 
-, the Zn(II) cation is one of the most commonly found in proteins.
- The 
+ to najczęściej jony metali.
+ Zgrupowanie reszt aminokwasowych, ułożonych odpowiednio w
+\begin_inset space ~
+\end_inset
+przestrzeni,
+ które wiążą jony metali, nazywane są 
+\begin_inset Quotes pld
+\end_inset
+
+miejscami wiążącymi metal
+\begin_inset Quotes prd
+\end_inset
+
+.
+ Spośród różnych 
 \begin_inset ERT
 status open
 
@@ -440,18 +528,58 @@ status open
 
 
 \backslash
-glspl{mprotein}
+glink{cofactor}{kofaktorów}
 \end_layout
 
 \end_inset
 
- interacting with Zn(II) are among the most diverse and widespread proteins
- found in nature.
- Genome sequencing projects have provided a great deal of information about
- the structure of primary information about the primary structure of proteins.
- The bioinformatic study of this information analyzed in terms of metal
- interaction suggests that about 10% of the human proteome may bind Zn(II)
- ions 
+ kation Zn(II) jest jednym z
+\begin_inset space ~
+\end_inset
+najczęściej występujących w
+\begin_inset space ~
+\end_inset
+białkach.
+ Białka oddziałujące z
+\begin_inset space ~
+\end_inset
+Zn(II) należą do najbardziej zróżnicowanych i
+\begin_inset space ~
+\end_inset
+rozpowszech
+nionych białek występujących w
+\begin_inset space ~
+\end_inset
+przyrodzie.
+ 
+\end_layout
+
+\begin_layout Standard
+Projekty sekwencjonowania genomów dostarczyły ogromnej ilości informacji
+ o
+\begin_inset space ~
+\end_inset
+strukturze pierwotnej białek.
+ Bioinformatyczna analiza tych informacji przeprowadzona pod kątem interakcji
+ z
+\begin_inset space ~
+\end_inset
+metalami sugeruje, że około 10% ludzkiego 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glslink{proteome}{proteomu}
+\end_layout
+
+\end_inset
+
+ wiąże lub może wiązać jony Zn(II)
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Andreini2006,Andreini2006a,Andreini2009"
@@ -460,8 +588,8 @@ literal "true"
 \end_inset
 
 .
- What is worth noting is the fact, that those predictions (based solely
- on the protein sequence) do not take into account the fact that the 
+ Na uwagę zasługuje fakt, że te przewidywania (oparte wyłącznie na sekwencji
+ białka) nie uwzględniają faktu, że 
 \begin_inset ERT
 status open
 
@@ -474,31 +602,38 @@ gls{L}
 
 \end_inset
 
- may be bound by two or more macromolecules.
- This minuscule comment spans a variety of other, challenging questions
- — 
-\begin_inset Quotes eld
+ może być związany przez dwie lub więcej makrocząsteczek.
+ W
+\begin_inset space ~
+\end_inset
+tej drobnej uwadze kryje się wiele innych, trudnych pytań—
+\begin_inset Quotes prd
 \end_inset
 
-How often this intermolecular metal binding is occurring?
-\begin_inset Quotes erd
+Jak często dochodzi do takiego międzycząsteczkowego wiązania metali?
+\begin_inset Quotes prd
 \end_inset
 
 , 
-\begin_inset Quotes eld
+\begin_inset Quotes pld
 \end_inset
 
-What are the properties of such sites and the binding proteins?
-\begin_inset Quotes erd
+Jakie są właściwości takich miejsc i
+\begin_inset space ~
+\end_inset
+białek wiążących?
+\begin_inset Quotes prd
 \end_inset
 
- and many others.
+ i
+\begin_inset space ~
+\end_inset
+inne.
  
 \end_layout
 
 \begin_layout Standard
-This PhD project was dedicated to the analysis of proteins binding metal
- ions in 
+Niniejszy projekt doktorski poświęcony był analizie 
 \begin_inset ERT
 status open
 
@@ -506,22 +641,53 @@ status open
 
 
 \backslash
-gls{ppi}
+glink{ppi}{interakcji białko--białko (PPI, ang.
+ protein--protein interaction)}
+\end_layout
+
+\end_inset
+
+, w
+\begin_inset space ~
+\end_inset
+których jony metalu odgrywają kluczową funkcję—
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{mppi}{interakcji białko--białko z
+\begin_inset space ~
+\end_inset
+udziałem metalu (MPPI, ang.
+ metal-involved protein--protein interaction)}
 \end_layout
 
 \end_inset
 
 .
- The part of the project realized 
+ 
+\end_layout
+
+\begin_layout Standard
+Część projektu realizowana 
 \emph on
 in silico
 \emph default
- concerns the survey of all known proteins that bind metal ions in an intermolec
-ular fashion (including zinc ion), while 
+ dotyczy badania wszystkich znanych białek wiążących jony metali w
+\begin_inset space ~
+\end_inset
+sposób
+ międzycząsteczkowy (w tym jon cynku), natomiast badania 
 \emph on
 ex silico
 \emph default
- studies regard the interaction of metal ions with 
+ dotyczą oddziaływań jonów metali z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -529,12 +695,15 @@ status open
 
 
 \backslash
-glsfirst{hs}
+glink{rad}{białkiem naprawy DNA Rad50 (Rad50)}
 \end_layout
 
 \end_inset
 
- 
+ pochodzącym z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -542,12 +711,31 @@ status open
 
 
 \backslash
-gls{rad}
+gls{hs}
 \end_layout
 
 \end_inset
 
- (See: 
+ i
+\begin_inset space ~
+\end_inset
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+ (zob.
+
+\begin_inset space ~
+\end_inset
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -570,16 +758,24 @@ noprefix "false"
 \end_layout
 
 \begin_layout Section
-Metal ions
+Jony metali
 \end_layout
 
 \begin_layout Subsection
-Alkali and alkaline earth metal ions
+Jony metali alkalicznych i
+\begin_inset space ~
+\end_inset
+ziem alkalicznych
 \end_layout
 
 \begin_layout Standard
-Approximately 1% of the human body weight are made up of alkali and alkaline
- earth metal ions 
+Około 1% masy ciała człowieka stanowią jony metali alkalicznych i
+\begin_inset space ~
+\end_inset
+ziem alkaliczn
+ych
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Stephanos2014"
@@ -588,13 +784,63 @@ literal "true"
 \end_inset
 
 .
- The role of alkali and alkaline earth metal ions in organisms is diverse,
- sodium and potassium ions occur in all known organisms, and generally,
- those ions function as electrolytes.
- Calcium ions are known to function as messengers – used by living organisms
- to communicate and orchestrate intracellular processes.
- Magnesium ions are the most abundant divalent cations in the cell, the
- majority of it bound to 
+ Rola jonów metali alkalicznych i
+\begin_inset space ~
+\end_inset
+ziem alkalicznych w
+\begin_inset space ~
+\end_inset
+organizmach jest zróżnicow
+ana, jony sodu (Na(I)) i
+\begin_inset space ~
+\end_inset
+potasu (K(I)) występują we wszystkich znanych organizma
+ch i
+\begin_inset space ~
+\end_inset
+generalnie jony te funkcjonują jako elektrolity.
+ Jony wapnia (Ca(II)) są znane jako 
+\begin_inset Quotes pld
+\end_inset
+
+posłańcy
+\begin_inset Quotes prd
+\end_inset
+
+—używane przez żywe organizmy do komunikacji, przekazywania sygnału i
+\begin_inset space ~
+\end_inset
+organizacj
+i
+\begin_inset space ~
+\end_inset
+procesów wewnątrzkomórkowych.
+ Jony magnezu (Mg(II)) są najobficiej występującymi kationami dwuwartościowymi
+ w
+\begin_inset space ~
+\end_inset
+komórce, większość z
+\begin_inset space ~
+\end_inset
+nich jest związana z
+\begin_inset space ~
+\end_inset
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{atp}{adenozyno-5$
+\backslash
+prime$-trifosforanem (ATP)}
+\end_layout
+
+\end_inset
+
+, co jest niezbędne do wykorzystania 
 \begin_inset ERT
 status open
 
@@ -607,20 +853,13 @@ gls{atp}
 
 \end_inset
 
-, which is essential to utilize 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{atp}
-\end_layout
-
+ w
+\begin_inset space ~
 \end_inset
+komórkach.
 
- 
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Schwartz2014"
@@ -637,7 +876,13 @@ literal "true"
 status open
 
 \begin_layout Plain Layout
-jeszcze coś o takim biologicznym aspekcie, co to robi w organiźmie itd.
+jeszcze coś o
+\begin_inset space ~
+\end_inset
+takim biologicznym aspekcie, co to robi w
+\begin_inset space ~
+\end_inset
+organizmie itd.
 \end_layout
 
 \end_inset
@@ -646,8 +891,17 @@ jeszcze coś o takim biologicznym aspekcie, co to robi w organiźmie itd.
 \end_layout
 
 \begin_layout Standard
-In proteins both alkali and alkaline earth metal ions commonly play a structural
- role in the stabilization of the 
+W
+\begin_inset space ~
+\end_inset
+białkach zarówno jony metali alkalicznych, jak i
+\begin_inset space ~
+\end_inset
+ziem alkalicznych powszechnie
+ odgrywają rolę strukturalną w
+\begin_inset space ~
+\end_inset
+stabilizacji 
 \begin_inset ERT
 status open
 
@@ -655,13 +909,18 @@ status open
 
 
 \backslash
-gls{fold}
+glslink{fold}{zwinięcia białka}
 \end_layout
 
 \end_inset
 
-, however, those metals can play a catalytic role as well (e.g.
- Mg(II) in T4 ligase 
+, jednak metale te mogą pełnić również rolę katalityczną (np.
+ Mg(II) w
+\begin_inset space ~
+\end_inset
+ligazie T4
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Cherepanov2002"
@@ -670,8 +929,23 @@ literal "true"
 \end_inset
 
 ).
- Alkali and alkaline-earth compensate charge of highly acidic regions in
- macromolecules, e.g., polyphosphate backbone in nucleic acids 
+ Jony metali alkalicznych i
+\begin_inset space ~
+\end_inset
+ziem alkalicznych wyrównują ładunek wysoce negatywni
+e
+\begin_inset space ~
+\end_inset
+naładowanych obszarów w
+\begin_inset space ~
+\end_inset
+makrocząsteczkach, np.
+ szkielecie polifosforanowym w
+\begin_inset space ~
+\end_inset
+kwasach nukleinowych
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Owczarzy2004,Zheng2015,Varnai2004"
@@ -680,46 +954,48 @@ literal "true"
 \end_inset
 
 .
- Despite the fact that the biology of alkali and alkaline earth metals is
- quite well understood, it still hides some of the secrets, for instance,
- the biological effects (as well as some of the side effects) of lithium
- are known; lithium carbonate is widely used to treat some of the mood disorders
-, however, the biological targets of Li(I) ions in the organisms are not
- known yet.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-nwm czy tu trzeba cytacji
-\end_layout
-
+ Pomimo tego, że biologia metali alkalicznych i
+\begin_inset space ~
 \end_inset
-
-
+metali ziem alkalicznych
+ jest dość dobrze poznana, nadal skrywa pewne tajemnice, np.
+ znane są efekty biologiczne (a także niektóre działania niepożądane) litu—węgla
+n
+\begin_inset space ~
+\end_inset
+litu jest szeroko stosowany w
+\begin_inset space ~
+\end_inset
+leczeniu niektórych zaburzeń nastroju, jednak
+ cele biologiczne jonów Li(I) w
+\begin_inset space ~
+\end_inset
+organizmach nie są jeszcze znane.
 \end_layout
 
 \begin_layout Standard
-The alkali metals have a single 
+Metale alkaliczne mają pojedynczy elektron 
 \emph on
 s
-\emph default
- electron, and the alkaline earth metal ions have a filled outer 
-\emph on
-s-
-\emph default
-orbital (by two electrons).
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-nwm czy poprawnie zapisany s oribal
-\end_layout
-
+\begin_inset space ~
 \end_inset
-
- Both groups of metals are highly electropositive and reluctantly polarizable
- 
+\emph default
+, a
+\begin_inset space ~
+\end_inset
+jony metali ziem alkalicznych mają wypełniony zewnętrzny orbital 
+\emph on
+s
+\begin_inset space ~
+\end_inset
+\emph default
+ (przez dwa elektrony).
+ Obie grupy metali są silnie elektroujemne i
+\begin_inset space ~
+\end_inset
+niechętnie polaryzowalne
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Stephanos2014"
@@ -728,9 +1004,18 @@ literal "true"
 \end_inset
 
 .
- Due to the low polarizability alkali and alkaline earth metal ions are
- considered to be a hard Lewis acid.
- In accordance with Ralph Pearson's 
+ Ze względu na niską polaryzowalność jony metali alkalicznych i
+\begin_inset space ~
+\end_inset
+ziem alkalicznyc
+h
+\begin_inset space ~
+\end_inset
+zaliczane są do twardych kwasów Lewisa.
+ Zgodnie z
+\begin_inset space ~
+\end_inset
+konceptem 
 \begin_inset ERT
 status open
 
@@ -738,13 +1023,25 @@ status open
 
 
 \backslash
-gls{hsab}
+glink{hsab}{twardych i
+\begin_inset space ~
+\end_inset
+miekkich kwasów i
+\begin_inset space ~
+\end_inset
+zasad (HSAB, ang.
+ Hard and Soft Acid and Bases)}
 \end_layout
 
 \end_inset
 
- concept, hard Lewis acids should react more willingly with hard Lewis bases
- 
+ Ralpha Pearsona twarde kwasy Lewisa powinny chętniej oddziaływać z
+\begin_inset space ~
+\end_inset
+twardymi
+ zasadami Lewisa
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Pearson1963"
@@ -753,7 +1050,7 @@ literal "true"
 \end_inset
 
 .
- This behavior is easily confirmed by observation of the 
+ Zachowanie to można łatwo potwierdzić obserwując 
 \begin_inset ERT
 status open
 
@@ -761,16 +1058,35 @@ status open
 
 
 \backslash
-glspl{L}
+glink{L}{ligandy}
 \end_layout
 
 \end_inset
 
- that complex those metals, i.e.
- coordination sphere of those metal ions is usually consisting of hard Lewis
- acids (in proteins, by oxygen-containing acidic amino acids).
- Usually alkali and alkaline-earth metal ions are coordinated by macromolecules
- with six-coordinated octahedral geometry 
+ kompleksujące te metale, tzn.
+ sfera koordynacyjna jonów tych metali składa się zwykle z
+\begin_inset space ~
+\end_inset
+twardych kwasów
+ Lewisa (w białkach, donorów grup bocznych aminokwasów kwasowych lub donorów
+ tlenowych i
+\begin_inset space ~
+\end_inset
+azotowych wchodzących w
+\begin_inset space ~
+\end_inset
+skład wiązania peptydowego).
+ Zazwyczaj jony metali alkalicznych i
+\begin_inset space ~
+\end_inset
+ziem alkalicznych są koordynowane
+ przez makrocząsteczki o
+\begin_inset space ~
+\end_inset
+sześcio-koordynacyjnej geometrii oktaedrycznej
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kuppuraj2009"
@@ -778,8 +1094,12 @@ literal "true"
 
 \end_inset
 
-, however more than six donor atoms are sometimes found in the alkali or
- alkali-earth metal binding sites – mostly due to the bidentate 
+, jednak w
+\begin_inset space ~
+\end_inset
+miejscach wiązania metali alkalicznych lub ziem alkalicznych
+ występuje niekiedy więcej niż sześć atomów donorowych—głównie za sprawą
+ bidentnych 
 \begin_inset ERT
 status open
 
@@ -787,12 +1107,14 @@ status open
 
 
 \backslash
-glsdescplural{L}
+glink{L}{ligandów}
 \end_layout
 
 \end_inset
 
- 
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Zheng2008"
@@ -805,7 +1127,7 @@ literal "true"
 status open
 
 \begin_layout Plain Layout
-moze przydałoby się tu wymienić co robią te pierwiastki?
+możne przydałoby się tu wymienić co robią te pierwiastki?
 \end_layout
 
 \end_inset
@@ -814,10 +1136,7 @@ moze przydałoby się tu wymienić co robią te pierwiastki?
 \end_layout
 
 \begin_layout Subsection
-Transition metal ions 
-\end_layout
-
-\begin_layout Standard
+Jony metali przejściowych 
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Transition-metal-ions"
@@ -828,50 +1147,85 @@ name "subsec:Transition-metal-ions"
 \end_layout
 
 \begin_layout Standard
-Transition metals are defined as elements that have partially filled 
-\emph on
-d 
-\emph default
-orbital.
- Transition metals due to the fact that 
+Metale przejściowe definiuje się jako pierwiastki, które mają częściowo
+ wypełniony orbital 
 \emph on
 d
-\emph default
- orbitals are quite close in energy levels (degenerated), can form compounds
- with a wide range of oxidation states, some of those states are quite stable.
- The elements across the 
-\emph on
-d 
-\emph default
-block tend to be more polarizable.
- Those two properties make the use of transition metals useful in catalysis,
- thus there is no wonder why evolution has utilized so widely transition
- metals in enzymes.
- The first property is used when there is need for switching the oxidation
- state of the enzyme's substrate.
- In such enzyme, the metal ion can cycle between oxidation states and play
- a role as an acceptor or donor of electrons (depending on the catalyzed
- reaction).
- The second property allow metal ions to function in the catalytic sites
- without changing the oxidation state.
- Such metal cations play a role of a Lewis acid, accepting pairs of electrons,
- e.g., like Zn(II) in catalytic site of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{ca2}
-\end_layout
-
+\begin_inset space ~
 \end_inset
-
- 
+\emph default
+.
+ Metale przejściowe dzięki temu, że orbitale 
+\emph on
+d
+\begin_inset space ~
+\end_inset
+\emph default
+ są dość blisko siebie na poziomach energetycznych (zdegenerowane), mogą
+ tworzyć związki o
+\begin_inset space ~
+\end_inset
+szerokim zakresie stanów utlenienia, a
+\begin_inset space ~
+\end_inset
+niektóre z
+\begin_inset space ~
+\end_inset
+tych
+ stanów są dość stabilne.
+ Pierwiastki po prawej stronie bloku 
+\emph on
+d
+\begin_inset space ~
+\end_inset
+\emph default
+ mają tendencję do większej polaryzacji.
+ Te dwie cechy sprawiają, że zastosowanie metali przejściowych jest przydatne
+ w
+\begin_inset space ~
+\end_inset
+katalizie, i
+\begin_inset space ~
+\end_inset
+nie ma więc nic dziwnego w
+\begin_inset space ~
+\end_inset
+tym, że mechanizmy ewolucyjne
+ tak szeroko wykorzystały metale przejściowe w
+\begin_inset space ~
+\end_inset
+enzymach.
+ Pierwsza właściwość jest wykorzystywana, gdy zachodzi potrzeba zmiany stanu
+ utlenienia substratu enzymu.
+ W
+\begin_inset space ~
+\end_inset
+takim enzymie jon metalu może cyklicznie przechodzić pomiędzy stanami
+ utlenienia i
+\begin_inset space ~
+\end_inset
+pełnić rolę akceptora lub donora elektronów (w zależności
+ od katalizowanej reakcji).
+ Druga właściwość pozwala jonom metalu funkcjonować w
+\begin_inset space ~
+\end_inset
+miejscach katalitycznych
+ bez zmiany stanu utlenienia.
+ Takie kationy metali pełnią rolę kwasu Lewisa, akceptując pary elektronów,
+ np.
+ jak Mn(II) w
+\begin_inset space ~
+\end_inset
+miejscu katalitycznym dehydrogenazy jabłczanowej (dekarboksylujące
+j
+\begin_inset space ~
+\end_inset
+szczawiooctan)
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Krishnamurthy2008"
+key "taoCrystalStructuresSubstrate2003"
 literal "true"
 
 \end_inset
@@ -881,7 +1235,10 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-In the presence of 
+W
+\begin_inset space ~
+\end_inset
+obecności 
 \begin_inset ERT
 status open
 
@@ -889,27 +1246,43 @@ status open
 
 
 \backslash
-glsdescplural{L}
+glink{L}{ligandów}
 \end_layout
 
 \end_inset
 
- the orbitals of the transition metal ions break of degeneracy, this causes
- a variety of physio-chemical effects (i.e., the property of having a color),
- but also exerts a particular geometry of the complex.
- Unsurprisingly proteins have evolved to accommodate a various geometries
- of the metal ions – the metal binding sites have to match the geometry
- of the particular metal ion to bind it.
+ orbitale jonów metali przejściowych łamią pierwotną degenerację, to powoduje
+ różne efekty fizykochemiczne (np.
+ właściwość posiadania koloru), ale również wywiera szczególną geometrię
+ kompleksu.
+ Nie dziwi więc fakt, że białka ewoluowały, aby dostosować się do tych różnych
+ geometrii jonów metali—miejsca wiązania metali muszą odpowiadać geometrii
+ danego jonu metalu, aby go związać.
 \end_layout
 
 \begin_layout Standard
-Out of ten first-row transition metals, five of them are essential to human
- health – manganese, iron, cobalt, copper and zinc (not being a transition
- metal 
+Z
+\begin_inset space ~
+\end_inset
+dziesięciu pierwszorzędowych metali przejściowych, pięć z
+\begin_inset space ~
+\end_inset
+nich jest niezbędnyc
+h
+\begin_inset space ~
+\end_inset
+dla zdrowia człowieka—mangan, żelazo, kobalt, miedź i
+\begin_inset space ~
+\end_inset
+cynk (nie będący
+ metalem przejściowym 
 \emph on
-per se,
+per se
 \emph default
- discussed in 
+, zob.
+
+\begin_inset space ~
+\end_inset
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -929,8 +1302,8 @@ noprefix "false"
 \end_inset
 
 ).
- The essentiality of those elements is nonnegotiable, as those elements
- are 
+ Istotność tych elementów nie podlega dyskusji, gdyż elementy te pełnią
+ rolę 
 \begin_inset ERT
 status open
 
@@ -938,12 +1311,12 @@ status open
 
 
 \backslash
-glspl{cofactor}
+glink{cofactor}{kofaktorów}
 \end_layout
 
 \end_inset
 
- or build some of the 
+ lub budują niektóre 
 \begin_inset ERT
 status open
 
@@ -951,17 +1324,17 @@ status open
 
 
 \backslash
-glspl{coenzyme}
+glink{coenzyme}{koenzymy}
 \end_layout
 
 \end_inset
 
- of biologically important proteins or enzymes.
+ biologicznie ważnych białek lub enzymów.
  
 \end_layout
 
 \begin_layout Standard
-Manganese is present as a 
+Mangan jest obecny jako 
 \begin_inset ERT
 status open
 
@@ -969,14 +1342,24 @@ status open
 
 
 \backslash
-gls{cofactor}
+glink{cofactor}{kofaktor}
 \end_layout
 
 \end_inset
 
- in several enzymes, which maintain the metabolism, for examples in the
- human bran manganese-dependent glutamine synthetase is responsible for
- glutamine synthesis in astrocytes 
+ w
+\begin_inset space ~
+\end_inset
+kilku znanych enzymach, na przykład w
+\begin_inset space ~
+\end_inset
+ludzkim mózgu manganozależna syntetaza
+ glutaminy jest odpowiedzialna za syntezę glutaminy w
+\begin_inset space ~
+\end_inset
+astrocytach
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Takeda2003"
@@ -989,10 +1372,16 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Iron accounts for 0.05‰ of human body weight.
- Hemoglobin is a flagship protein that realizes the necessity of iron in
- human diet.
- Iron in 
+Żelazo stanowi 0,05‰ masy ciała człowieka.
+ Hemoglobina jest sztandarowym białkiem, które pokazuje konieczność obecności
+ żelaza w
+\begin_inset space ~
+\end_inset
+diecie człowieka.
+ Żelazo w
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1000,12 +1389,12 @@ status open
 
 
 \backslash
-glspl{mprotein}
+glink{mprotein}{metalobiałkach}
 \end_layout
 
 \end_inset
 
- is often bound as a 
+ często jest związane jako hem, jednakże istnieją również 
 \begin_inset ERT
 status open
 
@@ -1013,12 +1402,15 @@ status open
 
 
 \backslash
-gls{pgroup}
+glink{mprotein}{metalobiałka}
 \end_layout
 
 \end_inset
 
- – heme, however, 
+, w
+\begin_inset space ~
+\end_inset
+których jony żelaza pełnią rolę 
 \begin_inset ERT
 status open
 
@@ -1026,29 +1418,19 @@ status open
 
 
 \backslash
-glspl{mprotein}
+glink{cofactor}{kofaktora}
 \end_layout
 
 \end_inset
 
- where iron ions act as a 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{cofactor}
-\end_layout
-
-\end_inset
-
- exists as well, e.g., ferritin or rubredoxin.
+, np.
+ ferrytyna czy rubredoksyna.
 \end_layout
 
 \begin_layout Standard
-Cobalt is an essential part of vitamin B
+Kobalt jest niezbędnym składnikiem witaminy B
+\begin_inset space ~
+\end_inset
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -1057,7 +1439,7 @@ Cobalt is an essential part of vitamin B
 
 \end_inset
 
-, which is used as a coenzyme in 
+, która jest wykorzystywana jako 
 \begin_inset ERT
 status open
 
@@ -1065,14 +1447,44 @@ status open
 
 
 \backslash
-gls{dna}
+glink{coenzyme}{koenzym}
 \end_layout
 
 \end_inset
 
- synthesis, amino acid, and fatty acids metabolism.
- Similarly to iron, cobalt does not have to be only bound to corrin derivatives
- or vitamin B
+ w
+\begin_inset space ~
+\end_inset
+syntezie 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{dna}{kwasu dezoksyrybonukleinowego (DNA)}
+\end_layout
+
+\end_inset
+
+, metabolizmie aminokwasów i
+\begin_inset space ~
+\end_inset
+kwasów tłuszczowych.
+ Podobnie jak w
+\begin_inset space ~
+\end_inset
+przypadku żelaza, kobalt nie musi być tylko związany z
+\begin_inset space ~
+\end_inset
+pochodnym
+i
+\begin_inset space ~
+\end_inset
+korryny lub witaminą B
+\begin_inset space ~
+\end_inset
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -1081,66 +1493,9 @@ gls{dna}
 
 \end_inset
 
-, but can be utilized by some proteins as a 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{coenzyme}
-\end_layout
-
-\end_inset
-
- directly (e.g., methionine aminopeptidase 2).
-\end_layout
-
-\begin_layout Standard
-Copper 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{mprotein}
-\end_layout
-
-\end_inset
-
- play essential roles in electron transport and oxygen metabolism.
- Copper is essential for aerobic respiration in eukaryotes, as it is found
- as a 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{coenzyme}
-\end_layout
-
-\end_inset
-
- of cytochrome c oxidase, where it serves the function of electron transporter.
- Copper is also a coenzyme of copper-zinc 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{sod}
-\end_layout
-
-\end_inset
-
-, an enzyme that catalyzes the reaction of the disproportionation of superoxides.
+, ale może być wykorzystywany przez niektóre białka jako koenzym bezpośrednio
+ (np.
+ aminopeptydaza metioniny 2).
 \end_layout
 
 \begin_layout Standard
@@ -1151,12 +1506,52 @@ status open
 
 
 \backslash
-enlargethispage{2cm}
+glink{mprotein}{Metalobiałka}
 \end_layout
 
 \end_inset
 
+ miedziowe odgrywają zasadnicze role w
+\begin_inset space ~
+\end_inset
+transporcie elektronów i
+\begin_inset space ~
+\end_inset
+metabolizmie
+ tlenu.
+ Miedź jest niezbędna do oddychania tlenowego u
+\begin_inset space ~
+\end_inset
+eukariontów, gdyż występuje
+ jako 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+glink{coenzyme}{koenzym}
+\end_layout
+
+\end_inset
+
+ oksydazy cytochromu c, gdzie pełni funkcję transportera elektronów.
+ Miedź jest również koenzymem 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{sod}{dysmutazy ponadtlenkowej (SOD, ang.
+ Superoxide Dismutase)}
+\end_layout
+
+\end_inset
+
+ miedziowo-cynkowej—enzymu katalizującego reakcję dysproporcjonowania nadtlenków.
 \end_layout
 
 \begin_layout Standard
@@ -1169,12 +1564,13 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Simplified version of the Periodic Table of the Elements indicating biologically
- relevant metals.
- With green color essential for life metals were marked.
- Yellow color marks the elements that are essential for some species.
- Chromium is marked in orange color as the essentiality for life of this
- element is questionable.
+Uproszczona wersja Układu Okresowego Pierwiastków wskazująca na metale istotne
+ biologicznie.
+ Kolorem zielonym zaznaczono metale niezbędne dla życia.
+ Kolorem żółtym zaznaczono pierwiastki, które są niezbędne dla niektórych
+ gatunków.
+ Chrom zaznaczono kolorem pomarańczowym, gdyż niezbędność tego pierwiastka
+ dla życia jest wątpliwa.
 \end_layout
 
 \end_inset
@@ -1378,7 +1774,7 @@ rotatebox{90}},
 
 \begin_layout Plain Layout
 
-       &   & Group &    &    &    &    &    &    &    &    &    &    & 
+       &   & Grupa &    &    &    &    &    &    &    &    &    &    & 
    &    &    &    &    &    &    &    
 \backslash
 
@@ -1398,8 +1794,11 @@ rotatebox{90}},
 
 \begin_layout Plain Layout
 
-Period & 1 & H     &    &    &    &    &    &    &    &    &    &    & 
-   &    &    &    &    &    &    & He 
+Okres & 1 & H
+\begin_inset space ~
+\end_inset
+    &    &    &    &    &    &    &    &    &    &    &  
+  &    &    &    &    &    &    & He 
 \backslash
 
 \backslash
@@ -1409,7 +1808,22 @@ Period & 1 & H     &    &    &    &    &    &    &    &    &    &    &
 \begin_layout Plain Layout
 
        & 2 & Li    & Be &    &    &    &    &    &    &    &    &    & 
-   &    & B  & C  & N  & O  & F  & Ne 
+   &    & B
+\begin_inset space ~
+\end_inset
+ & C
+\begin_inset space ~
+\end_inset
+ & N
+\begin_inset space ~
+\end_inset
+ & O
+\begin_inset space ~
+\end_inset
+ & F
+\begin_inset space ~
+\end_inset
+ & Ne 
 \backslash
 
 \backslash
@@ -1419,7 +1833,13 @@ Period & 1 & H     &    &    &    &    &    &    &    &    &    &    &
 \begin_layout Plain Layout
 
        & 3 & Na    & Mg &    &    &    &    &    &    &    &    &    & 
-   &    & Al & Si & P  & S  & Cl & Ar 
+   &    & Al & Si & P
+\begin_inset space ~
+\end_inset
+ & S
+\begin_inset space ~
+\end_inset
+ & Cl & Ar 
 \backslash
 
 \backslash
@@ -1428,7 +1848,13 @@ Period & 1 & H     &    &    &    &    &    &    &    &    &    &    &
 
 \begin_layout Plain Layout
 
-       & 4 & K     & Ca &    & Sc & Ti & V  & Cr & Mn & Fe & Co & Ni & Cu
+       & 4 & K
+\begin_inset space ~
+\end_inset
+    & Ca &    & Sc & Ti & V
+\begin_inset space ~
+\end_inset
+ & Cr & Mn & Fe & Co & Ni & Cu
  & Zn & Ga & Ge & As & Se & Br & Kr 
 \backslash
 
@@ -1438,8 +1864,14 @@ Period & 1 & H     &    &    &    &    &    &    &    &    &    &    &
 
 \begin_layout Plain Layout
 
-       & 5 & Rb    & Sr &    & Y  & Zr & Nb & Mo & Tc & Ru & Rh & Pd & Ag
- & Cd & In & Sn & Sb & Te & I  & Xe 
+       & 5 & Rb    & Sr &    & Y
+\begin_inset space ~
+\end_inset
+ & Zr & Nb & Mo & Tc & Ru & Rh & Pd & Ag
+ & Cd & In & Sn & Sb & Te & I
+\begin_inset space ~
+\end_inset
+ & Xe 
 \backslash
 
 \backslash
@@ -1448,7 +1880,10 @@ Period & 1 & H     &    &    &    &    &    &    &    &    &    &    &
 
 \begin_layout Plain Layout
 
-       & 6 & Cs    & Ba & *  & Lu & Hf & Ta & W  & Re & Os & Ir & Pt & Au
+       & 6 & Cs    & Ba & *  & Lu & Hf & Ta & W
+\begin_inset space ~
+\end_inset
+ & Re & Os & Ir & Pt & Au
  & Hg & Tl & Pb & Bi & Po & At & Rn 
 \backslash
 
@@ -1488,7 +1923,10 @@ Period & 1 & H     &    &    &    &    &    &    &    &    &    &    &
 
 \begin_layout Plain Layout
 
-       &   &       &    & ** & Ac & Th & Pa & U  & Np & Pu & Am & Cm & Bk
+       &   &       &    & ** & Ac & Th & Pa & U
+\begin_inset space ~
+\end_inset
+ & Np & Pu & Am & Cm & Bk
  & Cf & Es & Fm & Md & No &    &    
 \end_layout
 
@@ -1998,6 +2436,8 @@ Period
 
 \size tiny
 H
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2316,6 +2756,8 @@ Be
 
 \size tiny
 B
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2327,6 +2769,8 @@ B
 
 \size tiny
 C
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2338,6 +2782,8 @@ C
 
 \size tiny
 N
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2349,6 +2795,8 @@ N
 
 \size tiny
 O
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2360,6 +2808,8 @@ O
 
 \size tiny
 F
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2547,6 +2997,8 @@ Si
 
 \size tiny
 P
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2558,6 +3010,8 @@ P
 
 \size tiny
 S
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2613,6 +3067,8 @@ Ar
 
 \size tiny
 K
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2666,6 +3122,8 @@ Ti
 
 \size tiny
 V
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -2873,6 +3331,8 @@ Sr
 
 \size tiny
 Y
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -3027,6 +3487,8 @@ Te
 
 \size tiny
 I
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -3137,6 +3599,8 @@ Ta
 
 \size tiny
 W
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -4005,6 +4469,8 @@ Pa
 
 \size tiny
 U
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -4153,30 +4619,70 @@ No
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+enlargethispage{2cm}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Additionally, to the five first-row essential 
-\emph on
-d
-\emph default
--block elements, three more first-row 
-\emph on
-d
-\emph default
--block elements – chromium, vanadium, and nickel – show some biological
- effects, however, the essentiality and need for supplementation of those
- elements is debatable.
+Dodatkowo, oprócz pięciu pierwszorzędowych pierwiastków niezbędnych bloku
  
+\emph on
+d
+\begin_inset space ~
+\end_inset
+\emph default
+, trzy kolejne pierwiastki pierwszorzędowe 
+\emph on
+d
+\begin_inset space ~
+\end_inset
+\emph default
+-bloku—chrom, wanad i
+\begin_inset space ~
+\end_inset
+nikiel—wykazują pewne efekty biologiczne, jednak istotność
+ i
+\begin_inset space ~
+\end_inset
+potrzeba suplementacji tych pierwiastków jest dyskusyjna.
 \end_layout
 
 \begin_layout Standard
-Cr(III) is found in foods and dietary supplements, many of which are advertised
- to have a beneficial effect on glucose metabolism and regulation.
- This rationale is based on observations of patients receiving Cr(III)-free
- intravenous drip who developed symptoms similar to insulin-resistant diabetes.
- Symptoms were relieved after intravenous drip supplementation with a small
- amount of Cr(III) 
+Cr(III) występuje w
+\begin_inset space ~
+\end_inset
+żywności i
+\begin_inset space ~
+\end_inset
+suplementach diety, z
+\begin_inset space ~
+\end_inset
+których wiele jest
+ reklamowanych jako mające korzystny wpływ na metabolizm i
+\begin_inset space ~
+\end_inset
+regulację glukozy.
+ Uzasadnienie to opiera się na obserwacji pacjentów otrzymujących kroplówki
+ dożylne bez Cr(III), u
+\begin_inset space ~
+\end_inset
+których rozwinęły się objawy podobne do cukrzycy
+ insulinoopornej.
+ Objawy ustępowały po suplementacji kroplówki dożylnej niewielką ilością
+ Cr(III)
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Stehle2016"
@@ -4185,9 +4691,23 @@ literal "true"
 \end_inset
 
 .
- The efficacy of the supplementation of Cr(III) is characterized by evidence
- of low strength thus the rationale to recommend their use for glycemic
- control in patients with type 2 diabetes mellitus is precarious 
+ Skuteczność suplementacji Cr(III) charakteryzują dowody o
+\begin_inset space ~
+\end_inset
+niskiej jakości,
+ stąd uzasadnienie dla zalecania ich stosowania w
+\begin_inset space ~
+\end_inset
+celu kontroli glikemii
+ u
+\begin_inset space ~
+\end_inset
+pacjentów z
+\begin_inset space ~
+\end_inset
+cukrzycą typu drugiego jest niepewne
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Costello2016"
@@ -4196,8 +4716,13 @@ literal "true"
 \end_inset
 
 .
- In the United States of America, Cr(III) ions are considered an essential
- nutrient in humans 
+ W
+\begin_inset space ~
+\end_inset
+Stanach Zjednoczonych Ameryki jony Cr(III) są uznawane za niezbędny składnik
+ odżywczy dla ludzi
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "chromium_nih"
@@ -4205,8 +4730,14 @@ literal "true"
 
 \end_inset
 
-, the European Food Safety Authority does not share this opinion, arguing
- that the evidence supporting this assumption is insufficient 
+, natomiast panel
+\lang american
+ European Food Safety Authority
+\lang polish
+ nie podziela tej opinii, twierdząc, że dowody potwierdzające to założenie
+ są niewystarczające
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Panel2014"
@@ -4215,8 +4746,22 @@ literal "true"
 \end_inset
 
 .
- While the role of Cr(III) on the human body is uncertain, the toxicity
- and carcinogenic properties of Cr(VI) are known for a long time 
+ O
+\begin_inset space ~
+\end_inset
+ile rola Cr(III) w
+\begin_inset space ~
+\end_inset
+organizmie człowieka jest niepewna, o
+\begin_inset space ~
+\end_inset
+tyle toksyczność
+ i
+\begin_inset space ~
+\end_inset
+rakotwórcze właściwości Cr(VI) są znane od dawna
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Langard1975"
@@ -4229,8 +4774,16 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Vanadium seems to be more important for life in marine environments—the
- number of marine life forms like algae utilizes vanadium in enzymes 
+Wanad wydaje się być ważniejszy dla życia w
+\begin_inset space ~
+\end_inset
+środowisku morskim—liczba morskich
+ form życia, takich jak algi wykorzystuje wanad w
+\begin_inset space ~
+\end_inset
+enzymach
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Butler2004"
@@ -4239,10 +4792,22 @@ literal "true"
 \end_inset
 
 .
- Tunicates draw attention due to specialized blood cells types—vanadocytes,
- accumulating vanadium through vanadium interacting protein called vanabins,
- however, the role of those proteins and the vanadium in tunicates is still
- shrouded in mystery 
+ Osłonice przyciągają uwagę badaczy ze względu na wyspecjalizowane komórki
+ krwi—wanadocyty, gromadzące wanad za pośrednictwem białek oddziałujących
+ z
+\begin_inset space ~
+\end_inset
+wanadem, zwanych wanabinami, jednak rola tych białek i
+\begin_inset space ~
+\end_inset
+wanadu u
+\begin_inset space ~
+\end_inset
+osłonic
+ jest nadal owiana tajemnicą.
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Ueki2003"
@@ -4251,8 +4816,17 @@ literal "true"
 \end_inset
 
 .
- Vanadium-related issues for human health are similar to the case of chromium—va
-nadium complexes may exert some antidiabetic effects 
+ Zagadnienia związane z
+\begin_inset space ~
+\end_inset
+wanadem dla zdrowia człowieka są podobne jak w
+\begin_inset space ~
+\end_inset
+przypadku
+ związków chromu—związki wanadu mogą wywierać pewne działanie przeciwcukrzycowe
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sakurai2002"
@@ -4260,8 +4834,17 @@ literal "true"
 
 \end_inset
 
-, however a functional role for vanadium in mammals and humans is not defined
- yet, thus it is not recognized as an essential nutrient 
+, jednakże funkcjonalna rola wanadu u
+\begin_inset space ~
+\end_inset
+ssaków i
+\begin_inset space ~
+\end_inset
+ludzi nie została jeszcze
+ określona, dlatego też nie jest on uznawany za niezbędny składnik odżywczy
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Citation2001"
@@ -4274,14 +4857,43 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Nickel is essential to some bacteria, archaea, fungi, and plants, where
- usually nickel plays a role in enzymatic processes, e.g., urease, a nickel
- enzyme is considered a virulence factor in some pathogens.
- The essentiality of Ni(II) in mammals is still discussed, on the one hand,
- rats grown without nickel (or in low abundance) exhibit depressed growth,
- and several outside-the-norm biochemical and morphology results.
- Nickel seemed to be involved in the reproduction of nickel-deprived rats,
- as the lack of it resulted in an increased perinatal mortality rate 
+Nikiel jest niezbędny dla niektórych bakterii, archeonów, grzybów i
+\begin_inset space ~
+\end_inset
+roślin,
+ gdzie zazwyczaj odgrywa rolę w
+\begin_inset space ~
+\end_inset
+procesach enzymatycznych, np.
+ ureaza—enzym niklowy, uważany za czynnik wirulencji u
+\begin_inset space ~
+\end_inset
+niektórych patogenów.
+ Istotność Ni(II) u
+\begin_inset space ~
+\end_inset
+ssaków jest nadal dyskutowana, z
+\begin_inset space ~
+\end_inset
+jednej strony szczury
+ hodowane bez niklu (lub w
+\begin_inset space ~
+\end_inset
+niskich ilościach) wykazują obniżony wzrost i
+\begin_inset space ~
+\end_inset
+ kilka poza normalnych wyników biochemicznych i
+\begin_inset space ~
+\end_inset
+morfologicznych.
+ Nikiel wydawał się być zaangażowany w
+\begin_inset space ~
+\end_inset
+reprodukcję szczurów pozbawionych
+ niklu, ponieważ jego brak powodował zwiększoną śmiertelność okołoporodową
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Zambelli2013"
@@ -4290,9 +4902,19 @@ literal "true"
 \end_inset
 
 .
- Though no physiological nickel targets in mammals and humans have been
- found, the vast usage of Ni(II) by prokaryotes suggests that the element
- might be essential for the symbiotic gut microbiota 
+ Chociaż nie znaleziono fizjologicznych obiektów molekularnych dla jonów
+ niklu u
+\begin_inset space ~
+\end_inset
+ssaków i
+\begin_inset space ~
+\end_inset
+ludzi, szerokie wykorzystanie Ni(II) przez prokarionty
+ sugeruje, że pierwiastek ten może być niezbędny dla symbiotycznej mikroflory
+ jelitowej.
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Zambelli2013"

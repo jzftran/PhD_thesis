@@ -25,16 +25,16 @@ Hg_toxicity_query = 'https://pubmed.ncbi.nlm.nih.gov/?term="mercury+toxicity"'
 ag = pubs_by_year(Ag_toxicity_query)
 hg = pubs_by_year(Hg_toxicity_query)
 #%%
-ag = pd.DataFrame(ag).rename({'counts':'Search query: "silver toxicity"'},axis=1)
-hg = pd.DataFrame(hg).rename({'counts':'Search query: "mercury toxicity"'},axis=1)
+ag = pd.DataFrame(ag).rename({'counts':'Zapytanie: "silver toxicity"'},axis=1)
+hg = pd.DataFrame(hg).rename({'counts':'Zapytanie: "mercury toxicity"'},axis=1)
 ag_hg = pd.concat([ag,hg], axis=1)
 ag_hg = ag_hg.iloc[1: , :].fillna(0)
 ag_hg = ag_hg.astype('int')
 #%%
 ag_hg.sort_index(inplace=True)
 ax = ag_hg.plot(style=('o-'), markersize=4)
-ax.set_xlabel("Year")
-ax.set_ylabel("Number of results")
+ax.set_xlabel("Rok")
+ax.set_ylabel("Liczba rezultatów")
 ax.axvline(x=64, linestyle='--', color='black')
 # %%
 fig = ax.get_figure()

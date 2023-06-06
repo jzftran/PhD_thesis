@@ -11,7 +11,7 @@
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -69,7 +69,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -90,6 +90,8 @@ in complex disruption through the formation of Ag
 
 \begin_layout Plain Layout
 x
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -99,6 +101,8 @@ x
 
 \begin_layout Plain Layout
 y
+\begin_inset space ~
+\end_inset
 \end_layout
 
 \end_inset
@@ -311,7 +315,7 @@ status open
 \begin_layout Plain Layout
 
 \shape smallcaps
-*
+†
 \end_layout
 
 \end_inset
@@ -319,7 +323,10 @@ status open
 
 \shape default
 Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawińskieg
-o 5a, 02-106 Warsaw, Poland
+o
+\begin_inset space ~
+\end_inset
+5a, 02-106 Warsaw, Poland
 \end_layout
 
 \end_inset
@@ -343,19 +350,48 @@ Inorganic Chemistry
 \end_layout
 
 \begin_layout Section
-Brief history and bibliometric data
+Krótka historia i
+\begin_inset space ~
+\end_inset
+dane bibliometryczne
 \end_layout
 
 \begin_layout Standard
-Bringing this article to publication was, of the other articles I co-authored,
- the hardest.
- Initially, we wanted to publish the article in 
-\emph on
-Chemical Communications
-\emph default
-, as a continuation of the project devoted to the investigation of the role
- of Ag(I) on the intraprotein zinc-binding sites, where previously an article
- about the formation of 
+Mam mieszane uczucia, gdy myślę o
+\begin_inset space ~
+\end_inset
+publikacji tego artykułu.
+ Proces publikacji tego artykułu był dość żmudny, a
+\begin_inset space ~
+\end_inset
+jednocześnie jestem
+ bardzo zadowolony ze sprawnej współpracy z
+\begin_inset space ~
+\end_inset
+moimi współpracowniczkami z
+\begin_inset space ~
+\end_inset
+ laboratorium—był to chyba najszybciej ukończony artykuł (od idei do publikacji)
+, którego jestem współautorem.
+ Praca ta jest pewnego rodzaju kontynuacją projektu poświęconego badaniu
+ roli Ag(I) na miejsca wiążące cynk(II)
+\begin_inset space ~
+\end_inset
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kluskaFormationHighlyStable2020"
+literal "true"
+
+\end_inset
+
+, jednakże skupia się na miejscu wiążącym cynk(II) w
+\begin_inset space ~
+\end_inset
+sposób międzycząsteczkowy—d
+omenie haczyka cynkowego z
+\begin_inset space ~
+\end_inset
+białka 
 \begin_inset ERT
 status open
 
@@ -363,28 +399,16 @@ status open
 
 
 \backslash
-ce{Ag_nS_n}
+gls{rad}
 \end_layout
 
 \end_inset
 
- clusters in 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glspl{zf}
-\end_layout
-
+.
+ Artykuł został opublikowany w
+\begin_inset space ~
 \end_inset
 
- was described.
- Finally, after several iterations involving the exchange of criticism from
- reviewers, the manuscript, and responses to the reviewers' objections,
- the article was published in 
 \emph on
 Inorganic Chemistry
 \emph default
@@ -401,35 +425,8 @@ gls{if}
 
 \end_inset
 
- of 5.436, March 6, 2023).
-\begin_inset Newline newline
-\end_inset
-
-I have mixed feelings as I think about the publication of this article.
- My reservations about the peer-review process became even stronger after
- this article.
- In the 21st century, with the ability to exchange information cheaply,
- and expressly, and where the cost of publishing information online is very
- low, the peer-review process as a rule should be completely transparent.
- In addition, the rule should be the possibility to criticize an article
-\emph on
- after 
-\emph default
-it has been published, without having to write another article in which,
- one refers to the criticized publication.
- The publication process for this article was quite tedious due to the incompete
-nce of one of the reviewers—the prolonged review did not bring anything
- new, did not improve our article, but only increased the time in review.
- Also, this article, is the last article included in this thesis and I am
- very pleased to have collaborated on it with my lab-mates, whom I saw every
- day (provided there were no pandemic restrictions).
- This successful cooperation between us was one of the reasons why the time
- spent on experiments, data processing, and writing the manuscript, was
- far less than the time this article spent in review.
-\begin_inset Newline newline
-\end_inset
-
-
+ 5,436, 6 marca 2023).
+ 
 \begin_inset ERT
 status open
 
@@ -451,137 +448,137 @@ from scholarly import scholarly
 
 \begin_layout Plain Layout
 
-num2words = {1: 'once',
+num2words = {1: 'jeden',
 \end_layout
 
 \begin_layout Plain Layout
 
-             2: 'two',
+             2: 'dwa',
 \end_layout
 
 \begin_layout Plain Layout
 
-             3: 'three',
+             3: 'trzy',
 \end_layout
 
 \begin_layout Plain Layout
 
-             4: 'four',
+             4: 'cztery',
 \end_layout
 
 \begin_layout Plain Layout
 
-             5: 'five',
+             5: 'pięć',
 \end_layout
 
 \begin_layout Plain Layout
 
-             6: 'six',
+             6: 'sześć',
 \end_layout
 
 \begin_layout Plain Layout
 
-             7: 'seven',
+             7: 'siedem',
 \end_layout
 
 \begin_layout Plain Layout
 
-             8: 'eight',
+             8: 'osiem',
 \end_layout
 
 \begin_layout Plain Layout
 
-             9: 'nine',
+             9: 'dziewięć',
 \end_layout
 
 \begin_layout Plain Layout
 
-             10: 'ten',
+             10: 'dziesięć',
 \end_layout
 
 \begin_layout Plain Layout
 
-             11: 'eleven',
+             11: 'jedenaście',
 \end_layout
 
 \begin_layout Plain Layout
 
-             12: 'twelve',
+             12: 'dwanaście',
 \end_layout
 
 \begin_layout Plain Layout
 
-             13: 'thirteen',
+             13: 'trzynaście',
 \end_layout
 
 \begin_layout Plain Layout
 
-             14: 'fourteen',
+             14: 'czternaście',
 \end_layout
 
 \begin_layout Plain Layout
 
-             15: 'fifteen',
+             15: 'piętnaście',
 \end_layout
 
 \begin_layout Plain Layout
 
-             16: 'sixteen',
+             16: 'szesnaście',
 \end_layout
 
 \begin_layout Plain Layout
 
-             17: 'seventeen',
+             17: 'siedemnaście',
 \end_layout
 
 \begin_layout Plain Layout
 
-             18: 'eighteen',
+             18: 'osiemnaście',
 \end_layout
 
 \begin_layout Plain Layout
 
-             19: 'nineteen',
+             19: 'dziewiętnaście',
 \end_layout
 
 \begin_layout Plain Layout
 
-             20: 'twenty',
+             20: 'dwadzieśćia',
 \end_layout
 
 \begin_layout Plain Layout
 
-             30: 'thirty',
+             30: 'trzydzieści',
 \end_layout
 
 \begin_layout Plain Layout
 
-             40: 'forty',
+             40: 'czterdzieści',
 \end_layout
 
 \begin_layout Plain Layout
 
-             50: 'fifty',
+             50: 'pięćdziesiąt',
 \end_layout
 
 \begin_layout Plain Layout
 
-             60: 'sixty',
+             60: 'sześćdziesiąt',
 \end_layout
 
 \begin_layout Plain Layout
 
-             70: 'seventy',
+             70: 'siedemdziesiąt',
 \end_layout
 
 \begin_layout Plain Layout
 
-             80: 'eighty',
+             80: 'osiemdziesiąt',
 \end_layout
 
 \begin_layout Plain Layout
 
-             90: 'ninety',
+             90: 'dziewięćdziesiąt',
 \end_layout
 
 \begin_layout Plain Layout
@@ -681,8 +678,8 @@ if num_citations <= 10:
 
 \begin_layout Plain Layout
 
-       print("As the article was published recently, it is not surprising
- that it is not yet cited (as of 
+       print("Ponieważ artykuł został opublikowany niedawno, nie dziwi fakt,
+ że nie jest on jeszcze cytowany (stan na dzień 
 \backslash
 
 \backslash
@@ -696,8 +693,8 @@ today).")
 
 \begin_layout Plain Layout
 
-        print(f'The article was published recently, however, it was already
- cited {n2w(num_citations)} (as of 
+        print(f'Artykuł został opublikowany niedawno, jednak był już cytowany
+ jeden raz (stan na dzień 
 \backslash
 
 \backslash
@@ -711,8 +708,8 @@ today).')
 
 \begin_layout Plain Layout
 
-        print(f'The article was published recently, however, it was already
- cited {n2w(num_citations)} times (as of 
+        print(f'Artykuł został opublikowany niedawno, jednak był już cytowany
+ {n2w(num_citations)} razy (stan na dzień 
 \backslash
 
 \backslash
@@ -731,8 +728,14 @@ else:
 
 \begin_layout Plain Layout
 
-    print(f'The article was warmly recieved in the scientific community
- and was cited by {num_citations} other articles so far (as of 
+    print(f'Artykuł został ciepło przyjęty w
+\begin_inset space ~
+\end_inset
+środowisku naukowym i
+\begin_inset space ~
+\end_inset
+był cytowany
+  {num_citations} razy inne dotychczasowe artykuły (stan na dzień 
 \backslash
 
 \backslash
@@ -776,7 +779,7 @@ https://scholar.google.com/
 \end_layout
 
 \begin_layout Section
-Summary
+Podsumowanie
 \end_layout
 
 \begin_layout Standard
@@ -792,7 +795,10 @@ ExplSyntaxOn
 
 \begin_layout Plain Layout
 
-% call python script, here I assume the binary name is python3 
+% call python script, here I
+\begin_inset space ~
+\end_inset
+assume the binary name is python3 
 \end_layout
 
 \begin_layout Plain Layout
@@ -835,17 +841,40 @@ ExplSyntaxOff
 \end_layout
 
 \begin_layout Standard
-The medical use of silver, both as an Ag(0) and as compounds of Ag(I) is
- known for millennia, the ancient Persians, Phoenicians, Greeks, Romans,
- and others were recorded to utilize various forms of silver to preserve
- both food and water, the custom practiced through World War II.
- The first preserved records of the medical use of silver come from ancient
- Macedonians, who attempted to treat infections with silver plates.
- Hippocrates, the Father of Medicine, was supposed to use silver preparations
- to treat ulcers and promote wound healing.
- Before the introduction of antibiotics, silver, and various silver compounds
- were the most available antimicrobial agents.
- 
+Antybakteryjne zastosowanie srebra, zarówno jako Ag(0) jak i
+\begin_inset space ~
+\end_inset
+związków Ag(I)
+ jest znane od tysiącleci (długo przed obserwacją bakterii przez Antoniego
+ van Leeuwenhoeka), starożytni Persowie, Fenicjanie, Grecy, Rzymianie i
+\begin_inset space ~
+\end_inset
+ inni wykorzystywali różne formy srebra do konserwacji zarówno żywności
+ jak i
+\begin_inset space ~
+\end_inset
+wody, a
+\begin_inset space ~
+\end_inset
+zwyczaj ten był praktykowany do II wojny światowej.
+ Pierwsze zachowane zapiski o
+\begin_inset space ~
+\end_inset
+medycznym zastosowaniu srebra pochodzą od
+ starożytnych Macedończyków, którzy próbowali leczyć infekcje za pomocą
+ srebrnych płytek.
+ Hipokrates, ojciec medycyny, miał stosować preparaty ze srebra do leczenia
+ wrzodów i
+\begin_inset space ~
+\end_inset
+wspomagania gojenia się ran.
+ Przed wprowadzeniem antybiotyków, srebro i
+\begin_inset space ~
+\end_inset
+jego różne związki były najbardziej
+ dostępnymi środkami przeciwbakteryjnymi
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "AlexanderWesley2009"
@@ -853,13 +882,32 @@ literal "true"
 
 \end_inset
 
- The toxicity of silver is low compared to most of the other heavy metals,
- which allows the use of silver in various utility goods, e.
- g.
- jewelry, silverware, or as a food additive.
- However, it has been shown that high doses of silver given parenterally,
- can cause convulsions or even death.
- 
+.
+ Toksyczność srebra jest niewielka w
+\begin_inset space ~
+\end_inset
+porównaniu z
+\begin_inset space ~
+\end_inset
+większością innych metali
+ ciężkich, co pozwala na stosowanie go w
+\begin_inset space ~
+\end_inset
+różnych wyrobach użytkowych, np.
+ w
+\begin_inset space ~
+\end_inset
+biżuterii, zastawie stołowej, a
+\begin_inset space ~
+\end_inset
+nawet jako jako dodatek do żywności.
+ Wykazano jednak, że duże dawki srebra podane pozajelitowo, mogą powodować
+ drgawki, a
+\begin_inset space ~
+\end_inset
+nawet śmierć
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "AlexanderWesley2009"
@@ -867,23 +915,37 @@ literal "true"
 
 \end_inset
 
- Though the silver toxicity is low, the organisms usually lack the mechanisms
- for silver detoxification, and in the case of the human body, when silver
- is delivered (e.g., injection, ingestion, or applied topically) silver is
- accumulated irreversibly.
- The condition caused by sustained silver exposure (and light
+.
+ Mimo, że toksyczność srebra jest niewielka, organizmy zwykle nie posiadają
+ mechanizmów detoksykacji srebra, a
+\begin_inset space ~
+\end_inset
+w przypadku organizmu człowieka, po
+ dostarczeniu srebra (np.
+ wstrzyknięciu, połknięciu, czy zastosowaniu miejscowym) srebro akumuluje
+ się w
+\begin_inset space ~
+\end_inset
+organizmie nieodwracalnie.
+ Stan spowodowany długotrwałą ekspozycją na srebro (i światło
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
-Like in a photography sunlight causes the decomposition of colorless silver
- compounds to Ag(0) or silver sulfides.
+Podobnie jak w
+\begin_inset space ~
+\end_inset
+fotografii światło słoneczne powoduje rozkład bezbarwnych
+ związków srebra do Ag(0) lub siarczków srebra.
 \end_layout
 
 \end_inset
 
-) is called argyria.
- By 1939 
+) nazywany jest argyrią.
+ Do 1939 r.
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citeauthor
 key "Hill1939"
@@ -891,10 +953,11 @@ literal "true"
 
 \end_inset
 
- have identified 357 cases of recorded argyria, all of the recorded cases,
- except for the irreversible bluish skin tone, had a benign course of the
- disease.
- 
+ zidentyfikowali 357 przypadków argyrii, wszystkie odnotowane przypadki,
+ poza nieodwracalnym niebieskawym odcieniem skóry, miały łagodny przebieg
+ choroby
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hill1939"
@@ -902,8 +965,12 @@ literal "true"
 
 \end_inset
 
- Despite low toxicity, the number of publications dedicated to silver toxicity
- by the year increases (
+.
+ Co ciekawe, pomimo niskiej toksyczności, liczba publikacji poświęconych
+ toksyczności srebra z
+\begin_inset space ~
+\end_inset
+roku na rok wzrasta (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:ag_hg_count"
@@ -913,9 +980,19 @@ noprefix "false"
 
 \end_inset
 
-), possibly the reason for this is the use of silver in everyday articles
- (e.g., use of silver in deodorants, sportswear, anti-smoking pills), of which
- a lot of these items utilize 
+), być może powodem tego jest użycie srebra w
+\begin_inset space ~
+\end_inset
+artykułach codziennego użytku
+ (np.
+ użycie srebra w
+\begin_inset space ~
+\end_inset
+dezodorantach, odzieży sportowej, tabletkach antynikotynowych),
+ z
+\begin_inset space ~
+\end_inset
+których wiele wykorzystuje 
 \begin_inset ERT
 status open
 
@@ -955,8 +1032,11 @@ name "fig:ag_hg_count"
 
 \end_inset
 
-Number of publications devoted to silver or mercury toxicity aggregated
- in PubMed (accessed 
+Liczba publikacji poświęconych toksyczności srebra lub rtęci zagregowanych
+ w
+\begin_inset space ~
+\end_inset
+PubMed (dostęp 
 \begin_inset ERT
 status open
 
@@ -969,7 +1049,9 @@ today
 
 \end_inset
 
-) 
+)
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sayers2022"
@@ -977,9 +1059,12 @@ literal "true"
 
 \end_inset
 
-, blue and orange lines respectively.
- Note that since 2013 (marked as a dashed line) more publications are devoted
- to the toxicity of silver than mercury.
+, odpowiednio linie niebieskie i
+\begin_inset space ~
+\end_inset
+pomarańczowe.
+ Zauważmy, że od 2013 roku (zaznaczone linią przerywaną) więcej publikacji
+ poświęconych jest toksyczności srebra niż rtęci.
 \end_layout
 
 \end_inset
@@ -993,10 +1078,13 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-The oligodynamic effect, which is the property of some metals to have a
- biocidal effect, in the case of silver is mainly caused by the bioactive
- species – Ag(I).
- The antimicrobial properties of 
+Efekt oligodynamiczny, czyli właściwość niektórych metali polegająca na
+ działaniu biobójczym, w
+\begin_inset space ~
+\end_inset
+przypadku srebra spowodowany jest głównie przez
+ bioaktywną formę srebra—Ag(I).
+ Właściwości przeciwdrobnoustrojowe 
 \begin_inset ERT
 status open
 
@@ -1004,12 +1092,15 @@ status open
 
 
 \backslash
-glspl{agnp}
+gls{agnp}
 \end_layout
 
 \end_inset
 
- mainly arise due to the oxidative dissolution of 
+ powstają głównie w
+\begin_inset space ~
+\end_inset
+wyniku oksydacyjnego rozpuszczenia 
 \begin_inset ERT
 status open
 
@@ -1017,12 +1108,20 @@ status open
 
 
 \backslash
-glspl{agnp}
+gls{agnp}
 \end_layout
 
 \end_inset
 
- in the cell, followed by the release of Ag(I) 
+ w
+\begin_inset space ~
+\end_inset
+komórce, a
+\begin_inset space ~
+\end_inset
+następnie uwolnienia
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lok2007,Hsiao2015"
@@ -1031,21 +1130,17 @@ literal "true"
 \end_inset
 
 .
- In biological systems, the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{lmw}
-\end_layout
-
+ W
+\begin_inset space ~
 \end_inset
-
- thiols (e.g., glutathione) are found to be a common interaction partner for
- Ag(I) 
+układach biologicznych stwierdzono, że cząsteczki o
+\begin_inset space ~
+\end_inset
+niskiej masie cząsteczkow
+ej, zawierające grupy tiolowe (np.
+ glutation) są częstym partnerem interakcji dla Ag(I)
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Betts2021,Marchioni2018"
@@ -1054,8 +1149,28 @@ literal "true"
 \end_inset
 
 .
- The Ag(I) complex with cysteine is much more stable than the complexes
- of Ag(I) and methionine or histidine, thus no wonder that in the 
+ Kompleks Ag(I) z
+\begin_inset space ~
+\end_inset
+L-cysteiną jest znacznie bardziej stabilny niż kompleksy
+ Ag(I) z
+\begin_inset space ~
+\end_inset
+L-metioniną czy L-histydyną, nic więc dziwnego, że w
+\begin_inset space ~
+\end_inset
+makromolekuły
+ (białka) są częstym celem wiązania Ag(I) będą układy zawierające reszty
+ cysteiny, np.
+ naturalne miejsca wiązania Zn(II) zawierające reszty cysteiny.
+ Wykazano, że interakcja Ag(I) z
+\begin_inset space ~
+\end_inset
+wewnątrzbiałkowymi miejscami wiążącymi
+ Zn(II) w
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1063,14 +1178,15 @@ status open
 
 
 \backslash
-gls{hmw}
+glink{zf}{palcach cynkowych}
 \end_layout
 
 \end_inset
 
- (proteins), the common target for Ag(I) binding will be systems containing
- cysteines, e.g., natural cysteine-containing zinc-binding sites.
- The interaction of Ag(I) with intraprotein zinc-binding sites in 
+ powoduje jego zamianę na Ag(I) prowadząc do zaburzeń w
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1078,12 +1194,12 @@ status open
 
 
 \backslash
-glsfirstplural{zf}
+glink{fold}{zwinięciu}
 \end_layout
 
 \end_inset
 
- has been shown to swap Zn(II) for Ag(I) leading to 
+ 
 \begin_inset ERT
 status open
 
@@ -1096,7 +1212,14 @@ gls{zf}
 
 \end_inset
 
--
+, a
+\begin_inset space ~
+\end_inset
+to z
+\begin_inset space ~
+\end_inset
+kolei potencjalnie może prowadzić do utraty funkcji.
+ Pomimo faktu, że reszta cysteiny jest najczęstszym 
 \begin_inset ERT
 status open
 
@@ -1104,26 +1227,17 @@ status open
 
 
 \backslash
-gls{fold}
+glink{Lg}{ligandem}
 \end_layout
 
 \end_inset
 
- disruption, and in turn, it can potentially lead to loss of function.
- Despite the fact that the cysteine is the most common 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{Lg}
-\end_layout
-
+ w
+\begin_inset space ~
 \end_inset
-
- in the zinc-binding sites (see 
+miejscach wiążących Zn(II) (patrz
+\begin_inset space ~
+\end_inset
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1142,7 +1256,9 @@ noprefix "false"
 
 \end_inset
 
-), 
+)
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Laitaoja2013"
@@ -1150,8 +1266,27 @@ literal "true"
 
 \end_inset
 
- the potential interactions of the zinc proteome with Ag(I) are yet unexplored,
- including the impact of free Ag(I) ions on the 
+, potencjalne interakcje 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{proteome}{proteomu}
+\end_layout
+
+\end_inset
+
+ cynkowego z
+\begin_inset space ~
+\end_inset
+Ag(I) są jeszcze niezbadane, w
+\begin_inset space ~
+\end_inset
+tym wpływ wolnych jonów Ag(I)
+ na 
 \begin_inset ERT
 status open
 
@@ -1164,21 +1299,8 @@ gls{zppi}
 
 \end_inset
 
-, an interaction that is present in the zinc hook of the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
-\end_inset
-
 .
- The 
+ 
 \begin_inset ERT
 status open
 
@@ -1186,12 +1308,12 @@ status open
 
 
 \backslash
-gls{rad}
+Gls{rad}
 \end_layout
 
 \end_inset
 
- forms Zn(
+ tworzy kompleks Zn(
 \begin_inset ERT
 status open
 
@@ -1213,7 +1335,13 @@ gls{rad}
 
 \end_inset
 
- complex of extreme stability 
+ o
+\begin_inset space ~
+\end_inset
+ekstremalnej stabilności, zob.
+
+\begin_inset space ~
+\end_inset
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1232,8 +1360,20 @@ noprefix "false"
 
 \end_inset
 
-), however, in this case the stability does not comes with selectivity,
- thus the Zn(II) is easily replaced, in accordance with 
+), jednak w
+\begin_inset space ~
+\end_inset
+tym przypadku stabilność nie idzie w
+\begin_inset space ~
+\end_inset
+parze z
+\begin_inset space ~
+\end_inset
+selektywnością,
+ przez co Zn(II) jest łatwo zastępowany, zgodnie z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1246,8 +1386,11 @@ gls{hsab}
 
 \end_inset
 
-, by the `softer` ions (e.g., Cd(II) or Hg(II)) from the tetrathiolate coordinatio
-n sphere of 
+, przez `bardziej miękkie` jony (np.
+ Cd(II) lub Hg(II)) z
+\begin_inset space ~
+\end_inset
+tetratiolanowej sfery koordynacyjnej 
 \begin_inset ERT
 status open
 
@@ -1260,7 +1403,9 @@ gls{rad}
 
 \end_inset
 
- (see 
+ (patrz
+\begin_inset space ~
+\end_inset
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1280,7 +1425,7 @@ noprefix "false"
 \end_inset
 
 ).
- This lack of selectivity makes 
+ Ten brak selektywności czyni 
 \begin_inset ERT
 status open
 
@@ -1293,39 +1438,18 @@ gls{rad}
 
 \end_inset
 
- a potential target for genotoxicity induced by heavy metal ions.
+ potencjalnym celem dla genotoksyczności indukowanej przez jony metali ciężkich.
 \end_layout
 
 \begin_layout Standard
-The following article present the influence of Ag(I) on the zinc hook domain
- from the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glsfirst{pf}
-\end_layout
-
+W
+\begin_inset space ~
 \end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
+poniższym artykule zaprezentowano wpływ Ag(I) na domenę haczyka cynkowego
+ z
+\begin_inset space ~
 \end_inset
-
-—the use of the model was dictated by tthe zinc-binding sites (seehe fact
- that the zinc hook 
+białka 
 \begin_inset ERT
 status open
 
@@ -1338,7 +1462,39 @@ gls{rad}
 
 \end_inset
 
- from 
+ pochodzącego z
+\begin_inset space ~
+\end_inset
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glsdesc{pf}
+\end_layout
+
+\end_inset
+
+—użycie tego modelu było podyktowane tym, że haczyk cynkowy 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1351,17 +1507,31 @@ gls{pf}
 
 \end_inset
 
- is the best described zinc hook model so far.
- In the study we have utilized the 14- and 45-amino acid long fragments
- with the CXXC motif as a minimal and full domain model (see definition
- of the zinc hook domain in 
+ jest jak dotąd najlepiej opisanym modelem haczyka cynkowego.
+ W
+\begin_inset space ~
+\end_inset
+badaniach wykorzystaliśmy 14- i
+\begin_inset space ~
+\end_inset
+45-aminokwasowe fragmenty z
+\begin_inset space ~
+\end_inset
+motywem CXXC
+ jako odpowiednio minimalny i
+\begin_inset space ~
+\end_inset
+pełny model domeny (patrz definicja domeny
+ haczyka cynkowego , 
+\begin_inset space ~
+\end_inset
 \begin_inset Flex CT - auto cross-reference
 status open
 
 \begin_layout Plain Layout
 \begin_inset CommandInset ref
 LatexCommand labelonly
-reference "sec:The-zinc-hook—a"
+reference "sec:The-zinc-hook"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1373,9 +1543,12 @@ noprefix "false"
 
 \end_inset
 
-), respectively.
- The used constructs allowed us to get insight into the coordination and
- stability properties of the Ag(I)-
+).
+ Zastosowane konstrukty pozwoliły nam uzyskać wgląd we właściwości koordynacyjne
+ i
+\begin_inset space ~
+\end_inset
+stabilność kompleksów Ag(I)–
 \begin_inset ERT
 status open
 
@@ -1388,8 +1561,11 @@ gls{rad}
 
 \end_inset
 
- complexes.
- To do so we have applied array of biophysical methods like: 
+.
+ W
+\begin_inset space ~
+\end_inset
+tym celu zastosowaliśmy szereg metod biofizycznych takich jak: 
 \begin_inset ERT
 status open
 
@@ -1398,6 +1574,19 @@ status open
 
 \backslash
 gls{cd}
+\end_layout
+
+\end_inset
+
+, spektrofotometria 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{uvvis}
 \end_layout
 
 \end_inset
@@ -1410,25 +1599,15 @@ status open
 
 
 \backslash
-gls{uvvis}
-\end_layout
-
-\end_inset
-
- spectrophotometry, 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
 gls{MS}
 \end_layout
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1445,7 +1624,10 @@ gls{itc}
 \end_layout
 
 \begin_layout Standard
-Ag(I) with 
+Ag(I) z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1458,10 +1640,19 @@ gls{rad}
 
 \end_inset
 
- forms complexes of various stoichiometries, which is seen by every used
- method during direct titration of Ag(I) into both apo-zinc hook and Zn(II)-satu
-rated zinc hook.
- The 
+ tworzy kompleksy o
+\begin_inset space ~
+\end_inset
+różnej stechiometrii, co było widać za pomocą każdej
+ zastosowanej metody podczas bezpośredniego miareczkowania Ag(I), zarówno
+ do haczyka cynkowego w
+\begin_inset space ~
+\end_inset
+formie apo, jak i
+\begin_inset space ~
+\end_inset
+haczyka cynkowego wysyconego Zn(II).
+ Na podstawie 
 \begin_inset ERT
 status open
 
@@ -1474,7 +1665,10 @@ gls{SEC}
 
 \end_inset
 
- shows that Ag(I) binding to the 
+ widać, że Ag(I) wiążąc się z
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1500,8 +1694,8 @@ gls{rad}
 
 \end_inset
 
- zinc hook induces oligomerization of the zinc hook.
- The 
+ haczyka cynkowego indukuje oligomeryzację haczyka cynkowego.
+ Badania 
 \begin_inset ERT
 status open
 
@@ -1514,8 +1708,10 @@ gls{MS}
 
 \end_inset
 
- studies confirm that Ag(I) replaces Zn(II) readily (within seconds), and
- the 
+ potwierdzają, że Ag(I) łatwo zastępuje Zn(II) (w ciągu kilku sekund), a
+\begin_inset space ~
+\end_inset
+ miareczkowanie 
 \begin_inset ERT
 status open
 
@@ -1528,8 +1724,17 @@ gls{MS}
 
 \end_inset
 
--titrations are in great accordance with observed 1:1 and 2:1 Ag(I):zinc
- hook stoichiometries observed in 
+ jest zgodne z
+\begin_inset space ~
+\end_inset
+obserwowanymi stechiometriami, 1:1 i
+\begin_inset space ~
+\end_inset
+2:1 (Ag(I):haczyk cynkowy),
+ obserwowanymi za pomocą miareczkowania haczyka cynkowego jonami Ag(I) z
+\begin_inset space ~
+\end_inset
+ detekcją 
 \begin_inset ERT
 status open
 
@@ -1542,7 +1747,10 @@ gls{SEC}
 
 \end_inset
 
- and 
+ i
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1555,7 +1763,10 @@ gls{cd}
 
 \end_inset
 
-- or 
+, a
+\begin_inset space ~
+\end_inset
+także spektrofotomeryczną 
 \begin_inset ERT
 status open
 
@@ -1568,8 +1779,8 @@ gls{uvvis}
 
 \end_inset
 
--titration.
- Surprisingly 
+.
+ Co zaskakujące, 
 \begin_inset ERT
 status open
 
@@ -1582,7 +1793,10 @@ gls{itc}
 
 \end_inset
 
-, contrary to the 
+, w
+\begin_inset space ~
+\end_inset
+przeciwieństwie do miareczkowania 
 \begin_inset ERT
 status open
 
@@ -1595,7 +1809,7 @@ gls{SEC}
 
 \end_inset
 
--, 
+, 
 \begin_inset ERT
 status open
 
@@ -1608,10 +1822,16 @@ gls{MS}
 
 \end_inset
 
--, and both spectrophotometric titrations, does not discriminate many multiple
- complexes observed during the rest of the titrations.
- This may be because the heat or formation constants of the individual complexes
- are too small to be visible during 
+ i
+\begin_inset space ~
+\end_inset
+obu miareczkowań spektrofotometrycznych, nie rozróżnia tak wielu kompleksów
+ obserwowanych podczas pozostałych eksperymentów.
+ Może to wynikać z
+\begin_inset space ~
+\end_inset
+faktu, że stałe cieplne lub formacyjne poszczególnych
+ kompleksów są zbyt małe, aby były widoczne podczas 
 \begin_inset ERT
 status open
 
@@ -1625,14 +1845,82 @@ gls{itc}
 \end_inset
 
 .
- Titration of Ag(I) into the pf zinc hook shows two equivalence points,
- the first one at a ratio of 0.8 Ag(I):zinc hook, the second one at a ratio
- ~2.1.
- The reverse titration (zinc hook into Ag(I)) is in agreement with the ratios
- resulting from the normal titration.
- Though the fitting of the multiple-binding model to the isotherm was possible,
- the obtained formation constants should not be treated as reliable—firstly,
- the cumulative constant 
+ Miareczkowanie Ag(I) do haczyka cynkowego 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{pf}
+\end_layout
+
+\end_inset
+
+ pokazuje dwa punkty równoważnikowe, pierwszy przy stosunku 0,8 Ag(I)/haczyk
+ cynkowy, drugi przy stosunku ~2,1.
+ Miareczkowanie odwrotne (apo formą haczyka cynkowego metalu do roztworu
+ Ag(I) umieszczonym w
+\begin_inset space ~
+\end_inset
+celi pomiarowej) jest zgodne z
+\begin_inset space ~
+\end_inset
+proporcjami wynikającymi
+ z
+\begin_inset space ~
+\end_inset
+normalnego miareczkowania.
+ Choć dopasowanie teoretycznej izotermy, wynikającej z
+\begin_inset space ~
+\end_inset
+modelu zakładającego
+ kilka miejsc wiązań, do zmierzonej izotermy wiązania było możliwe, to uzyskanyc
+h
+\begin_inset space ~
+\end_inset
+stałych tworzenia nie należy traktować jako wiarygodnych—po pierwsze,
+ stała kumulatywna 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glink{Ka}{
+\backslash
+textit{K}
+\backslash
+textsubscript{12}}
+\end_layout
+
+\end_inset
+
+ dla kompleksu Zn(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ jest poza mierzalnym zakresem 
 \begin_inset ERT
 status open
 
@@ -1645,29 +1933,7 @@ gls{Ka}
 
 \end_inset
 
- of the Zn(
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
-\end_inset
-
-)
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
- is far out of the measurable range of 
+ za pomocą 
 \begin_inset ERT
 status open
 
@@ -1680,7 +1946,9 @@ gls{itc}
 
 \end_inset
 
-,
+
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kochanczyk2016a"
@@ -1688,8 +1956,11 @@ literal "true"
 
 \end_inset
 
- secondly, Ag(I) displaces Zn(II) easily, which means that the Ag(I)-zinc
- hook formation constant is much higher than the formation constant of Zn(
+, po drugie, Ag(I) łatwo wypiera Zn(II), co oznacza, że stała tworzenia
+ kompleksu haczyka z
+\begin_inset space ~
+\end_inset
+Ag(I) jest znacznie większa niż stała tworzenia Zn(
 \begin_inset ERT
 status open
 
@@ -1712,7 +1983,91 @@ gls{rad}
 \end_inset
 
 .
- The titration of the Ag(I) into the Zn(
+ Te dwa czynniki sprawiają, że stałe te, pomimo możliwości dopasowania teoretycz
+nej izotermy wynikającej z
+\begin_inset space ~
+\end_inset
+modelu wiązania do izotermy eksperymentalnej,
+ nie mogą być uważane za wiarygodne.
+ W
+\begin_inset space ~
+\end_inset
+tym momencie można byłoby zastanowić się dlaczego nie zastosować podejścia,
+ które było przedstawione wcześniej (
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "chap:HgRad50"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+).
+ Podejście zaprezentowane w
+\begin_inset space ~
+\end_inset
+przypadku
+\begin_inset space ~
+\end_inset
+\begin_inset CommandInset citation
+LatexCommand citetitle
+key "Luczkowski2022"
+literal "true"
+
+\end_inset
+
+ zakłada izostrukturalność miejsc tworzonych przez Hg(II) i
+\begin_inset space ~
+\end_inset
+Zn(II), w
+\begin_inset space ~
+\end_inset
+przypadku
+ miareczkowania haczyka cynkowego za pomocą Ag(I) widać, że powstają inne
+ kompleksy, o
+\begin_inset space ~
+\end_inset
+innej stechiometrii aniżeli 1:2 (Ag(I):haczyk cynkowy), czyniąc
+ to podejście nie możliwym do zastosowania w
+\begin_inset space ~
+\end_inset
+tym wypadku.
+\end_layout
+
+\begin_layout Standard
+Powinowactwo kompleksów Ag(I)–
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ odnosi się prawdopodobnie do kompleksu Ag
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+(
 \begin_inset ERT
 status open
 
@@ -1734,114 +2089,7 @@ gls{rad}
 
 \end_inset
 
- results in a single-step process, in which the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{Kex}
-\end_layout
-
-\end_inset
-
- is obtainable.
- Assuming the correctness of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{Kex}
-\end_layout
-
-\end_inset
-
- it is possible to 
-\emph on
-estimate
-\emph default
- (not determine) the affinity of the Ag(I)-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
-\end_inset
-
- complexes.
- The 
-\emph on
-estimated
-\emph default
- affinity of the Ag(I)-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
-\end_inset
-
- complexes probably refers to the complex Ag
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
-\end_inset
-
-
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-, as the equivalence point for the titration is around two, and the rest
- of the experiments suggest that the 4:2 Ag(I):
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
-\end_inset
-
- complex is the most stable, however, the 
+ ponieważ punkt równoważności dla uzyskanej izotermy za pomocą 
 \begin_inset ERT
 status open
 
@@ -1854,13 +2102,8 @@ gls{itc}
 
 \end_inset
 
- might not be a sufficiently resolvable method to pinpoint the exactly formed
- complex.
- The 
-\emph on
-estimated
-\emph default
- stability of the Ag(I) and 
+ wynosi około dwóch, co dodatkowo jest potwierdzane przez resztę doświadczeń—res
+zta doświadczeń sugeruje, że kompleks 4:2 Ag(I):
 \begin_inset ERT
 status open
 
@@ -1873,8 +2116,157 @@ gls{rad}
 
 \end_inset
 
- species is around 5.4 orders of magnitude higher than the stability of the
- Zn(
+ jest najbardziej stabilny.
+ Zgodnie z
+\begin_inset space ~
+\end_inset
+tym, wyparcie jonu Zn(II) przez jony Ag(I) zachodzi zgodnie z
+\begin_inset space ~
+\end_inset
+ równaniem:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{eq:Ag_exchange}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{4Ag(I) + Zn(Hk)2 <=> Ag4(Hk)2 + Zn(II)}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{equation}
+\end_layout
+
+\end_inset
+
+dla którego można opisać stałą wymiany 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Kex}
+\end_layout
+
+\end_inset
+
+, za pomocą równania: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation} 
+\backslash
+ensuremath{K_{
+\backslash
+text{ex}}=
+\backslash
+frac{[
+\backslash
+ce{Ag4(Hk)2}]
+\backslash
+cdot[
+\backslash
+ce{Zn(II)}]}{[
+\backslash
+ce{Ag(I)}]^{4}
+\backslash
+cdot[
+\backslash
+ce{Zn(Hk)2}]}}=
+\backslash
+frac{K_{
+\backslash
+text{a}}^{
+\backslash
+ce{Ag4(Hk)2}}}{K_{
+\backslash
+text{a}}^{
+\backslash
+ce{Zn(Hk)2}}}
+\backslash
+label{eq:Kex_competition_metals} 
+\backslash
+end{equation}
+\end_layout
+
+\end_inset
+
+ Zakładając prawidłowość 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{Kex}
+\end_layout
+
+\end_inset
+
+ można 
+\emph on
+oszacować
+\emph default
+ (nie wyznaczyć) powinowactwo Ag(I) do 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+.
+
+\emph on
+ Oszacowana
+\emph default
+ stabilność kompleksu Ag(I) i
+\begin_inset space ~
+\end_inset
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls{rad}
+\end_layout
+
+\end_inset
+
+ jest około 5,4 rzędów wielkości wyższa niż stabilność kompleksu Zn(
 \begin_inset ERT
 status open
 
@@ -1896,13 +2288,22 @@ gls{rad}
 
 \end_inset
 
- complex.
+.
 \end_layout
 
 \begin_layout Standard
-The study shows that Ag(I) ions may displace Zn(II) not only from the intraprote
-in zinc-binding sites (e.g.
- in 
+Z
+\begin_inset space ~
+\end_inset
+badań wynika, że jony Ag(I) mogą wypierać jony Zn(II) nie tylko z
+\begin_inset space ~
+\end_inset
+wewnątrzbiał
+kowych miejsc wiążących cynk (np.
+ w
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -1915,8 +2316,11 @@ gls{zf}
 
 \end_inset
 
-), but from interprotein zinc-binding sites as well.
- The swap most likely will result in the 
+), ale także z
+\begin_inset space ~
+\end_inset
+międzybiałkowych miejsc wiążących cynk.
+ Zamiana ta najprawdopodobniej spowoduje zaburzenie funkcjonowania 
 \begin_inset ERT
 status open
 
@@ -1929,24 +2333,25 @@ gls{zppi}
 
 \end_inset
 
- disruption, and even though the architecture of the complex might be saved,
- the changes in the metal binding site conformation may lead to the loss
- of the function and huge biological impact.
- In case of the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
+ i
+\begin_inset space ~
 \end_inset
-
-, as previously established, the deleterious mutations at the CXXC motif
- of cysteines to alanine and arginine is just as severe as the 
+choć architektura kompleksu może zostać zachowana, to zmiany konformacji
+ miejsca wiążącego metal mogą doprowadzić do utraty funkcji i
+\begin_inset space ~
+\end_inset
+istotnych
+ skutków biologicznych.
+ Jak wcześniej ustalono, substytucja reszt cysteinowych na reszty alaniny
+ i
+\begin_inset space ~
+\end_inset
+argininy (patrząc od N- do C-końca) w
+\begin_inset space ~
+\end_inset
+motywie CXXC, powoduje brak dimeryzacji
+ haczyka cynkowego, co niesie ze sobą równie poważne efekty biologiczne
+ co mutacja 
 \begin_inset ERT
 status open
 
@@ -1960,19 +2365,12 @@ textDelta
 \end_inset
 
 
-\begin_inset ERT
-status open
+\emph on
+rad50
+\emph default
 
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
+\begin_inset space ~
 \end_inset
-
- mutation 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "He2012"
@@ -1981,8 +2379,8 @@ literal "true"
 \end_inset
 
 .
- The fact that the Zn(II)-induced dimerization is essential for proper functioni
-ng of 
+ Fakt, że indukowana przez Zn(II) dimeryzacja jest niezbędna do prawidłowego
+ funkcjonowania 
 \begin_inset ERT
 status open
 
@@ -1995,7 +2393,13 @@ gls{rad}
 
 \end_inset
 
-, thus 
+, a
+\begin_inset space ~
+\end_inset
+więc i
+\begin_inset space ~
+\end_inset
+
 \begin_inset ERT
 status open
 
@@ -2008,8 +2412,29 @@ gls{mrn}
 
 \end_inset
 
- as well, makes even small small disturbance in the zinc-binding site a
- suspect for a genotoxicity.
+, sprawia, że nawet niewielkie zaburzenia w
+\begin_inset space ~
+\end_inset
+miejscu wiązania Zn(II), jak
+ i
+\begin_inset space ~
+\end_inset
+odstępstwa w
+\begin_inset space ~
+\end_inset
+tworzonej geometrii przez toksyczne jony metali wraz z
+\begin_inset space ~
+\end_inset
+motywem
+ CXXC, od geometrii tworzonej przez kompleks z
+\begin_inset space ~
+\end_inset
+jonem Zn(II), mogą być podejrzewa
+ne o
+\begin_inset space ~
+\end_inset
+wywieranie potencjalnych niekorzystnych implikacji biologicznych, np.
+ efektu genotoksycznego.
  
 \end_layout
 

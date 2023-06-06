@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -65,7 +65,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -87,7 +87,7 @@ status open
 
 
 \backslash
-pdfbookmark[0]{Acknowledgments}{acknowledgments}
+pdfbookmark[0]{Podziękowania}{Podziękowania}
 \end_layout
 
 \end_inset
@@ -103,34 +103,26 @@ pdfbookmark[0]{Acknowledgments}{acknowledgments}
 \align right
 
 \shape slanted
-We have seen that computer programming is an art, 
+To succeed, planning alone is insufficient.
+ 
 \begin_inset Newline newline
 \end_inset
 
- because it applies accumulated knowledge to the world, 
+One must improvise as well.
+ 
 \begin_inset Newline newline
 \end_inset
 
- because it requires skill and ingenuity, and especially 
-\begin_inset Newline newline
-\end_inset
-
-because it produces objects of beauty.
 
 \shape default
- 
-\begin_inset Newline newline
-\end_inset
 
- 
 \begin_inset VSpace medskip
 \end_inset
 
- — Donald E.
- Knuth 
+ — Isaac Asimov 
 \begin_inset CommandInset citation
-LatexCommand citep
-key "knuth:1974"
+LatexCommand cite
+key "asimov1951"
 literal "true"
 
 \end_inset
@@ -184,11 +176,11 @@ relax
 \end_layout
 
 \begin_layout Chapter*
-Acknowledgments
+Podziękowania
 \end_layout
 
 \begin_layout Standard
-Plato, and his student, Aristotle, thought that 
+Platon, a także jego uczeń Arystoteles, uważali, że 
 \begin_inset ERT
 status open
 
@@ -201,153 +193,93 @@ gls{hs}
 
 \end_inset
 
- is by nature a political animal, i.e., man is made to live in a polis, and
- be an active member of society.
- A solitary man is not self-sufficient—he has various needs that cannot
- be fulfilled alone.
- An individual cannot even meet his material needs, let to say intellectual
- needs, such as play, art, music, sports, friendship, and learning.
- The same is true for conducting research—this doctorate would not have
- been possible without the contribution (direct or indirect) of others.
- These acknowledgments are not sorted by importance, I do believe that would
- be impossible to do objectively, however, I do hope that everyone important
- during my doctoral project is mentioned and recognized.
+ jest z natury zwierzęciem politycznym, tzn., człowiek jest stworzony do
+ życia w polis i bycia aktywnym członkiem społeczeństwa.
+ Człowiek samotny nie jest samowystarczalny—ma różne potrzeby, które nie
+ mogą być zaspokojone w pojedynkę.
+ Jednostka nie może zaspokoić nawet swoich potrzeb materialnych, a co dopiero
+ intelektualnych, takich jak zabawa, sztuka, muzyka, sport, przyjaźń, nauka.
+ Podobnie jest z prowadzeniem badań—ten doktorat nie byłby możliwy bez wkładu
+ (bezpośredniego lub pośredniego) innych osób.
+ Podziękowania te nie są uporządkowane według ważności, uważam, że byłoby
+ to niemożliwe do zrobienia obiektywnie, jednak mam nadzieję, że wszyscy
+ ważni podczas mojego projektu doktoranckiego zostali wymienieni i wyróżnieni.
 \end_layout
 
 \begin_layout Standard
-I would like to thank to:
+Chciałabym podziękować:
 \end_layout
 
 \begin_layout Itemize
-my supervisor Artur Krężel for being my supervisor and guidance for past
- the five years,
+mojemu promotorowi Arturowi Krężlowi za podzielenie się ze mną wiedzą i
+ za to, że przez minione pięć lat był moim promotorem,
 \end_layout
 
 \begin_layout Itemize
-Violetta Trzyna for being the invaluable help with tedious and complicated
- paperwork,
+Violetcie Trzynie za nieocenioną pomoc w żmudnej i skomplikowanej pracy
+ papierkowej,
 \end_layout
 
 \begin_layout Itemize
-Michał Padjasek for sharing various hobbies, support, and inspiring,
+Michałowi Padjaskowi za dzielenie się wspólnymi zainteresowaniami, wsparcie
+ i inspirowanie,
 \end_layout
 
 \begin_layout Itemize
-my parents and family for support,
+moim rodzicom i rodzinie za wsparcie,
 \end_layout
 
 \begin_layout Itemize
-Adam Pomorski for insightful chats and brilliant remarks,
+Adamowi Pomorskiemu za wnikliwe pogawędki i błyskotliwe uwagi,
 \end_layout
 
 \begin_layout Itemize
-Jakub Sławski, Michał Tracz and Marek Łuczkowski for common lunches and
- discussions,
+Kubie Sławskiem, Michałowi Tracz i Markowi Łuczkowski za wspólne obiady
+ i dyskusje,
 \end_layout
 
 \begin_layout Itemize
-Mateusz Krzyścik for technical expertise and providing a wrench when needed,
+Mateuszowi Krzyścikowi za wiedzę techniczną i dostarczanie klucza w razie
+ potrzeby,
 \end_layout
 
 \begin_layout Itemize
-Anna Kocyła, Olga Kerber, Marek Łuczkowski, Aleksandra Cho
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
--
-\end_layout
-
-\end_inset
-
-rą
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
--
-\end_layout
-
-\end_inset
-
-żew
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
--
-\end_layout
-
-\end_inset
-
-ska, Alicja Misiaszek and other labmates, for successful collaboration,
+Annie Kocyle, Oldze Kerber, Markowi Łuczkowskiemu, Aleksandrze Chorążewskiej,
+ Alicji Misiaszek oraz innym koleżankom, i kolegom z laboratorium, za udaną
+ współpracę,
 \end_layout
 
 \begin_layout Itemize
-students that have I worked with: Aleksandra Gędaj and Ewa Olczak for patience,
+studentkom, z którymi współpracowałem: Aleksandrze Gędaj i Ewie Olczak za
+ cierpliwość,
 \end_layout
 
 \begin_layout Itemize
-Krystyna Grzesiak for understanding, patience, and support, so much needed
- when conducting research and writing articles,
+Krystynie Grzesiak za zrozumienie, cierpliwość i wsparcie, tak bardzo potrzebne
+ podczas prowadzenia badań i pisania artykułów,
 \end_layout
 
 \begin_layout Itemize
-Czarek Grzesiak for short and long walks,
+Czarkowi Grzesiakowi za krótkie i długie spacery,
 \end_layout
 
 \begin_layout Itemize
-Gabor Markowski, Wojciech Graf ,and Krzysztof Pukało for showing me that
- sport can be fun,
+Gaborowi Markowskiemu, Wojciechowi Grafowi i Krzysztofowi Pukało za pokazanie
+ mi, że sport może być pasjonujący,
 \end_layout
 
 \begin_layout Itemize
-Krzysztof Pukało, Wojciech Graf, Gabor Markowski, Maciej Maj
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
--
-\end_layout
-
-\end_inset
-
-kow
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
--
-\end_layout
-
-\end_inset
-
-ski and Piotr Bachry for giving me the opportunity to stress out by playing
- Dungeons & Dragons,
+Krzysztofowi Pukało, Wojciechowi Grafowi, Gaborowi Markowskiemu, Maciejowi
+ Majkowskiemu i Piotrowi Bachremu za środowe spotkania,
 \end_layout
 
 \begin_layout Itemize
-Katsuaki Inoue, Nathan Cowieson, Diego Gianolio for being a local contact
- at Diamond Light Source.
+Katsuaki Inoue, Nathan'owi Cowieson oraz Diego Gianolio za pomoc techniczną
+ udzieloną podczas pobytu w Diamond Light Source,
 \end_layout
 
 \begin_layout Itemize
-Alexandra Elbakyan, for her contributions to science.
+Alexandrze Elbakyan za jej wkład w naukę.
 \end_layout
 
 \begin_layout Standard

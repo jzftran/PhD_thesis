@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -74,7 +74,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -94,9 +94,15 @@ status open
 
 \begin_layout Plain Layout
 
-% 
+
 \backslash
-pdfbookmark[0]{RightsAndPermissions}{RightsAndPermissions}
+pdfbookmark[0]{Prawa i
+\begin_inset space ~
+\end_inset
+zezwolenia}{Prawa i
+\begin_inset space ~
+\end_inset
+zezwolenia}
 \end_layout
 
 \end_inset
@@ -105,15 +111,23 @@ pdfbookmark[0]{RightsAndPermissions}{RightsAndPermissions}
 \end_layout
 
 \begin_layout Chapter*
-Rights and Permissions
+Prawa i
+\begin_inset space ~
+\end_inset
+zezwolenia
 \end_layout
 
 \begin_layout Standard
-Articles that build fragments of this thesis are open access articles distribute
-d under the terms of the Creative Commons license, which permits unrestricted
- use, distribution and reproduction, provided the proper citation of the
- original work.
- Thus before each article I present the citation of the original article.
+Artykuły stanowiące fragmenty niniejszej pracy dyplomowej są artykułami
+ o
+\begin_inset space ~
+\end_inset
+otwartym dostępie rozpowszechnianymi na zasadach licencji Creative Commons,
+ która zezwala na nieograniczone wykorzystanie, dystrybucję i
+\begin_inset space ~
+\end_inset
+reprodukcję,
+ pod warunkiem odpowiedniego cytowania oryginalnej pracy.
 \end_layout
 
 \end_body

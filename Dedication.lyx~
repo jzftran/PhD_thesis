@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -65,7 +65,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -113,6 +113,7 @@ pdfbookmark[0]{Dedication}{Dedication}
 \align right
 
 \emph on
+\lang american
 For a research worker the unforgotten moments of his life are those rare
  ones,
 \begin_inset Newline newline
@@ -160,7 +161,11 @@ literal "false"
 
 \begin_layout Standard
 \align center
-To my parents and teachers, who managed to sustain the curiosity in me.
+Moim rodzicom i nauczycielom,
+\begin_inset Newline newline
+\end_inset
+
+ którym udało się podtrzymać we mnie ciekawość.
 \end_layout
 
 \end_body

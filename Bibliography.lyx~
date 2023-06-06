@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -26,7 +26,7 @@
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command biber
+\bibtex_command default
 \index_command default
 \paperfontsize default
 \spacing single
@@ -65,7 +65,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -163,6 +163,42 @@ tocEntry{#1}}%
 \end_inset
 
 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bucio1998"
+literal "true"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'{
+\backslash
+i}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'{i}
+\end_layout
+
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -243,10 +279,6 @@ chapter*{#1}%
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 

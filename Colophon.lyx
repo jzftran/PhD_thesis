@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -63,7 +63,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -117,32 +117,41 @@ pdfbookmark[0]{Colophon}{colophon}
 \end_layout
 
 \begin_layout Section*
-Colophon
+Kolofon
 \end_layout
 
 \begin_layout Standard
-This document was typeset using 
+Ten dokument został napisany przy użyciu stylu 
 \family typewriter
 classicthesis
 \family default
- style developed by André Miede.
- The style was inspired by Robert Bringhurst's seminal book on typography
- 
-\emph on
-
-\begin_inset Quotes eld
+ opracowanego przez André Miede.
+ Styl ten został zainspirowany przez owocną książkę Roberta Bringhursta
+ o
+\begin_inset space ~
+\end_inset
+typografii 
+\begin_inset Quotes pld
 \end_inset
 
 The Elements of Typographic Style
-\begin_inset Quotes erd
+\begin_inset Quotes prd
 \end_inset
 
-
-\emph default
 .
- It is available for \SpecialChar LaTeX
- and \SpecialChar LyX
- at
+ Styl 
+\family typewriter
+classicthesis
+\family default
+ Jest on dostępny dla \SpecialChar LaTeX
+a
+\begin_inset space ~
+\end_inset
+i \SpecialChar LyX
+a
+\begin_inset space ~
+\end_inset
+pod adresem
 \begin_inset Separator latexpar
 \end_inset
 
@@ -162,11 +171,15 @@ https://bitbucket.org/amiede/classicthesis/
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\noindent
-Some parts of the manuscript utilize 
+\align block
+Niektóre części manuskryptu wykorzystują język programowania 
 \begin_inset ERT
 status open
 
@@ -179,12 +192,11 @@ gls{python}
 
 \end_inset
 
- for typesetting.
- To do so I have used 
-\family typewriter
-Python
-\family default
-
+ do składu tekstu.
+ W
+\begin_inset space ~
+\end_inset
+tym celu wykorzystałem Python
 \begin_inset ERT
 status open
 
@@ -199,22 +211,18 @@ TeX
 
 \end_inset
 
- by Geoffrey Poore 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-10.1088/1749-4699/8/1/014010
-\end_layout
+ Geoffreya Poore'a
+\begin_inset space ~
+\end_inset
+\begin_inset CommandInset citation
+LatexCommand citep
+key "poorePythonTeXReproducibleDocuments2015"
+literal "true"
 
 \end_inset
 
 .
- To use 
-\family typewriter
-Python
-\family default
-
+ Aby używać Python
 \begin_inset ERT
 status open
 
@@ -229,12 +237,11 @@ TeX
 
 \end_inset
 
- in \SpecialChar LyX
- I have made a 
-\family typewriter
-Python
-\family default
--based wrapper available at
+ w
+\begin_inset space ~
+\end_inset
+\SpecialChar LyX
+, udostępniłem funkcję opakowującą opartą na języku Python pod adresem
 \begin_inset Separator latexpar
 \end_inset
 
@@ -258,11 +265,64 @@ https://github.com/jzftran/pythontex-wrapper.py
 
 \begin_layout Standard
 \noindent
-To retrieve bibliometric data about publications I have used 
+Do pozyskiwania danych bibliometrycznych o
+\begin_inset space ~
+\end_inset
+publikacjach wykorzystałem 
 \family typewriter
 scholarly
 \family default
- .
+
+\begin_inset space ~
+\end_inset
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cholewiakScholarly2023"
+literal "true"
+
+\end_inset
+
+.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Gls{code}
+\end_layout
+
+\end_inset
+
+ tej tezy jest dostępny pod adresem
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/jzftran/PhD_thesis
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -310,6 +370,8 @@ Euler
 1 PostScript fonts 
 \emph on
 URW Palladio L
+\begin_inset space ~
+\end_inset
 \emph default
  and 
 \emph on
@@ -367,7 +429,10 @@ pt Palatino needs 133.21
 \end_inset
 
 pt for the string ``abcdefghijklmnopqrstuvwxyz''.
- This yields a good line length between 24–26
+ This yields a
+\begin_inset space ~
+\end_inset
+good line length between 24–26
 \begin_inset space ~
 \end_inset
 
@@ -376,7 +441,10 @@ pc (288–312
 \end_inset
 
 pt).
- Using a 
+ Using a
+\begin_inset space ~
+\end_inset
+
 \emph on
 
 \begin_inset Quotes eld
@@ -388,12 +456,21 @@ double square textblock
 
 
 \emph default
- with a 1:2 ratio this results in a textblock of 312:624
+ with a
+\begin_inset space ~
+\end_inset
+1:2 ratio this results in a
+\begin_inset space ~
+\end_inset
+textblock of 312:624
 \begin_inset space ~
 \end_inset
 
 pt (which includes the headline in this design).
- A good alternative would be the 
+ A
+\begin_inset space ~
+\end_inset
+good alternative would be the 
 \emph on
 
 \begin_inset Quotes eld
@@ -405,7 +482,10 @@ golden section textblock
 
 
 \emph default
- with a ratio of 1:1.62, here 312:505.44
+ with a
+\begin_inset space ~
+\end_inset
+ratio of 1:1.62, here 312:505.44
 \begin_inset space ~
 \end_inset
 
@@ -418,7 +498,10 @@ DIV9
 \family typewriter
 typearea
 \family default
- package results in a line length of 389
+ package results in a
+\begin_inset space ~
+\end_inset
+line length of 389
 \begin_inset space ~
 \end_inset
 

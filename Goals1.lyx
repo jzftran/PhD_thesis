@@ -102,9 +102,7 @@ status open
 
 
 \backslash
-glink{zppi}{międzyczasteczkowymi miejscami wiązania jonów Zn(II) (ZPPI,
- ang.
- Zn(II)-involved protein--protein interactions)}
+glink{zppi}{międzyczasteczkowymi miejscami wiązania jonów Zn(II)}
 \end_layout
 
 \end_inset
@@ -117,14 +115,12 @@ status open
 
 
 \backslash
-glink{mppi}{międzyczasteczkowymi miejscami wiązania jonów metali (MPPI,
- ang.
- metal-involved protein--protein interaction)}
+glink{mppi}{międzyczasteczkowymi miejscami wiązania jonów metali}
 \end_layout
 
 \end_inset
 
- zainspirowała mnie unikalna domena haczyka wiążąca jon Zn(II) z
+ zainspirowała mnie unikalna domena haczyka wiążąca jon cynku(II) z
 \begin_inset space ~
 \end_inset
 białka
@@ -425,7 +421,7 @@ gls{mrn}
 \end_inset
 
 .
- Konserwatywna domena haczyka cynkowego w
+ Konserwatywna domena haka cynkowego w
 \begin_inset space ~
 \end_inset
 
@@ -525,37 +521,11 @@ gls{mrn}
 \end_inset
 
 ).
- Charakterystyka biofizyczna domeny haczyka cynkowego z
-\begin_inset space ~
-\end_inset
-ludzkiego białka
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{rad}
-\end_layout
-
-\end_inset
-
- obejmowała poznanie jej powinowactwa do jonu Zn(II) formy niefosforylowanej,
- jak i
-\begin_inset space ~
-\end_inset
-ufosforylowanej na reszcie treoniny 690, oraz opis zależności między
- sekwencją, strukturą i
-\begin_inset space ~
-\end_inset
-powinowactwem do jonu Zn(II).
 \end_layout
 
 \begin_layout Standard
-Ostatnim celem badań było zbadanie, potencjalnie szkodliwego, wpływu nieprawidło
-wego wysycenia toksycznymi jonami metali ciężkich na haczyk cynkowy z
+Ostatnim celem badań było zbadanie potencjalnego szkodliwego wpływu nieprawidłow
+ej metalacji (jonami metali ciężkich) na haczyk cynkowy z
 \begin_inset space ~
 \end_inset
 
@@ -575,8 +545,7 @@ gls{rad}
  Dokonano tego poprzez zbadanie wpływu Hg(II) i
 \begin_inset space ~
 \end_inset
-Ag(I) domenę pochodzącą
- z
+Ag(I) na hak cynkowy z
 \begin_inset space ~
 \end_inset
 
@@ -601,29 +570,6 @@ status open
 
 \backslash
 gls{rad}
-\end_layout
-
-\end_inset
-
-.
- Moim celem było przeprowadzenie badań nad haczykiem cynkowym, skupiając
- się głównie na jego właściwościach termodynamicznych.
- Powinowactwo jonów Hg(II) i
-\begin_inset space ~
-\end_inset
-Ag(I) do domeny haczyka cynkowego 
-\emph on
-oszacowałem 
-\emph default
-za pomocą 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{itc}
 \end_layout
 
 \end_inset
@@ -655,7 +601,7 @@ gls{rad}
 
 \end_inset
 
- jako modelu dla badań był podyktowany faktem, że domena ta jest jak dotąd
+ jako modelu dla badań był podyktowany faktem, że model ten jest jak dotąd
  najlepiej scharakteryzowanym modelem haczyka cynkowego.
 \end_layout
 

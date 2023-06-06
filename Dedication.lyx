@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -65,7 +65,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -94,7 +94,7 @@ thispagestyle{empty}
 
 
 \backslash
-pdfbookmark[0]{Dedication}{Dedication}
+pdfbookmark[0]{Dedykacja}{Dedykacja}
 \end_layout
 
 \end_inset
@@ -113,7 +113,11 @@ pdfbookmark[0]{Dedication}{Dedication}
 \align right
 
 \emph on
-For a research worker the unforgotten moments of his life are those rare
+\lang american
+For a
+\begin_inset space ~
+\end_inset
+research worker the unforgotten moments of his life are those rare
  ones,
 \begin_inset Newline newline
 \end_inset
@@ -130,7 +134,10 @@ and when what was dark and chaotic
 \begin_inset Newline newline
 \end_inset
 
-appears in a clear and beautiful light and pattern
+appears in a
+\begin_inset space ~
+\end_inset
+clear and beautiful light and pattern
 \emph default
 
 \begin_inset Newline newline
@@ -140,7 +147,9 @@ appears in a clear and beautiful light and pattern
 \begin_inset VSpace medskip
 \end_inset
 
-— Gerty Cori 
+— Gerty Cori
+\begin_inset space ~
+\end_inset
 \begin_inset CommandInset citation
 LatexCommand cite
 key "McGrayne2001"
@@ -160,11 +169,14 @@ literal "false"
 
 \begin_layout Standard
 \align center
-To my parents and teachers,
+Moim rodzicom i
+\begin_inset space ~
+\end_inset
+nauczycielom,
 \begin_inset Newline newline
 \end_inset
 
- who managed to sustain the curiosity in me.
+ którym udało się podtrzymać we mnie ciekawość.
 \end_layout
 
 \end_body

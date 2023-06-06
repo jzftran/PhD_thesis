@@ -7,7 +7,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language polish
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -65,7 +65,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -153,7 +153,7 @@ LARGE
 \backslash
 spacedallcaps{
 \backslash
-myDepartment} 
+myFaculty} 
 \backslash
 endgroup
 \end_layout
@@ -227,11 +227,6 @@ myName}
 \end_layout
 
 \begin_layout Standard
-\align center
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset VSpace medskip
 \end_inset
 
@@ -283,7 +278,7 @@ myDepartment
 \begin_inset Newline newline
 \end_inset
 
-under supervision of
+pod opieką
 \begin_inset Newline newline
 \end_inset
 
@@ -293,7 +288,7 @@ status open
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 myProf
 \end_layout
@@ -301,6 +296,12 @@ myProf
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+prof.
+ dr hab.
+ Artura Krężla
 \begin_inset Newline newline
 \end_inset
 

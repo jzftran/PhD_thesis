@@ -313,10 +313,7 @@ Department of Chemistry, University of Zurich, Winterthurerstrasse, 190,
 \begin_inset Newline newline
 \end_inset
 
-Chemistry – A
-\begin_inset space ~
-\end_inset
-European Journal 
+Chemistry – A European Journal 
 \emph on
 2022 28, e202202738
 \end_layout
@@ -329,10 +326,7 @@ European Journal
 \end_layout
 
 \begin_layout Section
-Krótka historia i
-\begin_inset space ~
-\end_inset
-dane bibliometryczne
+Krótka historia i dane bibliometryczne
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:short_history_hg"
@@ -362,10 +356,7 @@ noprefix "false"
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
+ i 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -385,10 +376,7 @@ noprefix "false"
 \end_inset
 
 ) przedstawiając wyniki mojego projektu doktoranckiego skupionego na niewłaściwe
-j
-\begin_inset space ~
-\end_inset
-metalacji 
+j metalacji 
 \begin_inset ERT
 status open
 
@@ -401,10 +389,7 @@ gls{rad}
 
 \end_inset
 
- z
-\begin_inset space ~
-\end_inset
-
+ z 
 \begin_inset ERT
 status open
 
@@ -417,18 +402,9 @@ gls{pf}
 
 \end_inset
 
- jonami toksycznych metali ciężkich.
- Mój udział w
-\begin_inset space ~
-\end_inset
-pierwszym z
-\begin_inset space ~
-\end_inset
-tych badań jest dość zaskakujący, albowiem wierzę
- , że "Szaleństwo to robienie w
-\begin_inset space ~
-\end_inset
-kółko tego samego, ale oczekiwanie innych
+ jonami metali ciężkich.
+ Mój udział w pierwszym z tych badań jest dość zaskakujący, albowiem wierzę
+ , że "Szaleństwo to robienie w kółko tego samego, ale oczekiwanie innych
  rezultatów."
 \begin_inset Foot
 status open
@@ -439,13 +415,7 @@ Cytat niesłusznie przypisywany Albertowi Einsteinowi.
 
 \end_inset
 
-, i
-\begin_inset space ~
-\end_inset
-pytając się mnie o
-\begin_inset space ~
-\end_inset
-wykonanie tego samego eksperymentu 
+, i pytając się mnie o wykonanie tego samego eksperymentu 
 \begin_inset ERT
 status open
 
@@ -458,14 +428,8 @@ gls{itc}
 
 \end_inset
 
- ponieważ wyniki nie zgadzają się z
-\begin_inset space ~
-\end_inset
-początkową hipotezą, wydawało mi się
- stratą czasu, jednak z
-\begin_inset space ~
-\end_inset
-jakiegoś powodu (może miałem przeczucie), zgodziłem
+ ponieważ wyniki nie zgadzają się z początkową hipotezą, wydawało mi się
+ stratą czasu, jednak z jakiegoś powodu (może miałem przeczucie), zgodziłem
  się wykonać ponownie te same eksperymenty.
  Moim zadaniem było przeprowadzenie 
 \begin_inset ERT
@@ -480,10 +444,7 @@ gls{itc}
 
 \end_inset
 
- które dałyby informację o
-\begin_inset space ~
-\end_inset
-stabilności kompleksu Hg(II)–
+ które dałyby informację o stabilności kompleksu Hg(II)–
 \begin_inset ERT
 status open
 
@@ -498,7 +459,17 @@ gls{rad}
 
 .
  Pierwsze eksperymenty, które przeprowadziłem, dały dokładnie takie same
- wyniki, jak te uzyskane przez moich kolegów.
+ wyniki, jak te uzyskane przez moich kolegów
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Wstępne eksperymenty przeprowadzone przez 
+\end_layout
+
+\end_inset
+
+.
  Obserwowana 
 \begin_inset ERT
 status open
@@ -507,12 +478,7 @@ status open
 
 
 \backslash
-glink{dH}{zmiana entalpii w
-\begin_inset space ~
-\end_inset
-stanie standardowym (
-\backslash
-textDelta 
+glink{dH}{zmiana entalpii w stanie standardowym (textDelta 
 \backslash
 textit{G}
 \backslash
@@ -521,10 +487,7 @@ textdegree)}
 
 \end_inset
 
- wiązania Hg(II) z
-\begin_inset space ~
-\end_inset
-haczykiem cynkowym, zakładając, że 
+ wiązania Hg(II) z haczykiem cynkowym, zakładając, że 
 \begin_inset ERT
 status open
 
@@ -537,10 +500,7 @@ glsfirst{dS}
 
 \end_inset
 
- wiązania Zn(II), Cd(II) i
-\begin_inset space ~
-\end_inset
-Hg(II) były takie same, była zbyt mała, aby obserwowa
+ wiązania Zn(II), Cd(II) i Hg(II) były takie same, była zbyt mała, aby obserwowa
 ny brak konkurencji pomiędzy 
 \begin_inset ERT
 status open
@@ -555,24 +515,8 @@ glink{C}{ligandem współzawodniczącym}
 \end_inset
 
  (np.
- L-acetylocysteiną, jonami cyjankowymi, 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glink{DTT}{ditotreitolem (DTT)}
-\end_layout
-
-\end_inset
-
-) a
-\begin_inset space ~
-\end_inset
-haczykiem cynkowym można było wytłumaczyć stałą tworzenia obliczoną
- za pomocą zmierzonych 
+ acetylocysteiną, jonami cyjankowymi) a haczykiem cynkowym można było wytłumaczy
+ć stałą tworzenia obliczoną za pomocą zmierzonych 
 \begin_inset ERT
 status open
 
@@ -585,10 +529,7 @@ gls{dH}
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
+ i 
 \begin_inset ERT
 status open
 
@@ -602,9 +543,7 @@ gls{dS}
 \end_inset
 
  (zob.
-
-\begin_inset space ~
-\end_inset
+ 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -623,9 +562,7 @@ noprefix "false"
 
 \end_inset
 
-,
-\begin_inset space ~
-\end_inset
+, 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -644,10 +581,7 @@ noprefix "false"
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-pozostałą część rozdziału).
+ i pozostałą część rozdziału).
  
 \end_layout
 
@@ -665,13 +599,7 @@ gls{itc}
 
 \end_inset
 
-, które ja i
-\begin_inset space ~
-\end_inset
-moi poprzednicy wykonywaliśmy, były wykonywane w
-\begin_inset space ~
-\end_inset
-buforach zawierają
+, które ja i moi poprzednicy wykonywaliśmy, były wykonywane w buforach zawierają
 cych jony 
 \begin_inset ERT
 status open
@@ -698,19 +626,8 @@ ce{NaCl}
 
 \end_inset
 
-—używanego w
-\begin_inset space ~
-\end_inset
-celu zapewnienia siły jonowej.
- W
-\begin_inset space ~
-\end_inset
-przypadku innych pomiarów wykonanych z
-\begin_inset space ~
-\end_inset
-użyciem Zn(II)
-\begin_inset space ~
-\end_inset
+—używanego w celu zapewnienia siły jonowej.
+ W przypadku innych pomiarów wykonanych z użyciem Zn(II) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kochanczyk2016a"
@@ -718,9 +635,7 @@ literal "true"
 
 \end_inset
 
-, lub Cd(II)
-\begin_inset space ~
-\end_inset
+, lub Cd(II) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Padjasek2020a"
@@ -741,10 +656,7 @@ ce{Cl-}
 
 \end_inset
 
- nie miała większego znaczenia, ale jak się okazało w
-\begin_inset space ~
-\end_inset
-przypadku Hg(II) obecność
+ nie miała większego znaczenia, ale jak się okazało w przypadku Hg(II) obecność
  jonów 
 \begin_inset ERT
 status open
@@ -759,21 +671,9 @@ ce{Cl-}
 \end_inset
 
  miała kardynalne znaczenie.
- Przeglądając literaturę w
-\begin_inset space ~
-\end_inset
-poszukiwaniu stałych tworzenia kompleksów rtęci
- z
-\begin_inset space ~
-\end_inset
-różnymi związkami natrafiłem na informacje o
-\begin_inset space ~
-\end_inset
-entalpiach tworzenia kompleksów
- Hg(II) z
-\begin_inset space ~
-\end_inset
-chlorkami
+ Przeglądając literaturę w poszukiwaniu stałych tworzenia kompleksów rtęci
+ z różnymi związkami natrafiłem na informacje o entalpiach tworzenia kompleksów
+ Hg(II) z chlorkami
 \emph on
  
 \emph default
@@ -786,18 +686,9 @@ eureka!
 .
 
 \emph default
- Obliczyłem rozkład form kompleksowych tworzonych przez Hg(II) z
-\begin_inset space ~
-\end_inset
-jonami
- chlorkowymi, a
-\begin_inset space ~
-\end_inset
-następnie obliczyłem sumę entalpii tworzenia kompleksów.
- Zgodnie z
-\begin_inset space ~
-\end_inset
-prawem Hessa, entalpię tworzenia się kompleksu Hg(
+ Obliczyłem rozkład form kompleksowych tworzonych przez Hg(II) z jonami
+ chlorkowymi, a następnie obliczyłem sumę entalpii tworzenia kompleksów.
+ Zgodnie z prawem Hessa, entalpię tworzenia się kompleksu Hg(
 \begin_inset ERT
 status open
 
@@ -819,13 +710,7 @@ gls{rad}
 
 \end_inset
 
- należało pomniejszyć o
-\begin_inset space ~
-\end_inset
-entalpię tworzenia różnych kompleksów Hg(II) z
-\begin_inset space ~
-\end_inset
-jonami
+ należało pomniejszyć o entalpię tworzenia różnych kompleksów Hg(II) z jonami
  chlorkowymi.
  Jeszcze raz powtórzyłem 
 \begin_inset ERT
@@ -840,10 +725,7 @@ gls{itc}
 
 \end_inset
 
- przy użyciu innej soli rtęci i
-\begin_inset space ~
-\end_inset
-innego buforu (wolnego od 
+ przy użyciu innej soli rtęci i innego buforu (wolnego od 
 \begin_inset ERT
 status open
 
@@ -856,22 +738,10 @@ ce{Cl-}
 
 \end_inset
 
-) i
-\begin_inset space ~
-\end_inset
-bez zaskoczenia różnica w
-\begin_inset space ~
-\end_inset
-obserwowanej entalpii była zgodna z
-\begin_inset space ~
-\end_inset
-moimi
+) i bez zaskoczenia różnica w obserwowanej entalpii była zgodna z moimi
  obliczeniami teoretycznymi.
  Zmierzona entalpia pozwoliła mi oszacować stałą tworzenia kompleksu Hg(II)
- i
-\begin_inset space ~
-\end_inset
-
+ i 
 \begin_inset ERT
 status open
 
@@ -890,10 +760,7 @@ gls{rad}
 \begin_layout Standard
 Co było bardzo miłe, to fakt, że recenzenci wyznaczeni przez 
 \shape italic
-Chemistry – A
-\begin_inset space ~
-\end_inset
-European Journal 
+Chemistry – A European Journal 
 \emph on
 (
 \shape default
@@ -1284,12 +1151,7 @@ Podsumowanie
 \end_layout
 
 \begin_layout Standard
-Kolejne dwa artykuły opisane w
-\begin_inset space ~
-\end_inset
-tym rozdziale oraz
-\begin_inset space ~
-\end_inset
+Kolejne dwa artykuły opisane w tym rozdziale oraz 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1309,10 +1171,7 @@ noprefix "false"
 \end_inset
 
  skupiają się na zjawisku niewłaściwej metalacji domeny haczyka cynkowego
- z
-\begin_inset space ~
-\end_inset
-
+ z 
 \begin_inset ERT
 status open
 
@@ -1325,13 +1184,8 @@ gls{rad}
 
 \end_inset
 
- przez inne niż Zn(II), szkodliwych jonów metali: Hg(II) i
-\begin_inset space ~
-\end_inset
-Ag(I) (zob.
-
-\begin_inset space ~
-\end_inset
+ przez inne niż Zn(II), szkodliwych jonów metali: Hg(II) i Ag(I) (zob.
+ 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1355,21 +1209,10 @@ noprefix "false"
 
 \begin_layout Standard
 Powszechnie wiadomo, że skażenie rtęcią wpływa zarówno na ekosystem, jak
- i
-\begin_inset space ~
-\end_inset
-na zdrowie człowieka.
- Zanieczyszczenia rtęcią pochodzą zarówno ze źródeł naturalnych, jak i
-\begin_inset space ~
-\end_inset
-antropoge
+ i na zdrowie człowieka.
+ Zanieczyszczenia rtęcią pochodzą zarówno ze źródeł naturalnych, jak i antropoge
 nicznych, gdzie po uwolnieniu do środowiska rtęć ulega różnym fizycznym
- i
-\begin_inset space ~
-\end_inset
-chemicznym, często redoksowym, przemianom
-\begin_inset space ~
-\end_inset
+ i chemicznym, często redoksowym, przemianom 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Driscoll2013"
@@ -1379,27 +1222,16 @@ literal "true"
 
 .
  Zatrucie rtęcią jest następstwem ekspozycji na rtęć, przy czym ciężkość
- zatrucia, jak zwykle, zależy od dawki i
-\begin_inset space ~
-\end_inset
-długości ekspozycji.
+ zatrucia, jak zwykle, zależy od dawki i długości ekspozycji.
  Kolejnym czynnikiem wpływającym na ciężkość zatrucia jest forma rtęci—różne
- formy rtęci charakteryzują się zróżnicowaną wchłanialnością i
-\begin_inset space ~
-\end_inset
-reaktywnością
+ formy rtęci charakteryzują się zróżnicowaną wchłanialnością i reaktywnością
  wobec celów biologicznych, np.
  kation metylortęci 
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
-Kation metylortęci jest głównym źródłem zatrucia rtęcią u
-\begin_inset space ~
-\end_inset
-ludzi
-\begin_inset space ~
-\end_inset
+Kation metylortęci jest głównym źródłem zatrucia rtęcią u ludzi 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Bernhoft2012"
@@ -1413,19 +1245,9 @@ literal "true"
 \end_inset
 
  łatwo wchłania się do mózgu, wątroby, nerek itd., natomiast jon Hg(II) z
-\begin_inset space ~
-\end_inset
  różnych powodów, m.in.
- reakcji z
-\begin_inset space ~
-\end_inset
-grupami sulfhydrylowymi na powierzchni erytrocytów lub glutationem
- w
-\begin_inset space ~
-\end_inset
-osoczu nie przekracza łatwo bariery krew–mózg
-\begin_inset space ~
-\end_inset
+ reakcji z grupami sulfhydrylowymi na powierzchni erytrocytów lub glutationem
+ w osoczu nie przekracza łatwo bariery krew–mózg 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Bernhoft2012"
@@ -1434,16 +1256,8 @@ literal "true"
 \end_inset
 
 .
- Nagromadzenie rtęci głównie w
-\begin_inset space ~
-\end_inset
-mitochondriach i
-\begin_inset space ~
-\end_inset
-w jądrze komórkowym zostało
- udowodnione już wiele lat temu
-\begin_inset space ~
-\end_inset
+ Nagromadzenie rtęci głównie w mitochondriach i w jądrze komórkowym zostało
+ udowodnione już wiele lat temu 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Bucio1998,Christensen1988,Yoneyama1985,Konigsberg2001"
@@ -1453,9 +1267,7 @@ literal "true"
 
 .
  Wewnątrz komórki, rtęć organiczna może być demetylowana do rtęci nieorganicznej
-
-\begin_inset space ~
-\end_inset
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Suda1992"
@@ -1469,20 +1281,15 @@ literal "true"
 status open
 
 \begin_layout Plain Layout
-tutaj brakuje jakiegoś zdania łączącego
+tutaj brakuje jakiegoś zdania łaczącego
 \end_layout
 
 \end_inset
 
  Udowodniono, że jony Hg(II) (produkt demetylacji) mogą hamować aktywność
  czynników transkrypcyjnych zawierających palce cynkowe, jednak dokładny
- mechanizm, w
-\begin_inset space ~
-\end_inset
-jaki sposób Hg(II) zaburza funkcję czynników transkrypcyjnych,
- nie jest znany
-\begin_inset space ~
-\end_inset
+ mechanizm, w jaki sposób Hg(II) zaburza funkcję czynników transkrypcyjnych,
+ nie jest znany 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Rodgers2001"
@@ -1491,32 +1298,13 @@ literal "true"
 \end_inset
 
 .
- Jednym z
-\begin_inset space ~
-\end_inset
-mechanizmów hamowania czynników transkrypcyjnych może być tworzenie
- aberracyjnego miejsca wiązania metalu, gdyż Hg(II) w
-\begin_inset space ~
-\end_inset
-środowisku wodnym
+ Jednym z mechanizmów hamowania czynników transkrypcyjnych może być tworzenie
+ aberracyjnego miejsca wiązania metalu, gdyż Hg(II) w środowisku wodnym
  ma tendencję do tworzenia kompleksów liniowych, możliwe jest jednak tworzenie
- kompleksów o
-\begin_inset space ~
-\end_inset
-wyższej liczbie koordynacyjnej.
+ kompleksów o wyższej liczbie koordynacyjnej.
  Kompleksy te zwykle są zniekształcone, przy czym geometria kompleksu w
-\begin_inset space ~
-\end_inset
- kształcie litery T
-\begin_inset space ~
-\end_inset
-jest skrajnym przykładem asymetrycznego wiązania trójkoordyn
-acyjnego w
-\begin_inset space ~
-\end_inset
-białkach
-\begin_inset space ~
-\end_inset
+ kształcie litery T jest skrajnym przykładem asymetrycznego wiązania trójkoordyn
+acyjnego w białkach 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Chakraborty2010"
@@ -1525,13 +1313,7 @@ literal "true"
 \end_inset
 
 .
- W
-\begin_inset space ~
-\end_inset
-organizmach żywych, zgodnie z
-\begin_inset space ~
-\end_inset
-zasadą 
+ W organizmach żywych, zgodnie z zasadą 
 \begin_inset ERT
 status open
 
@@ -1544,10 +1326,7 @@ gls{hsab}
 
 \end_inset
 
-, Hg(II) jako miękki kwas Lewisa będzie preferencyjnie reagować z
-\begin_inset space ~
-\end_inset
-grupami
+, Hg(II) jako miękki kwas Lewisa będzie preferencyjnie reagować z grupami
  sulfhydrylowymi (miękkie zasady Lewisa), dlatego nie dziwi, że mechanizmy
  detoksykacyjne komórki obficie wykorzystują ugrupowania tiolowe do wyczuwania
  (np.
@@ -1565,13 +1344,8 @@ gls{merr}
 \end_inset
 
 ), sekwestracji (np.
- metalotioneiny) i
-\begin_inset space ~
-\end_inset
-enzymatycznego przetwarzania związków rtęci do mniej
- toksycznych form lub do Hg(0)
-\begin_inset space ~
-\end_inset
+ metalotioneiny) i enzymatycznego przetwarzania związków rtęci do mniej
+ toksycznych form lub do Hg(0) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Ledwidge2010"
@@ -1586,13 +1360,8 @@ status collapsed
 
 \begin_layout Plain Layout
 Hg(0) jest główną formą rtęci emitowaną do atmosfery.
- Hg(II) pogrzebana w
-\begin_inset space ~
-\end_inset
-osadach może zostać zredukowana do Hg(0), która może
- zostać ponownie wyemitowana do atmosfery
-\begin_inset space ~
-\end_inset
+ Hg(II) pogrzebana w osadach może zostać zredukowana do Hg(0), która może
+ zostać ponownie wyemitowana do astmosfery 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Christakis2021"
@@ -1605,36 +1374,13 @@ literal "true"
 
 \end_inset
 
- W
-\begin_inset space ~
-\end_inset
-cytoplazmie Hg(II) będzie preferencyjnie tworzyć kompleksy diagonalne
- z
-\begin_inset space ~
-\end_inset
-niskocząsteczkowymi związkami z
-\begin_inset space ~
-\end_inset
-grupami tiolowymi (tj.
- L-cysteiną, glutationem i
-\begin_inset space ~
-\end_inset
-innymi).
- Jednakże gdy Hg(II) oddziałuje z
-\begin_inset space ~
-\end_inset
-białkiem, jak w
-\begin_inset space ~
-\end_inset
-przypadku rubredoksyny
- z
-\begin_inset space ~
-\end_inset
-podstawionym jonem Hg(II), białko może już narzucać strukturalnie określone
+ W cytoplazmie Hg(II) będzie preferencyjnie tworzyć kompleksy diagonalne
+ z niskocząsteczkowymi związkami z grupami tiolowymi (tj.
+ L-cysteiną, glutationem i innymi).
+ Jednakże gdy Hg(II) oddziałuje z białkiem, jak w przypadku rubredoksyny
+ z podstawionym jonem Hg(II), białko może już narzucać strukturalnie określone
  miejsce wiązania metalu, gdzie Hg(II) przyjmie geometrię tetraedryczną
- lub pseudotetraedryczną
-\begin_inset space ~
-\end_inset
+ lub pseudotetraedryczną 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Faller2000"
@@ -1643,18 +1389,9 @@ literal "true"
 \end_inset
 
 .
- Obserwowana koordynacja w
-\begin_inset space ~
-\end_inset
-strukturze krystalicznej nie musi odpowiadać
- miejscu wiązania Hg(II) utworzonemu w
-\begin_inset space ~
-\end_inset
-roztworze, co zostało zweryfikowane
- w
-\begin_inset space ~
-\end_inset
-przypadku 
+ Obserwowana koordynacja w strukturze krystalicznej nie musi odpowiadać
+ miejscu wiązania Hg(II) utworzonemu w roztworze, co zostało zweryfikowane
+ w przypadku 
 \begin_inset ERT
 status open
 
@@ -1689,19 +1426,8 @@ literal "false"
 
 \end_inset
 
-, dimer, krystalizowany w
-\begin_inset space ~
-\end_inset
-pH 6,5) w
-\begin_inset space ~
-\end_inset
-roztworze (pH 7,5) Hg(II) preferuje
- geometrię liniową z
-\begin_inset space ~
-\end_inset
-monomerycznym białkiem
-\begin_inset space ~
-\end_inset
+, dimer, krystalizowany w pH 6,5) w roztworze (pH 7,5) Hg(II) preferuje
+ geometrię liniową z monomerycznym białkiem 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "uczkowski2013"
@@ -1714,17 +1440,8 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Jak wygląda koordynacja Hg(II) w
-\begin_inset space ~
-\end_inset
-przypadku, w
-\begin_inset space ~
-\end_inset
-którym jon ten wypiera fizjologicz
-ne występujący Zn(II) w
-\begin_inset space ~
-\end_inset
-
+Jak wygląda koordynacja Hg(II) w przypadku, w którym jon ten wypiera fizjologicz
+ne występujący Zn(II) w 
 \begin_inset ERT
 status open
 
@@ -1737,10 +1454,7 @@ gls{zppi}
 
 \end_inset
 
- ? Czy struktura krystaliczna domeny haczyka cynkowego z
-\begin_inset space ~
-\end_inset
-
+ ? Czy struktura krystaliczna domeny haczyka cynkowego z 
 \begin_inset ERT
 status open
 
@@ -1753,10 +1467,7 @@ gls{rad}
 
 \end_inset
 
- pochodzącego z
-\begin_inset space ~
-\end_inset
-
+ pochodzącego z 
 \begin_inset ERT
 status open
 
@@ -1782,10 +1493,7 @@ gls{rad}
 
 \end_inset
 
- rzeczywiście zawiera tetraedryczną Hg(II) w
-\begin_inset space ~
-\end_inset
-postaci Hg(Cys)
+ rzeczywiście zawiera tetraedryczną Hg(II) w postaci Hg(Cys)
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -1795,10 +1503,7 @@ postaci Hg(Cys)
 \end_inset
 
 ? Czy rzeczywiście haczyk cynkowy wysycony Hg(II) jest właściwym modelem
- dla fizjologicznie wysyconego przez Zn(II) haczyka cynkowego z
-\begin_inset space ~
-\end_inset
-
+ dla fizjologicznie wysyconego przez Zn(II) haczyka cynkowego z 
 \begin_inset ERT
 status open
 
@@ -1811,9 +1516,7 @@ gls{pf}
 
 \end_inset
 
-?
-\begin_inset space ~
-\end_inset
+? 
 \begin_inset CommandInset citation
 LatexCommand citeauthor
 key "Hopfner2002"
@@ -1844,14 +1547,8 @@ literal "false"
 
 \end_inset
 
-) jest izostrukturalna ze strukturą wysyconą Zn(II), jednak z
-\begin_inset space ~
-\end_inset
-powodu niższej
- rozdzielczości autorzy nie zdeponowali jej w
-\begin_inset space ~
-\end_inset
-
+) jest izostrukturalna ze strukturą wysyconą Zn(II), jednak z powodu niższej
+ rozdzielczości autorzy nie zdeponowali jej w 
 \begin_inset ERT
 status open
 
@@ -1864,9 +1561,7 @@ gls{rcsb}
 
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hopfner2002"
@@ -1875,13 +1570,7 @@ literal "true"
 \end_inset
 
 .
- Olga Kerber w
-\begin_inset space ~
-\end_inset
-ramach swojego projektu doktorskiego uzyskała w
-\begin_inset space ~
-\end_inset
-podobnych
+ Olga Kerber w ramach swojego projekltu doktorskiego uzyskała w podonych
  warunkach strukturę 
 \begin_inset ERT
 status open
@@ -1895,10 +1584,7 @@ gls{rad}
 
 \end_inset
 
- pochodzącą z
-\begin_inset space ~
-\end_inset
-
+ pochodzącą z 
 \begin_inset ERT
 status open
 
@@ -1926,11 +1612,8 @@ today
 
 ).
  Otrzymana przez Olgę Kerber struktura rzeczywiście jest izostrukturalna
- do modelu proponowanego przez Hopfnera i
-\begin_inset space ~
-\end_inset
-in., niemniej jednak obecność struktury
- 
+ do modelu proponowanego przez Hopfnera i in.
+ niemniej jednak obecność struktury 
 \begin_inset ERT
 status open
 
@@ -1952,10 +1635,7 @@ literal "false"
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-pseudotetraedrycznego koordynowania Hg(II) przez 
+ i pseudotetraedrycznego koordynowania Hg(II) przez 
 \begin_inset ERT
 status open
 
@@ -1968,32 +1648,14 @@ gls{rad}
 
 \end_inset
 
- w
-\begin_inset space ~
-\end_inset
-krysztale nie świadczy o
-\begin_inset space ~
-\end_inset
-pseudotetraedrycznym koordynowaniu w
-\begin_inset space ~
-\end_inset
-roztworze.
+ w krysztale nie świadczy o pseudotetraedrycznym koordynowaniu w roztworze.
 \end_layout
 
 \begin_layout Standard
 Aby móc odpowiedzieć na pytanie dotyczące pseudotetraedrycznej koordynacji
- jonu Hg(II) potrzebne były eksperymenty przeprowadzone w
-\begin_inset space ~
-\end_inset
-roztworze—zestaw
- doświadczeń składający się z
-\begin_inset space ~
-\end_inset
-miareczkowania haczka cynkowego za pomocą
- jonów Hg(II) z
-\begin_inset space ~
-\end_inset
-detekcją spektrofotomeryczną 
+ jonu Hg(II) potrzebne były eksperymenty przeprowadzone w roztworze—zestaw
+ doświadczeń składający się z miareczkowania haczka cynkowego za pomocą
+ jonów Hg(II) z detekcją spektrofotomeryczną 
 \begin_inset ERT
 status open
 
@@ -2006,10 +1668,7 @@ gls{uvvis}
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-spektropolarymetryczną, anizotropia fluorescencji, spektroskopia 
+ i spektropolarymetryczną, anizotropia fluorescencji, spektroskopia 
 \begin_inset ERT
 status open
 
@@ -2035,10 +1694,7 @@ textgamma
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
+ i 
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -2062,10 +1718,7 @@ gls{nmr}
 
 .
  Wszystkie wymienione metody wyraźnie wskazują na koordynację Hg(II) przez
- cztery cysteiny, po dwie pochodzące z
-\begin_inset space ~
-\end_inset
-każdego protomeru 
+ cztery cysteiny, po dwie pochodzące z każdego protomeru 
 \begin_inset ERT
 status open
 
@@ -2078,14 +1731,8 @@ gls{rad}
 
 \end_inset
 
- zaangażowanego w
-\begin_inset space ~
-\end_inset
-wiązanie Hg(II).
- Anizotropia fluorescencji, w
-\begin_inset space ~
-\end_inset
-dużej mierze wykonana przez dr.
+ zaangażowanego w wiązanie Hg(II).
+ Anizotropia fluorescencji, w dużej mierze wykonana przez dr.
  Michała Padjaska, pokazała, że nawet 100
 \begin_inset Formula $\times$
 \end_inset
@@ -2103,13 +1750,7 @@ glink{DTT}{ditotreitolu (DTT)}
 
 \end_inset
 
- w
-\begin_inset space ~
-\end_inset
-stosunku do peptydu o
-\begin_inset space ~
-\end_inset
-długości 45-aminokwasów nie wykazywała żadnych
+ w stosunku do peptydu o długości 45-aminokwasów nie wykazywała żadnych
  śladów konkurencji pomiędzy Hg(
 \begin_inset ERT
 status open
@@ -2132,10 +1773,7 @@ gls{rad}
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-Hg(
+ i Hg(
 \begin_inset ERT
 status open
 
@@ -2153,8 +1791,6 @@ gshort{DTT}
 
 \begin_layout Plain Layout
 x
-\begin_inset space ~
-\end_inset
 \end_layout
 
 \end_inset
@@ -2182,18 +1818,13 @@ gshort{DTT}
 
 \begin_layout Plain Layout
 x
-\begin_inset space ~
-\end_inset
 \end_layout
 
 \end_inset
 
-nie jest znana, jednak można przyjąć, że stałe stabilności są porównywalne
- do stałych stabilności innych związków z
-\begin_inset space ~
-\end_inset
-dwiema grupami tiolowymi, np.
- kompleksów Hg–dimerkaprol.
+nie jest znana, jednak można przyjąć, że stałę stabilności są porównywalne
+ do stałych stabilności innych związków z dwiema grupami tiolowymi, np.
+ kompleksów Hg-dimercaprol.
 \end_layout
 
 \end_inset
@@ -2226,8 +1857,6 @@ status open
 
 \begin_layout Plain Layout
 10.3390/molecules24183247 szkoda, że nie dyskutujemy tej pracy tu, nic a
-\begin_inset space ~
-\end_inset
  nic...
 \end_layout
 
@@ -2237,15 +1866,9 @@ status open
 \end_layout
 
 \begin_layout Standard
-Jak zmierzyć, a
-\begin_inset space ~
-\end_inset
-przynajmniej oszacować ekstremalnie wysokie powinowactwa
+Jak zmierzyć, a przynajmniej oszacować ekstremalnie wysokie powinowactwa
  jonu metalu do białka? Odpowiedź na to pytanie jest nieco przewrotna, ponieważ
- (jak zostało to opisane w
-\begin_inset space ~
-\end_inset
-
+ (jak zostało to opisane w 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -2315,10 +1938,7 @@ gls{itc}
 \end_inset
 
  przeprowadzany eksperyment zakłada użycie dobrze scharakteryzowanego (pod
- względem termodynamicznym i
-\begin_inset space ~
-\end_inset
-stabilnościowym) 
+ względem termodynamicznym i stabilnościowym) 
 \begin_inset ERT
 status open
 
@@ -2358,13 +1978,7 @@ gls{dH}
 
 \end_inset
 
- tworzenia kompleksu liganda współzawodniczącego z
-\begin_inset space ~
-\end_inset
-metalem i
-\begin_inset space ~
-\end_inset
-
+ tworzenia kompleksu liganda współzawodniczącego z metalem i 
 \begin_inset ERT
 status open
 
@@ -2386,13 +2000,8 @@ MC
 
 \end_inset
 
-odpowiednio wysokiego, żeby dochodziło do współzawodnictwa z
-\begin_inset space ~
-\end_inset
-mierzonym białkiem
- (zobacz
-\begin_inset space ~
-\end_inset
+odpowiednio wysokiego, żeby dochodziło do współzawodnictwa z mierzonym białkiem
+ (zobacz 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -2412,13 +2021,7 @@ noprefix "false"
 \end_inset
 
 ).
- Niemniej jednak w
-\begin_inset space ~
-\end_inset
-opisywanym przypadku, z
-\begin_inset space ~
-\end_inset
-racji braku odpowiedniego 
+ Niemniej jednak w opisywanym przypadku, z racji braku odpowiedniego 
 \begin_inset ERT
 status open
 
@@ -2444,13 +2047,7 @@ gls{rad}
 
 \end_inset
 
- z
-\begin_inset space ~
-\end_inset
-Hg(II) i
-\begin_inset space ~
-\end_inset
-Zn(II) (i prawdopodobnie kompleksu Cd(
+ z Hg(II) i Zn(II) (i prawdopodobnie kompleksu Cd(
 \begin_inset ERT
 status open
 
@@ -2472,9 +2069,7 @@ gls{rad}
 
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Padjasek2020a"
@@ -2483,10 +2078,7 @@ literal "true"
 \end_inset
 
 ), co implikuje, że efekt entropowy towarzyszący kompleksowaniu metali powinien
- być bardzo podobny i
-\begin_inset space ~
-\end_inset
-pozwalać na obliczenie 
+ być bardzo podobny i pozwalać na obliczenie 
 \begin_inset ERT
 status open
 
@@ -2512,10 +2104,7 @@ gls{dH}
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
+ i 
 \begin_inset ERT
 status open
 
@@ -2528,12 +2117,7 @@ gls{dS}
 
 \end_inset
 
-, zgodnie z
-\begin_inset space ~
-\end_inset
-równaniem
-\begin_inset space ~
-\end_inset
+, zgodnie z równaniem 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:deltaG"
@@ -2571,9 +2155,7 @@ gshort{T}
 \end_layout
 
 \begin_layout Standard
-Wykorzystując zależność opisaną równaniami
-\begin_inset space ~
-\end_inset
+Wykorzystując zależność opisaną równaniami 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:GandK"
@@ -2596,9 +2178,7 @@ gshort{R}
 
 \end_inset
 
- oznacza molową stałą gazową) oraz
-\begin_inset space ~
-\end_inset
+ oznacza molową stałą gazową) oraz 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:K12"
@@ -2608,10 +2188,7 @@ noprefix "false"
 
 \end_inset
 
- byłem w
-\begin_inset space ~
-\end_inset
-stanie obliczyć 
+ byłem w stanie obliczyć 
 \begin_inset ERT
 status open
 
@@ -2637,10 +2214,7 @@ gls{Me}
 
 \end_inset
 
- to Hg(II), a
-\begin_inset space ~
-\end_inset
-
+ to Hg(II), a 
 \begin_inset ERT
 status open
 
@@ -2653,10 +2227,7 @@ gls{L}
 
 \end_inset
 
- to haczyk cynkowy z
-\begin_inset space ~
-\end_inset
-
+ to haczyk cynkowy z 
 \begin_inset ERT
 status open
 
@@ -2682,12 +2253,7 @@ gls{rad}
 
 \end_inset
 
-, opisany jako Hk w
-\begin_inset space ~
-\end_inset
-równaniach
-\begin_inset space ~
-\end_inset
+, opisany jako Hk w równaniach 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:K12"
@@ -2697,10 +2263,7 @@ noprefix "false"
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
+ i 
 \begin_inset ERT
 status open
 
@@ -2714,9 +2277,7 @@ ref{eq:HgHk2}
 \end_inset
 
 .
- Równanie
-\begin_inset space ~
-\end_inset
+ Równanie 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:K12"
@@ -2726,10 +2287,7 @@ noprefix "false"
 
 \end_inset
 
- opisuje kumulatywną stałą asocjacji procesu opisanego równaniem
-\begin_inset space ~
-\end_inset
-
+ opisuje kumulatywną stałą asocjacji procesu opisanego równaniem 
 \begin_inset ERT
 status open
 
@@ -2793,7 +2351,7 @@ end{equation}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-K_{12}=\frac{[\mathrm{Hg(Hk)_{2}}]}{\mathrm{[Hg(II)]\cdot[Hk]^{2}}}\label{eq:K12}
+K_{12}=\frac{[\mathrm{HgHk_{2}}]}{\mathrm{[Hg(II)]\cdot[Hk]^{2}}}\label{eq:K12}
 \end{equation}
 
 \end_inset
@@ -2803,17 +2361,8 @@ K_{12}=\frac{[\mathrm{Hg(Hk)_{2}}]}{\mathrm{[Hg(II)]\cdot[Hk]^{2}}}\label{eq:K12
 
 \begin_layout Standard
 Opisana metoda pozwoliła mi oszacować najwyższą znaną (jak dotąd) stabilność
- kompleksu Hg(II) i
-\begin_inset space ~
-\end_inset
-białka, w
-\begin_inset space ~
-\end_inset
-dodatku pierwszego opisanego, pseudotetraedryczneg
-o
-\begin_inset space ~
-\end_inset
-kompleksu Hg(II) tworzącego się na 
+ kompleksu Hg(II) i białka, w dodatku pierwszego opisanego, pseudotetraedryczneg
+o kompleksu Hg(II) tworzącego się na 
 \begin_inset ERT
 status open
 
@@ -2844,10 +2393,7 @@ gls{rad}
 
 \end_inset
 
- powoduje zastąpienie fizjologicznie występującego Zn(II) w
-\begin_inset space ~
-\end_inset
-domenie haczyka
+ powoduje zastąpienie fizjologicznie występującego Zn(II) w domenie haczyka
  cynkowego.
  Przesadą byłoby twierdzenie, że zastąpienie Zn(II) przez Hg(II) jest jedyną
  przyczyną genotoksyczności Hg(II), zwłaszcza biorąc pod uwagę fakt, że
@@ -2892,14 +2438,8 @@ gls{mrn}
 
 \end_inset
 
-—nie bez powodu powinowactwo do Zn(II) u
-\begin_inset space ~
-\end_inset
-różnych organizmów różni się, osiągając
- wyższe wartości w
-\begin_inset space ~
-\end_inset
-przypadku 
+—nie bez powodu powinowactwo do Zn(II) u różnych organizmów różni się, osiągając
+ wyższe wartości w przypadku 
 \begin_inset ERT
 status open
 
@@ -2912,10 +2452,7 @@ gls{rad}
 
 \end_inset
 
- u
-\begin_inset space ~
-\end_inset
-termofilnego 
+ u termofilnego 
 \begin_inset ERT
 status open
 
@@ -2928,13 +2465,7 @@ glsdesc{pf}
 
 \end_inset
 
- w
-\begin_inset space ~
-\end_inset
-porównaniu z
-\begin_inset space ~
-\end_inset
-
+ w porównaniu z 
 \begin_inset ERT
 status open
 
@@ -2947,10 +2478,7 @@ gls{rad}
 
 \end_inset
 
- pochodzącego z
-\begin_inset space ~
-\end_inset
-
+ pochodzącego z 
 \begin_inset ERT
 status open
 
@@ -2964,10 +2492,7 @@ glsdesc{hs}
 \end_inset
 
 .
- Warto zauważyć, że w
-\begin_inset space ~
-\end_inset
-jakiś sposób pomiędzy domenami globularnymi 
+ Warto zauważyć, że w jakiś sposób pomiędzy domenami globularnymi 
 \begin_inset ERT
 status open
 
@@ -2980,23 +2505,14 @@ gls{rad}
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-domeną haczyka cynkowego dochodzi do komunikacji, tzn.
- nawet pojedyncza mutacja punktowa w
-\begin_inset space ~
-\end_inset
-sekwencji kodującej haczyka cynkowego
+ i domeną haczyka cynkowego dochodzi do komunikacji, tzn.
+ nawet pojedyncza mutacja punktowa w sekwencji kodującej haczyka cynkowego
  
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
-U
-\begin_inset space ~
-\end_inset
-eukariotów domena globularna 
+U eukariotów domena globularna 
 \begin_inset ERT
 status open
 
@@ -3009,13 +2525,7 @@ gls{rad}
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-haczyk cynkowy mogą być oddalone od siebie nawet o
-\begin_inset space ~
-\end_inset
-600
+ i haczyk cynkowy mogą być oddalone od siebie nawet o 600
 \begin_inset space \space{}
 \end_inset
 
@@ -3032,9 +2542,7 @@ AA
 
 \end_inset
 
-!
-\begin_inset space ~
-\end_inset
+! 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hopfner2002"
@@ -3047,10 +2555,7 @@ literal "true"
 
 \end_inset
 
- może znosić niektóre funkcje spełniane w
-\begin_inset space ~
-\end_inset
-domenach globularnych 
+ może znosić niektóre funkcje spełniane w domenach globularnych 
 \begin_inset ERT
 status open
 
@@ -3063,9 +2568,7 @@ gls{rad}
 
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lafrance-Vanasse2015"
@@ -3087,21 +2590,9 @@ gls{rad}
 
 \end_inset
 
- w
-\begin_inset space ~
-\end_inset
-jakiś sposób zwiększa sztywność białka, co z
-\begin_inset space ~
-\end_inset
-kolei uniemożliwia allosteryczną
- transdukcję sygnału pomiędzy haczykiem cynkowym a
-\begin_inset space ~
-\end_inset
-domenami globularnymi?
- Być może zwiększona stabilność kompleksu w
-\begin_inset space ~
-\end_inset
-jakiś sposób przesuwa wpływa
+ w jakiś sposób zwiększa sztywność białka, co z kolei uniemożliwia allosteryczną
+ transdukcję sygnału pomiędzy haczykiem cynkowym a domenami globularnymi?
+ Być może zwiększona stabilność kompleksu w jakiś sposób przesuwa wpływa
  podjednostek, warto zwrócić uwagę, że asocjacja 
 \begin_inset ERT
 status open
@@ -3115,14 +2606,8 @@ gls{rad}
 
 \end_inset
 
- z
-\begin_inset space ~
-\end_inset
-dowolnym jonem metalu jest procesem równowagowym (jak zostało to opisane
- przez równanie
-\begin_inset space ~
-\end_inset
-
+ z dowolnym jonem metalu jest procesem równowagowym (jak zostało to opisane
+ przez równanie 
 \begin_inset ERT
 status open
 
@@ -3148,9 +2633,7 @@ gls{rad}
 
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Thangaraj2019,Merickel2002"
@@ -3158,18 +2641,9 @@ literal "true"
 
 \end_inset
 
-? To i
-\begin_inset space ~
-\end_inset
-wiele innych pytań pozostaje bez odpowiedzi, jednak pierwszym problemem
- do rozwiązania powinna być ocena tego, czy wiązanie Hg(II) w
-\begin_inset space ~
-\end_inset
-domenie haczyka
- cynkowego wpływa na którąkolwiek z
-\begin_inset space ~
-\end_inset
-różnych funkcji wypełnianych przez 
+? To i wiele innych pytań pozostaje bez odpowiedzi, jednak pierwszym problemem
+ do rozwiązania powinna być ocena tego, czy wiązanie Hg(II) w domenie haczyka
+ cynkowego wpływa na którąkolwiek z różnych funkcji wypełnianych przez 
 \begin_inset ERT
 status open
 

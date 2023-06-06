@@ -161,25 +161,13 @@ International Journal of Molecular Sciences
 \end_layout
 
 \begin_layout Section
-Krótka historia i
-\begin_inset space ~
-\end_inset
-
-dane bibliometryczne
+Krótka historia i dane bibliometryczne
 \end_layout
 
 \begin_layout Standard
 Moja wczesna praca jako badacza oddziaływań białko-metal obejmowała wspólną
- pracę z
-\begin_inset space ~
-\end_inset
-
-dr.
- Michałem Padjaskiem nad białkiem Rad50 z
-\begin_inset space ~
-\end_inset
-
-
+ pracę z dr.
+ Michałem Padjaskiem nad białkiem Rad50 z 
 \begin_inset ERT
 status open
 
@@ -192,11 +180,7 @@ gls{sc}
 
 \end_inset
 
- (dane jeszcze nieopublikowane)
-\begin_inset space ~
-\end_inset
-
-
+ (dane jeszcze nieopublikowane) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Padjasek2022"
@@ -205,15 +189,8 @@ literal "true"
 \end_inset
 
 .
- To właśnie dr Michał Padjasek w
-\begin_inset space ~
-\end_inset
-
-dużej mierze pokazał mi tajniki eksperymentów, które dają wgląd w
-\begin_inset space ~
-\end_inset
-
-świat 
+ To właśnie dr Michał Padjasek w dużej mierze pokazał mi tajniki eksperymentów,
+ które dają wgląd w świat 
 \begin_inset ERT
 status open
 
@@ -228,11 +205,7 @@ glink{mprotein}{metalobiałek}
 
 .
  To właśnie ta wiedza pozwoliła mi na zbadanie zachowania haczyka cynkowego
- pochodzącego z
-\begin_inset space ~
-\end_inset
-
-ludzkiego białka 
+ pochodzącego z ludzkiego białka 
 \begin_inset ERT
 status open
 
@@ -246,16 +219,9 @@ gls{rad}
 \end_inset
 
 .
- Historycznie mój udział w
-\begin_inset space ~
-\end_inset
-
-badaniach jest częścią większego projektu, rozdzielonego już na kilka grantów,
- poświęconego badaniu ortologów haczyka cynkowego z
-\begin_inset space ~
-\end_inset
-
-białka 
+ Historycznie mój udział w badaniach jest częścią większego projektu, rozdzielon
+ego już na kilka grantów, poświęconego badaniu ortologów haczyka cynkowego
+ z białka 
 \begin_inset ERT
 status open
 
@@ -269,20 +235,10 @@ gls{rad}
 \end_inset
 
 .
- Badania te zapoczątkował dr Tomasz Kochańczyk, a
-\begin_inset space ~
-\end_inset
-
-kontynuowali je dr Michał Padjasek, ja, Olga Kerber i
-\begin_inset space ~
-\end_inset
-
-dr  Marek Łuczkowski.
- Jak się okazało, haczyk cynkowy pochodzący z
-\begin_inset space ~
-\end_inset
-
-ludzkiego 
+ Badania te zapoczątkował dr Tomasz Kochańczyk, a kontynuowali je dr Michał
+ Padjasek, ja, Olga Kerber i dr hab.
+ Marek Łuczkowski.
+ Jak się okazało, haczyk cynkowy pochodzący z ludzkiego 
 \begin_inset ERT
 status open
 
@@ -295,15 +251,7 @@ gls{rad}
 
 \end_inset
 
- zachowuje się w
-\begin_inset space ~
-\end_inset
-
-inny sposób niż jego ortologi z
-\begin_inset space ~
-\end_inset
-
-
+ zachowuje się w inny sposób niż jego ortologi z 
 \begin_inset ERT
 status open
 
@@ -316,11 +264,7 @@ gls{pf}
 
 \end_inset
 
- i
-\begin_inset space ~
-\end_inset
-
-
+ i 
 \begin_inset ERT
 status open
 
@@ -334,19 +278,11 @@ gls{sc}
 \end_inset
 
 .
- Ciężka praca nad tym tematem zaowocowała publikacją w
-\begin_inset space ~
-\end_inset
-
-
+ Ciężka praca nad tym tematem zaowocowała publikacją w 
 \shape italic
 International Journal of Molecular Sciences
 \emph on
-, czasopiśmie o
-\begin_inset space ~
-\end_inset
-
-
+, czasopiśmie o 
 \begin_inset ERT
 status open
 
@@ -613,7 +549,7 @@ if num_citations == 0:
 
 \begin_layout Plain Layout
 
-    print(' ichoć artykuł nie był jeszcze cytowany (stan na dzień  
+    print(' i choć artykuł nie był jeszcze cytowany (stan na dzień  
 \backslash
 
 \backslash
@@ -626,7 +562,7 @@ footnote{
 
 \backslash
 url{https://scholar.google.com/}} daje solidne podstawy do omówienia unikalnych
- właściwości haczyka cynkowego z 
+ właściwości haczyka cynkowego z  
 \backslash
 
 \backslash
@@ -732,22 +668,11 @@ gls{ppi}
 
 \end_inset
 
-) odgrywają kluczową rolę w
-\begin_inset space ~
-\end_inset
-
-wielu procesach biologicznych i
-\begin_inset space ~
-\end_inset
-
-są zwykle stabilizowane przez rozbudowaną sieć niekowalencyjnych oddziaływań
- międzycząsteczkowych.
+) odgrywają kluczową rolę w wielu procesach biologicznych i są zwykle stabilizow
+ane przez rozbudowaną sieć niekowalencyjnych oddziaływań międzycząsteczkowych.
  Dodatkowym czynnikiem wpływającym na tworzenie kompleksów białkowych jest
- międzycząsteczkowe wiązanie metali, w
-\begin_inset space ~
-\end_inset
-
-którym powinowactwo metalu do białka wpływa na stabilność całego kompleksu.
+ międzycząsteczkowe wiązanie metali, w którym powinowactwo metalu do białka
+ wpływa na stabilność całego kompleksu.
  Większość 
 \begin_inset ERT
 status open
@@ -761,11 +686,8 @@ glspl{ppi}
 
 \end_inset
 
- z
-\begin_inset space ~
-\end_inset
-
-udziałem metalu nie jest scharakteryzowana pod względem roli metalu na 
+ z udziałem metalu nie jest scharakteryzowana pod względem roli metalu na
+ 
 \begin_inset ERT
 status open
 
@@ -779,11 +701,7 @@ glink{interface}{styku}
 \end_inset
 
  ani pod względem stabilności kompleksu.
- Jednym z
-\begin_inset space ~
-\end_inset
-
-nielicznych, dość dobrze scharakteryzowanych 
+ Jednym z nielicznych, dość dobrze scharakteryzowanych 
 \begin_inset ERT
 status open
 
@@ -796,11 +714,7 @@ gls{zppi}
 
 \end_inset
 
- jest oddziaływanie obserwowane w
-\begin_inset space ~
-\end_inset
-
-domenie haczyka cynkowego 
+ jest oddziaływanie obserwowane w domenie haczyka cynkowego 
 \begin_inset ERT
 status open
 
@@ -828,11 +742,7 @@ gls{rad}
 
 \end_inset
 
- z
-\begin_inset space ~
-\end_inset
-
-
+ z 
 \begin_inset ERT
 status open
 
@@ -845,15 +755,7 @@ gls{pf}
 
 \end_inset
 
- a
-\begin_inset space ~
-\end_inset
-
-stabilnością kompleksu cynkowego
-\begin_inset space ~
-\end_inset
-
-
+ a stabilnością kompleksu cynkowego 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kochanczyk2016,Kochanczyk2016a,Padjasek2020a"
@@ -863,20 +765,9 @@ literal "true"
 
 .
  Badania te wskazują, że stabilizacja kompleksu zachodzi przede wszystkim
- w
-\begin_inset space ~
-\end_inset
-
-niewielkim 45-aminokwasowym fragmencie składającym się z
-\begin_inset space ~
-\end_inset
-
-motywu wiążącego CXXC oraz regionu flankującego.
- W
-\begin_inset space ~
-\end_inset
-
-
+ w niewielkim 45-aminokwasowym fragmencie składającym się z motywu wiążącego
+ CXXC oraz regionu flankującego.
+ W 
 \begin_inset CommandInset citation
 LatexCommand citebyear
 key "Park2017"
@@ -898,11 +789,7 @@ gls{rad}
 
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
-
-
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Park2017"
@@ -946,11 +833,7 @@ gls{rad}
 
 \end_inset
 
- z
-\begin_inset space ~
-\end_inset
-
-
+ z 
 \begin_inset ERT
 status open
 
@@ -963,21 +846,9 @@ gls{hs}
 
 \end_inset
 
- w
-\begin_inset space ~
-\end_inset
-
-architekturze `pręta`.
- Jak to zwykle bywa, wraz z
-\begin_inset space ~
-\end_inset
-
-nowymi danymi, pojawiły się nowe pytania.
- W
-\begin_inset space ~
-\end_inset
-
-jaki sposób prętokształtna architektura 
+ w architekturze `pręta`.
+ Jak to zwykle bywa, wraz z nowymi danymi, pojawiły się nowe pytania.
+ W jaki sposób prętokształtna architektura 
 \begin_inset ERT
 status open
 
@@ -990,12 +861,8 @@ gls{rad}
 
 \end_inset
 
- decyduje o
-\begin_inset space ~
-\end_inset
-
-stabilności kompleksu? Jakie są elementy, które przyczyniają się do stabilności
- 
+ decyduje o stabilności kompleksu? Jakie są elementy, które przyczyniają
+ się do stabilności 
 \begin_inset ERT
 status open
 
@@ -1008,19 +875,12 @@ gls{rad}
 
 \end_inset
 
-? Czy istnieją inne czynniki, które wpływają na tworzenie i
-\begin_inset space ~
-\end_inset
-
-stabilność kompleksu?
+? Czy istnieją inne czynniki, które wpływają na tworzenie i stabilność kompleksu
+?
 \end_layout
 
 \begin_layout Standard
-Wysunęliśmy hipotezę, że zwiększenie długości badanych peptydów z
-\begin_inset space ~
-\end_inset
-
-
+Wysunęliśmy hipotezę, że zwiększenie długości badanych peptydów z 
 \begin_inset ERT
 status open
 
@@ -1033,11 +893,7 @@ gls{rad}
 
 \end_inset
 
- pochodzącego z
-\begin_inset space ~
-\end_inset
-
-
+ pochodzącego z 
 \begin_inset ERT
 status open
 
@@ -1050,11 +906,7 @@ gls{hs}
 
 \end_inset
 
-, podobnie jak w
-\begin_inset space ~
-\end_inset
-
-przypadku 
+, podobnie jak w przypadku 
 \begin_inset ERT
 status open
 
@@ -1080,11 +932,7 @@ gls{rad}
 
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
-
-
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kochanczyk2016a"
@@ -1093,29 +941,14 @@ literal "true"
 \end_inset
 
 , zwiększyłoby stabilność kompleksu poprzez zwiększenie liczby wewnątrz-
- i
-\begin_inset space ~
-\end_inset
-
-międzycząsteczkowych oddziaływań.
- Do sprawdzenia tej hipotezy wykorzystaliśmy potencjometrię i
-\begin_inset space ~
-\end_inset
-
-miareczkowanie współzawodnictwa z
-\begin_inset space ~
-\end_inset
-
-detekcją spektropolarymetryczną.
+ i międzycząsteczkowych oddziaływań.
+ Do sprawdzenia tej hipotezy wykorzystaliśmy potencjometrię i miareczkowanie
+ współzawodnictwa z detekcją spektropolarymetryczną.
  
 \end_layout
 
 \begin_layout Standard
-Wyniki pokazały, że w
-\begin_inset space ~
-\end_inset
-
-odróżnieniu od 
+Wyniki pokazały, że w odróżnieniu od 
 \begin_inset ERT
 status open
 
@@ -1128,11 +961,7 @@ gls{rad}
 
 \end_inset
 
- z
-\begin_inset space ~
-\end_inset
-
-
+ z 
 \begin_inset ERT
 status open
 
@@ -1145,11 +974,7 @@ gls{pf}
 
 \end_inset
 
-, w
-\begin_inset space ~
-\end_inset
-
-
+, w 
 \begin_inset ERT
 status open
 
@@ -1162,11 +987,7 @@ gls{rad}
 
 \end_inset
 
- z
-\begin_inset space ~
-\end_inset
-
-
+ z 
 \begin_inset ERT
 status open
 
@@ -1180,7 +1001,7 @@ gls{hs}
 \end_inset
 
  stabilizacja Zn(II)-kompleksu zachodzi na znacznie dłuższym dystansie.
- Przeprowadzone przez nas obserwacje wskazują, że kompleks Zn(
+ Przeprowadzone przez nas obserwacje wskazują, że ludzki kompleks Zn(
 \begin_inset ERT
 status open
 
@@ -1212,42 +1033,9 @@ gls{rad}
 \end_inset
 
 tworzy najsilniejsze znane dotychczas oddziaływanie Zn(II)–białko znane
- dla 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glink{proteome}{proteomu}
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gls{hs}
-\end_layout
-
-\end_inset
-
-.
- Ta niezwykle podwyższona stabilność wynika z
-\begin_inset space ~
-\end_inset
-
-podobnego efektu, który został zaobserwowany w
-\begin_inset space ~
-\end_inset
-
-
+ dla ludzkiego proteomu.
+ Ta niezwykle podwyższona stabilność wynika z podobnego efektu, który został
+ zaobserwowany w 
 \begin_inset ERT
 status open
 
@@ -1273,11 +1061,7 @@ gls{rad}
 
 \end_inset
 
-—jednak zakres tego efektu w
-\begin_inset space ~
-\end_inset
-
-ludzkim 
+—jednak zakres tego efektu w ludzkim 
 \begin_inset ERT
 status open
 
@@ -1291,16 +1075,8 @@ gls{rad}
 \end_inset
 
  jest znacznie większy, stabilizacja zachodzi na długości około 140 aminokwasów,
- co oznacza, że kompleks formowany przez Zn(II) i
-\begin_inset space ~
-\end_inset
-
-dwa motywy CXXC jest stabilizowany przez regiony białka, które znajdują
- się w
-\begin_inset space ~
-\end_inset
-
-odległości ok.
+ co oznacza, że kompleks formowany przez Zn(II) i dwa motywy CXXC jest stabilizo
+wany przez regiony białka, które znajdują się w odległości ok.
  60
 \begin_inset space \space{}
 \end_inset
@@ -1340,42 +1116,19 @@ gls{rad}
 \end_inset
 
 .
- Miejsce fosforylacji znajduje się blisko (sekwencyjnie i
-\begin_inset space ~
-\end_inset
-
-strukturalnie) miejsca wiązania Zn(II), na wierzchołku haczyka cynkowego.
- Postawiliśmy hipotezę, że fosforylacja w
-\begin_inset space ~
-\end_inset
-
-pobliżu miejsca wiązania Zn(II) będzie silnie wpływać na powinowactwo Zn(II)
- do haczyka cynkowego.
+ Miejsce fosforylacji znajduje się blisko (sekwencyjnie i strukturalnie)
+ miejsca wiązania Zn(II), na wierzchołku haczyka cynkowego.
+ Postawiliśmy hipotezę, że fosforylacja w pobliżu miejsca wiązania Zn(II)
+ będzie silnie wpływać na powinowactwo Zn(II) do haczyka cynkowego.
  Nasza hipoteza okazała się prawdziwa, fosforylacja krótkiego, 42-aminokwasowego
- fragmentu zmniejsza stabilność kompleksu Zn(II) o
-\begin_inset space ~
-\end_inset
-
-około jeden rząd wielkości, jednak efekt ten jest osłabiony w
-\begin_inset space ~
-\end_inset
-
-przypadku fragmentu 183-aminokwasowego, a
-\begin_inset space ~
-\end_inset
-
-warunkowa stała tworzenia tego kompleksu jest niższa o
-\begin_inset space ~
-\end_inset
-
-jedną czwartą rzędu wielkości.
- Obserwowane przesunięcie stabilności kompleksu, równoczesne z
-\begin_inset space ~
-\end_inset
-
-obserwowaną przez bezpośrednie miareczkowanie Zn(II) 42-aminokwasowego peptydu
- rozległą zmianą struktury drugorzędowej indukowanej fosforylacją (detekcja
- przez 
+ fragmentu zmniejsza stabilność kompleksu Zn(II) o około jeden rząd wielkości,
+ jednak efekt ten jest osłabiony w przypadku fragmentu 183-aminokwasowego,
+ a warunkowa stała tworzenia tego kompleksu jest niższa o jedną czwartą
+ rzędu wielkości.
+ Obserwowane przesunięcie stabilności kompleksu, równoczesne z obserwowaną
+ przez bezpośrednie miareczkowanie Zn(II) 42-aminokwasowego peptydu rozległą
+ zmianą struktury drugorzędowej indukowanej fosforylacją (detekcja przez
+ 
 \begin_inset ERT
 status open
 
@@ -1416,11 +1169,8 @@ gls{cd}
 \end_inset
 
 .
- Również lokalne zmiany strukturalne w
-\begin_inset space ~
-\end_inset
-
-miejscu wiązania Zn(II) nie były obserwowalne za pomocą 
+ Również lokalne zmiany strukturalne w miejscu wiązania Zn(II) nie były
+ obserwowalne za pomocą 
 \begin_inset ERT
 status open
 
@@ -1436,16 +1186,9 @@ glink{xas}{spektroskopii absorpcji promieniowania rentgenowskiego (XAS,
 \end_inset
 
 .
- Fakt, że efekt fosforylacji jest osłabiony w
-\begin_inset space ~
-\end_inset
-
-dłuższym fragmencie białka, oraz fakt wyjątkowej stabilności kompleksu,
- oznacza, że fosforylacja nie wpływa na dysocjację kompleksu w
-\begin_inset space ~
-\end_inset
-
-fizjologicznym stężeniu 
+ Fakt, że efekt fosforylacji jest osłabiony w dłuższym fragmencie białka,
+ oraz fakt wyjątkowej stabilności kompleksu, oznacza, że fosforylacja nie
+ wpływa na dysocjację kompleksu w fizjologicznym stężeniu 
 \begin_inset ERT
 status open
 
@@ -1460,27 +1203,14 @@ glink{freezn}{wolnego Zn(II)}
 
 .
  Niemniej jednak fosforylacja reszty treoniny 690 może być zaangażowana
- w
-\begin_inset space ~
-\end_inset
-
-nieodkrytą jeszcze ścieżkę sygnalizacji i
-\begin_inset space ~
-\end_inset
-
-wówczas pełniąc istotną rolę strukturalną lub sygnałową.
+ w nieodkrytą jeszcze ścieżkę sygnalizacji i wówczas pełniąc istotną rolę
+ strukturalną lub sygnałową.
 \end_layout
 
 \begin_layout Standard
-Badanie to dostarcza nowych spostrzeżeń na temat stabilności i
-\begin_inset space ~
-\end_inset
-
-regulacji interakcji białko–białko, w
-\begin_inset space ~
-\end_inset
-
-których pośredniczą miejsca wiążące Zn(II) (
+Badanie to dostarcza nowych spostrzeżeń na temat stabilności i regulacji
+ interakcji białko–białko, w których pośredniczą miejsca wiążące Zn(II)
+ (
 \begin_inset ERT
 status open
 
@@ -1507,23 +1237,13 @@ gls{rad}
 
 \end_inset
 
- z
-\begin_inset space ~
-\end_inset
-
-jonami Zn(II) oraz wpływ fosforylacji na stabilność kompleksu podkreślają
+ z jonami Zn(II) oraz wpływ fosforylacji na stabilność kompleksu podkreślają
  istotę badań tych interakcji.
- Dalsze badania nad mechanizmami leżącymi u
-\begin_inset space ~
-\end_inset
-
-podstaw stabilności interakcji białko–białko, w
-\begin_inset space ~
-\end_inset
-
-których pośredniczą miejsca wiązania cynku, mogą doprowadzić do lepszego
- zrozumienia regulowanych przez nie procesów biologicznych oraz opracowania
- nowych strategii terapeutycznych ukierunkowanych na te oddziaływania.
+ Dalsze badania nad mechanizmami leżącymi u podstaw stabilności interakcji
+ białko–białko, w których pośredniczą miejsca wiązania cynku, mogą doprowadzić
+ do lepszego zrozumienia regulowanych przez nie procesów biologicznych oraz
+ opracowania nowych strategii terapeutycznych ukierunkowanych na te oddziaływani
+a.
 \end_layout
 
 \begin_layout Standard
